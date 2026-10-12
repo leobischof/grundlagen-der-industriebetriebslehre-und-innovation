@@ -31,7 +31,8 @@ Fragen deckt das Skript vollständig, 5 nur teilweise – siehe
 [Aktualitätslücken](exams/frequency-analysis.md#aktualitätslücken).
 
 **Downloads:** Kapitel-PDFs, das Gesamt-PDF, die Prüfungsfragen als PDF und das Anki-Paket
-„Abbildungen skizzieren“ liegen im Release dieses Repositorys (nicht im Git-Baum).
+„Abbildungen skizzieren“ liegen im Release dieses Repositorys (nicht im Git-Baum); Markdown und
+PDFs zusätzlich in einem geheimen Gist ([Veröffentlichen](docs/pipeline.md#veröffentlichen-release-und-gist)).
 
 ## Pipeline
 
@@ -52,6 +53,7 @@ Weitere Befehle:
 .venv/Scripts/python -m pipeline offline            # Validierung + Abdeckungsbericht (wie in CI)
 .venv/Scripts/python -m pipeline render-pdf         # Kapitel- und Gesamt-PDFs → build/pdf/
 .venv/Scripts/python -m pipeline anki               # Anki-Skizzierkarten → build/anki/
+.venv/Scripts/python -m pipeline export-md          # flacher Markdown-Export → build/markdown/
 .venv/Scripts/python -m pipeline.progress due       # heute fällige Wiederholungen
 .venv/Scripts/python -m pytest                      # Tests
 ```

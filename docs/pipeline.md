@@ -44,6 +44,7 @@ Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`):
 | `exercises` | `generate_exercises` | `figures/reconstructed/`, `curation/figures/` | `figures/exercises/*-blank.svg`, `learning/drawing-exercises/` |
 | `build-content` | `build_content` | OCR-Schicht, `curation/structure.yaml`, `ocr-corrections.yaml`, Abbildungen, Fragen | `content/` |
 | `render-pdf` | `render_pdf` | `content/`, `figures/`, `exams/questions.md` | `build/pdf/` (Kapitel-PDFs, Gesamt-PDF, Fragen-PDF) |
+| `export-md` | `export_markdown` | `content/`, `figures/originals/`, `exams/questions.md` | `build/markdown/` (flache Kapitel-, Gesamt- und Fragen-Markdowns mit den gezeigten PNGs) |
 | `anki` | `anki_sketch` | `figures/manifest.json`, `figures/originals/`, `curation/figures/`, `exams/` | `build/anki/*.apkg` (Skizzierkarten), `learning/flashcards/skizzieren.md` |
 | `validate` | `validate` | alles Versionierte | `reports/validation.md` |
 | `report` | `coverage` | alles Versionierte, `curation/ai-log.jsonl` | `reports/coverage.md` |
@@ -133,3 +134,35 @@ sicher, landen sie sichtbar unter „Fußnoten ohne sicheren Textanker“.
   schlägt fehl, wenn die committeten Berichte nicht dem frischen Ergebnis entsprechen. Nach jeder
   Änderung an der Wissensbasis daher `python -m pipeline offline` ausführen und `reports/` mit
   committen.
+
+## Veröffentlichen (Release und Gist)
+
+Beides läuft lokal und von Hand, nie in der CI, und nie mit den Original-PDFs der Lehrveranstaltung.
+Vor jedem Schritt prüfen, dass das Repository privat ist:
+`gh api repos/<owner>/<repo> --jq .visibility` muss `private` liefern.
+
+**Release** (je Meilenstein ein neues Tag `vX.Y`):
+
+```bash
+python -m pipeline render-pdf && python -m pipeline anki
+gh release create vX.Y --target main --title "Wissensbasis vX.Y" --notes-file <notizen.md>     build/pdf/*.pdf build/anki/*.apkg
+```
+
+Antwortet GitHub beim Anlegen mit HTTP 500, existiert das Release meist schon als Entwurf ohne
+Dateien: dann `gh release upload vX.Y <datei> --clobber` je Datei und `gh release edit vX.Y
+--draft=false`.
+
+**Geheimes Gist** (Kapitel- und Gesamt-Markdown, Prüfungsfragen, Abbildungen, PDFs). Ein Gist hat
+keine Ordner und zeigt Bilder nur über absolute URLs, deshalb erzeugt `export-md` flache Dateien und
+setzt die Bild-URL aus `GIB_IMAGE_BASE_URL`:
+
+```bash
+GIB_IMAGE_BASE_URL=https://gist.githubusercontent.com/<owner>/<gist-id>/raw python -m pipeline export-md
+git clone https://gist.github.com/<gist-id>.git gist && cp build/markdown/* build/pdf/*.pdf gist/
+cd gist && git add -A && git commit -m "…" && git push
+```
+
+`gh gist create` legt Gists standardmäßig geheim an (nie `--public`) und nimmt keine Binärdateien;
+PNGs und PDFs kommen deshalb über das Git-Remote des Gists. Ein geheimes Gist ist **nicht privat**,
+sondern nur ungelistet: Wer die URL kennt, kann es lesen. Bei späteren Ständen dasselbe Gist
+aktualisieren statt ein neues anzulegen. Die Studierenden-Karteikarten gehören nicht hinein.

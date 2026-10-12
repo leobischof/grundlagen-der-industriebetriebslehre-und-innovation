@@ -21,16 +21,13 @@ from pathlib import Path
 
 import pymupdf
 
-from . import config, pdf_layout
+from . import config, content_files, pdf_layout
 from .cache import key_for, sha256_file
-from .pdf_html import Assets, convert, split_frontmatter
+from .content_files import COMPLETE_NAME, EXAMS_NAME, FOOTER
+from .pdf_html import Assets, convert
 
 RENDER_VERSION = 1                          # bump to invalidate every PDF (layout/CSS change)
 OUT_DIR = config.BUILD / "pdf"
-COMPLETE_NAME = "grundlagen-industriebetriebslehre-und-innovation"
-EXAMS_NAME = "pruefungsfragen"
-FOOTER = "Inoffizielle Lernunterlage · Skript 2024/25 (v2.0) · Stand {today}"
-_SECTION_FILE = re.compile(r"^(\d+)\.(\d+)-.*\.md$")
 _IMAGE_LINK = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
 
 
@@ -47,25 +44,6 @@ class Rendered:
     doc: pymupdf.Document
     headings: list[pdf_layout.Heading]
     problems: list[str] = field(default_factory=list)
-
-
-def _section_order(path: Path) -> tuple[int, int]:
-    m = _SECTION_FILE.match(path.name)
-    return (int(m.group(1)), int(m.group(2))) if m else (10**6, 0)
-
-
-def discover(content_root: Path) -> list[Chapter]:
-    """Chapter directories (`NN-slug`) in slug order; files in reading order."""
-    chapters = []
-    for directory in sorted(p for p in content_root.iterdir() if p.is_dir() and re.match(r"\d\d-", p.name)):
-        readme, literature = directory / "README.md", directory / "literatur.md"
-        sections = sorted((p for p in directory.glob("*.md") if _SECTION_FILE.match(p.name)), key=_section_order)
-        files = [p for p in (readme, *sections, literature) if p.exists()]
-        if not files:
-            continue
-        title = split_frontmatter(readme.read_text(encoding="utf-8"))[0].get("title") if readme.exists() else None
-        chapters.append(Chapter(directory.name, str(title or directory.name), files))
-    return chapters
 
 
 def input_key(files: list[Path]) -> str:
@@ -176,7 +154,8 @@ def run(pages: str | None = None, dry_run: bool = False, force: bool = False, *,
     out_dir = out_dir or OUT_DIR
     exams_file = exams_file if exams_file is not None else config.EXAMS / "questions.md"
     today = today or datetime.date.today().strftime("%d.%m.%Y")
-    chapters = discover(content_root) if content_root.is_dir() else []
+    chapters = ([Chapter(c.slug, c.title, c.files) for c in content_files.discover(content_root)]
+                if content_root.is_dir() else [])
     if not chapters:
         print(f"[render-pdf] keine Kapitel unter {content_root} – zuerst `build-content` ausführen")
         return 1
