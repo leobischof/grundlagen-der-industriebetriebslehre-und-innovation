@@ -30,9 +30,11 @@ Industriebetriebslehre und Innovation* (TU Graz, Skriptum 2024/25).
 Fragen deckt das Skript vollständig, 5 nur teilweise – siehe
 [Aktualitätslücken](exams/frequency-analysis.md#aktualitätslücken).
 
-**Downloads:** Kapitel-PDFs, das Gesamt-PDF, die Prüfungsfragen als PDF und das Anki-Paket
-„Abbildungen skizzieren“ liegen im Release dieses Repositorys (nicht im Git-Baum); Markdown und
-PDFs zusätzlich in einem geheimen Gist ([Veröffentlichen](docs/pipeline.md#veröffentlichen-release-und-gist)).
+**Downloads:** Im Release dieses Repositorys (nicht im Git-Baum) liegen als `GIL-…`-PDFs jedes
+Kapitel, das Gesamtskript, die Zusammenfassung je Kapitel und gesamt sowie die Prüfungsfragen;
+Markdown und PDFs zusätzlich in einem geheimen Gist
+([Veröffentlichen](docs/pipeline.md#veröffentlichen-release-und-gist)). Abbildungen erscheinen dort
+nur als unsere SVG-Rekonstruktion oder als Platzhalter, nie als Ausschnitt aus dem Skript.
 
 ## Mitarbeit
 
@@ -59,8 +61,8 @@ Weitere Befehle:
 
 ```bash
 .venv/Scripts/python -m pipeline offline            # Validierung + Abdeckungsbericht (wie in CI)
-.venv/Scripts/python -m pipeline render-pdf         # Kapitel- und Gesamt-PDFs → build/pdf/
-.venv/Scripts/python -m pipeline anki               # Anki-Skizzierkarten → build/anki/
+.venv/Scripts/python -m pipeline render-pdf         # GIL-PDFs (Kapitel, Gesamtskript, Zusammenfassungen, Fragen) → build/pdf/
+.venv/Scripts/python -m pipeline anki               # Anki-Skizzierkarten → build/anki/ (nur lokal, nicht ins Release)
 .venv/Scripts/python -m pipeline export-md          # flacher Markdown-Export → build/markdown/
 .venv/Scripts/python -m pipeline.progress due       # heute fällige Wiederholungen
 .venv/Scripts/python -m pytest                      # Tests

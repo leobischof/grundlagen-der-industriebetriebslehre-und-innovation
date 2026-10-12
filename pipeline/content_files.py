@@ -13,12 +13,51 @@ from pathlib import Path
 from . import config
 from .qa_markdown import split_frontmatter
 
-# Base names of the export files (PDF and Markdown), and the line every export carries.
-COMPLETE_NAME = "grundlagen-industriebetriebslehre-und-innovation"
-EXAMS_NAME = "pruefungsfragen"
 FOOTER = "Inoffizielle Lernunterlage · Skript 2024/25 (v2.0) · Stand {today}"
 _SECTION_FILE = re.compile(r"^(\d+)\.(\d+)-.*\.md$")
 _CHAPTER_DIR = re.compile(r"^\d\d-")
+
+
+# --- export names (PDF, Markdown, NotebookLM, release assets) ------------------
+# "GIL" = Grundlagen der Industriebetriebslehre. The label is what a person reads (PDF title,
+# release asset label); the stem is the file name. Stems are plain ASCII with hyphens because
+# GitHub rewrites spaces, umlauts and dashes in release asset names to dots.
+PREFIX = "GIL"
+_ASCII = str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "Ä": "Ae", "Ö": "Oe", "Ü": "Ue", "ß": "ss", "–": "-"})
+
+
+@dataclass(frozen=True)
+class ExportName:
+    stem: str                                # file name without extension
+    label: str                               # human title
+
+
+def _named(label: str) -> ExportName:
+    stem = re.sub(r"[^A-Za-z0-9]+", "-", label.translate(_ASCII)).strip("-")
+    return ExportName(stem, label)
+
+
+def chapter_number(slug: str) -> int:
+    """'02-industrielle-innovation' → 2 (chapter 0 is the introduction)."""
+    return int(slug[:2])
+
+
+def chapter_export(slug: str, title: str) -> ExportName:
+    """'GIL Kapitel 2 – Industrielle Innovation' / GIL-Kapitel-2-Industrielle-Innovation."""
+    return _named(f"{PREFIX} Kapitel {chapter_number(slug)} – {title}")
+
+
+def summary_export(slug: str, title: str) -> ExportName:
+    return _named(f"{PREFIX} Zusammenfassung Kapitel {chapter_number(slug)} – {title}")
+
+
+def notebook_export(slug: str, title: str) -> ExportName:
+    return _named(f"{PREFIX} NotebookLM Kapitel {chapter_number(slug)} – {title}")
+
+
+COMPLETE = _named(f"{PREFIX} Gesamtskript")
+SUMMARY_COMPLETE = _named(f"{PREFIX} Zusammenfassung gesamt")
+EXAMS = _named(f"{PREFIX} Prüfungsfragen")
 
 
 @dataclass
@@ -26,6 +65,15 @@ class ChapterFiles:
     slug: str
     title: str
     files: list[Path]                        # overview, sections in numeric order, literature
+    guide: Path | None = None                # learning guide (summary), None if not written yet
+
+    @property
+    def export(self) -> ExportName:
+        return chapter_export(self.slug, self.title)
+
+    @property
+    def summary(self) -> ExportName:
+        return summary_export(self.slug, self.title)
 
 
 def _section_order(path: Path) -> tuple[int, int]:
@@ -33,8 +81,10 @@ def _section_order(path: Path) -> tuple[int, int]:
     return (int(m.group(1)), int(m.group(2))) if m else (10**6, 0)
 
 
-def discover(content_root: Path) -> list[ChapterFiles]:
-    """Chapter directories in slug order; files in reading order; empty chapters skipped."""
+def discover(content_root: Path, guides_root: Path | None = None) -> list[ChapterFiles]:
+    """Chapter directories in slug order; files in reading order; empty chapters skipped.
+    `guides_root` (default learning/chapters) holds the chapters' learning guides."""
+    guides_root = guides_root or config.CHAPTER_GUIDES
     chapters = []
     for directory in sorted(p for p in content_root.iterdir() if p.is_dir() and _CHAPTER_DIR.match(p.name)):
         readme = directory / config.chapter_overview_name(directory.name)
@@ -44,5 +94,7 @@ def discover(content_root: Path) -> list[ChapterFiles]:
         if not files:
             continue
         meta = split_frontmatter(readme.read_text(encoding="utf-8"))[0] if readme.exists() else None
-        chapters.append(ChapterFiles(directory.name, str((meta or {}).get("title") or directory.name), files))
+        guide = guides_root / config.chapter_guide_name(directory.name)
+        chapters.append(ChapterFiles(directory.name, str((meta or {}).get("title") or directory.name), files,
+                                     guide if guide.is_file() else None))
     return chapters

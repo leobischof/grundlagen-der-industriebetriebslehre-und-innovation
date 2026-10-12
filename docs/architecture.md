@@ -143,6 +143,14 @@ Verweisstelle nicht sicher zu finden war, unter `## Fußnoten ohne sicheren Text
 
 IDs: `abb-NN` (Abbildung NN), `tab-NN` (Tabelle), `formel-*`, `abb-u<Seite>` (unbeschriftete Grafik).
 
+**Was ein Export zeigen darf.** Schicht A ist eine Kopie aus dem Skript und bleibt Arbeitsmaterial im
+privaten Repository. Kein Export – PDF, Markdown/Gist, NotebookLM – enthält je einen solchen
+Ausschnitt (Urheberrecht): Er zeigt die Rekonstruktion (C) oder, solange es keine gibt, einen
+Platzhaltertext „Bild des Skripts hier nicht abgedruckt (Urheberrecht) – siehe Original-Skript“ mit
+der Beschreibung aus B, falls vorhanden. Diese Regel steht einmal in `pipeline/figure_publish.py`;
+jeder Export ruft sie auf. Je mehr Abbildungen und Tabellen rekonstruiert sind, desto weniger
+Platzhalter bleiben.
+
 **Metadaten (B)** – Schema [`figure-metadata.schema.json`](../schemas/figure-metadata.schema.json):
 `type`, `description`, `axes`, `elements` (jedes Kästchen, jede Beschriftung im Originalwortlaut),
 `relations`, `curves`, `meaning`, `exam_relevance` (Stufe, Begründung, Fragen-IDs),

@@ -34,6 +34,7 @@ FIG_MANIFEST = FIGURES / "manifest.json"
 EXAMS = ROOT / "exams"
 LEARNING = ROOT / "learning"
 DRAWING_GUIDES = LEARNING / "drawing-exercises"   # one drawing_guide_name(id) per reconstructed figure
+CHAPTER_GUIDES = LEARNING / "chapters"            # one chapter_guide_name(slug) per chapter (KI-Leitfaden)
 REPORTS = ROOT / "reports"
 
 # --- file names ---------------------------------------------------------------
@@ -56,6 +57,11 @@ def chapter_overview_name(slug: str) -> str:
 
 def chapter_literature_name(slug: str) -> str:
     return f"{slug}-literatur.md"
+
+
+def chapter_guide_name(slug: str) -> str:
+    """Learning guide (summary with the exam-relevant points) of one chapter."""
+    return f"{slug}-leitfaden.md"
 
 SCHEMAS = ROOT / "schemas"
 

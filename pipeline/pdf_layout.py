@@ -39,6 +39,12 @@ th { border-bottom: 1.4pt solid #1f4e79; }   /* no background: Story repeats cel
 .fig { text-align: center; margin: 8pt 0 2pt 0; }
 .fig h1, .fig h2, .fig h3, .fig h4, .fig h5, .fig h6 { text-align: left; }
 .caption { font-size: 8.5pt; color: #444444; text-align: center; margin-bottom: 8pt; }
+.stand-in { font-size: 8.5pt; color: #444444; text-align: left; border: 0.6pt dashed #9a9a9a;
+            padding: 5pt 7pt; margin: 0 0 2pt 0; }
+blockquote { margin: 4pt 0 10pt 0; padding: 2pt 0 2pt 8pt; border-left: 2pt solid #1f4e79; color: #333333; }
+blockquote p { margin: 0 0 3pt 0; }
+.task { font-size: 10.5pt; margin: 13pt 0 2pt 0; }       /* numbered exam task: the important line */
+.small { font-size: 8pt; color: #666666; margin: 0 0 3pt 0; }   /* source, topic, sections of a task */
 .meta { font-size: 8.5pt; color: #666666; margin: 0 0 8pt 0; }
 .formula { text-align: center; margin: 6pt 0; }
 .url { font-size: 8.5pt; color: #444444; }
@@ -65,10 +71,6 @@ class Heading:
     page: int                                # 1-based page within its own document
 
 
-def _rectfn(_n: int, _filled) -> tuple:
-    return PAGE, CONTENT, pymupdf.Identity
-
-
 def tag_headings(body: str) -> tuple[str, dict[str, tuple[int, str]]]:
     """Give every heading an id so `positionfn` can report its page (the text it hands
     back is mis-decoded for non-ASCII characters, ids are reliable)."""
@@ -85,23 +87,40 @@ MAX_BREAK_ROUNDS = 8
 SQUEEZE_TOLERANCE_PT = 1.5        # rendered image height below `wanted - tolerance` = squeezed
 
 
+# No document of this knowledge base comes near this; more pages means MuPDF is looping (it can
+# emit blank pages forever, e.g. for a bare <table> ending at a page bottom before a heading -
+# hence pdf_html wraps every table in a div). An error beats a renderer that never returns.
+MAX_PAGES = 1500
+
+
 def _layout(body: str, assets: Assets) -> tuple[pymupdf.Document, dict[str, int], dict[str, float]]:
     """One Story run. Returns the document, the page of every id'd element and its block height."""
     story = pymupdf.Story(f"<body>{body}</body>", user_css=CSS, archive=assets.archive())
     pages: dict[str, int] = {}
     heights: dict[str, float] = {}
 
-    def on_position(pos) -> None:
+    page = 0
+
+    def on_position(pos) -> None:            # pymupdf insists on exactly one parameter
         if not pos.id or pos.id in pages:
             return
         if pos.heading and pos.open_close & 1:
-            pages[pos.id] = pos.page_num
+            pages[pos.id] = page
         elif pos.id in assets.heights and pos.rect[2] - pos.rect[0] > 1:     # the image itself
             heights[pos.id] = pos.rect[3] - pos.rect[1]
 
     buf = io.BytesIO()
     writer = pymupdf.DocumentWriter(buf)
-    story.write(writer, _rectfn, on_position)
+    more = 1
+    while more:                              # Story.write's own loop, with a page limit
+        if page >= MAX_PAGES:
+            raise RuntimeError(f"PDF-Layout bricht nach {MAX_PAGES} Seiten ab – MuPDF erzeugt Leerseiten in Schleife")
+        page += 1                            # 1-based number of the page being placed
+        device = writer.begin_page(PAGE)
+        more, _ = story.place(CONTENT)
+        story.element_positions(on_position)
+        story.draw(device)
+        writer.end_page()
     writer.close()
     return pymupdf.open("pdf", buf.getvalue()), pages, heights
 
