@@ -23,7 +23,7 @@ def test_select_keeps_asked_and_curated_figures_only():
 
 def test_card_shows_prompt_image_points_and_questions():
     meta = {"drawing": {"must_know": ["Achsen beschriften"]}}
-    asked = [{"date": "2026-04-29", "wording": "Skizzieren Sie …"}]
+    asked = [{"date": "2026-04-29", "wording": "PLZ", "prompt": "Skizzieren Sie …"}]
     c = anki_sketch.card(_fig("abb-01"), meta, asked)
     assert c["prompt"] == "Skizziere: Titel abb-01"
     assert c["image"] == "abb-01.png"

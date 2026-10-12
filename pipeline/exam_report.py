@@ -5,7 +5,7 @@ exams/frequency-analysis.md (topic ranking with the formula printed in full).
 """
 from __future__ import annotations
 
-from . import catalog, exam_stats
+from . import catalog, config, exam_stats
 
 SOURCE_LABEL = {"fragensammlung-uware": "Fragensammlung (Gedächtnisprotokoll)",
                 "klausur-2026-04-29": "Klausur-Abschrift"}
@@ -29,37 +29,66 @@ def short_date(iso: str) -> str:
     return f"{d}.{m}.{y[2:]}"
 
 
-def _figure_link(fid: str) -> str:
+def _figure_ref(fid: str) -> str:
+    """Figure label with its script page; linked to our own SVG when there is one.
+
+    Never the PNG crop of the script: that is a copy of the original (copyright) and is not
+    published (docs/architecture.md, Abbildungen)."""
     f = catalog.figure(fid)
-    return f"[{catalog.figure_label(f)}: {f['title']}](../figures/originals/{fid}.png)"
+    printed = catalog.printed_page(f["pdf_page"])
+    label = f"{catalog.figure_label(f)} (Skript S. {printed})" if printed else catalog.figure_label(f)
+    if (config.FIG_RECONSTRUCTED / f"{fid}.svg").exists():
+        return f"[{label}](../figures/reconstructed/{fid}.svg)"
+    return label
+
+
+def _small(text: str) -> str:
+    """Secondary information, rendered small on GitHub and in the PDF."""
+    return f"<sub>{text}</sub>"
 
 
 def _question_block(q: dict, titles: dict[str, str]) -> str:
-    pts = f"{q['points']}" if q["points"] is not None else "unbekannt"
-    topics = "; ".join(f"{titles[t]} (`{t}`)" for t in q["topics"])
-    lines = [f"### Frage {q['number']} · `{q['id']}`", "", f"> {q['wording']}", "",
-             f"- **Punkte:** {pts}",
-             f"- **Aufgabentyp:** {q['task_type']} · **Kompetenzen:** {', '.join(q['competencies'])}",
-             f"- **Themen:** {topics}",
-             f"- **Skript-Abschnitte:** {', '.join(q['sections']) or '–'}"]
+    """The full task is the main text; where it comes from and what it covers stays small."""
+    pts = f" *({q['points']} P)*" if q["points"] is not None else ""
+    meta = [f"Originalwortlaut: „{q['wording']}“",
+            "Thema: " + ", ".join(titles[t] for t in q["topics"])]
+    if q["sections"]:
+        meta.append("Skript " + ", ".join(q["sections"]))
     if q["figures"]:
-        lines.append("- **Abbildungen:** " + "; ".join(_figure_link(f) for f in q["figures"]))
-    lines.append(f"- **Skriptabdeckung:** {COVERAGE_LABEL[q['script_coverage']]}")
+        meta.append(", ".join(_figure_ref(f) for f in q["figures"]))
+    meta.append(", ".join(q["competencies"]))
+    if q["script_coverage"] != "voll":
+        meta.append(COVERAGE_LABEL[q["script_coverage"]])
+    meta.append(f"`{q['id']}`")
+    lines = [f"**{q['number']}. {q['prompt']}**{pts}", "", _small(" · ".join(meta))]
     if q["notes"]:
-        lines.append(f"- **Anmerkung:** {q['notes']}")
+        lines += ["", _small(f"Anmerkung: {q['notes']}")]
     return "\n".join(lines)
 
 
-def questions_md(questions: list[dict], exams: list[dict], topics: list[dict]) -> str:
+def _mode_block(mode: dict | None) -> list[str]:
+    if not mode:
+        return []
+    return ["## Prüfungsmodus", "",
+            _small(f"Laut Wiki der Studierenden auf uWare, Stand {german_date(mode['as_of'])}; "
+                   f"{TRUST_LABEL[mode['trust']]}."), "",
+            *(f"- {point}" for point in mode["points"]), ""]
+
+
+def questions_md(questions: list[dict], exams: list[dict], topics: list[dict], mode: dict | None = None) -> str:
     titles = {t["id"]: t["title"] for t in topics}
     out = ["# Prüfungsfragen", "", DISCLAIMER, "",
-           f"{len(questions)} Fragen aus {len(exams)} Prüfungsterminen, neueste zuerst. "
-           "Maschinenlesbar: `questions.json`; Quelle der Wahrheit: `curation/exams.yaml`.", ""]
+           f"{len(questions)} Fragen aus {len(exams)} Prüfungsterminen, neueste zuerst. Jede Frage steht als "
+           "ausformulierte Aufgabe da; darunter klein der Originalwortlaut der Quelle, Thema, Skript-Abschnitte, "
+           "Abbildungen und Kompetenzen. Maschinenlesbar: `questions.json`; Quelle der Wahrheit: "
+           "`curation/exams.yaml`.", ""]
+    out += _mode_block(mode)
     for e in sorted(exams, key=lambda e: e["date"], reverse=True):
         group = [q for q in questions if q["exam_date"] == e["date"]]
-        pts = f", {e['total_points']} Punkte" if e.get("total_points") is not None else ""
-        out += [f"## {german_date(e['date'])} – {SOURCE_LABEL[e['source']]}{pts}", "",
-                f"*Vertrauensstufe: {TRUST_LABEL[e['trust']]}.* {(e.get('notes') or '').strip()}", ""]
+        pts = f" · {e['total_points']} Punkte" if e.get("total_points") is not None else ""
+        note = (e.get("notes") or "").strip()
+        out += [f"## {german_date(e['date'])} · {SOURCE_LABEL[e['source']]}{pts}", "",
+                _small(f"{TRUST_LABEL[e['trust']]}.{' ' + note if note else ''}"), ""]
         out += [_question_block(q, titles) + "\n" for q in group]
     return "\n".join(out).rstrip() + "\n"
 
@@ -106,7 +135,7 @@ def _gaps(questions: list[dict]) -> list[str]:
            f"- Vollständig durch das Skript gedeckt: {len(questions) - len(partial)} von {len(questions)} Fragen.",
            f"- Nur teilweise oder nicht gedeckt: {len(partial)} Fragen (unten).", ""]
     for q in partial:
-        out += [f"- `{q['id']}` ({german_date(q['exam_date'])}): „{q['wording']}“ – {COVERAGE_LABEL[q['script_coverage']]}. "
+        out += [f"- `{q['id']}` ({german_date(q['exam_date'])}): {q['prompt']} – {COVERAGE_LABEL[q['script_coverage']]}. "
                 f"{q['notes'] or ''}".rstrip()]
     out.append("")
     return out

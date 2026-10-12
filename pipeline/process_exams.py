@@ -22,8 +22,9 @@ def _outputs(data: exam_model.ExamData) -> dict:
     return {
         "json": {"questions": data.questions,
                  "exams": [{k: e.get(k) for k in ("date", "source", "trust", "total_points", "notes")}
-                           for e in data.exams]},
-        "questions_md": exam_report.questions_md(data.questions, data.exams, data.topics),
+                           for e in data.exams],
+                 "exam_mode": data.mode},
+        "questions_md": exam_report.questions_md(data.questions, data.exams, data.topics, data.mode),
         "frequency_md": exam_report.frequency_md(data.questions, data.exams, rows),
     }
 

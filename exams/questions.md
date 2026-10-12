@@ -2,756 +2,401 @@
 
 > **Hinweis:** Alle Fragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle bzw. Abschrift einer Klausur) und sind weder amtlich noch verifiziert. Wortlaut, Punkte und Vollständigkeit können abweichen. Themen-, Abschnitts- und Abbildungszuordnung sind eine fachliche Einschätzung.
 
-61 Fragen aus 12 Prüfungsterminen, neueste zuerst. Maschinenlesbar: `questions.json`; Quelle der Wahrheit: `curation/exams.yaml`.
+61 Fragen aus 12 Prüfungsterminen, neueste zuerst. Jede Frage steht als ausformulierte Aufgabe da; darunter klein der Originalwortlaut der Quelle, Thema, Skript-Abschnitte, Abbildungen und Kompetenzen. Maschinenlesbar: `questions.json`; Quelle der Wahrheit: `curation/exams.yaml`.
 
-## 29.04.2026 – Klausur-Abschrift, 33 Punkte
+## Prüfungsmodus
 
-*Vertrauensstufe: Abschrift der Angabe durch Studierende, unverifiziert.* Klausur "Grundlagen IBL" vom 29.04.2026, 6 Aufgaben (A1 bis A6), Summe 33 P. Notenschlüssel laut Abschrift: 92 bis 100 % = 1, 80 bis 91,9 % = 2, 65 bis 79,9 % = 3, 50 bis 64,9 % = 4, unter 50 % = 5. Anmerkung der Studierenden (sinngemäß): Der Professor legt viel Wert auf Verständnis; aktuell werden tendenziell eher Grafiken und Diagramme abgefragt, Begriffe muss man gut erklären können.
+<sub>Laut Wiki der Studierenden auf uWare, Stand 12.10.2026; Gedächtnisprotokoll von Studierenden, unverifiziert.</sub>
 
-### Frage 1 · `frage-2026-04-29-1`
+- Seit Jänner 2024 (Maschinenbau): 5 offene Fragen, keine Multiple-Choice-Fragen, überarbeitetes Skript.
+- Die 5 Fragen kommen aus dem gesamten Stoff; alte und neue Fragen kommen vor.
+- Abbildungen werden abgefragt, z. B. die Zusammenhänge der Gesamtanlageneffektivität.
+- Seit 2025 gibt es für Maschinenbau/Wirtschaftsingenieurwesen-Maschinenbau zusätzlich zur schriftlichen eine mündliche Prüfung, meist für etwa fünf Studierende mit positiver schriftlicher Note.
+- Die Vorlesung zu besuchen lohnt sich, vor allem die letzten Einheiten: Dort gibt es Hinweise zur Prüfung.
+- Früherer Modus: 10 Multiple-Choice-Fragen und 3 offene Fragen; die offenen Fragen brachten 60 % der Punkte, die Multiple-Choice-Fragen lagen nah an Sätzen aus dem Skript.
 
-> Erklären Sie die Phasen in die sich der Produktlebenszyklus am Markt untergliedert. Stellen sie den typischen Verlauf als Diagramm dar.
+## 29.04.2026 · Klausur-Abschrift · 33 Punkte
 
-- **Punkte:** 6
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen, zeichnen
-- **Themen:** Produktlebenszyklus (`produktlebenszyklus`)
-- **Skript-Abschnitte:** 2.5.1
-- **Abbildungen:** [Abbildung 8: Produktlebenszyklus](../figures/originals/abb-08.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Aufgabe A1 der Klausur.
+<sub>Abschrift der Angabe durch Studierende, unverifiziert. Klausur "Grundlagen IBL" vom 29.04.2026, 6 Aufgaben (A1 bis A6), Summe 33 P. Notenschlüssel laut Abschrift: 92 bis 100 % = 1, 80 bis 91,9 % = 2, 65 bis 79,9 % = 3, 50 bis 64,9 % = 4, unter 50 % = 5. Anmerkung der Studierenden (sinngemäß): Der Professor legt viel Wert auf Verständnis; aktuell werden tendenziell eher Grafiken und Diagramme abgefragt, Begriffe muss man gut erklären können.</sub>
 
-### Frage 2 · `frage-2026-04-29-2`
+**1. Erklären Sie die Phasen, in die sich der Produktlebenszyklus am Markt untergliedert. Stellen Sie den typischen Verlauf als Diagramm dar.** *(6 P)*
 
-> Wozu dient die Ansoff-Matrix? Skizzieren Sie diese.
+<sub>Originalwortlaut: „Erklären Sie die Phasen in die sich der Produktlebenszyklus am Markt untergliedert. Stellen sie den typischen Verlauf als Diagramm dar.“ · Thema: Produktlebenszyklus · Skript 2.5.1 · [Abbildung 8 (Skript S. 31)](../figures/reconstructed/abb-08.svg) · wissen, verstehen, zeichnen · `frage-2026-04-29-1`</sub>
 
-- **Punkte:** 4
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen, zeichnen
-- **Themen:** Ansoff-Matrix (Wachstumsstrategien) (`ansoff-matrix`)
-- **Skript-Abschnitte:** 2.5.1
-- **Abbildungen:** [Abbildung 11: Ansoff Matrix](../figures/originals/abb-11.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Aufgabe A2 der Klausur.
+<sub>Anmerkung: Aufgabe A1 der Klausur.</sub>
 
-### Frage 3 · `frage-2026-04-29-3`
+**2. Erklären Sie, wozu die Ansoff-Matrix dient, und skizzieren Sie diese.** *(4 P)*
 
-> Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability"). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens.
+<sub>Originalwortlaut: „Wozu dient die Ansoff-Matrix? Skizzieren Sie diese.“ · Thema: Ansoff-Matrix (Wachstumsstrategien) · Skript 2.5.1 · [Abbildung 11 (Skript S. 38)](../figures/reconstructed/abb-11.svg) · wissen, verstehen, zeichnen · `frage-2026-04-29-2`</sub>
 
-- **Punkte:** 4
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen, zeichnen
-- **Themen:** Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens) (`nachhaltigkeit-dimensionen-spannungsfeld`)
-- **Skript-Abschnitte:** 8.3.2
-- **Abbildungen:** [Abbildung 56: Beispiele für das Spannungsfeld unternehmerischen Wirkens](../figures/originals/abb-56.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Aufgabe A3 der Klausur. Abbildung 56 zeigt die ökonomische, soziale und ökologische Dimension mit den Stichworten Interessenausgleich und Zieloptimierung (8.3.2).
+<sub>Anmerkung: Aufgabe A2 der Klausur.</sub>
 
-### Frage 4 · `frage-2026-04-29-4`
+**3. Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability“). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens.** *(4 P)*
 
-> Skizzieren Sie das Arbeitssystem nach REFA und erklären sie seine Komponenten kurz.
+<sub>Originalwortlaut: „Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability"). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens.“ · Thema: Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens) · Skript 8.3.2 · Abbildung 56 (Skript S. 134) · wissen, verstehen, zeichnen · `frage-2026-04-29-3`</sub>
 
-- **Punkte:** 6
-- **Aufgabentyp:** zeichnung · **Kompetenzen:** zeichnen, wissen, verstehen
-- **Themen:** Industriebetrieb als Arbeitssystem nach REFA (`arbeitssystem-refa`)
-- **Skript-Abschnitte:** 3.1.2
-- **Abbildungen:** [Abbildung 15: Industriebetrieb als Arbeitssystem](../figures/originals/abb-15.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Aufgabe A4 der Klausur.
+<sub>Anmerkung: Aufgabe A3 der Klausur. Abbildung 56 zeigt die ökonomische, soziale und ökologische Dimension mit den Stichworten Interessenausgleich und Zieloptimierung (8.3.2).</sub>
 
-### Frage 5 · `frage-2026-04-29-5`
+**4. Skizzieren Sie das Arbeitssystem nach REFA und erklären Sie seine Komponenten kurz.** *(6 P)*
 
-> Nennen Sie die Schritte das Planungsvorgehen der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz.
+<sub>Originalwortlaut: „Skizzieren Sie das Arbeitssystem nach REFA und erklären sie seine Komponenten kurz.“ · Thema: Industriebetrieb als Arbeitssystem nach REFA · Skript 3.1.2 · [Abbildung 15 (Skript S. 50)](../figures/reconstructed/abb-15.svg) · zeichnen, wissen, verstehen · `frage-2026-04-29-4`</sub>
 
-- **Punkte:** 7
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung) (`fabrikplanung-planungsvorgehen`)
-- **Skript-Abschnitte:** 8.2.2, 8.2.3, 8.2.4, 8.2.5, 8.2.6, 8.2.7
-- **Abbildungen:** [Abbildung 51: Planungsvorgehen nach Grundig](../figures/originals/abb-51.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Aufgabe A5 der Klausur (höchste Punktzahl). Die Phasen entsprechen den Skript-Abschnitten 8.2.3 bis 8.2.7.
+<sub>Anmerkung: Aufgabe A4 der Klausur.</sub>
 
-### Frage 6 · `frage-2026-04-29-6`
+**5. Nennen Sie die Schritte des Planungsvorgehens der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz.** *(7 P)*
 
-> Erklären Sie die Begriffe Effizienz, Konsistenz und Suffizienz im Kontext der ökologischen Nachhaltigkeit.
+<sub>Originalwortlaut: „Nennen Sie die Schritte das Planungsvorgehen der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz.“ · Thema: Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung) · Skript 8.2.2, 8.2.3, 8.2.4, 8.2.5, 8.2.6, 8.2.7 · [Abbildung 51 (Skript S. 125)](../figures/reconstructed/abb-51.svg) · wissen, verstehen · `frage-2026-04-29-5`</sub>
 
-- **Punkte:** 6
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit) (`effizienz-konsistenz-suffizienz`)
-- **Skript-Abschnitte:** 8.3.3
-- **Abbildungen:** [Abbildung 57: Einfluss von Effizienz, Konsistenz und Suffizienz auf Aufwand und Ertrag](../figures/originals/abb-57.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Aufgabe A6 der Klausur.
+<sub>Anmerkung: Aufgabe A5 der Klausur (höchste Punktzahl). Die Phasen entsprechen den Skript-Abschnitten 8.2.3 bis 8.2.7.</sub>
 
-## 22.01.2026 – Fragensammlung (Gedächtnisprotokoll)
+**6. Erklären Sie die Begriffe Effizienz, Konsistenz und Suffizienz im Kontext der ökologischen Nachhaltigkeit.** *(6 P)*
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, keine Punkte.
+<sub>Originalwortlaut: „Erklären Sie die Begriffe Effizienz, Konsistenz und Suffizienz im Kontext der ökologischen Nachhaltigkeit.“ · Thema: Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit) · Skript 8.3.3 · [Abbildung 57 (Skript S. 138)](../figures/reconstructed/abb-57.svg) · wissen, verstehen · `frage-2026-04-29-6`</sub>
 
-### Frage 1 · `frage-2026-01-22-1`
+<sub>Anmerkung: Aufgabe A6 der Klausur.</sub>
 
-> Nennen Sie vier Merkmale von Industriebetrieben
+## 22.01.2026 · Fragensammlung (Gedächtnisprotokoll)
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen
-- **Themen:** Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten) (`industriebetrieb-abgrenzung`)
-- **Skript-Abschnitte:** 3.1.1
-- **Skriptabdeckung:** nur teilweise im Skript
-- **Anmerkung:** Das Skript (3.1.1) beschreibt den Industriebetrieb in Fließtext (Sachgüter, maschinelle Anlagen, weitgehende Arbeitsteilung/Spezialisierung, Abgrenzung zu Dienstleistung und Handwerk), nennt aber keine Liste von genau vier Merkmalen.
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, keine Punkte.</sub>
 
-### Frage 2 · `frage-2026-01-22-2`
+**1. Nennen Sie vier Merkmale von Industriebetrieben.**
 
-> Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und Postindustrielle Innovation. Geben Sie jeweils ein Beispiel an.
+<sub>Originalwortlaut: „Nennen Sie vier Merkmale von Industriebetrieben“ · Thema: Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten) · Skript 3.1.1 · wissen · nur teilweise im Skript · `frage-2026-01-22-1`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation) (`innovationsbegriffe`); Arten der Innovation (Prozess-, System-, nicht-technische und postindustrielle Innovation) (`innovationsarten`)
-- **Skript-Abschnitte:** 2.2, 2.5.2, 2.5.5
-- **Skriptabdeckung:** nur teilweise im Skript
-- **Anmerkung:** Beispiele nennt das Skript nur für die postindustrielle Innovation (Kreditkarten, Leasing, Barcodes, e-business); für Imitation, Modifikation und Prozessinnovation fehlen Beispiele im Skript.
+<sub>Anmerkung: Das Skript (3.1.1) beschreibt den Industriebetrieb in Fließtext (Sachgüter, maschinelle Anlagen, weitgehende Arbeitsteilung/Spezialisierung, Abgrenzung zu Dienstleistung und Handwerk), nennt aber keine Liste von genau vier Merkmalen.</sub>
 
-### Frage 3 · `frage-2026-01-22-3`
+**2. Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und postindustrielle Innovation. Geben Sie jeweils ein Beispiel an.**
 
-> Wie hängen die Produktionsarten (unterschiedliche Losgrößen) mit Variabilität, Volumen und Prozessablauf zusammen? Fertigen Sie eine Skizze an und erklären Sie jede Produktionsart kurz.
+<sub>Originalwortlaut: „Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und Postindustrielle Innovation. Geben Sie jeweils ein Beispiel an.“ · Thema: Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation), Arten der Innovation (Prozess-, System-, nicht-technische und postindustrielle Innovation) · Skript 2.2, 2.5.2, 2.5.5 · wissen, verstehen · nur teilweise im Skript · `frage-2026-01-22-2`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen, zeichnen
-- **Themen:** Produktionssysteme (Produktionsarten und Fertigungsformen) (`produktionsarten-fertigungsformen`)
-- **Skript-Abschnitte:** 8.2.1
-- **Abbildungen:** [Abbildung 46: Einordnung der Produktionsarten](../figures/originals/abb-46.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Die gesuchte Skizze ist Abbildung 46 (Achsen Variabilität und Volumen, Prozessablauf; Einmal-, Einzel-/Kleinserien-, Serien-, Massenfertigung).
+<sub>Anmerkung: Beispiele nennt das Skript nur für die postindustrielle Innovation (Kreditkarten, Leasing, Barcodes, e-business); für Imitation, Modifikation und Prozessinnovation fehlen Beispiele im Skript.</sub>
 
-### Frage 4 · `frage-2026-01-22-4`
+**3. Erklären Sie, wie die Produktionsarten mit ihren unterschiedlichen Losgrößen mit Variabilität, Volumen und Prozessablauf zusammenhängen. Skizzieren Sie diesen Zusammenhang und erklären Sie jede Produktionsart kurz.**
 
-> Welche 3 Ziele bestehen aus Unternehmenssicht im Qualitätsmanagement? Beschreiben Sie folgende Methoden des Qualitätsmanagements in Ihren eigenen Worten: Total Quality Management, Six Sigma, Statistische Prozesskontrolle
+<sub>Originalwortlaut: „Wie hängen die Produktionsarten (unterschiedliche Losgrößen) mit Variabilität, Volumen und Prozessablauf zusammen? Fertigen Sie eine Skizze an und erklären Sie jede Produktionsart kurz.“ · Thema: Produktionssysteme (Produktionsarten und Fertigungsformen) · Skript 8.2.1 · [Abbildung 46 (Skript S. 121)](../figures/reconstructed/abb-46.svg) · wissen, verstehen, zeichnen · `frage-2026-01-22-3`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC) (`qualitaetsmanagement`)
-- **Skript-Abschnitte:** 9.3.1
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Zweiteilige Frage (Ziele nennen, drei Methoden beschreiben).
+<sub>Anmerkung: Die gesuchte Skizze ist Abbildung 46 (Achsen Variabilität und Volumen, Prozessablauf; Einmal-, Einzel-/Kleinserien-, Serien-, Massenfertigung).</sub>
 
-### Frage 5 · `frage-2026-01-22-5`
+**4. Nennen Sie die drei Ziele, die aus Unternehmenssicht im Qualitätsmanagement bestehen. Beschreiben Sie die folgenden Methoden des Qualitätsmanagements in Ihren eigenen Worten: Total Quality Management, Six Sigma und statistische Prozesskontrolle.**
 
-> Gesamtanlageneffektivität
+<sub>Originalwortlaut: „Welche 3 Ziele bestehen aus Unternehmenssicht im Qualitätsmanagement? Beschreiben Sie folgende Methoden des Qualitätsmanagements in Ihren eigenen Worten: Total Quality Management, Six Sigma, Statistische Prozesskontrolle“ · Thema: Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC) · Skript 9.3.1 · wissen, verstehen · `frage-2026-01-22-4`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Gesamtanlageneffektivität (OEE) (`gesamtanlageneffektivitaet`)
-- **Skript-Abschnitte:** 9.1.7
-- **Abbildungen:** [Abbildung 74: Gesamtanlageneffektivität](../figures/originals/abb-74.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Nur Stichwort ohne Aufgabenverb; Erklärung bzw. Definition angenommen. Eine Berechnung der Kennzahl ist nicht ausgeschlossen (unsicher).
+<sub>Anmerkung: Zweiteilige Frage (Ziele nennen, drei Methoden beschreiben).</sub>
 
-## 11.12.2025 – Fragensammlung (Gedächtnisprotokoll)
+**5. Definieren Sie die Gesamtanlageneffektivität und erklären Sie, aus welchen Kenngrößen sie sich zusammensetzt und wie sie berechnet wird.**
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, nur Stichworte, keine Punkte.
+<sub>Originalwortlaut: „Gesamtanlageneffektivität“ · Thema: Gesamtanlageneffektivität (OEE) · Skript 9.1.7 · Abbildung 74 (Skript S. 163) · wissen, verstehen · `frage-2026-01-22-5`</sub>
 
-### Frage 1 · `frage-2025-12-11-1`
+<sub>Anmerkung: Nur Stichwort ohne Aufgabenverb; Erklärung bzw. Definition angenommen. Eine Berechnung der Kennzahl ist nicht ausgeschlossen (unsicher).</sub>
 
-> 6 kritische Erfolgsfaktoren für Produktinnovation
+## 11.12.2025 · Fragensammlung (Gedächtnisprotokoll)
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen
-- **Themen:** Treiber und kritische Erfolgsfaktoren von Produktinnovationen (Cooper) (`treiber-erfolgsfaktoren-produktinnovation`)
-- **Skript-Abschnitte:** 2.5.1
-- **Skriptabdeckung:** nur teilweise im Skript
-- **Anmerkung:** Das Skript v2.0 nennt sieben kritische Erfolgsfaktoren (Cooper 2001), die Frage verlangt sechs. Entweder frühere Skriptfassung oder Protokollfehler; Abweichung im Zweifel durch alle sieben Faktoren abdecken.
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, nur Stichworte, keine Punkte.</sub>
 
-### Frage 2 · `frage-2025-12-11-2`
+**1. Nennen Sie sechs kritische Erfolgsfaktoren für Produktinnovationen.**
 
-> Arbeitssystem nach REFA und Umwelteinflüsse dabei
+<sub>Originalwortlaut: „6 kritische Erfolgsfaktoren für Produktinnovation“ · Thema: Treiber und kritische Erfolgsfaktoren von Produktinnovationen (Cooper) · Skript 2.5.1 · wissen · nur teilweise im Skript · `frage-2025-12-11-1`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Industriebetrieb als Arbeitssystem nach REFA (`arbeitssystem-refa`)
-- **Skript-Abschnitte:** 3.1.2
-- **Abbildungen:** [Abbildung 15: Industriebetrieb als Arbeitssystem](../figures/originals/abb-15.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Stichwortfrage; Skizze nicht ausdrücklich verlangt, in der Klausur 29.04.2026 aber so geprüft.
+<sub>Anmerkung: Das Skript v2.0 nennt sieben kritische Erfolgsfaktoren (Cooper 2001), die Frage verlangt sechs. Entweder frühere Skriptfassung oder Protokollfehler; Abweichung im Zweifel durch alle sieben Faktoren abdecken.</sub>
 
-### Frage 3 · `frage-2025-12-11-3`
+**2. Erklären Sie das Arbeitssystem nach REFA mit seinen Komponenten. Beschreiben Sie die Umwelteinflüsse, die auf das Arbeitssystem wirken.**
 
-> Stage-Gate-Prozess Cooper zeichnen und erklären
+<sub>Originalwortlaut: „Arbeitssystem nach REFA und Umwelteinflüsse dabei“ · Thema: Industriebetrieb als Arbeitssystem nach REFA · Skript 3.1.2 · [Abbildung 15 (Skript S. 50)](../figures/reconstructed/abb-15.svg) · wissen, verstehen · `frage-2025-12-11-2`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** zeichnung · **Kompetenzen:** zeichnen, wissen, verstehen
-- **Themen:** Stage-Gate-Prozess nach Cooper (`stage-gate-cooper`)
-- **Skript-Abschnitte:** 6.2
-- **Abbildungen:** [Abbildung 37: Stage-Gate-Prozess nach Cooper](../figures/originals/abb-37.png); [Abbildung 38: Aufbau eines Gates](../figures/originals/abb-38.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Abbildung 38 (Aufbau eines Gates) gehört zur Erklärung der Gates.
+<sub>Anmerkung: Stichwortfrage; Skizze nicht ausdrücklich verlangt, in der Klausur 29.04.2026 aber so geprüft.</sub>
 
-### Frage 4 · `frage-2025-12-11-4`
+**3. Skizzieren Sie den Stage-Gate-Prozess nach Cooper und erklären Sie die Funktionen der Stages und der Gates.**
 
-> Funktionen des Industriemanagements
+<sub>Originalwortlaut: „Stage-Gate-Prozess Cooper zeichnen und erklären“ · Thema: Stage-Gate-Prozess nach Cooper · Skript 6.2 · [Abbildung 37 (Skript S. 99)](../figures/reconstructed/abb-37.svg), [Abbildung 38 (Skript S. 100)](../figures/reconstructed/abb-38.svg) · zeichnen, wissen, verstehen · `frage-2025-12-11-3`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Funktionen und Kenngrößen des Industrie Managements (`industriemanagement-funktionen`)
-- **Skript-Abschnitte:** 7.1
-- **Abbildungen:** [Abbildung 40: Funktionen des Industrie Management](../figures/originals/abb-40.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Stichwortfrage; Abbildung 40 trägt den Titel 'Funktionen des Industrie Management'.
+<sub>Anmerkung: Abbildung 38 (Aufbau eines Gates) gehört zur Erklärung der Gates.</sub>
 
-### Frage 5 · `frage-2025-12-11-5`
+**4. Nennen und erläutern Sie die Funktionen des Industriemanagements nach Bleicher.**
 
-> ABC und Bestandsdilemma
+<sub>Originalwortlaut: „Funktionen des Industriemanagements“ · Thema: Funktionen und Kenngrößen des Industrie Managements · Skript 7.1 · Abbildung 40 (Skript S. 107) · wissen, verstehen · `frage-2025-12-11-4`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Bestandsdilemma und ABC-Analyse (`bestandsdilemma-abc-analyse`)
-- **Skript-Abschnitte:** 9.1.4
-- **Abbildungen:** [Abbildung 70: ABC Analyse](../figures/originals/abb-70.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Stichwortfrage (ABC-Analyse und Bestandsdilemma).
+<sub>Anmerkung: Stichwortfrage; Abbildung 40 trägt den Titel 'Funktionen des Industrie Management'.</sub>
 
-## 15.10.2025 – Fragensammlung (Gedächtnisprotokoll)
+**5. Erklären Sie das Bestandsdilemma und die ABC-Analyse. Skizzieren Sie das Diagramm der ABC-Analyse.**
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, nur Stichworte, keine Punkte.
+<sub>Originalwortlaut: „ABC und Bestandsdilemma“ · Thema: Bestandsdilemma und ABC-Analyse · Skript 9.1.4 · [Abbildung 70 (Skript S. 159)](../figures/reconstructed/abb-70.svg) · wissen, verstehen, zeichnen · `frage-2025-12-11-5`</sub>
 
-### Frage 1 · `frage-2025-10-15-1`
+<sub>Anmerkung: Stichwortfrage (ABC-Analyse und Bestandsdilemma).</sub>
 
-> Strategien von Unternehmen: Differenzierung, Kostenführerschaft, Fokussierung
+## 15.10.2025 · Fragensammlung (Gedächtnisprotokoll)
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung) (`wettbewerbsstrategien-porter`)
-- **Skript-Abschnitte:** 2.1
-- **Abbildungen:** [Abbildung 5: Drei generische Strategien, die Unternehmen verfolgen können](../figures/originals/abb-05.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Entspricht den drei generischen Strategien nach Porter (Abbildung 5). Verwandte Aufzählung auch in Tabelle 4 (4.1.2), dort als Wettbewerbsfaktor.
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, nur Stichworte, keine Punkte.</sub>
 
-### Frage 2 · `frage-2025-10-15-2`
+**1. Beschreiben Sie die drei Wettbewerbsstrategien nach Porter: Differenzierung, Kostenführerschaft und Fokussierung.**
 
-> Strategische Standortplanung: externe und interne Faktoren
+<sub>Originalwortlaut: „Strategien von Unternehmen: Differenzierung, Kostenführerschaft, Fokussierung“ · Thema: Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung) · Skript 2.1 · Abbildung 5 (Skript S. 22) · wissen, verstehen · `frage-2025-10-15-1`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Standortplanung (strategisch, Raumsicht; interne und externe Treiber) (`standortplanung`)
-- **Skript-Abschnitte:** 8.1.1
-- **Abbildungen:** [Abbildung 43: Interne und externe Treiber für standortbezogene Reaktionen](../figures/originals/abb-43.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Abbildung 43 zeigt interne und externe Treiber für standortbezogene Reaktionen.
+<sub>Anmerkung: Entspricht den drei generischen Strategien nach Porter (Abbildung 5). Verwandte Aufzählung auch in Tabelle 4 (4.1.2), dort als Wettbewerbsfaktor.</sub>
 
-### Frage 3 · `frage-2025-10-15-3`
+**2. Nennen und erläutern Sie die externen und internen Faktoren, die Auslöser für eine strategische Standortplanung sein können.**
 
-> Suffizienz, Effizienz und Konsistenz (+Skizze)
+<sub>Originalwortlaut: „Strategische Standortplanung: externe und interne Faktoren“ · Thema: Standortplanung (strategisch, Raumsicht; interne und externe Treiber) · Skript 8.1.1 · Abbildung 43 (Skript S. 115) · wissen, verstehen · `frage-2025-10-15-2`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen, zeichnen
-- **Themen:** Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit) (`effizienz-konsistenz-suffizienz`)
-- **Skript-Abschnitte:** 8.3.3
-- **Abbildungen:** [Abbildung 57: Einfluss von Effizienz, Konsistenz und Suffizienz auf Aufwand und Ertrag](../figures/originals/abb-57.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Die Skizze entspricht Abbildung 57 (Einfluss auf Aufwand und Ertrag).
+<sub>Anmerkung: Abbildung 43 zeigt interne und externe Treiber für standortbezogene Reaktionen.</sub>
 
-### Frage 4 · `frage-2025-10-15-4`
+**3. Erklären Sie die Begriffe Suffizienz, Effizienz und Konsistenz im Kontext der ökologischen Nachhaltigkeit. Skizzieren Sie ihren Einfluss auf Aufwand und Ertrag in einem Diagramm.**
 
-> 4 Methoden der integrierten Produktentwicklung (methodisch, organisatorisch, technologisch, menschlich)
+<sub>Originalwortlaut: „Suffizienz, Effizienz und Konsistenz (+Skizze)“ · Thema: Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit) · Skript 8.3.3 · [Abbildung 57 (Skript S. 138)](../figures/reconstructed/abb-57.svg) · wissen, verstehen, zeichnen · `frage-2025-10-15-3`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Integrierte Produktentstehung (Arten der Integration, Kosten, Rahmenstruktur) (`integrierte-produktentstehung`)
-- **Skript-Abschnitte:** 5.6
-- **Abbildungen:** [Abbildung 28: Arten der Integration](../figures/originals/abb-28.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Zuordnung zu Abbildung 28 (Arten der Integration / Elemente und Methoden der Integrierten Produkterstellung) ist eine Einschätzung; das Skript benennt die vier Begriffe nicht wortgleich.
+<sub>Anmerkung: Die Skizze entspricht Abbildung 57 (Einfluss auf Aufwand und Ertrag).</sub>
 
-### Frage 5 · `frage-2025-10-15-5`
+**4. Nennen und erklären Sie die vier Arten der Integration in der integrierten Produktentwicklung: die methodische, organisatorische, technologische und menschliche Integration.**
 
-> Design Thinking Methode (IDEO)
+<sub>Originalwortlaut: „4 Methoden der integrierten Produktentwicklung (methodisch, organisatorisch, technologisch, menschlich)“ · Thema: Integrierte Produktentstehung (Arten der Integration, Kosten, Rahmenstruktur) · Skript 5.6 · Abbildung 28 (Skript S. 83) · wissen, verstehen · `frage-2025-10-15-4`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Design Thinking Methode (IDEO, 5-Step-Prozess) (`design-thinking`)
-- **Skript-Abschnitte:** 6.3
-- **Abbildungen:** [Abbildung 39: 5-Step Prozess des Design Thinking](../figures/originals/abb-39.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Stichwortfrage.
+<sub>Anmerkung: Zuordnung zu Abbildung 28 (Arten der Integration / Elemente und Methoden der Integrierten Produkterstellung) ist eine Einschätzung; das Skript benennt die vier Begriffe nicht wortgleich.</sub>
 
-## 16.06.2025 – Fragensammlung (Gedächtnisprotokoll)
+**5. Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses.**
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, nur Stichworte, keine Punkte.
+<sub>Originalwortlaut: „Design Thinking Methode (IDEO)“ · Thema: Design Thinking Methode (IDEO, 5-Step-Prozess) · Skript 6.3 · Abbildung 39 (Skript S. 102) · wissen, verstehen · `frage-2025-10-15-5`</sub>
 
-### Frage 1 · `frage-2025-06-16-1`
+<sub>Anmerkung: Stichwortfrage.</sub>
 
-> Haupteinteilung von Kosten
+## 16.06.2025 · Fragensammlung (Gedächtnisprotokoll)
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen
-- **Themen:** Kosten als Leistungsziel (Hauptkostenkategorien) (`kosten-produktion`)
-- **Skript-Abschnitte:** 9.3.5
-- **Skriptabdeckung:** nur teilweise im Skript
-- **Anmerkung:** Das Skript nennt nur die Hauptkategorien Personal-, Anlage- (inkl. Overhead) und Materialkosten (9.3.5). Eine ausdrückliche Einteilung etwa in Fix-/variable bzw. Einzel-/Gemeinkosten gibt das Skript nicht an (Fixkosten werden nur im Zusammenhang mit dem Skaleneffekt erwähnt); welche Einteilung gemeint war, ist unklar.
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, nur Stichworte, keine Punkte.</sub>
 
-### Frage 2 · `frage-2025-06-16-2`
+**1. Nennen Sie die Hauptkategorien, in die sich die Kosten der Produktion einteilen lassen.**
 
-> Innovationsprozess nach Cooper (Stage-Gate)
+<sub>Originalwortlaut: „Haupteinteilung von Kosten“ · Thema: Kosten als Leistungsziel (Hauptkostenkategorien) · Skript 9.3.5 · wissen · nur teilweise im Skript · `frage-2025-06-16-1`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Stage-Gate-Prozess nach Cooper (`stage-gate-cooper`)
-- **Skript-Abschnitte:** 6.2
-- **Abbildungen:** [Abbildung 37: Stage-Gate-Prozess nach Cooper](../figures/originals/abb-37.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Stichwortfrage; Zeichnen nicht ausdrücklich verlangt, aber naheliegend (vgl. 11.12.2025).
+<sub>Anmerkung: Das Skript nennt nur die Hauptkategorien Personal-, Anlage- (inkl. Overhead) und Materialkosten (9.3.5). Eine ausdrückliche Einteilung etwa in Fix-/variable bzw. Einzel-/Gemeinkosten gibt das Skript nicht an (Fixkosten werden nur im Zusammenhang mit dem Skaleneffekt erwähnt); welche Einteilung gemeint war, ist unklar.</sub>
 
-### Frage 3 · `frage-2025-06-16-3`
+**2. Skizzieren Sie den Innovationsprozess nach Cooper als Stage-Gate-Prozess und erklären Sie die Funktionen der Stages und der Gates.**
 
-> Drei Phasen des Entrepreneurship-Prozess
+<sub>Originalwortlaut: „Innovationsprozess nach Cooper (Stage-Gate)“ · Thema: Stage-Gate-Prozess nach Cooper · Skript 6.2 · [Abbildung 37 (Skript S. 99)](../figures/reconstructed/abb-37.svg) · wissen, verstehen, zeichnen · `frage-2025-06-16-2`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Entrepreneurship-Prozess (Erkennungs-, Entwicklungs-, Umsetzungsphase) (`entrepreneurship-prozess`)
-- **Skript-Abschnitte:** 4.2.4
-- **Abbildungen:** [Abbildung 22: Entrepreneurship-Prozess](../figures/originals/abb-22.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Erkennungs-, Entwicklungs- und Umsetzungsphase.
+<sub>Anmerkung: Stichwortfrage; Zeichnen nicht ausdrücklich verlangt, aber naheliegend (vgl. 11.12.2025).</sub>
 
-### Frage 4 · `frage-2025-06-16-4`
+**3. Nennen und beschreiben Sie die drei Phasen des Entrepreneurship-Prozesses.**
 
-> Planungsgrundfälle
+<sub>Originalwortlaut: „Drei Phasen des Entrepreneurship-Prozess“ · Thema: Entrepreneurship-Prozess (Erkennungs-, Entwicklungs-, Umsetzungsphase) · Skript 4.2.4 · Abbildung 22 (Skript S. 69) · wissen, verstehen · `frage-2025-06-16-3`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen
-- **Themen:** Fabrikplanung und Planungsgrundfälle nach Grundig (`fabrikplanung-planungsgrundfaelle`)
-- **Skript-Abschnitte:** 8.2
-- **Abbildungen:** [Abbildung 44: Planungsgrundfälle nach Grundig](../figures/originals/abb-44.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Planungsgrundfälle der Fabrikplanung nach Grundig (Abbildung 44).
+<sub>Anmerkung: Erkennungs-, Entwicklungs- und Umsetzungsphase.</sub>
 
-### Frage 5 · `frage-2025-06-16-5`
+**4. Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig.**
 
-> Primär, sekundär, tertiät, brutto, nettobedarf
+<sub>Originalwortlaut: „Planungsgrundfälle“ · Thema: Fabrikplanung und Planungsgrundfälle nach Grundig · Skript 8.2 · [Abbildung 44 (Skript S. 117)](../figures/reconstructed/abb-44.svg) · wissen · `frage-2025-06-16-4`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** definition · **Kompetenzen:** wissen, verstehen
-- **Themen:** Materialklassen und Bedarfsarten (primär, sekundär, tertiär, Brutto-/Nettobedarf) (`materialklassen-bedarfsarten`)
-- **Skript-Abschnitte:** 9.1.3.1
-- **Abbildungen:** [Abbildung 69: Materialbedarf](../figures/originals/abb-69.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Schreibweise 'tertiät' aus dem Protokoll übernommen.
+<sub>Anmerkung: Planungsgrundfälle der Fabrikplanung nach Grundig (Abbildung 44).</sub>
 
-## 09.04.2025 – Fragensammlung (Gedächtnisprotokoll)
+**5. Definieren Sie die Begriffe Primärbedarf, Sekundärbedarf und Tertiärbedarf sowie Bruttobedarf und Nettobedarf.**
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, keine Punkte.
+<sub>Originalwortlaut: „Primär, sekundär, tertiät, brutto, nettobedarf“ · Thema: Materialklassen und Bedarfsarten (primär, sekundär, tertiär, Brutto-/Nettobedarf) · Skript 9.1.3.1 · Abbildung 69 (Skript S. 157) · wissen, verstehen · `frage-2025-06-16-5`</sub>
 
-### Frage 1 · `frage-2025-04-09-1`
+<sub>Anmerkung: Schreibweise 'tertiät' aus dem Protokoll übernommen.</sub>
 
-> Mindestens 4 Innovationsbarrieren nennen + beschreiben
+## 09.04.2025 · Fragensammlung (Gedächtnisprotokoll)
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Innovationsbarrieren und deren Überwindung (`innovationsbarrieren`)
-- **Skript-Abschnitte:** 4.1.3
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Das Skript beschreibt sechs ausgewählte Barrieren (u. a. fehlende Motivation zur Zusammenarbeit, Aufgabenunsicherheit, Ressourcenallokation, Nicht-Wissen, Nicht-Wollen).
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, keine Punkte.</sub>
 
-### Frage 2 · `frage-2025-04-09-2`
+**1. Nennen und beschreiben Sie mindestens vier Innovationsbarrieren.**
 
-> Produktlebenszyklus Diagramm
+<sub>Originalwortlaut: „Mindestens 4 Innovationsbarrieren nennen + beschreiben“ · Thema: Innovationsbarrieren und deren Überwindung · Skript 4.1.3 · wissen, verstehen · `frage-2025-04-09-1`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** zeichnung · **Kompetenzen:** zeichnen, wissen
-- **Themen:** Produktlebenszyklus (`produktlebenszyklus`)
-- **Skript-Abschnitte:** 2.5.1
-- **Abbildungen:** [Abbildung 8: Produktlebenszyklus](../figures/originals/abb-08.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+<sub>Anmerkung: Das Skript beschreibt sechs ausgewählte Barrieren (u. a. fehlende Motivation zur Zusammenarbeit, Aufgabenunsicherheit, Ressourcenallokation, Nicht-Wissen, Nicht-Wollen).</sub>
 
-### Frage 3 · `frage-2025-04-09-3`
+**2. Skizzieren Sie den typischen Verlauf des Produktlebenszyklus als Diagramm und kennzeichnen Sie darin seine Phasen.**
 
-> Dilemma der Ablaufplanung erklären
+<sub>Originalwortlaut: „Produktlebenszyklus Diagramm“ · Thema: Produktlebenszyklus · Skript 2.5.1 · [Abbildung 8 (Skript S. 31)](../figures/reconstructed/abb-08.svg) · zeichnen, wissen · `frage-2025-04-09-2`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand) (`dilemma-ablaufplanung`)
-- **Skript-Abschnitte:** 9.2.2
-- **Abbildungen:** [Abbildung 79: Dilemma der Ablaufplanung](../figures/originals/abb-79.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Weitere Abbildungen zum Dilemma (80 bis 82) vertiefen es; hier nur die Grundabbildung zugeordnet.
+**3. Erklären Sie das Dilemma der Ablaufplanung.**
 
-### Frage 4 · `frage-2025-04-09-4`
+<sub>Originalwortlaut: „Dilemma der Ablaufplanung erklären“ · Thema: Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand) · Skript 9.2.2 · Abbildung 79 (Skript S. 168) · wissen, verstehen · `frage-2025-04-09-3`</sub>
 
-> Fertigungsarten aufzählen + erklären
+<sub>Anmerkung: Weitere Abbildungen zum Dilemma (80 bis 82) vertiefen es; hier nur die Grundabbildung zugeordnet.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Produktionssysteme (Produktionsarten und Fertigungsformen) (`produktionsarten-fertigungsformen`)
-- **Skript-Abschnitte:** 8.2.1
-- **Abbildungen:** [Abbildung 45: Typologisierung von Produktionssystemen](../figures/originals/abb-45.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Unsicher, ob Produktionsarten (Einmal-/Einzel-/Serien-/Massenfertigung) oder Fertigungsformen (Punkt-/Werkstatt-/Gruppen-/Reihen-/Fließfertigung) gemeint sind; Abbildung 45 zeigt beide Gliederungen.
+**4. Nennen Sie die Fertigungsarten und erklären Sie diese.**
 
-### Frage 5 · `frage-2025-04-09-5`
+<sub>Originalwortlaut: „Fertigungsarten aufzählen + erklären“ · Thema: Produktionssysteme (Produktionsarten und Fertigungsformen) · Skript 8.2.1 · [Abbildung 45 (Skript S. 119)](../figures/reconstructed/abb-45.svg) · wissen, verstehen · `frage-2025-04-09-4`</sub>
 
-> 3 Prinzipien von Simultaneous Engineering aufzählen und erklären
+<sub>Anmerkung: Unsicher, ob Produktionsarten (Einmal-/Einzel-/Serien-/Massenfertigung) oder Fertigungsformen (Punkt-/Werkstatt-/Gruppen-/Reihen-/Fließfertigung) gemeint sind; Abbildung 45 zeigt beide Gliederungen.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Simultaneous / Concurrent Engineering (Prinzipien, magisches Dreieck) (`simultaneous-engineering`)
-- **Skript-Abschnitte:** 5.6
-- **Abbildungen:** [Abbildung 30: Systematik des Simultaneous Engineering](../figures/originals/abb-30.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Im Skript: Parallelisierung, Integration, Standardisierung.
+**5. Nennen und erklären Sie die drei Prinzipien des Simultaneous Engineering.**
 
-## 18.03.2025 – Fragensammlung (Gedächtnisprotokoll)
+<sub>Originalwortlaut: „3 Prinzipien von Simultaneous Engineering aufzählen und erklären“ · Thema: Simultaneous / Concurrent Engineering (Prinzipien, magisches Dreieck) · Skript 5.6 · Abbildung 30 (Skript S. 85) · wissen, verstehen · `frage-2025-04-09-5`</sub>
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, keine Punkte.
+<sub>Anmerkung: Im Skript: Parallelisierung, Integration, Standardisierung.</sub>
 
-### Frage 1 · `frage-2025-03-18-1`
+## 18.03.2025 · Fragensammlung (Gedächtnisprotokoll)
 
-> Benennen Sie die unterschiedlichen Arten der Innovation
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, keine Punkte.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen
-- **Themen:** Arten der Innovation (Prozess-, System-, nicht-technische und postindustrielle Innovation) (`innovationsarten`); Produktinnovation (Kategorien neuer Produkte, Portfolio) (`produktinnovation`)
-- **Skript-Abschnitte:** 2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Gliederung des Skripts 2.5: Produktinnovation, Prozessinnovation, Innovation von Systemeigenschaften, Innovation jenseits der Technik, Postindustrielle Innovation.
+**1. Nennen Sie die unterschiedlichen Arten der Innovation.**
 
-### Frage 2 · `frage-2025-03-18-2`
+<sub>Originalwortlaut: „Benennen Sie die unterschiedlichen Arten der Innovation“ · Thema: Arten der Innovation (Prozess-, System-, nicht-technische und postindustrielle Innovation), Produktinnovation (Kategorien neuer Produkte, Portfolio) · Skript 2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5 · wissen · `frage-2025-03-18-1`</sub>
 
-> Skizzieren und bennen Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)
+<sub>Anmerkung: Gliederung des Skripts 2.5: Produktinnovation, Prozessinnovation, Innovation von Systemeigenschaften, Innovation jenseits der Technik, Postindustrielle Innovation.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** zeichnung · **Kompetenzen:** zeichnen, wissen
-- **Themen:** Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm) (`integrationsbereiche-innovationsprozess-produktentwicklung`)
-- **Skript-Abschnitte:** 5.6
-- **Abbildungen:** [Abbildung 35: Integrationsbereiche der Themen Innovationsprozess & Produktentwicklung](../figures/originals/abb-35.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Schreibfehler 'bennen' aus dem Protokoll übernommen.
+**2. Skizzieren Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung als Venn-Diagramm und benennen Sie die einzelnen Bereiche.**
 
-### Frage 3 · `frage-2025-03-18-3`
+<sub>Originalwortlaut: „Skizzieren und bennen Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)“ · Thema: Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm) · Skript 5.6 · [Abbildung 35 (Skript S. 93)](../figures/reconstructed/abb-35.svg) · zeichnen, wissen · `frage-2025-03-18-2`</sub>
 
-> Wie ist der Begriff „Industrieunternehmen“ definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?
+<sub>Anmerkung: Schreibfehler 'bennen' aus dem Protokoll übernommen.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** definition · **Kompetenzen:** wissen, verstehen, vergleichen
-- **Themen:** Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten) (`industriebetrieb-abgrenzung`)
-- **Skript-Abschnitte:** 3.1.1, 3.3
-- **Abbildungen:** [Abbildung 12: Industriebetriebe im System der Wirtschaftseinheiten](../figures/originals/abb-12.png); [Abbildung 13: Abgrenzung zwischen Industrie- und Dienstleistungsbetrieb](../figures/originals/abb-13.png); [Abbildung 14: Abgrenzung zwischen Industriebetrieben und Werkstätten](../figures/originals/abb-14.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Abgrenzung zu Dienstleistungsbetrieb und Werkstätte (Abbildungen 13, 14) sowie im System der Wirtschaftseinheiten (Abbildung 12).
+**3. Definieren Sie den Begriff Industrieunternehmen. Grenzen Sie Industrieunternehmen von anderen Wirtschaftseinheiten ab.**
 
-### Frage 4 · `frage-2025-03-18-4`
+<sub>Originalwortlaut: „Wie ist der Begriff „Industrieunternehmen“ definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?“ · Thema: Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten) · Skript 3.1.1, 3.3 · Abbildung 12 (Skript S. 47), Abbildung 13 (Skript S. 49), Abbildung 14 (Skript S. 49) · wissen, verstehen, vergleichen · `frage-2025-03-18-3`</sub>
 
-> Gesamtanlageneffektivität
+<sub>Anmerkung: Abgrenzung zu Dienstleistungsbetrieb und Werkstätte (Abbildungen 13, 14) sowie im System der Wirtschaftseinheiten (Abbildung 12).</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Gesamtanlageneffektivität (OEE) (`gesamtanlageneffektivitaet`)
-- **Skript-Abschnitte:** 9.1.7
-- **Abbildungen:** [Abbildung 74: Gesamtanlageneffektivität](../figures/originals/abb-74.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Nur Stichwort; vgl. frage-2026-01-22-5.
+**4. Definieren Sie die Gesamtanlageneffektivität und erklären Sie, aus welchen Kenngrößen sie sich zusammensetzt und wie sie berechnet wird.**
 
-### Frage 5 · `frage-2025-03-18-5`
+<sub>Originalwortlaut: „Gesamtanlageneffektivität“ · Thema: Gesamtanlageneffektivität (OEE) · Skript 9.1.7 · Abbildung 74 (Skript S. 163) · wissen, verstehen · `frage-2025-03-18-4`</sub>
 
-> Effizienz, Suffizienz, Konsistenz
+<sub>Anmerkung: Nur Stichwort; vgl. frage-2026-01-22-5.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit) (`effizienz-konsistenz-suffizienz`)
-- **Skript-Abschnitte:** 8.3.3
-- **Abbildungen:** [Abbildung 57: Einfluss von Effizienz, Konsistenz und Suffizienz auf Aufwand und Ertrag](../figures/originals/abb-57.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+**5. Erklären Sie die Begriffe Effizienz, Suffizienz und Konsistenz im Kontext der ökologischen Nachhaltigkeit und skizzieren Sie ihren Einfluss auf Aufwand und Ertrag.**
 
-## 04.02.2025 – Fragensammlung (Gedächtnisprotokoll)
+<sub>Originalwortlaut: „Effizienz, Suffizienz, Konsistenz“ · Thema: Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit) · Skript 8.3.3 · [Abbildung 57 (Skript S. 138)](../figures/reconstructed/abb-57.svg) · wissen, verstehen, zeichnen · `frage-2025-03-18-5`</sub>
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, keine Punkte.
+## 04.02.2025 · Fragensammlung (Gedächtnisprotokoll)
 
-### Frage 1 · `frage-2025-02-04-1`
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, keine Punkte.</sub>
 
-> Ansoff-Matrix
+**1. Skizzieren Sie die Ansoff-Matrix und erklären Sie die vier Strategieoptionen, die sich aus ihr ergeben.**
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen, zeichnen
-- **Themen:** Ansoff-Matrix (Wachstumsstrategien) (`ansoff-matrix`)
-- **Skript-Abschnitte:** 2.5.1
-- **Abbildungen:** [Abbildung 11: Ansoff Matrix](../figures/originals/abb-11.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Nur Stichwort; Skizze nicht ausdrücklich verlangt, aber in der Klausur 29.04.2026 so geprüft.
+<sub>Originalwortlaut: „Ansoff-Matrix“ · Thema: Ansoff-Matrix (Wachstumsstrategien) · Skript 2.5.1 · [Abbildung 11 (Skript S. 38)](../figures/reconstructed/abb-11.svg) · wissen, verstehen, zeichnen · `frage-2025-02-04-1`</sub>
 
-### Frage 2 · `frage-2025-02-04-2`
+<sub>Anmerkung: Nur Stichwort; Skizze nicht ausdrücklich verlangt, aber in der Klausur 29.04.2026 so geprüft.</sub>
 
-> Gozintograph
+**2. Erklären Sie, was ein Gozintograph darstellt und wozu er in der Materialbedarfsplanung eingesetzt wird.**
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Materialbedarfsplanung und Gozintograph (`gozintograph-materialbedarfsplanung`)
-- **Skript-Abschnitte:** 9.1.3
-- **Abbildungen:** [Abbildung 66: Gozintograph](../figures/originals/abb-66.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Nur Stichwort; Erklärung bzw. Zeichnen eines Gozintographen angenommen, eine Bedarfsrechnung ist nicht ausgeschlossen (unsicher).
+<sub>Originalwortlaut: „Gozintograph“ · Thema: Materialbedarfsplanung und Gozintograph · Skript 9.1.3 · Abbildung 66 (Skript S. 155) · wissen, verstehen · `frage-2025-02-04-2`</sub>
 
-### Frage 3 · `frage-2025-02-04-3`
+<sub>Anmerkung: Nur Stichwort; Erklärung bzw. Zeichnen eines Gozintographen angenommen, eine Bedarfsrechnung ist nicht ausgeschlossen (unsicher).</sub>
 
-> Total Quality Management, Six Sigma, Statistische Prozesskontrolle
+**3. Erklären Sie die Methoden des Qualitätsmanagements Total Quality Management, Six Sigma und statistische Prozesskontrolle.**
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC) (`qualitaetsmanagement`)
-- **Skript-Abschnitte:** 9.3.1
-- **Skriptabdeckung:** durch das Skript abgedeckt
+<sub>Originalwortlaut: „Total Quality Management, Six Sigma, Statistische Prozesskontrolle“ · Thema: Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC) · Skript 9.3.1 · wissen, verstehen · `frage-2025-02-04-3`</sub>
 
-### Frage 4 · `frage-2025-02-04-4`
+**4. Nennen Sie sechs Kriterien für Innovationsstrategien.**
 
-> 6 Kriterien für Innovationsstrategien
+<sub>Originalwortlaut: „6 Kriterien für Innovationsstrategien“ · Thema: Innovationsstrategie (Kriterien) · Skript 4.1.2 · Tabelle 4 (Skript S. 62) · wissen · nur teilweise im Skript · `frage-2025-02-04-4`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen
-- **Themen:** Innovationsstrategie (Kriterien) (`innovationsstrategie`)
-- **Skript-Abschnitte:** 4.1.2
-- **Abbildungen:** [Tabelle 4: Kriterien für Innovationsstrategien](../figures/originals/tab-04.png)
-- **Skriptabdeckung:** nur teilweise im Skript
-- **Anmerkung:** Tabelle 4 im Skript v2.0 listet acht Kriterien, die Frage verlangt sechs (Protokollfehler oder frühere Skriptfassung).
+<sub>Anmerkung: Tabelle 4 im Skript v2.0 listet acht Kriterien, die Frage verlangt sechs (Protokollfehler oder frühere Skriptfassung).</sub>
 
-### Frage 5 · `frage-2025-02-04-5`
+**5. Definieren Sie Nachhaltigkeit nach der Brundtland-Kommission. Nennen und erklären Sie die drei Prinzipien des Sustainable Development.**
 
-> Definition von Nachhaltigkeit laut Brundlandt-Kommission + drei Prinzipien des Sustainable Developments
+<sub>Originalwortlaut: „Definition von Nachhaltigkeit laut Brundlandt-Kommission + drei Prinzipien des Sustainable Developments“ · Thema: Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs) · Skript 8.3, 8.3.1 · wissen, verstehen · `frage-2025-02-04-5`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** definition · **Kompetenzen:** wissen, verstehen
-- **Themen:** Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs) (`nachhaltigkeit-grundlagen`)
-- **Skript-Abschnitte:** 8.3, 8.3.1
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Brundtland-Definition am Beginn von 8.3; die drei Prinzipien (Verantwortungs-, Kooperations-, Kreislaufprinzip) in 8.3.1. Schreibweise 'Brundlandt' aus dem Protokoll.
+<sub>Anmerkung: Brundtland-Definition am Beginn von 8.3; die drei Prinzipien (Verantwortungs-, Kooperations-, Kreislaufprinzip) in 8.3.1. Schreibweise 'Brundlandt' aus dem Protokoll.</sub>
 
-## 10.12.2024 – Fragensammlung (Gedächtnisprotokoll)
+## 10.12.2024 · Fragensammlung (Gedächtnisprotokoll)
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, nur Stichworte, keine Punkte.
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, nur Stichworte, keine Punkte.</sub>
 
-### Frage 1 · `frage-2024-12-10-1`
+**1. Beschreiben Sie die Phasen des Produktlebenszyklus und skizzieren Sie seinen typischen Verlauf als Diagramm.**
 
-> Produktlebenszyklus
+<sub>Originalwortlaut: „Produktlebenszyklus“ · Thema: Produktlebenszyklus · Skript 2.5.1 · [Abbildung 8 (Skript S. 31)](../figures/reconstructed/abb-08.svg) · wissen, verstehen, zeichnen · `frage-2024-12-10-1`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen, zeichnen
-- **Themen:** Produktlebenszyklus (`produktlebenszyklus`)
-- **Skript-Abschnitte:** 2.5.1
-- **Abbildungen:** [Abbildung 8: Produktlebenszyklus](../figures/originals/abb-08.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Nur Stichwort.
+<sub>Anmerkung: Nur Stichwort.</sub>
 
-### Frage 2 · `frage-2024-12-10-2`
+**2. Nennen und erklären Sie die vier Haupttreiber für Produktinnovationen nach Cooper.**
 
-> 4 Innovationstreiber nach Cooper
+<sub>Originalwortlaut: „4 Innovationstreiber nach Cooper“ · Thema: Treiber und kritische Erfolgsfaktoren von Produktinnovationen (Cooper) · Skript 2.5.1 · wissen, verstehen · `frage-2024-12-10-2`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Treiber und kritische Erfolgsfaktoren von Produktinnovationen (Cooper) (`treiber-erfolgsfaktoren-produktinnovation`)
-- **Skript-Abschnitte:** 2.5.1
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Cooper-Treiber stehen im Skript bei den Erfolgsfaktoren von Produktinnovationen (2.5.1): technologischer Fortschritt, veränderte Kundenanforderungen, kürzere Produktlebenszyklen, globaler Wettbewerb. Nicht zu verwechseln mit Mega-/Makro-/Mikrotrends in 2.4.
+<sub>Anmerkung: Cooper-Treiber stehen im Skript bei den Erfolgsfaktoren von Produktinnovationen (2.5.1): technologischer Fortschritt, veränderte Kundenanforderungen, kürzere Produktlebenszyklen, globaler Wettbewerb. Nicht zu verwechseln mit Mega-/Makro-/Mikrotrends in 2.4.</sub>
 
-### Frage 3 · `frage-2024-12-10-3`
+**3. Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses.**
 
-> Design Thinking Methode (IDEO)
+<sub>Originalwortlaut: „Design Thinking Methode (IDEO)“ · Thema: Design Thinking Methode (IDEO, 5-Step-Prozess) · Skript 6.3 · Abbildung 39 (Skript S. 102) · wissen, verstehen · `frage-2024-12-10-3`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Design Thinking Methode (IDEO, 5-Step-Prozess) (`design-thinking`)
-- **Skript-Abschnitte:** 6.3
-- **Abbildungen:** [Abbildung 39: 5-Step Prozess des Design Thinking](../figures/originals/abb-39.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+**4. Nennen und beschreiben Sie die Typologien von Produktionsprozessen nach Produktionsart und Fertigungsform.**
 
-### Frage 4 · `frage-2024-12-10-4`
+<sub>Originalwortlaut: „Typologien der Produktionsprozesse“ · Thema: Produktionssysteme (Produktionsarten und Fertigungsformen) · Skript 8.2.1 · [Abbildung 45 (Skript S. 119)](../figures/reconstructed/abb-45.svg), [Abbildung 46 (Skript S. 121)](../figures/reconstructed/abb-46.svg) · wissen, verstehen · `frage-2024-12-10-4`</sub>
 
-> Typologien der Produktionsprozesse
+<sub>Anmerkung: Stichwort; gemeint sind vermutlich Produktionsarten und Fertigungsformen (Abbildung 45) bzw. deren Einordnung (Abbildung 46) - unsicher.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Produktionssysteme (Produktionsarten und Fertigungsformen) (`produktionsarten-fertigungsformen`)
-- **Skript-Abschnitte:** 8.2.1
-- **Abbildungen:** [Abbildung 45: Typologisierung von Produktionssystemen](../figures/originals/abb-45.png); [Abbildung 46: Einordnung der Produktionsarten](../figures/originals/abb-46.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Stichwort; gemeint sind vermutlich Produktionsarten und Fertigungsformen (Abbildung 45) bzw. deren Einordnung (Abbildung 46) - unsicher.
+**5. Erklären Sie das Dilemma der Ablaufplanung.**
 
-### Frage 5 · `frage-2024-12-10-5`
+<sub>Originalwortlaut: „Dilemma der Ablaufplanung“ · Thema: Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand) · Skript 9.2.2 · Abbildung 79 (Skript S. 168) · wissen, verstehen · `frage-2024-12-10-5`</sub>
 
-> Dilemma der Ablaufplanung
+## 15.10.2024 · Fragensammlung (Gedächtnisprotokoll)
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand) (`dilemma-ablaufplanung`)
-- **Skript-Abschnitte:** 9.2.2
-- **Abbildungen:** [Abbildung 79: Dilemma der Ablaufplanung](../figures/originals/abb-79.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, nur Stichworte, keine Punkte.</sub>
 
-## 15.10.2024 – Fragensammlung (Gedächtnisprotokoll)
+**1. Definieren Sie die Begriffe Invention, Innovation, Imitation und Modifikation und grenzen Sie sie voneinander ab.**
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, nur Stichworte, keine Punkte.
+<sub>Originalwortlaut: „Invention, Innovation, Imitation und Modifikation“ · Thema: Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation) · Skript 2.2 · wissen, verstehen, vergleichen · `frage-2024-10-15-1`</sub>
 
-### Frage 1 · `frage-2024-10-15-1`
+<sub>Anmerkung: Stichwort; Abgrenzung der vier Begriffe voneinander ist naheliegend.</sub>
 
-> Invention, Innovation, Imitation und Modifikation
+**2. Erklären Sie die ABC-Analyse und skizzieren Sie das zugehörige Diagramm.**
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** definition · **Kompetenzen:** wissen, verstehen, vergleichen
-- **Themen:** Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation) (`innovationsbegriffe`)
-- **Skript-Abschnitte:** 2.2
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Stichwort; Abgrenzung der vier Begriffe voneinander ist naheliegend.
+<sub>Originalwortlaut: „ABC-Analyse“ · Thema: Bestandsdilemma und ABC-Analyse · Skript 9.1.4 · [Abbildung 70 (Skript S. 159)](../figures/reconstructed/abb-70.svg) · wissen, verstehen, zeichnen · `frage-2024-10-15-2`</sub>
 
-### Frage 2 · `frage-2024-10-15-2`
+**3. Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig.**
 
-> ABC-Analyse
+<sub>Originalwortlaut: „Planungsgrundfälle in der Fabrikplanung“ · Thema: Fabrikplanung und Planungsgrundfälle nach Grundig · Skript 8.2 · [Abbildung 44 (Skript S. 117)](../figures/reconstructed/abb-44.svg) · wissen · `frage-2024-10-15-3`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Bestandsdilemma und ABC-Analyse (`bestandsdilemma-abc-analyse`)
-- **Skript-Abschnitte:** 9.1.4
-- **Abbildungen:** [Abbildung 70: ABC Analyse](../figures/originals/abb-70.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+**4. Nennen und beschreiben Sie die drei Innovationsförderer nach Witte, die als Akteure im Innovationsmanagement auftreten.**
 
-### Frage 3 · `frage-2024-10-15-3`
+<sub>Originalwortlaut: „Innovationsförderer (Akteure) im Innovationsmanagement“ · Thema: Innovationsmanagement und seine Akteure (Technologie-, Macht-, Prozessförderer) · Skript 4.1.1 · wissen, verstehen · `frage-2024-10-15-4`</sub>
 
-> Planungsgrundfälle in der Fabrikplanung
+<sub>Anmerkung: Im Skript: Technologie-, Macht- und Prozessförderer nach Witte.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen
-- **Themen:** Fabrikplanung und Planungsgrundfälle nach Grundig (`fabrikplanung-planungsgrundfaelle`)
-- **Skript-Abschnitte:** 8.2
-- **Abbildungen:** [Abbildung 44: Planungsgrundfälle nach Grundig](../figures/originals/abb-44.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+**5. Definieren Sie Nachhaltigkeit nach der Brundtland-Kommission und erklären Sie den Begriff Sustainable Development.**
 
-### Frage 4 · `frage-2024-10-15-4`
+<sub>Originalwortlaut: „Definition Nachhaltigkeit laut Brundlandt Kommission + Erklärung Sustainable Development“ · Thema: Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs) · Skript 8.3, 8.3.1 · wissen, verstehen · `frage-2024-10-15-5`</sub>
 
-> Innovationsförderer (Akteure) im Innovationsmanagement
+## 20.06.2024 · Fragensammlung (Gedächtnisprotokoll)
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Innovationsmanagement und seine Akteure (Technologie-, Macht-, Prozessförderer) (`innovationsmanagement-akteure`)
-- **Skript-Abschnitte:** 4.1.1
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Im Skript: Technologie-, Macht- und Prozessförderer nach Witte.
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, nur Stichworte, keine Punkte.</sub>
 
-### Frage 5 · `frage-2024-10-15-5`
+**1. Definieren Sie die Begriffe Innovation, Invention, Imitation und Modifikation.**
 
-> Definition Nachhaltigkeit laut Brundlandt Kommission + Erklärung Sustainable Development
+<sub>Originalwortlaut: „Definitionen: Innovation, Invention, Imitation, Modifikation“ · Thema: Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation) · Skript 2.2 · wissen, verstehen · `frage-2024-06-20-1`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** definition · **Kompetenzen:** wissen, verstehen
-- **Themen:** Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs) (`nachhaltigkeit-grundlagen`)
-- **Skript-Abschnitte:** 8.3, 8.3.1
-- **Skriptabdeckung:** durch das Skript abgedeckt
+**2. Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses.**
 
-## 20.06.2024 – Fragensammlung (Gedächtnisprotokoll)
+<sub>Originalwortlaut: „Design Thinking Methode (IDEO)“ · Thema: Design Thinking Methode (IDEO, 5-Step-Prozess) · Skript 6.3 · Abbildung 39 (Skript S. 102) · wissen, verstehen · `frage-2024-06-20-2`</sub>
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, nur Stichworte, keine Punkte.
+**3. Definieren Sie den Begriff Fabrik. Beschreiben Sie das Planungsvorgehen der Fabrikplanung nach Grundig und erklären Sie dabei die Layoutplanung mit Ideal- und Realplanung.**
 
-### Frage 1 · `frage-2024-06-20-1`
+<sub>Originalwortlaut: „Planungsvorgehen – Layoutplanung und Realplanung und erklären von Fabrik“ · Thema: Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung) · Skript 8.2.2, 8.2.5.3, 8.2.6 · [Abbildung 51 (Skript S. 125)](../figures/reconstructed/abb-51.svg), Abbildung 53 (Skript S. 129) · wissen, verstehen · `frage-2024-06-20-3`</sub>
 
-> Definitionen: Innovation, Invention, Imitation, Modifikation
+<sub>Anmerkung: Wortlaut unklar ('erklären von Fabrik'); vermutlich Planungsvorgehen nach Grundig mit Schwerpunkt Layoutplanung/Realplanung. Zuordnung unsicher.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** definition · **Kompetenzen:** wissen, verstehen
-- **Themen:** Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation) (`innovationsbegriffe`)
-- **Skript-Abschnitte:** 2.2
-- **Skriptabdeckung:** durch das Skript abgedeckt
+**4. Nennen und beschreiben Sie die Arten der Flexibilität.**
 
-### Frage 2 · `frage-2024-06-20-2`
+<sub>Originalwortlaut: „Arten der Flexibilität“ · Thema: Flexibilität (Arten der Flexibilität) · Skript 9.3.4 · Tabelle 7 (Skript S. 177) · wissen, verstehen · `frage-2024-06-20-4`</sub>
 
-> Design Thinking Methode (IDEO)
+<sub>Anmerkung: Im Skript: Produkt-, Misch-, Volumen- und Lieferflexibilität.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Design Thinking Methode (IDEO, 5-Step-Prozess) (`design-thinking`)
-- **Skript-Abschnitte:** 6.3
-- **Abbildungen:** [Abbildung 39: 5-Step Prozess des Design Thinking](../figures/originals/abb-39.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+**5. Beschreiben Sie das Spannungsfeld des unternehmerischen Wirkens und skizzieren Sie es.**
 
-### Frage 3 · `frage-2024-06-20-3`
+<sub>Originalwortlaut: „Beschreibung Spannungsfeld unternemerischen Wirkens“ · Thema: Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens) · Skript 8.3.2 · Abbildung 56 (Skript S. 134) · wissen, verstehen, zeichnen · `frage-2024-06-20-5`</sub>
 
-> Planungsvorgehen – Layoutplanung und Realplanung und erklären von Fabrik
+<sub>Anmerkung: Schreibfehler 'unternemerischen' aus dem Protokoll. Zeichnen nicht ausdrücklich verlangt; in der Klausur 29.04.2026 aber als Skizze geprüft.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung) (`fabrikplanung-planungsvorgehen`)
-- **Skript-Abschnitte:** 8.2.2, 8.2.5.3, 8.2.6
-- **Abbildungen:** [Abbildung 51: Planungsvorgehen nach Grundig](../figures/originals/abb-51.png); [Abbildung 53: Einschränkungen Realplanung](../figures/originals/abb-53.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Wortlaut unklar ('erklären von Fabrik'); vermutlich Planungsvorgehen nach Grundig mit Schwerpunkt Layoutplanung/Realplanung. Zuordnung unsicher.
+## 14.03.2024 · Fragensammlung (Gedächtnisprotokoll)
 
-### Frage 4 · `frage-2024-06-20-4`
+<sub>Gedächtnisprotokoll von Studierenden, unverifiziert. Gedächtnisprotokoll, nur Stichworte, keine Punkte.</sub>
 
-> Arten der Flexibilität
+**1. Beschreiben Sie die drei Wettbewerbsstrategien nach Porter.**
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Flexibilität (Arten der Flexibilität) (`flexibilitaet`)
-- **Skript-Abschnitte:** 9.3.4
-- **Abbildungen:** [Tabelle 7: Arten der Flexibilität](../figures/originals/tab-07.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Im Skript: Produkt-, Misch-, Volumen- und Lieferflexibilität.
+<sub>Originalwortlaut: „Strategien nach Porter beschreiben“ · Thema: Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung) · Skript 2.1 · Abbildung 5 (Skript S. 22) · wissen, verstehen · `frage-2024-03-14-1`</sub>
 
-### Frage 5 · `frage-2024-06-20-5`
+**2. Nennen und beschreiben Sie die Produktionsarten.**
 
-> Beschreibung Spannungsfeld unternemerischen Wirkens
+<sub>Originalwortlaut: „Produktionsarten beschreiben“ · Thema: Produktionssysteme (Produktionsarten und Fertigungsformen) · Skript 8.2.1 · [Abbildung 45 (Skript S. 119)](../figures/reconstructed/abb-45.svg), [Abbildung 46 (Skript S. 121)](../figures/reconstructed/abb-46.svg) · wissen, verstehen · `frage-2024-03-14-2`</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen, zeichnen
-- **Themen:** Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens) (`nachhaltigkeit-dimensionen-spannungsfeld`)
-- **Skript-Abschnitte:** 8.3.2
-- **Abbildungen:** [Abbildung 56: Beispiele für das Spannungsfeld unternehmerischen Wirkens](../figures/originals/abb-56.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Schreibfehler 'unternemerischen' aus dem Protokoll. Zeichnen nicht ausdrücklich verlangt; in der Klausur 29.04.2026 aber als Skizze geprüft.
+**3. Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig.**
 
-## 14.03.2024 – Fragensammlung (Gedächtnisprotokoll)
+<sub>Originalwortlaut: „Grundfälle der Fabrikplanung nennen“ · Thema: Fabrikplanung und Planungsgrundfälle nach Grundig · Skript 8.2 · [Abbildung 44 (Skript S. 117)](../figures/reconstructed/abb-44.svg) · wissen · `frage-2024-03-14-3`</sub>
 
-*Vertrauensstufe: Gedächtnisprotokoll von Studierenden, unverifiziert.* Gedächtnisprotokoll, nur Stichworte, keine Punkte.
+**4. Geben Sie die Formeln zur Berechnung von Wirtschaftlichkeit, Liquidität, spezifischem Mitteleinsatz und Rentabilität an.**
 
-### Frage 1 · `frage-2024-03-14-1`
+<sub>Originalwortlaut: „Wirtschaftlichkeit, Liquidität, spez. Mitteleinsatz, Rentabilität Formeln“ · Thema: Ökonomische Kennzahlen (Produktivität, Wirtschaftlichkeit, Rentabilität, Liquidität) · Skript 3.1.2 · Formel (Skript S. 51), Formel (Skript S. 52), Formel (Skript S. 51), Formel (Skript S. 52) · wissen, berechnen · `frage-2024-03-14-4`</sub>
 
-> Strategien nach Porter beschreiben
+<sub>Anmerkung: Verlangt sind die Formeln der vier Kennzahlen; ob zusätzlich gerechnet werden musste, ist unbekannt.</sub>
 
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung) (`wettbewerbsstrategien-porter`)
-- **Skript-Abschnitte:** 2.1
-- **Abbildungen:** [Abbildung 5: Drei generische Strategien, die Unternehmen verfolgen können](../figures/originals/abb-05.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+**5. Nennen und beschreiben Sie die Arten der Flexibilität.**
 
-### Frage 2 · `frage-2024-03-14-2`
-
-> Produktionsarten beschreiben
-
-- **Punkte:** unbekannt
-- **Aufgabentyp:** erklaerung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Produktionssysteme (Produktionsarten und Fertigungsformen) (`produktionsarten-fertigungsformen`)
-- **Skript-Abschnitte:** 8.2.1
-- **Abbildungen:** [Abbildung 45: Typologisierung von Produktionssystemen](../figures/originals/abb-45.png); [Abbildung 46: Einordnung der Produktionsarten](../figures/originals/abb-46.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-
-### Frage 3 · `frage-2024-03-14-3`
-
-> Grundfälle der Fabrikplanung nennen
-
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen
-- **Themen:** Fabrikplanung und Planungsgrundfälle nach Grundig (`fabrikplanung-planungsgrundfaelle`)
-- **Skript-Abschnitte:** 8.2
-- **Abbildungen:** [Abbildung 44: Planungsgrundfälle nach Grundig](../figures/originals/abb-44.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-
-### Frage 4 · `frage-2024-03-14-4`
-
-> Wirtschaftlichkeit, Liquidität, spez. Mitteleinsatz, Rentabilität Formeln
-
-- **Punkte:** unbekannt
-- **Aufgabentyp:** definition · **Kompetenzen:** wissen, berechnen
-- **Themen:** Ökonomische Kennzahlen (Produktivität, Wirtschaftlichkeit, Rentabilität, Liquidität) (`oekonomische-kennzahlen`)
-- **Skript-Abschnitte:** 3.1.2
-- **Abbildungen:** [Formel: Wirtschaftlichkeit](../figures/originals/formel-wirtschaftlichkeit.png); [Formel: Liquidität](../figures/originals/formel-liquiditaet.png); [Formel: Spezifischer Mitteleinsatz](../figures/originals/formel-spezifischer-mitteleinsatz.png); [Formel: Rentabilität](../figures/originals/formel-rentabilitaet.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
-- **Anmerkung:** Verlangt sind die Formeln der vier Kennzahlen; ob zusätzlich gerechnet werden musste, ist unbekannt.
-
-### Frage 5 · `frage-2024-03-14-5`
-
-> Arten der Flexibilität
-
-- **Punkte:** unbekannt
-- **Aufgabentyp:** aufzaehlung · **Kompetenzen:** wissen, verstehen
-- **Themen:** Flexibilität (Arten der Flexibilität) (`flexibilitaet`)
-- **Skript-Abschnitte:** 9.3.4
-- **Abbildungen:** [Tabelle 7: Arten der Flexibilität](../figures/originals/tab-07.png)
-- **Skriptabdeckung:** durch das Skript abgedeckt
+<sub>Originalwortlaut: „Arten der Flexibilität“ · Thema: Flexibilität (Arten der Flexibilität) · Skript 9.3.4 · Tabelle 7 (Skript S. 177) · wissen, verstehen · `frage-2024-03-14-5`</sub>

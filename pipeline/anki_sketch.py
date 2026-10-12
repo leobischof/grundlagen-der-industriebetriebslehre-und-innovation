@@ -91,7 +91,7 @@ def card(fig: dict, meta: dict, questions: list[dict]) -> dict:
         "meta": f"{fig['label']} · Abschnitt {fig['subsection'] or fig['section']} · {source}",
         "image": Path(fig["files"]["original"]).name,
         "must_know": list((meta.get("drawing") or {}).get("must_know") or []),
-        "questions": [f"{_date(q['date'])}: {q['wording']}" for q in questions],
+        "questions": [f"{_date(q['date'])}: {q['prompt']}" for q in questions],
         "chapter": fig["chapter"],
     }
 

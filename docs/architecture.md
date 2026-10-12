@@ -173,6 +173,14 @@ des Lernfortschritts. `competencies` beschreibt dagegen die geforderte Denkleist
 Jede Frage trägt außerdem `trust` (Vertrauensstufe ihrer Quelle, siehe
 [sources-and-rights.md](sources-and-rights.md)).
 
+Neben dem Originalwortlaut (`text`/`wording`, oft nur ein Stichwort wie „ABC und Bestandsdilemma“)
+trägt jede Frage `prompt`: die ausformulierte Aufgabe mit Operatorverb, wie sie in einer Klausur
+stünde („Erklären Sie das Bestandsdilemma und die ABC-Analyse. Skizzieren Sie …“). `prompt` ist eine
+Bearbeitung (Schicht *bereinigt*), nie die Quelle. `exams/questions.md` zeigt `prompt` groß und fett,
+alles andere (Originalwortlaut, Thema, Abschnitte, Abbildungen, Kennung) klein darunter; Abbildungen
+verlinken nur auf unsere SVG-Rekonstruktion, nie auf den Ausschnitt aus dem Skript. Der
+Prüfungsmodus laut Studierenden (`exam_mode:` in `curation/exams.yaml`) steht vor den Fragen.
+
 `exams/topic-mapping.json` = `{"topics": [...], "by_section": {"2.5": [Fragen-IDs]}, "by_figure":
 {"abb-08": [Fragen-IDs]}}`, Schema [`topic-mapping.schema.json`](../schemas/topic-mapping.schema.json).
 

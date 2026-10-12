@@ -14,8 +14,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 14.03.2024: Strategien nach Porter beschreiben
-- 15.10.2025: Strategien von Unternehmen: Differenzierung, Kostenführerschaft, Fokussierung
+- 14.03.2024: Beschreiben Sie die drei Wettbewerbsstrategien nach Porter.
+- 15.10.2025: Beschreiben Sie die drei Wettbewerbsstrategien nach Porter: Differenzierung, Kostenführerschaft und Fokussierung.
 
 </details>
 
@@ -39,9 +39,9 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 10.12.2024: Produktlebenszyklus
-- 09.04.2025: Produktlebenszyklus Diagramm
-- 29.04.2026: Erklären Sie die Phasen in die sich der Produktlebenszyklus am Markt untergliedert. Stellen sie den typischen Verlauf als Diagramm dar.
+- 10.12.2024: Beschreiben Sie die Phasen des Produktlebenszyklus und skizzieren Sie seinen typischen Verlauf als Diagramm.
+- 09.04.2025: Skizzieren Sie den typischen Verlauf des Produktlebenszyklus als Diagramm und kennzeichnen Sie darin seine Phasen.
+- 29.04.2026: Erklären Sie die Phasen, in die sich der Produktlebenszyklus am Markt untergliedert. Stellen Sie den typischen Verlauf als Diagramm dar.
 
 </details>
 
@@ -66,8 +66,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 04.02.2025: Ansoff-Matrix
-- 29.04.2026: Wozu dient die Ansoff-Matrix? Skizzieren Sie diese.
+- 04.02.2025: Skizzieren Sie die Ansoff-Matrix und erklären Sie die vier Strategieoptionen, die sich aus ihr ergeben.
+- 29.04.2026: Erklären Sie, wozu die Ansoff-Matrix dient, und skizzieren Sie diese.
 
 </details>
 
@@ -81,7 +81,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 18.03.2025: Wie ist der Begriff „Industrieunternehmen“ definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?
+- 18.03.2025: Definieren Sie den Begriff Industrieunternehmen. Grenzen Sie Industrieunternehmen von anderen Wirtschaftseinheiten ab.
 
 </details>
 
@@ -95,7 +95,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 18.03.2025: Wie ist der Begriff „Industrieunternehmen“ definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?
+- 18.03.2025: Definieren Sie den Begriff Industrieunternehmen. Grenzen Sie Industrieunternehmen von anderen Wirtschaftseinheiten ab.
 
 </details>
 
@@ -109,7 +109,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 18.03.2025: Wie ist der Begriff „Industrieunternehmen“ definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?
+- 18.03.2025: Definieren Sie den Begriff Industrieunternehmen. Grenzen Sie Industrieunternehmen von anderen Wirtschaftseinheiten ab.
 
 </details>
 
@@ -134,8 +134,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 11.12.2025: Arbeitssystem nach REFA und Umwelteinflüsse dabei
-- 29.04.2026: Skizzieren Sie das Arbeitssystem nach REFA und erklären sie seine Komponenten kurz.
+- 11.12.2025: Erklären Sie das Arbeitssystem nach REFA mit seinen Komponenten. Beschreiben Sie die Umwelteinflüsse, die auf das Arbeitssystem wirken.
+- 29.04.2026: Skizzieren Sie das Arbeitssystem nach REFA und erklären Sie seine Komponenten kurz.
 
 </details>
 
@@ -149,7 +149,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 16.06.2025: Drei Phasen des Entrepreneurship-Prozess
+- 16.06.2025: Nennen und beschreiben Sie die drei Phasen des Entrepreneurship-Prozesses.
 
 </details>
 
@@ -163,7 +163,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 15.10.2025: 4 Methoden der integrierten Produktentwicklung (methodisch, organisatorisch, technologisch, menschlich)
+- 15.10.2025: Nennen und erklären Sie die vier Arten der Integration in der integrierten Produktentwicklung: die methodische, organisatorische, technologische und menschliche Integration.
 
 </details>
 
@@ -177,7 +177,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 09.04.2025: 3 Prinzipien von Simultaneous Engineering aufzählen und erklären
+- 09.04.2025: Nennen und erklären Sie die drei Prinzipien des Simultaneous Engineering.
 
 </details>
 
@@ -201,7 +201,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 18.03.2025: Skizzieren und bennen Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)
+- 18.03.2025: Skizzieren Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung als Venn-Diagramm und benennen Sie die einzelnen Bereiche.
 
 </details>
 
@@ -226,8 +226,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 16.06.2025: Innovationsprozess nach Cooper (Stage-Gate)
-- 11.12.2025: Stage-Gate-Prozess Cooper zeichnen und erklären
+- 16.06.2025: Skizzieren Sie den Innovationsprozess nach Cooper als Stage-Gate-Prozess und erklären Sie die Funktionen der Stages und der Gates.
+- 11.12.2025: Skizzieren Sie den Stage-Gate-Prozess nach Cooper und erklären Sie die Funktionen der Stages und der Gates.
 
 </details>
 
@@ -249,7 +249,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 11.12.2025: Stage-Gate-Prozess Cooper zeichnen und erklären
+- 11.12.2025: Skizzieren Sie den Stage-Gate-Prozess nach Cooper und erklären Sie die Funktionen der Stages und der Gates.
 
 </details>
 
@@ -263,9 +263,9 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 20.06.2024: Design Thinking Methode (IDEO)
-- 10.12.2024: Design Thinking Methode (IDEO)
-- 15.10.2025: Design Thinking Methode (IDEO)
+- 20.06.2024: Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses.
+- 10.12.2024: Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses.
+- 15.10.2025: Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses.
 
 </details>
 
@@ -279,7 +279,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 11.12.2025: Funktionen des Industriemanagements
+- 11.12.2025: Nennen und erläutern Sie die Funktionen des Industriemanagements nach Bleicher.
 
 </details>
 
@@ -293,7 +293,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 15.10.2025: Strategische Standortplanung: externe und interne Faktoren
+- 15.10.2025: Nennen und erläutern Sie die externen und internen Faktoren, die Auslöser für eine strategische Standortplanung sein können.
 
 </details>
 
@@ -315,9 +315,9 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 14.03.2024: Grundfälle der Fabrikplanung nennen
-- 15.10.2024: Planungsgrundfälle in der Fabrikplanung
-- 16.06.2025: Planungsgrundfälle
+- 14.03.2024: Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig.
+- 15.10.2024: Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig.
+- 16.06.2025: Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig.
 
 </details>
 
@@ -340,9 +340,9 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 14.03.2024: Produktionsarten beschreiben
-- 10.12.2024: Typologien der Produktionsprozesse
-- 09.04.2025: Fertigungsarten aufzählen + erklären
+- 14.03.2024: Nennen und beschreiben Sie die Produktionsarten.
+- 10.12.2024: Nennen und beschreiben Sie die Typologien von Produktionsprozessen nach Produktionsart und Fertigungsform.
+- 09.04.2025: Nennen Sie die Fertigungsarten und erklären Sie diese.
 
 </details>
 
@@ -364,9 +364,9 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 14.03.2024: Produktionsarten beschreiben
-- 10.12.2024: Typologien der Produktionsprozesse
-- 22.01.2026: Wie hängen die Produktionsarten (unterschiedliche Losgrößen) mit Variabilität, Volumen und Prozessablauf zusammen? Fertigen Sie eine Skizze an und erklären Sie jede Produktionsart kurz.
+- 14.03.2024: Nennen und beschreiben Sie die Produktionsarten.
+- 10.12.2024: Nennen und beschreiben Sie die Typologien von Produktionsprozessen nach Produktionsart und Fertigungsform.
+- 22.01.2026: Erklären Sie, wie die Produktionsarten mit ihren unterschiedlichen Losgrößen mit Variabilität, Volumen und Prozessablauf zusammenhängen. Skizzieren Sie diesen Zusammenhang und erklären Sie jede Produktionsart kurz.
 
 </details>
 
@@ -457,8 +457,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 20.06.2024: Planungsvorgehen – Layoutplanung und Realplanung und erklären von Fabrik
-- 29.04.2026: Nennen Sie die Schritte das Planungsvorgehen der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz.
+- 20.06.2024: Definieren Sie den Begriff Fabrik. Beschreiben Sie das Planungsvorgehen der Fabrikplanung nach Grundig und erklären Sie dabei die Layoutplanung mit Ideal- und Realplanung.
+- 29.04.2026: Nennen Sie die Schritte des Planungsvorgehens der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz.
 
 </details>
 
@@ -472,7 +472,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 20.06.2024: Planungsvorgehen – Layoutplanung und Realplanung und erklären von Fabrik
+- 20.06.2024: Definieren Sie den Begriff Fabrik. Beschreiben Sie das Planungsvorgehen der Fabrikplanung nach Grundig und erklären Sie dabei die Layoutplanung mit Ideal- und Realplanung.
 
 </details>
 
@@ -486,8 +486,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 20.06.2024: Beschreibung Spannungsfeld unternemerischen Wirkens
-- 29.04.2026: Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability"). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens.
+- 20.06.2024: Beschreiben Sie das Spannungsfeld des unternehmerischen Wirkens und skizzieren Sie es.
+- 29.04.2026: Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability“). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens.
 
 </details>
 
@@ -510,8 +510,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 18.03.2025: Effizienz, Suffizienz, Konsistenz
-- 15.10.2025: Suffizienz, Effizienz und Konsistenz (+Skizze)
+- 18.03.2025: Erklären Sie die Begriffe Effizienz, Suffizienz und Konsistenz im Kontext der ökologischen Nachhaltigkeit und skizzieren Sie ihren Einfluss auf Aufwand und Ertrag.
+- 15.10.2025: Erklären Sie die Begriffe Suffizienz, Effizienz und Konsistenz im Kontext der ökologischen Nachhaltigkeit. Skizzieren Sie ihren Einfluss auf Aufwand und Ertrag in einem Diagramm.
 - 29.04.2026: Erklären Sie die Begriffe Effizienz, Konsistenz und Suffizienz im Kontext der ökologischen Nachhaltigkeit.
 
 </details>
@@ -526,7 +526,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 04.02.2025: Gozintograph
+- 04.02.2025: Erklären Sie, was ein Gozintograph darstellt und wozu er in der Materialbedarfsplanung eingesetzt wird.
 
 </details>
 
@@ -540,7 +540,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 16.06.2025: Primär, sekundär, tertiät, brutto, nettobedarf
+- 16.06.2025: Definieren Sie die Begriffe Primärbedarf, Sekundärbedarf und Tertiärbedarf sowie Bruttobedarf und Nettobedarf.
 
 </details>
 
@@ -562,8 +562,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 15.10.2024: ABC-Analyse
-- 11.12.2025: ABC und Bestandsdilemma
+- 15.10.2024: Erklären Sie die ABC-Analyse und skizzieren Sie das zugehörige Diagramm.
+- 11.12.2025: Erklären Sie das Bestandsdilemma und die ABC-Analyse. Skizzieren Sie das Diagramm der ABC-Analyse.
 
 </details>
 
@@ -577,8 +577,8 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 18.03.2025: Gesamtanlageneffektivität
-- 22.01.2026: Gesamtanlageneffektivität
+- 18.03.2025: Definieren Sie die Gesamtanlageneffektivität und erklären Sie, aus welchen Kenngrößen sie sich zusammensetzt und wie sie berechnet wird.
+- 22.01.2026: Definieren Sie die Gesamtanlageneffektivität und erklären Sie, aus welchen Kenngrößen sie sich zusammensetzt und wie sie berechnet wird.
 
 </details>
 
@@ -592,7 +592,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 **Gefragt in Prüfungen:**
 
-- 10.12.2024: Dilemma der Ablaufplanung
-- 09.04.2025: Dilemma der Ablaufplanung erklären
+- 10.12.2024: Erklären Sie das Dilemma der Ablaufplanung.
+- 09.04.2025: Erklären Sie das Dilemma der Ablaufplanung.
 
 </details>

@@ -16,7 +16,7 @@ TASK_TYPES = ("definition", "erklaerung", "aufzaehlung", "zeichnung", "vergleich
 COMPETENCIES = ("wissen", "verstehen", "anwenden", "zeichnen", "vergleichen", "berechnen")
 COVERAGE = ("voll", "teilweise", "keine")
 TRUST = ("student-recollection", "student-transcript")
-REQUIRED = ("id", "exam_date", "source", "trust", "wording", "points", "task_type",
+REQUIRED = ("id", "exam_date", "source", "trust", "wording", "prompt", "points", "task_type",
             "competencies", "topics", "sections", "figures")
 _ID = re.compile(r"^frage-(\d{4}-\d{2}-\d{2})-(\d+)$")
 
@@ -24,6 +24,7 @@ _ID = re.compile(r"^frage-(\d{4}-\d{2}-\d{2})-(\d+)$")
 @dataclass(frozen=True)
 class ExamData:
     exams: list[dict]          # one per exam date (metadata)
+    mode: dict | None          # exam mode as reported by students (`exam_mode:`), None if absent
     questions: list[dict]      # output records, sorted by (date, number)
     topics: list[dict]         # curated topics in file order
     problems: list[str]        # validation messages (empty = consistent)
@@ -62,6 +63,8 @@ def _check_question(q: dict, exam_dates: set[str]) -> list[str]:
         out.append(f"{qid}: ungültige script_coverage `{q['script_coverage']}`")
     if not q["wording"].strip():
         out.append(f"{qid}: leerer Wortlaut")
+    if not str(q["prompt"]).strip():
+        out.append(f"{qid}: leere Aufgabenstellung (prompt)")
     if not q["topics"]:
         out.append(f"{qid}: kein Thema zugeordnet")
     return out
@@ -86,7 +89,7 @@ def _record(q: dict, topic_title: dict[str, str]) -> dict:
         "id": q["id"], "number": question_number(q["id"]),
         "date": q["exam_date"], "exam_date": q["exam_date"],
         "source": q["source"], "trust": q["trust"],
-        "text": q["wording"], "wording": q["wording"],
+        "text": q["wording"], "wording": q["wording"], "prompt": q["prompt"].strip(),
         "points": q["points"],
         "task_type": q["task_type"], "task_types": [q["task_type"]],
         "competencies": list(q["competencies"]),
@@ -100,6 +103,7 @@ def _record(q: dict, topic_title: dict[str, str]) -> dict:
 def load() -> ExamData:
     raw = catalog.exams()
     exams = sorted(raw.get("exams", []), key=lambda e: e["date"])
+    mode = raw.get("exam_mode")
     topics = catalog.topics().get("topics", [])
     exam_dates = {e["date"] for e in exams}
     topic_ids = {t["id"] for t in topics}
@@ -113,8 +117,8 @@ def load() -> ExamData:
         found = _check_question(q, exam_dates)
         problems += found or _check_refs(q, topic_ids, toc, figure_ids)
     if problems:
-        return ExamData(exams, [], topics, problems)
+        return ExamData(exams, mode, [], topics, problems)
 
     titles = {t["id"]: t["title"] for t in topics}
     records = sorted((_record(q, titles) for q in raw["questions"]), key=lambda r: (r["exam_date"], r["number"]))
-    return ExamData(exams, records, topics, _check_points(exams, records))
+    return ExamData(exams, mode, records, topics, _check_points(exams, records))

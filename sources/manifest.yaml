@@ -51,3 +51,10 @@ sources:
     pages: null
     kind: flashcards
     trust: unverified-student
+  uware-wiki-pruefungsmodus:
+    file: null
+    kind: wiki-note
+    trust: student-recollection
+    notes: Prüfungstipps aus dem Wiki der Lehrveranstaltung auf uWare (von Studierenden gepflegt), als
+      Bildschirmfoto geteilt am 2026-10-12. Nur sinngemäß in curation/exams.yaml (exam_mode) übernommen;
+      kein Original im Repository.

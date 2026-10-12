@@ -20,6 +20,10 @@
 #   source        Id der Quelle (sources/manifest.yaml)
 #   trust         student-recollection | student-transcript
 #   wording       exakter Wortlaut
+#   prompt        ausformulierte Prüfungsaufgabe mit Operatorverb (Nennen, Erklären, Skizzieren …),
+#                 so wie sie in einer Klausur stünde. Bearbeitung, nicht Quelle: hält sich an den
+#                 Wortlaut und das Skript, ergänzt nur, was die Stichwort-Protokolle weglassen.
+#                 Die Fragensammlung zeigt sie groß, den Wortlaut nur klein.
 #   points        Punkte laut Angabe, null wenn unbekannt (nie geschätzt)
 #   task_type     Haupt-Aufgabentyp = das erste Operatorverb der Frage:
 #                 definition | erklaerung | aufzaehlung | zeichnung | vergleich | berechnung | anwendung
@@ -36,6 +40,19 @@
 # Stichwort-Fragen ohne Aufgabenverb (z. B. "Gozintograph") sind nach dem
 # wahrscheinlichsten Aufgabentyp eingestuft; das steht dann in notes.
 
+# Prüfungsmodus laut Studierenden (sinngemäß, unverifiziert). Wird in exams/questions.md
+# vor den Fragen gezeigt.
+exam_mode:
+  source: uware-wiki-pruefungsmodus
+  trust: student-recollection
+  as_of: "2026-10-12"
+  points:
+    - "Seit Jänner 2024 (Maschinenbau): 5 offene Fragen, keine Multiple-Choice-Fragen, überarbeitetes Skript."
+    - "Die 5 Fragen kommen aus dem gesamten Stoff; alte und neue Fragen kommen vor."
+    - "Abbildungen werden abgefragt, z. B. die Zusammenhänge der Gesamtanlageneffektivität."
+    - "Seit 2025 gibt es für Maschinenbau/Wirtschaftsingenieurwesen-Maschinenbau zusätzlich zur schriftlichen eine mündliche Prüfung, meist für etwa fünf Studierende mit positiver schriftlicher Note."
+    - "Die Vorlesung zu besuchen lohnt sich, vor allem die letzten Einheiten: Dort gibt es Hinweise zur Prüfung."
+    - "Früherer Modus: 10 Multiple-Choice-Fragen und 3 offene Fragen; die offenen Fragen brachten 60 % der Punkte, die Multiple-Choice-Fragen lagen nah an Sätzen aus dem Skript."
 exams:
   - date: "2026-04-29"
     source: klausur-2026-04-29
@@ -110,6 +127,7 @@ questions:
     source: klausur-2026-04-29
     trust: student-transcript
     wording: "Erklären Sie die Phasen in die sich der Produktlebenszyklus am Markt untergliedert. Stellen sie den typischen Verlauf als Diagramm dar."
+    prompt: "Erklären Sie die Phasen, in die sich der Produktlebenszyklus am Markt untergliedert. Stellen Sie den typischen Verlauf als Diagramm dar."
     points: 6
     task_type: erklaerung
     competencies: [wissen, verstehen, zeichnen]
@@ -124,6 +142,7 @@ questions:
     source: klausur-2026-04-29
     trust: student-transcript
     wording: "Wozu dient die Ansoff-Matrix? Skizzieren Sie diese."
+    prompt: "Erklären Sie, wozu die Ansoff-Matrix dient, und skizzieren Sie diese."
     points: 4
     task_type: erklaerung
     competencies: [wissen, verstehen, zeichnen]
@@ -138,6 +157,7 @@ questions:
     source: klausur-2026-04-29
     trust: student-transcript
     wording: "Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability\"). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens."
+    prompt: "Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability“). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens."
     points: 4
     task_type: erklaerung
     competencies: [wissen, verstehen, zeichnen]
@@ -152,6 +172,7 @@ questions:
     source: klausur-2026-04-29
     trust: student-transcript
     wording: "Skizzieren Sie das Arbeitssystem nach REFA und erklären sie seine Komponenten kurz."
+    prompt: "Skizzieren Sie das Arbeitssystem nach REFA und erklären Sie seine Komponenten kurz."
     points: 6
     task_type: zeichnung
     competencies: [zeichnen, wissen, verstehen]
@@ -166,6 +187,7 @@ questions:
     source: klausur-2026-04-29
     trust: student-transcript
     wording: "Nennen Sie die Schritte das Planungsvorgehen der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz."
+    prompt: "Nennen Sie die Schritte des Planungsvorgehens der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz."
     points: 7
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -180,6 +202,7 @@ questions:
     source: klausur-2026-04-29
     trust: student-transcript
     wording: "Erklären Sie die Begriffe Effizienz, Konsistenz und Suffizienz im Kontext der ökologischen Nachhaltigkeit."
+    prompt: "Erklären Sie die Begriffe Effizienz, Konsistenz und Suffizienz im Kontext der ökologischen Nachhaltigkeit."
     points: 6
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -195,6 +218,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Nennen Sie vier Merkmale von Industriebetrieben"
+    prompt: "Nennen Sie vier Merkmale von Industriebetrieben."
     points: null
     task_type: aufzaehlung
     competencies: [wissen]
@@ -209,6 +233,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und Postindustrielle Innovation. Geben Sie jeweils ein Beispiel an."
+    prompt: "Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und postindustrielle Innovation. Geben Sie jeweils ein Beispiel an."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -223,6 +248,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Wie hängen die Produktionsarten (unterschiedliche Losgrößen) mit Variabilität, Volumen und Prozessablauf zusammen? Fertigen Sie eine Skizze an und erklären Sie jede Produktionsart kurz."
+    prompt: "Erklären Sie, wie die Produktionsarten mit ihren unterschiedlichen Losgrößen mit Variabilität, Volumen und Prozessablauf zusammenhängen. Skizzieren Sie diesen Zusammenhang und erklären Sie jede Produktionsart kurz."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen, zeichnen]
@@ -237,6 +263,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Welche 3 Ziele bestehen aus Unternehmenssicht im Qualitätsmanagement? Beschreiben Sie folgende Methoden des Qualitätsmanagements in Ihren eigenen Worten: Total Quality Management, Six Sigma, Statistische Prozesskontrolle"
+    prompt: "Nennen Sie die drei Ziele, die aus Unternehmenssicht im Qualitätsmanagement bestehen. Beschreiben Sie die folgenden Methoden des Qualitätsmanagements in Ihren eigenen Worten: Total Quality Management, Six Sigma und statistische Prozesskontrolle."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -251,6 +278,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Gesamtanlageneffektivität"
+    prompt: "Definieren Sie die Gesamtanlageneffektivität und erklären Sie, aus welchen Kenngrößen sie sich zusammensetzt und wie sie berechnet wird."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -266,6 +294,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "6 kritische Erfolgsfaktoren für Produktinnovation"
+    prompt: "Nennen Sie sechs kritische Erfolgsfaktoren für Produktinnovationen."
     points: null
     task_type: aufzaehlung
     competencies: [wissen]
@@ -280,6 +309,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Arbeitssystem nach REFA und Umwelteinflüsse dabei"
+    prompt: "Erklären Sie das Arbeitssystem nach REFA mit seinen Komponenten. Beschreiben Sie die Umwelteinflüsse, die auf das Arbeitssystem wirken."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -294,6 +324,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Stage-Gate-Prozess Cooper zeichnen und erklären"
+    prompt: "Skizzieren Sie den Stage-Gate-Prozess nach Cooper und erklären Sie die Funktionen der Stages und der Gates."
     points: null
     task_type: zeichnung
     competencies: [zeichnen, wissen, verstehen]
@@ -308,6 +339,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Funktionen des Industriemanagements"
+    prompt: "Nennen und erläutern Sie die Funktionen des Industriemanagements nach Bleicher."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -322,9 +354,10 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "ABC und Bestandsdilemma"
+    prompt: "Erklären Sie das Bestandsdilemma und die ABC-Analyse. Skizzieren Sie das Diagramm der ABC-Analyse."
     points: null
     task_type: erklaerung
-    competencies: [wissen, verstehen]
+    competencies: [wissen, verstehen, zeichnen]
     topics: [bestandsdilemma-abc-analyse]
     sections: ["9.1.4"]
     figures: [abb-70]
@@ -337,6 +370,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Strategien von Unternehmen: Differenzierung, Kostenführerschaft, Fokussierung"
+    prompt: "Beschreiben Sie die drei Wettbewerbsstrategien nach Porter: Differenzierung, Kostenführerschaft und Fokussierung."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -351,6 +385,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Strategische Standortplanung: externe und interne Faktoren"
+    prompt: "Nennen und erläutern Sie die externen und internen Faktoren, die Auslöser für eine strategische Standortplanung sein können."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -365,6 +400,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Suffizienz, Effizienz und Konsistenz (+Skizze)"
+    prompt: "Erklären Sie die Begriffe Suffizienz, Effizienz und Konsistenz im Kontext der ökologischen Nachhaltigkeit. Skizzieren Sie ihren Einfluss auf Aufwand und Ertrag in einem Diagramm."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen, zeichnen]
@@ -379,6 +415,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "4 Methoden der integrierten Produktentwicklung (methodisch, organisatorisch, technologisch, menschlich)"
+    prompt: "Nennen und erklären Sie die vier Arten der Integration in der integrierten Produktentwicklung: die methodische, organisatorische, technologische und menschliche Integration."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -393,6 +430,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Design Thinking Methode (IDEO)"
+    prompt: "Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -408,6 +446,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Haupteinteilung von Kosten"
+    prompt: "Nennen Sie die Hauptkategorien, in die sich die Kosten der Produktion einteilen lassen."
     points: null
     task_type: aufzaehlung
     competencies: [wissen]
@@ -422,9 +461,10 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Innovationsprozess nach Cooper (Stage-Gate)"
+    prompt: "Skizzieren Sie den Innovationsprozess nach Cooper als Stage-Gate-Prozess und erklären Sie die Funktionen der Stages und der Gates."
     points: null
     task_type: erklaerung
-    competencies: [wissen, verstehen]
+    competencies: [wissen, verstehen, zeichnen]
     topics: [stage-gate-cooper]
     sections: ["6.2"]
     figures: [abb-37]
@@ -436,6 +476,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Drei Phasen des Entrepreneurship-Prozess"
+    prompt: "Nennen und beschreiben Sie die drei Phasen des Entrepreneurship-Prozesses."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -450,6 +491,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Planungsgrundfälle"
+    prompt: "Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig."
     points: null
     task_type: aufzaehlung
     competencies: [wissen]
@@ -464,6 +506,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Primär, sekundär, tertiät, brutto, nettobedarf"
+    prompt: "Definieren Sie die Begriffe Primärbedarf, Sekundärbedarf und Tertiärbedarf sowie Bruttobedarf und Nettobedarf."
     points: null
     task_type: definition
     competencies: [wissen, verstehen]
@@ -479,6 +522,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Mindestens 4 Innovationsbarrieren nennen + beschreiben"
+    prompt: "Nennen und beschreiben Sie mindestens vier Innovationsbarrieren."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -493,6 +537,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Produktlebenszyklus Diagramm"
+    prompt: "Skizzieren Sie den typischen Verlauf des Produktlebenszyklus als Diagramm und kennzeichnen Sie darin seine Phasen."
     points: null
     task_type: zeichnung
     competencies: [zeichnen, wissen]
@@ -507,6 +552,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Dilemma der Ablaufplanung erklären"
+    prompt: "Erklären Sie das Dilemma der Ablaufplanung."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -521,6 +567,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Fertigungsarten aufzählen + erklären"
+    prompt: "Nennen Sie die Fertigungsarten und erklären Sie diese."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -535,6 +582,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "3 Prinzipien von Simultaneous Engineering aufzählen und erklären"
+    prompt: "Nennen und erklären Sie die drei Prinzipien des Simultaneous Engineering."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -550,6 +598,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Benennen Sie die unterschiedlichen Arten der Innovation"
+    prompt: "Nennen Sie die unterschiedlichen Arten der Innovation."
     points: null
     task_type: aufzaehlung
     competencies: [wissen]
@@ -564,6 +613,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Skizzieren und bennen Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)"
+    prompt: "Skizzieren Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung als Venn-Diagramm und benennen Sie die einzelnen Bereiche."
     points: null
     task_type: zeichnung
     competencies: [zeichnen, wissen]
@@ -578,6 +628,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Wie ist der Begriff „Industrieunternehmen“ definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?"
+    prompt: "Definieren Sie den Begriff Industrieunternehmen. Grenzen Sie Industrieunternehmen von anderen Wirtschaftseinheiten ab."
     points: null
     task_type: definition
     competencies: [wissen, verstehen, vergleichen]
@@ -592,6 +643,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Gesamtanlageneffektivität"
+    prompt: "Definieren Sie die Gesamtanlageneffektivität und erklären Sie, aus welchen Kenngrößen sie sich zusammensetzt und wie sie berechnet wird."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -606,9 +658,10 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Effizienz, Suffizienz, Konsistenz"
+    prompt: "Erklären Sie die Begriffe Effizienz, Suffizienz und Konsistenz im Kontext der ökologischen Nachhaltigkeit und skizzieren Sie ihren Einfluss auf Aufwand und Ertrag."
     points: null
     task_type: erklaerung
-    competencies: [wissen, verstehen]
+    competencies: [wissen, verstehen, zeichnen]
     topics: [effizienz-konsistenz-suffizienz]
     sections: ["8.3.3"]
     figures: [abb-57]
@@ -621,6 +674,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Ansoff-Matrix"
+    prompt: "Skizzieren Sie die Ansoff-Matrix und erklären Sie die vier Strategieoptionen, die sich aus ihr ergeben."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen, zeichnen]
@@ -635,6 +689,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Gozintograph"
+    prompt: "Erklären Sie, was ein Gozintograph darstellt und wozu er in der Materialbedarfsplanung eingesetzt wird."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -649,6 +704,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Total Quality Management, Six Sigma, Statistische Prozesskontrolle"
+    prompt: "Erklären Sie die Methoden des Qualitätsmanagements Total Quality Management, Six Sigma und statistische Prozesskontrolle."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -663,6 +719,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "6 Kriterien für Innovationsstrategien"
+    prompt: "Nennen Sie sechs Kriterien für Innovationsstrategien."
     points: null
     task_type: aufzaehlung
     competencies: [wissen]
@@ -677,6 +734,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Definition von Nachhaltigkeit laut Brundlandt-Kommission + drei Prinzipien des Sustainable Developments"
+    prompt: "Definieren Sie Nachhaltigkeit nach der Brundtland-Kommission. Nennen und erklären Sie die drei Prinzipien des Sustainable Development."
     points: null
     task_type: definition
     competencies: [wissen, verstehen]
@@ -692,6 +750,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Produktlebenszyklus"
+    prompt: "Beschreiben Sie die Phasen des Produktlebenszyklus und skizzieren Sie seinen typischen Verlauf als Diagramm."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen, zeichnen]
@@ -706,6 +765,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "4 Innovationstreiber nach Cooper"
+    prompt: "Nennen und erklären Sie die vier Haupttreiber für Produktinnovationen nach Cooper."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -720,6 +780,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Design Thinking Methode (IDEO)"
+    prompt: "Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -734,6 +795,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Typologien der Produktionsprozesse"
+    prompt: "Nennen und beschreiben Sie die Typologien von Produktionsprozessen nach Produktionsart und Fertigungsform."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -748,6 +810,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Dilemma der Ablaufplanung"
+    prompt: "Erklären Sie das Dilemma der Ablaufplanung."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -763,6 +826,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Invention, Innovation, Imitation und Modifikation"
+    prompt: "Definieren Sie die Begriffe Invention, Innovation, Imitation und Modifikation und grenzen Sie sie voneinander ab."
     points: null
     task_type: definition
     competencies: [wissen, verstehen, vergleichen]
@@ -777,9 +841,10 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "ABC-Analyse"
+    prompt: "Erklären Sie die ABC-Analyse und skizzieren Sie das zugehörige Diagramm."
     points: null
     task_type: erklaerung
-    competencies: [wissen, verstehen]
+    competencies: [wissen, verstehen, zeichnen]
     topics: [bestandsdilemma-abc-analyse]
     sections: ["9.1.4"]
     figures: [abb-70]
@@ -791,6 +856,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Planungsgrundfälle in der Fabrikplanung"
+    prompt: "Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig."
     points: null
     task_type: aufzaehlung
     competencies: [wissen]
@@ -805,6 +871,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Innovationsförderer (Akteure) im Innovationsmanagement"
+    prompt: "Nennen und beschreiben Sie die drei Innovationsförderer nach Witte, die als Akteure im Innovationsmanagement auftreten."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -819,6 +886,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Definition Nachhaltigkeit laut Brundlandt Kommission + Erklärung Sustainable Development"
+    prompt: "Definieren Sie Nachhaltigkeit nach der Brundtland-Kommission und erklären Sie den Begriff Sustainable Development."
     points: null
     task_type: definition
     competencies: [wissen, verstehen]
@@ -834,6 +902,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Definitionen: Innovation, Invention, Imitation, Modifikation"
+    prompt: "Definieren Sie die Begriffe Innovation, Invention, Imitation und Modifikation."
     points: null
     task_type: definition
     competencies: [wissen, verstehen]
@@ -848,6 +917,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Design Thinking Methode (IDEO)"
+    prompt: "Beschreiben Sie die Design-Thinking-Methode nach IDEO und erklären Sie die fünf Phasen ihres Prozesses."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -862,6 +932,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Planungsvorgehen – Layoutplanung und Realplanung und erklären von Fabrik"
+    prompt: "Definieren Sie den Begriff Fabrik. Beschreiben Sie das Planungsvorgehen der Fabrikplanung nach Grundig und erklären Sie dabei die Layoutplanung mit Ideal- und Realplanung."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -876,6 +947,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Arten der Flexibilität"
+    prompt: "Nennen und beschreiben Sie die Arten der Flexibilität."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
@@ -890,6 +962,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Beschreibung Spannungsfeld unternemerischen Wirkens"
+    prompt: "Beschreiben Sie das Spannungsfeld des unternehmerischen Wirkens und skizzieren Sie es."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen, zeichnen]
@@ -905,6 +978,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Strategien nach Porter beschreiben"
+    prompt: "Beschreiben Sie die drei Wettbewerbsstrategien nach Porter."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -919,6 +993,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Produktionsarten beschreiben"
+    prompt: "Nennen und beschreiben Sie die Produktionsarten."
     points: null
     task_type: erklaerung
     competencies: [wissen, verstehen]
@@ -933,6 +1008,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Grundfälle der Fabrikplanung nennen"
+    prompt: "Nennen Sie die fünf Planungsgrundfälle der Fabrikplanung nach Grundig."
     points: null
     task_type: aufzaehlung
     competencies: [wissen]
@@ -947,6 +1023,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Wirtschaftlichkeit, Liquidität, spez. Mitteleinsatz, Rentabilität Formeln"
+    prompt: "Geben Sie die Formeln zur Berechnung von Wirtschaftlichkeit, Liquidität, spezifischem Mitteleinsatz und Rentabilität an."
     points: null
     task_type: definition
     competencies: [wissen, berechnen]
@@ -961,6 +1038,7 @@ questions:
     source: fragensammlung-uware
     trust: student-recollection
     wording: "Arten der Flexibilität"
+    prompt: "Nennen und beschreiben Sie die Arten der Flexibilität."
     points: null
     task_type: aufzaehlung
     competencies: [wissen, verstehen]
