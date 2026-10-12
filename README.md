@@ -31,10 +31,12 @@ Fragen deckt das Skript vollständig, 5 nur teilweise – siehe
 [Aktualitätslücken](exams/frequency-analysis.md#aktualitätslücken).
 
 **Downloads:** Im Release dieses Repositorys (nicht im Git-Baum) liegen als `GIL-…`-PDFs jedes
-Kapitel, das Gesamtskript, die Zusammenfassung je Kapitel und gesamt sowie die Prüfungsfragen,
-dazu `GIL-NotebookLM.zip`: je Kapitel eine Markdown-Datei, die als einzige Quelle in NotebookLM oder
-einem anderen Lernwerkzeug genügt (Anleitung, Leitfaden, Prüfungsfragen, Gesamtskript als Rahmen);
-Markdown und PDFs zusätzlich in einem geheimen Gist
+Skriptkapitel, das Gesamtskript, die Zusammenfassung je Kapitel und gesamt sowie die Prüfungsfragen;
+dazu der NotebookLM-Kontext – je Kapitel eine Markdown-Datei, die als einzige Quelle in NotebookLM
+oder einem anderen Lernwerkzeug genügt (Anleitung, Leitfaden, Prüfungsfragen, Gesamtskript als
+Rahmen), einzeln und als Ordner-Zip – und die Anki-Karteikarten als Sammlung und je Kapitel
+(Begriffe, Lückentexte, Prüfungsfragen, Skizzieren, Karten von Studierenden). Jedes Label nennt die
+Dateiendung. Markdown und PDFs zusätzlich in einem geheimen Gist
 ([Veröffentlichen](docs/pipeline.md#veröffentlichen-release-und-gist)). Abbildungen erscheinen dort
 nur als unsere SVG-Rekonstruktion oder als Platzhalter, nie als Ausschnitt aus dem Skript.
 
@@ -64,9 +66,9 @@ Weitere Befehle:
 ```bash
 .venv/Scripts/python -m pipeline offline            # Validierung + Abdeckungsbericht (wie in CI)
 .venv/Scripts/python -m pipeline render-pdf         # GIL-PDFs (Kapitel, Gesamtskript, Zusammenfassungen, Fragen) → build/pdf/
-.venv/Scripts/python -m pipeline anki               # Anki-Skizzierkarten → build/anki/ (nur lokal, nicht ins Release)
+.venv/Scripts/python -m pipeline anki               # Anki-Karteikarten (Sammlung + je Kapitel) → build/anki/
 .venv/Scripts/python -m pipeline export-md          # flacher Markdown-Export → build/markdown/
-.venv/Scripts/python -m pipeline export-notebooklm  # je Kapitel eine NotebookLM-Datei + ZIP → build/notebooklm/
+.venv/Scripts/python -m pipeline export-notebooklm  # je Kapitel eine NotebookLM-Kontextdatei + Ordner-Zip → build/notebooklm/
 .venv/Scripts/python -m pipeline.progress due       # heute fällige Wiederholungen
 .venv/Scripts/python -m pytest                      # Tests
 ```

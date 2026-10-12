@@ -19,8 +19,8 @@ pipeline = [
     "pillow>=10.0",
     "zstandard>=0.22",
     "matplotlib>=3.8",   # render-pdf: display formulas (mathtext)
-    "markdown>=3.5",     # render-pdf: markdown → HTML
-    "genanki>=0.13",     # anki: sketch deck (.apkg)
+    "markdown>=3.5",     # render-pdf, anki: markdown → HTML
+    "genanki>=0.13",     # anki: card packages (.apkg)
 ]
 dev = ["pytest>=8.0"]
 

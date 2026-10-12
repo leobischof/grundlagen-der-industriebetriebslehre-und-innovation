@@ -20,10 +20,10 @@ import pymupdf
 import yaml
 from PIL import Image
 
-from . import figure_publish, pdf_math
+from . import content_render, figure_publish, pdf_math
 from .pdf_geometry import MAX_FIGURE_HEIGHT_PT, TEXT_WIDTH_PT
 
-UNANCHORED_HEADING = re.compile(r"^#{1,6}\s*Fußnoten ohne sicheren Textanker\s*$", re.M)
+UNANCHORED_HEADING = re.compile(rf"^#{{1,6}}\s*{re.escape(content_render.UNANCHORED_HEADING)}\s*$", re.M)
 _COMMENT = re.compile(r"<!--.*?-->", re.S)
 _FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*(?:\n|\Z)", re.S)
 _DISPLAY = re.compile(r"\$\$(.+?)\$\$", re.S)

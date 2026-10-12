@@ -45,8 +45,8 @@ Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`):
 | `build-content` | `build_content` | OCR-Schicht, `curation/structure.yaml`, `ocr-corrections.yaml`, Abbildungen, Fragen | `content/` |
 | `render-pdf` | `render_pdf` | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/pdf/` (`GIL-…`-PDFs: Kapitel, Gesamtskript, Zusammenfassungen je Kapitel und gesamt, Prüfungsfragen) + `release-assets.tsv` |
 | `export-md` | `export_markdown` | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/markdown/` (dieselben `GIL-…`-Dateien als flaches Markdown, dazu die gezeigten SVGs) |
-| `export-notebooklm` | `export_notebooklm` | `content/`, `learning/chapters/`, `curation/figures/`, `exams/questions.json`, `exams/topic-mapping.json` | `build/notebooklm/` (je Kapitel mit Leitfaden eine `GIL-NotebookLM-Kapitel-N-…md`, alle zusammen in `GIL-NotebookLM.zip`) + `release-assets.tsv` |
-| `anki` | `anki_sketch` | `figures/manifest.json`, `figures/originals/`, `curation/figures/`, `exams/` | `build/anki/*.apkg` (Skizzierkarten), `learning/flashcards/skizzieren.md` |
+| `export-notebooklm` | `export_notebooklm` | `content/`, `learning/chapters/`, `curation/figures/`, `exams/questions.json`, `exams/topic-mapping.json` | `build/notebooklm/` (je Kapitel mit Leitfaden eine `GIL-NotebookLM-Kontext-Kapitel-N-…md`, alle zusammen im Ordner-Zip `GIL-NotebookLM-Kontext.zip`) + `release-assets.tsv` |
+| `anki` | `anki_deck` (Karten: `anki_cards`, `anki_exam_cards`, `anki_sketch`, `anki_student`; Pakete: `anki_package`) | `content/`, `learning/exercises/`, `learning/flashcards/*.json`, `figures/manifest.json`, `figures/reconstructed/`, `curation/figures/`, `exams/` | `build/anki/` (`GIL-Anki-Karteikarten.apkg` + je Kapitel ein `.apkg`) + `release-assets.tsv`, `learning/flashcards/skizzieren.md` |
 | `validate` | `validate` | alles Versionierte | `reports/validation.md` |
 | `report` | `coverage` | alles Versionierte, `curation/ai-log.jsonl` | `reports/coverage.md` |
 
@@ -156,16 +156,20 @@ Veröffentlicht wird nur, was per Pull Request auf `main` gemergt ist (AGENTS.md
 **Namen.** Jede veröffentlichte Datei heißt `GIL-…` (GIL = Grundlagen der Industriebetriebslehre);
 die Regel steht einmal in `pipeline/content_files.py`. Dateiname nur ASCII mit Bindestrichen (GitHub
 macht aus Leerzeichen, Umlauten und Gedankenstrichen in Asset-Namen Punkte), die lesbare Fassung ist
-das Label des Release-Assets:
+das Label des Release-Assets. Das Label trägt immer die Dateiendung (`content_files.asset_label`),
+damit man im Release sieht, was ein PDF, ein Zip, eine Markdown-Datei oder ein Anki-Paket ist:
 
 | Datei | Label | Inhalt |
 |---|---|---|
-| `GIL-Kapitel-N-<Titel>.pdf` | GIL Kapitel N – Titel | ein Kapitel des Skripts (Textschicht) |
-| `GIL-Gesamtskript.pdf` | GIL Gesamtskript | alle Kapitel mit Inhaltsverzeichnis |
-| `GIL-Zusammenfassung-Kapitel-N-<Titel>.pdf` | GIL Zusammenfassung Kapitel N – Titel | Lernleitfaden des Kapitels (prüfungsrelevant) |
-| `GIL-Zusammenfassung-gesamt.pdf` | GIL Zusammenfassung gesamt | alle Lernleitfäden |
-| `GIL-Pruefungsfragen.pdf` | GIL Prüfungsfragen | Fragensammlung |
-| `GIL-NotebookLM.zip` | GIL NotebookLM – alle Kapitel (Markdown) | Ordner `GIL-NotebookLM/` mit je einer `GIL-NotebookLM-Kapitel-N-<Titel>.md` |
+| `GIL-Skriptkapitel-N-<Titel>.pdf` | GIL Skriptkapitel N – Titel.pdf | ein Kapitel des Skripts (Textschicht) |
+| `GIL-Gesamtskript.pdf` | GIL Gesamtskript.pdf | alle Kapitel mit Inhaltsverzeichnis |
+| `GIL-Zusammenfassung-Kapitel-N-<Titel>.pdf` | GIL Zusammenfassung Kapitel N – Titel.pdf | Lernleitfaden des Kapitels (prüfungsrelevant) |
+| `GIL-Zusammenfassung-gesamt.pdf` | GIL Zusammenfassung gesamt.pdf | alle Lernleitfäden |
+| `GIL-Pruefungsfragen.pdf` | GIL Prüfungsfragen.pdf | Fragensammlung |
+| `GIL-NotebookLM-Kontext.zip` | GIL NotebookLM-Kontext – alle Kapitel (Ordner).zip | Ordner `GIL-NotebookLM-Kontext/` mit allen Kapiteldateien |
+| `GIL-NotebookLM-Kontext-Kapitel-N-<Titel>.md` | GIL NotebookLM-Kontext Kapitel N – Titel.md | dieselbe Kapiteldatei einzeln |
+| `GIL-Anki-Karteikarten.apkg` | GIL Anki-Karteikarten – alle Kapitel.apkg | Sammlung: je Kapitel ein Unterdeck, darin je Kartenart eines |
+| `GIL-Anki-Kapitel-N-<Titel>.apkg` | GIL Anki Kapitel N – Titel.apkg | dieselben Karten, nur dieses Kapitel |
 
 **NotebookLM-Dateien.** Jede Datei ist der vollständige Kontext für ein Kapitel – für NotebookLM
 (eine Datei als einzige Quelle, z. B. eine Audio-Zusammenfassung je Kapitel) und jedes andere
@@ -176,18 +180,28 @@ Alle Verweise sind Anker innerhalb der Datei (`#sec-2-5`, `#frage-…`). Kapitel
 keinen Leitfaden und deshalb keine eigene Datei. Die Dateien sind Build-Ausgabe, nicht im Git-Baum:
 jede enthält das ganze Skript.
 
-Abbildungen erscheinen nur als unsere SVG-Rekonstruktion, sonst als Platzhaltertext – nie als
-Ausschnitt aus dem Skript ([architecture.md](architecture.md#abbildungen-vier-schichten-ad)). Das
-Anki-Paket „Abbildungen skizzieren“ (`anki`) zeigt auf seinen Karten die Originalausschnitte und
-bleibt deshalb **außerhalb** des Releases; es ist nur für den lokalen Gebrauch.
+**Anki-Karteikarten** (`anki`, ohne Modellaufruf). Je Kapitel 1–9 ein Unterdeck
+`GIL::Kapitel N – Titel` mit bis zu fünf Unterdecks: *1 Begriffe* und *2 Lückentexte* aus dem
+Fettdruck des Skripts (ein fett gesetzter Begriff vor seiner Erklärung wird zur Frage, jede fette
+Stelle eines Absatzes zur Lücke), *3 Prüfungsfragen* mit den Musterlösungen aus
+`learning/exercises/` (KI-erstellt, so gekennzeichnet), *4 Abbildungen skizzieren* und *5 Karten von
+Studierenden (unverifiziert)* aus den drei Decks in `input/`. Deren Karten tragen keine Kapitel; die
+Zuordnung rechnet `anki_student` aus den Wörtern der Karte (tf-idf je Kapitel) und, bei Decks in
+Skript-Reihenfolge, aus der Reihenfolge – sie ist gut, aber nicht fehlerfrei. Jede Karte nennt ihre
+Quelle (Skriptseite, Prüfung, Deck). Deck-Ids und Notiz-Guids sind stabil: Sammlung und
+Kapitelpakete enthalten dieselben Notizen, ein erneuter Import aktualisiert statt zu verdoppeln.
 
-**Release** (je Meilenstein ein neues Tag `vX.Y`). `render-pdf` und `export-notebooklm` schreiben je eine
+Abbildungen erscheinen nur als unsere SVG-Rekonstruktion, sonst als Platzhaltertext – nie als
+Ausschnitt aus dem Skript ([architecture.md](architecture.md#abbildungen-vier-schichten-ad)). Das gilt
+auch für die Anki-Karten; Bilder aus den Decks der Studierenden sind schon in `flashcards` entfallen.
+
+**Release** (je Meilenstein ein neues Tag `vX.Y`). `render-pdf`, `export-notebooklm` und `anki` schreiben je eine
 `release-assets.tsv` (`Datei<TAB>Label` je Zeile, LF); `gh release upload` übernimmt das Label hinter `#`:
 
 ```bash
-python -m pipeline render-pdf && python -m pipeline export-notebooklm
+python -m pipeline render-pdf && python -m pipeline export-notebooklm && python -m pipeline anki
 gh release create vX.Y --target main --title "Wissensbasis vX.Y" --notes-file <notizen.md>
-for dir in build/pdf build/notebooklm; do
+for dir in build/pdf build/notebooklm build/anki; do
   while IFS=$'\t' read -r file label; do gh release upload vX.Y "$dir/$file#$label"; done < "$dir/release-assets.tsv"
 done
 ```

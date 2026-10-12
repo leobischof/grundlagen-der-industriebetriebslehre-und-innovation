@@ -24,6 +24,13 @@ _REF = re.compile(r"\[\^(\d+)\]")
 # Line starts that markdown would read as structure although the OCR text is prose.
 _BLOCK_START = re.compile(r"^(#|>|[-+] |\d{1,3}[.)] )")
 _LONE_STAR = re.compile(r"(?<!\*)\*(?!\*)")
+# Headings the pipeline adds around the script text (h2). Exports look for them: render_pdf
+# sets the unanchored footnotes apart, the Anki cards stop reading at the first appendix.
+INTRO_HEADING = "Einleitung des Kapitels (Skripttext)"
+UNANCHORED_HEADING = "Fußnoten ohne sicheren Textanker"
+EXAM_HEADING = "Prüfungsfragen zu diesem Abschnitt"
+TOC_HEADING = "Inhalt"
+APPENDIX_HEADINGS = (UNANCHORED_HEADING, EXAM_HEADING, TOC_HEADING)
 
 
 @dataclass
@@ -172,7 +179,7 @@ def footnote_section(refs: list[int], unanchored: list[Footnote], by_number: dic
     if out:
         out.append("")
     if unanchored:
-        out += ["## Fußnoten ohne sicheren Textanker", "",
+        out += [f"## {UNANCHORED_HEADING}", "",
                 "Diese Fußnoten stehen auf den Seiten dieses Abschnitts, ihr Verweiszeichen im Text "
                 "ließ sich aus dem Scan aber nicht eindeutig zuordnen (oft Quellenangaben zu Abbildungen).", ""]
         out += [f"- **{n.number}** – {page_label(n.page)}: {escape(n.text, 'footnote')}" for n in unanchored]

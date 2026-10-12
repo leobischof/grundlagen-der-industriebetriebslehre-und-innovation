@@ -1,6 +1,6 @@
 """Stage "render-pdf": knowledge-base markdown → PDFs (local, deterministic, no external binaries).
 
-  build/pdf/GIL-Kapitel-N-<Titel>.pdf                  one PDF per script chapter
+  build/pdf/GIL-Skriptkapitel-N-<Titel>.pdf            one PDF per script chapter
   build/pdf/GIL-Gesamtskript.pdf                       title page, TOC with page numbers, bookmarks,
                                                        every chapter
   build/pdf/GIL-Zusammenfassung-Kapitel-N-<Titel>.pdf  one PDF per learning guide (learning/chapters)

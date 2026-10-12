@@ -43,9 +43,11 @@ geklärt**. Daraus folgt:
   `figures/originals/` enthalten den Wortlaut und Bildausschnitte des Skripts. Sie dienen dem
   persönlichen Lernen; vor jeder Weitergabe an Dritte sind die Rechte zu klären.
 - **PDF-Exporte** (`render-pdf`, GitHub-Release) sind aus dem Markdown der Wissensbasis gebaute
-  Lernunterlagen – nie die Original-PDFs. Für sie gilt dasselbe wie für `content/`. Das gilt auch
-  für das Anki-Paket der Skizzierkarten (`anki`): Es enthält Abbildungsausschnitte des Skripts,
-  liegt deshalb nur in `build/` und im Release des privaten Repositorys.
+  Lernunterlagen – nie die Original-PDFs. Für sie gilt dasselbe wie für `content/`, ebenso für die
+  Anki-Pakete (`anki`). Kein Export zeigt Bildausschnitte des Skripts, nur unsere eigenen
+  SVG-Neuzeichnungen oder einen Platzhaltertext (`pipeline/figure_publish.py`). Eine automatische
+  Umwandlung eines Ausschnitts in SVG (Vektorisieren) zählt nicht als eigene Zeichnung: Sie bleibt
+  dasselbe Bild.
 - **Keine persönlichen Daten, keine Geheimnisse.** Lernfortschritt (`learning/progress/`), API-Schlüssel,
   Zugangsdaten und `.env`-Dateien werden nie committet.
 

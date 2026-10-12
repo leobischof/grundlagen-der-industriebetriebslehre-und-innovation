@@ -1,6 +1,6 @@
 """Stage "export-md": flat Markdown export of the script layer → build/markdown/ (e.g. for a gist).
 
-  build/markdown/GIL-Kapitel-N-<Titel>.md                 one file per chapter
+  build/markdown/GIL-Skriptkapitel-N-<Titel>.md           one file per chapter
   build/markdown/GIL-Gesamtskript.md                      every chapter in one file
   build/markdown/GIL-Zusammenfassung-Kapitel-N-<Titel>.md the chapter's learning guide
   build/markdown/GIL-Zusammenfassung-gesamt.md            every learning guide in one file

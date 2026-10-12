@@ -21,8 +21,8 @@ from collections import defaultdict
 from . import catalog, config, segment
 from .cache import write_if_changed
 from .catalog import Entry
-from .content_render import (footnote_section, frontmatter, heading_text, render_items,
-                             section_filename)
+from .content_render import (EXAM_HEADING, INTRO_HEADING, TOC_HEADING, footnote_section, frontmatter,
+                             heading_text, render_items, section_filename)
 from .footnotes import Footnote
 
 SOURCE_ID = "skript-2024-25-v2.0"
@@ -147,7 +147,7 @@ class Builder:
             return []
         ids = ", ".join(f"`{q}`" for q in meta["exam_questions"])
         n = len(meta["exam_questions"])
-        return ["## Prüfungsfragen zu diesem Abschnitt", "",
+        return [f"## {EXAM_HEADING}", "",
                 f"{n} {'Frage' if n == 1 else 'Fragen'} aus der [Prüfungsfragen-Datenbank]"
                 f"(../../exams/questions.md): {ids}", ""]
 
@@ -163,9 +163,9 @@ class Builder:
         title = f"Kapitel {int(cid)}: {chapter['title']}" if cid != "00" else chapter["title"]
         lines = [f"# {title}", ""]
         if body and body.lines:
-            lines += ["## Einleitung des Kapitels (Skripttext)", ""] + body.lines
+            lines += [f"## {INTRO_HEADING}", ""] + body.lines
             lines += footnote_section(body.refs, self.unanchored.get(f"kap-{cid}", []), self.by_number)
-        lines += ["## Inhalt", ""] + self._toc_lines(chapter, sections)
+        lines += [f"## {TOC_HEADING}", ""] + self._toc_lines(chapter, sections)
         self.files[f"{chapter['slug']}/{config.chapter_overview_name(chapter['slug'])}"] = frontmatter(meta) + "\n" + "\n".join(lines).rstrip() + "\n"
 
     def _toc_lines(self, chapter: dict, sections: list[Entry]) -> list[str]:

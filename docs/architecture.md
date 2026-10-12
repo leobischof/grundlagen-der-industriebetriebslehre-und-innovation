@@ -67,7 +67,7 @@ Regeln:
 | `exams/frequency-analysis.md` | Häufigkeit und Priorität der Themen | generiert (`exams`) |
 | `learning/drawing-exercises/<id>-zeichenuebung.md` | Zeichenanleitung je Schwerpunkt-Abbildung | generiert (`exercises`) |
 | `learning/flashcards/<deck>.*` | Anki-Karten der Studierenden, **unverifiziert** | generiert (`flashcards`) |
-| `learning/flashcards/skizzieren.md` | Skizzierkarten: „Skizziere …“ → Originalabbildung | generiert (`anki`) |
+| `learning/flashcards/skizzieren.md` | Skizzierkarten: „Skizzieren Sie …“ → unsere SVG oder Beschreibung | generiert (`anki`) |
 | `learning/chapters/<kapitel>-leitfaden.md` | Lernleitfaden je Kapitel (Übersicht: `leitfaeden-uebersicht.md`) | kuratiert (KI, protokolliert) |
 | `learning/exercises/<kapitel>-musterloesungen.md` | Musterlösungen je Kapitel (Übersicht: `musterloesungen-uebersicht.md`) | kuratiert (KI, protokolliert) |
 | `learning/progress/` | persönlicher Lernfortschritt | lokal, git-ignoriert (außer `lernfortschritt-anleitung.md`, Beispiel) |
