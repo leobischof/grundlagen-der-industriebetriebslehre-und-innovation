@@ -27,6 +27,7 @@ COMMANDS: dict[str, tuple[str, str]] = {
     # from topic-mapping.json and figure captions link the drawing exercises
     "build-content": ("build_content", "Kapitel-/Abschnitts-Markdown → content/"),
     "render-pdf": ("render_pdf", "Kapitel- und Gesamt-PDFs aus content/ → build/pdf"),
+    "anki": ("anki_sketch", "Anki-Skizzierkarten zu prüfungsrelevanten Abbildungen → build/anki"),
     "validate": ("validate", "Qualitätsprüfungen → reports/validation.md"),
     "report": ("coverage", "Abdeckungsbericht → reports/coverage.md"),
 }
