@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 642" width="1276" height="642" data-figure-id="abb-82" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Visualisierung des Dilemmas der Ablaufplanung mit Produktionskennlinien</title>
+  <rect x="0" y="0" width="1276" height="642" fill="#ffffff"/>
+  <rect x="10" y="10" width="1258" height="622" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- ===== Four target boxes ===== -->
+  <g fill="#e0e0e0" stroke="#444444" stroke-width="2">
+    <rect x="288" y="25" width="397" height="60"/>
+    <rect x="290" y="548" width="396" height="64"/>
+    <rect x="25" y="118" width="68" height="394"/>
+    <rect x="885" y="117" width="66" height="395"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="486" y="63" font-size="24" text-anchor="middle">hohe Termineinhaltung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="488" y="589" font-size="24" text-anchor="middle">geringer Bestand</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="24" text-anchor="middle" transform="translate(68 315) rotate(-90)">geringe Durchlaufzeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="24" text-anchor="middle" transform="translate(926 315) rotate(-90)">hohe Leistung/ Auslastung</text>
+
+  <!-- ===== Supporting goals: black curved double arrows ===== -->
+  <g fill="none" stroke="#111111" stroke-width="3">
+    <path class="answer" d="M84 100 Q150 52 258 46"/>
+    <path class="answer" d="M104 530 Q170 572 258 578"/>
+  </g>
+  <g fill="#111111">
+    <polygon points="72,108 86,88 94,104"/>
+    <polygon points="272,46 252,36 254,56"/>
+    <polygon points="92,522 112,520 100,538"/>
+    <polygon points="272,579 254,568 252,588"/>
+  </g>
+
+  <!-- ===== Competing goals: grey zig-zag double arrows ===== -->
+  <g fill="none" stroke="#7a7a7a" stroke-width="5" stroke-linejoin="miter">
+    <path class="answer" d="M712 64 L790 74 L782 92 L850 112"/>
+    <path class="answer" d="M734 572 L812 548 L790 540 L855 518"/>
+  </g>
+  <g fill="#7a7a7a">
+    <polygon points="698,60 722,52 718,76"/>
+    <polygon points="866,117 842,100 838,122"/>
+    <polygon points="720,577 738,560 744,582"/>
+    <polygon points="870,512 848,508 856,530"/>
+  </g>
+
+  <!-- ===== Production characteristic curves ===== -->
+  <g stroke="#222222" stroke-width="2.5" fill="none">
+    <line x1="208" y1="470" x2="208" y2="160"/>
+    <line x1="208" y1="470" x2="752" y2="470"/>
+  </g>
+  <g fill="#222222">
+    <polygon points="208,145 202,163 214,163"/>
+    <polygon points="767,470 749,464 749,476"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="640" y="501" font-size="20">Bestand (WIP)</text>
+
+  <g stroke="#333333" stroke-width="3" fill="none">
+    <!-- Leistung: steep rise, then saturates -->
+    <path class="answer" d="M222 433 C252 360 278 280 310 238 C340 200 380 190 450 186 C560 182 650 182 720 182"/>
+    <!-- Durchlaufzeit: flat at first, then grows almost linearly -->
+    <path class="answer" d="M222 410 C260 410 285 408 310 400 C430 360 600 255 718 202"/>
+    <!-- Termineinhaltung: bell shape -->
+    <path class="answer" d="M335 451 C390 430 430 380 448 300 C458 262 485 252 500 272 C520 300 530 390 560 418 C590 440 620 446 652 448"/>
+  </g>
+  <!-- leader lines -->
+  <g stroke="#333333" stroke-width="1.5" fill="none">
+    <path d="M424 188 L444 172"/>
+    <path d="M548 286 L580 298"/>
+    <path d="M567 404 L590 384"/>
+  </g>
+  <g font-size="20" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="450" y="170">Leistung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="590" y="306">Durchlaufzeit</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="594" y="387">Termineinhaltung</text>
+  </g>
+
+  <!-- ===== Legend ===== -->
+  <line x1="896" y1="572" x2="954" y2="572" stroke="#111111" stroke-width="5"/>
+  <polygon points="884,572 900,563 900,581" fill="#111111"/>
+  <polygon points="968,572 952,563 952,581" fill="#111111"/>
+  <path d="M898 606 L924 600 L920 610 L952 603" fill="none" stroke="#7a7a7a" stroke-width="4"/>
+  <polygon points="884,608 900,598 902,614" fill="#7a7a7a"/>
+  <polygon points="968,601 950,594 952,611" fill="#7a7a7a"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="995" y="579" font-size="17">Teilziele unterstützen sich</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="995" y="612" font-size="17">Teilziele konkurrieren</text>
+</svg>

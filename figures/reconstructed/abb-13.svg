@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 501" width="1263" height="501" data-figure-id="abb-13" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Abgrenzung zwischen Industrie- und Dienstleistungsbetrieb</title>
+  <rect x="0" y="0" width="1263" height="501" fill="#ffffff"/>
+  <!-- outer frame of the original figure -->
+  <rect x="12" y="9" width="1240" height="481" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- continuum: share of goods (light, bottom left) vs. services (dark, top right) -->
+  <polygon points="92,222 1160,458 92,458" fill="#ecebef"/>
+  <polygon points="92,222 1160,222 1160,458" fill="#4a4a4a"/>
+  <line x1="92" y1="222" x2="1160" y2="458" stroke="#bbbbbb" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="148" y="352" font-size="33">Sachgüter</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1140" y="358" font-size="33" fill="#ffffff" text-anchor="end">Dienstleistungen</text>
+
+  <!-- positions on the continuum -->
+  <g fill="none" stroke="#111111" stroke-width="2">
+    <path d="M162 196 V220"/>
+    <path d="M388 190 V220"/>
+    <path d="M628 190 V220"/>
+    <path d="M884 196 V220"/>
+    <path d="M1105 196 V220"/>
+  </g>
+  <!-- arrow heads -->
+  <g>
+    <polygon points="162,221 155.95,210 168.05,210" fill="#111111"/>
+    <polygon points="388,221 381.95,210 394.05,210" fill="#111111"/>
+    <polygon points="628,221 621.95,210 634.05,210" fill="#111111"/>
+    <polygon points="884,221 877.95,210 890.05,210" fill="#111111"/>
+    <polygon points="1105,221 1098.95,210 1111.05,210" fill="#111111"/>
+  </g>
+  <g font-size="24" text-anchor="middle">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="162" y="104" font-size="24" text-anchor="middle">„reine“</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="162" y="136" font-size="24" text-anchor="middle">Industrie-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="162" y="168" font-size="24" text-anchor="middle">unternehmen</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="66" font-size="24" text-anchor="middle">Industrie-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="99" font-size="24" text-anchor="middle">unternehmen mit</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="132" font-size="24" text-anchor="middle">sekundären</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="165" font-size="24" text-anchor="middle">Dienstleistungen</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="628" y="66" font-size="24" text-anchor="middle">Industrie-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="628" y="99" font-size="24" text-anchor="middle">unternehmen mit</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="628" y="132" font-size="24" text-anchor="middle">primären</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="628" y="165" font-size="24" text-anchor="middle">Dienstleistungen</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="884" y="70" font-size="24" text-anchor="middle">Dienstleistungs</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="884" y="103" font-size="24" text-anchor="middle">-unternehmen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="884" y="136" font-size="24" text-anchor="middle">mit Verkauf von</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="884" y="168" font-size="24" text-anchor="middle">Sachgütern</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1105" y="104" font-size="24" text-anchor="middle">„reine“</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1105" y="136" font-size="24" text-anchor="middle">Dienstleistungs</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1105" y="168" font-size="24" text-anchor="middle">-unternehmen</text>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1265 798" width="1265" height="798" data-figure-id="abb-76" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Planung und Steuerung über die Zeit</title>
+  <rect x="0" y="0" width="1265" height="798" fill="#ffffff"/>
+  <rect x="12" y="10" width="1242" height="775" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Square split along the diagonal: share of planning vs. control -->
+  <polygon points="145,70 640,70 640,715" fill="#ececec"/>
+  <polygon points="145,70 145,715 640,715" fill="#3c3c3c"/>
+
+  <!-- Axes (structure) -->
+  <g fill="none" stroke="#7f7f7f" stroke-width="1.5">
+    <path d="M145 70 H697"/>
+    <path d="M145 70 V765"/>
+  </g>
+
+  <!-- Explicit arrowheads (markers are not rendered by every SVG engine) -->
+  <g fill="#7f7f7f">
+    <polygon points="699.0,70.0 688.0,75.0 688.0,65.0"/>
+    <polygon points="145.0,767.0 140.0,756.0 150.0,756.0"/>
+  </g>
+
+  <!-- Axis titles -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="422" y="49" font-size="21" font-weight="bold" text-anchor="middle">Bedeutung von Planung und Kontrolle</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="50" y="423" font-size="22" font-weight="bold" text-anchor="middle" transform="rotate(-90 50 423)">Zeithorizont</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="106" y="166" font-size="23" text-anchor="middle" transform="rotate(-90 106 166)">Monate / Jahre</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="90" y="422" font-size="23" text-anchor="middle" transform="rotate(-90 90 422)">Tage / Wochen /</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="119" y="401" font-size="23" text-anchor="middle" transform="rotate(-90 119 401)">Monate</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="104" y="626" font-size="23" text-anchor="middle" transform="rotate(-90 104 626)">Stunden / Tage</text>
+
+  <!-- Areas -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="428" y="196" font-size="30" text-anchor="middle">Planung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="348" y="597" font-size="30" fill="#ffffff" text-anchor="middle">Kontrolle</text>
+
+  <!-- Characteristics per horizon -->
+  <g font-size="21">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="770" y="99" font-weight="bold">Langfristige Planung und Kontrolle</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="131">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="131">Verwendet gebündelte</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="160">Bedarfsprognosen</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="190">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="190">Bestimmt Ressourcen in gebündelter</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="219">Form</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="250">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="250">Ziele werden weitgehend in finanzieller</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="278">Hinsicht festgelegt</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="770" y="309" font-weight="bold">Mittelfristige Planung</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="340">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="340">Verwendet teilweise disaggregierte</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="369">Bedarfsprognosen</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="398">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="398">Bestimmt die Ressourcen</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="430">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="430">Ziele werden sowohl in finanzieller als</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="459">auch in operativer Hinsicht festgelegt</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="770" y="490" font-weight="bold">Kurzfristige Planung und Kontrolle</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="523">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="523">Verwendet vollständig disaggregierte</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="551">Prognosen oder den tatsächlichen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="580">Bedarf</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="610">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="610">Eingriffe in die Ressourcen zur</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="640">Korrektur von Planabweichungen</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="669">•</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="669">Ad-hoc-Betrachtung der operativen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="699">Ziele</text>
+  </g>
+</svg>

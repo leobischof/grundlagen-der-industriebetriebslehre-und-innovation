@@ -1,0 +1,70 @@
+id: abb-05
+title: Drei generische Strategien, die Unternehmen verfolgen können
+type: matrix
+description: >-
+  2×2-Matrix der Wettbewerbsstrategien nach Porter. Oben die Dimension „Strategischer Vorteil“ mit
+  den Spalten „Einzigartigkeit aus der Sicht des Käufers“ und „Kostenvorsprung“, links die Dimension
+  „Strategisches Zielobjekt“ mit den Zeilen „Branchenweit“ und „Beschränkung auf ein Segment“. Oben
+  links steht Differenzierung, oben rechts Umfassende Kostenführerschaft, die untere Zeile füllt
+  über beide Spalten die Fokussierung. In der Mitte liegt ein dunkler Kasten „Zwischen den Stühlen“.
+axes:
+  - {axis: x, label: Strategischer Vorteil, unit: null, direction: "Spalten: Einzigartigkeit aus der Sicht des Käufers | Kostenvorsprung"}
+  - {axis: y, label: Strategisches Zielobjekt, unit: null, direction: "Zeilen: Branchenweit (oben) | Beschränkung auf ein Segment (unten)"}
+elements:
+  - {id: dim_x, kind: achse, text: Strategischer Vorteil, note: Spaltendimension oben}
+  - {id: col1, kind: label, text: Einzigartigkeit aus der Sicht des Käufers, note: linke Spalte}
+  - {id: col2, kind: label, text: Kostenvorsprung, note: rechte Spalte}
+  - {id: dim_y, kind: achse, text: Strategisches Zielobjekt, note: Zeilendimension links}
+  - {id: row1, kind: label, text: Branchenweit, note: obere Zeile}
+  - {id: row2, kind: label, text: Beschränkung auf ein Segment, note: untere Zeile}
+  - {id: s1, kind: feld, text: Differenzierung, note: "Branchenweit × Einzigartigkeit"}
+  - {id: s2, kind: feld, text: Umfassende Kostenführerschaft, note: "Branchenweit × Kostenvorsprung"}
+  - {id: s3, kind: feld, text: Fokussierung (Konzentration auf Schwerpunkte), note: "Beschränkung auf ein Segment, über beide Spalten"}
+  - {id: s0, kind: box, text: Zwischen den Stühlen, note: "dunkler Kasten in der Mitte der Matrix, über allen vier Feldern"}
+relations:
+  - {from: row1, to: s1, kind: enthält}
+  - {from: row1, to: s2, kind: enthält}
+  - {from: row2, to: s3, kind: enthält}
+  - {from: col1, to: s1, kind: enthält}
+  - {from: col2, to: s2, kind: enthält}
+curves: []
+meaning: >-
+  Nach Porter muss jedes Unternehmen eine von drei generischen Strategien wählen: Umfassende
+  Kostenführerschaft (effiziente Anlagen, konsequente Kostensenkung, niedrige Preise),
+  Differenzierung (Einzigartigkeit z. B. durch Qualität, Service, kundenspezifische oder innovative
+  Produkte; in Hochlohn-Regionen die vorherrschende Strategie) oder Fokussierung (Nischenstrategie
+  auf eine Käufergruppe, ein Produktliniensegment oder einen geografischen Markt). Wer sich nicht
+  klar entscheidet, sitzt „zwischen den Stühlen“ (Skript 2.1, S. 21–22).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json zweimal abgefragt: Strategien nach Porter beschreiben
+    (2024-03-14) und Strategien von Unternehmen Differenzierung, Kostenführerschaft, Fokussierung
+    (2025-10-15). Die Matrix ist die kompakteste Antwortstruktur.
+  question_ids: [frage-2024-03-14-1, frage-2025-10-15-1]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Zwei Dimensionen: Strategischer Vorteil (Einzigartigkeit vs. Kostenvorsprung) und Strategisches Zielobjekt (branchenweit vs. Segment)"
+    - "Differenzierung oben links, Umfassende Kostenführerschaft oben rechts"
+    - "Fokussierung über die ganze untere Zeile"
+    - "„Zwischen den Stühlen“ in der Mitte"
+  common_mistakes:
+    - "Fokussierung nur in ein Feld gesetzt statt über beide Spalten"
+    - "Achsen vertauscht oder Dimensionsnamen vergessen"
+    - "„Zwischen den Stühlen“ weggelassen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-05.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Positionen, Schriftgrößen und die dünnen
+    grauen Trennlinien angenähert. Die senkrechte Trennlinie in der unteren Zeile ist wie im
+    Original hinter dem Fokussierungs-Text unterbrochen. Alle Texte sind class="answer".
+source:
+  pdf_page: 32
+  printed_page: 22
+  ocr_text_of_labels: >-
+    Strategischer Vorteil; Einzigartigkeit aus der Sicht des Käufers; Kostenvorsprung;
+    Branchenweit; Strategisches Zielobjekt; Beschränkung auf ein Segment; Differenzierung;
+    Umfassende Kostenführerschaft; Zwischen den Stühlen; Fokussierung (Konzentration auf
+    Schwerpunkte)

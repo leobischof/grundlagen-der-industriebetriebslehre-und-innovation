@@ -1,0 +1,62 @@
+id: abb-32
+title: Point-based Concurrent Engineering
+type: flussdiagramm
+description: >-
+  Rahmen mit der Überschrift „Point-Based Concurrent Engineering“. „Prozess A“ gibt per Pfeil an
+  „Analyse und Kritik“ weiter. Von rechts zeigen die vier untereinander stehenden Kästchen
+  „Prozess B“ bis „Prozess E“ mit schrägen Pfeilen auf „Analyse und Kritik“. Von dort führt ein
+  Winkelpfeil nach unten zu „Abänderung“, und von „Abänderung“ ein Winkelpfeil zurück nach oben
+  zu „Prozess A“ – eine Rückkopplungsschleife.
+axes: []
+elements:
+  - {id: titel, kind: label, text: Point-Based Concurrent Engineering, note: Überschrift im Rahmen}
+  - {id: pa, kind: box, text: Prozess A}
+  - {id: ak, kind: box, text: Analyse und Kritik}
+  - {id: ab, kind: box, text: Abänderung}
+  - {id: pb, kind: box, text: Prozess B, note: "rechte Spalte, oben"}
+  - {id: pc, kind: box, text: Prozess C}
+  - {id: pd, kind: box, text: Prozess D}
+  - {id: pe, kind: box, text: Prozess E, note: "rechte Spalte, unten"}
+relations:
+  - {from: pa, to: ak, kind: folgt}
+  - {from: pb, to: ak, kind: beeinflusst, text: Feedback des nachgelagerten Prozesses}
+  - {from: pc, to: ak, kind: beeinflusst}
+  - {from: pd, to: ak, kind: beeinflusst}
+  - {from: pe, to: ak, kind: beeinflusst}
+  - {from: ak, to: ab, kind: folgt}
+  - {from: ab, to: pa, kind: rückkopplung, text: Iteration}
+curves: []
+meaning: >-
+  Im Point-based Concurrent Engineering (PBCE) können nachgelagerte Prozesse auf Basis ihrer
+  Erfahrungen die vorgelagerten Aktivitäten beeinflussen (sec-5.6). Feedback-Schleifen in frühen
+  Phasen erlauben Änderungen mit geringerem Aufwand und geringeren Kosten; es wird iteriert, um eine
+  einzelne Lösung („Punkt“) Schritt für Schritt zu verbessern. Gegensatz: der rein serielle Ansatz
+  (Abbildung 31) und Set-based Concurrent Engineering (Abbildung 33).
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; Abschnitt 5.6 wird über andere
+    Inhalte geprüft (Integrationsbereiche, SE-Prinzipien, Arten der Integration). Hilft beim
+    Erklären von Concurrent Engineering.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Prozess A → Analyse und Kritik → Abänderung → zurück zu Prozess A (Schleife)"
+    - "Nachgelagerte Prozesse B–E zeigen alle auf „Analyse und Kritik“"
+  common_mistakes:
+    - "Pfeile von B–E in die falsche Richtung (sie liefern Feedback, empfangen nichts)"
+    - "Rückkopplung über „Abänderung“ vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-32.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kastenpositionen, Grautöne und
+    Pfeilwinkel angenähert, die Rasterstruktur der Kästchenfüllung ist als einfarbiges Hellgrau
+    wiedergegeben. Die Überschrift im Rahmen ist als Vorgabe kein Lösungselement.
+source:
+  pdf_page: 97
+  printed_page: 87
+  ocr_text_of_labels: >-
+    Point-Based Concurrent Engineering; Prozess A; Analyse und Kritik; Abänderung; Prozess B;
+    Prozess C; Prozess D; Prozess E

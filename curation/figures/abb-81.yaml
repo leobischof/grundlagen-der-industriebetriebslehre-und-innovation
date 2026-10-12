@@ -1,0 +1,62 @@
+id: abb-81
+title: Dilemma der Ablaufplanung am Bsp. der Erhöhung der Kapazitätsauslastung
+type: sonstiges
+description: >-
+  Zwei Netz- bzw. Rautendiagramme nebeneinander mit je vier Achsen, die vom Mittelpunkt ausgehen:
+  oben „Kurze Durchlaufzeit“, rechts „Hohe Kapazitätsauslastung“, unten „Hohe Termintreue“, links
+  „Niedrige Bestände“. Links eine grau gefüllte, symmetrische Raute mit schwarzen Punkten als
+  Ausgangszustand. Rechts dieselbe Raute als Umriss und zusätzlich eine gestrichelte Raute mit
+  grauen Punkten: Die Kapazitätsauslastung reicht weiter nach außen, die drei übrigen Zielgrößen
+  rücken zur Mitte (schlechter).
+axes:
+  - {axis: oben, label: Kurze Durchlaufzeit, unit: null, direction: oben}
+  - {axis: rechts, label: Hohe Kapazitätsauslastung, unit: null, direction: rechts}
+  - {axis: unten, label: Hohe Termintreue, unit: null, direction: unten}
+  - {axis: links, label: Niedrige Bestände, unit: null, direction: links}
+elements:
+  - {id: a1, kind: achse, text: Kurze Durchlaufzeit}
+  - {id: a2, kind: achse, text: Hohe Kapazitätsauslastung, note: "im Bild getrennt „Hohe Kapazitäts-/auslastung“"}
+  - {id: a3, kind: achse, text: Hohe Termintreue}
+  - {id: a4, kind: achse, text: Niedrige Bestände}
+  - {id: p0, kind: form, text: null, note: "Ausgangsraute (links grau gefüllt, rechts als durchgezogener Umriss), schwarze Punkte"}
+  - {id: p1, kind: form, text: null, note: "rechts gestrichelte Raute, graue Punkte: Auslastung außen, Durchlaufzeit, Termintreue und Bestände nach innen verschoben"}
+relations:
+  - {from: p0, to: p1, kind: wird zu, text: "Erhöhung der Kapazitätsauslastung verschlechtert die anderen drei Zielgrößen"}
+curves: []
+meaning: >-
+  Laut Skript (9.2.2) visualisiert die Abbildung das Dilemma der Ablaufplanung anhand der vier
+  Kenngrößen Bestand, Durchlaufzeit, Termintreue und Kapazitätsauslastung. Will ein Unternehmen
+  z. B. die Kapazitätsauslastung der Betriebsmittel erhöhen, müssen die Bestände (WIP) erhöht
+  werden. Dadurch können sich die Durchlaufzeiten erhöhen, wodurch auch die Termintreue
+  verschlechtert wird.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Frage direkt zugeordnet; vertieft laut Notiz zu
+    frage-2025-04-09-3 das zweimal geprüfte Dilemma der Ablaufplanung und zeigt die vier
+    Kenngrößen kompakt.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Vier Achsen: Kurze Durchlaufzeit (oben), Hohe Kapazitätsauslastung (rechts), Hohe Termintreue (unten), Niedrige Bestände (links)"
+    - "Links ausgeglichene Raute als Ausgangslage"
+    - "Rechts: Auslastung nach außen, die drei anderen Größen nach innen (gestrichelte Raute)"
+  common_mistakes:
+    - "Achsen positiv falsch benannt (z. B. „Hohe Bestände“ statt „Niedrige Bestände“), wodurch die Richtung der Verschlechterung nicht mehr stimmt"
+    - "Bei erhöhter Auslastung alle Werte nach außen gezeichnet (kein Zielkonflikt mehr sichtbar)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-81.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Achsenbeschriftungen im
+    Originalwortlaut, Rauten und Punkte an den Originalpositionen angenähert. Die gestrichelte Raute
+    ist aus einzelnen Strichsegmenten gezeichnet.
+    Die im Skript oben auf derselben Seite unbeschriftet wiederholte Grafik ist nicht separat
+    nachgezeichnet (Duplikat). Schrift Arial statt Calibri.
+source:
+  pdf_page: 179
+  printed_page: 169
+  ocr_text_of_labels: >-
+    Kurze Durchlaufzeit; Niedrige Bestände; Hohe Kapazitäts- auslastung; Hohe Termintreue (je
+    zweimal, links und rechts)

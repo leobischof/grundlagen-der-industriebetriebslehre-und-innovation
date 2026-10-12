@@ -9,7 +9,7 @@ description: >-
   Anordnung“ und den Ausprägungen Punkt-, Werkstatt-, Gruppen-, Reihen- und Fließfertigung.
 axes: []
 elements:
-  - {id: root, kind: box, text: Produktionssysteme, note: Wurzel, dunkelgrau}
+  - {id: root, kind: box, text: Produktionssysteme, note: "Wurzel, dunkelgrau"}
   - {id: pa, kind: box, text: Produktionsart, note: linker Ast}
   - {id: pa_k, kind: box, text: "nach mengenmäßigen Auftragsumfang und die Wiederholhäufigkeit", note: "Gliederungskriterium (Wortlaut wie im Original, grammatisch holprig)"}
   - {id: pa1, kind: label, text: Einmalproduktion}

@@ -1,0 +1,75 @@
+id: abb-03
+title: Entwicklungen des %-Anteils der Beschäftigten an der Gesamtbevölkerung sowie des %-Anteils der Industriebeschäftigten an den Gesamtbeschäftigten in Österreich
+type: kurvendiagramm
+description: >-
+  Liniendiagramm mit Jahren (1990 bis 2025) auf der x-Achse und Prozentwerten (20 % bis 45 %) auf
+  der y-Achse. Die dunkle Linie zeigt den Anteil der Gesamtbeschäftigten an der Bevölkerung: von
+  etwa 37,6 % (1990) leicht steigend auf etwa 39 % (2000/2010) und danach deutlicher auf etwa
+  43 % (2023). Die helle Linie zeigt den Anteil der Industriebeschäftigten an den
+  Gesamtbeschäftigten: von etwa 37 % (1990) stark fallend auf 29,1 % (2000) und 26,1 % (2010),
+  danach nahezu konstant bei gut 25 %.
+axes:
+  - {axis: x, label: "Jahr (ohne Achsentitel; Teilstriche 1990, 1995, …, 2025)", unit: null, direction: rechts}
+  - {axis: y, label: "Prozent (ohne Achsentitel; Teilstriche 20% bis 45%)", unit: "%", direction: oben}
+elements:
+  - {id: k1, kind: kurve, text: "%-Anteil der Gesamtbeschäftigten an der Bevölkerung", note: dunkelgraue Linie mit Punkten}
+  - {id: k2, kind: kurve, text: "%-Anteil Beschäftigte in Industrie an Gesamtbeschäftigten", note: hellgraue Linie mit Punkten}
+  - {id: ty, kind: achse, text: "20%, 25%, 30%, 35%, 40%, 45%", note: y-Teilstriche}
+  - {id: tx, kind: achse, text: "1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025", note: x-Teilstriche}
+relations: []
+curves:
+  - name: "%-Anteil der Gesamtbeschäftigten an der Bevölkerung"
+    shape: "leicht steigend bis 2000, flach bis 2010, danach deutlich steigend"
+    key_points:
+      - "1990: ca. 37,6 %"
+      - "2000: ca. 39,1 %"
+      - "2010: ca. 38,8 %"
+      - "2015: ca. 40,2 %"
+      - "2023: ca. 43,2 %"
+  - name: "%-Anteil Beschäftigte in Industrie an Gesamtbeschäftigten"
+    shape: "von 1990 bis 2000 stark fallend, bis 2010 weiter fallend, danach nahezu konstant"
+    key_points:
+      - "1990: ca. 37,0 % (Startpunkt knapp unter der dunklen Linie)"
+      - "2000: ca. 29,1 %"
+      - "2010: ca. 26,1 %"
+      - "2015: ca. 25,3 %"
+      - "2023: ca. 25,4 %"
+meaning: >-
+  Laut Skript (1.2.3, Merkmal 2) erlebt Österreich seit 1970 einen Prozess der
+  Entindustrialisierung: Die Zahl der in der Industrie tätigen Mitarbeiter sinkt relativ, während
+  die Beschäftigtenzahl in Dienstleistung und Verwaltung steigt. Die Abbildung zeigt diese
+  Schere: Der Anteil der Beschäftigten an der Bevölkerung steigt, der Anteil der Industrie an den
+  Beschäftigten fällt seit 1990 von über einem Drittel auf rund ein Viertel. 2019 hatte Österreich
+  laut Skript rund 8,85 Millionen Einwohner und fast 950.000 Industriebeschäftigte (25 % der
+  Gesamtbeschäftigten).
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet. Prüfbar ist
+    allenfalls die qualitative Aussage (Entindustrialisierung: Industrieanteil fällt, Beschäftigung
+    insgesamt steigt), nicht die Einzelwerte.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Zwei Kurven über der Zeit: Beschäftigte/Bevölkerung (steigend) und Industriebeschäftigte/Gesamtbeschäftigte (fallend)"
+    - "Industrieanteil fällt von rund 37 % (1990) auf rund 25 % und bleibt dann etwa konstant"
+  common_mistakes:
+    - "Bezugsgrößen vertauscht (Industriebeschäftigte an Bevölkerung statt an Gesamtbeschäftigten)"
+    - "Sinkenden Anteil als sinkende absolute Zahl gedeutet (laut Tabelle 1 steigt die absolute Zahl zuletzt wieder)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-03.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Achsenteilung, Gitter, beide Kurven mit
+    je fünf Datenpunkten und die Legende stimmen überein. Die Datenpunkte sind aus dem Bild auf etwa
+    ±0,2 Prozentpunkte abgelesen; die Industriewerte 29,1 / 26,1 / 25,4 decken sich mit Tabelle 1.
+    Hinweis zum Original: Der vierte Punkt liegt im Diagramm bei 2015, der Wert 25,3 % gehört laut
+    Tabelle 1 aber zum Jahr 2020; die Lage ist wie im Original übernommen.
+source:
+  pdf_page: 22
+  printed_page: 12
+  ocr_text_of_labels: >-
+    45% 40% 35% 30% 25% 20%; 1990 1995 2000 2005 2010 2015 2020 2025; %-Anteil der
+    Gesamtbeschäftigten an der Bevölkerung; %-Anteil Beschäftigte in Industrie an
+    Gesamtbeschäftigten

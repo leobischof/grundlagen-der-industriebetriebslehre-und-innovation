@@ -1,0 +1,82 @@
+id: abb-40
+title: Funktionen des Industrie Management
+type: hierarchie
+description: >-
+  Baumdiagramm: Die graue Ellipse „Industrie Management“ verzweigt in drei Funktionen mit grauem
+  Kopfkasten und weißem Erläuterungskasten darunter: „Gestaltung“ (eines institutionellen
+  Rahmens …), „Lenkung“ (durch das Bestimmen von Zielen …) und „Entwicklung“ (ist teils das
+  Ergebnis von Gestaltungs- und Lenkungsprozessen …).
+axes: []
+elements:
+  - {id: root, kind: ellipse, text: Industrie Management, note: "Wurzel, grau"}
+  - {id: gest, kind: box, text: Gestaltung, note: linker Ast}
+  - id: gest_t
+    kind: label
+    text: >-
+      eines institutionellen Rahmens, der es ermöglicht, eine handlungsfähige Ganzheit über ihre
+      Zweckerfüllung überlebens- und entwicklungsfähig zu erhalten
+    note: "„überlebens- und“ im Original kursiv"
+  - {id: lenk, kind: box, text: Lenkung, note: mittlerer Ast}
+  - id: lenk_t
+    kind: label
+    text: >-
+      durch das Bestimmen von Zielen und das Festlegen, Auslösen und Kontrollieren von
+      zielgerichteten Aktivitäten des Systems und seiner Elemente
+    note: "„und seiner“ im Original kursiv"
+  - {id: entw, kind: box, text: Entwicklung, note: rechter Ast}
+  - id: entw_t
+    kind: label
+    text: >-
+      ist teils das Ergebnis von Gestaltungs- und Lenkungsprozessen im Zeitablauf, teils erfolgt
+      sie in sozialen Systemen eigenständig evolutorisch durch intergeneratives Erlernen von
+      Wissen, Können und Einstellung
+    note: "„durch intergeneratives“ im Original kursiv"
+relations:
+  - {from: root, to: gest, kind: enthält}
+  - {from: root, to: lenk, kind: enthält}
+  - {from: root, to: entw, kind: enthält}
+  - {from: gest, to: gest_t, kind: erläutert}
+  - {from: lenk, to: lenk_t, kind: erläutert}
+  - {from: entw, to: entw_t, kind: erläutert}
+curves: []
+meaning: >-
+  Nach Bleicher (1999) hat das Industriemanagement drei Funktionen (sec-7.1): Gestaltung legt einen
+  Rahmen fest, der die Ausbildung von Entwicklungsfähigkeiten ermöglicht; Lenkung umfasst das
+  Ausformulieren von Zielen und das Realisieren daraus abgeleiteter Aktivitäten; Entwicklung
+  umfasst insbesondere das Einleiten und Bewältigen von Veränderungsprozessen. Industriemanagement
+  ist interdisziplinär und zielt auf Effizienzsteigerung über alle Wertschöpfungsstufen.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json direkt abgefragt (2025-12-11): „Nennen und erläutern Sie die
+    Funktionen des Industriemanagements nach Bleicher.“ Die Abbildung enthält genau die drei
+    Funktionen samt Erläuterung.
+  question_ids: [frage-2025-12-11-4]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Drei Funktionen: Gestaltung, Lenkung, Entwicklung"
+    - "Gestaltung = institutioneller Rahmen; Lenkung = Ziele bestimmen und Aktivitäten festlegen, auslösen, kontrollieren; Entwicklung = Ergebnis von Gestaltung und Lenkung bzw. evolutorisches Lernen"
+  common_mistakes:
+    - "Lenkung mit Gestaltung verwechseln (Rahmen vs. Ziele/Aktivitäten)"
+    - "Entwicklung nur als Produktentwicklung verstehen statt als Veränderungs-/Lernprozess"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-40.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kastenmaße, Grautöne und Zeilenumbrüche
+    wie im Original, die im Scan kursiven Wortgruppen („überlebens- und“, „und seiner“, „durch
+    intergeneratives“) sind ebenfalls kursiv gesetzt. Die Wurzel „Industrie Management“ ist als
+    Vorgabe kein Lösungselement. Schreibweise „Industrie Management“ ohne Bindestrich wie im
+    Original.
+source:
+  pdf_page: 117
+  printed_page: 107
+  ocr_text_of_labels: >-
+    Industrie Management; Gestaltung; Lenkung; Entwicklung; eines institutionellen Rahmens, der es
+    ermöglicht, eine handlungsfähige Ganzheit über ihre Zweckerfüllung überlebens- und
+    entwicklungsfähig zu erhalten; durch das Bestimmen von Zielen und das Festlegen, Auslösen und
+    Kontrollieren von zielgerichteten Aktivitäten des Systems und seiner Elemente; ist teils das
+    Ergebnis von Gestaltungs- und Lenkungsprozessen im Zeitablauf, teils erfolgt sie in sozialen
+    Systemen eigenständig evolutorisch durch intergeneratives Erlernen von Wissen, Können und
+    Einstellung

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1271 522" width="1271" height="522" data-figure-id="abb-20" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Vergleich zwischen SME- und IDE-Entrepreneurship</title>
+  <rect x="0" y="0" width="1271" height="522" fill="#ffffff"/>
+  <rect x="12" y="12" width="1246" height="497" fill="none" stroke="#444444" stroke-width="2"/>
+  <!-- Axes of both panels (the y-axis reaches below the origin as in the original) -->
+  <g stroke="#000000" stroke-width="2" fill="none">
+    <path d="M173 460 V84 M127 400 H513"/>
+    <path d="M803 450 V70 M760 388 H1151"/>
+  </g>
+  <g fill="#000000">
+    <polygon points="173,70 167,86 179,86"/>
+    <polygon points="527,400 511,394 511,406"/>
+    <polygon points="803,56 797,72 809,72"/>
+    <polygon points="1165,388 1149,382 1149,394"/>
+  </g>
+  <!-- SME: linear growth from the origin -->
+  <path class="answer" d="M173 400 L447 262" fill="none" stroke="#000000" stroke-width="3"/>
+  <!-- IDE: first a loss below the time axis, then exponential growth -->
+  <path class="answer" d="M810 396 C835 410 860 418 882 416 C905 414 925 404 940 388 C990 333 1040 245 1078 148" fill="none" stroke="#000000" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="249" y="120" font-size="18">SME-Einnahmen,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="249" y="144" font-size="18">Cashflow, Arbeitsplätze</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="249" y="168" font-size="18">im Zeitverlauf</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="47" y="203" font-size="18">Einnahmen  /</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="47" y="227" font-size="18">Cashflow /</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="47" y="251" font-size="18">Arbeitsplätze</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="488" y="432" font-size="18">Zeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="885" y="107" font-size="18">IDE-Einnahmen,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="885" y="130" font-size="18">Cashflow, Arbeitsplätze</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="885" y="153" font-size="18">im Zeitverlauf</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="679" y="196" font-size="18">Einnahmen  /</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="679" y="220" font-size="18">Cashflow /</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="679" y="244" font-size="18">Arbeitsplätze</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1128" y="421" font-size="18">Zeit</text>
+</svg>

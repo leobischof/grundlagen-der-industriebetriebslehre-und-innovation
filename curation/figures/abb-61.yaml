@@ -1,0 +1,65 @@
+id: abb-61
+title: Beispiele für eine Zeitreihenanalyse (a) und ein Kausalmodell (b)
+type: kurvendiagramm
+description: >-
+  Zwei nebeneinanderliegende Streudiagramme. a) Nachfrage über der Zeit: Datenpunkte streuen um
+  eine steigende Gerade (linearer Trend). b) Nachfrage über einer Einflussvariable: Datenpunkte
+  folgen einer nichtlinearen Kurve, die erst flach, dann steil ansteigt, ein Maximum erreicht und
+  danach leicht abfällt.
+axes:
+  - {axis: "a) x", label: Zeit, unit: null, direction: rechts}
+  - {axis: "a) y", label: Nachfrage, unit: null, direction: oben}
+  - {axis: "b) x", label: Variable, unit: null, direction: rechts}
+  - {axis: "b) y", label: Nachfrage, unit: null, direction: oben}
+elements:
+  - {id: a, kind: label, text: "a)", note: "Zeitreihenanalyse"}
+  - {id: b, kind: label, text: "b)", note: "Kausalmodell"}
+  - {id: a_pkt, kind: punkte, text: null, note: "14 Datenpunkte, steigende Tendenz mit Streuung"}
+  - {id: a_trend, kind: kurve, text: null, note: "Trendgerade, unbeschriftet"}
+  - {id: b_pkt, kind: punkte, text: null, note: "18 Datenpunkte"}
+  - {id: b_kurve, kind: kurve, text: null, note: "nichtlineare Regressionskurve, unbeschriftet"}
+relations: []
+curves:
+  - name: "a) Trendgerade"
+    shape: "steigende Gerade durch die Punktwolke, beginnt an der y-Achse oberhalb des Ursprungs"
+    key_points:
+      - "Punkte liegen ober- und unterhalb der Geraden"
+  - name: "b) Kausalkurve"
+    shape: "S-förmiger Anstieg, Maximum im rechten Drittel, danach leichter Abfall"
+    key_points:
+      - "flacher Beginn nahe der x-Achse"
+      - "steilster Anstieg etwa im ersten Drittel der x-Achse"
+      - "Maximum, dann leichter Rückgang"
+meaning: >-
+  Laut Skript (9.1.1) teilen sich quantitative Prognosemethoden der Absatzplanung in
+  Zeitreihenanalyse und kausale Modellierung. Die Zeitreihenanalyse trägt eine Variable über der
+  Zeit auf (z. B. verkaufte Einheiten pro Jahr), um zukünftiges Verhalten vorherzusagen (a). Die
+  kausale Modellierung untersucht den Einfluss anderer Variablen auf die Nachfrage (z. B.
+  Temperatur auf Eiscremeverkäufe) (b). Daneben gibt es qualitative Methoden wie die
+  Delphi-Methode oder Szenario-Planung.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; die Unterscheidung
+    Zeitreihenanalyse/Kausalmodell ist allenfalls als Teil einer Frage zur Absatzplanung denkbar.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "a) x-Achse Zeit, y-Achse Nachfrage, Punkte um eine Trendgerade"
+    - "b) x-Achse eine Einflussvariable, y-Achse Nachfrage, Punkte um eine Kurve"
+  common_mistakes:
+    - "Bei b) die Zeit statt einer Einflussvariable auf die x-Achse gesetzt"
+    - "Zeitreihenanalyse und Kausalmodell vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-61.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Anzahl und Lage der Datenpunkte (14 bzw.
+    18), Trendgerade und Kurvenverlauf nachgezeichnet, Achsenbeschriftungen vollständig.
+    Pfeilspitzen als eigene Dreiecke gezeichnet. Die Panel-Kennungen a) und b) sind kein
+    Lösungselement.
+source:
+  pdf_page: 159
+  printed_page: 149
+  ocr_text_of_labels: "Nachfrage; a); Zeit; Nachfrage; b); Variable"

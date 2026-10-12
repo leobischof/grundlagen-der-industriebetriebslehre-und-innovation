@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1257 375" width="1257" height="375" data-figure-id="tab-03" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Prozentualer Anteil der Sektoren an der Gesamtwertschöpfung im Jahr 2023</title>
+  <rect x="0" y="0" width="1257" height="375" fill="#ffffff"/>
+  <g stroke="#000000" stroke-width="1.5">
+    <line x1="8" y1="10" x2="8" y2="365"/>
+    <line x1="200" y1="10" x2="200" y2="365"/>
+    <line x1="450" y1="10" x2="450" y2="365"/>
+    <line x1="718" y1="10" x2="718" y2="365"/>
+    <line x1="975" y1="10" x2="975" y2="365"/>
+    <line x1="1245" y1="10" x2="1245" y2="365"/>
+    <line x1="8" y1="10" x2="1245" y2="10"/>
+    <line x1="8" y1="80" x2="1245" y2="80"/>
+    <line x1="8" y1="151" x2="1245" y2="151"/>
+    <line x1="8" y1="222" x2="1245" y2="222"/>
+    <line x1="8" y1="293" x2="1245" y2="293"/>
+    <line x1="8" y1="365" x2="1245" y2="365"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="40.0" font-size="25" text-anchor="middle" fill="#000000">Kleinstunternehmen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="71.0" font-size="25" text-anchor="middle" fill="#000000">(&lt;10 MA)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="40.0" font-size="25" text-anchor="middle" fill="#000000">Kleinunternehmen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="71.0" font-size="25" text-anchor="middle" fill="#000000">(&lt;50 MA)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="40.0" font-size="25" text-anchor="middle" fill="#000000">Mittlere Unternehmen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="71.0" font-size="25" text-anchor="middle" fill="#000000">(&lt;250 MA)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="40.0" font-size="25" text-anchor="middle" fill="#000000">Große Unternehmen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="71.0" font-size="25" text-anchor="middle" fill="#000000">(&gt;250 MA)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="110.0" font-size="25" text-anchor="start" fill="#000000">Anzahl</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="141.0" font-size="25" text-anchor="start" fill="#000000">[Anteil]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="110.0" font-size="25" text-anchor="middle" fill="#000000">553.200</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="141.0" font-size="25" text-anchor="middle" fill="#000000">[92 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="110.0" font-size="25" text-anchor="middle" fill="#000000">41.700</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="141.0" font-size="25" text-anchor="middle" fill="#000000">[7 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="110.0" font-size="25" text-anchor="middle" fill="#000000">6.400</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="141.0" font-size="25" text-anchor="middle" fill="#000000">[1 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="110.0" font-size="25" text-anchor="middle" fill="#000000">1.400</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="141.0" font-size="25" text-anchor="middle" fill="#000000">[0,2 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="181.0" font-size="25" text-anchor="start" fill="#000000">Beschäftigte</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="212.0" font-size="25" text-anchor="start" fill="#000000">[Anteil]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="181.0" font-size="25" text-anchor="middle" fill="#000000">1,1 Mio.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="212.0" font-size="25" text-anchor="middle" fill="#000000">[29 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="181.0" font-size="25" text-anchor="middle" fill="#000000">771.000</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="212.0" font-size="25" text-anchor="middle" fill="#000000">[21%]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="181.0" font-size="25" text-anchor="middle" fill="#000000">622.600</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="212.0" font-size="25" text-anchor="middle" fill="#000000">[17%]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="181.0" font-size="25" text-anchor="middle" fill="#000000">1,2 Mio.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="212.0" font-size="25" text-anchor="middle" fill="#000000">[34 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="252.0" font-size="25" text-anchor="start" fill="#000000">Lehrlinge</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="283.0" font-size="25" text-anchor="start" fill="#000000">[Anteil]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="252.0" font-size="25" text-anchor="middle" fill="#000000">10.300</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="283.0" font-size="25" text-anchor="middle" fill="#000000">[11 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="252.0" font-size="25" text-anchor="middle" fill="#000000">26.600</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="283.0" font-size="25" text-anchor="middle" fill="#000000">[28 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="252.0" font-size="25" text-anchor="middle" fill="#000000">17.400</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="283.0" font-size="25" text-anchor="middle" fill="#000000">[18 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="252.0" font-size="25" text-anchor="middle" fill="#000000">40.100</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="283.0" font-size="25" text-anchor="middle" fill="#000000">[42 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="323.0" font-size="25" text-anchor="start" fill="#000000">Umsätze</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="354.0" font-size="25" text-anchor="start" fill="#000000">[Anteil]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="323.0" font-size="25" text-anchor="middle" fill="#000000">163 Mrd. €</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="325.0" y="354.0" font-size="25" text-anchor="middle" fill="#000000">[14 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="323.0" font-size="25" text-anchor="middle" fill="#000000">190 Mrd. €</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="584.0" y="354.0" font-size="25" text-anchor="middle" fill="#000000">[18 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="323.0" font-size="25" text-anchor="middle" fill="#000000">273 Mrd. €</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="846.5" y="354.0" font-size="25" text-anchor="middle" fill="#000000">[25 %]</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="323.0" font-size="25" text-anchor="middle" fill="#000000">454 Mrd. €</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1110.0" y="354.0" font-size="25" text-anchor="middle" fill="#000000">[42 %]</text>
+</svg>

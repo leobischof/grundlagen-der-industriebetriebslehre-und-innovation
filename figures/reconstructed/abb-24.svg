@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 635" width="1276" height="635" data-figure-id="abb-24" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Produktentstehung als Teil des Produktlebenszyklus</title>
+  <rect x="0" y="0" width="1276" height="635" fill="#ffffff"/>
+  <rect x="12" y="10" width="1251" height="615" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Upper (dark) arc: product creation, from the business idea to the start of production -->
+  <path d="M182 312 V115 Q182 68 229 68 H1022 Q1069 68 1069 115 V176" fill="none" stroke="#555555" stroke-width="66"/>
+  <polygon points="995,172 1138,172 1066,240" fill="#555555"/>
+
+  <!-- Lower (light) arc: the rest of the life cycle, back to the next business idea -->
+  <path d="M1070 320 V500 Q1070 558 1012 558 H243 Q185 558 185 500 V452" fill="none" stroke="#aaaaaa" stroke-width="70"/>
+  <polygon points="120,456 251,456 185,390" fill="#aaaaaa"/>
+
+  <!-- Phase label of the upper arc -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627" y="80" font-size="25" font-weight="bold" fill="#111111" text-anchor="middle">Produktgestaltung</text>
+
+  <!-- Product creation phases -->
+  <g fill="#ffffff" stroke="#333333" stroke-width="1.5">
+    <rect x="230" y="88" width="235" height="77"/>
+    <rect x="478" y="88" width="239" height="77"/>
+    <rect x="728" y="88" width="272" height="77"/>
+  </g>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="347" y="120">Strategische</text>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="347" y="152">Produktplanung</text>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="597" y="120">Produkt-</text>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="597" y="152">entwicklung</text>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="864" y="120">Entwicklung des</text>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="864" y="152">Produktionssystems</text>
+  <text font-size="18" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" x="347" y="193">Kapitel 5.3</text>
+  <text font-size="18" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" x="597" y="193">Kapitel 5.4</text>
+  <text font-size="18" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" x="862" y="193">Kapitel 5.5</text>
+
+  <!-- Milestones and centre label -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="975" y="284" font-size="24" font-weight="bold" fill="#111111">Produktionsstart</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="117" y="364" font-size="24" font-weight="bold" fill="#111111">Geschäftsidee</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="640" y="340" font-size="62" fill="#111111" text-anchor="middle">Produktlebenszyklus</text>
+
+  <!-- Later life-cycle phases (read right to left along the lower arc) -->
+  <g fill="#ffffff" stroke="#333333" stroke-width="1.5">
+    <rect x="253" y="497" width="175" height="44"/>
+    <rect x="443" y="495" width="169" height="46"/>
+    <rect x="634" y="495" width="172" height="46"/>
+    <rect x="824" y="493" width="174" height="45"/>
+  </g>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="340" y="528">Recycling</text>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="527" y="527">Anwendung</text>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="720" y="527">Verkauf</text>
+  <text font-size="26" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" class="answer" x="911" y="525">Produktion</text>
+</svg>

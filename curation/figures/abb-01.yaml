@@ -1,0 +1,77 @@
+id: abb-01
+title: Historische Entwicklung innerhalb der Industrie
+type: prozess
+description: >-
+  Treppendiagramm von links unten nach rechts oben: Vier Stufen, jeweils ein waagrechtes
+  Linienstück mit zwei grauen Punkten, sind durch senkrechte Linien verbunden. Jede Stufe trägt
+  eine Bezeichnung (1. bis 4. Industrielle Revolution), darunter steht das Schlagwort der Stufe
+  (Mechanisierung, Elektrifizierung, Information/Automatisierung, Digitalisierung/Vernetzung) mit
+  einer kurzen Erklärung. Links neben jeder Stufe illustriert ein Piktogramm die Epoche
+  (Zahnräder, Arbeiter am Fließband, Roboterarm, Kreislauf aus Roboterarm, Mensch, Smartphone und
+  WLAN).
+axes: []
+elements:
+  - {id: r1, kind: stufe, text: 1.Industrielle Revolution, note: "unterste Stufe, Piktogramm Zahnräder"}
+  - {id: r1_t, kind: label, text: "Mechanisierung: Einführung mechanischer Betriebsmittel, die mit Wasser und Dampf betrieben werden"}
+  - {id: r2, kind: stufe, text: 2.Industrielle Revolution, note: Piktogramm Arbeiter am Fließband}
+  - {id: r2_t, kind: label, text: "Elektrifizierung: Einführung von arbeitsteiligen Konzepten mit Hilfe von elektrischer Energie"}
+  - {id: r3, kind: stufe, text: 3.Industrielle Revolution, note: Piktogramm Roboterarm}
+  - {id: r3_t, kind: label, text: "Information/Automatisierung: Einführung von Elektronik und IT zur Automatisierung der Produktion"}
+  - {id: r4, kind: stufe, text: 4.Industrielle Revolution, note: "oberste Stufe; Piktogramm-Kreislauf aus Roboterarm, Mensch, Smartphone und WLAN-Symbol mit drei Pfeilen"}
+  - {id: r4_t, kind: label, text: "Digitalisierung/Vernetzung: Vernetzung von Maschinen, Arbeitern und Produkten"}
+relations:
+  - {from: r1, to: r2, kind: folgt}
+  - {from: r2, to: r3, kind: folgt}
+  - {from: r3, to: r4, kind: folgt}
+  - {from: r1, to: r1_t, kind: erklärt}
+  - {from: r2, to: r2_t, kind: erklärt}
+  - {from: r3, to: r3_t, kind: erklärt}
+  - {from: r4, to: r4_t, kind: erklärt}
+curves: []
+meaning: >-
+  Laut Skript (1.1) begann die erste industrielle Revolution um 1750 mit der Dampfmaschine
+  (Mechanisierung). Die zweite war organisationsgetrieben (Fließband nach Ford, Taylor) und
+  beruhte auf elektrischen Antrieben und großindustrieller Massenproduktion. Die dritte setzte
+  Anfang der 60er Jahre mit Elektronik, speicherprogrammierbarer Steuerung und Industrierobotern
+  ein und brachte die Automatisierung sowie den IT-Sektor hervor. Die vierte („Industrie 4.0“)
+  wird von Digitalisierung, cyberphysikalischen Systemen, Big-Data-Analyse und dem industriellen
+  Internet der Dinge getragen: Menschen, Maschinen und Produkte werden vernetzt. Die Treppe zeigt
+  die stufenweise Steigerung der Produktivität.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet. Die vier
+    Revolutionen mit ihren Schlagworten sind aber Grundwissen des Einstiegskapitels und lassen sich
+    leicht als Aufzähl- oder Zeichenaufgabe abfragen, daher mittel.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Vier Stufen in aufsteigender Treppe, von links unten nach rechts oben"
+    - "Schlagworte in Reihenfolge: Mechanisierung – Elektrifizierung – Information/Automatisierung – Digitalisierung/Vernetzung"
+    - "Je Stufe die Kernaussage: Wasser und Dampf; arbeitsteilige Konzepte mit elektrischer Energie; Elektronik und IT; Vernetzung von Maschinen, Arbeitern und Produkten"
+  common_mistakes:
+    - "Elektrifizierung und Automatisierung vertauscht"
+    - "Zweite Revolution nur als „Elektrizität“ beschrieben, ohne die arbeitsteiligen Konzepte (Fließband)"
+    - "Vierte Revolution auf Digitalisierung reduziert, ohne die Vernetzung von Maschinen, Arbeitern und Produkten"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-01.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte, die Treppe mit den acht
+    Punkten und die drei Kreislaufpfeile stimmen überein. Die Piktogramme (Zahnräder, Arbeiter am
+    Fließband, Roboterarm, Roboterarm/WLAN/Mensch/Smartphone) sind nicht nachgebildet, sondern als
+    gestrichelte Platzhalter mit ihrer Bedeutung als Text ersetzt. Die strukturierte Füllung der
+    Punkte ist als einfaches Hellgrau wiedergegeben. Der am oberen Rand des Scan-Ausschnitts
+    angeschnittene Text (Bildunterschrift) gehört nicht zur Abbildung und fehlt. Wortlaut ohne
+    Leerzeichen nach der Ordnungszahl („1.Industrielle Revolution“) wie im Original.
+source:
+  pdf_page: 14
+  printed_page: 4
+  ocr_text_of_labels: >-
+    4.Industrielle Revolution; Digitalisierung/Vernetzung: Vernetzung von Maschinen, Arbeitern und
+    Produkten; 3.Industrielle Revolution; Information/Automatisierung: Einführung von Elektronik und
+    IT zur Automatisierung der Produktion; 2.Industrielle Revolution; Elektrifizierung: Einführung
+    von arbeitsteiligen Konzepten mit Hilfe von elektrischer Energie; 1.Industrielle Revolution;
+    Mechanisierung: Einführung mechanischer Betriebsmittel, die mit Wasser und Dampf betrieben
+    werden

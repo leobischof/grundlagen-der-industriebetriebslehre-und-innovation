@@ -1,0 +1,54 @@
+id: abb-62
+title: Absatzplanung
+type: prozess
+description: >-
+  Input-Prozess-Output-Schema: Links unter „Input“ die Eingangsgrößen Erfahrung/Expertenmeinungen
+  und Vergangene Verkaufsdaten, in der Mitte ein dunkles Quadrat „Verkaufsplanung“ zwischen zwei
+  nach rechts weisenden Dreiecken, rechts unter „Output“ die Ergebnisse Kundennachfrage und
+  Preisstruktur.
+axes: []
+elements:
+  - {id: in, kind: label, text: Input, note: "Überschrift links, fett"}
+  - {id: in1, kind: label, text: Erfahrung/Expertenmeinungen}
+  - {id: in2, kind: label, text: Vergangene Verkaufsdaten}
+  - {id: proc, kind: box, text: Verkaufsplanung, note: "dunkelgrau, weiße Schrift; im Bild getrennt: Verkaufs-/planung"}
+  - {id: out, kind: label, text: Output, note: "Überschrift rechts, fett"}
+  - {id: out1, kind: label, text: Kundennachfrage}
+  - {id: out2, kind: label, text: Preisstruktur}
+relations:
+  - {from: in, to: proc, kind: pfeil}
+  - {from: proc, to: out, kind: pfeil}
+curves: []
+meaning: >-
+  Laut Skript (9.1.1) soll die Absatzplanung Erkenntnisse über die zukünftige Entwicklung der
+  verkauften Produkte liefern. Sie liegt meist in der Verantwortung von Marketing oder Verkauf,
+  ist aber ein entscheidender Input für operative Entscheidungen. Ihr Ergebnis ist die Grundlage
+  für die Produktionsprogrammfestlegung, Material- und Personalentscheidungen sowie die Zeit-,
+  Kapazitäts- und Allokationsplanung. Die Abbildung heißt „Absatzplanung“, der Prozesskasten
+  „Verkaufsplanung“ – beide Begriffe werden im Skript synonym verwendet.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; kleines Input-Output-Schema ohne
+    eigene Zeichenaufgabe.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Input: Erfahrung/Expertenmeinungen, Vergangene Verkaufsdaten"
+    - "Output: Kundennachfrage, Preisstruktur"
+  common_mistakes:
+    - "Input und Output vertauscht (Kundennachfrage ist Ergebnis, nicht Eingang)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-62.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte, die beiden Dreiecke und der
+    dunkle Prozesskasten wie im Original angeordnet. Die feinen hellgrauen Linien unter „Input“ und
+    „Output“ übernommen.
+source:
+  pdf_page: 160
+  printed_page: 150
+  ocr_text_of_labels: >-
+    Input; Erfahrung/Expertenmeinungen; Vergangene Verkaufsdaten; Verkaufs- planung; Output;
+    Kundennachfrage; Preisstruktur

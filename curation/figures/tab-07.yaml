@@ -1,0 +1,79 @@
+id: tab-07
+title: Arten der Flexibilität
+type: tabelle
+description: >-
+  Tabelle mit drei Spalten (Art der Flexibilität ohne Kopf, „Umfang“, „Reaktion“) und vier Zeilen
+  für Produkt-, Misch-, Volumen- und Lieferflexibilität. Je Art wird beschrieben, wie groß die
+  mögliche Veränderung ist (Umfang) und wie lange die Änderung dauert (Reaktion).
+axes: []
+elements:
+  - {id: h1, kind: spaltenkopf, text: Umfang}
+  - {id: h2, kind: spaltenkopf, text: Reaktion}
+  - {id: r1, kind: zeilenkopf, text: Produktflexibilität, note: "im Original getrennt „Produkt-/flexibilität“"}
+  - {id: r1u, kind: zelle, text: "Die Produktpalette, die das Unternehmen herstellen kann."}
+  - {id: r1r, kind: zelle, text: "Die Zeit, in der das Produkt entwickelt wird, bis das neue Produkt produziert werden kann (time-to-market)."}
+  - {id: r2, kind: zeilenkopf, text: Mischflexibilität, note: "im Original getrennt „Mischfle-/xibilität“"}
+  - {id: r2u, kind: zelle, text: "Die Produktpalette, die ein Unternehmen innerhalb eines bestimmten Zeitraums liefern kann."}
+  - {id: r2r, kind: zelle, text: "Die Zeit, um den Mix der gelieferten Produkte anzupassen."}
+  - {id: r3, kind: zeilenkopf, text: Volumenflexibilität, note: "im Original getrennt „Volumen-/flexibilität“"}
+  - {id: r3u, kind: zelle, text: "Die Höchstmenge, die ein Unternehmen für einen bestimmten Produktmix liefern kann."}
+  - {id: r3r, kind: zelle, text: "Die Zeit zum Ändern dieser Höchstmenge"}
+  - {id: r4, kind: zeilenkopf, text: Lieferflexibilität, note: "im Original getrennt „Lieferflexi-/bilität“"}
+  - {id: r4u, kind: zelle, text: "Der Umfang, in dem Liefertermine geändert werden können."}
+  - {id: r4r, kind: zelle, text: "Die Zeit, um das Liefersystem für einen neuen Termin zu reorganisieren"}
+relations:
+  - {from: r1, to: r1u, kind: zeile}
+  - {from: r1, to: r1r, kind: zeile}
+  - {from: r2, to: r2u, kind: zeile}
+  - {from: r2, to: r2r, kind: zeile}
+  - {from: r3, to: r3u, kind: zeile}
+  - {from: r3, to: r3r, kind: zeile}
+  - {from: r4, to: r4u, kind: zeile}
+  - {from: r4, to: r4r, kind: zeile}
+curves: []
+meaning: >-
+  Flexibilität ist die Fähigkeit, auf veränderte Kundenbedürfnisse zu reagieren (Skript 9.3.4).
+  Die Arten werden nach der Höhe der Veränderung (Umfang) und der benötigten Zeit für die Änderung
+  (Reaktion) kategorisiert: Produktflexibilität (schnell mit neuen Produkten reagieren),
+  Mischflexibilität (breite Palette an Produkten/Varianten anbieten), Volumenflexibilität (Output
+  bei schwankender, auch saisonaler Nachfrage erhöhen oder verringern) und Lieferflexibilität (auf
+  geänderte Liefertermine reagieren, Prioritäten umstellen und trotzdem pünktlich liefern).
+  Flexibilität wird an der Reaktion eines bestehenden Produktionssystems gemessen; Agilität geht
+  darüber hinaus (proaktiv, ganze Wertschöpfungskette, Fokus Profitabilität).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json zweimal abgefragt (2024-03-14 und 2024-06-20, jeweils „Nennen und
+    beschreiben Sie die Arten der Flexibilität“). Die Tabelle liefert die vier Arten samt
+    Beschreibung nach Umfang und Reaktion.
+  question_ids: [frage-2024-03-14-5, frage-2024-06-20-4]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Vier Arten: Produkt-, Misch-, Volumen-, Lieferflexibilität"
+    - "Zwei Kriterien als Spalten: Umfang (Höhe der Veränderung) und Reaktion (Zeit für die Änderung)"
+    - "Produktflexibilität – Reaktion = time-to-market"
+  common_mistakes:
+    - "Misch- und Produktflexibilität verwechselt (Mix bestehender Produkte gegen neue Produkte)"
+    - "Nur aufgezählt, ohne Umfang und Reaktion zu beschreiben"
+    - "Lieferflexibilität vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/tab-07.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Gitter und Zeilenumbrüche (einschließlich
+    der Silbentrennungen) wie im Original übernommen, nichts vereinfacht. Wortlaut unverändert,
+    auch die fehlenden Schlusspunkte in „Die Zeit zum Ändern dieser Höchstmenge“ und „… zu
+    reorganisieren“. Alle Kopf- und Zelltexte sind class="answer".
+source:
+  pdf_page: 187
+  printed_page: 177
+  ocr_text_of_labels: >-
+    Umfang; Reaktion; Produkt- flexibilität; Die Produktpalette, die das Unternehmen herstellen
+    kann.; Die Zeit, in der das Produkt entwickelt wird, bis das neue Produkt produziert werden kann
+    (time-to-market).; Mischflexibilität; Die Produktpalette, die ein Unternehmen innerhalb eines
+    bestimmten Zeitraums liefern kann.; Die Zeit, um den Mix der gelieferten Produkte anzupassen.;
+    Volumenflexibilität; Die Höchstmenge, die ein Unternehmen für einen bestimmten Produktmix
+    liefern kann.; Die Zeit zum Ändern dieser Höchstmenge; Lieferflexibilität; Der Umfang, in dem
+    Liefertermine geändert werden können.; Die Zeit, um das Liefersystem für einen neuen Termin zu
+    reorganisieren

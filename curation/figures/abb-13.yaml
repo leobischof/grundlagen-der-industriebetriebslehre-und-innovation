@@ -1,0 +1,64 @@
+id: abb-13
+title: Abgrenzung zwischen Industrie- und Dienstleistungsbetrieb
+type: sonstiges
+description: >-
+  Kontinuum als Rechteck, das diagonal geteilt ist: Das helle Dreieck links unten steht für den
+  Anteil der Sachgüter, das dunkle Dreieck rechts oben für den Anteil der Dienstleistungen. Von
+  links nach rechts sinkt der Sachgüteranteil und steigt der Dienstleistungsanteil. Fünf Pfeile
+  von oben markieren Unternehmenstypen auf dem Kontinuum: „reine“ Industrieunternehmen,
+  Industrieunternehmen mit sekundären Dienstleistungen, Industrieunternehmen mit primären
+  Dienstleistungen, Dienstleistungsunternehmen mit Verkauf von Sachgütern und „reine“
+  Dienstleistungsunternehmen.
+axes:
+  - {axis: x, label: "Kontinuum von Sachgütern zu Dienstleistungen (unbeschriftet)", unit: null, direction: "rechts = mehr Dienstleistungsanteil"}
+elements:
+  - {id: sg, kind: feld, text: Sachgüter, note: helles Dreieck links unten}
+  - {id: dl, kind: feld, text: Dienstleistungen, note: "dunkles Dreieck rechts oben, weiße Schrift"}
+  - {id: t1, kind: label, text: "„reine“ Industrieunternehmen", note: "Pfeil ganz links; „Industrie-/unternehmen“"}
+  - {id: t2, kind: label, text: Industrieunternehmen mit sekundären Dienstleistungen}
+  - {id: t3, kind: label, text: Industrieunternehmen mit primären Dienstleistungen}
+  - {id: t4, kind: label, text: Dienstleistungsunternehmen mit Verkauf von Sachgütern, note: "umbrochen als „Dienstleistungs / -unternehmen“"}
+  - {id: t5, kind: label, text: "„reine“ Dienstleistungsunternehmen", note: "Pfeil ganz rechts; „Dienstleistungs / -unternehmen“"}
+relations:
+  - {from: t1, to: t2, kind: folgt, text: zunehmender Dienstleistungsanteil}
+  - {from: t2, to: t3, kind: folgt}
+  - {from: t3, to: t4, kind: folgt}
+  - {from: t4, to: t5, kind: folgt}
+curves: []
+meaning: >-
+  Ein Industriebetrieb produziert und vertreibt vorwiegend Sachgüter und steht damit im Gegensatz
+  zum Dienstleistungsbetrieb, der vor allem Services entwickelt und verkauft. Die Grenze ist
+  fließend: Zwischen „reinen“ Industrie- und „reinen“ Dienstleistungsunternehmen liegen Mischformen,
+  deren Leistungsbündel unterschiedlich große Sachgüter- und Dienstleistungsanteile hat (Skript 3.1.1,
+  S. 48–49).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json zur Frage 2025-03-18-3 (Definition Industrieunternehmen und
+    Unterschiede zu anderen Wirtschaftseinheiten): die Abbildung zeigt die Abgrenzung zum
+    Dienstleistungsbetrieb.
+  question_ids: [frage-2025-03-18-3]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Diagonal geteiltes Rechteck: Sachgüter links unten, Dienstleistungen rechts oben"
+    - "Fünf Stufen von „reinen“ Industrieunternehmen bis zu „reinen“ Dienstleistungsunternehmen"
+    - "Sekundäre Dienstleistungen liegen näher an der reinen Industrie als primäre"
+  common_mistakes:
+    - "Primäre und sekundäre Dienstleistungen in der Reihenfolge vertauscht"
+    - "Mischform „Dienstleistungsunternehmen mit Verkauf von Sachgütern“ vergessen"
+    - "Dreiecke falsch beschriftet (Sachgüteranteil muss nach rechts abnehmen)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-13.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; diagonale Teilung, Grautöne, die fünf
+    Pfeile und alle Zeilenumbrüche (auch „Dienstleistungs / -unternehmen“) wie im Original. Alle
+    Texte class="answer".
+source:
+  pdf_page: 59
+  printed_page: 49
+  ocr_text_of_labels: >-
+    „reine“ Industrie-unternehmen; Industrie-unternehmen mit sekundären Dienstleistungen;
+    Industrie-unternehmen mit primären Dienstleistungen; Dienstleistungs-unternehmen mit Verkauf von
+    Sachgütern; „reine“ Dienstleistungs-unternehmen; Sachgüter; Dienstleistungen

@@ -1,0 +1,93 @@
+id: abb-43
+title: Interne und externe Treiber für standortbezogene Reaktionen
+type: system
+description: >-
+  Oben ein mit „extern“ beschrifteter Rahmen mit drei grauen Kästen und Stichpunkten: Technologie
+  (Werkstoffe, Fertigungsverfahren, Automatisierungstechnik), Markt (Individualisierung d.
+  Kundenwünsche, Stärkere Verbrauchsschwankungen, Internationale Arbeitsteilung) und Umwelt
+  (Faktorkosten, Gesetzliche Auflagen, Steuern/Abgaben). Unten ein mit „intern“ beschrifteter Rahmen:
+  Schwachstellen (Mangelnde Logistikleistung, Mangelnde Prozesssicherheit, Hohe Produktionskosten,
+  Kapazitätsengpässe) führen per Pfeil zu den Strategischen Zielen (Kosten-, Qualitäts-,
+  Technologie-, Logistik-, Flexibilitätsführerschaft). Beide Rahmen zeigen mit je einem Pfeil auf
+  die dunkle Ellipse in der Mitte: „standortbezogene Reaktion: Reorganisation-Erweiterung-Neuplanung“.
+axes: []
+elements:
+  - {id: ext, kind: label, text: extern, note: "Beschriftung des oberen Rahmens"}
+  - {id: tech, kind: box, text: Technologie}
+  - {id: tech1, kind: label, text: Werkstoffe}
+  - {id: tech2, kind: label, text: Fertigungsverfahren}
+  - {id: tech3, kind: label, text: Automatisierungstechnik}
+  - {id: markt, kind: box, text: Markt}
+  - {id: markt1, kind: label, text: Individualisierung d. Kundenwünsche}
+  - {id: markt2, kind: label, text: Stärkere Verbrauchsschwankungen}
+  - {id: markt3, kind: label, text: Internationale Arbeitsteilung}
+  - {id: umw, kind: box, text: Umwelt}
+  - {id: umw1, kind: label, text: Faktorkosten}
+  - {id: umw2, kind: label, text: Gesetzliche Auflagen}
+  - {id: umw3, kind: label, text: Steuern/Abgaben}
+  - {id: reakt, kind: ellipse, text: "standortbezogene Reaktion: Reorganisation-Erweiterung-Neuplanung", note: "dunkle Ellipse in der Mitte"}
+  - {id: int, kind: label, text: intern, note: "Beschriftung des unteren Rahmens"}
+  - {id: ziele, kind: box, text: Strategische Ziele}
+  - {id: ziele1, kind: label, text: Kostenführerschaft}
+  - {id: ziele2, kind: label, text: Qualitätsführerschaft}
+  - {id: ziele3, kind: label, text: Technologieführerschaft}
+  - {id: ziele4, kind: label, text: Logistikführerschaft}
+  - {id: ziele5, kind: label, text: Flexibilitätsführerschaft}
+  - {id: schw, kind: box, text: Schwachstellen}
+  - {id: schw1, kind: label, text: Mangelnde Logistikleistung}
+  - {id: schw2, kind: label, text: Mangelnde Prozesssicherheit}
+  - {id: schw3, kind: label, text: Hohe Produktionskosten}
+  - {id: schw4, kind: label, text: Kapazitätsengpässe}
+relations:
+  - {from: ext, to: reakt, kind: wirkt_auf, text: Pfeil nach unten}
+  - {from: int, to: reakt, kind: wirkt_auf, text: Pfeil nach oben}
+  - {from: schw, to: ziele, kind: wirkt_auf, text: Pfeil nach links}
+  - {from: ext, to: tech, kind: enthält}
+  - {from: ext, to: markt, kind: enthält}
+  - {from: ext, to: umw, kind: enthält}
+  - {from: int, to: ziele, kind: enthält}
+  - {from: int, to: schw, kind: enthält}
+curves: []
+meaning: >-
+  Laut Skript (8.1.1) bewirkt oft erst das gleichzeitige, manchmal fast unmerkliche Auftreten
+  mehrerer interner und externer Faktoren ein schleichendes Absinken der Unternehmensergebnisse. Die
+  Abbildung zeigt die wesentlichen Treiber, die einen Standort als Ganzes infrage stellen und damit
+  eine Standortplanung auslösen. Die Reaktion (Reorganisation, Erweiterung, Neuplanung) darf nicht
+  impulsiv aufgrund eines einzigen Faktors fallen, sondern erfordert eine sorgfältige strategische
+  Planung.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json direkt abgefragt (2025-10-15): externe und interne Faktoren nennen
+    und erläutern, die Auslöser für eine strategische Standortplanung sein können. Die Abbildung
+    liefert die vollständige Aufzählung.
+  question_ids: [frage-2025-10-15-2]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Extern: Technologie, Markt, Umwelt mit je drei Stichpunkten"
+    - "Intern: Schwachstellen → Strategische Ziele (fünf Führerschaften)"
+    - "Mitte: standortbezogene Reaktion = Reorganisation, Erweiterung, Neuplanung"
+  common_mistakes:
+    - "Umwelt-Faktoren (Faktorkosten, Auflagen, Steuern) als interne Treiber eingeordnet"
+    - "Nur die Treiber aufgezählt, die drei möglichen Reaktionen vergessen"
+    - "Pfeilrichtung zwischen Schwachstellen und Strategischen Zielen umgedreht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-43.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Kästen, Stichpunkte, Pfeile und die
+    Ellipse sind vorhanden, Positionen und Grautöne angenähert. Die Rahmenlinien sind wie im
+    Original oben rechts für die Beschriftung „extern“ bzw. „intern“ unterbrochen. Der leicht graue
+    Scan-Hintergrund ist durch Weiß ersetzt.
+source:
+  pdf_page: 125
+  printed_page: 115
+  ocr_text_of_labels: >-
+    extern; Technologie; Werkstoffe; Fertigungsverfahren; Automatisierungstechnik; Markt;
+    Individualisierung d. Kundenwünsche; Stärkere Verbrauchsschwankungen; Internationale
+    Arbeitsteilung; Umwelt; Faktorkosten; Gesetzliche Auflagen; Steuern/Abgaben; standortbezogene
+    Reaktion: Reorganisation-Erweiterung-Neuplanung; intern; Kostenführerschaft;
+    Qualitätsführerschaft; Technologieführerschaft; Logistikführerschaft; Flexibilitätsführerschaft;
+    Mangelnde Logistikleistung; Mangelnde Prozesssicherheit; Hohe Produktionskosten;
+    Kapazitätsengpässe; Strategische Ziele; Schwachstellen

@@ -1,0 +1,67 @@
+id: abb-53
+title: Einschränkungen Realplanung
+type: system
+description: >-
+  Sternförmiges Schema: In der Mitte die graue Ellipse „Realplanung“. Rundherum acht weiße
+  Ellipsen mit je einem Einflussfaktor und einem kleinen Symbol, von denen jeweils ein schwarzer
+  Pfeil auf die Realplanung zeigt: Grundstück (oben), Gelände, Fixpunkte, Betriebsmittel,
+  Organisation (unten), GMP, Monetäre Ressourcen (Symbol €) und Rechtliche Bedingungen (Symbol §).
+axes: []
+elements:
+  - {id: real, kind: ellipse, text: Realplanung, note: "Mitte, grau, fett kursiv"}
+  - {id: grund, kind: ellipse, text: Grundstück, note: "oben, Symbol Lageplan"}
+  - {id: gel, kind: ellipse, text: Gelände, note: "oben rechts, Symbol Hang"}
+  - {id: fix, kind: ellipse, text: Fixpunkte, note: "rechts, Symbol feste Gebäudeteile"}
+  - {id: bm, kind: ellipse, text: Betriebsmittel, note: "unten rechts, Symbol Maschinen"}
+  - {id: org, kind: ellipse, text: Organisation, note: "unten, Symbol Organigramm"}
+  - {id: gmp, kind: ellipse, text: GMP, note: "unten links, Symbol Prozesskette"}
+  - {id: mon, kind: ellipse, text: Monetäre Ressourcen, note: "links, Symbol €"}
+  - {id: recht, kind: ellipse, text: Rechtliche Bedingungen, note: "oben links, Symbol §"}
+relations:
+  - {from: grund, to: real, kind: wirkt_auf, text: Pfeil}
+  - {from: gel, to: real, kind: wirkt_auf, text: Pfeil}
+  - {from: fix, to: real, kind: wirkt_auf, text: Pfeil}
+  - {from: bm, to: real, kind: wirkt_auf, text: Pfeil}
+  - {from: org, to: real, kind: wirkt_auf, text: Pfeil}
+  - {from: gmp, to: real, kind: wirkt_auf, text: Pfeil}
+  - {from: mon, to: real, kind: wirkt_auf, text: Pfeil}
+  - {from: recht, to: real, kind: wirkt_auf, text: Pfeil}
+curves: []
+meaning: >-
+  In der Layoutplanung (8.2.5.3) wird nach der Idealplanung, die Restriktionen bewusst ausblendet,
+  in der Realplanung das Ideallayout unter Berücksichtigung existierender Restriktionen in
+  realisierbare Reallayout-Varianten übergeführt; Ziel ist ein Gesamtoptimum zwischen Zielsetzung
+  und Einschränkungen. Die Abbildung zeigt die Einflussfaktoren (Einschränkungen und
+  Randbedingungen), die frühzeitig erkannt und spezifiziert werden müssen, um Planungsfehler zu
+  vermeiden. GMP (Good Manufacturing Practice) bezeichnet Richtlinien zur Qualitätssicherung in der
+  Produktion, die häufig Anpassungen im Layout erfordern.
+exam_relevance:
+  level: mittel
+  reason: >-
+    Laut exams/topic-mapping.json einmal zugeordnet (2024-06-20, Planungsvorgehen mit Layoutplanung
+    sowie Ideal- und Realplanung erklären); die Einschränkungen der Realplanung sind dort ein
+    Teilaspekt, die Zuordnung der Frage ist laut Fragenkatalog unsicher.
+  question_ids: [frage-2024-06-20-3]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Realplanung in der Mitte, alle Pfeile zeigen auf sie"
+    - "Acht Einschränkungen: Grundstück, Gelände, Fixpunkte, Betriebsmittel, Organisation, GMP, Monetäre Ressourcen, Rechtliche Bedingungen"
+  common_mistakes:
+    - "Einschränkungen der Real- mit den Zielen der Idealplanung (Minimierung der Transportintensität) verwechselt"
+    - "GMP nicht erklärt (Good Manufacturing Practice)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-53.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle acht Faktoren, die Mitte und die
+    acht Pfeile mit ihrer Richtung (jeweils auf die Realplanung) sind vorhanden. Die kleinen
+    Piktogramme des Originals (Lageplan, Hang, Fixpunkte, Maschinen, Prozesskette, Organigramm)
+    sind durch einfache, frei gezeichnete Grauflächen-Symbole ersetzt; § und € sind als Zeichen
+    übernommen. Positionen angenähert.
+source:
+  pdf_page: 139
+  printed_page: 129
+  ocr_text_of_labels: >-
+    Grundstück; Rechtliche Bedingungen; §; Gelände; Monetäre Ressourcen; €; Realplanung;
+    Fixpunkte; GMP; Betriebsmittel; Organisation

@@ -1,0 +1,73 @@
+id: abb-27
+title: Festgelegte und verursachte Kosten in der Produktentstehung
+type: kurvendiagramm
+description: >-
+  Kurvendiagramm im geschlossenen Rahmen. Die y-Achse heißt „Kostenfaktoren“, die x-Achse
+  „Produktlebenszyklus“ mit den Phasen Anstoß, Planung, Realisierung, Produkt. Drei Kurven: die
+  gestrichelte „Kostenbeeinflussungsmöglichkeit“ fällt vom Maximum am Anfang steil und flacht dann
+  ab; die gestrichelte Kurve „Festgelegte Kosten“ steigt am Anfang sehr steil und nähert sich
+  früh dem Maximum; die durchgezogene hellgraue Kurve „Tatsächlich verursachte Kosten“ bleibt
+  lange flach und steigt erst gegen Ende steil an.
+axes:
+  - {axis: y, label: Kostenfaktoren, unit: null, direction: oben}
+  - {axis: x, label: Produktlebenszyklus, unit: null, direction: rechts}
+elements:
+  - {id: k1, kind: kurve, text: Festgelegte Kosten, note: gestrichelt mittelgrau}
+  - {id: k2, kind: kurve, text: Tatsächlich verursachte Kosten, note: durchgezogen hellgrau}
+  - {id: k3, kind: kurve, text: Kostenbeeinflussungsmöglichkeit, note: gestrichelt dunkel}
+  - {id: x1, kind: label, text: Anstoß}
+  - {id: x2, kind: label, text: Planung}
+  - {id: x3, kind: label, text: Realisierung}
+  - {id: x4, kind: label, text: Produkt}
+relations:
+  - {from: x1, to: x2, kind: folgt}
+  - {from: x2, to: x3, kind: folgt}
+  - {from: x3, to: x4, kind: folgt}
+curves:
+  - name: Festgelegte Kosten
+    shape: konkav steigend, sehr steiler Anstieg am Anfang, früh nahe dem Maximum
+    key_points: "ca. 80 % festgelegt, wenn erst ca. 5 % verursacht sind (laut Text)"
+  - name: Tatsächlich verursachte Kosten
+    shape: konvex steigend, lange flach, steiler Anstieg erst in Realisierung/Produkt
+    key_points: "beginnt bei null, erreicht am Ende das Maximum"
+  - name: Kostenbeeinflussungsmöglichkeit
+    shape: fallend, steiler Abfall am Anfang, danach flach auslaufend
+    key_points: "Maximum beim Anstoß, schneidet die festgelegten Kosten früh (Planung)"
+meaning: >-
+  Die Kosten eines Produkts werden sehr früh in der Produktentstehung festgelegt: Wenn erst etwa 5 %
+  der Kosten tatsächlich verursacht sind, sind bereits ca. 80 % festgelegt (Skript 5.6).
+  Gleichzeitig sinkt die Möglichkeit, die Kosten zu beeinflussen, mit fortschreitendem
+  Lebenszyklus rasch. Daraus folgt, dass ein integrierter Produktentstehungsprozess unerlässlich
+  ist, damit alle Bereiche ihr Wissen früh einbringen, solange die Kosten noch beeinflussbar sind.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Frage zugeordnet. Die 80/5-Aussage ist das zentrale
+    Argument für integrierte Produktentstehung und Simultaneous Engineering (Abschnitt 5.6, der
+    geprüft wird).
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Achsen: Kostenfaktoren über Produktlebenszyklus (Anstoß, Planung, Realisierung, Produkt)"
+    - "Festgelegte Kosten steigen früh steil, verursachte Kosten erst spät"
+    - "Kostenbeeinflussungsmöglichkeit fällt von Anfang an"
+    - "80 % festgelegt bei 5 % verursacht"
+  common_mistakes:
+    - "Festgelegte und verursachte Kosten vertauscht"
+    - "Kostenbeeinflussungsmöglichkeit steigend gezeichnet"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-27.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kurvenverläufe als Bézierkurven
+    angenähert, Schnittpunkte liegen wie im Original (Festgelegte/Beeinflussung in der Planung,
+    Beeinflussung/Verursacht in der Realisierung). Die Strichelung ist als explizite
+    Liniensegmente gezeichnet; Pfeilspitzen als
+    Polygone. Beschriftungskästen in Grautönen wie im Original.
+source:
+  pdf_page: 91
+  printed_page: 81
+  ocr_text_of_labels: >-
+    Festgelegte Kosten; Tatsächlich verursachte Kosten; Kostenbeeinflussungs-möglichkeit;
+    Kostenfaktoren; Anstoß; Planung; Realisierung; Produkt; Produktlebenszyklus

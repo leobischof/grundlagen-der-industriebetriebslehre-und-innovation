@@ -1,0 +1,55 @@
+id: abb-31
+title: Point-based Serial Engineering
+type: prozess
+description: >-
+  Rahmen mit der Überschrift „Point-Based Serial Engineering“ und einer waagrechten Kette aus fünf
+  grauen Kästchen „Prozess A“ bis „Prozess E“, die jeweils mit einem einfachen Pfeil nach rechts an
+  den nächsten Prozess weitergeben. Es gibt keine Rückkopplung von hinten nach vorne.
+axes: []
+elements:
+  - {id: titel, kind: label, text: Point-Based Serial Engineering, note: Überschrift im Rahmen}
+  - {id: pa, kind: box, text: Prozess A}
+  - {id: pb, kind: box, text: Prozess B}
+  - {id: pc, kind: box, text: Prozess C}
+  - {id: pd, kind: box, text: Prozess D}
+  - {id: pe, kind: box, text: Prozess E}
+relations:
+  - {from: pa, to: pb, kind: folgt}
+  - {from: pb, to: pc, kind: folgt}
+  - {from: pc, to: pd, kind: folgt}
+  - {from: pd, to: pe, kind: folgt}
+curves: []
+meaning: >-
+  Laut Skript (sec-5.6) entwickelt ein punktbasierter serieller Ansatz in jeder Phase eine Lösung,
+  die nur auf den Lösungen der früheren Phasen aufbaut. Nachgelagerte Prozesse haben keinen Einfluss
+  auf vorgelagerte; falsche Entscheidungen können deshalb zu immensen Iterationsschleifen über
+  mehrere Phasen führen. Die Abbildung ist der Ausgangspunkt für den Vergleich mit Point-based
+  (Abbildung 32) und Set-based Concurrent Engineering (Abbildung 33).
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Abschnitt 5.6 wird zwar geprüft
+    (Integrationsbereiche, Prinzipien des SE, Arten der Integration), die Point-based-/Set-based-
+    Abbildungen selbst wurden bisher nicht abgefragt. Nützlich als Kontrast zu Concurrent Engineering.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Fünf Prozesse A bis E strikt hintereinander"
+    - "Pfeile nur vorwärts, keine Rückkopplung"
+  common_mistakes:
+    - "Rückkopplungspfeile einzeichnen (das ist erst Point-based Concurrent Engineering)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-31.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kastenpositionen, Grautöne und
+    Pfeilstärken angenähert, die Rasterstruktur der grauen Kästchenfüllung im Scan ist als
+    einfarbiges Hellgrau wiedergegeben. Die Überschrift im Rahmen ist als Vorgabe kein
+    Lösungselement; Schreibweise „Point-Based“ (im Bild) gegenüber „Point-based“ (Bildtitel)
+    unverändert übernommen.
+source:
+  pdf_page: 96
+  printed_page: 86
+  ocr_text_of_labels: >-
+    Point-Based Serial Engineering; Prozess A; Prozess B; Prozess C; Prozess D; Prozess E

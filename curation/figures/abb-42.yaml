@@ -1,0 +1,98 @@
+id: abb-42
+title: Das Konzept Integriertes Management (UE = Unternehmensumgebung)
+type: system
+description: >-
+  Ordnungsrahmen nach Bleicher: Oben fließt die „Managementphilosophie“ trichterförmig in die
+  „Vision“. Darunter liegen drei Spalten (Strukturen, Aktivitäten, Verhalten), die von drei grauen
+  Ebenenbalken geschnitten werden: Normatives Management = begründend, Strategisches Management =
+  ausrichtend, Operatives Management = vollziehend. Je Ebene stehen links die Strukturen
+  (Unternehmungsverfassung; Organisationsstrukturen, Managementsysteme; Organisatorische Prozesse,
+  Dispositionssysteme), in der Mitte die Aktivitäten (Unternehmungspolitik mit Missionen;
+  Programme; Aufträge) und rechts das Verhalten (Unternehmungskultur; Problemverhalten; Leistungs-
+  und Kooperationsverhalten). Die mittlere Spalte mündet in einen Pfeil auf die
+  „Unternehmungsumgebung“ mit innerer UE, äußerer UE sowie innerer und äußerer UE. Pfeile am Rand
+  markieren die horizontale (nach rechts) und die vertikale Integration (nach unten).
+axes: []
+elements:
+  - {id: hi, kind: label, text: Horizontale Integration, note: "oben, grauer Pfeil nach rechts"}
+  - {id: vi, kind: label, text: Vertikale Integration, note: "links senkrecht, grauer Pfeil nach unten"}
+  - {id: philo, kind: box, text: Managementphilosophie, note: "fett, oberster Trichter"}
+  - {id: vision, kind: label, text: Vision, note: "fett, Spitze des Trichters"}
+  - {id: norm, kind: band, text: Normatives Management = begründend}
+  - {id: strat, kind: band, text: Strategisches Management = ausrichtend, note: "kursiv"}
+  - {id: oper, kind: band, text: Operatives Management = vollziehend}
+  - {id: s1, kind: box, text: Unternehmungsverfassung, note: "links, normativ (Trennung „Unternehmungs-/verfassung“)"}
+  - {id: s2, kind: box, text: Organisationsstrukturen Managementsysteme, note: "links, strategisch"}
+  - {id: s3, kind: box, text: Organisatorische Prozesse Dispositionssysteme, note: "links, operativ"}
+  - {id: s_fuss, kind: label, text: Strukturen, note: "Fußzeile linke Spalte"}
+  - {id: a1, kind: box, text: Unternehmungspolitik, note: "Mitte, normativ; zwei graue Pfeile nach unten"}
+  - {id: a1b, kind: label, text: Missionen, note: "Mitte, unter der Unternehmungspolitik"}
+  - {id: a2, kind: box, text: Programme, note: "Mitte, strategisch"}
+  - {id: a3, kind: box, text: Aufträge, note: "Mitte, operativ"}
+  - {id: a_fuss, kind: label, text: Aktivitäten, note: "Spitze der mittleren Spalte"}
+  - {id: v1, kind: box, text: Unternehmungskultur, note: "rechts, normativ"}
+  - {id: v2, kind: box, text: Problemverhalten, note: "rechts, strategisch"}
+  - {id: v3, kind: box, text: Leistungs- und Kooperationsverhalten, note: "rechts, operativ"}
+  - {id: v_fuss, kind: label, text: Verhalten, note: "Fußzeile rechte Spalte"}
+  - {id: ue, kind: band, text: Unternehmungsumgebung, note: "großer Pfeil nach rechts"}
+  - {id: ue1, kind: label, text: Innere UE}
+  - {id: ue2, kind: label, text: Äußere UE}
+  - {id: ue3, kind: label, text: Innere und äußere UE}
+relations:
+  - {from: philo, to: vision, kind: folgt, text: grauer Pfeil nach unten}
+  - {from: norm, to: strat, kind: folgt, text: Vertikale Integration}
+  - {from: strat, to: oper, kind: folgt, text: Vertikale Integration}
+  - {from: a1, to: a1b, kind: folgt, text: zwei graue Pfeile}
+  - {from: a_fuss, to: ue, kind: wirkt_auf}
+  - {from: ue, to: ue1, kind: enthält}
+  - {from: ue, to: ue2, kind: enthält}
+  - {from: ue, to: ue3, kind: enthält}
+curves: []
+meaning: >-
+  Das Konzept Integriertes Management (Bleicher 2004) schafft laut Skript (7.2) eine gesamthaft
+  angelegte Struktur, um Komplexität und Dynamik in Management-Systemen zu berücksichtigen. Es
+  unterscheidet drei Ebenen: Das Normative Management formuliert die Grundsätze (Vision,
+  Unternehmensphilosophie, Unternehmenspolitik) für die folgenden Ebenen; das Strategische
+  Management plant und implementiert die Unternehmensstrategie; das Operative Management vollzieht
+  auf dieser Basis die vereinbarten Ziele bzw. Programme auf der Prozessebene. Jede Ebene wird über
+  Strukturen, Aktivitäten und Verhalten gestaltet (horizontale Integration) und die Ebenen bauen
+  aufeinander auf (vertikale Integration).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Die drei Managementebenen mit
+    ihren Kennworten (begründend, ausrichtend, vollziehend) sind aber Grundbegriffe des Kapitels 7
+    und eignen sich für Aufzählungs- oder Skizzenfragen.
+  question_ids: []
+drawing:
+  difficulty: schwer
+  must_know:
+    - "Managementphilosophie → Vision als Trichter oben"
+    - "Drei Ebenen: normativ = begründend, strategisch = ausrichtend, operativ = vollziehend"
+    - "Drei Spalten: Strukturen, Aktivitäten, Verhalten"
+    - "Mittlere Spalte: Unternehmungspolitik/Missionen → Programme → Aufträge"
+    - "Unternehmungsumgebung unten: innere, äußere, innere und äußere UE"
+    - "Horizontale und vertikale Integration als Pfeile"
+  common_mistakes:
+    - "Ebenenkennworte vertauscht (z. B. strategisch = vollziehend)"
+    - "Spalteninhalte vertauscht (Unternehmungskultur gehört zum Verhalten, Unternehmungsverfassung zu den Strukturen)"
+    - "Unternehmungsumgebung und Integrationspfeile vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-42.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte, Ebenenbalken, Spalten und
+    Pfeile sind vorhanden, Positionen und Grautöne angenähert. Die Silbentrennungen des Originals
+    (z. B. „Unternehmungs-/verfassung“) sind als Zeilenumbrüche übernommen. Im Original liegt der
+    graue Pfeil unter „Managementphilosophie“ teilweise über dem Wort; das ist hier ebenso.
+source:
+  pdf_page: 119
+  printed_page: 109
+  ocr_text_of_labels: >-
+    Horizontale Integration; Managementphilosophie; Vision; Vertikale Integration; Normatives
+    Management = begründend; Unternehmungs-verfassung; Unternehmungs-politik; Missionen;
+    Unternehmungs-kultur; Strategisches Management = ausrichtend; Organisations-strukturen
+    Managementsysteme; Programme; Problem-verhalten; Operatives Management = vollziehend;
+    Organisatorische Prozesse Dispositionssysteme; Aufträge; Leistungs- und Kooperations-verhalten;
+    Strukturen; Aktivitäten; Verhalten; Unternehmungsumgebung; Innere UE; Äußere UE; Innere und
+    äußere UE

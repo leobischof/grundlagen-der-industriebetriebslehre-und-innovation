@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1277 735" width="1277" height="735" data-figure-id="abb-05" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Drei generische Strategien, die Unternehmen verfolgen können – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1277" height="735" fill="#ffffff" />
+  <!-- outer frame of the original figure -->
+  <rect x="12" y="8" width="1252" height="716" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- column dimension: Strategischer Vorteil -->
+  <rect class="placeholder" x="554.3" y="30.4" width="435.4" height="46.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="369.6" y="96.8" width="390.8" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="488.4" y="128.8" width="153.2" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="872.0" y="112.8" width="206.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- row dimension: Strategisches Zielobjekt -->
+  <rect class="placeholder" x="158.1" y="289.6" width="159.8" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="47.3" y="388.2" width="265.4" height="45.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="61.0" y="436.2" width="206.0" height="45.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="158.1" y="538.6" width="159.8" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="139.1" y="570.6" width="197.8" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- 2x2 matrix grid -->
+  <rect x="347" y="168" width="850" height="530" fill="none" stroke="#222222" stroke-width="2.5" />
+  <g stroke="#888888" stroke-width="1.5">
+    <line x1="347" y1="434" x2="1197" y2="434" />
+    <line x1="770" y1="168" x2="770" y2="434" />
+    <line x1="770" y1="473" x2="770" y2="548" />
+    <line x1="770" y1="648" x2="770" y2="698" />
+  </g>
+
+  <!-- the three generic strategies -->
+  <rect class="placeholder" x="406.4" y="282.4" width="313.2" height="46.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="871.2" y="258.4" width="211.5" height="46.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="789.9" y="306.4" width="374.3" height="46.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="643.9" y="554.4" width="252.2" height="46.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="440.4" y="602.4" width="659.2" height="46.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- stuck in the middle, dark box over the centre of the grid -->
+  <rect x="550" y="393" width="447" height="80" fill="#262626" />
+  <rect class="placeholder" x="565.5" y="413.4" width="415.0" height="46.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

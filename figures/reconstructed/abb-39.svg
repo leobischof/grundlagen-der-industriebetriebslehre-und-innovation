@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 588" width="1276" height="588" data-figure-id="abb-39" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>5-Step Prozess des Design Thinking</title>
+  <rect x="0" y="0" width="1276" height="588" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="12" y="10" width="1253" height="568" fill="none" stroke="#333333" stroke-width="2"/>
+  <!-- heading (given, not an answer) -->
+  <text font-family="Arial, Helvetica, sans-serif" x="65" y="68" font-size="43" font-weight="bold">Phasen</text>
+
+  <!-- phase 1 -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="140" font-size="40" font-weight="bold">1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="180" font-size="33" font-weight="bold">Entdeckung</text>
+  <circle cx="92" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="92" y="250" font-size="12" fill="#555555" text-anchor="middle">Kompass</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="345" font-size="33" font-weight="bold">Ich habe eine</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="385" font-size="33" font-weight="bold">Challenge.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="425" font-size="32">Wie gehe ich</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="465" font-size="32">sie an?</text>
+
+  <!-- phase 2 -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="300" y="140" font-size="40" font-weight="bold">2</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="300" y="180" font-size="33" font-weight="bold">Interpretation</text>
+  <circle cx="337" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="337" y="250" font-size="12" fill="#555555" text-anchor="middle">Lupe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="300" y="345" font-size="33" font-weight="bold">Ich habe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="300" y="385" font-size="33" font-weight="bold">etwas</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="300" y="425" font-size="33" font-weight="bold">gelernt.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="300" y="465" font-size="32">Was inter-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="300" y="505" font-size="32">pretiere ich?</text>
+
+  <!-- phase 3 -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="552" y="140" font-size="40" font-weight="bold">3</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="552" y="180" font-size="33" font-weight="bold">Ideenfindung</text>
+  <circle cx="568" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="568" y="250" font-size="12" fill="#555555" text-anchor="middle">Glühbirne</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="552" y="345" font-size="33" font-weight="bold">Ich sehe eine</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="552" y="385" font-size="33" font-weight="bold">Möglichkeit.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="552" y="425" font-size="32">Was kreiere/</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="552" y="465" font-size="32">schaffe ich?</text>
+
+  <!-- phase 4 -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="800" y="140" font-size="40" font-weight="bold">4</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="800" y="180" font-size="33" font-weight="bold">Experimente</text>
+  <circle cx="835" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="835" y="250" font-size="12" fill="#555555" text-anchor="middle">Zahnrad</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="800" y="345" font-size="33" font-weight="bold">Ich habe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="800" y="385" font-size="33" font-weight="bold">eine Idee.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="800" y="425" font-size="32">Wie „baue“</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="800" y="465" font-size="32">ich sie?</text>
+
+  <!-- phase 5 -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1032" y="140" font-size="40" font-weight="bold">5</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1032" y="180" font-size="33" font-weight="bold">Evolution</text>
+  <circle cx="1057" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="1057" y="242" font-size="12" fill="#555555" text-anchor="middle">Kreislauf-</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="1057" y="257" font-size="12" fill="#555555" text-anchor="middle">pfeile</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1032" y="345" font-size="33" font-weight="bold">Ich habe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1032" y="385" font-size="33" font-weight="bold">etwas neues</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1032" y="425" font-size="33" font-weight="bold">probiert.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1032" y="465" font-size="32">Was ist der</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1032" y="505" font-size="32">nächste</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1032" y="545" font-size="32">Schritt?</text>
+</svg>

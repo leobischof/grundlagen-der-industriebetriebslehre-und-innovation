@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1274 572" width="1274" height="572" data-figure-id="abb-75" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Enterprise resource planning</title>
+  <rect x="0" y="0" width="1274" height="572" fill="#ffffff"/>
+  <rect x="12" y="10" width="1248" height="553" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Double-headed information flows (structure) -->
+  <g fill="none" stroke="#b3b3b3" stroke-width="1.5" stroke-dasharray="3 2">
+    <path d="M191 284 H336"/>
+    <path d="M459 284 H562"/>
+    <path d="M704 284 H810"/>
+    <path d="M934 284 H1081"/>
+    <path d="M632 246 V136"/>
+    <path d="M632 322 V435"/>
+    <path d="M521 187 L561 245"/>
+    <path d="M749 186 L705 245"/>
+    <path d="M519 380 L561 323"/>
+    <path d="M749 381 L705 323"/>
+    <path d="M191 321 L397 416"/>
+    <path d="M1081 241 L871 151"/>
+    <path d="M1081 326 L871 418"/>
+  </g>
+
+  <!-- Explicit arrowheads (markers are not rendered by every SVG engine) -->
+  <g fill="#7f7f7f">
+    <polygon points="336.0,284.0 328.0,287.5 328.0,280.5"/>
+    <polygon points="191.0,284.0 199.0,280.5 199.0,287.5"/>
+    <polygon points="562.0,284.0 554.0,287.5 554.0,280.5"/>
+    <polygon points="459.0,284.0 467.0,280.5 467.0,287.5"/>
+    <polygon points="810.0,284.0 802.0,287.5 802.0,280.5"/>
+    <polygon points="704.0,284.0 712.0,280.5 712.0,287.5"/>
+    <polygon points="1081.0,284.0 1073.0,287.5 1073.0,280.5"/>
+    <polygon points="934.0,284.0 942.0,280.5 942.0,287.5"/>
+    <polygon points="632.0,136.0 635.5,144.0 628.5,144.0"/>
+    <polygon points="632.0,246.0 628.5,238.0 635.5,238.0"/>
+    <polygon points="632.0,435.0 628.5,427.0 635.5,427.0"/>
+    <polygon points="632.0,322.0 635.5,330.0 628.5,330.0"/>
+    <polygon points="561.0,245.0 553.6,240.4 559.3,236.4"/>
+    <polygon points="521.0,187.0 528.4,191.6 522.7,195.6"/>
+    <polygon points="705.0,245.0 707.0,236.5 712.6,240.7"/>
+    <polygon points="749.0,186.0 747.0,194.5 741.4,190.3"/>
+    <polygon points="561.0,323.0 559.1,331.5 553.4,327.4"/>
+    <polygon points="519.0,380.0 520.9,371.5 526.6,375.6"/>
+    <polygon points="705.0,323.0 712.6,327.3 707.0,331.5"/>
+    <polygon points="749.0,381.0 741.4,376.7 747.0,372.5"/>
+    <polygon points="397.0,416.0 388.3,415.8 391.2,409.5"/>
+    <polygon points="191.0,321.0 199.7,321.2 196.8,327.5"/>
+    <polygon points="871.0,151.0 879.7,150.9 877.0,157.4"/>
+    <polygon points="1081.0,241.0 1072.3,241.1 1075.0,234.6"/>
+    <polygon points="871.0,418.0 876.9,411.6 879.7,418.0"/>
+    <polygon points="1081.0,326.0 1075.1,332.4 1072.3,326.0"/>
+  </g>
+
+  <!-- Groups around the system -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="631" y="35" font-size="17" text-anchor="middle">Geschäftsführung und Stakeholder</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="631" y="542" font-size="17" text-anchor="middle">Mitarbeiter</text>
+
+  <rect x="25" y="245" width="164" height="75" fill="#ffffff" stroke="#7f7f7f" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="107" y="289" font-size="17" text-anchor="middle">Lieferanten</text>
+  <rect x="1083" y="245" width="165" height="75" fill="#ffffff" stroke="#7f7f7f" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1165" y="289" font-size="17" text-anchor="middle">Kunden</text>
+
+  <!-- Central ERP database -->
+  <rect x="564" y="248" width="138" height="72" fill="#3c3c3c"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="277" font-size="17" fill="#ffffff" text-anchor="middle">Integrierte</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="301" font-size="17" fill="#ffffff" text-anchor="middle">Datenbank</text>
+
+  <!-- Functional modules -->
+  <g fill="#b0b0b0">
+    <rect x="573" y="62" width="120" height="72"/>
+    <rect x="402" y="115" width="118" height="70"/>
+    <rect x="750" y="114" width="119" height="70"/>
+    <rect x="338" y="248" width="119" height="70"/>
+    <rect x="812" y="247" width="120" height="71"/>
+    <rect x="399" y="382" width="119" height="71"/>
+    <rect x="573" y="437" width="118" height="70"/>
+    <rect x="750" y="383" width="119" height="71"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="82" font-size="15" fill="#ffffff" text-anchor="middle">Strategische</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="102" font-size="15" fill="#ffffff" text-anchor="middle">Bericht-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="122" font-size="15" fill="#ffffff" text-anchor="middle">erstattung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="461" y="157" font-size="17" fill="#ffffff" text-anchor="middle">Finanzen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="809" y="133" font-size="17" fill="#ffffff" text-anchor="middle">Verkauf</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="809" y="155" font-size="17" fill="#ffffff" text-anchor="middle">und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="809" y="177" font-size="17" fill="#ffffff" text-anchor="middle">Marketing</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="397" y="289" font-size="17" fill="#ffffff" text-anchor="middle">Betrieb</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="872" y="267" font-size="17" fill="#ffffff" text-anchor="middle">Lieferung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="872" y="289" font-size="17" fill="#ffffff" text-anchor="middle">und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="872" y="311" font-size="17" fill="#ffffff" text-anchor="middle">Logistik</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="458" y="402" font-size="17" fill="#ffffff" text-anchor="middle">Einkauf</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="458" y="424" font-size="17" fill="#ffffff" text-anchor="middle">und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="458" y="446" font-size="17" fill="#ffffff" text-anchor="middle">Lieferung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="632" y="468" font-size="17" fill="#ffffff" text-anchor="middle">Personal-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="632" y="491" font-size="17" fill="#ffffff" text-anchor="middle">abteilung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="809" y="425" font-size="17" fill="#ffffff" text-anchor="middle">Service</text>
+</svg>

@@ -20,7 +20,7 @@ Bei der Punktfertigung (stationäre oder Baustellenfertigung) ist das Erzeugnis 
 
 1. Zeichne zuerst die Systemgrenze und darin die Bestandteile, dann die Flüsse von außen nach innen.
 2. Kreise / Bereiche einzeichnen:
-   - „Produkt“ – ortsfest
+   - „Produkt“ – ortsfest, Mitte
 3. Beschriftungen einzeichnen:
    - „Personal“ – links oben
    - „Material“ – rechts oben

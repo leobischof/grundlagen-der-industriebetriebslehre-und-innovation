@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 782" width="1266" height="782" data-figure-id="abb-69" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Materialbedarf – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1266" height="782" fill="#ffffff" />
+  <rect x="10" y="10" width="1245" height="760" fill="none" stroke="#555555" stroke-width="2" />
+
+  <!-- Tree connectors from the root to the three demand types -->
+  <g fill="none" stroke="#bfbfbf" stroke-width="2">
+    <path d="M636 127 V155 M217 155 H1047 M217 155 V178 M636 155 V180 M1047 155 V180" />
+  </g>
+  <!-- Cross connections: every demand type can be gross or net demand -->
+  <g fill="none" stroke="#bfbfbf" stroke-width="1.5">
+    <path d="M217 405 L427 523 M217 405 L850 523" />
+    <path d="M636 407 L427 523 M636 407 L850 523" />
+    <path d="M1047 407 L427 523 M1047 407 L850 523" />
+  </g>
+
+  <!-- Root: given as the prompt of the exercise -->
+  <rect x="437" y="25" width="397" height="102" fill="#3a3a3a" stroke="#333333" stroke-width="2" />
+  <text font-family="Arial, Helvetica, sans-serif" x="636" y="85" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Materialbedarfsarten</text>
+
+  <!-- Primärbedarf -->
+  <rect x="32" y="178" width="370" height="227" fill="#ffffff" stroke="#7f7f7f" stroke-width="2" />
+  <rect x="32" y="178" width="370" height="55" fill="#e3e3e3" stroke="#7f7f7f" stroke-width="2" />
+  <rect class="placeholder" x="127.2" y="190.2" width="179.6" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="34.2" y="243.2" width="365.5" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="127.2" y="278.2" width="179.6" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="120.0" y="313.2" width="193.9" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Sekundärbedarf -->
+  <rect x="453" y="180" width="367" height="227" fill="#ffffff" stroke="#7f7f7f" stroke-width="2" />
+  <rect x="453" y="180" width="367" height="55" fill="#e3e3e3" stroke="#7f7f7f" stroke-width="2" />
+  <rect class="placeholder" x="531.9" y="192.2" width="208.2" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="481.9" y="243.2" width="308.3" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="474.7" y="278.2" width="322.6" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="539.0" y="313.2" width="193.9" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="539.0" y="347.2" width="193.9" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Tertiärbedarf -->
+  <rect x="871" y="180" width="359" height="227" fill="#ffffff" stroke="#7f7f7f" stroke-width="2" />
+  <rect x="871" y="180" width="359" height="55" fill="#e3e3e3" stroke="#7f7f7f" stroke-width="2" />
+  <rect class="placeholder" x="953.0" y="192.2" width="193.9" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="881.5" y="243.2" width="336.9" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="960.2" y="278.2" width="179.6" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Bruttobedarf -->
+  <rect x="243" y="523" width="369" height="226" fill="#ffffff" stroke="#7f7f7f" stroke-width="2" />
+  <rect x="243" y="523" width="369" height="54" fill="#e3e3e3" stroke="#7f7f7f" stroke-width="2" />
+  <rect class="placeholder" x="337.2" y="534.2" width="179.6" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="301.4" y="588.2" width="251.1" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="258.5" y="621.2" width="336.9" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="330.1" y="654.2" width="193.9" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Nettobedarf -->
+  <rect x="663" y="523" width="362" height="228" fill="#ffffff" stroke="#7f7f7f" stroke-width="2" />
+  <rect x="663" y="523" width="362" height="54" fill="#e3e3e3" stroke="#7f7f7f" stroke-width="2" />
+  <rect class="placeholder" x="761.4" y="534.2" width="165.3" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="682.7" y="588.2" width="322.6" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="761.4" y="621.2" width="165.3" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="754.2" y="654.2" width="179.6" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

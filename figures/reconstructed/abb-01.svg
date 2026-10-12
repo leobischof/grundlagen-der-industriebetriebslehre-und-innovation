@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1277 791" width="1277" height="791" data-figure-id="abb-01" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Historische Entwicklung innerhalb der Industrie</title>
+  <rect x="0" y="0" width="1277" height="791" fill="#ffffff"/>
+  <rect x="14" y="18" width="1254" height="760" fill="none" stroke="#555555" stroke-width="2"/>
+
+
+  <!-- Stufenlinie (Struktur, kein Lösungselement): je Revolution ein waagrechtes Segment, senkrecht zur nächsten Stufe -->
+  <g fill="none" stroke="#7f7f7f" stroke-width="2">
+    <path d="M390 632 H497 V510 H605 V383 H713 V258 H820"/>
+  </g>
+  <g fill="#d9d9d9" stroke="#bfbfbf" stroke-width="2">
+    <circle cx="390" cy="632" r="20"/>
+    <circle cx="497" cy="632" r="20"/>
+    <circle cx="497" cy="510" r="20"/>
+    <circle cx="605" cy="510" r="20"/>
+    <circle cx="605" cy="383" r="20"/>
+    <circle cx="713" cy="383" r="20"/>
+    <circle cx="713" cy="258" r="20"/>
+    <circle cx="820" cy="258" r="20"/>
+  </g>
+
+  <!-- Piktogramme des Originals nur als Platzhalter mit Bedeutung (nicht nachgebildet) -->
+  <g fill="none" stroke="#a6a6a6" stroke-width="1.5" stroke-dasharray="5 4">
+    <rect x="208" y="522" width="56" height="84" rx="8"/>
+    <rect x="335" y="358" width="130" height="92" rx="10"/>
+    <rect x="470" y="245" width="88" height="88" rx="10"/>
+    <rect x="618" y="50" width="88" height="82" rx="10"/>
+    <rect x="722" y="78" width="40" height="32" rx="6"/>
+    <rect x="778" y="50" width="48" height="85" rx="10"/>
+    <rect x="718" y="132" width="44" height="64" rx="6"/>
+  </g>
+  <g font-size="11" fill="#7f7f7f" text-anchor="middle">
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="236" y="560">Pikto-</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="236" y="574">gramm</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="236" y="588">Zahnräder</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="400" y="400">Piktogramm Arbeiter</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="400" y="415">am Fließband</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="514" y="285">Piktogramm</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="514" y="300">Roboterarm</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="662" y="88">Roboter-</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="662" y="105">arm</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="742" y="98">WLAN</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="802" y="96">Mensch</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="740" y="168">Smart-</text>
+    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="740" y="184">phone</text>
+  </g>
+  <!-- Kreislaufpfeile um die Industrie-4.0-Piktogramme -->
+  <g fill="none" stroke="#000000" stroke-width="5">
+    <path d="M728 52 Q750 38 768 58"/>
+    <path d="M810 145 Q812 170 788 184"/>
+    <path d="M708 182 Q680 184 664 164"/>
+  </g>
+  <g fill="#000000">
+    <polygon points="774.7,65.4 758.6,61 772,49"/>
+    <polygon points="779.4,189 795.9,189.7 786.9,174.3"/>
+    <polygon points="657.8,156.2 673.5,161.5 659.5,172.7"/>
+  </g>
+
+  <!-- Stufenbezeichnungen -->
+  <g font-size="19" fill="#000000">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="265" y="609">1.Industrielle Revolution</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="372" y="486">2.Industrielle Revolution</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="471" y="360">3.Industrielle Revolution</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="610" y="232">4.Industrielle Revolution</text>
+  </g>
+
+  <!-- Merkmale je Stufe -->
+  <g font-size="18" fill="#000000">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="678" font-weight="bold">Mechanisierung:</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="702">Einführung mechanischer</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="727">Betriebsmittel, die mit Wasser</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="751">und Dampf betrieben werden</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="537" y="554" font-weight="bold">Elektrifizierung:</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="537" y="578">Einführung von arbeitsteiligen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="537" y="603">Konzepten mit Hilfe von</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="537" y="627">elektrischer Energie</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="428" font-weight="bold">Information/Automatisierung:</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="452">Einführung von Elektronik und IT</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="477">zur Automatisierung der</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="501">Produktion</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="750" y="310" font-weight="bold">Digitalisierung/Vernetzung:</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="750" y="335">Vernetzung von Maschinen,</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="750" y="360">Arbeitern und Produkten</text>
+  </g>
+</svg>

@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1268 1022" width="1268" height="1022" data-figure-id="abb-55" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Die SDGs der United Nations</title>
+  <rect x="0" y="0" width="1268" height="1022" fill="#ffffff"/>
+  <rect x="10" y="10" width="1247" height="1000" fill="none" stroke="#333333" stroke-width="2"/>
+  <!-- 17 goal tiles in a 5-column grid; the pictograms of the original are replaced by a plain
+       white ring (placeholder), the goal number and title are kept in the original wording. -->
+  <g id="sdg-1">
+    <rect x="45" y="37" width="237" height="231" fill="#2b2b2b"/>
+    <circle cx="164" cy="185" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(60 101) scale(0.68 1)">1</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(93 73) scale(0.5 1)">KEINE</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(93 100) scale(0.5 1)">ARMUT</text>
+  </g>
+  <g id="sdg-2">
+    <rect x="288" y="37" width="231" height="231" fill="#8a8a8a"/>
+    <circle cx="404" cy="185" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(305 101) scale(0.68 1)">2</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(348 73) scale(0.5 1)">KEIN</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(348 100) scale(0.5 1)">HUNGER</text>
+  </g>
+  <g id="sdg-3">
+    <rect x="525" y="37" width="231" height="231" fill="#9a9a9a"/>
+    <circle cx="640" cy="185" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(541 101) scale(0.68 1)">3</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(585 73) scale(0.5 1)">GESUNDHEIT UND</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(585 100) scale(0.5 1)">WOHLERGEHEN</text>
+  </g>
+  <g id="sdg-4">
+    <rect x="763" y="37" width="230" height="231" fill="#2e2e2e"/>
+    <circle cx="878" cy="185" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(778 101) scale(0.68 1)">4</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(822 73) scale(0.5 1)">HOCHWERTIGE</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(822 101) scale(0.5 1)">BILDUNG</text>
+  </g>
+  <g id="sdg-5">
+    <rect x="999" y="37" width="223" height="231" fill="#3c3c3c"/>
+    <circle cx="1110" cy="185" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(1015 101) scale(0.68 1)">5</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(1054 73) scale(0.5 1)">GESCHLECHTER-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(1054 101) scale(0.5 1)">GLEICHHEIT</text>
+  </g>
+  <g id="sdg-6">
+    <rect x="45" y="275" width="237" height="231" fill="#adadad"/>
+    <circle cx="164" cy="437" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(62 337) scale(0.68 1)">6</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(107 305) scale(0.5 1)">SAUBERES WASSER</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(107 333) scale(0.5 1)">UND SANITÄR-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(107 361) scale(0.5 1)">EINRICHTUNGEN</text>
+  </g>
+  <g id="sdg-7">
+    <rect x="288" y="275" width="231" height="231" fill="#a3a3a3"/>
+    <circle cx="404" cy="423" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(305 340) scale(0.68 1)">7</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(346 311) scale(0.5 1)">BEZAHLBARE UND</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(346 339) scale(0.5 1)">SAUBERE ENERGIE</text>
+  </g>
+  <g id="sdg-8">
+    <rect x="525" y="275" width="231" height="231" fill="#111111"/>
+    <circle cx="640" cy="437" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(541 340) scale(0.68 1)">8</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(582 303) scale(0.5 1)">MENSCHENWÜRDIGE</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(582 331) scale(0.5 1)">ARBEIT UND WIRT-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(582 359) scale(0.5 1)">SCHAFTSWACHSTUM</text>
+  </g>
+  <g id="sdg-9">
+    <rect x="763" y="275" width="230" height="231" fill="#5a5a5a"/>
+    <circle cx="878" cy="423" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(778 340) scale(0.68 1)">9</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(813 311) scale(0.5 1)">INDUSTRIE, INNOVATION</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(813 339) scale(0.5 1)">UND INFRASTRUKTUR</text>
+  </g>
+  <g id="sdg-10">
+    <rect x="999" y="275" width="223" height="231" fill="#333333"/>
+    <circle cx="1110" cy="423" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(1010 340) scale(0.68 1)">10</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(1066 311) scale(0.5 1)">WENIGER</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(1066 339) scale(0.5 1)">UNGLEICHHEITEN</text>
+  </g>
+  <g id="sdg-11">
+    <rect x="45" y="512" width="237" height="232" fill="#8f8f8f"/>
+    <circle cx="164" cy="660" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(58 578) scale(0.68 1)">11</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(107 549) scale(0.5 1)">NACHHALTIGE STÄDTE</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(107 577) scale(0.5 1)">UND GEMEINDEN</text>
+  </g>
+  <g id="sdg-12">
+    <rect x="288" y="512" width="231" height="232" fill="#6f6f6f"/>
+    <circle cx="404" cy="674" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(300 578) scale(0.68 1)">12</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(362 549) scale(0.5 1)">NACHHALTIGE/R</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(362 577) scale(0.5 1)">KONSUM</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(362 605) scale(0.5 1)">UND PRODUKTION</text>
+  </g>
+  <g id="sdg-13">
+    <rect x="525" y="512" width="231" height="232" fill="#4a4a4a"/>
+    <circle cx="640" cy="660" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(538 578) scale(0.68 1)">13</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(598 549) scale(0.5 1)">MASSNAHMEN ZUM</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(598 577) scale(0.5 1)">KLIMASCHUTZ</text>
+  </g>
+  <g id="sdg-14">
+    <rect x="763" y="512" width="230" height="232" fill="#6a6a6a"/>
+    <circle cx="878" cy="660" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(776 578) scale(0.68 1)">14</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(836 549) scale(0.5 1)">LEBEN</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(836 577) scale(0.5 1)">UNTER WASSER</text>
+  </g>
+  <g id="sdg-15">
+    <rect x="999" y="512" width="223" height="232" fill="#a8a8a8"/>
+    <circle cx="1110" cy="660" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(1012 578) scale(0.68 1)">15</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(1066 549) scale(0.5 1)">LEBEN</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(1066 577) scale(0.5 1)">AN LAND</text>
+  </g>
+  <g id="sdg-16">
+    <rect x="45" y="751" width="237" height="232" fill="#333333"/>
+    <circle cx="164" cy="913" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(58 815) scale(0.68 1)">16</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(107 784) scale(0.5 1)">FRIEDEN,</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(107 812) scale(0.5 1)">GERECHTIGKEIT UND</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(107 840) scale(0.5 1)">STARKE INSTITUTIONEN</text>
+  </g>
+  <g id="sdg-17">
+    <rect x="288" y="751" width="231" height="232" fill="#1a1a1a"/>
+    <circle cx="404" cy="913" r="42" fill="none" stroke="#ffffff" stroke-width="5" stroke-opacity="0.85"/>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="60" font-weight="bold" fill="#ffffff" transform="translate(300 815) scale(0.68 1)">17</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(362 781) scale(0.5 1)">PARTNERSCHAFTEN</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(362 809) scale(0.5 1)">ZUR ERREICHUNG</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" font-size="22" font-weight="bold" fill="#ffffff" transform="translate(362 837) scale(0.5 1)">DER ZIELE</text>
+  </g>
+  <!-- SDG logo of the original replaced by its wording plus a plain ring -->
+  <circle cx="572" cy="838" r="13" fill="none" stroke="#8a8a8a" stroke-width="6"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="592" y="853" font-size="40" font-weight="bold" fill="#8a8a8a">ZIELE</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="556" y="881" font-size="16" fill="#8a8a8a">FÜR NACHHALTIGE</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="556" y="906" font-size="21" font-weight="bold" fill="#8a8a8a">ENTWICKLUNG</text>
+</svg>

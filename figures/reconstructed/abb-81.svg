@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1265 468" width="1265" height="468" data-figure-id="abb-81" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Dilemma der Ablaufplanung am Bsp. der Erhöhung der Kapazitätsauslastung</title>
+  <rect x="0" y="0" width="1265" height="468" fill="#ffffff"/>
+  <rect x="10" y="10" width="1245" height="448" fill="none" stroke="#333333" stroke-width="2"/>
+  <line x1="633" y1="30" x2="633" y2="440" stroke="#555555" stroke-width="1.5"/>
+
+  <!-- ===== Left: balanced starting point ===== -->
+  <polygon class="answer" points="270,125 367,233 270,322 153,233" fill="#e0e0e0" stroke="#222222" stroke-width="2.5"/>
+  <g stroke="#222222" stroke-width="1.5">
+    <line x1="74" y1="233" x2="466" y2="233"/>
+    <line x1="270" y1="69" x2="270" y2="397"/>
+  </g>
+  <g fill="#222222">
+    <polygon points="62,233 76,228 76,238"/>
+    <polygon points="478,233 464,228 464,238"/>
+    <polygon points="270,57 265,71 275,71"/>
+    <polygon points="270,409 265,395 275,395"/>
+  </g>
+  <g fill="#000000">
+    <circle cx="270" cy="125" r="11"/>
+    <circle cx="367" cy="233" r="11"/>
+    <circle cx="270" cy="322" r="11"/>
+    <circle cx="153" cy="233" r="11"/>
+  </g>
+  <g font-size="23" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="270" y="44" text-anchor="middle">Kurze Durchlaufzeit</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="270" y="431" text-anchor="middle">Hohe Termintreue</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="88" y="275" text-anchor="middle">Niedrige</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="88" y="305" text-anchor="middle">Bestände</text>
+  </g>
+  <g font-size="23" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="560" y="275" text-anchor="end">Hohe Kapazitäts-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="547" y="305" text-anchor="end">auslastung</text>
+  </g>
+
+  <!-- ===== Right: utilisation raised, the other three targets suffer ===== -->
+  <polygon class="answer" points="938,125 1027,233 938,322 820,233" fill="none" stroke="#222222" stroke-width="2.5"/>
+  <!-- dashed shifted diamond drawn as explicit dash segments (renderers ignore stroke-dasharray) -->
+  <path class="answer" d="M938 162 L947 166 M953 170 L962 174 M968 177 L977 182 M984 185 L993 189 M999 192 L1008 197 M1014 200 L1023 204 M1029 208 L1038 212 M1044 215 L1053 220 M1060 223 L1069 227 M1075 230 L1076 231 M1076 231 L1067 235 M1060 238 L1051 242 M1045 244 L1036 248 M1029 251 L1020 255 M1013 258 L1004 262 M998 264 L989 268 M982 271 L973 275 M967 278 L957 282 M951 284 L942 288 M938 290 L930 284 M925 279 L917 273 M912 269 L904 262 M898 258 L891 251 M885 247 L878 241 M872 236 L868 233 M868 233 L875 226 M880 221 L887 214 M892 209 L899 202 M904 197 L911 190 M916 185 L923 177 M928 172 L935 165" fill="none" stroke="#7a7a7a" stroke-width="2.5"/>
+  <g stroke="#222222" stroke-width="1.5">
+    <line x1="742" y1="233" x2="1132" y2="233"/>
+    <line x1="938" y1="69" x2="938" y2="397"/>
+  </g>
+  <g fill="#222222">
+    <polygon points="730,233 744,228 744,238"/>
+    <polygon points="1144,233 1130,228 1130,238"/>
+    <polygon points="938,57 933,71 943,71"/>
+    <polygon points="938,409 933,395 943,395"/>
+  </g>
+  <g fill="#000000">
+    <circle cx="938" cy="125" r="11"/>
+    <circle cx="1027" cy="233" r="11"/>
+    <circle cx="938" cy="322" r="11"/>
+    <circle cx="820" cy="233" r="11"/>
+  </g>
+  <g fill="#6e6e6e">
+    <circle cx="938" cy="162" r="10"/>
+    <circle cx="1076" cy="231" r="10"/>
+    <circle cx="938" cy="290" r="10"/>
+    <circle cx="868" cy="233" r="10"/>
+  </g>
+  <g font-size="23" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="938" y="44" text-anchor="middle">Kurze Durchlaufzeit</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="938" y="433" text-anchor="middle">Hohe Termintreue</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="738" y="275" text-anchor="middle">Niedrige</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="738" y="305" text-anchor="middle">Bestände</text>
+  </g>
+  <g font-size="23" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1236" y="275" text-anchor="end">Hohe Kapazitäts-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1223" y="305" text-anchor="end">auslastung</text>
+  </g>
+</svg>

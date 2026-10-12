@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1261 622" width="1261" height="622" data-figure-id="abb-30" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Systematik des Simultaneous Engineering – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1261" height="622" fill="#ffffff" />
+  <rect x="10" y="10" width="1241" height="600" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- Grid: two rows (conventional / SE), label column on the left -->
+  <g stroke="#555555" stroke-width="1.5">
+    <line x1="10" y1="255" x2="1251" y2="255" />
+    <line x1="10" y1="540" x2="1251" y2="540" />
+    <line x1="233" y1="10" x2="233" y2="540" />
+  </g>
+  <rect class="placeholder" x="20.5" y="104.0" width="203.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="35.8" y="138.6" width="172.5" height="32.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="28.0" y="347.0" width="188.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="35.5" y="381.0" width="173.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="54.7" y="415.6" width="134.5" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Conventional: product planning first, production planning only afterwards -->
+  <rect x="247" y="60" width="477" height="53" fill="#ffffff" stroke="#555555" stroke-width="1.5" />
+  <rect class="placeholder" x="377.1" y="71.4" width="215.9" height="36.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="724" y="160" width="468" height="52" fill="#666666" stroke="#555555" stroke-width="1.5" />
+  <rect class="placeholder" x="820.4" y="170.4" width="275.3" height="36.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <line x1="724" y1="113" x2="724" y2="152" stroke="#333333" stroke-width="1.5" />
+  <polygon points="724,160 720,150 728,150" fill="#333333" />
+
+  <!-- Dotted guides: common start and end of the conventional process -->
+  <g stroke="#555555" stroke-width="1.5" stroke-dasharray="2 3">
+    <line x1="247" y1="113" x2="247" y2="277" stroke="#555555" stroke-width="1.5" stroke-dasharray="2 3" />
+    <line x1="1192" y1="212" x2="1192" y2="420" stroke="#555555" stroke-width="1.5" stroke-dasharray="2 3" />
+    <line x1="940" y1="407" x2="940" y2="485" stroke="#555555" stroke-width="1.5" stroke-dasharray="2 3" />
+    <line x1="950" y1="407" x2="1182" y2="407" stroke="#555555" stroke-width="1.5" stroke-dasharray="2 3" />
+  </g>
+  <polygon points="940,407 951,403 951,411" fill="#555555" />
+  <polygon points="1192,407 1181,403 1181,411" fill="#555555" />
+  <rect class="placeholder" x="1003.1" y="337.6" width="121.8" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="971.5" y="369.6" width="185.1" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Simultaneous Engineering: overlapping product (white) and production (dark) planning steps -->
+  <g fill="#ffffff" stroke="#555555" stroke-width="1.5">
+    <rect x="247" y="277" width="159" height="32" />
+    <rect x="393" y="311" width="161" height="32" />
+    <rect x="541" y="345" width="161" height="32" />
+    <rect x="690" y="377" width="159" height="32" />
+  </g>
+  <g fill="#666666" stroke="#555555" stroke-width="1.5">
+    <rect x="340" y="385" width="158" height="33" />
+    <rect x="487" y="419" width="161" height="33" />
+    <rect x="636" y="452" width="160" height="33" />
+    <rect x="783" y="485" width="157" height="32" />
+  </g>
+
+  <!-- Information flow in both directions between the overlapping steps -->
+  <g stroke="#333333" stroke-width="1.2">
+    <line x1="357" y1="315" x2="357" y2="379" />
+    <line x1="442" y1="349" x2="442" y2="379" />
+    <line x1="519" y1="349" x2="519" y2="413" />
+    <line x1="595" y1="383" x2="595" y2="413" />
+    <line x1="670" y1="383" x2="670" y2="446" />
+    <line x1="766" y1="415" x2="766" y2="446" />
+    <line x1="826" y1="415" x2="826" y2="479" />
+  </g>
+  <g fill="#333333">
+    <polygon points="357,309 354,317 360,317" /><polygon points="357,385 354,377 360,377" />
+    <polygon points="442,343 439,351 445,351" /><polygon points="442,385 439,377 445,377" />
+    <polygon points="519,343 516,351 522,351" /><polygon points="519,419 516,411 522,411" />
+    <polygon points="595,377 592,385 598,385" /><polygon points="595,419 592,411 598,411" />
+    <polygon points="670,377 667,385 673,385" /><polygon points="670,452 667,444 673,444" />
+    <polygon points="766,409 763,417 769,417" /><polygon points="766,452 763,444 769,444" />
+    <polygon points="826,409 823,417 829,417" /><polygon points="826,485 823,477 829,477" />
+  </g>
+
+  <!-- Legend -->
+  <line x1="62" y1="580" x2="146" y2="580" stroke="#111111" stroke-width="2.5" />
+  <polygon points="157,580 145,575 145,585" fill="#111111" />
+  <rect class="placeholder" x="168.0" y="566.6" width="223.1" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

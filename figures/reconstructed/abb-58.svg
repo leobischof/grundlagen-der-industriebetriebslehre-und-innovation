@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 500" width="1266" height="500" data-figure-id="abb-58" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Möglichkeiten der Industrie zur Dekarbonisierung</title>
+  <rect x="0" y="0" width="1266" height="500" fill="#ffffff"/>
+
+  <!-- Table: dark header row + 7 rows, two columns -->
+  <rect x="12" y="12" width="1243" height="60" fill="#555555"/>
+  <rect x="12" y="12" width="1243" height="478" fill="none" stroke="#555555" stroke-width="2"/>
+  <g stroke="#8c8c8c" stroke-width="1.5">
+    <line x1="618" y1="12" x2="618" y2="490"/>
+    <line x1="12" y1="130" x2="1255" y2="130"/>
+    <line x1="12" y1="190" x2="1255" y2="190"/>
+    <line x1="12" y1="250" x2="1255" y2="250"/>
+    <line x1="12" y1="310" x2="1255" y2="310"/>
+    <line x1="12" y1="370" x2="1255" y2="370"/>
+    <line x1="12" y1="430" x2="1255" y2="430"/>
+  </g>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="315" y="51" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle">Kurz- und mittelfristige Maßnahmen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="936" y="51" font-size="25" font-weight="bold" fill="#ffffff" text-anchor="middle">Mittel- bis langfristige Maßnahmen</text>
+
+  <!-- Left column: short to medium term -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="315" y="109" font-size="23" text-anchor="middle">Verringerung indirekter Emissionen durch Ökostrom</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="315" y="168" font-size="23" text-anchor="middle">Energieeffizienz durch moderne Technologien (BAT)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="315" y="228" font-size="23" text-anchor="middle">Umstellung der Brennstoffe (z.B. Biomasse)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="92" y="288" font-size="23" text-anchor="start">Substitution von CO<tspan font-size="15" dy="6">2</tspan><tspan dy="-6">-intensiven Materialien</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="126" y="348" font-size="23" text-anchor="start">Sektorale CO<tspan font-size="15" dy="6">2</tspan><tspan dy="-6">-Abscheidung (CCUS)</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="315" y="408" font-size="23" text-anchor="middle">Materialeffizienz und Substitution</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="315" y="468" font-size="23" text-anchor="middle">Erhöhung der Recyclingquoten</text>
+
+  <!-- Right column: medium to long term -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="936" y="109" font-size="23" text-anchor="middle">Komplett emissionsfreie Energie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="936" y="168" font-size="23" text-anchor="middle">Energieeffizienz nahe am thermodynamischen Minimum</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="634" y="228" font-size="21" text-anchor="start">Tiefgreifende CO<tspan font-size="14" dy="6">2</tspan><tspan dy="-6">-arme Elektrifizierung und grüner Wasserstoff</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="936" y="288" font-size="21" text-anchor="middle">Emissionsfreies Ausgangsmaterial (grüner Wasserstoff, Biomasse)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="730" y="348" font-size="23" text-anchor="start">Großflächige CO<tspan font-size="15" dy="6">2</tspan><tspan dy="-6">-Abscheidung (CCUS)</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="936" y="408" font-size="23" text-anchor="middle">Ökodesign und Bedarfsreduzierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="936" y="468" font-size="23" text-anchor="middle">Abfallwirtschaft welche Materialkreisläufe ermöglicht</text>
+</svg>

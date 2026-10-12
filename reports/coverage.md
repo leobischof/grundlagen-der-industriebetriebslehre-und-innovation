@@ -42,12 +42,12 @@ Kuratiert (`curation/figures.yaml`): 98 (85 figure, 6 formula, 7 table).
 |---|---:|
 | (A) Original-PNG | 98 / 98 (100 %) |
 | in `content/` eingebunden | 98 / 98 (100 %) |
-| (B) strukturierte Metadaten | 16 / 98 (16 %) |
-| (C) SVG-Rekonstruktion | 16 / 98 (16 %) |
-| … davon geprüft (`faithful`) | 16 |
+| (B) strukturierte Metadaten | 92 / 98 (94 %) |
+| (C) SVG-Rekonstruktion | 92 / 98 (94 %) |
+| … davon geprüft (`faithful`) | 92 |
 | … noch zu prüfen (`needs_review`) | 0  |
-| (D) Zeichenübung (`-blank.svg`) | 16 |
-| Zeichenanleitung | 16 |
+| (D) Zeichenübung (`-blank.svg`) | 56 |
+| Zeichenanleitung | 56 |
 
 ### Prüfungsrelevante Schwerpunkt-Abbildungen
 
@@ -91,7 +91,7 @@ Kuratiert (`curation/figures.yaml`): 98 (85 figure, 6 formula, 7 table).
 
 ## KI-Aufrufe (aus `curation/ai-log.jsonl`)
 
-Gesamt: 10 protokollierte Aufrufe, geschätzt 1031700 Eingabe- und 235100 Ausgabe-Tokens (2026-10-11 bis 2026-10-12).
+Gesamt: 21 protokollierte Aufrufe, geschätzt 2441700 Eingabe- und 486100 Ausgabe-Tokens (2026-10-11 bis 2026-10-12).
 
 | Stufe | Aufrufe | Eingabe-Tokens | Ausgabe-Tokens |
 |---|---:|---:|---:|
@@ -99,7 +99,7 @@ Gesamt: 10 protokollierte Aufrufe, geschätzt 1031700 Eingabe- und 235100 Ausgab
 | crop-qc | 1 | 11500 | 1500 |
 | exam-prompts | 1 | 602000 | 13000 |
 | exams | 1 | 5200 | 600 |
-| figure-reconstruction | 1 | 65000 | 25000 |
+| figure-reconstruction | 12 | 1475000 | 276000 |
 | figures-batch-b | 1 | 80000 | 45000 |
 | layout-qc | 1 | 22000 | 3000 |
 | learning-guides | 3 | 240000 | 143000 |
@@ -111,41 +111,6 @@ Die Pipeline selbst ruft nie ein Modell auf; ein zweiter Lauf erzeugt 0 neue Ein
 - Abschnitte ohne Datei (0): keine
 - Schwerpunkt-Abbildungen ohne Metadaten: keine
 - Schwerpunkt-Abbildungen ohne SVG: keine
-- Themen mit Lücken (37):
-  - Historische Entwicklung der Industrie (Industrie 1.0 bis 4.0) – ohne SVG: abb-01, abb-02
-  - Wirtschaftliche Bedeutung der Industrie (Zahlen, Fertigung, Österreich) – ohne SVG: abb-03, tab-01, tab-02, tab-03
-  - Aktuelle Herausforderungen der Industriebetriebe – ohne SVG: abb-04
-  - Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung) – ohne SVG: abb-05, abb-06
-  - Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation) – ohne SVG: abb-07
-  - Produktinnovation (Kategorien neuer Produkte, Portfolio) – ohne SVG: abb-09, abb-10
-  - Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten) – ohne SVG: abb-12, abb-13, abb-14, abb-18
+- Themen mit Lücken (2):
   - Ökonomische Kennzahlen (Produktivität, Wirtschaftlichkeit, Rentabilität, Liquidität) – ohne SVG: formel-liquiditaet, formel-produktivitaet, formel-rentabilitaet, formel-spezifische-kosten, formel-spezifischer-mitteleinsatz, formel-wirtschaftlichkeit
-  - Produktion als Kernaufgabe (Produktionsprozess und seine Elemente) – ohne SVG: abb-16, abb-17
-  - Innovationsstrategie (Kriterien) – ohne SVG: tab-04
-  - Innovationsbarrieren und deren Überwindung – ohne SVG: abb-19
-  - Entrepreneurship (Definition, Haupttypen SME/IDE, Persönlichkeitsmerkmale) – ohne SVG: abb-20, abb-21, tab-05
-  - Entrepreneurship-Prozess (Erkennungs-, Entwicklungs-, Umsetzungsphase) – ohne SVG: abb-22
-  - Produktentstehung (Ziele, Effektivität/Effizienz, Produktplanung, -entwicklung, Produktionssystem-Entwicklung) – Text fehlt: 5; ohne SVG: abb-23, abb-24, abb-25
-  - Integrierte Produktentstehung (Arten der Integration, Kosten, Rahmenstruktur) – ohne SVG: abb-26, abb-27, abb-28, abb-34
-  - Simultaneous / Concurrent Engineering (Prinzipien, magisches Dreieck) – ohne SVG: abb-29, abb-30, abb-31, abb-32, abb-33
-  - Innovationsprozess nach Thom – ohne SVG: abb-36
-  - Design Thinking Methode (IDEO, 5-Step-Prozess) – ohne SVG: abb-39
-  - Funktionen und Kenngrößen des Industrie Managements – ohne SVG: abb-40, abb-41
-  - Konzept des integrierten Managements – ohne SVG: abb-42
-  - Standortplanung (strategisch, Raumsicht; interne und externe Treiber) – ohne SVG: abb-43
-  - Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung) – ohne SVG: abb-52, abb-53, abb-54
-  - Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs) – ohne SVG: abb-55
-  - Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens) – ohne SVG: abb-56
-  - Dekarbonisierung und Materialeffizienz in der Industrie – ohne SVG: abb-58, abb-59
-  - Planung und Absatzplanung (Zeitreihenanalyse, Kausalmodell) – ohne SVG: abb-60, abb-61, abb-62
-  - Kurzfristige Produktionsprogrammplanung (Produktfeld, Optimierung) – ohne SVG: abb-63, abb-64, abb-65
-  - Materialbedarfsplanung und Gozintograph – ohne SVG: abb-66, abb-67
-  - Materialklassen und Bedarfsarten (primär, sekundär, tertiär, Brutto-/Nettobedarf) – ohne SVG: abb-68, abb-69
-  - Zeit- und Kapazitätsplanung (Terminierung, Kapazität, ERP) – ohne SVG: abb-71, abb-72, abb-73, abb-75
-  - Gesamtanlageneffektivität (OEE) – ohne SVG: abb-74
-  - Produktionssteuerung (Regelkreis, Starten/Überwachen, Auftragsfreigabe, Maschinenbelegung) – ohne SVG: abb-76, abb-77, abb-78, tab-06
-  - Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand) – ohne SVG: abb-79, abb-80, abb-81, abb-82
-  - Kontrolle und Leistungskennzahlen (Überblick) – ohne SVG: abb-83
-  - Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC) – ohne SVG: abb-84
-  - Geschwindigkeit und Zuverlässigkeit/Liefertreue (Entkopplungspunkt) – ohne SVG: abb-85
-  - Flexibilität (Arten der Flexibilität) – ohne SVG: tab-07
+  - Produktentstehung (Ziele, Effektivität/Effizienz, Produktplanung, -entwicklung, Produktionssystem-Entwicklung) – Text fehlt: 5

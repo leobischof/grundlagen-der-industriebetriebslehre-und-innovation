@@ -1,0 +1,89 @@
+id: abb-82
+title: Visualisierung des Dilemmas der Ablaufplanung mit Produktionskennlinien
+type: kurvendiagramm
+description: >-
+  In der Mitte ein Diagramm der Produktionskennlinien über dem „Bestand (WIP)“ auf der x-Achse:
+  „Leistung“ steigt zunächst steil und sättigt dann, „Durchlaufzeit“ ist anfangs flach und wächst
+  danach nahezu linear, „Termineinhaltung“ ist glockenförmig mit einem Maximum bei mittlerem
+  Bestand. Umrahmt wird das Diagramm von vier grauen Zielkästen: oben „hohe Termineinhaltung“,
+  links „geringe Durchlaufzeit“, unten „geringer Bestand“, rechts „hohe Leistung/ Auslastung“.
+  Schwarze gebogene Doppelpfeile verbinden die Ziele, die sich unterstützen (links oben und links
+  unten), graue Zickzack-Doppelpfeile die Ziele, die konkurrieren (rechts oben und rechts unten);
+  eine Legende erklärt beide Pfeilarten.
+axes:
+  - {axis: x, label: Bestand (WIP), unit: null, direction: rechts}
+  - {axis: y, label: "(unbeschriftet; Leistung, Durchlaufzeit bzw. Termineinhaltung)", unit: null, direction: oben}
+elements:
+  - {id: k1, kind: box, text: hohe Termineinhaltung, note: oben}
+  - {id: k2, kind: box, text: geringe Durchlaufzeit, note: "links, senkrecht"}
+  - {id: k3, kind: box, text: geringer Bestand, note: unten}
+  - {id: k4, kind: box, text: hohe Leistung/ Auslastung, note: "rechts, senkrecht"}
+  - {id: c1, kind: kurve, text: Leistung}
+  - {id: c2, kind: kurve, text: Durchlaufzeit}
+  - {id: c3, kind: kurve, text: Termineinhaltung}
+  - {id: x, kind: achse, text: Bestand (WIP)}
+  - {id: lg1, kind: legende, text: Teilziele unterstützen sich, note: schwarzer Doppelpfeil}
+  - {id: lg2, kind: legende, text: Teilziele konkurrieren, note: grauer Zickzack-Doppelpfeil}
+relations:
+  - {from: k2, to: k1, kind: unterstützt, text: schwarzer gebogener Doppelpfeil}
+  - {from: k2, to: k3, kind: unterstützt, text: schwarzer gebogener Doppelpfeil}
+  - {from: k1, to: k4, kind: konkurriert, text: grauer Zickzack-Doppelpfeil}
+  - {from: k3, to: k4, kind: konkurriert, text: grauer Zickzack-Doppelpfeil}
+curves:
+  - name: Leistung
+    shape: "steiler, fast linearer Anstieg bei kleinem Bestand, dann Abknicken und Sättigung auf hohem Niveau"
+    key_points:
+      - "beginnt nahe null links unten"
+      - "ab mittlerem Bestand nahezu waagerecht"
+  - name: Durchlaufzeit
+    shape: "anfangs flach auf niedrigem Niveau, danach annähernd linear steigend"
+    key_points:
+      - "startet über der Leistungskurve, wird früh von ihr gekreuzt"
+      - "endet rechts knapp unter dem Leistungsniveau"
+  - name: Termineinhaltung
+    shape: "glockenförmig: steigt ab mittlerem Bestand steil an, Maximum bei mittlerem Bestand, fällt danach wieder stark ab"
+    key_points:
+      - "beginnt erst rechts vom Nullpunkt"
+      - "Maximum etwa in der Mitte der x-Achse"
+      - "kreuzt die Durchlaufzeitkurve auf beiden Flanken"
+meaning: >-
+  Laut Skript (9.2.2) zeigen Produktionskennlinien, wie sich ein Arbeitssystem bei sonst
+  unveränderten Randbedingungen verhält, wenn ein anderer Bestand (WIP) eingestellt wird. Sie
+  charakterisieren das logistische Verhalten bezüglich Leistung/Auslastung, Durchlaufzeit und
+  Termintreue bei einer Bestandsveränderung. Die Linien zeigen, dass kein gleichzeitiges Optimum
+  für alle Zielgrößen existiert: Eine hohe Auslastung erfordert hohe Bestände, die ihrerseits lange
+  Durchlaufzeiten verursachen. Geringer Bestand, geringe Durchlaufzeit und hohe Termineinhaltung
+  unterstützen sich, konkurrieren aber mit hoher Leistung/Auslastung.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Frage direkt zugeordnet; vertieft laut Notiz zu
+    frage-2025-04-09-3 das zweimal geprüfte Dilemma der Ablaufplanung und begründet es mit
+    Produktionskennlinien.
+  question_ids: []
+drawing:
+  difficulty: schwer
+  must_know:
+    - "x-Achse: Bestand (WIP)"
+    - "Leistung: steil steigend, dann Sättigung; Durchlaufzeit: flach, dann linear steigend; Termineinhaltung: Glockenkurve"
+    - "Vier Ziele: hohe Termineinhaltung, geringe Durchlaufzeit, geringer Bestand, hohe Leistung/ Auslastung"
+    - "Geringer Bestand und geringe Durchlaufzeit sowie geringe Durchlaufzeit und hohe Termineinhaltung unterstützen sich"
+    - "Hohe Leistung/ Auslastung konkurriert mit geringem Bestand und mit hoher Termineinhaltung"
+  common_mistakes:
+    - "Leistung linear weiter steigend statt sättigend gezeichnet"
+    - "Durchlaufzeit fallend statt mit dem Bestand steigend gezeichnet"
+    - "Unterstützende und konkurrierende Zielpaare vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-82.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Kästen, Kurvennamen, Achsentitel und
+    Legendeneinträge im Originalwortlaut. Kurvenverläufe als Bézier-Pfade nachgezeichnet (kleine
+    Abweichungen in der Krümmung), Zickzack- und gebogene Doppelpfeile vereinfacht. Schrift Arial.
+source:
+  pdf_page: 180
+  printed_page: 170
+  ocr_text_of_labels: >-
+    hohe Termineinhaltung; geringe Durchlaufzeit; hohe Leistung/ Auslastung; geringer Bestand;
+    Leistung; Durchlaufzeit; Termineinhaltung; Bestand (WIP); Teilziele unterstützen sich;
+    Teilziele konkurrieren

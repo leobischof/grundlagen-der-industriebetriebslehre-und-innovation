@@ -1,0 +1,67 @@
+id: abb-41
+title: Zusammenhang der Kenngrößen des Managements
+type: system
+description: >-
+  Systembild: In der Mitte die graue Ellipse „Industrieunternehmung als Managementobjekt“ mit einem
+  Blockpfeil „Input“ links hinein und „Output“ rechts hinaus. Oben links der Kreis „Legitimität“,
+  der mit einem dicken Pfeil auf das Kästchen „Zielsystem“ zeigt; vom Zielsystem gehen dicke Pfeile
+  nach unten auf die Ellipse und nach rechts auf den Kreis „Effektivität“, der wiederum auf den
+  Output zeigt. Unten der Kreis „Effizienz“, von dem zwei L-förmige dicke Pfeile nach links zum
+  Input und nach rechts zum Output führen.
+axes: []
+elements:
+  - {id: legit, kind: circle, text: Legitimität, note: oben links}
+  - {id: ziel, kind: box, text: Zielsystem, note: oben Mitte}
+  - {id: effekt, kind: circle, text: Effektivität, note: oben rechts}
+  - {id: iu, kind: ellipse, text: Industrieunternehmung als Managementobjekt, note: "Mitte, grau"}
+  - {id: input, kind: arrow, text: Input, note: Blockpfeil links}
+  - {id: output, kind: arrow, text: Output, note: Blockpfeil rechts}
+  - {id: effiz, kind: circle, text: Effizienz, note: unten Mitte}
+relations:
+  - {from: legit, to: ziel, kind: beeinflusst}
+  - {from: ziel, to: iu, kind: steuert}
+  - {from: ziel, to: effekt, kind: beeinflusst}
+  - {from: effekt, to: output, kind: bewertet}
+  - {from: effiz, to: input, kind: bewertet}
+  - {from: effiz, to: output, kind: bewertet}
+  - {from: input, to: iu, kind: folgt}
+  - {from: iu, to: output, kind: folgt}
+curves: []
+meaning: >-
+  Die drei Kenngrößen des Managements (sec-7.1): Legitimität für das normative Management („Die
+  Gesamtaufgabe erfüllen“), Effektivität für das strategische Management („Die richtigen Dinge
+  tun“, Pflege und Ausbau strategischer Erfolgspositionen) und Effizienz für das operative
+  Management („Die Dinge richtig tun“, Einhaltung des Rationalprinzips, Verhältnis von Output zu
+  Input). Legitimität prägt das Zielsystem, Effektivität misst den Output am Zielsystem, Effizienz
+  setzt Output und Input ins Verhältnis.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage direkt zugeordnet. Die Unterscheidung
+    Effektivität („die richtigen Dinge tun“) vs. Effizienz („die Dinge richtig tun“) ist aber
+    Grundwissen und eng mit der geprüften Frage zu den Funktionen des Industriemanagements (7.1)
+    verbunden.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Legitimität → Zielsystem → Effektivität → Output"
+    - "Effizienz verbindet Input und Output"
+    - "Zuordnung: Legitimität = normativ, Effektivität = strategisch, Effizienz = operativ"
+  common_mistakes:
+    - "Effektivität und Effizienz vertauschen"
+    - "Effizienz nur mit dem Output statt mit Input und Output verbinden"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-41.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Positionen, Pfeilstärken und Farbtöne
+    (sehr helles Rosa der Kreise und des Zielsystems, Grau für Ellipse und Input/Output) angenähert.
+    Die dicken Pfeile sind als gefüllte Polygone gezeichnet, das sehr hellgraue Bildfeld ist
+    einfarbig wiedergegeben.
+source:
+  pdf_page: 118
+  printed_page: 108
+  ocr_text_of_labels: >-
+    Legitimität; Zielsystem; Effektivität; Input; Industrieunternehmung als Managementobjekt;
+    Output; Effizienz

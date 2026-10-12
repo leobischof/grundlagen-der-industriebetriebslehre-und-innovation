@@ -17,10 +17,10 @@ elements:
   - {id: p1, kind: kurve, text: Produktivität p1 = konst., note: flachste Gerade durch A und C}
   - {id: p2, kind: kurve, text: p2 > p1, note: Gerade durch B}
   - {id: p3, kind: kurve, text: p3 >> p1, note: steilste Gerade durch D}
-  - {id: A, kind: label, text: A, note: Ausgangspunkt auf p1, rechts}
+  - {id: A, kind: label, text: A, note: "Ausgangspunkt auf p1, rechts"}
   - {id: B, kind: label, text: B, note: auf p2}
-  - {id: C, kind: label, text: C, note: auf p1, links unterhalb von A}
-  - {id: D, kind: label, text: D, note: auf p3, weit links oben}
+  - {id: C, kind: label, text: C, note: "auf p1, links unterhalb von A"}
+  - {id: D, kind: label, text: D, note: "auf p3, weit links oben"}
   - {id: eff, kind: pfeil, text: Effizienz}
   - {id: suf, kind: pfeil, text: Suffizienz (Verzicht)}
   - {id: kon, kind: pfeil, text: Konsistenz}
@@ -67,7 +67,7 @@ reconstruction:
   notes: >-
     Visuell per Nebeneinander-Vergleich geprüft. Der Scan ist um ca. 1,2° gedreht; Punkte wurden
     am Scan gemessen und um den Ursprung gerade gestellt. Form des gebogenen Pfeils und des grauen
-    Keils angenähert; gestrichelte Linien als einzelne Striche gezeichnet (Renderer-Kompatibilität).
+    Keils angenähert; gestrichelte Linien als einzelne Striche gezeichnet.
     Buchstaben A–D sind keine Lösungselemente (Gerüst der Übung); alle Wortbeschriftungen sind
     class="answer".
 source:

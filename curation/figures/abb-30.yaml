@@ -1,0 +1,64 @@
+id: abb-30
+title: Systematik des Simultaneous Engineering
+type: prozess
+description: >-
+  Zweizeilige Gegenüberstellung über einer gemeinsamen Zeitachse. Zeile „Konventionell
+  (sequentiell)“: der weiße Balken „Produktplanung“ und erst nach seinem Ende der dunkle Balken
+  „Produktionsplanung“. Zeile „Simultaneous Engineering (parallel)“: vier weiße und vier dunkle
+  kurze Balken, treppenförmig überlappend, zwischen denen senkrechte Doppelpfeile den
+  Informationsfluss zeigen. Der parallele Ablauf endet früher; die Differenz zum konventionellen
+  Ende ist mit „Reduktion Time-to-Market“ bemaßt. Legende unten: Pfeil = „Informationsfluss“.
+axes:
+  - {axis: x, label: Zeit (implizit), unit: null, direction: rechts}
+elements:
+  - {id: r1, kind: label, text: Konventionell (sequentiell), note: obere Zeile}
+  - {id: pp, kind: balken, text: Produktplanung, note: weiß}
+  - {id: prp, kind: balken, text: Produktionsplanung, note: "dunkel, beginnt nach Ende der Produktplanung"}
+  - {id: r2, kind: label, text: Simultaneous Engineering (parallel), note: untere Zeile}
+  - {id: se_w, kind: balken, text: null, note: vier überlappende Teilschritte der Produktplanung (weiß)}
+  - {id: se_d, kind: balken, text: null, note: vier überlappende Teilschritte der Produktionsplanung (dunkel)}
+  - {id: ttm, kind: bemaßung, text: Reduktion Time-to-Market}
+  - {id: leg, kind: legende, text: Informationsfluss}
+relations:
+  - {from: pp, to: prp, kind: folgt, text: sequentiell}
+  - {from: se_w, to: se_d, kind: folgt, text: "parallel/überlappend, Informationsfluss in beide Richtungen"}
+curves: []
+meaning: >-
+  Beim konventionellen, sequentiellen Vorgehen beginnt die Produktionsplanung erst, wenn die
+  Produktplanung abgeschlossen ist. Simultaneous Engineering zerlegt beide in Teilprozesse und
+  lässt sie überlappend parallel laufen; abhängige Teilprozesse starten mit unvollständigen
+  Informationen und stimmen sich laufend ab (Informationsfluss). Dadurch sinkt die Gesamtzeit
+  (Reduktion der Time-to-Market) und später auch Nacharbeitskosten. SE beruht auf den drei
+  Grundprinzipien Parallelisierung, Integration und Standardisierung (Skript 5.6); die Abbildung
+  zeigt die Parallelisierung.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json abgefragt: frage-2025-04-09-5 verlangt die drei Prinzipien des
+    Simultaneous Engineering (Parallelisierung, Integration, Standardisierung); die Abbildung ist
+    die Standardskizze zur Parallelisierung.
+  question_ids: [frage-2025-04-09-5]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Oben sequentiell: Produktplanung, danach Produktionsplanung"
+    - "Unten parallel: überlappende Teilschritte mit Informationsfluss in beide Richtungen"
+    - "Zeitgewinn als „Reduktion Time-to-Market“ bemaßen"
+  common_mistakes:
+    - "Teilschritte ohne Überlappung gezeichnet (dann kein Zeitgewinn)"
+    - "Informationsfluss-Pfeile vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-30.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Balkenlagen, Überlappungen und
+    Doppelpfeile positionsgetreu angenähert, alle Texte im Wortlaut. Die punktierten Hilfslinien
+    nutzen stroke-dasharray
+    (seit pipeline/svg_mupdf setzt auch der PDF-Export Strichelung und Marker um);
+    Pfeilspitzen als Polygone.
+source:
+  pdf_page: 95
+  printed_page: 85
+  ocr_text_of_labels: >-
+    Konventionell (sequentiell); Produktplanung; Produktionsplanung; Simultaneous Engineering
+    (parallel); Reduktion Time-to-Market; Informationsfluss

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1267 886" width="1267" height="886" data-figure-id="abb-40" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Funktionen des Industrie Management</title>
+  <rect x="0" y="0" width="1267" height="886" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="14" y="12" width="1243" height="863" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- tree connectors (structure) -->
+  <g fill="none" stroke="#111111" stroke-width="2">
+    <path d="M625 210 V325 M240 268 H1017 M240 268 V325 M1017 268 V325"/>
+  </g>
+
+  <!-- root (given, not an answer) -->
+  <ellipse cx="625" cy="125" rx="215" ry="85" fill="#bfbfbf" stroke="#111111" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="622" y="115" font-size="40" font-weight="bold" text-anchor="middle">Industrie</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="625" y="162" font-size="40" font-weight="bold" text-anchor="middle">Management</text>
+
+  <!-- the three functions: grey header, white explanation box -->
+  <g fill="#bdbdbd" stroke="#111111" stroke-width="2">
+    <rect x="56" y="325" width="362" height="153"/>
+    <rect x="445" y="325" width="360" height="153"/>
+    <rect x="832" y="325" width="378" height="153"/>
+  </g>
+  <g fill="#ffffff" stroke="#111111" stroke-width="2">
+    <rect x="56" y="478" width="362" height="365"/>
+    <rect x="445" y="478" width="360" height="365"/>
+    <rect x="832" y="478" width="378" height="367"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="240" y="414" font-size="37" font-weight="bold" text-anchor="middle">Gestaltung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="625" y="414" font-size="37" font-weight="bold" text-anchor="middle">Lenkung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1021" y="414" font-size="37" font-weight="bold" text-anchor="middle">Entwicklung</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="518" font-size="31">eines institutionellen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="557" font-size="31">Rahmens, der es</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="595" font-size="31">ermöglicht, eine</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="634" font-size="31">handlungsfähige</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="672" font-size="31">Ganzheit über ihre</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="711" font-size="31">Zweckerfüllung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="750" font-size="31"><tspan font-style="italic">überlebens- und</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="788" font-size="31">entwicklungsfähig zu</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="68" y="827" font-size="31">erhalten</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="457" y="518" font-size="31">durch das Bestimmen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="457" y="557" font-size="31">von Zielen und das</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="457" y="595" font-size="31">Festlegen, Auslösen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="457" y="634" font-size="31">und Kontrollieren von</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="457" y="672" font-size="31">zielgerichteten</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="457" y="711" font-size="31">Aktivitäten des Systems</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="457" y="750" font-size="31"><tspan font-style="italic">und seiner</tspan> Elemente</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="518" font-size="31">ist teils das Ergebnis von</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="557" font-size="31">Gestaltungs- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="595" font-size="31">Lenkungsprozessen im</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="634" font-size="31">Zeitablauf, teils erfolgt sie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="672" font-size="31">in sozialen Systemen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="711" font-size="31">eigenständig evolutorisch</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="750" font-size="31"><tspan font-style="italic">durch intergeneratives</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="788" font-size="31">Erlernen von Wissen,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="843" y="827" font-size="31">Können und Einstellung</text>
+</svg>

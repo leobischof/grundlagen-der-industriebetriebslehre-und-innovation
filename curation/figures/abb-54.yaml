@@ -1,0 +1,47 @@
+id: abb-54
+title: Unterteilung Ausführungsphase
+type: prozess
+description: >-
+  Drei dunkelgraue, aneinandergereihte Pfeilkästen (Chevrons) von links nach rechts:
+  „Ausführung“, „Übergabe“, „Inbetriebnahme“ – die drei Teilphasen der Ausführung, der letzten
+  Phase der Fabrikplanung.
+axes: []
+elements:
+  - {id: p1, kind: box, text: Ausführung, note: "Chevron 1"}
+  - {id: p2, kind: box, text: Übergabe, note: "Chevron 2"}
+  - {id: p3, kind: box, text: Inbetriebnahme, note: "Chevron 3"}
+relations:
+  - {from: p1, to: p2, kind: folgt}
+  - {from: p2, to: p3, kind: folgt}
+curves: []
+meaning: >-
+  Die Ausführung als letzte Phase der Fabrikplanung (8.2.7) realisiert die in der
+  Ausführungsplanung festgelegten Arbeitspakete und gliedert sich in drei Phasen: Die eigentliche
+  Ausführung umfasst Bau-, Montage-, Installationsarbeiten und Umzugsaktivitäten mit Überwachung
+  von Fortschritt und Terminen. Die Übergabe folgt nach Ausführung und Abnahme; Planungs- und
+  Ausführungsunterlagen, Gewährleistungserklärungen und Wartungsvorschriften gehen an den
+  Auftraggeber. Die Inbetriebnahme ist der Produktionsanlauf und endet mit dem Erreichen gesetzter
+  Zielgrößen (z. B. Durchsatz) – dem formalen Projektabschluss.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage direkt zugeordnet; kann als Teil einer Frage
+    zum Planungsvorgehen der Fabrikplanung (Zielplanung bis Ausführung) vorkommen.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Reihenfolge: Ausführung → Übergabe → Inbetriebnahme"
+  common_mistakes:
+    - "Übergabe und Inbetriebnahme vertauscht (die Übergabe kommt vor dem Produktionsanlauf)"
+    - "Ausführungsplanung mit der Ausführung verwechselt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-54.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; drei Chevrons mit weißer Schrift in
+    gleicher Reihenfolge, Grauton und Proportionen angenähert. Nichts vereinfacht.
+source:
+  pdf_page: 141
+  printed_page: 131
+  ocr_text_of_labels: Ausführung; Übergabe; Inbetriebnahme

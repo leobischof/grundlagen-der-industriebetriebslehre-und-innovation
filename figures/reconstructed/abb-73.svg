@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1279 1046" width="1279" height="1046" data-figure-id="abb-73" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Kapazitätsplanung</title>
+  <rect x="0" y="0" width="1279" height="1046" fill="#ffffff"/>
+  <rect x="10" y="10" width="1258" height="1025" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Tree connectors (structure) -->
+  <g fill="none" stroke="#bfbfbf" stroke-width="2">
+    <path d="M223 135 V167 H946 V135 M587 167 V197"/>
+    <path d="M587 295 V326 M223 326 H946 M223 326 V357 M946 326 V360"/>
+    <path d="M223 601 V702"/>
+    <path d="M944 601 V652 M777 652 H1094 M777 652 V701 M1094 652 V701"/>
+    <path d="M776 794 V828 M1093 793 V827"/>
+  </g>
+
+  <!-- Inputs of capacity planning -->
+  <rect x="41" y="37" width="364" height="98" fill="#ede6e6" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="223" y="95" font-size="24" font-weight="bold" text-anchor="middle">Kapazitätsanforderungen</text>
+  <rect x="760" y="37" width="368" height="98" fill="#ede6e6" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="944" y="78" font-size="26" font-weight="bold" text-anchor="middle">Tatsächlich verfügbare</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="944" y="115" font-size="26" font-weight="bold" text-anchor="middle">Kapazität</text>
+
+  <!-- Centre: given as the prompt of the exercise -->
+  <rect x="341" y="197" width="492" height="98" fill="#4a4a4a"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="587" y="257" font-size="30" fill="#ffffff" text-anchor="middle">Kapazitätsplanung</text>
+
+  <!-- Kapazitätsabgleich -->
+  <rect x="41" y="357" width="364" height="244" fill="#ffffff" stroke="#7f7f7f" stroke-width="2"/>
+  <rect x="41" y="357" width="364" height="66" fill="#ede6e6" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="223" y="400" font-size="28" text-anchor="middle">Kapazitätsabgleich</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="223" y="462" font-size="28" text-anchor="middle">Angleichung des</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="223" y="500" font-size="28" text-anchor="middle">Kapazitätsangebots an</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="223" y="538" font-size="28" text-anchor="middle">den Kapazitätsbedarf</text>
+
+  <!-- Kapazitätsanpassung -->
+  <rect x="760" y="360" width="369" height="241" fill="#ffffff" stroke="#7f7f7f" stroke-width="2"/>
+  <rect x="760" y="360" width="369" height="64" fill="#ede6e6" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="944" y="403" font-size="28" text-anchor="middle">Kapazitätsanpassung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="944" y="461" font-size="28" text-anchor="middle">Anpassung des</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="944" y="499" font-size="28" text-anchor="middle">Kapazitätsbedarfs an</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="944" y="538" font-size="28" text-anchor="middle">verfügbaren</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="944" y="577" font-size="28" text-anchor="middle">Kapazitäten</text>
+
+  <!-- Measures of Kapazitätsabgleich -->
+  <rect x="40" y="702" width="364" height="304" fill="#ffffff" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="735" font-size="25">- Erweiterung der</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="768" font-size="25">Betriebsmittel</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="802" font-size="25">- Neue Mitarbeiter</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="836" font-size="25">- Leasing von Mitarbeitern</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="869" font-size="25">- Überstunden</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="902" font-size="25">- Kurzarbeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="936" font-size="25">- Mitarbeiter entlassen</text>
+
+  <!-- Two kinds of Kapazitätsanpassung -->
+  <rect x="634" y="701" width="284" height="93" fill="#ffffff" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="776" y="739" font-size="30" text-anchor="middle">Zeitabhängige</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="776" y="779" font-size="30" text-anchor="middle">Anpassung</text>
+  <rect x="952" y="701" width="283" height="92" fill="#ffffff" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1093" y="739" font-size="30" text-anchor="middle">Technologische</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1093" y="779" font-size="30" text-anchor="middle">Anpassung</text>
+
+  <rect x="634" y="828" width="284" height="178" fill="#ffffff" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="652" y="862" font-size="25">- Überlappung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="652" y="895" font-size="25">- Lageraufträge</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="652" y="928" font-size="25">- Auftragsfertigung</text>
+
+  <rect x="952" y="827" width="283" height="179" fill="#ffffff" stroke="#7f7f7f" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="970" y="862" font-size="25">- Marketing</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="970" y="895" font-size="25">- Rationalisierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="970" y="928" font-size="25">- Produktion</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="970" y="962" font-size="25">verlagern</text>
+</svg>

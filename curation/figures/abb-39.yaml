@@ -1,0 +1,72 @@
+id: abb-39
+title: 5-Step Prozess des Design Thinking
+type: prozess
+description: >-
+  Fünf nebeneinander stehende Spalten unter der Überschrift „Phasen“. Jede Spalte nennt Nummer und
+  Phase (1 Entdeckung, 2 Interpretation, 3 Ideenfindung, 4 Experimente, 5 Evolution), ein
+  Piktogramm und darunter eine fett gesetzte Ich-Aussage mit einer Leitfrage in Normalschrift.
+axes: []
+elements:
+  - {id: titel, kind: label, text: Phasen, note: Überschrift}
+  - {id: ph1, kind: label, text: 1 Entdeckung, note: Piktogramm Kompass}
+  - {id: ph1a, kind: label, text: Ich habe eine Challenge., note: fett}
+  - {id: ph1b, kind: label, text: "Wie gehe ich sie an?"}
+  - {id: ph2, kind: label, text: 2 Interpretation, note: Piktogramm Lupe}
+  - {id: ph2a, kind: label, text: Ich habe etwas gelernt., note: fett}
+  - {id: ph2b, kind: label, text: "Was interpretiere ich?", note: "im Bild getrennt „inter-“/„pretiere“"}
+  - {id: ph3, kind: label, text: 3 Ideenfindung, note: Piktogramm Glühbirne}
+  - {id: ph3a, kind: label, text: Ich sehe eine Möglichkeit., note: fett}
+  - {id: ph3b, kind: label, text: "Was kreiere/schaffe ich?"}
+  - {id: ph4, kind: label, text: 4 Experimente, note: Piktogramm Zahnrad}
+  - {id: ph4a, kind: label, text: Ich habe eine Idee., note: fett}
+  - {id: ph4b, kind: label, text: "Wie „baue“ ich sie?"}
+  - {id: ph5, kind: label, text: 5 Evolution, note: Piktogramm Kreislaufpfeile}
+  - {id: ph5a, kind: label, text: Ich habe etwas neues probiert., note: "fett; „neues“ klein wie im Original"}
+  - {id: ph5b, kind: label, text: "Was ist der nächste Schritt?"}
+relations:
+  - {from: ph1, to: ph2, kind: folgt}
+  - {from: ph2, to: ph3, kind: folgt}
+  - {from: ph3, to: ph4, kind: folgt}
+  - {from: ph4, to: ph5, kind: folgt}
+curves: []
+meaning: >-
+  Design Thinking (IDEO) ist eine systematische, nutzerzentrierte Herangehensweise an komplexe
+  Probleme; Input und Feedback von Kunden und Anwendern bilden den Kern (sec-6.3). Die fünf Phasen:
+  Entdeckung (Nutzer verstehen, Empathie gewinnen), Interpretation (gesammeltes Wissen analysieren
+  und Anforderungen ableiten), Ideenfindung (vorbereitetes Brainstorming in interdisziplinärer
+  Gruppe, z. B. mit „How might we…?“-Fragen), Experimentieren (Ideen als Prototypen umsetzen und
+  Feedback einholen) und Evolution (Konzept weiterentwickeln, nächste Schritte planen,
+  dokumentieren). Die Konzepte werden in mehreren Iterationszyklen verbessert.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json dreimal abgefragt (2024-06-20, 2024-12-10, 2025-10-15): jeweils
+    „Design-Thinking-Methode nach IDEO beschreiben und die fünf Phasen erklären“. Die Abbildung ist
+    das Gerüst der Antwort.
+  question_ids: [frage-2024-06-20-2, frage-2024-12-10-3, frage-2025-10-15-5]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Fünf Phasen in Reihenfolge: Entdeckung, Interpretation, Ideenfindung, Experimente, Evolution"
+    - "Je Phase die Ich-Aussage und Leitfrage (Challenge → gelernt → Möglichkeit → Idee → neues probiert)"
+    - "Nutzerzentrierung und Iteration als Kern der Methode"
+  common_mistakes:
+    - "Die fünf Phasen des Stanford-Modells (Empathize, Define, Ideate, Prototype, Test) statt der IDEO-Phasen nennen"
+    - "Interpretation und Ideenfindung vertauschen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-39.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte im Originalwortlaut (inkl.
+    Silbentrennung „inter-/pretiere“ und kleingeschriebenem „neues“). Die fünf Piktogramme
+    (Kompass, Lupe, Glühbirne, Zahnrad, Kreislaufpfeile) sind nicht nachgebildet, sondern durch
+    graue Kreise mit dem Namen des Symbols ersetzt. Im Bild heißt Phase 4 „Experimente“, im
+    Skripttext „Experimentieren“, Phase 3 im Text „Ideen finden“.
+source:
+  pdf_page: 112
+  printed_page: 102
+  ocr_text_of_labels: >-
+    Phasen; 1 Entdeckung; 2 Interpretation; 3 Ideenfindung; 4 Experimente; 5 Evolution; Ich habe
+    eine Challenge. Wie gehe ich sie an?; Ich habe etwas gelernt. Was inter- pretiere ich?; Ich
+    sehe eine Möglichkeit. Was kreiere/ schaffe ich?; Ich habe eine Idee. Wie „baue“ ich sie?; Ich
+    habe etwas neues probiert. Was ist der nächste Schritt?

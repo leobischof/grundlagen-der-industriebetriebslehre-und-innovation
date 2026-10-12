@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1270 607" width="1270" height="607" data-figure-id="abb-10" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Portfolio Management für neue Produkte – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1270" height="607" fill="#ffffff" />
+  <!-- outer frame of the original figure -->
+  <rect x="12" y="8" width="1245" height="590" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- 2x2 portfolio grid -->
+  <g fill="none" stroke="#111111" stroke-width="2.5">
+    <rect x="486" y="33" width="535" height="507" />
+    <line x1="753" y1="33" x2="753" y2="540" />
+    <line x1="486" y1="287" x2="1021" y2="287" />
+  </g>
+
+  <!-- y axis: Wahrscheinlichkeit des technologischen Erfolgs -->
+  <rect class="placeholder" x="415.2" y="43.8" width="60.8" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="375.6" y="504.8" width="100.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <g font-size="22" font-weight="bold">
+    <rect class="placeholder" x="229.0" y="228.4" width="245.6" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="229.0" y="258.4" width="47.6" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="229.0" y="289.4" width="206.0" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="229.0" y="319.4" width="100.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+
+  <!-- x axis: Rendite (high on the left, low on the right) -->
+  <rect class="placeholder" x="497.6" y="550.8" width="60.8" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="702.8" y="548.4" width="100.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="916.8" y="550.8" width="100.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- the four project types -->
+  <g font-size="29" text-anchor="middle">
+    <rect class="placeholder" x="567.1" y="143.8" width="103.7" height="38.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="764.4" y="143.8" width="247.2" height="38.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="559.2" y="396.8" width="119.6" height="38.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="764.4" y="396.8" width="247.2" height="38.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+id: abb-73
+title: Kapazitätsplanung
+type: hierarchie
+description: >-
+  Baumdiagramm: Oben stehen die beiden Eingangsgrößen „Kapazitätsanforderungen“ und „Tatsächlich
+  verfügbare Kapazität“, die im dunklen Kasten „Kapazitätsplanung“ zusammenlaufen. Darunter
+  verzweigt die Kapazitätsplanung in „Kapazitätsabgleich“ (Angleichung des Kapazitätsangebots an
+  den Kapazitätsbedarf) mit einer Liste von Maßnahmen und in „Kapazitätsanpassung“ (Anpassung des
+  Kapazitätsbedarfs an verfügbaren Kapazitäten), die sich in zeitabhängige und technologische
+  Anpassung mit je eigener Maßnahmenliste teilt.
+axes: []
+elements:
+  - {id: anf, kind: box, text: Kapazitätsanforderungen}
+  - {id: verf, kind: box, text: Tatsächlich verfügbare Kapazität}
+  - {id: kp, kind: box, text: Kapazitätsplanung, note: "zentraler Kasten, dunkel hinterlegt"}
+  - {id: abgl, kind: box, text: Kapazitätsabgleich, note: "Definition: Angleichung des Kapazitätsangebots an den Kapazitätsbedarf"}
+  - {id: anp, kind: box, text: Kapazitätsanpassung, note: "Definition: Anpassung des Kapazitätsbedarfs an verfügbaren Kapazitäten"}
+  - {id: abgl_m, kind: liste, text: "- Erweiterung der Betriebsmittel - Neue Mitarbeiter - Leasing von Mitarbeitern - Überstunden - Kurzarbeit - Mitarbeiter entlassen", note: Maßnahmen des Kapazitätsabgleichs}
+  - {id: zeit, kind: box, text: Zeitabhängige Anpassung}
+  - {id: techn, kind: box, text: Technologische Anpassung}
+  - {id: zeit_m, kind: liste, text: "- Überlappung - Lageraufträge - Auftragsfertigung"}
+  - {id: techn_m, kind: liste, text: "- Marketing - Rationalisierung - Produktion verlagern"}
+relations:
+  - {from: anf, to: kp, kind: fließt}
+  - {from: verf, to: kp, kind: fließt}
+  - {from: kp, to: abgl, kind: enthält}
+  - {from: kp, to: anp, kind: enthält}
+  - {from: abgl, to: abgl_m, kind: enthält}
+  - {from: anp, to: zeit, kind: enthält}
+  - {from: anp, to: techn, kind: enthält}
+  - {from: zeit, to: zeit_m, kind: enthält}
+  - {from: techn, to: techn_m, kind: enthält}
+curves: []
+meaning: >-
+  Skript 9.1.6: Die Kapazitätsplanung soll einen permanenten Abgleich von Kapazitätsbedarf und
+  tatsächlich verfügbarer Kapazität gewährleisten und so eine (optimale) Kapazitätsauslastung
+  sicherstellen. Lang- und mittelfristige Diskrepanzen führen zur Angleichung der Betriebsmittel
+  (Investition / Kapazitätsabbau) und zum Einstellen oder Abbauen von Mitarbeitern; kurzfristige
+  Anpassungen betreffen Beginn, Ende oder Betriebszeiten von Aufträgen, die Verlagerung von
+  Produktionsschritten sowie die verfügbare Arbeitszeit (Überstunden, Extra-Schicht,
+  Leerlaufzeit). Die Abbildung unterscheidet dabei zwei Richtungen: das Angebot an den Bedarf
+  angleichen (Kapazitätsabgleich) oder den Bedarf an das Angebot anpassen (Kapazitätsanpassung).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Frage zugeordnet. Die Unterscheidung
+    Kapazitätsabgleich vs. Kapazitätsanpassung mit Maßnahmen ist aber klassischer
+    Aufzähl-/Erklärstoff; daher mittel.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Eingänge: Kapazitätsanforderungen und tatsächlich verfügbare Kapazität"
+    - "Kapazitätsabgleich = Angebot an Bedarf angleichen; Kapazitätsanpassung = Bedarf an verfügbare Kapazität anpassen"
+    - "Maßnahmen Kapazitätsabgleich: Betriebsmittel erweitern, neue Mitarbeiter, Leasing, Überstunden, Kurzarbeit, Entlassung"
+    - "Kapazitätsanpassung: zeitabhängig (Überlappung, Lageraufträge, Auftragsfertigung) und technologisch (Marketing, Rationalisierung, Produktion verlagern)"
+  common_mistakes:
+    - "Abgleich und Anpassung vertauscht (Richtung Angebot ↔ Bedarf verwechselt)"
+    - "Maßnahmen der zeitabhängigen und der technologischen Anpassung vermischt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-73.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kastenpositionen, rosa-graue Kopfzeilen
+    und der dunkle Mittelkasten angenähert. Der Kasten „Kapazitätsplanung“ ist als Vorgabe kein
+    Lösungselement, alle übrigen Texte sind class="answer". Listen mit Spiegelstrichen
+    zeilengetreu übernommen.
+source:
+  pdf_page: 172
+  printed_page: 162
+  ocr_text_of_labels: >-
+    Kapazitätsanforderungen; Tatsächlich verfügbare Kapazität; Kapazitätsplanung;
+    Kapazitätsabgleich; Angleichung des Kapazitätsangebots an den Kapazitätsbedarf;
+    Kapazitätsanpassung; Anpassung des Kapazitätsbedarfs an verfügbaren Kapazitäten; - Erweiterung
+    der Betriebsmittel; - Neue Mitarbeiter; - Leasing von Mitarbeitern; - Überstunden; -
+    Kurzarbeit; - Mitarbeiter entlassen; Zeitabhängige Anpassung; Technologische Anpassung; -
+    Überlappung; - Lageraufträge; - Auftragsfertigung; - Marketing; - Rationalisierung; -
+    Produktion verlagern

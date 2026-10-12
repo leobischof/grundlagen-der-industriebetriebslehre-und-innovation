@@ -1,0 +1,79 @@
+id: abb-75
+title: Enterprise resource planning
+type: system
+description: >-
+  Sterndiagramm eines ERP-Systems: In der Mitte der dunkle Kasten „Integrierte Datenbank“, um ihn
+  herum acht graue Funktionsmodule (Strategische Berichterstattung, Finanzen, Verkauf und
+  Marketing, Betrieb, Lieferung und Logistik, Einkauf und Lieferung, Personalabteilung, Service),
+  jeweils mit Doppelpfeil zur Datenbank. Außen stehen die Partner: links „Lieferanten“ (Doppelpfeile
+  zu Betrieb sowie Einkauf und Lieferung), rechts „Kunden“ (Doppelpfeile zu Verkauf und Marketing,
+  Lieferung und Logistik sowie Service), oben „Geschäftsführung und Stakeholder“, unten
+  „Mitarbeiter“.
+axes: []
+elements:
+  - {id: db, kind: box, text: Integrierte Datenbank, note: "Mitte, dunkel hinterlegt"}
+  - {id: strat, kind: box, text: Strategische Bericht-erstattung, note: oben}
+  - {id: fin, kind: box, text: Finanzen, note: oben links}
+  - {id: vm, kind: box, text: Verkauf und Marketing, note: oben rechts}
+  - {id: betr, kind: box, text: Betrieb, note: links}
+  - {id: ll, kind: box, text: Lieferung und Logistik, note: rechts}
+  - {id: el, kind: box, text: Einkauf und Lieferung, note: unten links}
+  - {id: pers, kind: box, text: Personal-abteilung, note: unten}
+  - {id: serv, kind: box, text: Service, note: unten rechts}
+  - {id: lief, kind: box, text: Lieferanten, note: weißer Kasten ganz links}
+  - {id: kund, kind: box, text: Kunden, note: weißer Kasten ganz rechts}
+  - {id: gf, kind: label, text: Geschäftsführung und Stakeholder, note: oberer Rand}
+  - {id: ma, kind: label, text: Mitarbeiter, note: unterer Rand}
+relations:
+  - {from: db, to: strat, kind: wechselwirkung}
+  - {from: db, to: fin, kind: wechselwirkung}
+  - {from: db, to: vm, kind: wechselwirkung}
+  - {from: db, to: betr, kind: wechselwirkung}
+  - {from: db, to: ll, kind: wechselwirkung}
+  - {from: db, to: el, kind: wechselwirkung}
+  - {from: db, to: pers, kind: wechselwirkung}
+  - {from: db, to: serv, kind: wechselwirkung}
+  - {from: lief, to: betr, kind: wechselwirkung}
+  - {from: lief, to: el, kind: wechselwirkung}
+  - {from: kund, to: vm, kind: wechselwirkung}
+  - {from: kund, to: ll, kind: wechselwirkung}
+  - {from: kund, to: serv, kind: wechselwirkung}
+curves: []
+meaning: >-
+  Skript 9.1.8: ERP-Systeme verwalten Nachfrage, Kapazität und die dafür nötigen Informationen
+  unter Berücksichtigung von Einschränkungen wie tatsächlicher Kapazität oder Lieferterminen. ERP
+  ist ein unternehmensweites Informationssystem mit Informationen aus allen für Planung und
+  Steuerung relevanten Funktionen; wichtigster Vorteil ist die Transparenz durch die gemeinsame
+  ERP-Datenbank. ERP-Systeme sind eine Weiterentwicklung der MRP-Systeme (seit den 1970er Jahren);
+  Anbieter sind z. B. SAP und Oracle.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Frage zugeordnet; die Abbildung
+    veranschaulicht nur den Aufbau eines ERP-Systems um eine integrierte Datenbank.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Integrierte Datenbank im Zentrum, alle Funktionsbereiche tauschen über sie Daten aus"
+    - "Acht Module: Strategische Berichterstattung, Finanzen, Verkauf und Marketing, Betrieb, Lieferung und Logistik, Einkauf und Lieferung, Personalabteilung, Service"
+    - "Lieferanten links, Kunden rechts, Geschäftsführung und Stakeholder oben, Mitarbeiter unten"
+  common_mistakes:
+    - "Module untereinander statt über die zentrale Datenbank verbunden"
+    - "Lieferanten mit Verkauf/Service statt mit Betrieb und Einkauf verbunden"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-75.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kastenpositionen und alle 13
+    Doppelpfeile übernommen, Pfeilspitzen als eigene Dreiecke (keine SVG-Marker). Die im Original
+    blass gepunkteten Verbindungslinien sind als hellgraue gestrichelte Linien wiedergegeben. Die
+    weiße Schrift auf hellgrauen Modulen ist im Scan schwer lesbar; Wortlaut (u. a.
+    „Strategische Bericht-erstattung“) am vergrößerten Ausschnitt geprüft.
+source:
+  pdf_page: 174
+  printed_page: 164
+  ocr_text_of_labels: >-
+    Geschäftsführung und Stakeholder; Strategische Bericht- erstattung; Finanzen; Verkauf und
+    Marketing; Lieferanten; Betrieb; Integrierte Datenbank; Lieferung und Logistik; Kunden;
+    Einkauf und Lieferung; Personal- abteilung; Service; Mitarbeiter

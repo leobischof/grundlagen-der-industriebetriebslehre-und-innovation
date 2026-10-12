@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1270 908" width="1270" height="908" data-figure-id="abb-27" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Festgelegte und verursachte Kosten in der Produktentstehung</title>
+  <rect x="0" y="0" width="1270" height="908" fill="#ffffff"/>
+  <rect x="14" y="12" width="1243" height="884" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Plot frame: axes with arrows plus closing top/right border -->
+  <g stroke="#3a3a3a" stroke-width="4" fill="none">
+    <line x1="325" y1="745" x2="325" y2="60"/>
+    <line x1="325" y1="745" x2="1030" y2="745"/>
+    <path d="M325 57 H1007 V745"/>
+  </g>
+  <polygon points="325,38 316,62 334,62" fill="#3a3a3a"/>
+  <polygon points="1048,745 1026,736 1026,754" fill="#3a3a3a"/>
+
+  <!-- Curves -->
+  <!-- Tatsächlich verursachte Kosten: starts at zero, rises slowly, steep only at the end -->
+  <path class="answer" d="M330 742 C650 735 900 600 1002 90" fill="none" stroke="#c4c4c4" stroke-width="4"/>
+  <!-- Festgelegte Kosten: rises very steeply at the start, ~80 % fixed early -->
+  <!-- dashes drawn explicitly (the PDF renderer ignores stroke-dasharray); centre line M333 660 C360 420 520 120 1000 60 -->
+  <path class="answer" d="M333 660 L334 653 L335 646 L336 638 L337 631 L337 630 M340 614 L341 607 L343 600 L344 592 L346 585 L346 585 M349 569 L351 562 L353 555 L355 547 L357 540 L357 540 M362 524 L365 517 L367 510 L370 503 L372 496 M378 481 L381 474 L384 467 L387 461 L390 454 L390 453 M397 439 L400 432 L404 425 L407 418 L411 412 L411 412 M419 398 L423 391 L426 385 L430 379 L434 373 L435 372 M444 359 L448 353 L452 347 L457 341 L461 335 L462 334 M471 322 L476 316 L481 310 L486 304 L491 299 M502 287 L507 281 L512 276 L518 271 L523 266 L523 265 M535 254 L541 249 L546 244 L552 239 L558 234 M570 224 L576 220 L582 215 L588 211 L594 206 L594 206 M608 197 L614 193 L620 188 L627 184 L633 180 M647 172 L653 168 L660 165 L667 161 L673 157 L674 157 M688 150 L695 147 L701 143 L708 140 L714 137 L715 137 M730 130 L737 127 L744 124 L751 122 L758 119 L758 119 M774 113 L780 111 L787 108 L794 106 L801 104 L802 103 M818 98 L825 96 L832 94 L839 92 L847 90 L847 90 M862 86 L869 84 L876 82 L883 81 L890 79 L891 79 M908 75 L915 74 L922 72 L930 71 L937 70 L938 69 M954 67 L962 65 L969 64 L977 63 L984 62" fill="none" stroke="#6a6a6a" stroke-width="6"/>
+  <!-- Kostenbeeinflussungsmöglichkeit: high at the start, falls steeply -->
+  <!-- dashes drawn explicitly; centre line M328 62 C400 420 520 560 1000 695 -->
+  <path class="answer" d="M328 62 L330 69 L331 77 L333 84 L334 92 L334 92 M338 107 L339 115 L341 123 L343 130 L345 137 M349 153 L350 160 L352 167 L354 174 L356 181 L357 182 M361 197 L363 205 L366 212 L368 219 L370 226 L370 226 M376 242 L378 249 L381 256 L384 263 L386 270 L386 270 M392 285 L396 292 L399 299 L402 306 L405 313 M412 327 L416 334 L419 341 L423 347 L427 354 L427 354 M435 368 L439 374 L443 380 L447 386 L451 392 L452 393 M462 406 L466 412 L471 418 L475 423 L480 429 L480 430 M491 442 L496 447 L501 452 L507 458 L512 463 L512 463 M524 474 L530 480 L535 485 L541 489 L547 494 M559 504 L565 509 L571 513 L578 517 L584 522 L584 522 M597 531 L603 535 L610 539 L616 543 L623 547 L623 547 M637 555 L643 559 L650 563 L656 566 L663 570 L663 570 M678 577 L684 581 L691 584 L697 587 L704 590 L705 591 M720 597 L727 600 L734 604 L741 607 L747 610 M763 616 L770 619 L777 621 L784 624 L791 627 L791 627 M806 633 L813 635 L820 638 L827 640 L834 643 L834 643 M850 649 L857 651 L865 654 L872 656 L879 658 M895 663 L902 666 L909 668 L916 670 L923 672 L924 673 M939 677 L946 679 L953 681 L960 683 L967 685 L968 686 M984 690 L988 692 L992 693 L996 694 L1000 695" fill="none" stroke="#333333" stroke-width="6"/>
+
+  <!-- Curve labels -->
+  <rect x="474" y="115" width="328" height="75" fill="#666666"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="638" y="161" font-size="23" font-weight="bold" font-style="italic" fill="#ffffff" text-anchor="middle">Festgelegte Kosten</text>
+  <rect x="665" y="318" width="325" height="74" fill="#c8c8c8"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="828" y="348" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle">Tatsächlich</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="828" y="380" font-size="22" font-weight="bold" fill="#222222" text-anchor="middle">verursachte Kosten</text>
+  <rect x="400" y="500" width="326" height="73" fill="#333333"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="563" y="530" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Kostenbeeinflussungs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="563" y="561" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">möglichkeit</text>
+
+  <!-- Axis titles and phases -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="31" fill="#111111" text-anchor="middle" transform="translate(284 385) rotate(-90)">Kostenfaktoren</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="371" y="784" font-size="25" fill="#111111" text-anchor="middle">Anstoß</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="565" y="784" font-size="25" fill="#111111" text-anchor="middle">Planung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="786" y="786" font-size="25" fill="#111111" text-anchor="middle">Realisierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="983" y="780" font-size="25" fill="#111111" text-anchor="middle">Produkt</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="690" y="862" font-size="31" fill="#111111" text-anchor="middle">Produktlebenszyklus</text>
+</svg>

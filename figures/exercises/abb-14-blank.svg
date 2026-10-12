@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 779" width="1266" height="779" data-figure-id="abb-14" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Abgrenzung zwischen Industriebetrieben und Werkstätten – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1266" height="779" fill="#ffffff" />
+  <!-- outer frame of the original figure -->
+  <rect x="12" y="8" width="1243" height="760" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- scale column: Gross (hoch) at the top, Klein (niedrig) at the bottom -->
+  <rect x="47" y="145" width="140" height="492" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1" />
+  <rect class="placeholder" x="84.5" y="162.0" width="63.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="70.8" y="198.0" width="90.5" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <line x1="116" y1="248" x2="116" y2="516" stroke="#111111" stroke-width="2" />
+  <polygon points="116,527 111,514 121,514" fill="#111111" />
+  <rect class="placeholder" x="77.6" y="539.0" width="76.8" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="50.1" y="573.0" width="131.8" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- seven criteria: header box + grey column -->
+  <rect x="197" y="40" width="139" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1" />
+  <rect x="197" y="145" width="139" height="492" fill="#707070" />
+  <rect class="placeholder" x="201.7" y="63.4" width="129.5" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="239.1" y="86.4" width="54.8" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="345" y="40" width="138" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1" />
+  <rect x="345" y="145" width="138" height="492" fill="#707070" />
+  <rect class="placeholder" x="344.6" y="72.4" width="138.9" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="493" y="40" width="139" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1" />
+  <rect x="493" y="145" width="139" height="492" fill="#707070" />
+  <rect class="placeholder" x="516.4" y="63.4" width="92.1" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="525.8" y="86.4" width="73.5" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="643" y="40" width="138" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1" />
+  <rect x="643" y="145" width="138" height="492" fill="#707070" />
+  <rect class="placeholder" x="670.6" y="63.4" width="82.8" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="680.0" y="86.4" width="64.1" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="792" y="40" width="138" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1" />
+  <rect x="792" y="145" width="138" height="492" fill="#707070" />
+  <rect class="placeholder" x="786.9" y="63.4" width="148.2" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="800.9" y="86.4" width="120.2" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="940" y="40" width="133" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1" />
+  <rect x="940" y="145" width="133" height="492" fill="#707070" />
+  <rect class="placeholder" x="960.4" y="63.4" width="92.2" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="969.8" y="86.4" width="73.4" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="1083" y="40" width="135" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1" />
+  <rect x="1083" y="145" width="135" height="492" fill="#707070" />
+  <rect class="placeholder" x="1081.0" y="63.4" width="138.9" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1118.5" y="86.4" width="64.1" height="25.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- profile lines (dashed) -->
+  <!-- profile points: grey = Industrieunternehmen, black = Werkstaetten -->
+  <!-- legend -->
+  <circle cx="70" cy="672" r="18" fill="#000000" />
+  <rect class="placeholder" x="98.0" y="657.8" width="153.2" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <circle cx="70" cy="722" r="18" fill="#4f4f4f" />
+  <rect class="placeholder" x="98.0" y="707.8" width="272.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

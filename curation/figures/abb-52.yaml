@@ -1,0 +1,92 @@
+id: abb-52
+title: Auszug aus der Gliederung der Flächen
+type: hierarchie
+description: >-
+  Baumdiagramm der Flächengliederung (nach DIN 277): Das „Grundstück“ teilt sich in „Unbebaute
+  Fläche“ (Verkehrsfläche, Parkplätze, Versorgungs- und Nutzflächen, Grün- und Freiflächen,
+  Reserveflächen) und „Bebaute Fläche“. Die bebaute Fläche gliedert sich in Nutzflächen
+  (Produktion, Lager, Verwaltung, Hilfs- und Nebenbetriebe), Nebenflächen (Sanitär,
+  Transportwege), Funktionsflächen (Heizung- und Klimaanlage) und Sozialflächen (Verpflegung,
+  Bildungseinrichtungen, Erholung).
+axes: []
+elements:
+  - {id: root, kind: box, text: Grundstück, note: "Wurzel"}
+  - {id: ub, kind: box, text: Unbebaute Fläche}
+  - {id: ub1, kind: box, text: Verkehrsfläche}
+  - {id: ub2, kind: box, text: Parkplätze}
+  - {id: ub3, kind: box, text: Versorgungs- und Nutzflächen}
+  - {id: ub4, kind: box, text: Grün- und Freiflächen}
+  - {id: ub5, kind: box, text: Reserveflächen}
+  - {id: bb, kind: box, text: Bebaute Fläche}
+  - {id: nf, kind: box, text: Nutzflächen}
+  - {id: nf1, kind: box, text: Produktion}
+  - {id: nf2, kind: box, text: Lager}
+  - {id: nf3, kind: box, text: Verwaltung}
+  - {id: nf4, kind: box, text: Hilfs- und Nebenbetriebe}
+  - {id: neb, kind: box, text: Nebenflächen}
+  - {id: neb1, kind: box, text: Sanitär}
+  - {id: neb2, kind: box, text: Transportwege}
+  - {id: fkt, kind: box, text: Funktionsflächen}
+  - {id: fkt1, kind: box, text: Heizung- und Klimaanlage, note: "Wortlaut des Originals"}
+  - {id: soz, kind: box, text: Sozialflächen}
+  - {id: soz1, kind: box, text: Verpflegung}
+  - {id: soz2, kind: box, text: Bildungseinrichtungen}
+  - {id: soz3, kind: box, text: Erholung}
+relations:
+  - {from: root, to: ub, kind: enthält}
+  - {from: root, to: bb, kind: enthält}
+  - {from: ub, to: ub1, kind: enthält}
+  - {from: ub, to: ub2, kind: enthält}
+  - {from: ub, to: ub3, kind: enthält}
+  - {from: ub, to: ub4, kind: enthält}
+  - {from: ub, to: ub5, kind: enthält}
+  - {from: bb, to: nf, kind: enthält}
+  - {from: bb, to: neb, kind: enthält}
+  - {from: bb, to: fkt, kind: enthält}
+  - {from: bb, to: soz, kind: enthält}
+  - {from: nf, to: nf1, kind: enthält}
+  - {from: nf, to: nf2, kind: enthält}
+  - {from: nf, to: nf3, kind: enthält}
+  - {from: nf, to: nf4, kind: enthält}
+  - {from: neb, to: neb1, kind: enthält}
+  - {from: neb, to: neb2, kind: enthält}
+  - {from: fkt, to: fkt1, kind: enthält}
+  - {from: soz, to: soz1, kind: enthält}
+  - {from: soz, to: soz2, kind: enthält}
+  - {from: soz, to: soz3, kind: enthält}
+curves: []
+meaning: >-
+  Bei der Dimensionierung in der Grobplanung (8.2.5.1) ist der Flächenbedarf zu ermitteln, der u. a.
+  großen Einfluss auf die Investitionen hat. Grundlage der Berechnung ist eine Einteilung aller
+  Flächen, wie sie die Gliederung nach DIN 277 zeigt. Auf dieser Gliederung bauen globale und
+  detaillierte Flächenermittlungsverfahren auf.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; die Flächengliederung ist ein
+    Detail der Dimensionierung und eher als Hintergrundwissen zur Grobplanung relevant.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Grundstück → Unbebaute und Bebaute Fläche"
+    - "Bebaute Fläche: Nutz-, Neben-, Funktions-, Sozialflächen"
+    - "Nutzflächen: Produktion, Lager, Verwaltung, Hilfs- und Nebenbetriebe"
+  common_mistakes:
+    - "Verkehrsflächen und Transportwege verwechselt (Verkehrsfläche ist unbebaut, Transportwege sind Nebenflächen)"
+    - "Sanitär zu den Sozialflächen statt zu den Nebenflächen gezählt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-52.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle 22 Kästen und die Baumverbindungen
+    sind vorhanden, Positionen angenähert. Der Wurzelknoten „Grundstück“ ist kein Lösungselement.
+    Wortlaut „Heizung- und Klimaanlage“ unverändert übernommen.
+source:
+  pdf_page: 137
+  printed_page: 127
+  ocr_text_of_labels: >-
+    Grundstück; Unbebaute Fläche; Verkehrsfläche; Parkplätze; Versorgungs- und Nutzflächen; Grün-
+    und Freiflächen; Reserveflächen; Bebaute Fläche; Nutzflächen; Produktion; Lager; Verwaltung;
+    Hilfs- und Nebenbetriebe; Nebenflächen; Sanitär; Transportwege; Funktionsflächen; Heizung- und
+    Klimaanlage; Sozialflächen; Verpflegung; Bildungseinrichtungen; Erholung

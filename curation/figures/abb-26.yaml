@@ -1,0 +1,68 @@
+id: abb-26
+title: Integrierte Produktentstehung 2013
+type: sonstiges
+description: >-
+  Zwei Bildszenen untereinander. Oben: ein in Räume abgeteiltes Gebäude mit den Abteilungen
+  „Verkauf“, „Konstruktion“, „Produktions-vorbereitung“, „Produktion“ und darüber
+  „Materialwirtschaft“; je eine Person pro Raum, die Arbeit wird mit Pfeilen über die Wände von
+  Abteilung zu Abteilung weitergereicht. Unten: ein einziger gemeinsamer Raum, in dem Kunde,
+  Zulieferer, Konstruktion, Verkauf, Abfallwirtschaft, Materialwirtschaft, Controlling, Produktion
+  und Produktions-vorbereitung als Gruppe zusammenstehen; darunter „Better Together“.
+axes: []
+elements:
+  - {id: o1, kind: label, text: Materialwirtschaft, note: "oben, über dem Gebäude"}
+  - {id: o2, kind: label, text: Verkauf, note: oben}
+  - {id: o3, kind: label, text: Konstruktion, note: oben}
+  - {id: o4, kind: label, text: Produktions-vorbereitung, note: oben}
+  - {id: o5, kind: label, text: Produktion, note: oben}
+  - {id: u1, kind: label, text: Kunde, note: unten}
+  - {id: u2, kind: label, text: Zulieferer, note: unten}
+  - {id: u3, kind: label, text: Konstruktion, note: unten}
+  - {id: u4, kind: label, text: Verkauf, note: unten}
+  - {id: u5, kind: label, text: Abfallwirtschaft, note: unten}
+  - {id: u6, kind: label, text: Materialwirtschaft, note: unten}
+  - {id: u7, kind: label, text: Controlling, note: unten}
+  - {id: u8, kind: label, text: Produktion, note: unten}
+  - {id: u9, kind: label, text: Produktions-vorbereitung, note: unten}
+  - {id: bt, kind: label, text: Better Together, note: Fazit unter der unteren Szene}
+relations:
+  - {from: o2, to: o3, kind: folgt, text: Übergabe über die Abteilungswand}
+  - {from: o3, to: o1, kind: folgt, text: Übergabe}
+  - {from: o1, to: o4, kind: folgt, text: Übergabe}
+  - {from: o3, to: o4, kind: folgt, text: Übergabe}
+  - {from: o4, to: o5, kind: folgt, text: Übergabe}
+curves: []
+meaning: >-
+  Gegenüberstellung von nicht integrierter und integrierter Produktentstehung (Skript 5.6): Oben
+  arbeiten die Abteilungen getrennt und reichen Ergebnisse sequenziell „über die Mauer“ weiter.
+  Unten arbeiten alle Beteiligten – einschließlich Kunde und Zulieferer – in einem Raum zusammen.
+  Integration bedeutet die Kombination der Teilbereiche zu einem Ganzen mit enger Zusammenarbeit,
+  gemeinsamen Zielen hinsichtlich Qualität, Zeit und Kosten und parallelisierten Abläufen.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Frage zugeordnet. Veranschaulicht den Integrationsgedanken,
+    dessen Formen (Abbildung 28) geprüft werden.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Oben: getrennte Abteilungen, Übergabe über Wände (sequenziell)"
+    - "Unten: alle Beteiligten inkl. Kunde und Zulieferer in einem Raum (integriert)"
+  common_mistakes:
+    - "Kunde und Zulieferer in der integrierten Szene vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-26.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Raumaufteilung, Pfeile und
+    Beschriftungen positionsgetreu angenähert, alle Texte im Wortlaut. Die Smiley-Spielfiguren des
+    Originals sind durch schlichte Figuren aus Kreis (Kopf) und Dreieck (Körper) ersetzt; die
+    3-D-Wände sind als graue Linienzüge vereinfacht.
+source:
+  pdf_page: 90
+  printed_page: 80
+  ocr_text_of_labels: >-
+    Materialwirtschaft; Verkauf; Konstruktion; Produktions-vorbereitung; Produktion; Kunde;
+    Zulieferer; Konstruktion; Verkauf; Abfallwirtschaft; Materialwirtschaft; Controlling;
+    Produktion; Produktions-vorbereitung; Better Together

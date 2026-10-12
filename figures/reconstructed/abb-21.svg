@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1278 851" width="1278" height="851" data-figure-id="abb-21" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Richtungen des Entrepreneurship</title>
+  <rect x="0" y="0" width="1278" height="851" fill="#ffffff"/>
+  <rect x="10" y="10" width="1258" height="830" fill="none" stroke="#444444" stroke-width="2"/>
+  <!-- High-Tech Entrepreneurship -->
+  <rect x="18" y="30" width="1244" height="42" rx="6" ry="6" fill="#8c8c8c"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="26" y="59" font-size="23" fill="#ffffff">High-Tech Entrepreneurship</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="91" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="91" font-size="16.5">Wissensintensive Technik</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="114" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="114" font-size="16.5">Hoher Innovationsgrad</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="138" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="138" font-size="16.5">Entwicklungszeit kapitalintensiv</text>
+  <!-- Regional Entrepreneurship -->
+  <rect x="18" y="147" width="1244" height="42" rx="6" ry="6" fill="#8c8c8c"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="26" y="176" font-size="23" fill="#ffffff">Regional Entrepreneurship</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="208" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="208" font-size="16.5">Regionale Unternehmen verwurzelt in ihrer Region</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="232" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="232" font-size="16.5">Förderung der regionalen Verbundenheit im Fokus</text>
+  <!-- Social Entrepreneurship -->
+  <rect x="18" y="238" width="1244" height="42" rx="6" ry="6" fill="#8c8c8c"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="26" y="267" font-size="23" fill="#ffffff">Social Entrepreneurship</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="299" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="299" font-size="16.5">Soziales Unternehmertum im Fokus</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="322" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="322" font-size="16.5">Unternehmen muss ohne die Beteiligung von (öffentlichen) Fördermitteln auskommen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="346" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="346" font-size="16.5">Fokus ist das lösen von sozialen Problemen</text>
+  <!-- Ecopreneurship -->
+  <rect x="18" y="355" width="1244" height="42" rx="6" ry="6" fill="#8c8c8c"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="26" y="384" font-size="23" fill="#ffffff">Ecopreneurship</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="416" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="416" font-size="16.5">Im Fokus steht die Herausforderungen des Umweltschutzes zu lösen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="440" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="440" font-size="16.5">Hoher Innovationsgrad</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="463" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="463" font-size="16.5">Meist in Marktnischen</text>
+  <!-- Senior Entrepreneurship -->
+  <rect x="18" y="471" width="1244" height="42" rx="6" ry="6" fill="#8c8c8c"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="26" y="500" font-size="23" fill="#ffffff">Senior Entrepreneurship</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="532" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="532" font-size="16.5">Gesetzliche Altersgrenze oder Rentenantrittsalter spielen hier keine Rolle</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="556" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="556" font-size="16.5">Dieser Entrepreneur-Typ arbeitet über das gesetzliche Rentenalter hinaus</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="579" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="579" font-size="16.5">Vorteil von jahrzehntelanger Erfahrung</text>
+  <!-- Serial Entrepreneurship -->
+  <rect x="18" y="588" width="1244" height="42" rx="6" ry="6" fill="#8c8c8c"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="26" y="617" font-size="23" fill="#ffffff">Serial Entrepreneurship</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="649" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="649" font-size="16.5">Dieser Begriff bezeichnet Mehrfach- oder Seriengründer</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="672" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="672" font-size="16.5">Noch vor Abschluss eines Gründungsprojekts widmen sie sich den nächsten Projekt</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="696" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="696" font-size="16.5">Erfolg jeder einzelnen Gründung steht nicht im Vordergrund, sondern die Gesamtheit der Projekte, welche als Summe genug erwirtschaften</text>
+  <!-- Intrapreneurship -->
+  <rect x="18" y="704" width="1244" height="42" rx="6" ry="6" fill="#8c8c8c"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="26" y="733" font-size="23" fill="#ffffff">Intrapreneurship</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="765" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="765" font-size="16.5">Flexibilität und Innovationskraft in allen Ebenen des Unternehmens werden erhöht</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="788" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="788" font-size="16.5">Arbeitnehmer sind dazu ermutigt eigene Vorstellungen und Ideen miteinzubringen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="56" y="812" font-size="16">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="64" y="812" font-size="16.5">Im Idealfall sind Mitarbeiter durch die Eigeninitiative stärker motiviert und handeln stets im Sinne des Unternehmens, welches davon profitiert</text>
+</svg>

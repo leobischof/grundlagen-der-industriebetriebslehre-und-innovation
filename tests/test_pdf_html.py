@@ -26,7 +26,9 @@ def test_reconstructed_figure_embeds_the_svg_never_the_png():
     assert len(assets.files) == 1
 
 
-def test_figure_without_reconstruction_becomes_a_stand_in():
+def test_figure_without_reconstruction_becomes_a_stand_in(monkeypatch):
+    # every figure may be redrawn by now: pretend this one is not
+    monkeypatch.setattr(figure_publish, "reconstruction", lambda fig_id: None)
     assets = Assets()
     out = _html("![Abbildung 23: Geschichte](../../figures/originals/abb-23.png)\n", assets)
     assert 'class="stand-in"' in out and figure_publish.NOT_PRINTED in out

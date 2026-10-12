@@ -30,7 +30,7 @@ from .cache import key_for, sha256_file
 from .content_files import COMPLETE, EXAMS, FOOTER, SUMMARY_COMPLETE, ExportName
 from .pdf_html import Assets, convert
 
-RENDER_VERSION = 2                          # bump to invalidate every PDF (layout/CSS change)
+RENDER_VERSION = 3                          # bump to invalidate every PDF (layout/CSS change)
 OUT_DIR = config.BUILD / "pdf"
 _IMAGE_LINK = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
 

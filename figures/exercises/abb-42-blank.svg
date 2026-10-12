@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1262 988" width="1262" height="988" data-figure-id="abb-42" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Das Konzept Integriertes Management (UE = Unternehmensumgebung) – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1262" height="988" fill="#ffffff" />
+  <rect x="12" y="12" width="1238" height="964" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- Horizontal integration: label + grey arrow to the right -->
+  <rect class="placeholder" x="366.9" y="30.4" width="286.3" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <polygon points="765,40 925,40 925,32 980,50 925,68 925,60 765,60" fill="#a0a0a0" stroke="#555555" stroke-width="1.5" />
+
+  <!-- Vertical integration: rotated label + grey arrow downwards -->
+  <rect class="placeholder" x="-131.1" y="-21.6" width="262.1" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" transform="translate(216 390) rotate(-90)" />
+  <polygon points="202,548 225,548 225,640 235,640 214,678 193,640 202,640" fill="#a0a0a0" stroke="#555555" stroke-width="1.5" />
+
+  <!-- Management philosophy funnelling into the vision (chevron) -->
+  <polygon points="275,73 1036,73 1036,160 800,160 657,218 515,160 275,160" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="514.4" y="88.4" width="285.2" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <polygon points="644,117 670,117 670,140 686,140 657,160 628,140 644,140" fill="#a0a0a0" stroke="#555555" stroke-width="1.5" />
+  <rect class="placeholder" x="613.4" y="165.4" width="87.2" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Left column: Strukturen -->
+  <g fill="#ffffff" stroke="#333333" stroke-width="2">
+    <rect x="275" y="188" width="262" height="174" />
+    <rect x="275" y="362" width="262" height="202" />
+    <rect x="275" y="564" width="262" height="173" />
+    <rect x="275" y="737" width="262" height="29" />
+  </g>
+  <!-- Right column: Verhalten -->
+  <g fill="#ffffff" stroke="#333333" stroke-width="2">
+    <rect x="779" y="188" width="257" height="174" />
+    <rect x="779" y="362" width="257" height="203" />
+    <rect x="779" y="565" width="257" height="173" />
+    <rect x="779" y="738" width="257" height="28" />
+  </g>
+  <!-- Middle column: Aktivitäten, ending in a downward chevron -->
+  <g fill="none" stroke="#333333" stroke-width="2">
+    <path d="M537 232 H779 M537 391 H779 M537 578 H779 M537 752 H779" />
+    <path d="M537 232 V752 L657 825 L779 752 V232" />
+  </g>
+
+  <!-- Level bars (grey bands across all three columns) -->
+  <rect x="313" y="248" width="689" height="26" fill="#c8c8c8" />
+  <rect class="placeholder" x="447.3" y="247.4" width="419.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="313" y="406" width="689" height="27" fill="#c8c8c8" />
+  <rect class="placeholder" x="423.1" y="406.4" width="467.8" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="333" y="595" width="685" height="26" fill="#c8c8c8" />
+  <rect class="placeholder" x="460.2" y="594.4" width="431.5" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Normative level -->
+  <rect class="placeholder" x="316.3" y="295.4" width="177.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="340.5" y="324.4" width="129.0" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="568.3" y="283.4" width="177.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="610.6" y="313.4" width="92.7" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <polygon points="572,318 597,318 597,340 612,340 584,360 556,340 572,340" fill="#a0a0a0" stroke="#555555" stroke-width="1.5" />
+  <polygon points="720,318 746,318 746,340 762,340 733,360 704,340 720,340" fill="#a0a0a0" stroke="#555555" stroke-width="1.5" />
+  <rect class="placeholder" x="598.5" y="361.4" width="116.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="819.3" y="296.4" width="177.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="867.7" y="325.4" width="80.6" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Strategic level -->
+  <rect class="placeholder" x="316.3" y="468.4" width="177.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="340.5" y="497.4" width="129.0" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="298.1" y="526.4" width="213.7" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="598.5" y="478.4" width="116.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="855.6" y="499.4" width="104.8" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="849.5" y="528.4" width="116.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Operative level -->
+  <rect class="placeholder" x="304.2" y="642.4" width="201.6" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="352.6" y="671.4" width="104.8" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="286.1" y="699.4" width="237.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="604.6" y="695.4" width="104.8" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="819.3" y="644.4" width="177.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="825.4" y="673.4" width="165.3" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="849.5" y="701.4" width="116.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Column footers -->
+  <rect class="placeholder" x="340.5" y="738.4" width="129.0" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="586.5" y="753.4" width="141.1" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="849.5" y="739.4" width="116.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Company environment: big open arrow to the right -->
+  <polygon points="275,828 1055,828 1055,812 1093,882 1055,955 1055,937 275,937" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect x="393" y="836" width="547" height="24" fill="#c8c8c8" />
+  <rect class="placeholder" x="536.0" y="834.4" width="262.1" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <g stroke="#333333" stroke-width="2">
+    <line x1="530" y1="866" x2="530" y2="928" />
+    <line x1="785" y1="866" x2="785" y2="928" />
+  </g>
+  <rect class="placeholder" x="341.6" y="896.4" width="116.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="597.5" y="896.4" width="116.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="845.5" y="869.4" width="129.0" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="851.5" y="897.4" width="116.9" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

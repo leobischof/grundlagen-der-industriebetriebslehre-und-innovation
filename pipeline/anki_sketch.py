@@ -1,7 +1,5 @@
-"""Sketch cards: one per exam-relevant figure of the script – pure data work, no genanki.
+"""Sketch cards: one per figure worth sketching (sketch_scope) – pure data work, no genanki.
 
-Exam-relevant means a figure (not a table or a formula box) that an exam question maps to
-(exams/topic-mapping.json by_figure) or whose curated metadata rates it "hoch"/"mittel".
 Front: the task to sketch it. Back: our own reconstruction (figures/reconstructed/<id>.svg)
 or, where there is none yet, the stand-in text that names and describes the figure – never
 the script's picture (figure_publish) – plus the curated "must know" points and the exam
@@ -19,8 +17,8 @@ from . import catalog, config, figure_publish
 from .anki_cards import MEDIA_PREFIX, Card
 from .content_render import page_label
 from .exam_report import german_date
+from .sketch_scope import worth_sketching
 
-RELEVANT = ("hoch", "mittel")
 OVERVIEW = config.LEARNING / "flashcards" / "skizzieren.md"
 QUESTIONS_HEAD = "Gefragt in Prüfungen (Studierenden-Quellen, unverifiziert)"
 
@@ -57,9 +55,8 @@ class Sketch:
 
 
 def select(figures: list[dict], by_figure: dict) -> list[dict]:
-    """Figures (no tables, no formulas) that an exam asked for or that are curated as relevant."""
-    return [f for f in figures
-            if f["kind"] == "figure" and (f["id"] in by_figure or f.get("exam_relevance") in RELEVANT)]
+    """Manifest entries worth sketching (sketch_scope)."""
+    return [f for f in figures if worth_sketching(f["id"], f["kind"], f.get("exam_relevance"), by_figure)]
 
 
 def sketches(figures: list[dict], by_figure: dict, questions: list[dict], slugs: dict[str, str]) -> list[Sketch]:

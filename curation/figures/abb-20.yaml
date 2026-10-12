@@ -1,0 +1,66 @@
+id: abb-20
+title: Vergleich zwischen SME- und IDE-Entrepreneurship
+type: kurvendiagramm
+description: >-
+  Zwei nebeneinanderstehende Diagramme mit gleicher Achsenbeschriftung (y: Einnahmen / Cashflow /
+  Arbeitsplätze, x: Zeit). Links steigen die SME-Einnahmen vom Ursprung aus geradlinig an.
+  Rechts beginnen die IDE-Einnahmen knapp unter der Zeitachse, sinken zunächst weiter ins Negative,
+  schneiden dann die Zeitachse und steigen anschließend immer steiler (exponentiell) an.
+axes:
+  - {axis: x, label: Zeit, unit: null, direction: rechts}
+  - {axis: y, label: Einnahmen / Cashflow / Arbeitsplätze, unit: null, direction: oben}
+elements:
+  - {id: x_sme, kind: achse, text: Zeit, note: linkes Diagramm}
+  - {id: y_sme, kind: achse, text: Einnahmen / Cashflow / Arbeitsplätze, note: "linkes Diagramm, dreizeilig"}
+  - {id: k_sme, kind: kurve, text: "SME-Einnahmen, Cashflow, Arbeitsplätze im Zeitverlauf", note: Gerade ab Ursprung}
+  - {id: x_ide, kind: achse, text: Zeit, note: rechtes Diagramm}
+  - {id: y_ide, kind: achse, text: Einnahmen / Cashflow / Arbeitsplätze, note: "rechtes Diagramm, dreizeilig"}
+  - {id: k_ide, kind: kurve, text: "IDE-Einnahmen, Cashflow, Arbeitsplätze im Zeitverlauf", note: "erst negativ, dann exponentiell steigend"}
+relations:
+  - {from: k_sme, to: k_ide, kind: gegenüberstellung, text: linear vs. exponentiell}
+curves:
+  - name: "SME-Einnahmen, Cashflow, Arbeitsplätze im Zeitverlauf"
+    shape: "Gerade mit konstanter positiver Steigung, beginnt im Ursprung"
+    key_points:
+      - "Start im Ursprung, nie negativ"
+      - "linearer Anstieg"
+  - name: "IDE-Einnahmen, Cashflow, Arbeitsplätze im Zeitverlauf"
+    shape: "beginnt knapp unter null, Minimum im negativen Bereich, schneidet die Zeitachse, danach immer steilerer (exponentieller) Anstieg"
+    key_points:
+      - "anfangs Verlust (Kurve unter der Zeitachse)"
+      - "Nulldurchgang nach dem Minimum"
+      - "am Ende deutlich höher als die SME-Gerade"
+meaning: >-
+  Die Abbildung veranschaulicht die letzte Zeile von Tabelle 5 (Skript 4.2.3): SME wachsen
+  linear – je mehr in die Firma investiert wird, desto positiver und zügiger reagieren Ertrag,
+  Cashflow und Arbeitsplätze. IDE verlieren zunächst Kapital und reagieren träge auf
+  Investitionen, wachsen bei Erfolg aber exponentiell.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet. Die beiden
+    Verläufe sind aber leicht als Skizze zum SME/IDE-Vergleich abfragbar, daher mittel.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Beide Achsen: Einnahmen / Cashflow / Arbeitsplätze über Zeit"
+    - "SME: Gerade ab Ursprung"
+    - "IDE: erst unter null (Verlust), dann exponentieller Anstieg"
+  common_mistakes:
+    - "IDE-Kurve ohne anfänglichen Verlust gezeichnet"
+    - "Kurven vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-20.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kurvenverläufe (Gerade bzw. Verlust mit
+    anschließendem exponentiellem Anstieg), Achsen über den Ursprung hinaus und alle
+    Beschriftungen wie im Original, Strichstärken angenähert.
+source:
+  pdf_page: 78
+  printed_page: 68
+  ocr_text_of_labels: >-
+    SME-Einnahmen, Cashflow, Arbeitsplätze im Zeitverlauf; Einnahmen / Cashflow / Arbeitsplätze;
+    Zeit; IDE-Einnahmen, Cashflow, Arbeitsplätze im Zeitverlauf; Einnahmen / Cashflow /
+    Arbeitsplätze; Zeit

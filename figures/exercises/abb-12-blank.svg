@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 491" width="1266" height="491" data-figure-id="abb-12" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Industriebetriebe im System der Wirtschaftseinheiten – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1266" height="491" fill="#ffffff" />
+  <!-- outer frame of the original figure -->
+  <rect x="8" y="10" width="1250" height="470" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- tree connectors (structure, not part of the answer) -->
+  <g fill="none" stroke="#555555" stroke-width="1.5">
+    <!-- Wirtschaftseinheiten -> Produktionsunternehmen / Haushalte -->
+    <path d="M697 58 V82 M413 82 H945" />
+    <path d="M413 82 V101" />
+    <path d="M945 82 V101" />
+    <!-- Produktionsunternehmen -> Sachgüter / Dienstleistungen -->
+    <path d="M413 140 V159 H946 V176" />
+    <!-- Anbieter von Sachgüter -> Materialproduktion / Materialverarbeitung -->
+    <path d="M413 230 V261 M214 261 H554 M214 261 V281 M554 261 V281" />
+    <!-- both material branches -> the three kinds of enterprises -->
+    <path d="M214 352 V378 M554 352 V378 M130 378 H591 M130 378 V400 M370 378 V414 M591 378 V400" />
+    <!-- Anbieter von Dienstleistungen -> four service enterprises -->
+    <path d="M946 242 V322 M772 322 H1180 M772 322 V402 M889 322 V415 M1016 322 V402 M1180 322 V402" />
+  </g>
+  <!-- arrow heads -->
+  <g>
+    <polygon points="413,102 409.15,95 416.85,95" fill="#222222" />
+    <polygon points="945,102 941.15,95 948.85,95" fill="#222222" />
+  </g>
+
+  <!-- root: given -->
+  <text font-family="Arial, Helvetica, sans-serif" x="697" y="48" font-size="20" text-anchor="middle">Wirtschaftseinheiten</text>
+
+  <g font-size="20" text-anchor="middle" fill="#111111">
+    <rect class="placeholder" x="288.0" y="109.0" width="250.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="889.5" y="109.0" width="107.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="288.0" y="199.0" width="250.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="876.0" y="181.0" width="140.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="854.0" y="209.0" width="184.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="100.0" y="297.0" width="228.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="149.5" y="323.0" width="129.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="434.5" y="297.0" width="239.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="489.5" y="323.0" width="129.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="17.5" y="403.0" width="217.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="61.5" y="428.0" width="129.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="492.5" y="422.0" width="195.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="723.0" y="408.0" width="96.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="706.5" y="433.0" width="129.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="852.0" y="421.0" width="74.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="935.0" y="408.0" width="162.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="951.5" y="433.0" width="129.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="1113.0" y="408.0" width="118.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="1107.5" y="433.0" width="129.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+
+  <!-- highlighted target node -->
+  <rect x="241" y="415" width="256" height="38" fill="#eeeeee" stroke="#333333" stroke-width="1.5" />
+  <rect class="placeholder" x="245.0" y="421.0" width="248.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

@@ -1,0 +1,57 @@
+id: abb-68
+title: Materialklassen
+type: hierarchie
+description: >-
+  Baumdiagramm: Der dunkle Wurzelkasten „Materialklassen“ verzweigt in drei gleichrangige Klassen
+  Rohstoffe, Hilfsstoffe und Betriebsstoffe. Nur die Rohstoffe sind weiter unterteilt, und zwar
+  in „Rohmaterial“ und „Teile, Gruppen“.
+axes: []
+elements:
+  - {id: root, kind: box, text: Materialklassen, note: "Wurzel, dunkel hinterlegt"}
+  - {id: roh, kind: box, text: Rohstoffe}
+  - {id: hilf, kind: box, text: Hilfsstoffe}
+  - {id: betr, kind: box, text: Betriebsstoffe}
+  - {id: rohmat, kind: box, text: Rohmaterial, note: Unterklasse der Rohstoffe}
+  - {id: teile, kind: box, text: "Teile, Gruppen", note: Unterklasse der Rohstoffe}
+relations:
+  - {from: root, to: roh, kind: enthält}
+  - {from: root, to: hilf, kind: enthält}
+  - {from: root, to: betr, kind: enthält}
+  - {from: roh, to: rohmat, kind: enthält}
+  - {from: roh, to: teile, kind: enthält}
+curves: []
+meaning: >-
+  Skript 9.1.3.1: Es gibt im Allgemeinen drei Materialklassen. Rohstoffe gehen direkt in Bauteil,
+  Baugruppe oder Produkt ein (unverändert oder verändert; Rohmaterial zur Weiterverarbeitung oder
+  halbfertige bzw. gekaufte Teile). Hilfsstoffe werden nur indirekt benötigt und sind nur in
+  unbedeutenden Mengen im Produkt (z. B. Klebstoffe, Schweißzusatz). Betriebsstoffe halten den
+  Betrieb der Produktionsanlagen aufrecht und gehen nicht ins Produkt ein (z. B. elektrische
+  Energie, Wasser, Schmiermittel).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Frage direkt zugeordnet. Die Frage zu den
+    Bedarfsarten (frage-2025-06-16-5, Abbildung 69) setzt die Materialklassen aber voraus, weil der
+    Tertiärbedarf über Betriebs- und Hilfsstoffe definiert ist; daher mittel.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Drei Klassen: Rohstoffe, Hilfsstoffe, Betriebsstoffe"
+    - "Rohstoffe unterteilt in Rohmaterial sowie Teile, Gruppen"
+    - "Je Klasse ein Beispiel: Hilfsstoff Klebstoff/Schweißzusatz, Betriebsstoff Energie/Wasser/Schmiermittel"
+  common_mistakes:
+    - "Hilfsstoffe und Betriebsstoffe verwechselt (Hilfsstoffe sind in geringer Menge im Produkt, Betriebsstoffe nicht)"
+    - "Unterteilung der Rohstoffe unter Hilfs- oder Betriebsstoffe gehängt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-68.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kastenpositionen, dunkler Wurzelkasten und
+    hellgraue Verbindungslinien angenähert. Der Wurzelkasten „Materialklassen“ ist als Vorgabe kein
+    Lösungselement, alle übrigen Kastentexte sind class="answer".
+source:
+  pdf_page: 166
+  printed_page: 156
+  ocr_text_of_labels: >-
+    Materialklassen; Rohstoffe; Hilfsstoffe; Betriebsstoffe; Rohmaterial; Teile, Gruppen

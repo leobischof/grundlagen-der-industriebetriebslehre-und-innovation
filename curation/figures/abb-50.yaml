@@ -11,9 +11,9 @@ axes:
   - {axis: x, label: Stückzahlen, unit: null, direction: rechts}
   - {axis: y, label: Grad der Spezialisierung, unit: null, direction: oben}
 elements:
-  - {id: x1, kind: box, text: Einzelproduktion, note: x-Achse, links}
-  - {id: x2, kind: box, text: Serienproduktion, note: x-Achse, Mitte}
-  - {id: x3, kind: box, text: Massenproduktion, note: x-Achse, rechts}
+  - {id: x1, kind: box, text: Einzelproduktion, note: "x-Achse, links"}
+  - {id: x2, kind: box, text: Serienproduktion, note: "x-Achse, Mitte"}
+  - {id: x3, kind: box, text: Massenproduktion, note: "x-Achse, rechts"}
   - {id: f1, kind: box, text: Punktfertigung, note: "unten; nur Einzelproduktion"}
   - {id: f2, kind: box, text: Werkstattfertigung, note: "Einzel- bis Anfang Serienproduktion"}
   - {id: f3, kind: box, text: Gruppenfertigung, note: "späte Einzel- bis frühe Massenproduktion"}

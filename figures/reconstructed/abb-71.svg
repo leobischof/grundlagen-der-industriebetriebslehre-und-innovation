@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1272 242" width="1272" height="242" data-figure-id="abb-71" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Zeit- und Kapazitätsplanung</title>
+  <rect x="0" y="0" width="1272" height="242" fill="#ffffff"/>
+  <rect x="10" y="10" width="1252" height="222" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Input column -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="30" y="55" font-size="26" font-weight="bold">Input</text>
+  <line x1="30" y1="63" x2="355" y2="63" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="30" y="109" font-size="26">Produktionsprogramm</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="30" y="151" font-size="26">Materialbedarfsplanung</text>
+
+  <!-- Flow chevrons (structure) -->
+  <polygon points="433,30 478,123 433,215" fill="#8c8c8c"/>
+  <polygon points="810,30 855,123 810,215" fill="#8c8c8c"/>
+
+  <!-- Process step -->
+  <rect x="527" y="27" width="206" height="188" fill="#5a5a5a"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="630" y="102" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Zeit- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="630" y="135" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">Kapazitäts-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="630" y="166" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">planung</text>
+
+  <!-- Output column -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="915" y="51" font-size="26" font-weight="bold">Output</text>
+  <line x1="915" y1="61" x2="1240" y2="61" stroke="#d0d0d0" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="915" y="109" font-size="26">Start- und Enddatum für</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="915" y="142" font-size="26">alle Arbeitsaufträge</text>
+</svg>

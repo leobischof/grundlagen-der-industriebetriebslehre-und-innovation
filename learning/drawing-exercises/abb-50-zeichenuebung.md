@@ -22,9 +22,9 @@ Die Abbildung verbindet die beiden Typologien aus Abbildung 45: Die Fertigungsfo
 2. x-Achse beschriften: „Stückzahlen“, Richtung rechts.
 3. y-Achse beschriften: „Grad der Spezialisierung“, Richtung oben.
 4. Kästen einzeichnen:
-   - „Einzelproduktion“ – x-Achse
-   - „Serienproduktion“ – x-Achse
-   - „Massenproduktion“ – x-Achse
+   - „Einzelproduktion“ – x-Achse, links
+   - „Serienproduktion“ – x-Achse, Mitte
+   - „Massenproduktion“ – x-Achse, rechts
    - „Punktfertigung“ – unten; nur Einzelproduktion
    - „Werkstattfertigung“ – Einzel- bis Anfang Serienproduktion
    - „Gruppenfertigung“ – späte Einzel- bis frühe Massenproduktion

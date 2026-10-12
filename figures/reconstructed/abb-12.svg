@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 491" width="1266" height="491" data-figure-id="abb-12" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Industriebetriebe im System der Wirtschaftseinheiten</title>
+  <rect x="0" y="0" width="1266" height="491" fill="#ffffff"/>
+  <!-- outer frame of the original figure -->
+  <rect x="8" y="10" width="1250" height="470" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- tree connectors (structure, not part of the answer) -->
+  <g fill="none" stroke="#555555" stroke-width="1.5">
+    <!-- Wirtschaftseinheiten -> Produktionsunternehmen / Haushalte -->
+    <path d="M697 58 V82 M413 82 H945"/>
+    <path d="M413 82 V101"/>
+    <path d="M945 82 V101"/>
+    <!-- Produktionsunternehmen -> Sachgüter / Dienstleistungen -->
+    <path d="M413 140 V159 H946 V176"/>
+    <!-- Anbieter von Sachgüter -> Materialproduktion / Materialverarbeitung -->
+    <path d="M413 230 V261 M214 261 H554 M214 261 V281 M554 261 V281"/>
+    <!-- both material branches -> the three kinds of enterprises -->
+    <path d="M214 352 V378 M554 352 V378 M130 378 H591 M130 378 V400 M370 378 V414 M591 378 V400"/>
+    <!-- Anbieter von Dienstleistungen -> four service enterprises -->
+    <path d="M946 242 V322 M772 322 H1180 M772 322 V402 M889 322 V415 M1016 322 V402 M1180 322 V402"/>
+  </g>
+  <!-- arrow heads -->
+  <g>
+    <polygon points="413,102 409.15,95 416.85,95" fill="#222222"/>
+    <polygon points="945,102 941.15,95 948.85,95" fill="#222222"/>
+  </g>
+
+  <!-- root: given -->
+  <text font-family="Arial, Helvetica, sans-serif" x="697" y="48" font-size="20" text-anchor="middle">Wirtschaftseinheiten</text>
+
+  <g font-size="20" text-anchor="middle" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="413" y="129" font-size="20" text-anchor="middle" fill="#111111">Produktionsunternehmen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="943" y="129" font-size="20" text-anchor="middle" fill="#111111">Haushalte</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="413" y="219" font-size="20" text-anchor="middle" fill="#111111">Anbieter von Sachgüter</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="946" y="201" font-size="20" text-anchor="middle" fill="#111111">Anbieter von</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="946" y="229" font-style="italic" font-size="20" text-anchor="middle" fill="#111111">Dienstleistungen</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="214" y="317" font-size="20" text-anchor="middle" fill="#111111">Materialproduktions-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="214" y="343" font-size="20" text-anchor="middle" fill="#111111">unternehmen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="317" font-size="20" text-anchor="middle" fill="#111111">Materialverarbeitende</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="343" font-size="20" text-anchor="middle" fill="#111111">Unternehmen</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="126" y="423" font-size="20" text-anchor="middle" fill="#111111">Landwirtschaftliche</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="126" y="448" font-size="20" text-anchor="middle" fill="#111111">Unternehmen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="590" y="442" font-size="20" text-anchor="middle" fill="#111111">Werkstattbetriebe</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="771" y="428" font-size="20" text-anchor="middle" fill="#111111">Handels-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="771" y="453" font-size="20" text-anchor="middle" fill="#111111">unternehmen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="889" y="441" font-size="20" text-anchor="middle" fill="#111111">Banken</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1016" y="428" font-size="20" text-anchor="middle" fill="#111111">Versicherungs-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1016" y="453" font-size="20" text-anchor="middle" fill="#111111">unternehmen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1172" y="428" font-size="20" text-anchor="middle" fill="#111111">Transport-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1172" y="453" font-size="20" text-anchor="middle" fill="#111111">unternehmen</text>
+  </g>
+
+  <!-- highlighted target node -->
+  <rect x="241" y="415" width="256" height="38" fill="#eeeeee" stroke="#333333" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="369" y="441" font-size="20" font-weight="bold" text-anchor="middle">Industrieunternehmen</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1262 642" width="1262" height="642" data-figure-id="tab-06" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Beispiel Hauptbetriebsdaten</title>
+  <rect x="0" y="0" width="1262" height="642" fill="#ffffff"/>
+
+  <!-- Header row and shaded first column -->
+  <rect x="12" y="10" width="1238" height="80" fill="#c9c9c9"/>
+  <rect x="12" y="90" width="285" height="542" fill="#e6e6e6"/>
+
+  <!-- Grid -->
+  <g fill="none" stroke="#333333" stroke-width="1.5">
+    <rect x="12" y="10" width="1238" height="622"/>
+    <path d="M12 90 H1250 M12 170 H1250 M12 270 H1250 M12 333 H1250 M12 450 H1250 M12 537 H1250"/>
+    <path d="M297 90 V632"/>
+  </g>
+
+  <!-- Header -->
+  <text font-family="Arial, Helvetica, sans-serif" x="22" y="48" font-size="24" font-weight="bold" fill="#ffffff">Hauptbetriebsdaten</text>
+
+  <!-- First column: data categories -->
+  <g font-size="26" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="128" font-weight="bold">Bestelldaten</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="219" font-weight="bold">Mitarbeiterdaten</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="307" font-weight="bold">Maschinendaten</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="377" font-weight="bold">Material und Be-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="418" font-weight="bold">standsdaten</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="498" font-weight="bold">Prozessdaten</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="587" font-weight="bold">Qualitätsdaten</text>
+  </g>
+
+  <!-- Second column: examples -->
+  <g font-size="27" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="128">Produktionoutputmenge, Terminierung, Liefertermine</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="197">Anwesenheit / Abwesenheit von Mitarbeitern, Zuordnung von Arbeiter und</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="239">Arbeitsauftrag, Zeiterfassung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="307">Betriebszeit, Ausfallzeiten, Ressourcenkapazitäten</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="377">Verwendung und Inventar von Roh-, Hilfs- und Betriebsstoffen, Art und Zu-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="418">stand von Baugruppen, Einzelteilen und Produkten auf Lager</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="477">Temperatur, Druck oder Geschwindigkeit, Qualitätsaussage (des Herstel-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="518">lungsprozesses)</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="312" y="587">Schrottmenge, Gründe für Schrott, analytische Werte</text>
+  </g>
+</svg>

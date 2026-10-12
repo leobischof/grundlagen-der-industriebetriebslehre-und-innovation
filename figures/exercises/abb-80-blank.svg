@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1278 305" width="1278" height="305" data-figure-id="abb-80" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Dilemma der Ablaufplanung am Bsp. der Maschinenauslastung und Bestand – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1278" height="305" fill="#ffffff" />
+  <rect x="10" y="10" width="1258" height="285" fill="none" stroke="#333333" stroke-width="2" />
+  <line x1="742" y1="25" x2="742" y2="285" stroke="#555555" stroke-width="1.5" />
+
+  <!-- Left case: high inventory, high utilisation -->
+  <line x1="40" y1="153" x2="672" y2="153" stroke="#8c8c8c" stroke-width="1.5" />
+  <polygon points="684,153 670,147 670,159" fill="#555555" />
+  <g fill="#f2dde1" stroke="#e3c3c9" stroke-width="1.5">
+    <rect x="48" y="140" width="50" height="27" />
+    <rect x="115" y="140" width="50" height="27" />
+    <rect x="182" y="140" width="50" height="27" />
+    <rect x="250" y="140" width="50" height="27" />
+    <rect x="318" y="140" width="50" height="27" />
+    <rect x="580" y="140" width="52" height="27" />
+  </g>
+  <rect x="458" y="102" width="96" height="93" fill="#444444" />
+  <rect x="478" y="139" width="52" height="28" fill="#f2f2f2" />
+  <!-- brace under the waiting products -->
+  <path d="M45 177 V187 H365 V177 M205 187 V197" fill="none" stroke="#9a9a9a" stroke-width="1.5" />
+
+  <g font-size="26" fill="#111111">
+    <rect class="placeholder" x="108.0" y="23.2" width="193.9" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="136.6" y="57.2" width="136.7" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="388.6" y="23.2" width="236.8" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="143.8" y="217.2" width="122.4" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="402.9" y="213.2" width="208.2" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="360.0" y="245.2" width="294.0" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+
+  <!-- Right case: low inventory, low utilisation -->
+  <line x1="790" y1="150" x2="1228" y2="150" stroke="#8c8c8c" stroke-width="1.5" />
+  <polygon points="1240,150 1226,144 1226,156" fill="#555555" />
+  <rect x="945" y="97" width="97" height="96" fill="#444444" />
+  <rect x="968" y="133" width="52" height="30" fill="#f2f2f2" />
+  <rect x="1072" y="136" width="53" height="27" fill="#f2dde1" stroke="#e3c3c9" stroke-width="1.5" />
+
+  <g font-size="26" fill="#111111">
+    <rect class="placeholder" x="862.3" y="23.2" width="265.4" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="926.6" y="57.2" width="136.7" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="890.9" y="208.2" width="208.2" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="848.0" y="240.2" width="294.0" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+</svg>

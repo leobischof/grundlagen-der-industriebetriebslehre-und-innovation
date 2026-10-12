@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 588" width="1276" height="588" data-figure-id="abb-39" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>5-Step Prozess des Design Thinking – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1276" height="588" fill="#ffffff" />
+  <!-- frame of the original figure -->
+  <rect x="12" y="10" width="1253" height="568" fill="none" stroke="#333333" stroke-width="2" />
+  <!-- heading (given, not an answer) -->
+  <text font-family="Arial, Helvetica, sans-serif" x="65" y="68" font-size="43" font-weight="bold">Phasen</text>
+
+  <!-- phase 1 -->
+  <rect class="placeholder" x="61.0" y="104.0" width="32.0" height="50.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="61.0" y="149.6" width="206.0" height="42.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <circle cx="92" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5" />
+  <text font-family="Arial, Helvetica, sans-serif" x="92" y="250" font-size="12" fill="#555555" text-anchor="middle">Kompass</text>
+  <rect class="placeholder" x="61.0" y="314.6" width="265.4" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="61.0" y="354.6" width="206.0" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="61.0" y="395.4" width="219.2" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="61.0" y="435.4" width="131.2" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- phase 2 -->
+  <rect class="placeholder" x="296.0" y="104.0" width="32.0" height="50.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="296.0" y="149.6" width="285.2" height="42.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <circle cx="337" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5" />
+  <text font-family="Arial, Helvetica, sans-serif" x="337" y="250" font-size="12" fill="#555555" text-anchor="middle">Lupe</text>
+  <rect class="placeholder" x="296.0" y="314.6" width="166.4" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="296.0" y="354.6" width="107.0" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="296.0" y="394.6" width="166.4" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="296.0" y="435.4" width="184.0" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="296.0" y="475.4" width="236.8" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- phase 3 -->
+  <rect class="placeholder" x="548.0" y="104.0" width="32.0" height="50.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="548.0" y="149.6" width="245.6" height="42.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <circle cx="568" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5" />
+  <text font-family="Arial, Helvetica, sans-serif" x="568" y="250" font-size="12" fill="#555555" text-anchor="middle">Glühbirne</text>
+  <rect class="placeholder" x="548.0" y="314.6" width="265.4" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="548.0" y="354.6" width="245.6" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="548.0" y="395.4" width="219.2" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="548.0" y="435.4" width="219.2" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- phase 4 -->
+  <rect class="placeholder" x="796.0" y="104.0" width="32.0" height="50.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="796.0" y="149.6" width="225.8" height="42.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <circle cx="835" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5" />
+  <text font-family="Arial, Helvetica, sans-serif" x="835" y="250" font-size="12" fill="#555555" text-anchor="middle">Zahnrad</text>
+  <rect class="placeholder" x="796.0" y="314.6" width="166.4" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="796.0" y="354.6" width="206.0" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="796.0" y="395.4" width="184.0" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="796.0" y="435.4" width="148.8" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- phase 5 -->
+  <rect class="placeholder" x="1028.0" y="104.0" width="32.0" height="50.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1028.0" y="149.6" width="186.2" height="42.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <circle cx="1057" cy="245" r="32" fill="none" stroke="#555555" stroke-width="2.5" />
+  <text font-family="Arial, Helvetica, sans-serif" x="1057" y="242" font-size="12" fill="#555555" text-anchor="middle">Kreislauf-</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="1057" y="257" font-size="12" fill="#555555" text-anchor="middle">pfeile</text>
+  <rect class="placeholder" x="1028.0" y="314.6" width="166.4" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1028.0" y="354.6" width="225.8" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1028.0" y="394.6" width="186.2" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1028.0" y="435.4" width="201.6" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1028.0" y="475.4" width="131.2" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1028.0" y="515.4" width="148.8" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

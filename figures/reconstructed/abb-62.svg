@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 208" width="1276" height="208" data-figure-id="abb-62" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Absatzplanung</title>
+  <rect x="0" y="0" width="1276" height="208" fill="#ffffff"/>
+  <rect x="10" y="12" width="1253" height="186" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Input -> process -> output (structure) -->
+  <g fill="none" stroke="#dddddd" stroke-width="1.5">
+    <path d="M140 55 H470 M873 55 H1140"/>
+  </g>
+  <polygon points="475,25 512,103 475,183" fill="#595959"/>
+  <polygon points="787,25 823,103 787,183" fill="#595959"/>
+  <rect x="552" y="22" width="170" height="164" fill="#595959"/>
+
+  <!-- Labels -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="140" y="47" font-size="24" font-weight="bold">Input</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="140" y="92" font-size="24">Erfahrung/Expertenmeinungen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="140" y="134" font-size="24">Vergangene Verkaufsdaten</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="637" y="100" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Verkaufs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="637" y="134" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">planung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="873" y="45" font-size="24" font-weight="bold">Output</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="873" y="91" font-size="24">Kundennachfrage</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="873" y="134" font-size="24">Preisstruktur</text>
+</svg>

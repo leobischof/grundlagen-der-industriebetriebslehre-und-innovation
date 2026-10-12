@@ -1,0 +1,52 @@
+id: abb-71
+title: Zeit- und Kapazitätsplanung
+type: prozess
+description: >-
+  Input-Prozess-Output-Schema in einer Zeile: Links unter „Input“ stehen Produktionsprogramm und
+  Materialbedarfsplanung, ein grauer Pfeil führt zum dunklen Prozesskasten „Zeit- und
+  Kapazitätsplanung“, ein zweiter Pfeil zum „Output“: Start- und Enddatum für alle
+  Arbeitsaufträge.
+axes: []
+elements:
+  - {id: in, kind: label, text: Input, note: Spaltenüberschrift}
+  - {id: in1, kind: label, text: Produktionsprogramm}
+  - {id: in2, kind: label, text: Materialbedarfsplanung}
+  - {id: proc, kind: box, text: Zeit- und Kapazitätsplanung, note: dunkel hinterlegt}
+  - {id: out, kind: label, text: Output, note: Spaltenüberschrift}
+  - {id: out1, kind: label, text: Start- und Enddatum für alle Arbeitsaufträge}
+relations:
+  - {from: in1, to: proc, kind: fließt}
+  - {from: in2, to: proc, kind: fließt}
+  - {from: proc, to: out1, kind: fließt}
+curves: []
+meaning: >-
+  Skript 9.1.5: Die Zeit- und Kapazitätsplanung legt Start- und Endtermine für die Ausführung der
+  Arbeitsaufträge fest und berücksichtigt dabei die begrenzte verfügbare Kapazität. Ziel ist, die
+  Gesamtaufgabe (Erfüllung der Kundennachfrage) im vorgegebenen Zeitraum zu ermöglichen. Sie baut
+  auf den Ergebnissen von Produktionsprogramm und Materialbedarfsplanung auf.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Frage zugeordnet; das Schema ordnet nur die
+    Zeit- und Kapazitätsplanung in die Planungskette ein.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Input: Produktionsprogramm und Materialbedarfsplanung"
+    - "Output: Start- und Enddatum für alle Arbeitsaufträge"
+  common_mistakes:
+    - "Absatzplanung statt Produktionsprogramm und Materialbedarfsplanung als Input genannt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-71.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Pfeile als graue Dreiecke, Prozesskasten
+    dunkelgrau, feine Trennlinien unter „Input“ und „Output“ wie im Original. Alle Texte sind
+    class="answer".
+source:
+  pdf_page: 170
+  printed_page: 160
+  ocr_text_of_labels: >-
+    Input; Produktionsprogramm; Materialbedarfsplanung; Zeit- und Kapazitäts- planung; Output;
+    Start- und Enddatum für alle Arbeitsaufträge

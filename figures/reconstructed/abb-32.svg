@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 460" width="1266" height="460" data-figure-id="abb-32" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Point-based Concurrent Engineering</title>
+  <rect x="0" y="0" width="1266" height="460" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="8" y="10" width="1248" height="440" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- heading inside the frame (given, not an answer) -->
+  <text font-family="Arial, Helvetica, sans-serif" x="55" y="74" font-size="30" fill="#666666">Point-Based Concurrent Engineering</text>
+
+  <!-- arrows: A to the analysis; downstream processes B-E feed back into the analysis;
+       the analysis triggers a change that loops back to A -->
+  <g fill="none" stroke="#666666" stroke-width="2.5">
+    <line x1="377" y1="225" x2="456" y2="225"/>
+    <line x1="900" y1="83" x2="807" y2="163"/>
+    <line x1="900" y1="178" x2="809" y2="204"/>
+    <line x1="900" y1="274" x2="809" y2="247"/>
+    <line x1="900" y1="372" x2="807" y2="292"/>
+    <polyline points="631,281 631,358 599,358"/>
+    <polyline points="262,358 211,358 211,295"/>
+  </g>
+  <g fill="#666666">
+    <polygon points="469,225 455,220 455,230"/>
+    <polygon points="796,172 803,159 810,167"/>
+    <polygon points="796,208 808,199 811,209"/>
+    <polygon points="796,243 811,242 808,252"/>
+    <polygon points="796,283 810,288 803,296"/>
+    <polygon points="586,358 600,353 600,363"/>
+    <polygon points="211,282 206,296 216,296"/>
+  </g>
+  <g fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1.5">
+    <rect x="45" y="171" width="332" height="110"/>
+    <rect x="470" y="171" width="325" height="110"/>
+    <rect x="262" y="306" width="323" height="104"/>
+    <rect x="900" y="40" width="316" height="80"/>
+    <rect x="900" y="138" width="316" height="80"/>
+    <rect x="900" y="235" width="316" height="80"/>
+    <rect x="900" y="333" width="316" height="80"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="211" y="234" font-size="25" text-anchor="middle">Prozess A</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="631" y="234" font-size="25" text-anchor="middle">Analyse und Kritik</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="423" y="366" font-size="25" text-anchor="middle">Abänderung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1058" y="89" font-size="25" text-anchor="middle">Prozess B</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1058" y="187" font-size="25" text-anchor="middle">Prozess C</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1058" y="284" font-size="25" text-anchor="middle">Prozess D</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1058" y="382" font-size="25" text-anchor="middle">Prozess E</text>
+</svg>

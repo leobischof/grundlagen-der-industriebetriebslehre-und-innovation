@@ -1,0 +1,77 @@
+id: abb-64
+title: Produktfeld Beispiel
+type: hierarchie
+description: >-
+  Baumdiagramm am Beispiel „Schuhe“. Links stehen die Gliederungsebenen Produktbereich,
+  Produktgruppe, Produkttyp und Varianten (die Varianten umfassen zwei Zeilen, durch eine Klammer
+  zusammengefasst). Rechts der Baum: Schuhe → Sport, Männerschuhe, … ; Sport → Boots, Sneakers, … ;
+  Boots → schwarz, braun, … ; schwarz → 35, 36, 37, … .
+axes: []
+elements:
+  - {id: l1, kind: ebene, text: Produktbereich}
+  - {id: l2, kind: ebene, text: Produktgruppe}
+  - {id: l3, kind: ebene, text: Produkttyp}
+  - {id: l4, kind: ebene, text: Varianten, note: "Klammer über Farb- und Größenzeile"}
+  - {id: root, kind: box, text: Schuhe, note: "dunkelgrau, weiße Schrift"}
+  - {id: g1, kind: box, text: Sport}
+  - {id: g2, kind: box, text: Männerschuhe}
+  - {id: g3, kind: box, text: "…"}
+  - {id: t1, kind: box, text: Boots}
+  - {id: t2, kind: box, text: Sneakers}
+  - {id: t3, kind: box, text: "…"}
+  - {id: v1, kind: box, text: schwarz}
+  - {id: v2, kind: box, text: braun}
+  - {id: v3, kind: box, text: "…"}
+  - {id: s1, kind: box, text: "35"}
+  - {id: s2, kind: box, text: "36"}
+  - {id: s3, kind: box, text: "37"}
+  - {id: s4, kind: box, text: "…"}
+relations:
+  - {from: root, to: g1, kind: enthält}
+  - {from: root, to: g2, kind: enthält}
+  - {from: root, to: g3, kind: enthält}
+  - {from: g1, to: t1, kind: enthält}
+  - {from: g1, to: t2, kind: enthält}
+  - {from: g1, to: t3, kind: enthält}
+  - {from: t1, to: v1, kind: enthält}
+  - {from: t1, to: v2, kind: enthält}
+  - {from: t1, to: v3, kind: enthält}
+  - {from: v1, to: s1, kind: enthält}
+  - {from: v1, to: s2, kind: enthält}
+  - {from: v1, to: s3, kind: enthält}
+  - {from: v1, to: s4, kind: enthält}
+curves: []
+meaning: >-
+  Laut Skript (9.1.2) ermittelt die strategische Programmplanung Produktfelder, die das
+  allgemeine Tätigkeitsfeld des Unternehmens kennzeichnen. Die taktische Programmplanung legt
+  deren Besonderheiten fest: den Produktionsprogrammumfang (Produktgruppen, Arten und Varianten,
+  z. B. Farbe, Qualität, Dimension) und die Produktionsprogrammtiefe (make-or-buy). Das Beispiel
+  zeigt den Programmumfang für das Produktfeld „Schuhe“ von der Produktgruppe bis zur Variante
+  nach Farbe und Größe.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; die Ebenen eignen sich als
+    Beispiel für eine Frage zum Produktionsprogrammumfang.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Ebenen von oben nach unten: Produktbereich → Produktgruppe → Produkttyp → Varianten"
+    - "Varianten unterscheiden sich z. B. nach Farbe und Größe"
+  common_mistakes:
+    - "Produktgruppe und Produkttyp vertauscht"
+    - "Varianten als eigene Produkttypen dargestellt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-64.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Kästen, Ebenenbezeichnungen,
+    Verbindungslinien und die Klammer bei „Varianten“ übernommen. Kleinschreibung von „schwarz“
+    und „braun“ wie im Original.
+source:
+  pdf_page: 162
+  printed_page: 152
+  ocr_text_of_labels: >-
+    Produktbereich; Schuhe; Produktgruppe; Sport; Männerschuhe; …; Produkttyp; Boots; Sneakers; …;
+    Varianten; schwarz; braun; …; 35; 36; 37; …

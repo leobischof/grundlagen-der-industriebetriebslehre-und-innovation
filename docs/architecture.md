@@ -65,7 +65,7 @@ Regeln:
 | `exams/questions.json`, `questions.md` | Prüfungsfragen-Datenbank | generiert (`exams`) |
 | `exams/topic-mapping.json` | Themen ↔ Abschnitte ↔ Abbildungen ↔ Fragen | generiert (`exams`/`link`) |
 | `exams/frequency-analysis.md` | Häufigkeit und Priorität der Themen | generiert (`exams`) |
-| `learning/drawing-exercises/<id>-zeichenuebung.md` | Zeichenanleitung je Schwerpunkt-Abbildung | generiert (`exercises`) |
+| `learning/drawing-exercises/<id>-zeichenuebung.md` | Zeichenanleitung je zeichenrelevanter Abbildung (`sketch_scope`) | generiert (`exercises`) |
 | `learning/flashcards/<deck>.*` | Anki-Karten der Studierenden, **unverifiziert** | generiert (`flashcards`) |
 | `learning/flashcards/skizzieren.md` | Skizzierkarten: „Skizzieren Sie …“ → unsere SVG oder Beschreibung | generiert (`anki`) |
 | `learning/chapters/<kapitel>-leitfaden.md` | Lernleitfaden je Kapitel (Übersicht: `leitfaeden-uebersicht.md`) | kuratiert (KI, protokolliert) |
@@ -139,7 +139,7 @@ Verweisstelle nicht sicher zu finden war, unter `## Fußnoten ohne sicheren Text
 | A · Original | `figures/originals/<id>.png` | jede kuratierte Abbildung |
 | B · Metadaten | `curation/figures/<id>.yaml` | die prüfungsrelevanten Schwerpunkt-Abbildungen (`PRIORITY_FIGURES` in `pipeline/qa_checks_figures.py`), sonst optional |
 | C · Rekonstruktion | `figures/reconstructed/<id>.svg` | sobald die Metadaten `reconstruction.status: faithful` oder `needs_review` nennen |
-| D · Übung | `figures/exercises/<id>-blank.svg` + `learning/drawing-exercises/<id>-zeichenuebung.md` | erwartet für jede geprüfte (`faithful`) Rekonstruktion |
+| D · Übung | `figures/exercises/<id>-blank.svg` + `learning/drawing-exercises/<id>-zeichenuebung.md` | nur für Abbildungen, die sich zu zeichnen lohnen (`pipeline/sketch_scope.py`: in einer Prüfung gefragt oder Relevanz `hoch`/`mittel`, nie Tabellen oder Formeln) und eine geprüfte (`faithful`) Rekonstruktion haben |
 
 IDs: `abb-NN` (Abbildung NN), `tab-NN` (Tabelle), `formel-*`, `abb-u<Seite>` (unbeschriftete Grafik).
 
@@ -166,6 +166,11 @@ Platzhalter bleiben.
 - Alles, was in der Prüfung gezeichnet und beschriftet werden muss (Achsentitel, Phasen, Kästchentexte),
   trägt `class="answer"`; Rahmen, Achsenlinien und Hilfslinien nicht. Die Übung (D) entsteht, indem
   `exercises` diese Elemente durch gestrichelte Platzhalter ersetzt.
+- Normales Standard-SVG ist erlaubt: Strichelung (`stroke-dasharray`), Marker-Pfeilspitzen und von `<g>`
+  geerbte Text-Eigenschaften (`text-anchor`, `font-weight`). MuPDF, das die PDFs setzt, kann diese drei
+  nicht; `pipeline/svg_mupdf.py` schreibt jede SVG auf dem Weg ins PDF entsprechend um (Striche als
+  Einzelsegmente, Marker als platzierte Kopien, Text-Eigenschaften direkt am `<text>`). Die Datei auf
+  der Platte bleibt unverändert. Ändert sich dieser Umbau, `RENDER_VERSION` in `render_pdf.py` erhöhen.
 - `faithful` heißt: mit dem Original nebeneinander gerendert verglichen und inhaltlich deckungsgleich.
   Bleibt etwas unsicher → `needs_review` und Begründung in `reconstruction.notes`.
 

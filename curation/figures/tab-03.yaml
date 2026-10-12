@@ -1,0 +1,61 @@
+id: tab-03
+title: Prozentualer Anteil der Sektoren an der Gesamtwertschöpfung im Jahr 2023
+type: tabelle
+description: >-
+  Tabelle der österreichischen Unternehmen nach Größenklassen: Spalten Kleinstunternehmen (<10
+  MA), Kleinunternehmen (<50 MA), Mittlere Unternehmen (<250 MA) und Große Unternehmen (>250 MA);
+  Zeilen Anzahl, Beschäftigte, Lehrlinge und Umsätze, jeweils mit absolutem Wert und darunter dem
+  Anteil in eckigen Klammern.
+axes: []
+elements:
+  - {id: s1, kind: kopfzeile, text: Kleinstunternehmen (<10 MA)}
+  - {id: s2, kind: kopfzeile, text: Kleinunternehmen (<50 MA)}
+  - {id: s3, kind: kopfzeile, text: Mittlere Unternehmen (<250 MA)}
+  - {id: s4, kind: kopfzeile, text: Große Unternehmen (>250 MA)}
+  - {id: z1, kind: zeile, text: "Anzahl [Anteil]", note: "553.200 [92 %] | 41.700 [7 %] | 6.400 [1 %] | 1.400 [0,2 %]"}
+  - {id: z2, kind: zeile, text: "Beschäftigte [Anteil]", note: "1,1 Mio. [29 %] | 771.000 [21%] | 622.600 [17%] | 1,2 Mio. [34 %]"}
+  - {id: z3, kind: zeile, text: "Lehrlinge [Anteil]", note: "10.300 [11 %] | 26.600 [28 %] | 17.400 [18 %] | 40.100 [42 %]"}
+  - {id: z4, kind: zeile, text: "Umsätze [Anteil]", note: "163 Mrd. € [14 %] | 190 Mrd. € [18 %] | 273 Mrd. € [25 %] | 454 Mrd. € [42 %]"}
+relations: []
+curves: []
+meaning: >-
+  Laut Skript (1.2.1, 1.2.3 Punkt 5) ist Österreichs Wirtschaft von kleinen und mittleren
+  Unternehmen (KMU, bis 249 Mitarbeiter) geprägt: 2023 waren ca. 99 % der Unternehmen KMU. Die
+  wenigen großen Unternehmen (0,2 %) stellen aber den größten Einzelanteil an Beschäftigten
+  (34 %), Lehrlingen (42 %) und Umsätzen (42 %). Österreich hat damit im internationalen
+  Vergleich kleine Industriebetriebe.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Tabelle keine Prüfungsfrage zugeordnet. Merkenswert sind
+    nur die Größenklassen-Grenzen und die Kernaussage „99 % KMU, aber große Unternehmen mit dem
+    größten Anteil an Beschäftigten und Umsatz“.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Größenklassen: Kleinst- (<10 MA), Klein- (<50 MA), Mittlere (<250 MA), Große Unternehmen (>250 MA)"
+    - "Kennzahlen je Klasse: Anzahl, Beschäftigte, Lehrlinge, Umsätze (jeweils mit Anteil)"
+    - "Ca. 99 % der Unternehmen sind KMU; große Unternehmen haben je 42 % der Lehrlinge und Umsätze"
+  common_mistakes:
+    - "KMU-Grenze bei 500 statt 250 Mitarbeitern angesetzt"
+    - "Hoher KMU-Anteil an der Anzahl mit hohem Anteil an Beschäftigten oder Umsatz verwechselt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/tab-03.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Zellen mit Wortlaut, Zahlen und
+    zweizeiligem Aufbau übernommen, uneinheitliche Leerzeichen vor dem Prozentzeichen („[21%]“
+    neben „[29 %]“) wie im Original. Zahlen zusätzlich mit der Textschicht des PDFs abgeglichen.
+    Die Beschriftung im Skript („Prozentualer Anteil der Sektoren an der Gesamtwertschöpfung im
+    Jahr 2023“) ist wortgleich mit Tabelle 2 und passt nicht zum Inhalt (Unternehmen nach
+    Größenklassen) – vermutlich ein Kopierfehler im Skript; der Titel ist unverändert übernommen.
+source:
+  pdf_page: 19
+  printed_page: 9
+  ocr_text_of_labels: >-
+    Kleinstunternehmen (<10 MA); Kleinunternehmen (<50 MA); Mittlere Unternehmen (<250 MA); Große
+    Unternehmen (>250 MA); Anzahl [Anteil] 553.200 [92 %] 41.700 [7 %] 6.400 [1 %] 1.400 [0,2 %];
+    Beschäftigte [Anteil] 1,1 Mio. [29 %] 771.000 [21%] 622.600 [17%] 1,2 Mio. [34 %]; Lehrlinge
+    [Anteil] 10.300 [11 %] 26.600 [28 %] 17.400 [18 %] 40.100 [42 %]; Umsätze [Anteil] 163 Mrd. €
+    [14 %] 190 Mrd. € [18 %] 273 Mrd. € [25 %] 454 Mrd. € [42 %]

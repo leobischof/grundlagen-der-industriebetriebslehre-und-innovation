@@ -1,0 +1,88 @@
+id: abb-12
+title: Industriebetriebe im System der Wirtschaftseinheiten
+type: hierarchie
+description: >-
+  Baumdiagramm: Die Wirtschaftseinheiten teilen sich (mit Pfeilen) in Produktionsunternehmen und
+  Haushalte. Produktionsunternehmen gliedern sich in Anbieter von Sachgüter und Anbieter von
+  Dienstleistungen. Anbieter von Sachgütern teilen sich in Materialproduktionsunternehmen und
+  Materialverarbeitende Unternehmen; beide münden gemeinsam in Landwirtschaftliche Unternehmen,
+  Industrieunternehmen (fett und umrahmt hervorgehoben) und Werkstattbetriebe. Anbieter von
+  Dienstleistungen verzweigen in Handels-, Banken, Versicherungs- und Transportunternehmen.
+axes: []
+elements:
+  - {id: we, kind: box, text: Wirtschaftseinheiten, note: Wurzel}
+  - {id: pu, kind: label, text: Produktionsunternehmen}
+  - {id: hh, kind: label, text: Haushalte}
+  - {id: sg, kind: label, text: Anbieter von Sachgüter, note: "Wortlaut des Originals (statt „Sachgütern“)"}
+  - {id: dl, kind: label, text: Anbieter von Dienstleistungen, note: "„Dienstleistungen“ kursiv"}
+  - {id: mp, kind: label, text: Materialproduktionsunternehmen, note: "im Original „Materialproduktions-/unternehmen“ umbrochen"}
+  - {id: mv, kind: label, text: Materialverarbeitende Unternehmen}
+  - {id: lw, kind: label, text: Landwirtschaftliche Unternehmen}
+  - {id: iu, kind: box, text: Industrieunternehmen, note: "fett, grau hinterlegt und umrahmt (Fokus der Abbildung)"}
+  - {id: wb, kind: label, text: Werkstattbetriebe}
+  - {id: hu, kind: label, text: Handelsunternehmen, note: "„Handels-/unternehmen“"}
+  - {id: ba, kind: label, text: Banken}
+  - {id: vu, kind: label, text: Versicherungsunternehmen, note: "„Versicherungs-/unternehmen“"}
+  - {id: tu, kind: label, text: Transportunternehmen, note: "„Transport-/unternehmen“"}
+relations:
+  - {from: we, to: pu, kind: enthält, text: Pfeil}
+  - {from: we, to: hh, kind: enthält, text: Pfeil}
+  - {from: pu, to: sg, kind: enthält}
+  - {from: pu, to: dl, kind: enthält}
+  - {from: sg, to: mp, kind: enthält}
+  - {from: sg, to: mv, kind: enthält}
+  - {from: mp, to: lw, kind: enthält, text: gemeinsamer Verteiler beider Materialäste}
+  - {from: mp, to: iu, kind: enthält}
+  - {from: mp, to: wb, kind: enthält}
+  - {from: mv, to: lw, kind: enthält}
+  - {from: mv, to: iu, kind: enthält}
+  - {from: mv, to: wb, kind: enthält}
+  - {from: dl, to: hu, kind: enthält}
+  - {from: dl, to: ba, kind: enthält}
+  - {from: dl, to: vu, kind: enthält}
+  - {from: dl, to: tu, kind: enthält}
+curves: []
+meaning: >-
+  Die Abbildung verortet das Industrieunternehmen im System der Wirtschaftseinheiten: Es ist ein
+  Produktionsunternehmen, das Sachgüter anbietet, und grenzt sich so von Haushalten, von
+  Dienstleistungsanbietern (Handel, Banken, Versicherungen, Transport) sowie innerhalb der
+  Sachgüteranbieter von landwirtschaftlichen Unternehmen und Werkstattbetrieben ab. Laut Skript ist
+  ein Industrieunternehmen eine technische, soziale, wirtschaftliche und umweltbezogene Einheit zur
+  kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit dem Ziel, externe
+  Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen trifft und Risiken eingeht
+  (Skript 3.1, S. 47).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json direkt zur Frage 2025-03-18-3 „Wie ist der Begriff
+    Industrieunternehmen definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?“
+    – die Abbildung liefert genau die Abgrenzung zu den anderen Wirtschaftseinheiten.
+  question_ids: [frage-2025-03-18-3]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Wirtschaftseinheiten → Produktionsunternehmen und Haushalte"
+    - "Produktionsunternehmen → Anbieter von Sachgütern und Anbieter von Dienstleistungen"
+    - "Sachgüter → Materialproduktion und Materialverarbeitung → Landwirtschaft, Industrie, Werkstatt"
+    - "Dienstleistungen → Handel, Banken, Versicherungen, Transport"
+  common_mistakes:
+    - "Haushalte unter Produktionsunternehmen statt neben ihnen eingeordnet"
+    - "Industrieunternehmen unter die Dienstleistungsanbieter gesetzt"
+    - "Werkstattbetriebe und Landwirtschaft vergessen (gerade sie grenzen die Industrie ab)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-12.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Verbindungslinien, die beiden Pfeile unter
+    „Wirtschaftseinheiten“ und der gemeinsame Verteiler beider Materialäste wie im Original.
+    „Industrieunternehmen“ fett und umrahmt hervorgehoben. Wortlaut „Anbieter von Sachgüter“
+    unverändert übernommen (grammatisch „Sachgütern“). Die Wurzel „Wirtschaftseinheiten“ bleibt als
+    Vorgabe ohne class="answer", alle anderen Texte sind class="answer".
+source:
+  pdf_page: 57
+  printed_page: 47
+  ocr_text_of_labels: >-
+    Wirtschaftseinheiten; Produktionsunternehmen; Haushalte; Anbieter von Sachgüter; Anbieter von
+    Dienstleistungen; Materialproduktions-unternehmen; Materialverarbeitende Unternehmen;
+    Landwirtschaftliche Unternehmen; Industrieunternehmen; Werkstattbetriebe; Handels-unternehmen;
+    Banken; Versicherungs-unternehmen; Transport-unternehmen

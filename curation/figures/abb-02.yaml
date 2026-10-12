@@ -1,0 +1,102 @@
+id: abb-02
+title: Mögliche Elemente eines Betriebs der Industrie 4.0
+type: system
+description: >-
+  Übersicht in drei Spalten mit dunklen Kopfbalken: links „Lieferanten“, in der Mitte die breite
+  Spalte „Produktion“, rechts „Kunden“. Die 15 nummerierten Elemente stehen als Kästen darunter.
+  Die Produktion ist in die Ebenen „Software“ (Elemente 2–5) und „Shopfloor“ (Elemente 6–14)
+  gegliedert. Eine Legende unterscheidet IoT-bezogene Elemente (durchgezogener, grau gefüllter
+  Kasten) von nicht IoT-bezogenen (strichpunktierter, weißer Kasten); nicht IoT-bezogen sind nur
+  Additive Fertigung, Robotik sowie Neue Materialien & Nanowerkstoffe.
+axes: []
+elements:
+  - {id: lief, kind: spalte, text: Lieferanten, note: "Kopfbalken links, Piktogramm LKW mit Globus"}
+  - {id: prod, kind: spalte, text: Produktion, note: "Kopfbalken Mitte, Piktogramm Fabrik"}
+  - {id: kund, kind: spalte, text: Kunden, note: "Kopfbalken rechts, Piktogramm Haus"}
+  - {id: sw, kind: ebene, text: Software, note: Zwischenüberschrift in der Produktion}
+  - {id: sf, kind: ebene, text: Shopfloor, note: Zwischenüberschrift in der Produktion}
+  - {id: e1, kind: box, text: Intelligentes Versorgungsnetz, note: "Nr. 1, Lieferanten, IoT bezogen; im Original getrennt als „Versorgungsnet-z“ ohne Bindestrich"}
+  - {id: e2, kind: box, text: Fertigungssysteme der nächsten Generation, note: "Nr. 2, Software, IoT bezogen"}
+  - {id: e3, kind: box, text: Speicherung & Verarbeitung in der Cloud, note: "Nr. 3, Software, IoT bezogen"}
+  - {id: e4, kind: box, text: Datenanalytik, note: "Nr. 4, Software, IoT bezogen"}
+  - {id: e5, kind: box, text: Cybersicherheit, note: "Nr. 5, Software, IoT bezogen"}
+  - {id: e6, kind: box, text: Intelligente Sensoren/Aktoren, note: "Nr. 6, Shopfloor, IoT bezogen"}
+  - {id: e7, kind: box, text: Cyber-physische Systeme, note: "Nr. 7, Shopfloor, IoT bezogen"}
+  - {id: e8, kind: box, text: Intelligente (Fern)wartung, note: "Nr. 8, Shopfloor, IoT bezogen"}
+  - {id: e9, kind: box, text: Mobile Geräte (AR), note: "Nr. 9, Shopfloor, IoT bezogen"}
+  - {id: e10, kind: box, text: Selbstfahrende Transportfahrzeuge, note: "Nr. 10, Shopfloor, IoT bezogen"}
+  - {id: e11, kind: box, text: Intelligente Produkte, note: "Nr. 11, Shopfloor, IoT bezogen"}
+  - {id: e12, kind: box, text: Additive Fertigung, note: "Nr. 12, Shopfloor, nicht IoT-bezogen"}
+  - {id: e13, kind: box, text: Robotik, note: "Nr. 13, Shopfloor, nicht IoT-bezogen"}
+  - {id: e14, kind: box, text: Neue Materialien & Nanowerkstoffe, note: "Nr. 14, Shopfloor, nicht IoT-bezogen"}
+  - {id: e15, kind: box, text: Reaktionsschnelle & individuelle Fertigung, note: "Nr. 15, Kunden, IoT bezogen; im Original „Reaktions-schnelle“ umbrochen"}
+  - {id: leg1, kind: legende, text: IoT bezogen, note: "durchgezogener, grau gefüllter Kasten"}
+  - {id: leg2, kind: legende, text: nicht IoT-bezogen, note: "strichpunktierter, weißer Kasten"}
+relations:
+  - {from: lief, to: e1, kind: enthält}
+  - {from: prod, to: sw, kind: enthält}
+  - {from: prod, to: sf, kind: enthält}
+  - {from: sw, to: e2, kind: enthält}
+  - {from: sw, to: e3, kind: enthält}
+  - {from: sw, to: e4, kind: enthält}
+  - {from: sw, to: e5, kind: enthält}
+  - {from: sf, to: e6, kind: enthält}
+  - {from: sf, to: e7, kind: enthält}
+  - {from: sf, to: e8, kind: enthält}
+  - {from: sf, to: e9, kind: enthält}
+  - {from: sf, to: e10, kind: enthält}
+  - {from: sf, to: e11, kind: enthält}
+  - {from: sf, to: e12, kind: enthält}
+  - {from: sf, to: e13, kind: enthält}
+  - {from: sf, to: e14, kind: enthält}
+  - {from: kund, to: e15, kind: enthält}
+  - {from: lief, to: prod, kind: folgt, text: Wertschöpfungskette (nur durch die Spaltenanordnung angedeutet)}
+  - {from: prod, to: kund, kind: folgt, text: Wertschöpfungskette (nur durch die Spaltenanordnung angedeutet)}
+curves: []
+meaning: >-
+  Laut Skript (1.1) steht Industrie 4.0 für eine neue Stufe in der Organisation und Steuerung der
+  gesamten Wertschöpfungskette über den Lebenszyklus von Produkten – vom Lieferanten über die
+  Produktion bis zum Kunden. Basis ist die Verfügbarkeit aller relevanten Informationen in
+  Echtzeit durch die Vernetzung aller beteiligten Einheiten. Die Abbildung zeigt, welche
+  Technologien ein solcher Betrieb einsetzen kann, und dass die meisten davon auf dem Internet der
+  Dinge (IoT) beruhen. Als Enabler nennt das Skript den Preisverfall industrieller Hard- und
+  Software, die Weiterentwicklung von Hard- und Software, die Ausbreitung des Internets und neue
+  Technologien wie KI und Cloud-Computing.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet. Die Abbildung ist
+    eine Aufzählung ohne feste Struktur zum Nachzeichnen; allenfalls einzelne Elemente als Beispiele
+    für Industrie 4.0 sind abfragbar.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Drei Bereiche entlang der Wertschöpfung: Lieferanten – Produktion – Kunden"
+    - "Produktion gegliedert in Software und Shopfloor"
+    - "Beispiele je Ebene, z. B. Cloud, Datenanalytik, Cybersicherheit (Software); Sensoren/Aktoren, cyber-physische Systeme, AR, selbstfahrende Transportfahrzeuge (Shopfloor)"
+    - "Nicht IoT-bezogen: Additive Fertigung, Robotik, Neue Materialien & Nanowerkstoffe"
+  common_mistakes:
+    - "Robotik oder Additive Fertigung als IoT-bezogen eingeordnet"
+    - "Lieferanten- und Kundenseite weggelassen (Industrie 4.0 betrifft die ganze Wertschöpfungskette)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-02.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle 15 Kästen mit Nummern, Texten und
+    Linienart (durchgezogen bzw. strichpunktiert), die drei Kopfbalken, die beiden
+    Zwischenüberschriften und die Legende stimmen überein. Die Piktogramme (LKW mit Globus, Fabrik,
+    Haus) über den Kopfbalken sind nicht nachgebildet, sondern als gestrichelte Platzhalter mit
+    ihrer Bedeutung als Text ersetzt. Zeilenumbruch „Versorgungsnet / z“ wie im Original
+    übernommen. Die Nummern-Ovale sind keine Lösungselemente. Die strichpunktierten Rahmen sind als
+    einzelne Liniensegmente gezeichnet.
+source:
+  pdf_page: 16
+  printed_page: 6
+  ocr_text_of_labels: >-
+    Lieferanten; Produktion; Kunden; Software; Shopfloor; 1 Intelligentes Versorgungsnetz; 2
+    Fertigungssysteme der nächsten Generation; 3 Speicherung & Verarbeitung in der Cloud; 4
+    Datenanalytik; 5 Cybersicherheit; 6 Intelligente Sensoren/Aktoren; 7 Cyber-physische Systeme; 8
+    Intelligente (Fern)wartung; 9 Mobile Geräte (AR); 10 Selbstfahrende Transportfahrzeuge; 11
+    Intelligente Produkte; 12 Additive Fertigung; 13 Robotik; 14 Neue Materialien &
+    Nanowerkstoffe; 15 Reaktionsschnelle & individuelle Fertigung; IoT bezogen; nicht IoT-bezogen

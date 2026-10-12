@@ -1,16 +1,18 @@
 """Stage "exercises": drawing exercises from the vector reconstructions (layer D).
 
-For every figures/reconstructed/<id>.svg this writes
+For every figures/reconstructed/<id>.svg worth sketching (sketch_scope) this writes
   figures/exercises/<id>-blank.svg        – answers removed, placeholders kept (svg_blank)
   learning/drawing-exercises/<id>-zeichenuebung.md – German step-by-step guide (drawing_guide)
 Both are pure functions of the committed SVG and curation/figures/<id>.yaml, so
-no cache is needed: outputs are rewritten only when their text changes.
+no cache is needed: outputs are rewritten only when their text changes. A figure that is
+not (or no longer) worth sketching loses its two outputs – they are this stage's own
+derived files, so the selection rule alone decides whether they exist.
 Exercises whose SVG has disappeared are left alone and reported, never deleted:
 the QA stage flags them and a human decides.
 """
 from __future__ import annotations
 
-from . import catalog, config, drawing_guide
+from . import catalog, config, drawing_guide, sketch_scope
 from .cache import write_if_changed
 from .svg_blank import blank_svg
 
@@ -27,10 +29,33 @@ def _wanted_ids(pages: str | None) -> set[str] | None:
     return {f["id"] for f in catalog.figures() if f["pdf_page"] in selected}
 
 
+def _paths(fid: str) -> list:
+    return [config.FIG_EXERCISES / f"{fid}-blank.svg", GUIDES / config.drawing_guide_name(fid)]
+
+
+def in_scope(fig: dict, by_figure: dict) -> bool:
+    level = (catalog.figure_meta(fig["id"]).get("exam_relevance") or {}).get("level")
+    return sketch_scope.worth_sketching(fig["id"], fig["kind"], level, by_figure)
+
+
 def _outputs(fid: str, svg_text: str) -> list[tuple]:
     blank, removed = blank_svg(svg_text)
-    return [(config.FIG_EXERCISES / f"{fid}-blank.svg", blank, removed),
-            (GUIDES / config.drawing_guide_name(fid), drawing_guide.render(fid), None)]
+    blank_path, guide_path = _paths(fid)
+    return [(blank_path, blank, removed), (guide_path, drawing_guide.render(fid), None)]
+
+
+def _drop(fid: str, dry_run: bool) -> int:
+    """Remove the exercise of a figure not worth sketching; returns the number of files."""
+    gone = 0
+    for path in _paths(fid):
+        if not path.exists():
+            continue
+        if dry_run:
+            print(f"[exercises] würde {path.relative_to(config.ROOT).as_posix()} entfernen")
+        else:
+            path.unlink()
+        gone += 1
+    return gone
 
 
 def _orphans() -> list[str]:
@@ -41,9 +66,10 @@ def _orphans() -> list[str]:
 
 def run(pages: str | None = None, dry_run: bool = False, force: bool = False) -> int:
     # `force` has nothing to bypass: every run recomputes and compares the text.
-    known = {f["id"] for f in catalog.figures()}
+    known = {f["id"]: f for f in catalog.figures()}
+    by_figure = sketch_scope.by_figure()
     wanted = _wanted_ids(pages)
-    written = unchanged = 0
+    written = unchanged = removed_files = 0
     problems = []
     for svg in sorted(config.FIG_RECONSTRUCTED.glob("*.svg")):
         fid = svg.stem
@@ -51,6 +77,9 @@ def run(pages: str | None = None, dry_run: bool = False, force: bool = False) ->
             continue
         if fid not in known:
             problems.append(f"{fid}: keine kuratierte Abbildung in curation/figures.yaml – übersprungen")
+            continue
+        if not in_scope(known[fid], by_figure):
+            removed_files += _drop(fid, dry_run)
             continue
         for path, text, removed in _outputs(fid, svg.read_text(encoding="utf-8")):
             if removed == 0:
@@ -68,5 +97,5 @@ def run(pages: str | None = None, dry_run: bool = False, force: bool = False) ->
     for p in problems:
         print(f"[exercises] Hinweis: {p}")
     if not dry_run:
-        print(f"[exercises] geschrieben={written} unverändert={unchanged}")
+        print(f"[exercises] geschrieben={written} unverändert={unchanged} entfernt={removed_files}")
     return 0

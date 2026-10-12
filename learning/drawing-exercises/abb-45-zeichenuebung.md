@@ -20,7 +20,7 @@ Produktionssysteme werden im Skript (8.2.1) nach zwei Merkmalen typologisiert. D
 
 1. Setze zuerst den zentralen Begriff und ordne die Unterpunkte darum oder darunter an.
 2. Kästen einzeichnen:
-   - „Produktionssysteme“ – Wurzel
+   - „Produktionssysteme“ – Wurzel, dunkelgrau
    - „Produktionsart“ – linker Ast
    - „nach mengenmäßigen Auftragsumfang und die Wiederholhäufigkeit“ – Gliederungskriterium (Wortlaut wie im Original, grammatisch holprig)
    - „Fertigungsform“ – rechter Ast

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1265 583" width="1265" height="583" data-figure-id="abb-22" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Entrepreneurship-Prozess</title>
+  <rect x="0" y="0" width="1265" height="583" fill="#ffffff"/>
+  <rect x="8" y="8" width="1249" height="568" fill="none" stroke="#444444" stroke-width="1.5"/>
+  <!-- Phase 1: Erkennungsphase -->
+  <rect x="28" y="33" width="1172" height="139" rx="14" ry="14" fill="#acacac"/>
+  <circle cx="75" cy="103" r="33" fill="#333333" stroke="#ffffff" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="75" y="113" font-size="28" fill="#ffffff" text-anchor="middle">1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="138" y="112" font-size="26" fill="#ffffff">Erkennungsphase</text>
+  <rect x="398" y="43" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="515.5" y="111" font-size="26.5" text-anchor="middle">Marktpotential</text>
+  <rect x="668" y="43" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="785.5" y="93" font-size="26.5" text-anchor="middle">Unternehmerische</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="785.5" y="126" font-size="26.5" text-anchor="middle">Gelegenheit</text>
+  <rect x="940" y="43" width="226" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1053" y="111" font-size="26.5" text-anchor="middle">Geschäftsidee</text>
+  <!-- Phase 2: Entwicklungsphase -->
+  <rect x="28" y="226" width="1172" height="139" rx="14" ry="14" fill="#acacac"/>
+  <circle cx="75" cy="296" r="33" fill="#333333" stroke="#ffffff" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="75" y="306" font-size="28" fill="#ffffff" text-anchor="middle">2</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="138" y="305" font-size="26" fill="#ffffff">Entwicklungsphase</text>
+  <rect x="398" y="238" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="515.5" y="306" font-size="26.5" text-anchor="middle">SWOT, etc.</text>
+  <rect x="668" y="238" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="785.5" y="306" font-size="26.5" text-anchor="middle">Businessplan</text>
+  <rect x="940" y="238" width="226" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1053" y="288" font-size="26.5" text-anchor="middle">Gründungs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1053" y="321" font-size="26.5" text-anchor="middle">vorbereitung</text>
+  <!-- Phase 3: Umsetzungsphase -->
+  <rect x="28" y="418" width="1172" height="139" rx="14" ry="14" fill="#acacac"/>
+  <circle cx="75" cy="488" r="33" fill="#333333" stroke="#ffffff" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="75" y="498" font-size="28" fill="#ffffff" text-anchor="middle">3</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="138" y="497" font-size="26" fill="#ffffff">Umsetzungsphase</text>
+  <rect x="398" y="430" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="515.5" y="498" font-size="26.5" text-anchor="middle">Gründung</text>
+  <rect x="668" y="430" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="785.5" y="498" font-size="26.5" text-anchor="middle">Wachstum</text>
+  <rect x="940" y="430" width="226" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1053" y="498" font-size="26.5" text-anchor="middle">Stabilisierung</text>
+  <!-- Verbindungspfeile zwischen den Phasen -->
+  <path d="M 1166 100 H 1228 V 200 H 378 V 212" fill="none" stroke="#3a3a3a" stroke-width="5"/>
+  <polygon points="370,210 386,210 378,224" fill="#3a3a3a"/>
+  <path d="M 1166 297 H 1228 V 392 H 378 V 404" fill="none" stroke="#3a3a3a" stroke-width="5"/>
+  <polygon points="370,402 386,402 378,416" fill="#3a3a3a"/>
+</svg>

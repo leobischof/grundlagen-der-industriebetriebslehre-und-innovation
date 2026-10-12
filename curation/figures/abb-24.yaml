@@ -1,0 +1,70 @@
+id: abb-24
+title: Produktentstehung als Teil des Produktlebenszyklus
+type: prozess
+description: >-
+  Kreislauf aus zwei Bögen um die Mitte „Produktlebenszyklus“. Der obere, dunkle Bogen
+  „Produktgestaltung“ führt von der „Geschäftsidee“ (links) zum „Produktionsstart“ (rechts) und
+  enthält die drei Phasen „Strategische Produktplanung“ (Kapitel 5.3), „Produktentwicklung“
+  (Kapitel 5.4) und „Entwicklung des Produktionssystems“ (Kapitel 5.5). Der untere, helle Bogen
+  führt vom Produktionsstart zurück zur Geschäftsidee über Produktion, Verkauf, Anwendung und
+  Recycling.
+axes: []
+elements:
+  - {id: pg, kind: label, text: Produktgestaltung, note: Überschrift des oberen Bogens}
+  - {id: p1, kind: box, text: Strategische Produktplanung, note: Kapitel 5.3}
+  - {id: p2, kind: box, text: Produktentwicklung, note: Kapitel 5.4}
+  - {id: p3, kind: box, text: Entwicklung des Produktionssystems, note: Kapitel 5.5}
+  - {id: gi, kind: label, text: Geschäftsidee, note: Beginn der Produktentstehung}
+  - {id: sop, kind: label, text: Produktionsstart, note: "SOP – Ende der Produktentstehung"}
+  - {id: plz, kind: label, text: Produktlebenszyklus, note: Mitte des Kreislaufs}
+  - {id: l1, kind: box, text: Produktion, note: unterer Bogen}
+  - {id: l2, kind: box, text: Verkauf, note: unterer Bogen}
+  - {id: l3, kind: box, text: Anwendung, note: unterer Bogen}
+  - {id: l4, kind: box, text: Recycling, note: unterer Bogen}
+relations:
+  - {from: gi, to: p1, kind: folgt}
+  - {from: p1, to: p2, kind: folgt}
+  - {from: p2, to: p3, kind: folgt}
+  - {from: p3, to: sop, kind: folgt}
+  - {from: sop, to: l1, kind: folgt}
+  - {from: l1, to: l2, kind: folgt}
+  - {from: l2, to: l3, kind: folgt}
+  - {from: l3, to: l4, kind: folgt}
+  - {from: l4, to: gi, kind: folgt, text: Kreislauf schließt sich}
+curves: []
+meaning: >-
+  Der Produktlebenszyklus umfasst den gesamten Prozess von der Geschäftsidee bis zur Verwendung
+  (und Entsorgung) des Produkts. Die Produktentstehung ist der Teil davon, der von der Produkt-
+  bzw. Geschäftsidee bis zum Produktionsstart (SOP – Start of Production) reicht; sie gliedert
+  sich in strategische Produktplanung, Produktentwicklung und Entwicklung des Produktionssystems,
+  die im Skript in den Abschnitten 5.3 bis 5.5 behandelt werden.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Frage direkt zugeordnet. Die Abgrenzung der
+    Produktentstehung (Geschäftsidee bis SOP) und ihre drei Phasen strukturieren aber das ganze
+    Kapitel 5.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Produktentstehung = Geschäftsidee bis Produktionsstart (SOP)"
+    - "Drei Phasen: Strategische Produktplanung → Produktentwicklung → Entwicklung des Produktionssystems"
+    - "Rest des Lebenszyklus: Produktion, Verkauf, Anwendung, Recycling"
+  common_mistakes:
+    - "Produktion zur Produktentstehung gezählt (sie beginnt erst nach dem Produktionsstart)"
+    - "Kreislauf nicht geschlossen (Recycling führt zurück zur nächsten Geschäftsidee)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-24.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Bogenform, Kastenpositionen und Grautöne
+    angenähert, alle Beschriftungen im Wortlaut. Die Kapitelverweise („Kapitel 5.3“ usw.) sind
+    Skript-Navigation und daher nicht als Lösungselement markiert.
+source:
+  pdf_page: 86
+  printed_page: 76
+  ocr_text_of_labels: >-
+    Produktgestaltung; Strategische Produktplanung; Produkt-entwicklung; Entwicklung des
+    Produktionssystems; Kapitel 5.3; Kapitel 5.4; Kapitel 5.5; Produktionsstart; Geschäftsidee;
+    Produktlebenszyklus; Recycling; Anwendung; Verkauf; Produktion

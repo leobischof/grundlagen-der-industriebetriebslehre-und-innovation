@@ -1,0 +1,66 @@
+id: abb-34
+title: Rahmenstruktur-Konzept für integrierte Produkt- und Prozessgestaltung nach EVERSHEIM/SCHUH/ASSMUS
+type: system
+description: >-
+  Dreidimensionales Bild eines gläsernen Kastens auf einer Bodenplatte. Die Bodenplatte steht für
+  das „Organisations- und Informationsmanagement“ als Basis. Darauf liegen zwei hellgraue,
+  pfeilförmige Bahnen nach rechts: vorne „Produktgestaltung“ (beginnend beim Block „Markt“),
+  hinten „Produktionsprozessgestaltung“ (beginnend beim Block „Technologie“). Ein dunkler
+  Querbalken verbindet Technologie mit der Markt-/Produktseite (Callout „Integrierte
+  Produktdefinition und Technologieplanung“); eine große dunkle Platte überdeckt beide Bahnen
+  (Callout „Integrierte Produkt- und Produktionsprozessgestaltung“).
+axes: []
+elements:
+  - {id: oim, kind: label, text: Organisations- und Informationsmanagement, note: "Bodenplatte/Basis, Callout unten"}
+  - {id: ipt, kind: label, text: Integrierte Produktdefinition und Technologieplanung, note: Callout links oben auf den dunklen Querbalken}
+  - {id: ipp, kind: label, text: Integrierte Produkt- und Produktionsprozessgestaltung, note: Callout rechts oben auf die große dunkle Platte}
+  - {id: markt, kind: box, text: Markt, note: Block vorne links}
+  - {id: tech, kind: box, text: Techno-logie, note: "Block hinten links, im Bild getrennt „Techno-“/„logie“"}
+  - {id: pg, kind: arrow, text: Produktgestaltung, note: "vordere Bahn, Pfeil nach rechts"}
+  - {id: ppg, kind: arrow, text: Produktionsprozessgestaltung, note: "hintere Bahn, Pfeil nach rechts"}
+relations:
+  - {from: markt, to: pg, kind: folgt}
+  - {from: tech, to: ppg, kind: folgt}
+  - {from: tech, to: markt, kind: verbindet, text: Integrierte Produktdefinition und Technologieplanung}
+  - {from: pg, to: ppg, kind: verbindet, text: Integrierte Produkt- und Produktionsprozessgestaltung}
+  - {from: oim, to: pg, kind: trägt, text: Basis}
+  - {from: oim, to: ppg, kind: trägt, text: Basis}
+curves: []
+meaning: >-
+  Eversheim/Schuh/Assmus (2005) gliedern die Rahmenstruktur der integrierten Produkt- und
+  Prozessgestaltung in drei Hauptbereiche (sec-5.6): Organisations- und Informationsmanagement als
+  Basis (Projekt-, Risiko- und Informationsmanagement), integrierte Produktdefinition und
+  Technologieplanung (Markt-/Kundenbedürfnisse mit technologischen Innovationen zusammenführen) und
+  integrierte Produkt- und Produktionsprozessgestaltung (frühe Abstimmung von Produkt und
+  Produktionsprozess, weil die Produktionskosten früh festgelegt werden). Der Fokus liegt auf den
+  frühen Phasen bis zur Produktionsplanung.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Die drei Hauptbereiche eignen sich
+    als Aufzählungsfrage, wurden bisher aber nicht abgefragt.
+  question_ids: []
+drawing:
+  difficulty: schwer
+  must_know:
+    - "Drei Hauptbereiche: Organisations- und Informationsmanagement (Basis), integrierte Produktdefinition und Technologieplanung, integrierte Produkt- und Produktionsprozessgestaltung"
+    - "Zwei Bahnen: Markt → Produktgestaltung, Technologie → Produktionsprozessgestaltung"
+  common_mistakes:
+    - "Organisations- und Informationsmanagement als gleichrangige Säule statt als Basis darstellen"
+    - "Markt und Technologie den falschen Bahnen zuordnen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-34.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; die 3D-Grafik ist als vereinfachte
+    Schrägprojektion aus flachen Polygonen nachgebaut (Quader, Pfeilspitzen und dunkle Rauten an den
+    Bahnenden angenähert, ohne Schattierungsverläufe). Alle Beschriftungen, die drei Callouts mit
+    gepunkteten Führungslinien und die Zuordnung der Blöcke stimmen mit dem Original überein; die
+    gepunkteten Linien sind als Reihen kleiner Quadrate gezeichnet.
+source:
+  pdf_page: 99
+  printed_page: 89
+  ocr_text_of_labels: >-
+    Integrierte Produktdefinition und Technologieplanung; Integrierte Produkt- und
+    Produktionsprozessgestaltung; Produktionsprozessgestaltung; Techno- logie; Markt;
+    Produktgestaltung; Organisations- und Informationsmanagement

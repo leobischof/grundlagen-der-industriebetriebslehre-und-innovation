@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1262 394" width="1262" height="394" data-figure-id="abb-52" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Auszug aus der Gliederung der Flächen</title>
+  <rect x="0" y="0" width="1262" height="394" fill="#ffffff"/>
+  <rect x="10" y="10" width="1242" height="373" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Tree connectors (structure, not part of the answer) -->
+  <g fill="none" stroke="#333333" stroke-width="1.5">
+    <path d="M457 56 V64 M150 64 H765 M150 64 V73 M765 64 V73"/>
+    <!-- Unbebaute Fläche -->
+    <path d="M75 105 V349 M75 138 H103 M75 187 H103 M75 239 H103 M75 295 H103 M75 349 H103"/>
+    <!-- Bebaute Fläche -->
+    <path d="M765 106 V114 M410 114 H1110 M410 114 V124 M646 114 V124 M882 114 V124 M1110 114 V124"/>
+    <!-- Nutzflächen -->
+    <path d="M322 156 V339 M322 188 H354 M322 238 H354 M322 286 H354 M322 339 H354"/>
+    <!-- Nebenflächen -->
+    <path d="M560 156 V236 M560 188 H591 M560 236 H591"/>
+    <!-- Funktionsflächen -->
+    <path d="M795 156 V191 H827"/>
+    <!-- Sozialflächen -->
+    <path d="M1025 156 V292 M1025 188 H1056 M1025 239 H1056 M1025 292 H1056"/>
+  </g>
+
+  <g fill="#ffffff" stroke="#333333" stroke-width="1.5">
+    <rect x="367" y="22" width="179" height="34"/>
+    <rect x="57" y="73" width="183" height="32"/>
+    <rect x="679" y="73" width="173" height="33"/>
+    <rect x="103" y="122" width="180" height="32"/>
+    <rect x="103" y="171" width="180" height="32"/>
+    <rect x="103" y="220" width="180" height="38"/>
+    <rect x="103" y="276" width="180" height="38"/>
+    <rect x="103" y="333" width="180" height="31"/>
+    <rect x="301" y="124" width="217" height="32"/>
+    <rect x="537" y="124" width="217" height="32"/>
+    <rect x="773" y="124" width="217" height="32"/>
+    <rect x="1006" y="124" width="212" height="33"/>
+    <rect x="354" y="172" width="169" height="32"/>
+    <rect x="354" y="222" width="169" height="32"/>
+    <rect x="354" y="270" width="169" height="32"/>
+    <rect x="354" y="320" width="169" height="38"/>
+    <rect x="591" y="172" width="168" height="31"/>
+    <rect x="591" y="220" width="168" height="31"/>
+    <rect x="827" y="172" width="169" height="39"/>
+    <rect x="1056" y="172" width="166" height="31"/>
+    <rect x="1056" y="220" width="166" height="38"/>
+    <rect x="1056" y="276" width="166" height="31"/>
+  </g>
+
+  <!-- Root (given) -->
+  <text font-family="Arial, Helvetica, sans-serif" x="457" y="46" font-size="19" text-anchor="middle">Grundstück</text>
+
+  <!-- Level 1 -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="148" y="96" font-size="19" text-anchor="middle">Unbebaute Fläche</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="765" y="96" font-size="19" text-anchor="middle">Bebaute Fläche</text>
+
+  <!-- Unbebaute Fläche -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="193" y="145" font-size="19" text-anchor="middle">Verkehrsfläche</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="193" y="194" font-size="19" text-anchor="middle">Parkplätze</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="193" y="236" font-size="19" text-anchor="middle">Versorgungs- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="193" y="254" font-size="19" text-anchor="middle">Nutzflächen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="193" y="292" font-size="19" text-anchor="middle">Grün- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="193" y="310" font-size="19" text-anchor="middle">Freiflächen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="193" y="355" font-size="19" text-anchor="middle">Reserveflächen</text>
+
+  <!-- Bebaute Fläche, level 2 -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="410" y="147" font-size="19" text-anchor="middle">Nutzflächen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="147" font-size="19" text-anchor="middle">Nebenflächen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="882" y="147" font-size="19" text-anchor="middle">Funktionsflächen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1112" y="148" font-size="19" text-anchor="middle">Sozialflächen</text>
+
+  <!-- Nutzflächen -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="438" y="195" font-size="19" text-anchor="middle">Produktion</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="438" y="245" font-size="19" text-anchor="middle">Lager</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="438" y="293" font-size="19" text-anchor="middle">Verwaltung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="438" y="336" font-size="19" text-anchor="middle">Hilfs- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="438" y="354" font-size="19" text-anchor="middle">Nebenbetriebe</text>
+
+  <!-- Nebenflächen -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="675" y="194" font-size="19" text-anchor="middle">Sanitär</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="675" y="242" font-size="19" text-anchor="middle">Transportwege</text>
+
+  <!-- Funktionsflächen -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="911" y="188" font-size="19" text-anchor="middle">Heizung- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="911" y="206" font-size="19" text-anchor="middle">Klimaanlage</text>
+
+  <!-- Sozialflächen -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1139" y="194" font-size="19" text-anchor="middle">Verpflegung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1139" y="236" font-size="19" text-anchor="middle">Bildungs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1139" y="254" font-size="19" text-anchor="middle">einrichtungen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1139" y="298" font-size="19" text-anchor="middle">Erholung</text>
+</svg>

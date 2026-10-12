@@ -1,0 +1,93 @@
+id: abb-77
+title: Produktionssteuerung
+type: hierarchie
+description: >-
+  Baumdiagramm von links nach rechts: Der Wurzelkasten „Produktionssteuerung“ verzweigt in die drei
+  Funktionen „Produktion veranlassen“, „Produktion überwachen“ und „Produktion sichern“. Jeder
+  Funktion sind rechts Einzelaufgaben als Kästchen zugeordnet (7, 3 und 3). Am rechten Rand
+  ordnen zwei senkrechte Beschriftungen die Aufgaben den Phasen „Auftragsvorbereitung“ (die ersten
+  fünf Aufgaben) und „Werkstattsteuerung“ (alle übrigen) zu.
+axes: []
+elements:
+  - {id: root, kind: box, text: Produktionssteuerung, note: "Wurzel, dunkelgrau"}
+  - {id: f1, kind: box, text: Produktion veranlassen}
+  - {id: f2, kind: box, text: Produktion überwachen}
+  - {id: f3, kind: box, text: Produktion sichern}
+  - {id: a1, kind: box, text: "Fertigungsprogramm u. -aufträge bilden"}
+  - {id: a2, kind: box, text: Material- und Kapazitätsbedarf ermitteln}
+  - {id: a3, kind: box, text: Material und Kapazität beschaffen}
+  - {id: a4, kind: box, text: Termine ermitteln u. Kapazität belegen}
+  - {id: a5, kind: box, text: Arbeitsunterlagen erstellen}
+  - {id: a6, kind: box, text: Kapazität und Eingaben bereitstellen}
+  - {id: a7, kind: box, text: Arbeitsverteilung durchführen}
+  - {id: u1, kind: box, text: Ist-Daten erfassen}
+  - {id: u2, kind: box, text: Soll- und Ist-Daten vergleichen}
+  - {id: u3, kind: box, text: Soll-/Ist-Abweichung beurteilen}
+  - {id: s1, kind: box, text: Störungsursache ermitteln}
+  - {id: s2, kind: box, text: In Fertigungslauf eingreifen}
+  - {id: s3, kind: box, text: Planänderungen veranlassen}
+  - {id: ph1, kind: label, text: Auftragsvorbereitung, note: "senkrecht, umfasst a1 bis a5"}
+  - {id: ph2, kind: label, text: Werkstattsteuerung, note: "senkrecht, umfasst a6, a7, u1 bis u3 und s1 bis s3"}
+relations:
+  - {from: root, to: f1, kind: enthält}
+  - {from: root, to: f2, kind: enthält}
+  - {from: root, to: f3, kind: enthält}
+  - {from: f1, to: a1, kind: enthält}
+  - {from: f1, to: a2, kind: enthält}
+  - {from: f1, to: a3, kind: enthält}
+  - {from: f1, to: a4, kind: enthält}
+  - {from: f1, to: a5, kind: enthält}
+  - {from: f1, to: a6, kind: enthält}
+  - {from: f1, to: a7, kind: enthält}
+  - {from: f2, to: u1, kind: enthält}
+  - {from: f2, to: u2, kind: enthält}
+  - {from: f2, to: u3, kind: enthält}
+  - {from: f3, to: s1, kind: enthält}
+  - {from: f3, to: s2, kind: enthält}
+  - {from: f3, to: s3, kind: enthält}
+  - {from: ph1, to: a1, kind: gruppiert, text: "Aufgaben a1 bis a5"}
+  - {from: ph2, to: a6, kind: gruppiert, text: "Aufgaben a6 bis s3"}
+curves: []
+meaning: >-
+  Laut Skript (9.2) liegt der Schwerpunkt der Steuerung auf dem kurzfristigen Horizont. Ziel ist es,
+  die Produktion (1) zu veranlassen, (2) zu überwachen (Ist-Situation) und (3) die
+  Aufgabenausführung hinsichtlich Menge, Termine, Qualität, Kosten und Arbeitsbedingungen zu
+  sichern. Das Veranlassen reicht von der Auftragsvorbereitung (Programm, Bedarf, Beschaffung,
+  Termine, Unterlagen) bis in die Werkstattsteuerung (Bereitstellung, Arbeitsverteilung);
+  Überwachen und Sichern gehören zur Werkstattsteuerung.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Als Gliederung der
+    Produktionssteuerung (veranlassen, überwachen, sichern) dennoch nützliches Hintergrundwissen
+    für Fragen zu Abschnitt 9.2.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Drei Funktionen: Produktion veranlassen, überwachen, sichern"
+    - "Überwachen: Ist-Daten erfassen, Soll-/Ist vergleichen, Abweichung beurteilen"
+    - "Sichern: Störungsursache ermitteln, in Fertigungslauf eingreifen, Planänderungen veranlassen"
+    - "Zuordnung zu Auftragsvorbereitung und Werkstattsteuerung"
+  common_mistakes:
+    - "„Kapazität und Eingaben bereitstellen“ und „Arbeitsverteilung durchführen“ dem Überwachen statt dem Veranlassen zugeordnet"
+    - "Überwachen (Soll-/Ist-Vergleich) und Sichern (Eingreifen, Plan ändern) vermischt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-77.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle 13 Aufgabenkästchen, drei Funktionen,
+    Wurzel und beide Phasenbeschriftungen vollständig und im Originalwortlaut. Die sehr blassen
+    Verbindungslinien und die schwache Trennlinie zwischen den Phasen sind als hellgraue Linien
+    angenähert; Positionen und Grautöne angenähert, Schrift Arial. Der Wurzelkasten ist als Vorgabe
+    kein Lösungselement.
+source:
+  pdf_page: 176
+  printed_page: 166
+  ocr_text_of_labels: >-
+    Produktionssteuerung; Produktion veranlassen; Produktion überwachen; Produktion sichern;
+    Fertigungsprogramm u. -aufträge bilden; Material- und Kapazitätsbedarf ermitteln; Material und
+    Kapazität beschaffen; Termine ermitteln u. Kapazität belegen; Arbeitsunterlagen erstellen;
+    Kapazität und Eingaben bereitstellen; Arbeitsverteilung durchführen; Ist-Daten erfassen; Soll-
+    und Ist-Daten vergleichen; Soll-/Ist-Abweichung beurteilen; Störungsursache ermitteln; In
+    Fertigungslauf eingreifen; Planänderungen veranlassen; Auftragsvorbereitung; Werkstattsteuerung

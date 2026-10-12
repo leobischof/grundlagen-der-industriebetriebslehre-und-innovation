@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1277 745" width="1277" height="745" data-figure-id="abb-85" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Entkopplungspunkte – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1277" height="745" fill="#ffffff" />
+  <!-- frame of the original figure -->
+  <rect x="10" y="8" width="1258" height="729" fill="none" stroke="#555555" stroke-width="2" />
+
+  <!-- stages of the value chain (column heads) -->
+  <rect class="placeholder" x="189.0" y="42.8" width="138.1" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="394.9" y="29.8" width="126.2" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="412.6" y="56.8" width="90.8" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="644.7" y="42.8" width="102.6" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="809.4" y="42.8" width="67.1" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- thin vertical guide lines below each stage -->
+  <g stroke="#9a9a9a" stroke-width="1.2">
+    <line x1="258" y1="97" x2="258" y2="600" />
+    <line x1="462" y1="97" x2="462" y2="600" />
+    <line x1="696" y1="97" x2="696" y2="600" />
+    <line x1="838" y1="97" x2="838" y2="600" />
+  </g>
+
+  <!-- five strategies: light part = make-to-stock, dark part = customer-specific, triangle = decoupling point -->
+  <rect x="180" y="125" width="655" height="37" fill="#f2f2f2" stroke="#404040" stroke-width="1.2" />
+  <rect class="placeholder" x="851.0" y="112.8" width="256.3" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="851.0" y="139.8" width="173.5" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="180" y="210" width="655" height="37" fill="#f2f2f2" stroke="#404040" stroke-width="1.2" />
+  <rect class="placeholder" x="851.0" y="197.8" width="185.4" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="851.0" y="224.8" width="185.4" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="180" y="318" width="655" height="37" fill="#f2f2f2" stroke="#404040" stroke-width="1.2" />
+  <rect class="placeholder" x="851.0" y="305.8" width="268.2" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="851.0" y="332.8" width="232.7" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="180" y="404" width="655" height="37" fill="#f2f2f2" stroke="#404040" stroke-width="1.2" />
+  <rect class="placeholder" x="851.0" y="391.8" width="173.5" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="851.0" y="418.8" width="185.4" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="180" y="508" width="655" height="37" fill="#f2f2f2" stroke="#404040" stroke-width="1.2" />
+  <rect class="placeholder" x="851.0" y="495.8" width="220.8" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="851.0" y="522.8" width="185.4" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- legend -->
+  <rect class="placeholder" x="296.0" y="668.8" width="209.0" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="713" y="640" width="119" height="37" fill="#f2f2f2" stroke="#404040" stroke-width="1.2" />
+  <rect class="placeholder" x="854.0" y="643.8" width="173.5" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="713" y="688" width="119" height="37" fill="#595959" stroke="#404040" stroke-width="1.2" />
+  <rect class="placeholder" x="851.0" y="692.8" width="256.3" height="30.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 779" width="1266" height="779" data-figure-id="abb-14" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Abgrenzung zwischen Industriebetrieben und Werkstätten</title>
+  <rect x="0" y="0" width="1266" height="779" fill="#ffffff"/>
+  <!-- outer frame of the original figure -->
+  <rect x="12" y="8" width="1243" height="760" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- scale column: Gross (hoch) at the top, Klein (niedrig) at the bottom -->
+  <rect x="47" y="145" width="140" height="492" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="116" y="186" font-size="25" text-anchor="middle">Groß</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="116" y="222" font-size="25" text-anchor="middle">(hoch)</text>
+  <line x1="116" y1="248" x2="116" y2="516" stroke="#111111" stroke-width="2"/>
+  <polygon points="116,527 111,514 121,514" fill="#111111"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="116" y="563" font-size="25" text-anchor="middle">Klein</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="116" y="597" font-size="25" text-anchor="middle">(niedrig)</text>
+
+  <!-- seven criteria: header box + grey column -->
+  <rect x="197" y="40" width="139" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="197" y="145" width="139" height="492" fill="#707070"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="266.5" y="81" font-size="17" text-anchor="middle">Unternehmens-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="266.5" y="104" font-size="17" text-anchor="middle">größe</text>
+  <rect x="345" y="40" width="138" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="345" y="145" width="138" height="492" fill="#707070"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="414" y="90" font-size="17" text-anchor="middle">Mechanisierung</text>
+  <rect x="493" y="40" width="139" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="493" y="145" width="139" height="492" fill="#707070"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="562.5" y="81" font-size="17" text-anchor="middle">Personen-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="562.5" y="104" font-size="17" text-anchor="middle">bezogen</text>
+  <rect x="643" y="40" width="138" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="643" y="145" width="138" height="492" fill="#707070"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="712" y="81" font-size="17" text-anchor="middle">Nähe zum</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="712" y="104" font-size="17" text-anchor="middle">Kunden</text>
+  <rect x="792" y="40" width="138" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="792" y="145" width="138" height="492" fill="#707070"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="861" y="81" font-size="17" text-anchor="middle">Differenzierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="861" y="104" font-size="17" text-anchor="middle">der Produkte</text>
+  <rect x="940" y="40" width="133" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="940" y="145" width="133" height="492" fill="#707070"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1006.5" y="81" font-size="17" text-anchor="middle">Auftrags-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1006.5" y="104" font-size="17" text-anchor="middle">volumen</text>
+  <rect x="1083" y="40" width="135" height="97" fill="#f2eef0" stroke="#bbbbbb" stroke-width="1"/>
+  <rect x="1083" y="145" width="135" height="492" fill="#707070"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1150.5" y="81" font-size="17" text-anchor="middle">Aufteilung der</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1150.5" y="104" font-size="17" text-anchor="middle">Arbeit</text>
+
+  <!-- profile lines (dashed) -->
+  <path class="answer" d="M270.0 268.0 L282.0 268.0 M290.0 268.0 L302.0 268.0 M310.0 268.0 L322.0 268.0 M330.0 268.0 L342.0 268.0 M350.0 268.0 L362.0 268.0 M370.0 268.0 L382.0 268.0 M390.0 268.0 L402.0 268.0 M410.0 268.0 L412.0 268.0 M412.0 268.0 L418.3 278.2 M422.5 285.0 L428.8 295.2 M433.0 302.0 L439.4 312.2 M443.6 319.0 L449.9 329.2 M454.1 336.0 L460.4 346.2 M464.6 353.0 L470.9 363.2 M475.1 370.0 L481.5 380.2 M485.7 387.0 L492.0 397.3 M496.2 404.1 L502.5 414.3 M506.7 421.1 L513.0 431.3 M517.2 438.1 L523.6 448.3 M527.8 455.1 L534.1 465.3 M538.3 472.1 L544.6 482.3 M548.8 489.1 L555.1 499.3 M559.3 506.1 L563.0 512.0 M563.0 512.0 L575.0 512.0 M583.0 512.0 L595.0 512.0 M603.0 512.0 L615.0 512.0 M623.0 512.0 L635.0 512.0 M643.0 512.0 L655.0 512.0 M663.0 512.0 L675.0 512.0 M683.0 512.0 L695.0 512.0 M703.0 512.0 L711.0 512.0 M711.0 512.0 L723.0 512.0 M731.0 512.0 L743.0 512.0 M751.0 512.0 L763.0 512.0 M771.0 512.0 L783.0 512.0 M791.0 512.0 L803.0 512.0 M811.0 512.0 L823.0 512.0 M831.0 512.0 L843.0 512.0 M851.0 512.0 L861.0 512.0 M861.0 512.0 L867.1 501.7 M871.2 494.8 L877.3 484.5 M881.4 477.6 L887.6 467.3 M891.7 460.4 L897.8 450.1 M901.9 443.2 L908.0 432.9 M912.1 426.0 L918.2 415.7 M922.3 408.8 L928.4 398.5 M932.5 391.6 L938.7 381.3 M942.7 374.5 L948.9 364.1 M953.0 357.3 L959.1 346.9 M963.2 340.1 L969.3 329.8 M973.4 322.9 L979.5 312.6 M983.6 305.7 L989.7 295.4 M993.8 288.5 L1000.0 278.2 M1004.0 271.3 L1006.0 268.0 M1006.0 268.0 L1018.0 268.0 M1026.0 268.0 L1038.0 268.0 M1046.0 268.0 L1058.0 268.0 M1066.0 268.0 L1078.0 268.0 M1086.0 268.0 L1098.0 268.0 M1106.0 268.0 L1118.0 268.0 M1126.0 268.0 L1138.0 268.0 M1146.0 268.0 L1149.0 268.0" fill="none" stroke="#4f4f4f" stroke-width="3"/>
+  <path class="answer" d="M270.0 512.0 L282.0 512.0 M290.0 512.0 L302.0 512.0 M310.0 512.0 L322.0 512.0 M330.0 512.0 L342.0 512.0 M350.0 512.0 L362.0 512.0 M370.0 512.0 L382.0 512.0 M390.0 512.0 L402.0 512.0 M410.0 512.0 L412.0 512.0 M412.0 512.0 L418.3 501.8 M422.5 495.0 L428.8 484.8 M433.0 478.0 L439.4 467.8 M443.6 461.0 L449.9 450.8 M454.1 444.0 L460.4 433.8 M464.6 427.0 L470.9 416.8 M475.1 410.0 L481.5 399.8 M485.7 393.0 L492.0 382.7 M496.2 375.9 L502.5 365.7 M506.7 358.9 L513.0 348.7 M517.2 341.9 L523.6 331.7 M527.8 324.9 L534.1 314.7 M538.3 307.9 L544.6 297.7 M548.8 290.9 L555.1 280.7 M559.3 273.9 L563.0 268.0 M563.0 268.0 L575.0 268.0 M583.0 268.0 L595.0 268.0 M603.0 268.0 L615.0 268.0 M623.0 268.0 L635.0 268.0 M643.0 268.0 L655.0 268.0 M663.0 268.0 L675.0 268.0 M683.0 268.0 L695.0 268.0 M703.0 268.0 L711.0 268.0 M711.0 268.0 L723.0 268.0 M731.0 268.0 L743.0 268.0 M751.0 268.0 L763.0 268.0 M771.0 268.0 L783.0 268.0 M791.0 268.0 L803.0 268.0 M811.0 268.0 L823.0 268.0 M831.0 268.0 L843.0 268.0 M851.0 268.0 L861.0 268.0 M861.0 268.0 L867.1 278.3 M871.2 285.2 L877.3 295.5 M881.4 302.4 L887.6 312.7 M891.7 319.6 L897.8 329.9 M901.9 336.8 L908.0 347.1 M912.1 354.0 L918.2 364.3 M922.3 371.2 L928.4 381.5 M932.5 388.4 L938.7 398.7 M942.7 405.5 L948.9 415.9 M953.0 422.7 L959.1 433.1 M963.2 439.9 L969.3 450.2 M973.4 457.1 L979.5 467.4 M983.6 474.3 L989.7 484.6 M993.8 491.5 L1000.0 501.8 M1004.0 508.7 L1006.0 512.0 M1006.0 512.0 L1018.0 512.0 M1026.0 512.0 L1038.0 512.0 M1046.0 512.0 L1058.0 512.0 M1066.0 512.0 L1078.0 512.0 M1086.0 512.0 L1098.0 512.0 M1106.0 512.0 L1118.0 512.0 M1126.0 512.0 L1138.0 512.0 M1146.0 512.0 L1149.0 512.0" fill="none" stroke="#000000" stroke-width="3.5"/>
+  <!-- profile points: grey = Industrieunternehmen, black = Werkstaetten -->
+  <circle class="answer" cx="270" cy="268" r="20" fill="#4f4f4f"/>
+  <circle class="answer" cx="412" cy="268" r="20" fill="#4f4f4f"/>
+  <circle class="answer" cx="563" cy="512" r="20" fill="#4f4f4f"/>
+  <circle class="answer" cx="711" cy="512" r="20" fill="#4f4f4f"/>
+  <circle class="answer" cx="861" cy="512" r="20" fill="#4f4f4f"/>
+  <circle class="answer" cx="1006" cy="268" r="20" fill="#4f4f4f"/>
+  <circle class="answer" cx="1149" cy="268" r="20" fill="#4f4f4f"/>
+  <circle class="answer" cx="270" cy="512" r="20" fill="#000000"/>
+  <circle class="answer" cx="412" cy="512" r="20" fill="#000000"/>
+  <circle class="answer" cx="563" cy="268" r="20" fill="#000000"/>
+  <circle class="answer" cx="711" cy="268" r="20" fill="#000000"/>
+  <circle class="answer" cx="861" cy="268" r="20" fill="#000000"/>
+  <circle class="answer" cx="1006" cy="512" r="20" fill="#000000"/>
+  <circle class="answer" cx="1149" cy="512" r="20" fill="#000000"/>
+
+  <!-- legend -->
+  <circle cx="70" cy="672" r="18" fill="#000000"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="102" y="681" font-size="24">Werkstätten</text>
+  <circle cx="70" cy="722" r="18" fill="#4f4f4f"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="102" y="731" font-size="24">Industrieunternehmen</text>
+</svg>
