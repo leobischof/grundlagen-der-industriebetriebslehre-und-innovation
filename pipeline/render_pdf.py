@@ -10,7 +10,8 @@
 
 Names come from `content_files` (SSOT). Pipeline per chapter: overview + sections in TOC order
 (2.1, 2.2, … 2.10 numerically) + literature → HTML (`pdf_html`) → pages (`pdf_layout`,
-pymupdf.Story). Script pictures are never printed, only our SVGs (`figure_publish`). A rendered
+pymupdf.Story). Script pictures are never printed, only our SVGs (`figure_publish`); a learning
+guide is read with its chapter's pictures placed in (`guide_figures`). A rendered
 chapter is reused for the chapter PDF and the complete PDF. A PDF is only re-rendered when the
 hash of its inputs (markdown, the SVGs/descriptions it shows, renderer version) changed;
 build/ is git-ignored, the orchestrator uploads the PDFs as a GitHub release.
@@ -21,18 +22,23 @@ import datetime
 import json
 import re
 from dataclasses import dataclass, field
+from typing import Callable
 from pathlib import Path
 
 import pymupdf
 
-from . import config, content_files, figure_publish, pdf_layout
+from . import config, content_files, figure_publish, guide_figures, pdf_layout
 from .cache import key_for, sha256_file
 from .content_files import COMPLETE, EXAMS, FOOTER, SUMMARY_COMPLETE, ExportName
 from .pdf_html import Assets, convert
 
-RENDER_VERSION = 3                          # bump to invalidate every PDF (layout/CSS change)
+RENDER_VERSION = 4                          # bump to invalidate every PDF (layout/CSS change)
 OUT_DIR = config.BUILD / "pdf"
 _IMAGE_LINK = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
+
+
+def read_file(path: Path) -> str:
+    return path.read_text(encoding="utf-8")
 
 
 @dataclass
@@ -40,6 +46,7 @@ class Chapter:
     name: ExportName                         # file stem and printed title
     files: list[Path]                        # overview, sections in numeric order, literature
     flat: bool = False                       # keep heading levels as written (learning guides)
+    read: Callable[[Path], str] = read_file  # the markdown of one file as this PDF shows it
     rendered: "Rendered | None" = None
 
 
@@ -58,25 +65,25 @@ def _image_inputs(link: str, base: Path) -> list:
     return [(link, sha256_file(target) if target.is_file() else None)]
 
 
-def input_key(files: list[Path]) -> str:
+def input_key(files: list[Path], read: Callable[[Path], str] = read_file) -> str:
     """Hash of every file that influences the PDF: the markdown and what it shows for each image."""
     parts: list = [RENDER_VERSION]
     for f in files:
-        text = f.read_text(encoding="utf-8")
+        text = read(f)
         parts.append((f.name, key_for(text)))
         for link in _IMAGE_LINK.findall(text):
             parts += _image_inputs(link, f.parent)
     return key_for(*parts)
 
 
-def render_files(files: list[Path], flat: bool = False) -> Rendered:
+def render_files(files: list[Path], flat: bool = False, read: Callable[[Path], str] = read_file) -> Rendered:
     """Markdown files → one paginated document. A chapter overview keeps its h1 as chapter
     level (its subheadings drop to h4), every other file is shifted one level down so bookmarks
     nest chapter > section. `flat` (exam questions, learning guides) keeps heading levels as written."""
     assets, parts, problems = Assets(), [], []
     for index, path in enumerate(files):
         head = index == 0 and not flat
-        converted = convert(path.read_text(encoding="utf-8"), path, assets,
+        converted = convert(read(path), path, assets,
                             heading_shift=0 if flat else (2 if head else 1), h1_shift=0 if head or flat else None)
         parts.append(f'<div class="file">{converted.html}</div>')
         problems += converted.problems
@@ -86,7 +93,7 @@ def render_files(files: list[Path], flat: bool = False) -> Rendered:
 
 def _rendered(chapter: Chapter) -> Rendered:
     if chapter.rendered is None:
-        chapter.rendered = render_files(chapter.files, chapter.flat)
+        chapter.rendered = render_files(chapter.files, chapter.flat, chapter.read)
     return chapter.rendered
 
 
@@ -178,7 +185,9 @@ def run(pages: str | None = None, dry_run: bool = False, force: bool = False, *,
         print(f"[render-pdf] keine Kapitel unter {content_root} – zuerst `build-content` ausführen")
         return 1
     chapters = [Chapter(c.export, c.files) for c in found]
-    summaries = [Chapter(c.summary, [c.guide], flat=True) for c in found if c.guide]
+    summaries = [Chapter(c.summary, [c.guide], flat=True,
+                         read=lambda _path, c=c: guide_figures.guide_text(c.guide, c.files))
+                 for c in found if c.guide]
     stamp_file = out_dir / ".render-pdf-stamps.json"
     stamps = json.loads(stamp_file.read_text(encoding="utf-8")) if stamp_file.exists() else {}
     problems: list[str] = []
@@ -201,7 +210,7 @@ def run(pages: str | None = None, dry_run: bool = False, force: bool = False, *,
     for group, complete in ((chapters, COMPLETE), (summaries, SUMMARY_COMPLETE)):
         if not group:
             continue
-        keys = [input_key(c.files) for c in group]
+        keys = [input_key(c.files, c.read) for c in group]
         for chapter, key in zip(group, keys):
             step(chapter.name, key, lambda path, c=chapter: build_chapter_pdf(c, path, today))
         step(complete, key_for(*keys), lambda path, g=group, n=complete: build_complete_pdf(g, path, today, n))

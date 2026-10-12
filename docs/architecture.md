@@ -152,6 +152,15 @@ SVG, sondern Platzhalter, Beschreibung und Aussage (`meaning`) in Worten. Diese 
 `pipeline/figure_publish.py`; jeder Export ruft sie auf. Je mehr Abbildungen und Tabellen rekonstruiert sind, desto weniger
 Platzhalter bleiben.
 
+**Bilder in den Zusammenfassungen.** Die Lernleitfäden nennen Abbildungen nur im Text. PDF- und
+Markdown-Export lesen einen Leitfaden deshalb über `pipeline/guide_figures.py`: Jede Abbildung und
+Tabelle des Kapitels steht nach dem Absatz (bzw. der ganzen Liste oder Tabelle), der sie in
+„Zusammenhänge und Strukturen“ zuerst nennt, sonst in einem anderen Inhaltsteil. Lernziele,
+Prüfungsfokus, typische Fehler und Selbsttest bekommen nie ein Bild, sie würden die Lösung
+verraten. Was dort oder nirgends genannt ist, sammelt „Weitere Abbildungen des Kapitels“ am Ende des
+Abbildungsteils. Die Leitfaden-Datei selbst bleibt unverändert; `figure_publish` setzt wie überall
+die eigene SVG ein.
+
 **Metadaten (B)** – Schema [`figure-metadata.schema.json`](../schemas/figure-metadata.schema.json):
 `type`, `description`, `axes`, `elements` (jedes Kästchen, jede Beschriftung im Originalwortlaut),
 `relations`, `curves`, `meaning`, `exam_relevance` (Stufe, Begründung, Fragen-IDs),

@@ -2,7 +2,7 @@
 
   build/markdown/GIL-Skriptkapitel-N-<Titel>.md           one file per chapter
   build/markdown/GIL-Gesamtskript.md                      every chapter in one file
-  build/markdown/GIL-Zusammenfassung-Kapitel-N-<Titel>.md the chapter's learning guide
+  build/markdown/GIL-Zusammenfassung-Kapitel-N-<Titel>.md the chapter's learning guide with its pictures
   build/markdown/GIL-Zusammenfassung-gesamt.md            every learning guide in one file
   build/markdown/GIL-Pruefungsfragen.md                   exams/questions.md
   build/markdown/<figure id>.svg                          every reconstruction these files show
@@ -24,7 +24,7 @@ import re
 import shutil
 from pathlib import Path
 
-from . import config, content_files, figure_publish
+from . import config, content_files, figure_publish, guide_figures
 from .cache import write_if_changed
 from .content_files import COMPLETE, EXAMS, FOOTER, SUMMARY_COMPLETE
 from .qa_markdown import split_frontmatter
@@ -94,7 +94,8 @@ def build(base_url: str, today: str) -> tuple[dict[str, str], set[str]]:
         [files[f"{c.export.stem}.md"] for c in chapters])
     guided = [c for c in chapters if c.guide]
     for c in guided:
-        files[f"{c.summary.stem}.md"] = flatten(_body(c.guide), base_url, used) + "\n"
+        guide = split_frontmatter(guide_figures.guide_text(c.guide, c.files))[1].strip()
+        files[f"{c.summary.stem}.md"] = flatten(guide, base_url, used) + "\n"
     if guided:
         files[f"{SUMMARY_COMPLETE.stem}.md"] = _combined(
             SUMMARY_COMPLETE.label, today, [f"- {c.summary.label}" for c in guided],
