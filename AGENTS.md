@@ -5,9 +5,10 @@ Innovation* (TU Graz, Skriptum 2024/25) für KI-gestütztes Lernen auf. Dieses D
 **wo was liegt, welchen Quellen du trauen darfst und wie du in jedem Lernmodus vorgehst**.
 Sprache gegenüber der lernenden Person: **Deutsch**.
 
-> **Änderungen am Repository nur über Pull Requests.** Direkt auf `main` pushen darf allein der
-> Eigentümer (@leobischof). Alle anderen – Menschen wie Agenten – arbeiten auf einem eigenen Branch
-> und öffnen einen PR. Details in [Abschnitt 7](#7--beiträge-branches-und-pull-requests).
+> **Änderungen am Repository nur über Pull Requests – für alle, auch den Eigentümer.** Niemand
+> pusht direkt auf `main`, niemand force-pusht. Jede Änderung: Feature-Branch → Conventional
+> Commits → PR mit grüner CI → Squash-Merge. Details in
+> [Abschnitt 7](#7--beiträge-branches-und-pull-requests).
 
 Vertiefung: [docs/architecture.md](docs/architecture.md) (Formate),
 [docs/pipeline.md](docs/pipeline.md) (Erzeugung, Kosten),
@@ -201,43 +202,79 @@ python -m pipeline.progress reset --thema abb-08 --ja      # nur auf ausdrückli
 
 ## 7 · Beiträge: Branches und Pull Requests
 
-`main` ist geschützt. Diese Regeln gelten für **jede** Person und **jeden** Agenten, die das
-Repository ändern – lies sie, bevor du committest.
+`main` ist geschützt, und zwar für **alle** – auch für den Eigentümer @leobischof und für Agenten,
+die mit seinem Zugang arbeiten. Jede Änderung, ob Inhalt, Code oder Doku, läuft über einen
+Feature-Branch und einen Pull Request. Lies diese Regeln, bevor du committest.
 
-| Wer | Darf direkt auf `main` pushen? | Weg für Änderungen |
-|---|---|---|
-| Eigentümer @leobischof (und Agenten, die in seinem Auftrag mit seinem Zugang arbeiten) | ja | direkt oder per PR |
-| alle anderen (Mitwirkende, ihre Agenten, Bots) | **nein** – GitHub lehnt den Push ab | Branch → Pull Request → Freigabe durch @leobischof |
+### 7.1 Was GitHub erzwingt
 
-Was GitHub für `main` erzwingt (Branch Protection):
+Diese Regeln setzt GitHub serverseitig durch, ohne Ausnahme für Admins:
 
-- Änderungen nur per Pull Request; ein direkter Push wird abgelehnt.
-- Mindestens **eine Freigabe**, und zwar vom Code Owner @leobischof ([`.github/CODEOWNERS`](.github/CODEOWNERS)).
-  Neue Commits im PR machen eine erteilte Freigabe ungültig.
-- Die CI (`qa`: Tests, Validierung, aktuelle Berichte) muss grün sein, und der Branch muss auf dem
-  aktuellen Stand von `main` sein.
-- Alle Diskussionen im PR müssen aufgelöst sein.
-- Kein Force-Push auf `main`, kein Löschen von `main`.
-- Der Eigentümer ist als Admin von diesen Regeln ausgenommen.
+| Regel | Wo |
+|---|---|
+| Kein direkter Push auf `main`, Änderungen nur per Pull Request | Branch Protection `main` |
+| CI-Jobs `qa` und `konventionen` grün, Branch auf dem Stand von `main` | Branch Protection `main` |
+| Alle Diskussionen im PR aufgelöst | Branch Protection `main` |
+| Lineare Historie: nur Squash-Merge, keine Merge-Commits | Branch Protection + Repo-Einstellung |
+| `main` kann nicht gelöscht werden | Branch Protection + Ruleset |
+| **Kein Force-Push auf irgendeinen Branch** | Ruleset „alle Branches: kein Force-Push“ |
+| Neue Branches nur mit erlaubtem Präfix (siehe 7.2) | Ruleset „Branch-Namen“ |
+| Branch wird nach dem Merge automatisch gelöscht | Repo-Einstellung |
 
-So läuft ein Beitrag ab:
+@leobischof ist Code Owner ([`.github/CODEOWNERS`](.github/CODEOWNERS)) und wird zu jedem PR als
+Reviewer angefragt. Eine Freigabe ist nicht Pflicht, weil GitHub niemandem erlaubt, den eigenen PR
+freizugeben – sonst könnte der Eigentümer selbst nichts mehr mergen.
+
+### 7.2 Konventionen (geprüft vom CI-Job `konventionen`)
+
+Quelle der Wahrheit ist [`.github/scripts/conventions.py`](.github/scripts/conventions.py); was dort
+steht, gilt – diese Liste ist nur die Zusammenfassung.
+
+- **Branch-Name:** `präfix/kurz-beschreibung`, nur Kleinbuchstaben, Ziffern und `-._`, z. B.
+  `fix/ocr-seite-51`, `content/abbildung-12`, `feature/neue-uebung`. Präfixe: `feat`, `fix`,
+  `docs`, `content`, `refactor`, `test`, `perf`, `build`, `ci`, `chore`, `style`, `revert`,
+  `feature`, `hotfix`, `release`.
+- **Commit-Titel und PR-Titel** nach Conventional Commits: `typ: beschreibung` oder
+  `typ(bereich): beschreibung`, höchstens 72 Zeichen, kein Punkt am Ende. Typen wie oben ohne
+  `feature`/`hotfix`/`release`; `content` steht für Änderungen an der Wissensbasis selbst, `!` nach
+  dem Typ markiert einen Bruch (`refactor!: …`).
+- Ein Branch hat **ein** Anliegen. Der PR-Titel wird beim Squash-Merge zum Commit auf `main`.
+
+Selbst prüfen, bevor du pushst:
 
 ```bash
-git switch -c fix/ocr-seite-51          # eigener Branch, sprechender Name (feat/…, fix/…, docs/…)
+python .github/scripts/conventions.py branch "$(git branch --show-current)"
+python .github/scripts/conventions.py commits origin/main HEAD
+```
+
+### 7.3 Ablauf
+
+```bash
+git switch main && git pull --ff-only
+git switch -c fix/ocr-seite-51          # Feature-Branch, nie auf main arbeiten
 # … ändern an der Quelle der Wahrheit (Abschnitt 6), Pipeline laufen lassen …
 python -m pipeline offline && python -m pytest
 git add <dateien>                       # gezielt, nie Originale, Fortschritt oder Zugangsdaten
-git commit -m "fix: …"
+git commit -m "fix: OCR-Fehler auf Seite 51"
 git push -u origin fix/ocr-seite-51
-gh pr create --base main --fill         # PR öffnen, dann auf Review warten
+gh pr create --base main --fill         # PR öffnen
+gh pr checks --watch                    # qa und konventionen abwarten
+gh pr merge --squash                    # nur wer mergen darf (siehe unten)
 ```
 
-Für Agenten zusätzlich:
+Ist `main` inzwischen weitergelaufen, den Branch mit `git merge origin/main` (oder in GitHub mit
+„Update branch“) aktualisieren, nicht per Rebase – ein Rebase bräuchte einen Force-Push, und der ist
+gesperrt. Der Squash-Merge hält die Historie auf `main` trotzdem linear. Ein schon gepushter Commit
+wird nicht umgeschrieben, sondern mit einem neuen Commit korrigiert.
 
-- **Nie** direkt auf `main` committen oder pushen, nie `--force`, nie Branch-Schutz oder
-  Repository-Einstellungen ändern – auch dann nicht, wenn der Zugang es technisch erlaubt, außer
-  @leobischof verlangt es ausdrücklich.
-- Den PR nicht selbst mergen; das Mergen ist Sache des Eigentümers.
+**Release und Gist** ([docs/pipeline.md](docs/pipeline.md#veröffentlichen-release-und-gist)) erst,
+wenn die Änderung per PR auf `main` ist; das Tag zeigt immer auf einen Commit von `main`.
+
+### 7.4 Für Agenten zusätzlich
+
+- **Nie** auf `main` committen, nie `--force`/`--force-with-lease`, nie Branch Protection,
+  Rulesets oder Repository-Einstellungen ändern – außer @leobischof verlangt es ausdrücklich.
+- Den eigenen PR **nicht** selbst mergen, außer @leobischof hat genau das für diesen PR verlangt.
 - Im PR-Text sagen, was geändert wurde, welche Quelle es belegt und dass `pipeline offline` und
   `pytest` grün sind; jeden KI-Durchgang wie in Abschnitt 6 protokollieren.
 - Das Repository ist **privat** und bleibt es. Nichts daraus veröffentlichen (kein Fork in ein

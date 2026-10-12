@@ -17,9 +17,10 @@ Ergänzungen für Claude:
   `.venv/Scripts/python` unter Windows). Die Datei ist lokal und wird nie committet.
 - **Zitieren:** „Skript S. X (PDF Y) / sec-X.Y“; Ergänzungen als „Zusatzwissen, nicht im Skript“;
   Unsicherheit aussprechen.
-- **Git:** Nur @leobischof pusht direkt auf `main`. Alle anderen und ihre Agenten arbeiten auf
-  einem Branch und öffnen einen Pull Request; nie selbst mergen, nie `--force` (AGENTS.md
-  Abschnitt 7).
+- **Git:** Niemand pusht direkt auf `main`, auch nicht im Auftrag von @leobischof. Jede Änderung
+  auf einem Feature-Branch (`typ/kurz-beschreibung`), Commits als `typ: beschreibung`, dann Pull
+  Request; nie `--force`, den PR nur mergen, wenn ausdrücklich verlangt (AGENTS.md Abschnitt 7,
+  Regeln in `.github/scripts/conventions.py`).
 - **Pflege statt Lernen:** Wer die Wissensbasis ändert, hält sich an AGENTS.md Abschnitt 6 und
   protokolliert jeden KI-Durchgang über `pipeline/ailog.py` in `curation/ai-log.jsonl`
   (Token-Schätzung, Bilder ≈ 1600 Tokens je Megapixel). Die Pipeline selbst ruft nie ein Modell auf;

@@ -36,8 +36,10 @@ PDFs zusätzlich in einem geheimen Gist ([Veröffentlichen](docs/pipeline.md#ver
 
 ## Mitarbeit
 
-`main` ist geschützt: Direkt pushen darf nur der Eigentümer, alle anderen öffnen einen Pull Request,
-den @leobischof freigibt; die CI muss grün sein. Ablauf und Regeln für Menschen und Agenten:
+`main` ist für alle geschützt, auch für den Eigentümer: Jede Änderung kommt über einen
+Feature-Branch und einen Pull Request mit grüner CI (`qa`, `konventionen`) und wird per Squash
+gemergt. Force-Push ist auf allen Branches gesperrt; Branch-Namen und Commit-Titel folgen
+Conventional Commits. Ablauf und Regeln für Menschen und Agenten:
 [AGENTS.md, Abschnitt 7](AGENTS.md#7--beiträge-branches-und-pull-requests).
 
 ## Pipeline
