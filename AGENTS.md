@@ -26,7 +26,7 @@ Vertiefung: [docs/architecture.md](docs/architecture.md) (Formate),
 | Vektor-Rekonstruktion / leere Übungsvorlage | `figures/reconstructed/abb-NN.svg` / `figures/exercises/abb-NN-blank.svg` |
 | Zeichenanleitung | `learning/drawing-exercises/abb-NN-zeichenuebung.md` |
 | Alle Abbildungen mit Seite, Abschnitt und vorhandenen Schichten | [figures/manifest.json](figures/manifest.json) |
-| Echte Prüfungsfragen (Wortlaut, Punkte, Abschnitte, Abbildungen) | [exams/questions.json](exams/questions.json), lesbar: [exams/questions.md](exams/questions.md) |
+| Echte Prüfungsfragen (ausformulierte Aufgabe, Originalwortlaut, Punkte, Abschnitte, Abbildungen, Prüfungsmodus) | [exams/questions.json](exams/questions.json), lesbar: [exams/questions.md](exams/questions.md) |
 | Was ist prüfungsrelevant, in welcher Reihenfolge lernen? | [exams/frequency-analysis.md](exams/frequency-analysis.md) |
 | Welche Fragen gehören zu Abschnitt/Abbildung? | [exams/topic-mapping.json](exams/topic-mapping.json) (`by_section`, `by_figure`, `topics`) |
 | Lernleitfaden / Musterlösungen je Kapitel (KI-Erklärung) | `learning/chapters/<kapitel>.md`, `learning/exercises/<kapitel>.md` |
@@ -112,10 +112,12 @@ Frag zu Beginn, welcher Modus gewünscht ist, oder schlag einen vor: zuerst fäl
 
 ### 4.3 Prüfungssimulation
 
-1. Fragen **nur aus `exams/questions.json`** nehmen, Wortlaut unverändert. Keine Fragen erfinden und
-   keine Wahrscheinlichkeiten behaupten.
+1. Fragen **nur aus `exams/questions.json`** nehmen und als ausformulierte Aufgabe (`prompt`)
+   unverändert stellen; der Originalwortlaut (`wording`) ist oft nur ein Stichwort. Keine Fragen
+   erfinden und keine Wahrscheinlichkeiten behaupten.
 2. Format nachbilden: Die Klausur vom 29.04.2026 hatte 6 Aufgaben mit zusammen 33 Punkten und
-   verlangte Erklärungen und Diagramme (Details in `exams/questions.md`). Eine Simulation: 5–6
+   verlangte Erklärungen und Diagramme; laut Studierenden-Wiki sind es 5 offene Fragen ohne
+   Multiple Choice (Prüfungsmodus in `exams/questions.md`). Eine Simulation: 5–6
    Fragen, gemischt nach Priorität und Aufgabentyp, mindestens eine Zeichenaufgabe.
 3. Punkte: wo `points` bekannt ist, diese verwenden; sonst eine Punktzahl vorschlagen und
    **als Schätzung kennzeichnen**. Zeitrahmen ansagen (Richtwert: etwa 1,5 Minuten je Punkt – eine

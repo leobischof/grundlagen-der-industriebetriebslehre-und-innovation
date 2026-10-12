@@ -88,11 +88,11 @@ Das Skript ist die Fassung 2024/25 (v2.0); die Prüfungen reichen bis 2026. Was 
 - Vollständig durch das Skript gedeckt: 56 von 61 Fragen.
 - Nur teilweise oder nicht gedeckt: 5 Fragen (unten).
 
-- `frage-2025-02-04-4` (04.02.2025): „6 Kriterien für Innovationsstrategien“ – nur teilweise im Skript. Tabelle 4 im Skript v2.0 listet acht Kriterien, die Frage verlangt sechs (Protokollfehler oder frühere Skriptfassung).
-- `frage-2025-06-16-1` (16.06.2025): „Haupteinteilung von Kosten“ – nur teilweise im Skript. Das Skript nennt nur die Hauptkategorien Personal-, Anlage- (inkl. Overhead) und Materialkosten (9.3.5). Eine ausdrückliche Einteilung etwa in Fix-/variable bzw. Einzel-/Gemeinkosten gibt das Skript nicht an (Fixkosten werden nur im Zusammenhang mit dem Skaleneffekt erwähnt); welche Einteilung gemeint war, ist unklar.
-- `frage-2025-12-11-1` (11.12.2025): „6 kritische Erfolgsfaktoren für Produktinnovation“ – nur teilweise im Skript. Das Skript v2.0 nennt sieben kritische Erfolgsfaktoren (Cooper 2001), die Frage verlangt sechs. Entweder frühere Skriptfassung oder Protokollfehler; Abweichung im Zweifel durch alle sieben Faktoren abdecken.
-- `frage-2026-01-22-1` (22.01.2026): „Nennen Sie vier Merkmale von Industriebetrieben“ – nur teilweise im Skript. Das Skript (3.1.1) beschreibt den Industriebetrieb in Fließtext (Sachgüter, maschinelle Anlagen, weitgehende Arbeitsteilung/Spezialisierung, Abgrenzung zu Dienstleistung und Handwerk), nennt aber keine Liste von genau vier Merkmalen.
-- `frage-2026-01-22-2` (22.01.2026): „Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und Postindustrielle Innovation. Geben Sie jeweils ein Beispiel an.“ – nur teilweise im Skript. Beispiele nennt das Skript nur für die postindustrielle Innovation (Kreditkarten, Leasing, Barcodes, e-business); für Imitation, Modifikation und Prozessinnovation fehlen Beispiele im Skript.
+- `frage-2025-02-04-4` (04.02.2025): Nennen Sie sechs Kriterien für Innovationsstrategien. – nur teilweise im Skript. Tabelle 4 im Skript v2.0 listet acht Kriterien, die Frage verlangt sechs (Protokollfehler oder frühere Skriptfassung).
+- `frage-2025-06-16-1` (16.06.2025): Nennen Sie die Hauptkategorien, in die sich die Kosten der Produktion einteilen lassen. – nur teilweise im Skript. Das Skript nennt nur die Hauptkategorien Personal-, Anlage- (inkl. Overhead) und Materialkosten (9.3.5). Eine ausdrückliche Einteilung etwa in Fix-/variable bzw. Einzel-/Gemeinkosten gibt das Skript nicht an (Fixkosten werden nur im Zusammenhang mit dem Skaleneffekt erwähnt); welche Einteilung gemeint war, ist unklar.
+- `frage-2025-12-11-1` (11.12.2025): Nennen Sie sechs kritische Erfolgsfaktoren für Produktinnovationen. – nur teilweise im Skript. Das Skript v2.0 nennt sieben kritische Erfolgsfaktoren (Cooper 2001), die Frage verlangt sechs. Entweder frühere Skriptfassung oder Protokollfehler; Abweichung im Zweifel durch alle sieben Faktoren abdecken.
+- `frage-2026-01-22-1` (22.01.2026): Nennen Sie vier Merkmale von Industriebetrieben. – nur teilweise im Skript. Das Skript (3.1.1) beschreibt den Industriebetrieb in Fließtext (Sachgüter, maschinelle Anlagen, weitgehende Arbeitsteilung/Spezialisierung, Abgrenzung zu Dienstleistung und Handwerk), nennt aber keine Liste von genau vier Merkmalen.
+- `frage-2026-01-22-2` (22.01.2026): Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und postindustrielle Innovation. Geben Sie jeweils ein Beispiel an. – nur teilweise im Skript. Beispiele nennt das Skript nur für die postindustrielle Innovation (Kreditkarten, Leasing, Barcodes, e-business); für Imitation, Modifikation und Prozessinnovation fehlen Beispiele im Skript.
 
 ## Aufgabentypen und Kompetenzen
 
@@ -117,7 +117,7 @@ Aufgabentyp = erstes Operatorverb der Frage; Kompetenzen = alles, was die Frage 
 | wissen | 61 | 6 |
 | verstehen | 50 | 6 |
 | anwenden | 0 | 0 |
-| zeichnen | 12 | 4 |
+| zeichnen | 16 | 4 |
 | vergleichen | 2 | 0 |
 | berechnen | 1 | 0 |
 
