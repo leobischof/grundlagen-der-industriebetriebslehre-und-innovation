@@ -1,0 +1,72 @@
+id: abb-11
+title: Ansoff Matrix
+type: matrix
+description: >-
+  2×2-Matrix (Produkt-Markt-Matrix nach Ansoff). Die Spalten unterscheiden bestehende und neue
+  Produkte, die Zeilen bestehende und neue Märkte. In den vier Feldern stehen die
+  Wachstumsstrategien Marktdurchdringung, Produktentwicklung, Marktentwicklung und
+  Diversifizierung.
+axes:
+  - {axis: x, label: "Produkte (Bestehende Produkte | Neue Produkte)", unit: null, direction: rechts}
+  - {axis: y, label: "Märkte (Bestehende Märkte | Neue Märkte)", unit: null, direction: unten}
+elements:
+  - {id: s1, kind: label, text: Bestehende Produkte, note: Spaltenkopf links}
+  - {id: s2, kind: label, text: Neue Produkte, note: Spaltenkopf rechts}
+  - {id: z1, kind: label, text: Bestehende Märkte, note: Zeilenkopf oben}
+  - {id: z2, kind: label, text: Neue Märkte, note: Zeilenkopf unten}
+  - {id: f1, kind: box, text: Marktdurchdringungsstrategie, note: "bestehende Produkte × bestehende Märkte (oben links)"}
+  - {id: f2, kind: box, text: Produktentwicklungsstrategie, note: "neue Produkte × bestehende Märkte (oben rechts)"}
+  - {id: f3, kind: box, text: Marktentwicklungsstrategie, note: "bestehende Produkte × neue Märkte (unten links)"}
+  - {id: f4, kind: box, text: Diversifizierungsstrategie, note: "neue Produkte × neue Märkte (unten rechts)"}
+relations:
+  - {from: s1, to: f1, kind: enthält}
+  - {from: z1, to: f1, kind: enthält}
+  - {from: s2, to: f2, kind: enthält}
+  - {from: z1, to: f2, kind: enthält}
+  - {from: s1, to: f3, kind: enthält}
+  - {from: z2, to: f3, kind: enthält}
+  - {from: s2, to: f4, kind: enthält}
+  - {from: z2, to: f4, kind: enthält}
+curves: []
+meaning: >-
+  Die Ansoff-Matrix stellt laut Skript Produkte und Märkte – jeweils bestehend oder neu – einander
+  gegenüber und leitet daraus vier Strategieoptionen für Wachstum ab: Marktdurchdringung
+  (bestehende Produkte auf bestehenden Märkten stärker absetzen, Beispiel Kelloggs),
+  Marktentwicklung (bestehende Produkte auf neuen Märkten, Beispiel Mercedes), Produktentwicklung
+  (neue Produkte für bestehende Märkte) und Diversifikation (neue Produkte auf neuen Märkten).
+  Vorteil ist die Ausrichtung auf die Zukunft; kritisiert wird, dass sie ein großes
+  Wachstumspotenzial unterstellt.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Zweimal gefragt, zuletzt in der Klausur 2026-04-29 (Aufgabe 2, 4 Punkte: Zweck nennen und
+    Matrix skizzieren).
+  question_ids: [frage-2025-02-04-1, frage-2026-04-29-2]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "2×2-Raster mit Spaltenköpfen „Bestehende Produkte“ / „Neue Produkte“"
+    - "Zeilenköpfe „Bestehende Märkte“ / „Neue Märkte“"
+    - "Feld oben links: Marktdurchdringungsstrategie"
+    - "Feld oben rechts: Produktentwicklungsstrategie"
+    - "Feld unten links: Marktentwicklungsstrategie"
+    - "Feld unten rechts: Diversifizierungsstrategie"
+  common_mistakes:
+    - "Produktentwicklung und Marktentwicklung vertauscht (Merkregel: was neu ist, steckt im Namen)"
+    - "Achsen vertauscht, ohne die Felder mitzutauschen"
+    - "Diversifizierung in ein Feld mit bestehenden Produkten oder Märkten gesetzt"
+    - "Achsenköpfe vergessen – dann ist die Matrix nicht lesbar"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-11.svg
+  notes: >-
+    Visuell per Überlagerung mit dem Original geprüft; Layout und Zeilenumbrüche entsprechen dem
+    Original. Schrift Arial statt der (vermutlich) Calibri des Originals, daher minimal andere
+    Laufweiten.
+source:
+  pdf_page: 48
+  printed_page: 38
+  ocr_text_of_labels: >-
+    Bestehende Produkte; Neue Produkte; Bestehende Märkte; Neue Märkte;
+    Marktdurchdringungsstrategie; Produktentwicklungsstrategie; Marktentwicklungsstrategie;
+    Diversifizierungsstrategie

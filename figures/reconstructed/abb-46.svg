@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 705" width="1263" height="705" data-figure-id="abb-46" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Einordnung der Produktionsarten</title>
+  <rect x="0" y="0" width="1263" height="705" fill="#ffffff"/>
+  <rect x="12" y="12" width="1240" height="681" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Horizontal double arrows; the gap leaves room for the axis title -->
+  <g fill="none" stroke="#111111" stroke-width="2">
+    <path d="M670 66 H370"/>
+    <path d="M832 66 H1142"/>
+    <path d="M680 124 H370"/>
+    <path d="M818 124 H1145"/>
+    <!-- Vertical arrow: Prozessablauf -->
+    <path d="M210 185 V285"/>
+    <path d="M210 482 V588"/>
+  </g>
+  <!-- Explicit arrowheads (markers are not rendered by every SVG engine) -->
+  <g fill="#111111">
+    <polygon points="368,66 383,60 383,72"/>
+    <polygon points="1144,66 1129,60 1129,72"/>
+    <polygon points="368,124 383,118 383,130"/>
+    <polygon points="1147,124 1132,118 1132,130"/>
+    <polygon points="210,601 204,585 216,585"/>
+  </g>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="348" y="46" font-size="25">hoch</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1162" y="46" font-size="25" text-anchor="end">gering</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="751" y="75" font-size="24" font-weight="bold" text-anchor="middle">Variabilität</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="348" y="106" font-size="25">niedrig</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1162" y="104" font-size="25" text-anchor="end">hoch</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="749" y="133" font-size="24" font-weight="bold" text-anchor="middle">Volumen</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="207" y="136" font-size="25" text-anchor="middle">Unregelmäßig,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="207" y="166" font-size="25" text-anchor="middle">vielschichtig</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="24" font-weight="bold" text-anchor="middle" transform="translate(218 384) rotate(-90)">Prozessablauf</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="212" y="636" font-size="25" text-anchor="middle">Regelmäßig,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="212" y="666" font-size="25" text-anchor="middle">wiederholt</text>
+
+  <!-- Staircase of production types -->
+  <g fill="#e3e3e3" stroke="#333333" stroke-width="2">
+    <rect x="367" y="171" width="266" height="76"/>
+    <rect x="538" y="271" width="268" height="78"/>
+    <rect x="710" y="374" width="268" height="77"/>
+    <rect x="882" y="474" width="264" height="78"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="500" y="218" font-size="24" font-weight="bold" text-anchor="middle">Einmalproduktion</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="672" y="303" font-size="24" font-weight="bold" text-anchor="middle">Einzel- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="672" y="336" font-size="24" font-weight="bold" text-anchor="middle">Kleinserienfertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="844" y="421" font-size="24" font-weight="bold" text-anchor="middle">Serienfertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1014" y="521" font-size="24" font-weight="bold" text-anchor="middle">Massenfertigung</text>
+</svg>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1194 721" width="1194" height="721" data-figure-id="abb-37" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Stage-Gate-Prozess nach Cooper – Zeichenübung (leer)</title>
+  <desc>Leere Zeichenübung: 23 Lösungselemente entfernt; gestrichelte Kästen markieren, wo Text hingehört.</desc>
+  <defs>
+    <marker id="tip" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1194" height="721" fill="#ffffff" />
+  <!-- frame of the original figure -->
+  <rect x="8" y="8" width="1178" height="704" fill="none" stroke="#000" stroke-width="2" />
+
+  <!-- overall direction arrow -->
+  <polygon points="290,55 995,55 995,30 1085,80 995,132 995,105 290,105" fill="#3a3a3a" />
+  <rect class="placeholder" x="433.0" y="66.8" width="470.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- flow lines between the stages -->
+  <g stroke="#000" stroke-width="2.5" fill="none" marker-end="url(#tip)">
+    <polyline points="43,148 43,256" />
+    <line x1="181" y1="393" x2="288" y2="393" />
+    <line x1="425" y1="393" x2="534" y2="393" />
+    <line x1="670" y1="393" x2="776" y2="393" />
+    <line x1="912" y1="393" x2="1017" y2="393" />
+    <polyline points="1152,393 1152,501" />
+  </g>
+
+  <!-- stages (dark boxes) -->
+  <g fill="#333333">
+    <rect x="43" y="12" width="139" height="136" />
+    <rect x="43" y="258" width="138" height="135" />
+    <rect x="290" y="258" width="135" height="135" />
+    <rect x="536" y="258" width="134" height="135" />
+    <rect x="778" y="258" width="134" height="135" />
+    <rect x="1019" y="258" width="133" height="135" />
+    <rect x="1019" y="503" width="133" height="134" />
+  </g>
+  <!-- gates (diamonds) -->
+  <g fill="#555555">
+    <polygon points="113,158 159,203 113,249 67,203" />
+    <polygon points="236,284 282,330 236,376 190,330" />
+    <polygon points="480,284 526,330 480,376 434,330" />
+    <polygon points="724,284 770,330 724,376 678,330" />
+    <polygon points="968,284 1014,330 968,376 922,330" />
+  </g>
+
+  <!-- texts inside boxes and gates -->
+  <g font-size="21" fill="#ffffff">
+    <rect class="placeholder" x="63.9" y="51.2" width="96.2" height="61.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="63.9" y="311.2" width="96.2" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="309.9" y="313.2" width="96.2" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="554.9" y="313.2" width="96.2" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="796.9" y="313.2" width="96.2" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="1036.9" y="313.2" width="96.2" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="1085" y="604" font-size="96" font-weight="bold" text-anchor="middle">€</text>
+  </g>
+  <g font-size="19" fill="#ffffff">
+    <rect class="placeholder" x="86.2" y="178.8" width="53.6" height="51.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="209.2" y="305.8" width="53.6" height="51.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="453.2" y="305.8" width="53.6" height="51.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="697.2" y="305.8" width="53.6" height="51.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="941.2" y="305.8" width="53.6" height="51.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+
+  <!-- gate decisions (above) and stage activities (below) -->
+  <g font-size="19" fill="#000">
+    <rect class="placeholder" x="189.0" y="134.8" width="110.6" height="54.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="181.7" y="199.8" width="110.6" height="54.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="413.3" y="199.8" width="133.4" height="54.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="685.8" y="199.8" width="76.4" height="54.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="929.8" y="199.8" width="76.4" height="54.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="68.1" y="399.8" width="87.8" height="27.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="279.9" y="399.8" width="156.2" height="54.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="535.3" y="399.8" width="133.4" height="27.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="778.3" y="399.8" width="133.4" height="54.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="1045.8" y="401.8" width="76.4" height="27.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="875.3" y="545.8" width="133.4" height="55.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+</svg>

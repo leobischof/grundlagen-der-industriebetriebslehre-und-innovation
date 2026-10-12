@@ -1,0 +1,81 @@
+id: abb-45
+title: Typologisierung von Produktionssystemen
+type: hierarchie
+description: >-
+  Baumdiagramm: Der Wurzelkasten „Produktionssysteme“ verzweigt in zwei Typologien. Links die
+  „Produktionsart“ mit dem Kriterium „nach mengenmäßigen Auftragsumfang und die
+  Wiederholhäufigkeit“ und den Ausprägungen Einmalproduktion, Einzel- und Kleinserienfertigung,
+  Serienfertigung, Massenfertigung. Rechts die „Fertigungsform“ mit dem Kriterium „nach räumlicher
+  Anordnung“ und den Ausprägungen Punkt-, Werkstatt-, Gruppen-, Reihen- und Fließfertigung.
+axes: []
+elements:
+  - {id: root, kind: box, text: Produktionssysteme, note: Wurzel, dunkelgrau}
+  - {id: pa, kind: box, text: Produktionsart, note: linker Ast}
+  - {id: pa_k, kind: box, text: "nach mengenmäßigen Auftragsumfang und die Wiederholhäufigkeit", note: "Gliederungskriterium (Wortlaut wie im Original, grammatisch holprig)"}
+  - {id: pa1, kind: label, text: Einmalproduktion}
+  - {id: pa2, kind: label, text: Einzel- und Kleinserienfertigung}
+  - {id: pa3, kind: label, text: Serienfertigung}
+  - {id: pa4, kind: label, text: Massenfertigung}
+  - {id: ff, kind: box, text: Fertigungsform, note: rechter Ast}
+  - {id: ff_k, kind: box, text: nach räumlicher Anordnung, note: Gliederungskriterium}
+  - {id: ff1, kind: label, text: Punktfertigung}
+  - {id: ff2, kind: label, text: Werkstattfertigung}
+  - {id: ff3, kind: label, text: Gruppenfertigung}
+  - {id: ff4, kind: label, text: Reihenfertigung}
+  - {id: ff5, kind: label, text: Fließfertigung}
+relations:
+  - {from: root, to: pa, kind: enthält}
+  - {from: root, to: ff, kind: enthält}
+  - {from: pa, to: pa_k, kind: folgt, text: Kriterium}
+  - {from: ff, to: ff_k, kind: folgt, text: Kriterium}
+  - {from: pa_k, to: pa1, kind: enthält}
+  - {from: pa_k, to: pa2, kind: enthält}
+  - {from: pa_k, to: pa3, kind: enthält}
+  - {from: pa_k, to: pa4, kind: enthält}
+  - {from: ff_k, to: ff1, kind: enthält}
+  - {from: ff_k, to: ff2, kind: enthält}
+  - {from: ff_k, to: ff3, kind: enthält}
+  - {from: ff_k, to: ff4, kind: enthält}
+  - {from: ff_k, to: ff5, kind: enthält}
+curves: []
+meaning: >-
+  Produktionssysteme werden im Skript (8.2.1) nach zwei Merkmalen typologisiert. Die
+  Produktionsart richtet sich nach dem mengenmäßigen Auftragsumfang und der Wiederholhäufigkeit
+  (Einmal-, Einzel- und Kleinserien-, Serien-, Massenproduktion; Spezialfall: kontinuierliche
+  Produktion der Prozessindustrie). Die Fertigungsform beschreibt die räumliche Anordnung der
+  Betriebsmittel (Punkt-, Werkstatt-, Gruppen-, Reihen-, Fließfertigung). Laut Skript wird die
+  Fertigungsform maßgeblich von der Produktionsart vorgegeben (siehe Abbildung 50).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json dreimal abgefragt: Produktionsarten beschreiben (2024-03-14),
+    Typologien der Produktionsprozesse (2024-12-10), Fertigungsarten aufzählen und erklären
+    (2025-04-09). Die Abbildung ist das Gerüst für alle drei Fragen.
+  question_ids: [frage-2024-03-14-2, frage-2024-12-10-4, frage-2025-04-09-4]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Zwei Äste: Produktionsart und Fertigungsform"
+    - "Kriterien: mengenmäßiger Auftragsumfang + Wiederholhäufigkeit bzw. räumliche Anordnung"
+    - "4 Produktionsarten in Reihenfolge steigender Stückzahl"
+    - "5 Fertigungsformen von Punkt- bis Fließfertigung"
+  common_mistakes:
+    - "Produktionsart und Fertigungsform vertauscht oder vermischt (z. B. „Werkstattproduktion“)"
+    - "Gliederungskriterien weggelassen"
+    - "Gruppen- und Reihenfertigung vergessen (nur Werkstatt- und Fließfertigung genannt)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-45.svg
+  notes: >-
+    Visuell per Nebeneinander-Vergleich mit dem Original geprüft; Kastenpositionen und Grautöne
+    angenähert. Der Wurzelkasten „Produktionssysteme“ ist bewusst kein Lösungselement (Vorgabe der
+    Übung), alle übrigen Texte sind class="answer". Wortlaut „nach mengenmäßigen Auftragsumfang und
+    die Wiederholhäufigkeit“ unverändert aus dem Original übernommen.
+source:
+  pdf_page: 129
+  printed_page: 119
+  ocr_text_of_labels: >-
+    Produktionssysteme; Produktionsart; nach mengenmäßigen Auftragsumfang und die
+    Wiederholhäufigkeit; Einmalproduktion; Einzel- und Kleinserienfertigung; Serienfertigung;
+    Massenfertigung; Fertigungsform; nach räumlicher Anordnung; Punktfertigung;
+    Werkstattfertigung; Gruppenfertigung; Reihenfertigung; Fließfertigung

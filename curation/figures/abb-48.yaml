@@ -1,0 +1,53 @@
+id: abb-48
+title: Gruppenfertigung
+type: flussdiagramm
+description: >-
+  Drei rosa hinterlegte Bereiche „Produkt Gruppe A“, „Produkt Gruppe B“ und „Produkt Gruppe C“.
+  Jeder Bereich enthält mehrere dunkle Maschinenkästen mit Buchstaben (C, W, D, G), die durch
+  Materialflusspfeile verbunden sind: Gruppe A: C → W sowie ein zweiter Strang zu D; Gruppe B:
+  G → D und C → W, von W ein Pfeil nach oben zu D; Gruppe C: C, darunter D → G, von D ein Pfeil
+  nach oben zu C. Material tritt jeweils links ein und rechts aus.
+axes: []
+elements:
+  - {id: ga, kind: box, text: Produkt Gruppe A, note: "Insel mit Maschinen C, W, D"}
+  - {id: gb, kind: box, text: Produkt Gruppe B, note: "Insel mit Maschinen G, D, C, W"}
+  - {id: gc, kind: box, text: Produkt Gruppe C, note: "Insel mit Maschinen C, D, G"}
+  - {id: m, kind: label, text: "C, W, D, G", note: "Maschinentypen; Buchstaben werden im Skript nicht erklärt"}
+relations:
+  - {from: ga, to: ga, kind: pfeil, text: "C → W; zweiter Strang direkt zu D"}
+  - {from: gb, to: gb, kind: pfeil, text: "G → D; C → W → D"}
+  - {from: gc, to: gc, kind: pfeil, text: "D → G; D → C"}
+curves: []
+meaning: >-
+  Gruppenfertigung (Nest-, Insel- oder Zellenfertigung) fasst laut Skript (8.2.1) die für gleiche
+  oder verwandte Teilprozesse erforderlichen Maschinen und Arbeitsplätze verschiedener Art und
+  Funktion örtlich zusammen – im Bild je eine Insel pro Produktgruppe mit unterschiedlichen
+  Maschinentypen. Die Maschinen sind oft ringförmig angeordnet, mit flexiblen Transportmitteln
+  verbunden und meist Universalmaschinen. Gegensatz zur Werkstattfertigung, die gleichartige
+  Maschinen nach dem Verrichtungsprinzip zusammenfasst.
+exam_relevance:
+  level: mittel
+  reason: >-
+    Teil der Fragen zu Fertigungsformen/Typologien (2025-04-09, 2024-12-10). Zuordnung über
+    Abschnitt 8.2.1 in exams/topic-mapping.json; by_figure nennt abb-48 nicht.
+  question_ids: [frage-2024-12-10-4, frage-2025-04-09-4]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Je Produktgruppe eine abgegrenzte Insel"
+    - "In jeder Insel unterschiedliche Maschinentypen in Flussrichtung verbunden"
+  common_mistakes:
+    - "Gleichartige Maschinen zusammengefasst (das wäre Werkstattfertigung)"
+    - "Inseln nicht nach Produktgruppen benannt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-48.svg
+  notes: >-
+    Visuell per Nebeneinander-Vergleich geprüft. Nur die drei Gruppennamen sind Lösungselemente;
+    die Maschinenbuchstaben C/W/D/G sind generische Platzhalter (im Skript nicht erklärt) und
+    bleiben in der Übung stehen. Rosa Hintergrund und Grautöne angenähert. Die Bedeutung der
+    Buchstaben (vermutlich z. B. Drehen/Fräsen …) ist unsicher und wird nicht behauptet.
+source:
+  pdf_page: 132
+  printed_page: 122
+  ocr_text_of_labels: "Produkt Gruppe A; Produkt Gruppe B; Produkt Gruppe C; C; W; D; G"

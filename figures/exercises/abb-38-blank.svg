@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1288 247" width="1288" height="247" data-figure-id="abb-38" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Aufbau eines Gates – Zeichenübung (leer)</title>
+  <desc>Leere Zeichenübung: 3 Lösungselemente entfernt; gestrichelte Kästen markieren, wo Text hingehört.</desc>
+  <rect x="0" y="0" width="1288" height="247" fill="#ffffff" />
+  <!-- frame of the original figure -->
+  <rect x="9" y="12" width="1270" height="226" fill="none" stroke="#000" stroke-width="2" />
+
+  <!-- three building blocks of a gate -->
+  <circle cx="239" cy="125" r="95" fill="#5a5a5a" />
+  <polygon points="628,30 723,125 628,220 533,125" fill="#3c3c3c" />
+  <circle cx="1026" cy="125" r="96" fill="#5a5a5a" />
+
+  <!-- flow arrows -->
+  <g stroke="#000" stroke-width="2.5">
+    <line x1="338" y1="125" x2="518" y2="125" />
+    <line x1="723" y1="125" x2="914" y2="125" />
+  </g>
+  <polygon points="535,125 515,117 515,133" fill="#000" />
+  <polygon points="931,125 911,117 911,133" fill="#000" />
+
+  <g font-size="27" fill="#ffffff" text-anchor="middle">
+    <rect class="placeholder" x="161.8" y="109.4" width="156.5" height="36.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="557.2" y="109.4" width="141.6" height="36.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="970.0" y="109.4" width="111.9" height="36.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+</svg>

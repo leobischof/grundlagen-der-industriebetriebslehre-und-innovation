@@ -1,0 +1,61 @@
+id: abb-50
+title: Zusammenhang - Produktionsart & Fertigungsform
+type: matrix
+description: >-
+  Diagramm mit x-Achse „Stückzahlen“ und y-Achse „Grad der Spezialisierung“. Entlang der x-Achse
+  liegen drei Felder mit zunehmendem Grau: Einzelproduktion, Serienproduktion, Massenproduktion.
+  Darüber stehen fünf Balken als Treppe nach rechts oben: Punktfertigung, Werkstattfertigung,
+  Gruppenfertigung, Reihenfertigung, Fließfertigung. Jeder Balken überdeckt den Stückzahlbereich,
+  in dem die Fertigungsform eingesetzt wird.
+axes:
+  - {axis: x, label: Stückzahlen, unit: null, direction: rechts}
+  - {axis: y, label: Grad der Spezialisierung, unit: null, direction: oben}
+elements:
+  - {id: x1, kind: box, text: Einzelproduktion, note: x-Achse, links}
+  - {id: x2, kind: box, text: Serienproduktion, note: x-Achse, Mitte}
+  - {id: x3, kind: box, text: Massenproduktion, note: x-Achse, rechts}
+  - {id: f1, kind: box, text: Punktfertigung, note: "unten; nur Einzelproduktion"}
+  - {id: f2, kind: box, text: Werkstattfertigung, note: "Einzel- bis Anfang Serienproduktion"}
+  - {id: f3, kind: box, text: Gruppenfertigung, note: "späte Einzel- bis frühe Massenproduktion"}
+  - {id: f4, kind: box, text: Reihenfertigung, note: "Serien- bis frühe Massenproduktion"}
+  - {id: f5, kind: box, text: Fließfertigung, note: "oben; späte Serien- und Massenproduktion"}
+relations:
+  - {from: f1, to: f2, kind: folgt, text: "Spezialisierung und Stückzahl steigen"}
+  - {from: f2, to: f3, kind: folgt}
+  - {from: f3, to: f4, kind: folgt}
+  - {from: f4, to: f5, kind: folgt}
+curves: []
+meaning: >-
+  Die Abbildung verbindet die beiden Typologien aus Abbildung 45: Die Fertigungsform wird laut
+  Skript (8.2.1) maßgeblich von der Produktionsart vorgegeben. Mit steigender Stückzahl steigt der
+  Grad der Spezialisierung – von der Punktfertigung (Einzelproduktion, z. B. Schiffsbau) über
+  Werkstatt- und Gruppenfertigung (Universalmaschinen) bis zu Reihen- und Fließfertigung
+  (Spezialmaschinen, Fördersysteme, Massenproduktion). Die Bereiche überlappen sich.
+exam_relevance:
+  level: mittel
+  reason: >-
+    Liefert die Zuordnung Produktionsart ↔ Fertigungsform für die Fragen 2025-04-09 und 2024-12-10.
+    Zuordnung über Abschnitt 8.2.1 in exams/topic-mapping.json; by_figure nennt abb-50 nicht.
+  question_ids: [frage-2024-12-10-4, frage-2025-04-09-4]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Achsen: Stückzahlen (x), Grad der Spezialisierung (y)"
+    - "Drei Produktionsarten auf der x-Achse"
+    - "Fünf Fertigungsformen als Treppe in richtiger Reihenfolge"
+  common_mistakes:
+    - "Reihen- und Fließfertigung vertauscht"
+    - "Balken ohne Überlappung gezeichnet (Fertigungsformen decken jeweils mehrere Stückzahlbereiche ab)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-50.svg
+  notes: >-
+    Visuell per Nebeneinander-Vergleich geprüft. Balkengrenzen auf wenige Pixel genau übernommen;
+    Grautöne angenähert. Achsentitel und alle Kastentexte sind Lösungselemente. Die x-Achse nennt
+    hier „Einzelproduktion“ (nicht „Einmalproduktion“ wie in Abb. 45/46) – Wortlaut beibehalten.
+source:
+  pdf_page: 134
+  printed_page: 124
+  ocr_text_of_labels: >-
+    Grad der Spezialisierung; Stückzahlen; Einzelproduktion; Serienproduktion; Massenproduktion;
+    Punktfertigung; Werkstattfertigung; Gruppenfertigung; Reihenfertigung; Fließfertigung

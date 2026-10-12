@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 705" width="1263" height="705" data-figure-id="abb-46" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Einordnung der Produktionsarten – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1263" height="705" fill="#ffffff" />
+  <rect x="12" y="12" width="1240" height="681" fill="none" stroke="#555555" stroke-width="2" />
+
+  <!-- Horizontal double arrows; the gap leaves room for the axis title -->
+  <g fill="none" stroke="#111111" stroke-width="2">
+    <path d="M670 66 H370" />
+    <path d="M832 66 H1142" />
+    <path d="M680 124 H370" />
+    <path d="M818 124 H1145" />
+    <!-- Vertical arrow: Prozessablauf -->
+    <path d="M210 185 V285" />
+    <path d="M210 482 V588" />
+  </g>
+  <!-- Explicit arrowheads (markers are not rendered by every SVG engine) -->
+  <g fill="#111111">
+    <polygon points="368,66 383,60 383,72" />
+    <polygon points="1144,66 1129,60 1129,72" />
+    <polygon points="368,124 383,118 383,130" />
+    <polygon points="1147,124 1132,118 1132,130" />
+    <polygon points="210,601 204,585 216,585" />
+  </g>
+
+  <rect class="placeholder" x="344.0" y="22.0" width="63.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1075.5" y="22.0" width="90.5" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="660.6" y="51.8" width="180.8" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="344.0" y="82.0" width="104.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1103.0" y="80.0" width="63.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="694.6" y="109.8" width="108.8" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <rect class="placeholder" x="113.6" y="112.0" width="186.8" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="113.6" y="142.0" width="186.8" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="-97.6" y="-23.2" width="195.2" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" transform="translate(218 384) rotate(-90)" />
+  <rect class="placeholder" x="132.4" y="612.0" width="159.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="139.2" y="642.0" width="145.5" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Staircase of production types -->
+  <g fill="#e3e3e3" stroke="#333333" stroke-width="2">
+    <rect x="367" y="171" width="266" height="76" />
+    <rect x="538" y="271" width="268" height="78" />
+    <rect x="710" y="374" width="268" height="77" />
+    <rect x="882" y="474" width="264" height="78" />
+  </g>
+  <rect class="placeholder" x="380.8" y="194.8" width="238.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="588.8" y="279.8" width="166.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="524.0" y="312.8" width="296.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="732.0" y="397.8" width="224.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="902.0" y="497.8" width="224.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

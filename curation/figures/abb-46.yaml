@@ -1,0 +1,65 @@
+id: abb-46
+title: Einordnung der Produktionsarten
+type: matrix
+description: >-
+  Treppendiagramm mit drei Dimensionen: Oben zwei waagrechte Doppelpfeile – „Variabilität“ von hoch
+  (links) nach gering (rechts) und „Volumen“ von niedrig (links) nach hoch (rechts). Links ein
+  senkrechter Pfeil „Prozessablauf“ von „Unregelmäßig, vielschichtig“ (oben) nach „Regelmäßig,
+  wiederholt“ (unten). Diagonal von links oben nach rechts unten liegen vier Kästen:
+  Einmalproduktion, Einzel- und Kleinserienfertigung, Serienfertigung, Massenfertigung.
+axes:
+  - {axis: x, label: Variabilität, unit: null, direction: "rechts (hoch → gering)"}
+  - {axis: x, label: Volumen, unit: null, direction: "rechts (niedrig → hoch)"}
+  - {axis: y, label: Prozessablauf, unit: null, direction: "unten (unregelmäßig, vielschichtig → regelmäßig, wiederholt)"}
+elements:
+  - {id: var, kind: achse, text: Variabilität, note: "Pole: hoch (links), gering (rechts)"}
+  - {id: vol, kind: achse, text: Volumen, note: "Pole: niedrig (links), hoch (rechts)"}
+  - {id: pro, kind: achse, text: Prozessablauf, note: "Pole: Unregelmäßig, vielschichtig (oben); Regelmäßig, wiederholt (unten)"}
+  - {id: p1, kind: box, text: Einmalproduktion, note: links oben}
+  - {id: p2, kind: box, text: Einzel- und Kleinserienfertigung}
+  - {id: p3, kind: box, text: Serienfertigung}
+  - {id: p4, kind: box, text: Massenfertigung, note: rechts unten}
+relations:
+  - {from: p1, to: p2, kind: folgt, text: "Volumen steigt, Variabilität sinkt"}
+  - {from: p2, to: p3, kind: folgt}
+  - {from: p3, to: p4, kind: folgt}
+curves: []
+meaning: >-
+  Die Abbildung ordnet die Produktionsarten (8.2.1) entlang dreier gekoppelter Merkmale: Je höher
+  das Volumen, desto geringer die Variabilität und desto regelmäßiger und wiederholter der
+  Prozessablauf. Einmalproduktion (Menge 1, z. B. Anlagenbau) hat hohe Variabilität und
+  unregelmäßige Abläufe; Einzel- und Kleinserienfertigung (Jobbing, hochqualifizierte
+  Mitarbeiter, Allzweckgeräte, geringe Auslastung); Serienfertigung (Batch, Losgrößen zwischen zwei
+  und einigen hundert); Massenfertigung (sehr große Lose, spezialisierte Produktionsmittel,
+  ausgetaktete Linie, z. B. Automobilproduktion) mit regelmäßigen, wiederholten Abläufen.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json abgefragt; 2026-01-22 wird ausdrücklich eine Skizze zu
+    Variabilität, Volumen und Prozessablauf verlangt. Dazu Produktionsarten beschreiben (2024-03-14)
+    und Typologien der Produktionsprozesse (2024-12-10).
+  question_ids: [frage-2024-03-14-2, frage-2024-12-10-4, frage-2026-01-22-3]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Drei Dimensionen beschriften: Variabilität, Volumen, Prozessablauf"
+    - "Pole richtig: Variabilität hoch → gering, Volumen niedrig → hoch, Prozessablauf unregelmäßig → regelmäßig"
+    - "4 Produktionsarten als Treppe von links oben nach rechts unten"
+  common_mistakes:
+    - "Richtung der Variabilität umgedreht (sie sinkt mit steigendem Volumen)"
+    - "Prozessablauf-Pole vertauscht"
+    - "Fertigungsformen statt Produktionsarten in die Treppe geschrieben"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-46.svg
+  notes: >-
+    Visuell per Nebeneinander-Vergleich geprüft. Pfeilspitzen als explizite Polygone (statt
+    SVG-Marker) gezeichnet; der linke Pfeil „Prozessablauf“ hat im Original nur unten eine Spitze,
+    so übernommen. Alle Texte inkl. Achsenbeschriftungen und Pole sind Lösungselemente.
+source:
+  pdf_page: 131
+  printed_page: 121
+  ocr_text_of_labels: >-
+    hoch; gering; Variabilität; niedrig; hoch; Volumen; Unregelmäßig, vielschichtig;
+    Prozessablauf; Regelmäßig, wiederholt; Einmalproduktion; Einzel- und Kleinserienfertigung;
+    Serienfertigung; Massenfertigung

@@ -1,0 +1,75 @@
+id: abb-15
+title: Industriebetrieb als Arbeitssystem
+type: system
+description: >-
+  Arbeitssystem nach REFA: Eine gestrichelte große Ellipse bildet die Systemgrenze, darin liegt
+  eine kleinere durchgezogene Ellipse mit den Kreisen Mensch und Betriebsmittel, die über
+  Prozesspfeile verbunden sind (Prozess, Arbeitsablauf). Ein Blockpfeil Eingabe führt von links
+  hinein, ein Blockpfeil Ausgabe nach rechts hinaus. Von oben wirken Unternehmensziel und
+  Arbeitsaufgabe über Pfeile auf das System, ein Doppelpfeil zeigt die Umwelteinflüsse.
+axes: []
+elements:
+  - {id: e1, kind: label, text: Unternehmensziel, note: oberhalb der Systemgrenze; Pfeil nach unten}
+  - {id: e2, kind: label, text: Arbeitsaufgabe, note: innerhalb der Systemgrenze; Pfeil nach unten auf das Arbeitssystem}
+  - {id: e3, kind: label, text: Umwelteinflüsse, note: Doppelpfeil auf der Grenze des inneren Systems}
+  - {id: e4, kind: pfeil, text: Eingabe, note: Blockpfeil von links}
+  - {id: e5, kind: kreis, text: Mensch, note: oberer grauer Kreis}
+  - {id: e6, kind: kreis, text: Betriebsmittel, note: "unterer grauer Kreis (im Bild „Betriebs-mittel“)"}
+  - {id: e7, kind: pfeil, text: Ausgabe, note: Blockpfeil nach rechts}
+  - {id: e8, kind: label, text: Prozess, note: zwischen Eingabe und den beiden Kreisen}
+  - {id: e9, kind: label, text: Arbeitsablauf, note: "zwischen den Kreisen und der Ausgabe (im Bild „Arbeits-ablauf“)"}
+  - {id: e10, kind: kreis, text: null, note: gestrichelte äußere Ellipse = Systemgrenze}
+  - {id: e11, kind: kreis, text: null, note: innere Ellipse = Arbeitssystem mit Mensch und Betriebsmittel}
+relations:
+  - {from: e1, to: e2, kind: pfeil}
+  - {from: e2, to: e11, kind: pfeil}
+  - {from: e3, to: e11, kind: pfeil, text: wirkt in beide Richtungen}
+  - {from: e4, to: e5, kind: pfeil, text: Prozess}
+  - {from: e4, to: e6, kind: pfeil, text: Prozess}
+  - {from: e5, to: e6, kind: pfeil, text: wirken zusammen (Doppelpfeil)}
+  - {from: e5, to: e7, kind: pfeil, text: Arbeitsablauf}
+  - {from: e6, to: e7, kind: pfeil, text: Arbeitsablauf}
+  - {from: e10, to: e11, kind: enthält}
+curves: []
+meaning: >-
+  Ein Arbeitssystem dient laut Skript der Erfüllung von Arbeitsaufgaben: Mensch und Betriebsmittel
+  wirken mit der Eingabe unter Umwelteinflüssen zusammen. Die Arbeitsaufgabe ist der Zweck des
+  Systems (abgeleitet aus dem Unternehmensziel), der Arbeitsablauf bzw. Prozess beschreibt das
+  räumliche und zeitliche Zusammenwirken. Eingabe sind Arbeitsgegenstände, Menschen, Informationen
+  und Energie; die Ausgabe ist das veränderte Ergebnis. Mensch und Betriebsmittel bilden die
+  Kapazitäten. Umwelteinflüsse sind physikalisch (Umgebungseinflüsse wie Klima, Lärm, Licht),
+  organisatorisch und sozial. Aus Ein- und Ausgabe lassen sich Kenngrößen wie Produktivität und
+  Wirtschaftlichkeit ableiten.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Zweimal gefragt, zuletzt in der Klausur 2026-04-29 (Aufgabe 4, 6 Punkte: skizzieren und
+    Komponenten kurz erklären).
+  question_ids: [frage-2025-12-11-2, frage-2026-04-29-4]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Systemgrenze (gestrichelt) mit innerem Arbeitssystem"
+    - "Eingabe links hinein, Ausgabe rechts hinaus"
+    - "Mensch und Betriebsmittel als Kreise im Inneren, verbunden durch einen Doppelpfeil"
+    - "Prozess (Eingabe → Mensch/Betriebsmittel) und Arbeitsablauf (→ Ausgabe) beschriften"
+    - "Arbeitsaufgabe von oben, abgeleitet aus dem Unternehmensziel"
+    - "Umwelteinflüsse als Doppelpfeil an der Grenze"
+  common_mistakes:
+    - "Unternehmensziel oder Arbeitsaufgabe vergessen"
+    - "Umwelteinflüsse als einfacher statt als Doppelpfeil (sie wirken wechselseitig)"
+    - "Mensch und Betriebsmittel hintereinander statt parallel angeordnet"
+    - "Eingabe/Ausgabe ohne Bezug zu den Kapazitäten gezeichnet"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-15.svg
+  notes: >-
+    Visuell per Überlagerung mit dem Original geprüft. Ellipsen, Kreise und Blockpfeile
+    entsprechen dem Original bis auf wenige Pixel; Graustufen angenähert. Die Silbentrennungen
+    „Betriebs-mittel“ und „Arbeits-ablauf“ sind übernommen.
+source:
+  pdf_page: 60
+  printed_page: 50
+  ocr_text_of_labels: >-
+    Unternehmensziel; Arbeitsaufgabe; Umwelteinflüsse; Mensch; Eingabe; Prozess; Arbeits-ablauf;
+    Ausgabe; Betriebs-mittel

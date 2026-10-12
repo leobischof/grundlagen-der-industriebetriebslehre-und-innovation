@@ -1,0 +1,71 @@
+id: abb-70
+title: ABC Analyse
+type: kurvendiagramm
+description: >-
+  Konzentrationskurven (Lorenz-/Pareto-Kurven): x-Achse „Mengenanteil [%]“, y-Achse
+  „Wertanteil [%]“, beide 0–100 mit Raster alle 20 %. Fünf konkave Kurven verlaufen vom Ursprung
+  zum Punkt (100 %, 100 %); je steiler, desto stärker konzentriert sich der Wert auf wenige
+  Artikel. Vier Beschriftungen mit nach links zeigenden Pfeilen: „Technologische Produkte“,
+  „Fertigungsindustrie“, „Großhandel“, „Einzelhandel“. Unten markieren Pfeile die Klassen
+  „A“ (bis 20 %), „B“ (bis ca. 55 %) und „C“ (bis 100 % Mengenanteil).
+axes:
+  - {axis: x, label: Mengenanteil, unit: "%", direction: rechts}
+  - {axis: y, label: Wertanteil, unit: "%", direction: oben}
+elements:
+  - {id: k1, kind: label, text: Technologische Produkte, note: Pfeil endet bei ca. 70 % Wertanteil nahe der y-Achse}
+  - {id: k2, kind: label, text: Fertigungsindustrie, note: Pfeil bei ca. 55 % Wertanteil}
+  - {id: k3, kind: label, text: Großhandel, note: Pfeil bei ca. 45 % Wertanteil}
+  - {id: k4, kind: label, text: Einzelhandel, note: "Pfeil bei ca. 26 % Wertanteil; flacher Bereich"}
+  - {id: a, kind: pfeil, text: A, note: "endet bei 20 % Mengenanteil"}
+  - {id: b, kind: pfeil, text: B, note: "endet mit Querstrich bei ca. 53 % Mengenanteil"}
+  - {id: c, kind: pfeil, text: C, note: "endet bei 100 % Mengenanteil"}
+relations:
+  - {from: k1, to: k4, kind: folgt, text: "Konzentration nimmt von Technologischen Produkten zum Einzelhandel ab"}
+  - {from: a, to: b, kind: folgt}
+  - {from: b, to: c, kind: folgt}
+curves:
+  - {name: steilste Kurve, shape: "verläuft fast senkrecht entlang der y-Achse bis ca. 75 % Wertanteil, dann flach", key_points: "ca. 80 % Wert bei 2 % Menge, ca. 95 % Wert bei 16 % Menge"}
+  - {name: zweite Kurve, shape: "sehr steil, dann flach", key_points: "ca. 80 % Wert bei 8 % Menge"}
+  - {name: dritte Kurve, shape: "konkav", key_points: "ca. 80 % Wert bei 22 % Menge (nahe der 80/20-Regel)"}
+  - {name: vierte Kurve, shape: "konkav", key_points: "ca. 80 % Wert bei 34 % Menge"}
+  - {name: flachste Kurve, shape: "schwach konkav", key_points: "ca. 60 % Wert bei 35 % Menge, ca. 80 % Wert bei 54 % Menge"}
+meaning: >-
+  Skript 9.1.4: Artikel werden nach ihrem Verwendungswert (Verwendungsrate × Wert) klassifiziert;
+  Grundlage ist das Pareto-Gesetz bzw. die 80/20-Regel (meist verursachen 20 % der Artikel 80 % des
+  Umsatzvolumens). A-Artikel: ca. 80 % des jährlichen Verbrauchswerts bei ca. 20 % des
+  Lagerbestands; B-Artikel: ca. 10 % des Werts bei ca. 30 % des Bestands; C-Artikel: ca. 10 % des
+  Werts bei ca. 50 % des Bestands. A-Artikel werden sehr sorgfältig kontrolliert, C-Artikel weniger
+  streng. Die Kurven zeigen, dass die Konzentration je Branche unterschiedlich stark ist
+  (technologische Produkte am stärksten, Einzelhandel am schwächsten).
+exam_relevance:
+  level: hoch
+  reason: >-
+    ABC-Analyse 2024-10-15 und „ABC und Bestandsdilemma“ 2025-12-11. Quelle: exams/topic-mapping.json.
+  question_ids: [frage-2024-10-15-2, frage-2025-12-11-5]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Achsen: Mengenanteil [%] (x), Wertanteil [%] (y), jeweils 0–100"
+    - "Konkave Kurve vom Ursprung nach (100/100)"
+    - "Klassen A (~20 % Menge, ~80 % Wert), B (~30 % Menge, ~10 % Wert), C (~50 % Menge, ~10 % Wert)"
+  common_mistakes:
+    - "Achsen vertauscht (Wert auf x, Menge auf y)"
+    - "Kurve konvex statt konkav gezeichnet"
+    - "Anteile von B und C vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-70.svg
+  notes: >-
+    Kurven aus am Scan gemessenen Punkten (alle 15 px) als geglättete Splines gezeichnet;
+    visuell per Nebeneinander-Vergleich geprüft. Das Original zeigt fünf Kurven, aber nur vier
+    Beschriftungen; die Pfeilspitzen enden jeweils zwischen zwei Kurven, daher ist die Zuordnung
+    Beschriftung ↔ Kurve im Original nicht eindeutig (unsicher) – die Rekonstruktion übernimmt die
+    Pfeilenden positionsgetreu und behauptet keine Zuordnung. Unterbrechungen der 60-%- und
+    80-%-Rasterlinien hinter den Beschriftungen wie im Original. Lösungselemente: Achsentitel,
+    Branchennamen, A/B/C; Skalenzahlen bleiben stehen.
+source:
+  pdf_page: 169
+  printed_page: 159
+  ocr_text_of_labels: >-
+    Wertanteil [%]; 100; 80; 60; 40; 20; Technologische Produkte; Fertigungsindustrie;
+    Großhandel; Einzelhandel; A; B; C; 20; 40; 60; 80; 100; Mengenanteil [%]

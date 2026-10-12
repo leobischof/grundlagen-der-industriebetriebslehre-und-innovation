@@ -1,0 +1,48 @@
+id: abb-49
+title: Reihenfertigung
+type: flussdiagramm
+description: >-
+  Zwei Varianten einer Reihe nummerierter Stationen (dunkle Kästen) mit Mitarbeitersymbolen. Oben
+  eine gerade Linie 1 → 2 → 3 → 4; ein Mitarbeiter bedient die Stationen 2 und 3 gemeinsam, je ein
+  weiterer steht an 1 und 4. Unten eine U-förmig gefaltete Linie 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8,
+  deren Ausgang links liegt; drei Mitarbeiter bedienen jeweils mehrere benachbarte Stationen
+  (1/2, 7/8 und 3/4/5/6).
+axes: []
+elements:
+  - {id: s, kind: box, text: "1, 2, 3, 4 (oben) / 1 … 8 (unten)", note: Stationen in Reihenfolge}
+  - {id: w, kind: label, text: Mitarbeitersymbol, note: "ohne Text; ein Mitarbeiter kann mehrere Stationen bedienen"}
+relations:
+  - {from: s, to: s, kind: folgt, text: "Materialfluss vorwärts entlang der Linie, ohne Rückläufe"}
+curves: []
+meaning: >-
+  Bei der Reihenfertigung (Skript 8.2.1) werden die Arbeitsplätze anhand der dominierenden
+  Arbeitsvorgangsfolgen des Produktionsprogramms räumlich reihenförmig aufgestellt. Es entsteht ein
+  vorwärts entlang der Linie gerichteter Materialfluss; das Überspringen von Stationen ist erlaubt,
+  Rückläufe sind zu vermeiden. Die Abbildung zeigt, dass die Reihe gerade oder U-förmig gefaltet
+  sein kann (Hinweis aus der Abbildung, im Text nicht ausgeführt). Abgrenzung: Die Fließfertigung
+  ist zusätzlich zeitlich gebunden.
+exam_relevance:
+  level: mittel
+  reason: >-
+    Teil der Fragen zu Fertigungsformen/Typologien (2025-04-09, 2024-12-10). Zuordnung über
+    Abschnitt 8.2.1 in exams/topic-mapping.json; by_figure nennt abb-49 nicht.
+  question_ids: [frage-2024-12-10-4, frage-2025-04-09-4]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Stationen in Reihenfolge der Arbeitsvorgänge"
+    - "Materialfluss nur vorwärts (Überspringen erlaubt, keine Rückläufe)"
+  common_mistakes:
+    - "Rückläufe eingezeichnet"
+    - "Reihenfertigung mit Fließfertigung gleichgesetzt (fehlende zeitliche Bindung/Takt)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-49.svg
+  notes: >-
+    Visuell per Nebeneinander-Vergleich geprüft. Mitarbeitersymbole als Pfad + Kreis
+    nachgezeichnet (keine Bilddatei). Einzige Texte sind die Stationsnummern; sie sind als
+    Lösungselemente markiert, weil die Reihenfolge der Stationen den Kern der Abbildung bildet.
+source:
+  pdf_page: 133
+  printed_page: 123
+  ocr_text_of_labels: "1; 2; 3; 4; 1; 2; 3; 4; 5; 6; 7; 8 (Bildtext, OCR leer)"

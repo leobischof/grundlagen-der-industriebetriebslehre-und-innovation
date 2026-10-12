@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1301 1056" width="1301" height="1056" data-figure-id="abb-57" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Einfluss von Effizienz, Konsistenz und Suffizienz auf Aufwand und Ertrag</title>
+  <rect x="0" y="0" width="1301" height="1056" fill="#ffffff"/>
+  <rect x="22" y="30" width="1262" height="1012" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Pale cone: corridor of today's productivity around p1 (efficiency gains stay inside it) -->
+  <polygon points="130,928 855.5,195 1065.5,197.4 1211.3,397.5" fill="#efefef"/>
+
+  <!-- Axes -->
+  <line x1="130" y1="928" x2="130.6" y2="107.8" stroke="#111111" stroke-width="2"/>
+  <polygon points="130.6,87.8 138.6,107.8 122.6,107.8" fill="#111111"/>
+  <line x1="130" y1="928" x2="1127.3" y2="926.3" stroke="#111111" stroke-width="2"/>
+  <polygon points="1147.3,926.3 1127.3,934.3 1127.2,918.3" fill="#111111"/>
+
+  <!-- Productivity rays from the origin: steeper = more success per resource -->
+  <line x1="130" y1="928" x2="310.2" y2="106.6" stroke="#555555" stroke-width="1.5"/>
+  <line x1="130" y1="928" x2="1046.6" y2="146" stroke="#555555" stroke-width="1.5"/>
+  <line x1="130" y1="928" x2="1192.9" y2="321.1" stroke="#555555" stroke-width="1.5"/>
+
+  <!-- Dashed limits of the resource use reachable by efficiency -->
+  <path d="M332.4 241.1 L332.4 249.1 M332.3 255.1 L332.3 263.1 M332.2 269.1 L332.2 277.1 M332.2 283.1 L332.1 291.1 M332.1 297.1 L332 305.1 M332 311.1 L331.9 319.1 M331.9 325.1 L331.8 333.1 M331.8 339.1 L331.7 347.1 M331.7 353.1 L331.6 361.1 M331.6 367.1 L331.5 375.1 M331.5 381.1 L331.5 389.1 M331.4 395.1 L331.4 403.1 M331.3 409.1 L331.3 417.1 M331.2 423.1 L331.2 431.1 M331.1 437.1 L331.1 445.1 M331 451.1 L331 459.1 M330.9 465.1 L330.9 473.1 M330.9 479.1 L330.8 487.1 M330.8 493.1 L330.7 501.1 M330.7 507.1 L330.6 515.1 M330.6 521.1 L330.5 529.1 M330.5 535.1 L330.4 543.1 M330.4 549.1 L330.3 557.1 M330.3 563.1 L330.2 571.1 M330.2 577.1 L330.2 585.1 M330.1 591.1 L330.1 599.1 M330 605.1 L330 613.1 M329.9 619.1 L329.9 627.1 M329.8 633.1 L329.8 641.1 M329.7 647.1 L329.7 655.1 M329.7 661.1 L329.6 669.1 M329.6 675.1 L329.5 683.1 M329.5 689.1 L329.4 697.1 M329.4 703.1 L329.3 711.1 M329.3 717.1 L329.2 725.1 M329.2 731.1 L329.1 739.1 M329.1 745.1 L329 753.1 M329 759.1 L328.9 767.1 M328.9 773.1 L328.9 781.1 M328.8 787.1 L328.8 795.1 M328.7 801.1 L328.7 809.1 M328.6 815.1 L328.6 823.1 M328.5 829.1 L328.5 837.1 M328.4 843.1 L328.4 851.1 M328.4 857.1 L328.3 865.1 M328.3 871.1 L328.2 879.1 M328.2 885.1 L328.1 893.1 M328.1 899.1 L328 907.1 M328 913.1 L327.9 921.1 M327.9 927.1 L327.8 935.1" fill="none" stroke="#555555" stroke-width="1.5"/>
+  <path d="M809.6 239.1 L809.6 247.1 M809.6 253.1 L809.6 261.1 M809.6 267.1 L809.6 275.1 M809.6 281.1 L809.6 289.1 M809.6 295.1 L809.6 303.1 M809.6 309.1 L809.6 317.1 M809.6 323.1 L809.6 331.1 M809.7 337.1 L809.7 345.1 M809.7 351.1 L809.7 359.1 M809.7 365.1 L809.7 373.1 M809.7 379.1 L809.7 387.1 M809.7 393.1 L809.7 401.1 M809.7 407.1 L809.7 415.1 M809.7 421.1 L809.7 429.1 M809.7 435.1 L809.7 443.1 M809.7 449.1 L809.7 457.1 M809.8 463.1 L809.8 471.1 M809.8 477.1 L809.8 485.1 M809.8 491.1 L809.8 499.1 M809.8 505.1 L809.8 513.1 M809.8 519.1 L809.8 527.1 M809.8 533.1 L809.8 541.1 M809.8 547.1 L809.8 555.1 M809.8 561.1 L809.8 569.1 M809.8 575.1 L809.8 583.1 M809.9 589.1 L809.9 597.1 M809.9 603.1 L809.9 611.1 M809.9 617.1 L809.9 625.1 M809.9 631.1 L809.9 639.1 M809.9 645.1 L809.9 653.1 M809.9 659.1 L809.9 667.1 M809.9 673.1 L809.9 681.1 M809.9 687.1 L809.9 695.1 M809.9 701.1 L809.9 709.1 M810 715.1 L810 723.1 M810 729.1 L810 737.1 M810 743.1 L810 751.1 M810 757.1 L810 765.1 M810 771.1 L810 779.1 M810 785.1 L810 793.1 M810 799.1 L810 807.1 M810 813.1 L810 821.1 M810 827.1 L810 835.1 M810.1 841.1 L810.1 849.1 M810.1 855.1 L810.1 863.1 M810.1 869.1 L810.1 877.1 M810.1 883.1 L810.1 891.1 M810.1 897.1 L810.1 905.1 M810.1 911.1 L810.1 919.1 M810.1 925.1 L810.1 929.2" fill="none" stroke="#555555" stroke-width="1.5"/>
+
+  <!-- Big curved arrow: technology innovation needed for net zero -->
+  <path d="M1016.1,170.4 C1009.5,6.2 580.2,-32.8 457.6,91.7 L417.9,77.8 L402.3,153.5 L490.7,133.4 L475.1,117 C604.1,21.7 914,28.2 952.1,169 Z" fill="#4a4a4a"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="709.4" y="104" font-size="28" text-anchor="middle">Technologie-innovation</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="708.6" y="140.9" font-size="28" text-anchor="middle">Nötig für Netto Null</text>
+
+  <!-- Strategy arrows starting at the initial state A -->
+  <line x1="897.3" y1="490" x2="292.9" y2="335.3" stroke="#5a5a5a" stroke-width="5"/>
+  <polygon points="271.6,329.8 295.1,326.6 290.6,344" fill="#5a5a5a"/>
+  <line x1="897.3" y1="490" x2="810.8" y2="382.9" stroke="#2e2e2e" stroke-width="5"/>
+  <polygon points="796.9,365.8 817.8,377.3 803.8,388.6" fill="#2e2e2e"/>
+  <line x1="897.3" y1="490" x2="756.5" y2="570.7" stroke="#a8a8a8" stroke-width="5"/>
+  <polygon points="737.4,581.6 752,562.9 760.9,578.5" fill="#a8a8a8"/>
+
+  <!-- States -->
+  <circle cx="897.3" cy="490" r="8" fill="#111111"/>
+  <circle cx="793.1" cy="358.8" r="8" fill="#111111"/>
+  <circle cx="730.3" cy="585.5" r="8" fill="#111111"/>
+  <circle cx="263.6" cy="327.7" r="8" fill="#111111"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="242.6" y="325.2" font-size="26" text-anchor="middle">D</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="776.3" y="347.4" font-size="26" text-anchor="middle">B</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="912.9" y="512.3" font-size="26" text-anchor="middle">A</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="738.4" y="630.7" font-size="26" text-anchor="middle">C</text>
+
+  <!-- Arrow and ray labels -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="473.8" y="369.1" font-size="27" text-anchor="middle" transform="rotate(13.9 473.8 369.1)">Konsistenz</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="921.6" y="381.5" font-size="27" text-anchor="middle" transform="rotate(-36.8 921.6 381.5)">Effizienz</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="685.4" y="579.6" font-size="27" text-anchor="middle" transform="rotate(-30.8 685.4 579.6)">Suffizienz (Verzicht)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1118.2" y="402.6" font-size="27" text-anchor="middle" transform="rotate(-29.8 1118.2 402.6)">Produktivität p1 = konst.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1024.4" y="202.6" font-size="27" text-anchor="middle" transform="rotate(-40.8 1024.4 202.6)">p2 &gt; p1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="271" y="498.9" font-size="27" text-anchor="middle" font-style="italic" transform="rotate(-77.8 271 498.9)">p3 &gt;&gt; p1</text>
+
+  <!-- Axis titles and poles -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="84.6" y="517" font-size="36" text-anchor="middle" transform="rotate(-88.8 84.6 517)">Wirtschaftlicher Erfolg</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="106.2" y="156.3" font-size="26" text-anchor="middle" transform="rotate(-88.8 106.2 156.3)">Hoch</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108.2" y="872.5" font-size="26" text-anchor="middle" transform="rotate(-88.8 108.2 872.5)">Gering</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="217.9" y="981.9" font-size="26" text-anchor="middle">Nachhaltig</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="966.3" y="970.5" font-size="26" text-anchor="middle">Ausbeutend</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="636.4" y="1010.6" font-size="33" text-anchor="middle">Ressourcenverbrauch</text>
+</svg>

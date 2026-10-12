@@ -1,0 +1,60 @@
+id: abb-44
+title: Planungsgrundfälle nach Grundig
+type: hierarchie
+description: >-
+  Sterndiagramm: In der Mitte steht der Kasten „Planungsgrundfälle“, von dem fünf Linien zu fünf
+  Kästen führen, die mit A bis E gekennzeichnet sind: A Neubau eines Industriebetriebes, B Um- und
+  Neugestaltung bestehender Industriebetriebe, C Erweiterung bestehender Industriebetriebe,
+  D Rückbau von Industriebetrieben, E Revitalisierung von Industriebetrieben.
+axes: []
+elements:
+  - {id: z, kind: box, text: Planungsgrundfälle, note: zentraler Kasten}
+  - {id: a, kind: box, text: Neubau eines Industriebetriebes, note: "A, oben links"}
+  - {id: b, kind: box, text: Um- und Neugestaltung bestehender Industriebetriebe, note: "B, oben rechts"}
+  - {id: c, kind: box, text: Erweiterung bestehender Industriebetriebe, note: "C, rechts"}
+  - {id: d, kind: box, text: Rückbau von Industriebetrieben, note: "D, unten"}
+  - {id: e, kind: box, text: Revitalisierung von Industriebetrieben, note: "E, links"}
+relations:
+  - {from: z, to: a, kind: enthält}
+  - {from: z, to: b, kind: enthält}
+  - {from: z, to: c, kind: enthält}
+  - {from: z, to: d, kind: enthält}
+  - {from: z, to: e, kind: enthält}
+curves: []
+meaning: >-
+  Grundig unterscheidet fünf Planungsgrundfälle der Fabrikplanung, die sich auf Strukturerneuerung
+  bzw. Restrukturierung oder auf neue bzw. erweiterte Kapazitäten zurückführen lassen: A Neubau
+  (Planung „auf der grünen Wiese“, Greenfield), B Um- und Neugestaltung (Daueraufgabe in
+  bestehenden Fabriken, Brownfield), C Erweiterung (mehr Kapazität, Gebäudeausbau, ggf.
+  Brownfield), D Rückbau (z. B. wegen Umsatzrückgang oder Reduzierung der Fertigungstiefe) und
+  E Revitalisierung (stillgelegte Fabriken werden nach einem Sanierungsprozess neu genutzt).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Dreimal gefragt (2024-03-14, 2024-10-15, 2025-06-16: Planungsgrundfälle nennen). Nicht zu
+    verwechseln mit dem Planungsvorgehen nach Grundig (Klausur 2026-04-29, Aufgabe 5).
+  question_ids: [frage-2024-03-14-3, frage-2024-10-15-3, frage-2025-06-16-4]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Zentraler Begriff „Planungsgrundfälle“"
+    - "Fünf Fälle: Neubau, Um- und Neugestaltung, Erweiterung, Rückbau, Revitalisierung"
+    - "Je Fall ein Stichwort: Greenfield, Brownfield-Daueraufgabe, Kapazitätserweiterung, Fertigungstiefe/Umsatzrückgang, Nachnutzung stillgelegter Fabriken"
+  common_mistakes:
+    - "Nur vier Fälle genannt (meist fehlt Rückbau oder Revitalisierung)"
+    - "Revitalisierung mit Um- und Neugestaltung verwechselt (Revitalisierung betrifft stillgelegte Fabriken)"
+    - "Planungsgrundfälle mit den Phasen des Planungsvorgehens nach Grundig verwechselt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-44.svg
+  notes: >-
+    Visuell per Überlagerung mit dem Original geprüft. Kastenpositionen und Verbindungslinien
+    entsprechen dem Original bis auf wenige Pixel; Grautöne angenähert. Die Buchstaben A–E sind als
+    Lösungselemente markiert, weil sie im Skripttext die Fälle bezeichnen.
+source:
+  pdf_page: 127
+  printed_page: 117
+  ocr_text_of_labels: >-
+    Planungsgrundfälle; A Neubau eines Industriebetriebes; B Um- und Neugestaltung bestehender
+    Industriebetriebe; C Erweiterung bestehender Industriebetriebe; D Rückbau von
+    Industriebetrieben; E Revitalisierung von Industriebetrieben

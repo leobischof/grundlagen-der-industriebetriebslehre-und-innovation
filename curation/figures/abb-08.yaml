@@ -1,0 +1,80 @@
+id: abb-08
+title: Produktlebenszyklus
+type: kurvendiagramm
+description: >-
+  Kurvendiagramm mit dem Umsatz (y-Achse) über der Zeit (x-Achse). Gestrichelte senkrechte
+  Linien teilen den Verlauf in fünf Phasen: Einführung, Wachstum, Reife, Sättigung und
+  Abschwung. Die Umsatzkurve beginnt flach, steigt im Wachstum steil an, erreicht ihren
+  Höhepunkt am Übergang von Reife zu Sättigung und fällt im Abschwung wieder ab. Unter jedem
+  Phasennamen stehen stichpunktartig die Merkmale der Phase.
+axes:
+  - {axis: x, label: Zeit, unit: null, direction: rechts}
+  - {axis: y, label: Umsatz, unit: null, direction: oben}
+elements:
+  - {id: e1, kind: achse, text: Umsatz, note: y-Achse}
+  - {id: e2, kind: achse, text: Zeit, note: x-Achse}
+  - {id: e3, kind: kurve, text: Umsatz, note: "Umsatzverlauf; im Bild nicht beschriftet, nur über die y-Achse benannt"}
+  - {id: p1, kind: phase, text: Einführung, note: "• Einführung des Produkts mit geringer Stückzahl • Marketing zur Marktvorbereitung"}
+  - {id: p2, kind: phase, text: Wachstum, note: "• Produkt setzt sich am Markt durch • Stark steigende Umsätze • Marketing für höhere Nachfrage"}
+  - {id: p3, kind: phase, text: Reife, note: "• Variationen sorgen für geringfügig steigende Umsätze • Marketing für mehr Marktanteile"}
+  - {id: p4, kind: phase, text: Sättigung, note: "• Nachfrage ist gesättigt • Marketing zum erhalten bzw. erweitern von Marktanteilen"}
+  - {id: p5, kind: phase, text: Abschwung, note: "• Umsätze gehen zurück • Marketing stark reduziert • Neue Produkte werden vorbereitet"}
+relations:
+  - {from: p1, to: p2, kind: folgt}
+  - {from: p2, to: p3, kind: folgt}
+  - {from: p3, to: p4, kind: folgt}
+  - {from: p4, to: p5, kind: folgt}
+curves:
+  - name: Umsatz
+    shape: "flacher Beginn in der Einführung, steiler Anstieg im Wachstum, abflachend in der Reife, Maximum am Übergang Reife/Sättigung, Rückgang in Sättigung und Abschwung"
+    key_points:
+      - "Start nahe der x-Achse (geringe Stückzahl)"
+      - "Wendepunkt (steilster Anstieg) etwa an der Grenze Wachstum/Reife"
+      - "Umsatzmaximum an der Grenze Reife/Sättigung"
+      - "Kurve endet im Abschwung deutlich unter dem Maximum, aber über null"
+meaning: >-
+  Laut Skript durchläuft die Nachfrage nach einem Produkt typische Phasen. In der Einführung
+  herrschen hohe Unsicherheit und kleine Stückzahlen, Kunden sind vor allem Neugierige. Im
+  Wachstum akzeptiert der Markt das Produkt, der Umsatz steigt stark, erste Imitate tauchen auf
+  und ein Standard setzt sich durch. In der Reife wird um Marktanteile gekämpft; Preispolitik und
+  Produktvariationen verlängern die Phase. In der Sättigung liegt der Umsatzhöhepunkt, Marketing
+  dient dem harten Kampf um Marktanteile. Im Abschwung geht der Umsatz zurück (z. B. durch
+  Substitution), das Marketing wird stark reduziert und Nachfolgeprodukte werden vorbereitet. Der
+  Umsatz verläuft idealtypisch als S-förmige Kurve bis zum Höhepunkt – daraus folgt, dass
+  Unternehmen rechtzeitig neue Produkte entwickeln müssen.
+exam_relevance:
+  level: hoch
+  reason: >-
+    In drei Prüfungen gefragt, davon zweimal ausdrücklich mit Diagramm (2025-04-09,
+    Klausur 2026-04-29 Aufgabe 1 mit 6 Punkten: Phasen erklären und Diagramm zeichnen).
+  question_ids: [frage-2024-12-10-1, frage-2025-04-09-2, frage-2026-04-29-1]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Achsen beschriften: y = Umsatz, x = Zeit (mit Pfeilspitzen)"
+    - "Fünf Phasen in der richtigen Reihenfolge: Einführung, Wachstum, Reife, Sättigung, Abschwung"
+    - "Phasen durch senkrechte (gestrichelte) Linien trennen"
+    - "Umsatzkurve: flach – steil steigend – Maximum zwischen Reife und Sättigung – fallend"
+    - "Je Phase zwei bis drei Stichpunkte zu Umsatz und Marketing"
+  common_mistakes:
+    - "Phasen vertauscht oder nur vier Phasen (Sättigung oder Abschwung vergessen)"
+    - "Kurvenmaximum schon im Wachstum oder erst im Abschwung gezeichnet"
+    - "Achsen unbeschriftet oder Gewinnkurve erfunden (die Abbildung im Skript zeigt nur den Umsatz)"
+    - "Merkmale der Phasen vermischt, z. B. „Neue Produkte werden vorbereitet“ in der Reife statt im Abschwung"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-08.svg
+  notes: >-
+    Visuell per Überlagerung mit dem Original geprüft. Kurvenverlauf als Bézier-Pfad nachgezeichnet
+    (kleine Abweichungen im Bereich des Maximums). Der Zeilenumbruch „Marktvorber-/eitung“ des
+    Originals ist übernommen; Schrift Arial statt der Originalschrift.
+source:
+  pdf_page: 41
+  printed_page: 31
+  ocr_text_of_labels: >-
+    Umsatz Zeit Einführung Wachstum Reife Sättigung Abschwung; Einführung des Produkts mit
+    geringer Stückzahl; Marketing zur Marktvorbereitung; Produkt setzt sich am Markt durch; Stark
+    steigende Umsätze; Marketing für höhere Nachfrage; Variationen sorgen für geringfügig steigende
+    Umsätze; Marketing für mehr Marktanteile; Nachfrage ist gesättigt; Marketing zum erhalten bzw.
+    erweitern von Marktanteilen; Umsätze gehen zurück; Marketing stark reduziert; Neue Produkte
+    werden vorbereitet

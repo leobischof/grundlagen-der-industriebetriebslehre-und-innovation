@@ -1,0 +1,72 @@
+id: abb-35
+title: Integrationsbereiche der Themen Innovationsprozess & Produktentwicklung
+type: venn
+description: >-
+  Venn-Diagramm aus drei sich überlappenden Kreisen innerhalb eines umschließenden Kreises: oben
+  Strategische Produktplanung, unten links Produktentwicklung, unten rechts
+  Produktionssystementwicklung. Hinweislinien führen von den vier Überschneidungsflächen zu den
+  Integrationsbereichen: Strategische Produktentwicklung, Strategische
+  Produktionssystementwicklung, Integrierte Produkt- und Produktionssystementwicklung sowie der
+  Kooperationskern „Systems Engineering“ in der Mitte.
+axes: []
+elements:
+  - {id: k0, kind: kreis, text: null, note: umschließender Kreis = Produktentstehung als Ganzes}
+  - {id: k1, kind: kreis, text: Strategische Produktplanung, note: oberer Kreis}
+  - {id: k2, kind: kreis, text: Produktentwicklung, note: unterer linker Kreis}
+  - {id: k3, kind: kreis, text: Produktionssystementwicklung, note: unterer rechter Kreis}
+  - {id: i1, kind: label, text: Strategische Produktentwicklung, note: "Schnitt k1∩k2; im Original als „Strategische Produktenwicklung“ (Tippfehler)"}
+  - {id: i2, kind: label, text: Strategische Produktionssystementwicklung, note: Schnitt k1∩k3}
+  - {id: i3, kind: label, text: Integrierte Produkt- und Produktionssystementwicklung, note: Schnitt k2∩k3}
+  - {id: i4, kind: label, text: Kooperationskern “Systems Engineering”, note: Schnitt aller drei Kreise}
+relations:
+  - {from: k1, to: k2, kind: überlappt, text: Strategische Produktentwicklung}
+  - {from: k1, to: k3, kind: überlappt, text: Strategische Produktionssystementwicklung}
+  - {from: k2, to: k3, kind: überlappt, text: Integrierte Produkt- und Produktionssystementwicklung}
+  - {from: k0, to: k1, kind: enthält}
+  - {from: k0, to: k2, kind: enthält}
+  - {from: k0, to: k3, kind: enthält}
+curves: []
+meaning: >-
+  Die Produktentstehung umfasst laut Skript die drei Hauptaufgabenbereiche strategische
+  Produktplanung, Produktentwicklung und Produktionssystementwicklung. Sie sind nicht als
+  aufeinanderfolgende Phasen, sondern als Gesamtbild zu verstehen, dessen Bereiche sich
+  überschneiden. Die Überschneidungen sind Integrationsbereiche: Strategische Produktentwicklung
+  (Planung und Entwicklung; Businessplan auf Basis von Geschäftserfolgspotenzialen), Strategische
+  Produktionssystementwicklung (Planung und Produktionssystem; technische Kernkompetenzen in der
+  Produktion), Integrierte Produkt- und Produktionssystementwicklung (strukturintegrierte Lösungen,
+  übergreifende Teams) und im Zentrum Systems Engineering als Kooperationskern aller drei Bereiche
+  (nach Gausemeier et al., kooperatives Produktengineering).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Ausdrücklich als Skizzieraufgabe gefragt (2025-03-18: Integrationsbereiche skizzieren und
+    benennen, Venn-Diagramm).
+  question_ids: [frage-2025-03-18-2]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Drei überlappende Kreise: Strategische Produktplanung (oben), Produktentwicklung (unten links), Produktionssystementwicklung (unten rechts)"
+    - "Integrationsbereich Planung ∩ Produktentwicklung: Strategische Produktentwicklung"
+    - "Integrationsbereich Planung ∩ Produktionssystem: Strategische Produktionssystementwicklung"
+    - "Integrationsbereich Produkt ∩ Produktionssystem: Integrierte Produkt- und Produktionssystementwicklung"
+    - "Mitte (alle drei): Kooperationskern „Systems Engineering“"
+  common_mistakes:
+    - "Integrationsbereiche den falschen Schnittflächen zugeordnet (z. B. „Strategische Produktentwicklung“ zwischen Produktentwicklung und Produktionssystem)"
+    - "Systems Engineering vergessen oder als vierten Kreis gezeichnet"
+    - "Bereiche als Phasen nacheinander statt als Überschneidungen gezeichnet"
+    - "Den Tippfehler „Produktenwicklung“ aus dem Original abschreiben"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-35.svg
+  notes: >-
+    Visuell per Überlagerung mit dem Original geprüft. Die Abdunklung der Überschneidungen ist mit
+    halbtransparenten Füllungen nachgebildet. Der Tippfehler „Produktenwicklung“ des Originals ist
+    in der Rekonstruktion bewusst beibehalten (originalgetreu); richtig ist „Produktentwicklung“
+    (so auch im Skripttext).
+source:
+  pdf_page: 103
+  printed_page: 93
+  ocr_text_of_labels: >-
+    Strategische Produktplanung; Produkt-entwicklung; Produktions-system-entwicklung; Strategische
+    Produktenwicklung; Strategische Produktionssystem-entwicklung; Integrierte Produkt- und
+    Produktionssystem-entwicklung; Kooperationskern “Systems Engineering”

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1275 541" width="1275" height="541"
+     data-figure-id="abb-11" data-status="faithful"
+     font-family="Arial, Helvetica, sans-serif">
+  <title>Ansoff Matrix</title>
+  <desc>Rekonstruktion von Abbildung 11 (Skript S. 38, PDF 48): Produkt-Markt-Matrix mit vier Wachstumsstrategien.</desc>
+  <rect x="0" y="0" width="1275" height="541" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="10" y="10" width="1255" height="518" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- 2x2 grid -->
+  <g stroke="#000" stroke-width="2.5" fill="none">
+    <rect x="418" y="103" width="569" height="405"/>
+    <line x1="702" y1="103" x2="702" y2="508"/>
+    <line x1="418" y1="305" x2="987" y2="305"/>
+  </g>
+
+  <!-- column headers: products -->
+  <g font-size="22" font-weight="bold" text-anchor="middle">
+    <text font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" class="answer" x="560" y="52"><tspan x="560">Bestehende</tspan><tspan x="560" dy="35">Produkte</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" class="answer" x="845" y="52"><tspan x="845">Neue</tspan><tspan x="845" dy="35">Produkte</tspan></text>
+  </g>
+  <!-- row headers: markets -->
+  <g font-size="22" font-weight="bold" text-anchor="end">
+    <text font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="end" class="answer" x="405" y="195"><tspan x="405">Bestehende</tspan><tspan x="405" dy="36">Märkte</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="end" class="answer" x="405" y="398"><tspan x="405">Neue</tspan><tspan x="405" dy="36">Märkte</tspan></text>
+  </g>
+
+  <!-- the four strategies -->
+  <g font-size="27" text-anchor="middle">
+    <text font-family="Arial, Helvetica, sans-serif" text-anchor="middle" class="answer" x="560" y="172"><tspan x="560">Markt-</tspan><tspan x="560" dy="41">durchdringungs-</tspan><tspan x="560" dy="41">strategie</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" text-anchor="middle" class="answer" x="845" y="172"><tspan x="845">Produkt-</tspan><tspan x="845" dy="41">entwicklungs-</tspan><tspan x="845" dy="41">strategie</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" text-anchor="middle" class="answer" x="560" y="375"><tspan x="560">Markt-</tspan><tspan x="560" dy="41">entwicklungs-</tspan><tspan x="560" dy="41">strategie</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" text-anchor="middle" class="answer" x="845" y="397"><tspan x="845">Diversifizierungs-</tspan><tspan x="845" dy="41">strategie</tspan></text>
+  </g>
+</svg>

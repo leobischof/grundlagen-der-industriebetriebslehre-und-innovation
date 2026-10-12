@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 840" width="1266" height="840" data-figure-id="abb-08" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Produktlebenszyklus – Zeichenübung (leer)</title>
+  <desc>Leere Zeichenübung: 13 Lösungselemente entfernt; gestrichelte Kästen markieren, wo Text hingehört.</desc>
+  <rect x="0" y="0" width="1266" height="840" fill="#ffffff" />
+  <!-- frame of the original figure -->
+  <rect x="10" y="8" width="1245" height="820" fill="none" stroke="#000" stroke-width="2" />
+
+  <!-- phase separators (dotted, light grey) -->
+  <g stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="5 5">
+    <line x1="343" y1="22" x2="343" y2="788" />
+    <line x1="550" y1="22" x2="550" y2="788" />
+    <line x1="760" y1="22" x2="760" y2="788" />
+    <line x1="962" y1="22" x2="962" y2="788" />
+  </g>
+
+  <!-- axes -->
+  <g stroke="#000" stroke-width="3" fill="none">
+    <line x1="142" y1="760" x2="142" y2="44" />
+    <line x1="142" y1="760" x2="1176" y2="760" />
+  </g>
+  <polygon points="142,26 134,46 150,46" fill="#000" />
+  <polygon points="1194,760 1174,752 1174,768" fill="#000" />
+  <rect class="placeholder" x="36.0" y="40.0" width="74.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1113.0" y="786.0" width="52.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- S-shaped sales curve -->
+  <!-- phase names -->
+  <g font-size="28" fill="#6a6a6a">
+    <rect class="placeholder" x="160.0" y="69.6" width="162.0" height="37.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="369.0" y="69.6" width="131.2" height="37.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="573.0" y="69.6" width="85.0" height="37.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="772.0" y="69.6" width="146.6" height="37.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="981.0" y="69.6" width="146.6" height="37.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+
+  <!-- phase characteristics (bullet lists) -->
+  <g font-size="19.5" fill="#000">
+    <rect class="placeholder" x="164.0" y="107.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="197.0" y="107.4" width="136.7" height="140.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="164.0" y="247.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="197.0" y="247.4" width="126.0" height="112.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="372.0" y="107.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="407.0" y="107.4" width="115.2" height="112.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="372.0" y="219.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="407.0" y="219.4" width="104.5" height="84.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="372.0" y="303.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="407.0" y="303.4" width="115.2" height="84.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="575.0" y="107.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="610.0" y="107.4" width="126.0" height="140.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="575.0" y="247.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="610.0" y="247.4" width="136.7" height="84.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="775.0" y="107.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="810.0" y="107.4" width="147.4" height="56.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="775.0" y="163.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="810.0" y="163.4" width="147.4" height="140.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="982.0" y="107.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1018.0" y="107.4" width="136.7" height="56.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="982.0" y="163.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1016.0" y="163.4" width="104.5" height="84.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="982.0" y="247.4" width="18.7" height="28.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1016.0" y="247.4" width="126.0" height="112.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+</svg>

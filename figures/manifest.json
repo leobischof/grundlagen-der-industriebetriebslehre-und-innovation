@@ -365,15 +365,15 @@
       "subsection": "2.5.1",
       "files": {
         "original": "figures/originals/abb-08.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-08.svg",
+        "exercise": "figures/exercises/abb-08-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-08.md",
+        "metadata": "curation/figures/abb-08.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "mittel",
+      "metadata_status": "curated",
       "pixels": [
         1266,
         840
@@ -467,15 +467,15 @@
       "subsection": "2.5.1",
       "files": {
         "original": "figures/originals/abb-11.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-11.svg",
+        "exercise": "figures/exercises/abb-11-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-11.md",
+        "metadata": "curation/figures/abb-11.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "leicht",
+      "metadata_status": "curated",
       "pixels": [
         1275,
         541
@@ -603,15 +603,15 @@
       "subsection": "3.1.2",
       "files": {
         "original": "figures/originals/abb-15.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-15.svg",
+        "exercise": "figures/exercises/abb-15-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-15.md",
+        "metadata": "curation/figures/abb-15.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "mittel",
+      "metadata_status": "curated",
       "pixels": [
         1276,
         666
@@ -1564,15 +1564,15 @@
       "subsection": "5.6",
       "files": {
         "original": "figures/originals/abb-35.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-35.svg",
+        "exercise": "figures/exercises/abb-35-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-35.md",
+        "metadata": "curation/figures/abb-35.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "mittel",
+      "metadata_status": "curated",
       "pixels": [
         1263,
         730
@@ -1633,15 +1633,15 @@
       "subsection": "6.2",
       "files": {
         "original": "figures/originals/abb-37.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-37.svg",
+        "exercise": "figures/exercises/abb-37-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-37.md",
+        "metadata": "curation/figures/abb-37.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "schwer",
+      "metadata_status": "curated",
       "pixels": [
         1194,
         721
@@ -1667,15 +1667,15 @@
       "subsection": "6.2",
       "files": {
         "original": "figures/originals/abb-38.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-38.svg",
+        "exercise": "figures/exercises/abb-38-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-38.md",
+        "metadata": "curation/figures/abb-38.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "mittel",
+      "drawing_difficulty": "leicht",
+      "metadata_status": "curated",
       "note": "Beschriftung steht am Kopf von PDF S. 111. Auf PDF S. 110 ist dieselbe Grafik weiter oben ein zweites Mal (unbeschriftet) abgedruckt.",
       "pixels": [
         1288,
@@ -1872,15 +1872,15 @@
       "subsection": "8.2",
       "files": {
         "original": "figures/originals/abb-44.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-44.svg",
+        "exercise": "figures/exercises/abb-44-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-44.md",
+        "metadata": "curation/figures/abb-44.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "leicht",
+      "metadata_status": "curated",
       "pixels": [
         1267,
         584
@@ -1906,15 +1906,15 @@
       "subsection": "8.2.1",
       "files": {
         "original": "figures/originals/abb-45.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-45.svg",
+        "exercise": "figures/exercises/abb-45-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-45.md",
+        "metadata": "curation/figures/abb-45.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "leicht",
+      "metadata_status": "curated",
       "pixels": [
         1266,
         738
@@ -1940,15 +1940,15 @@
       "subsection": "8.2.1",
       "files": {
         "original": "figures/originals/abb-46.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-46.svg",
+        "exercise": "figures/exercises/abb-46-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-46.md",
+        "metadata": "curation/figures/abb-46.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "mittel",
+      "metadata_status": "curated",
       "pixels": [
         1263,
         705
@@ -1974,15 +1974,15 @@
       "subsection": "8.2.1",
       "files": {
         "original": "figures/originals/abb-47.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-47.svg",
+        "exercise": "figures/exercises/abb-47-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-47.md",
+        "metadata": "curation/figures/abb-47.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "mittel",
+      "drawing_difficulty": "leicht",
+      "metadata_status": "curated",
       "pixels": [
         1266,
         420
@@ -2008,15 +2008,15 @@
       "subsection": "8.2.1",
       "files": {
         "original": "figures/originals/abb-48.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-48.svg",
+        "exercise": "figures/exercises/abb-48-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-48.md",
+        "metadata": "curation/figures/abb-48.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "mittel",
+      "drawing_difficulty": "mittel",
+      "metadata_status": "curated",
       "pixels": [
         1276,
         649
@@ -2042,15 +2042,15 @@
       "subsection": "8.2.1",
       "files": {
         "original": "figures/originals/abb-49.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-49.svg",
+        "exercise": "figures/exercises/abb-49-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-49.md",
+        "metadata": "curation/figures/abb-49.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "mittel",
+      "drawing_difficulty": "leicht",
+      "metadata_status": "curated",
       "pixels": [
         1264,
         777
@@ -2076,15 +2076,15 @@
       "subsection": "8.2.1",
       "files": {
         "original": "figures/originals/abb-50.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-50.svg",
+        "exercise": "figures/exercises/abb-50-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-50.md",
+        "metadata": "curation/figures/abb-50.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "mittel",
+      "drawing_difficulty": "mittel",
+      "metadata_status": "curated",
       "pixels": [
         1278,
         658
@@ -2110,15 +2110,15 @@
       "subsection": "8.2.2",
       "files": {
         "original": "figures/originals/abb-51.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-51.svg",
+        "exercise": "figures/exercises/abb-51-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-51.md",
+        "metadata": "curation/figures/abb-51.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "leicht",
+      "metadata_status": "curated",
       "pixels": [
         1263,
         213
@@ -2314,15 +2314,15 @@
       "subsection": "8.3.3",
       "files": {
         "original": "figures/originals/abb-57.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-57.svg",
+        "exercise": "figures/exercises/abb-57-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-57.md",
+        "metadata": "curation/figures/abb-57.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "schwer",
+      "metadata_status": "curated",
       "bbox_note": "Oberkante schloss das Fließtextende „zenten.“ (y≈164–176) ein – manuell darunter gesetzt.",
       "pixels": [
         1301,
@@ -2758,15 +2758,15 @@
       "subsection": "9.1.4",
       "files": {
         "original": "figures/originals/abb-70.png",
-        "reconstructed": null,
-        "exercise": null,
-        "drawing_guide": null,
-        "metadata": null
+        "reconstructed": "figures/reconstructed/abb-70.svg",
+        "exercise": "figures/exercises/abb-70-blank.svg",
+        "drawing_guide": "learning/drawing-exercises/abb-70.md",
+        "metadata": "curation/figures/abb-70.yaml"
       },
-      "reconstruction_status": "not-started",
-      "exam_relevance": null,
-      "drawing_difficulty": null,
-      "metadata_status": "missing",
+      "reconstruction_status": "faithful",
+      "exam_relevance": "hoch",
+      "drawing_difficulty": "mittel",
+      "metadata_status": "curated",
       "pixels": [
         1267,
         775

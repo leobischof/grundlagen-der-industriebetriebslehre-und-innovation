@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1278 658" width="1278" height="658" data-figure-id="abb-50" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Zusammenhang - Produktionsart &amp; Fertigungsform</title>
+  <rect x="0" y="0" width="1278" height="658" fill="#ffffff"/>
+  <rect x="12" y="12" width="1256" height="636" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Axes -->
+  <line x1="162" y1="598" x2="162" y2="37" stroke="#111111" stroke-width="2.5"/>
+  <polygon points="162,26 166.5,37 157.5,37" fill="#111111"/>
+  <line x1="161" y1="598" x2="1159" y2="598" stroke="#111111" stroke-width="2.5"/>
+  <polygon points="1170,598 1159,602.5 1159,593.5" fill="#111111"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="29" fill="#333333" text-anchor="middle" transform="translate(137 302) rotate(-90)">Grad der Spezialisierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="663" y="633" font-size="29" fill="#333333" text-anchor="middle">Stückzahlen</text>
+
+  <!-- Production types along the quantity axis -->
+  <rect x="162" y="538" width="320" height="59" fill="#f1e9eb" stroke="#222222" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="322" y="576" font-size="25" font-weight="bold" text-anchor="middle">Einzelproduktion</text>
+  <rect x="482" y="538" width="318" height="59" fill="#c9c9c9" stroke="#222222" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="641" y="576" font-size="25" font-weight="bold" text-anchor="middle">Serienproduktion</text>
+  <rect x="800" y="538" width="328" height="59" fill="#8f8f8f" stroke="#222222" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="964" y="576" font-size="25" font-weight="bold" text-anchor="middle">Massenproduktion</text>
+
+  <!-- Manufacturing forms: span of quantities vs. degree of specialisation -->
+  <rect x="162" y="444" width="345" height="52" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="334" y="479" font-size="25" font-weight="bold" text-anchor="middle">Punktfertigung</text>
+  <rect x="162" y="360" width="440" height="52" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="382" y="395" font-size="25" font-weight="bold" text-anchor="middle">Werkstattfertigung</text>
+  <rect x="357" y="277" width="528" height="52" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="621" y="312" font-size="25" font-weight="bold" text-anchor="middle">Gruppenfertigung</text>
+  <rect x="602" y="193" width="364" height="53" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="784" y="228" font-size="25" font-weight="bold" text-anchor="middle">Reihenfertigung</text>
+  <rect x="667" y="108" width="461" height="54" fill="#ffffff" stroke="#222222" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="897" y="144" font-size="25" font-weight="bold" text-anchor="middle">Fließfertigung</text>
+</svg>

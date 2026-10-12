@@ -1,0 +1,81 @@
+id: abb-37
+title: Stage-Gate-Prozess nach Cooper
+type: prozess
+description: >-
+  Prozesskette von links nach rechts unter einem großen Pfeil „Neue Produkte auf den Markt
+  bringen“. Auf die Entdeckung folgen abwechselnd Gates (Rauten, Gate 1–5) und Stages (dunkle
+  Quadrate, Stage 1–5). Über den Gates steht die jeweilige Entscheidung (Ideen Screening, Zweites
+  Screening, Zur Entwicklung, Zum Testen, Zum Launch), unter den Stages die Tätigkeit (Scoping,
+  Business Case erstellen, Entwicklung, Prüfung & Validierung, Launch). Nach dem Launch folgt der
+  Post-Launch Rückblick (Kasten mit €-Zeichen).
+axes: []
+elements:
+  - {id: e0, kind: box, text: Entdeckung, note: "erster Kasten oben links (im Bild „Ent-deckung“)"}
+  - {id: g1, kind: box, text: Gate 1, note: "Raute; darüber/daneben: Ideen Screening"}
+  - {id: s1, kind: box, text: Stage 1, note: "darunter: Scoping"}
+  - {id: g2, kind: box, text: Gate 2, note: "darüber: Zweites Screening"}
+  - {id: s2, kind: box, text: Stage 2, note: "darunter: Business Case erstellen"}
+  - {id: g3, kind: box, text: Gate 3, note: "darüber: Zur Entwicklung"}
+  - {id: s3, kind: box, text: Stage 3, note: "darunter: Entwicklung"}
+  - {id: g4, kind: box, text: Gate 4, note: "darüber: Zum Testen"}
+  - {id: s4, kind: box, text: Stage 4, note: "darunter: Prüfung & Validierung"}
+  - {id: g5, kind: box, text: Gate 5, note: "darüber: Zum Launch"}
+  - {id: s5, kind: box, text: Stage 5, note: "darunter: Launch"}
+  - {id: e6, kind: box, text: Post-Launch Rückblick, note: Kasten mit €-Zeichen unten rechts}
+  - {id: a1, kind: pfeil, text: Neue Produkte auf den Markt bringen, note: großer Richtungspfeil oben}
+relations:
+  - {from: e0, to: g1, kind: folgt}
+  - {from: g1, to: s1, kind: folgt, text: Ideen Screening}
+  - {from: s1, to: g2, kind: folgt}
+  - {from: g2, to: s2, kind: folgt, text: Zweites Screening}
+  - {from: s2, to: g3, kind: folgt}
+  - {from: g3, to: s3, kind: folgt, text: Zur Entwicklung}
+  - {from: s3, to: g4, kind: folgt}
+  - {from: g4, to: s4, kind: folgt, text: Zum Testen}
+  - {from: s4, to: g5, kind: folgt}
+  - {from: g5, to: s5, kind: folgt, text: Zum Launch}
+  - {from: s5, to: e6, kind: pfeil}
+curves: []
+meaning: >-
+  Der Stage-Gate-Prozess nach Robert G. Cooper gliedert die Produktinnovation in eine Abfolge von
+  Stages (Arbeitsphasen) und Gates (Entscheidungspunkten). Er ist funktionsübergreifend, legt den
+  Schwerpunkt auf die frühen Phasen und erlaubt paralleles Arbeiten. Vor jeder Stage steht ein
+  Gate als Meilenstein mit GO/KILL-Entscheidung und Qualitätskontrolle. Typisch sind vier bis
+  sechs Stages, wobei spätere Stages teurer werden: Ideengenerierung (Entdeckung), Scoping,
+  Business Case erstellen, Entwicklung, Prüfen und Validieren, Markteinführung (Launch), danach
+  ein Post-Launch-Rückblick.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Zweimal gefragt, 2025-12-11 ausdrücklich als Zeichenaufgabe („zeichnen und erklären“),
+    2025-06-16 als Innovationsprozess nach Cooper.
+  question_ids: [frage-2025-06-16-2, frage-2025-12-11-3]
+drawing:
+  difficulty: schwer
+  must_know:
+    - "Beginn mit der Entdeckung, dann abwechselnd Gate und Stage (Gate 1, Stage 1 … Gate 5, Stage 5)"
+    - "Gates als Rauten (Entscheidung), Stages als Kästen (Arbeit)"
+    - "Gate-Entscheidungen: Ideen Screening, Zweites Screening, Zur Entwicklung, Zum Testen, Zum Launch"
+    - "Stage-Inhalte: Scoping, Business Case erstellen, Entwicklung, Prüfung & Validierung, Launch"
+    - "Abschluss: Post-Launch Rückblick"
+    - "Richtungspfeil „Neue Produkte auf den Markt bringen“"
+  common_mistakes:
+    - "Mit einer Stage statt mit Entdeckung und Gate 1 beginnen"
+    - "Gate-Entscheidungen und Stage-Tätigkeiten vertauscht (z. B. „Entwicklung“ über das Gate statt unter die Stage)"
+    - "Business Case und Scoping in falscher Reihenfolge"
+    - "Post-Launch Rückblick vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-37.svg
+  notes: >-
+    Visuell per Überlagerung mit dem Original geprüft. „Ideen Screening“ ist wie im Original
+    linksbündig neben Gate 1 gesetzt. Das €-Zeichen im Post-Launch-Kasten ist Dekoration und
+    deshalb nicht als Lösungselement markiert.
+source:
+  pdf_page: 109
+  printed_page: 99
+  ocr_text_of_labels: >-
+    Ent-deckung; Neue Produkte auf den Markt bringen; Gate 1; Ideen Screening; Zweites Screening;
+    Zur Entwicklung; Zum Testen; Zum Launch; Gate 2; Gate 3; Gate 4; Gate 5; Stage 1; Stage 2;
+    Stage 3; Stage 4; Stage 5; Scoping; Business Case erstellen; Entwicklung; Prüfung &
+    Validierung; Launch; Post-Launch Rückblick

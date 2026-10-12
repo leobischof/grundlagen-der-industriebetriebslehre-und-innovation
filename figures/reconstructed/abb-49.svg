@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1264 777" width="1264" height="777" data-figure-id="abb-49" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Reihenfertigung</title>
+  <rect x="0" y="0" width="1264" height="777" fill="#ffffff"/>
+  <rect x="12" y="12" width="1240" height="753" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Top: stations in a straight row; one worker may serve several stations -->
+  <rect x="347" y="128" width="119" height="99" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="406" y="188" font-size="30" fill="#ffffff" text-anchor="middle">1</text>
+  <rect x="518" y="128" width="119" height="99" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="577" y="188" font-size="30" fill="#ffffff" text-anchor="middle">2</text>
+  <rect x="690" y="128" width="119" height="99" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="749" y="188" font-size="30" fill="#ffffff" text-anchor="middle">3</text>
+  <rect x="860" y="128" width="118" height="99" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="919" y="188" font-size="30" fill="#ffffff" text-anchor="middle">4</text>
+  <path d="M378 105 V88 A29 20 0 0 1 436 88 V105 Z" fill="#111111"/>
+  <circle cx="407" cy="58" r="18" fill="#111111" stroke="#ffffff" stroke-width="3"/>
+  <path d="M631 105 V88 A29 20 0 0 1 689 88 V105 Z" fill="#111111"/>
+  <circle cx="660" cy="58" r="18" fill="#111111" stroke="#ffffff" stroke-width="3"/>
+  <path d="M891 105 V88 A29 20 0 0 1 949 88 V105 Z" fill="#111111"/>
+  <circle cx="920" cy="58" r="18" fill="#111111" stroke="#ffffff" stroke-width="3"/>
+  <line x1="295" y1="180" x2="336" y2="180" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="347,180 336,184.5 336,175.5" fill="#111111"/>
+  <line x1="466" y1="180" x2="507" y2="180" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="518,180 507,184.5 507,175.5" fill="#111111"/>
+  <line x1="637" y1="180" x2="679" y2="180" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="690,180 679,184.5 679,175.5" fill="#111111"/>
+  <line x1="809" y1="180" x2="849" y2="180" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="860,180 849,184.5 849,175.5" fill="#111111"/>
+  <line x1="978" y1="180" x2="1014" y2="180" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="1025,180 1014,184.5 1014,175.5" fill="#111111"/>
+  <line x1="630" y1="82" x2="586.6" y2="117.1" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="578,124 583.7,113.6 589.4,120.6" fill="#111111"/>
+  <line x1="697" y1="80" x2="739" y2="109.7" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="748,116 736.4,113.3 741.6,106" fill="#111111"/>
+
+  <!-- Bottom: row folded into a U-shape; flow stays forward along the line -->
+  <rect x="345" y="361" width="117" height="100" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="403" y="422" font-size="30" fill="#ffffff" text-anchor="middle">1</text>
+  <rect x="503" y="361" width="119" height="100" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="562" y="422" font-size="30" fill="#ffffff" text-anchor="middle">2</text>
+  <rect x="675" y="361" width="119" height="100" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="734" y="422" font-size="30" fill="#ffffff" text-anchor="middle">3</text>
+  <rect x="848" y="425" width="117" height="100" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="906" y="486" font-size="30" fill="#ffffff" text-anchor="middle">4</text>
+  <rect x="848" y="560" width="117" height="100" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="906" y="621" font-size="30" fill="#ffffff" text-anchor="middle">5</text>
+  <rect x="675" y="631" width="119" height="100" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="734" y="692" font-size="30" fill="#ffffff" text-anchor="middle">6</text>
+  <rect x="503" y="631" width="119" height="100" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="562" y="692" font-size="30" fill="#ffffff" text-anchor="middle">7</text>
+  <rect x="337" y="631" width="117" height="100" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="395" y="692" font-size="30" fill="#ffffff" text-anchor="middle">8</text>
+  <path d="M455 535 V518 A29 20 0 0 1 513 518 V535 Z" fill="#111111"/>
+  <circle cx="484" cy="488" r="18" fill="#111111" stroke="#ffffff" stroke-width="3"/>
+  <path d="M453 627 V610 A29 20 0 0 1 511 610 V627 Z" fill="#111111"/>
+  <circle cx="482" cy="580" r="18" fill="#111111" stroke="#ffffff" stroke-width="3"/>
+  <path d="M708 574 V557 A29 20 0 0 1 766 557 V574 Z" fill="#111111"/>
+  <circle cx="737" cy="527" r="18" fill="#111111" stroke="#ffffff" stroke-width="3"/>
+  <path d="M794 408 H906 V414" fill="none" stroke="#111111" stroke-width="1.5"/>
+  <path d="M906 660 V682 H807" fill="none" stroke="#111111" stroke-width="1.5"/>
+  <line x1="290" y1="411" x2="334" y2="411" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="345,411 334,415.5 334,406.5" fill="#111111"/>
+  <line x1="462" y1="411" x2="492" y2="411" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="503,411 492,415.5 492,406.5" fill="#111111"/>
+  <line x1="622" y1="411" x2="664" y2="411" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="675,411 664,415.5 664,406.5" fill="#111111"/>
+  <line x1="906" y1="410" x2="906" y2="414" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="906,425 901.5,414 910.5,414" fill="#111111"/>
+  <line x1="906" y1="525" x2="906" y2="549" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="906,560 901.5,549 910.5,549" fill="#111111"/>
+  <line x1="808" y1="682" x2="807" y2="682" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="796,682 807,677.5 807,686.5" fill="#111111"/>
+  <line x1="675" y1="681" x2="633" y2="681" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="622,681 633,676.5 633,685.5" fill="#111111"/>
+  <line x1="503" y1="681" x2="465" y2="681" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="454,681 465,676.5 465,685.5" fill="#111111"/>
+  <line x1="337" y1="681" x2="298" y2="681" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="287,681 298,676.5 298,685.5" fill="#111111"/>
+  <line x1="434" y1="508" x2="411.3" y2="482.2" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="404,474 414.7,479.3 407.9,485.2" fill="#111111"/>
+  <line x1="518" y1="505" x2="543.9" y2="481.4" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="552,474 546.9,484.7 540.8,478.1" fill="#111111"/>
+  <line x1="446" y1="588" x2="413.6" y2="606.5" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="404,612 411.3,602.6 415.8,610.4" fill="#111111"/>
+  <line x1="520" y1="588" x2="543.2" y2="605.4" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="552,612 540.5,609 545.9,601.8" fill="#111111"/>
+  <line x1="737" y1="503" x2="737" y2="477" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="737,466 741.5,477 732.5,477" fill="#111111"/>
+  <line x1="774" y1="532" x2="825.9" y2="509.4" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="836,505 827.7,513.5 824.1,505.3" fill="#111111"/>
+  <line x1="783" y1="570" x2="826.1" y2="591.2" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="836,596 824.1,595.2 828.1,587.1" fill="#111111"/>
+  <line x1="737" y1="582" x2="737" y2="599" stroke="#111111" stroke-width="1.5"/>
+  <polygon points="737,610 732.5,599 741.5,599" fill="#111111"/>
+</svg>

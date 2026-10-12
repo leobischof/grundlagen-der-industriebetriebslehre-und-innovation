@@ -1,0 +1,49 @@
+id: abb-47
+title: Punktfertigung
+type: system
+description: >-
+  In der Mitte steht eine dunkle Ellipse „Produkt“. Drei breite graue Pfeile zeigen von außen auf
+  das Produkt: von links oben „Personal“, von rechts oben „Material“ und von unten „Information“.
+axes: []
+elements:
+  - {id: prod, kind: kreis, text: Produkt, note: ortsfest, Mitte}
+  - {id: pers, kind: label, text: Personal, note: links oben}
+  - {id: mat, kind: label, text: Material, note: rechts oben}
+  - {id: inf, kind: label, text: Information, note: unten}
+relations:
+  - {from: pers, to: prod, kind: pfeil}
+  - {from: mat, to: prod, kind: pfeil}
+  - {from: inf, to: prod, kind: pfeil}
+curves: []
+meaning: >-
+  Bei der Punktfertigung (stationäre oder Baustellenfertigung) ist das Erzeugnis bis zu seiner
+  Fertigstellung fix ortsgebunden; Fertigungsmittel werden am Bearbeitungsobjekt gebündelt und
+  können ortsfest oder ortsveränderlich sein (Skript 8.2.1). Die Ressourcen kommen also zum
+  Produkt, nicht umgekehrt. Einsatz bei schwer bewegbaren Arbeitsgegenständen, z. B. Anlagen-,
+  Großmaschinen- und Schiffsbau sowie Baustellenprozesse.
+exam_relevance:
+  level: mittel
+  reason: >-
+    Teil der Fragen zu Fertigungsformen/Typologien (2025-04-09 „Fertigungsarten aufzählen +
+    erklären“, 2024-12-10 „Typologien der Produktionsprozesse“). Eine eigene Skizze wurde bisher
+    nicht verlangt; die Zuordnung stammt aus exams/topic-mapping.json für Abschnitt 8.2.1 (by_figure
+    nennt abb-47 nicht).
+  question_ids: [frage-2024-12-10-4, frage-2025-04-09-4]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Produkt in der Mitte, ortsfest"
+    - "Drei Pfeile zum Produkt hin: Personal, Material, Information"
+  common_mistakes:
+    - "Pfeile vom Produkt weg gezeichnet (das Produkt bewegt sich nicht)"
+    - "Information vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-47.svg
+  notes: >-
+    Visuell per Nebeneinander-Vergleich geprüft. Blockpfeile als Polygone nachgebildet, Winkel und
+    Größen angenähert; Grautöne angenähert.
+source:
+  pdf_page: 131
+  printed_page: 121
+  ocr_text_of_labels: "Produkt; Personal; Material; Information"

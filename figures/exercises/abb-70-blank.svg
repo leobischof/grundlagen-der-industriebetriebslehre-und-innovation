@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1267 775" width="1267" height="775" data-figure-id="abb-70" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>ABC Analyse – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1267" height="775" fill="#ffffff" />
+  <rect x="10.5" y="11" width="1245" height="753" fill="none" stroke="#555555" stroke-width="2" />
+  <!-- Grid: horizontal lines every 20 %, vertical lines at 20/40/100 % run through -->
+  <g fill="none" stroke="#222222" stroke-width="2.2">
+    <path d="M362.5 108.7 H961.5" />
+    <path d="M362.5 226 H961.5" />
+    <path d="M362.5 331 H961.5" />
+    <path d="M362.5 436 H961.5" />
+    <path d="M362.5 544 H961.5" />
+    <path d="M478 108.7 V653.5" />
+    <path d="M599.5 108.7 V653.5" />
+    <path d="M961.5 108.7 V653.5" />
+    <path d="M720.5 108.7 V237" />
+    <path d="M720.5 314 V332" />
+    <path d="M720.5 378 V388" />
+    <path d="M720.5 434 V489" />
+    <path d="M720.5 534 V653.5" />
+    <path d="M841 108.7 V237" />
+    <path d="M841 314 V332" />
+    <path d="M841 378 V388" />
+    <path d="M841 434 V489" />
+    <path d="M841 534 V653.5" />
+  </g>
+  <!-- Axes -->
+  <path d="M362.5 84 V691 M318 653.5 H1022" fill="none" stroke="#111111" stroke-width="3.5" />
+  <polygon points="1043,653.5 1020,646.5 1020,660.5" fill="#111111" />
+  <!-- Concentration curves, steepest first -->
+  <g fill="none" stroke="#111111" stroke-width="2.4">
+    <path d="M362.5 653.5 C362.7 623.1 363.1 522.1 363.5 470.9 C363.9 419.7 364.2 377.4 364.6 346.2 C365.1 315.1 365.6 298.8 366.1 283.8 C366.7 268.8 367.2 263.6 368 256.2 C368.8 248.9 369.6 245 371 239.8 C372.4 234.5 374.2 229.5 376.2 224.5 C378.3 219.5 380.8 214.7 383.5 209.8 C386.2 204.8 389 200 392.5 195 C396 190 399.8 185 404.2 180 C408.7 175 413.7 170 419.2 165 C424.8 160 430.2 155 437.5 150 C444.8 145 452.6 139.7 462.8 135 C472.9 130.3 484.7 125.5 498.2 122 C511.8 118.5 526.5 115.9 544.2 114 C562 112.1 582.4 111.3 605 110.4 C627.6 109.5 667.5 109 680 108.7" />
+    <path d="M362.5 653.5 C362.8 639.1 363.5 592.1 364.1 567.1 C364.8 542.2 365.5 520.1 366.2 503.8 C367 487.4 368 478.3 368.8 468.8 C369.5 459.2 370.2 454.4 371 446.2 C371.8 438.1 372.5 428.8 373.2 420 C374 411.2 374.9 401.9 375.8 393.8 C376.6 385.6 377.3 379.4 378.2 371.2 C379.2 363.1 380.1 354.4 381.2 345 C382.4 335.6 383.7 325 385.2 315 C386.8 305 388.6 294.4 390.5 285 C392.4 275.6 394.2 266.9 396.5 258.8 C398.8 250.6 400.9 243.8 404 236.2 C407.1 228.8 410.9 220.6 415 213.8 C419.1 206.9 423.8 200.6 428.8 195 C433.8 189.4 438.9 185 445 180 C451.1 175 457.5 170 465.2 165 C473 160 481.2 155 491.2 150 C501.3 145 511.8 139.7 525.8 135 C539.7 130.3 554.5 125.3 574.8 121.6 C595 117.9 619.5 115.1 647 112.9 C674.5 110.8 724.5 109.4 740 108.7" />
+    <path d="M362.5 653.5 C362.9 645.6 364.3 619.8 365.1 605.9 C366 592 366.6 581 367.6 570 C368.6 559 369.7 550 371 540 C372.3 530 373.7 520 375.2 510 C376.8 500 378.4 490 380.2 480 C382.1 470 384 460 386.2 450 C388.5 440 390.8 430 393.5 420 C396.2 410 399.3 399.4 402.2 390 C405.2 380.6 408.1 371.9 411 363.8 C413.9 355.6 416.6 348.8 419.8 341.2 C422.9 333.8 426.5 325.6 429.8 318.8 C433 311.9 436 305.6 439 300 C442 294.4 444.5 290 447.5 285 C450.5 280 453.8 275 457.2 270 C460.7 265 463.7 260.6 468 255 C472.3 249.4 477.2 243.1 483 236.2 C488.8 229.4 496.6 220.6 503 213.8 C509.4 206.9 515.5 200.6 521.5 195 C527.5 189.4 532.5 185 539 180 C545.5 175 552.2 170 560.5 165 C568.8 160 577.3 155 588.5 150 C599.7 145 611.5 139.7 627.5 135 C643.5 130.3 662.3 125.3 684.8 121.6 C707.2 117.9 734.5 115.1 762 112.9 C789.5 110.8 835.3 109.4 850 108.7" />
+    <path d="M362.5 653.5 C363.3 649.9 365.7 638.5 367.4 632.1 C369.1 625.7 370.8 621 372.8 615 C374.7 609 376.6 603.8 379 596.2 C381.4 588.8 384.2 579.4 387.2 570 C390.2 560.6 393.7 550 397 540 C400.3 530 403.7 520 407.2 510 C410.8 500 414.5 490 418.2 480 C422 470 426 460 430 450 C434 440 437.9 430 442 420 C446.1 410 450.4 399.4 454.5 390 C458.6 380.6 462.5 371.9 466.5 363.8 C470.5 355.6 474.2 348.8 478.2 341.2 C482.3 333.8 487 325.6 491 318.8 C495 311.9 498.6 305.6 502.2 300 C505.9 294.4 508.9 290 512.8 285 C516.6 280 520.9 275 525.2 270 C529.6 265 533.6 260.6 539 255 C544.4 249.4 550.6 243.1 557.8 236.2 C564.9 229.4 574.1 220.6 582 213.8 C589.9 206.9 597.1 200.6 605.2 195 C613.4 189.4 620.8 185 630.8 180 C640.7 175 651.7 170 664.8 165 C677.8 160 692 155 709.2 150 C726.5 145 747 139.7 768.5 135 C790 130.3 815.5 125.4 838 121.8 C860.5 118.1 882.8 115.3 903.4 113.2 C924 111 951.8 109.4 961.5 108.7" />
+    <path d="M362.5 653.5 C364.3 649.9 370 638.5 373.4 632.1 C376.8 625.7 379.8 620.4 382.8 615 C385.7 609.6 388.4 605 391.2 600 C394.1 595 396.9 590 399.8 585 C402.6 580 405.4 575 408.2 570 C411.1 565 414 560 417 555 C420 550 423 545 426 540 C429 535 432 530 435 525 C438 520 441 515 444 510 C447 505 450.1 500 453.2 495 C456.4 490 459.7 485 462.8 480 C465.8 475 468.2 470.6 471.8 465 C475.2 459.4 478.6 453.8 483.8 446.2 C488.9 438.8 495.8 429.4 502.8 420 C509.7 410.6 518.2 399.4 525.2 390 C532.3 380.6 538.8 371.9 545 363.8 C551.2 355.6 556.6 348.8 562.8 341.2 C568.9 333.8 575.8 325.6 581.8 318.8 C587.7 311.9 593.1 305.6 598.2 300 C603.4 294.4 607.5 290 612.5 285 C617.5 280 622.8 275 628.5 270 C634.2 265 639.5 260.6 646.5 255 C653.5 249.4 661.8 243.1 670.8 236.2 C679.7 229.4 691 220.6 700 213.8 C709 206.9 717 200.6 724.8 195 C732.5 189.4 738.8 185 746.2 180 C753.7 175 761.2 170 769.5 165 C777.8 160 785.5 155 796.2 150 C807 145 819.8 139.7 834.2 135 C848.7 130.3 867.5 125.4 883 121.8 C898.5 118.1 914 115.3 927.1 113.2 C940.2 111 955.8 109.4 961.5 108.7" />
+  </g>
+  <!-- Label arrows: each runs left from x=692 and ends just before a curve -->
+  <line x1="692" y1="276" x2="391" y2="276" stroke="#111111" stroke-width="2" />
+  <polygon points="378,276 391,271 391,281" fill="#111111" />
+  <line x1="692" y1="358" x2="410" y2="358" stroke="#111111" stroke-width="2" />
+  <polygon points="397,358 410,353 410,363" fill="#111111" />
+  <line x1="692" y1="413" x2="428" y2="413" stroke="#111111" stroke-width="2" />
+  <polygon points="415,413 428,408 428,418" fill="#111111" />
+  <line x1="692" y1="513" x2="438" y2="513" stroke="#111111" stroke-width="2" />
+  <polygon points="425,513 438,508 438,518" fill="#111111" />
+  <!-- Class arrows on the x axis: A up to 20 %, B up to ~55 % (bar), C up to 100 % -->
+  <line x1="425" y1="600" x2="467" y2="600" stroke="#111111" stroke-width="2.2" />
+  <polygon points="479,600 467,605.5 467,594.5" fill="#111111" />
+  <line x1="628" y1="600" x2="664" y2="600" stroke="#111111" stroke-width="2.2" />
+  <polygon points="676,600 664,605.5 664,594.5" fill="#111111" />
+  <path d="M681.5 588 V612" stroke="#111111" stroke-width="2.2" />
+  <line x1="910" y1="600" x2="950" y2="600" stroke="#111111" stroke-width="2.2" />
+  <polygon points="962,600 950,605.5 950,594.5" fill="#111111" />
+  <rect class="placeholder" x="433.8" y="569.8" width="22.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="639.8" y="569.8" width="22.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="918.8" y="569.8" width="22.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <!-- Curve labels -->
+  <rect class="placeholder" x="731.5" y="248.6" width="185.1" height="32.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="769.4" y="276.6" width="109.2" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="699.8" y="344.6" width="248.4" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="709.0" y="396.6" width="134.5" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="709.0" y="497.6" width="159.8" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <!-- Axis titles -->
+  <rect class="placeholder" x="294.0" y="38.4" width="177.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="888.0" y="696.4" width="201.6" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <!-- Tick labels (scale, not part of the answer) -->
+  <text font-family="Arial, Helvetica, sans-serif" x="355" y="114.5" font-size="18" font-weight="bold" text-anchor="end">100</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="355" y="231.5" font-size="18" font-weight="bold" text-anchor="end">80</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="355" y="336.5" font-size="18" font-weight="bold" text-anchor="end">60</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="355" y="443.5" font-size="18" font-weight="bold" text-anchor="end">40</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="355" y="550.5" font-size="18" font-weight="bold" text-anchor="end">20</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="478" y="680.5" font-size="18" font-weight="bold" text-anchor="middle">20</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="600" y="680.5" font-size="18" font-weight="bold" text-anchor="middle">40</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="721" y="680.5" font-size="18" font-weight="bold" text-anchor="middle">60</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="841" y="680.5" font-size="18" font-weight="bold" text-anchor="middle">80</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="962" y="680.5" font-size="18" font-weight="bold" text-anchor="middle">100</text>
+</svg>

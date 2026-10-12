@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 730" width="1263" height="730" data-figure-id="abb-35" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Integrationsbereiche der Themen Innovationsprozess &amp; Produktentwicklung – Zeichenübung (leer)</title>
+  <desc>Leere Zeichenübung: 7 Lösungselemente entfernt; gestrichelte Kästen markieren, wo Text hingehört.</desc>
+  <rect x="0" y="0" width="1263" height="730" fill="#ffffff" />
+  <!-- frame of the original figure -->
+  <rect x="9" y="9" width="1245" height="709" fill="none" stroke="#000" stroke-width="2" />
+
+  <!-- enclosing circle: Produktentstehung as a whole -->
+  <circle cx="636" cy="308" r="280" fill="none" stroke="#555" stroke-width="1.5" />
+
+  <!-- three task areas; translucent fills make the overlaps darker as in the original -->
+  <circle cx="630" cy="192" r="158" fill="#000" fill-opacity="0.07" stroke="#666" stroke-width="1.5" />
+  <circle cx="536" cy="372" r="157" fill="#000" fill-opacity="0.63" stroke="#333" stroke-width="1.5" />
+  <circle cx="737" cy="373" r="156" fill="#000" fill-opacity="0.45" stroke="#444" stroke-width="1.5" />
+
+  <!-- leader lines from the integration areas to their labels -->
+  <g stroke="#333" stroke-width="1.3">
+    <line x1="278" y1="161" x2="553" y2="268" />
+    <line x1="945" y1="163" x2="715" y2="265" />
+    <line x1="318" y1="602" x2="637" y2="398" />
+    <line x1="775" y1="628" x2="632" y2="312" />
+  </g>
+  <g fill="#000">
+    <circle cx="553" cy="268" r="4" />
+    <circle cx="715" cy="265" r="4" />
+    <circle cx="637" cy="398" r="4" />
+    <circle cx="632" cy="312" r="4" />
+  </g>
+
+  <!-- task areas -->
+  <rect class="placeholder" x="514.4" y="105.8" width="231.3" height="77.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="395.3" y="348.8" width="183.5" height="77.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="678.3" y="338.8" width="199.4" height="116.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- integration areas (original spelling "Produktenwicklung" kept) -->
+  <rect class="placeholder" x="38.0" y="144.8" width="279.2" height="77.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="961.0" y="109.8" width="295.1" height="116.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="29.0" y="546.8" width="327.0" height="152.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="784.0" y="618.8" width="343.0" height="77.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

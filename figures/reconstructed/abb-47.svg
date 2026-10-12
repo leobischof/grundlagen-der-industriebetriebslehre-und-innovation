@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 420" width="1266" height="420" data-figure-id="abb-47" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Punktfertigung</title>
+  <rect x="0" y="0" width="1266" height="420" fill="#ffffff"/>
+  <rect x="12" y="10" width="1242" height="400" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- The product stays fixed; all resources flow towards it -->
+  <ellipse cx="630" cy="190" rx="177" ry="85" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="630" y="208" font-size="56" font-weight="bold" fill="#ffffff" text-anchor="middle">Produkt</text>
+
+  <!-- Broad grey block arrows: local shape points along +x, tip at (68,0) -->
+  <polygon points="0,-9 38,-9 38,-21 68,0 38,21 38,9 0,9" fill="#a9a9a9" transform="translate(468 80) rotate(39)"/>
+  <polygon points="0,-9 38,-9 38,-21 68,0 38,21 38,9 0,9" fill="#a9a9a9" transform="translate(786 67) rotate(134)"/>
+  <polygon points="0,-9 38,-9 38,-21 68,0 38,21 38,9 0,9" fill="#a9a9a9" transform="translate(635 334) rotate(-90)"/>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="375" y="56" font-size="35">Personal</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="805" y="59" font-size="35">Material</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="640" y="378" font-size="35" text-anchor="middle">Information</text>
+</svg>

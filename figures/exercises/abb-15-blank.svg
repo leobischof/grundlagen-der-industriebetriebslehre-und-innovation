@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 666" width="1276" height="666" data-figure-id="abb-15" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Industriebetrieb als Arbeitssystem – Zeichenübung (leer)</title>
+  <desc>Leere Zeichenübung: 9 Lösungselemente entfernt; gestrichelte Kästen markieren, wo Text hingehört.</desc>
+  <defs>
+    <marker id="tip" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1 L10,5 L0,9 z" fill="#000" />
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1276" height="666" fill="#ffffff" />
+  <!-- frame of the original figure -->
+  <rect x="8" y="8" width="1260" height="647" fill="none" stroke="#000" stroke-width="2" />
+
+  <!-- system boundary (dashed) and work system (solid) -->
+  <ellipse cx="620" cy="352" rx="405" ry="278" fill="none" stroke="#000" stroke-width="4" stroke-dasharray="24 12" />
+  <ellipse cx="617" cy="354" rx="245" ry="151" fill="none" stroke="#000" stroke-width="2" />
+
+  <!-- thin process arrows -->
+  <g stroke="#555" stroke-width="1.2" fill="none" marker-end="url(#tip)">
+    <line x1="424" y1="355" x2="562" y2="270" />
+    <line x1="424" y1="355" x2="562" y2="443" />
+    <line x1="680" y1="274" x2="822" y2="331" />
+    <line x1="680" y1="436" x2="822" y2="378" />
+    <line x1="622" y1="328" x2="622" y2="386" marker-start="url(#tip)" />
+  </g>
+
+  <!-- capacities: human and equipment -->
+  <circle cx="622" cy="268" r="56" fill="#a3a3a3" stroke="#333" stroke-width="2" />
+  <circle cx="622" cy="445" r="56" fill="#a3a3a3" stroke="#333" stroke-width="2" />
+
+  <!-- grey block arrows -->
+  <g fill="#c4c4c4" stroke="#444" stroke-width="2">
+    <polygon points="609,62 631,62 631,85 641,85 620,108 599,85 609,85" />
+    <polygon points="609,152 631,152 631,176 641,176 620,200 599,176 609,176" />
+    <polygon points="768,193 786,213 777,213 777,255 786,255 768,275 750,255 759,255 759,213 750,213" />
+    <polygon points="225,337 378,337 378,320 424,355 378,391 378,374 225,374" />
+    <polygon points="820,336 980,336 980,320 1020,356 980,392 980,377 820,377" />
+  </g>
+
+  <!-- labels -->
+  <rect class="placeholder" x="524.2" y="26.4" width="201.6" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="532.3" y="118.4" width="177.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="724.0" y="160.4" width="189.5" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="587.4" y="257.4" width="69.2" height="25.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="572.1" y="422.4" width="99.8" height="47.9" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="272.0" y="342.4" width="100.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="864.0" y="342.4" width="100.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="494.0" y="342.0" width="65.8" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="653.0" y="331.0" width="74.0" height="45.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

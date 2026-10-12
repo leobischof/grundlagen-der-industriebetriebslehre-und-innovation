@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1288 247" width="1288" height="247"
+     data-figure-id="abb-38" data-status="faithful"
+     font-family="Arial, Helvetica, sans-serif">
+  <title>Aufbau eines Gates</title>
+  <desc>Rekonstruktion von Abbildung 38 (Skript S. 100, PDF 110/111): Ergebnisse werden anhand von Kriterien zu Outputs.</desc>
+  <rect x="0" y="0" width="1288" height="247" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="9" y="12" width="1270" height="226" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- three building blocks of a gate -->
+  <circle cx="239" cy="125" r="95" fill="#5a5a5a"/>
+  <polygon points="628,30 723,125 628,220 533,125" fill="#3c3c3c"/>
+  <circle cx="1026" cy="125" r="96" fill="#5a5a5a"/>
+
+  <!-- flow arrows -->
+  <g stroke="#000" stroke-width="2.5">
+    <line x1="338" y1="125" x2="518" y2="125"/>
+    <line x1="723" y1="125" x2="914" y2="125"/>
+  </g>
+  <polygon points="535,125 515,117 515,133" fill="#000"/>
+  <polygon points="931,125 911,117 911,133" fill="#000"/>
+
+  <g font-size="27" fill="#ffffff" text-anchor="middle">
+    <text font-family="Arial, Helvetica, sans-serif" text-anchor="middle" class="answer" x="240" y="135">Ergebnisse</text>
+    <text font-family="Arial, Helvetica, sans-serif" text-anchor="middle" class="answer" x="628" y="135">Kriterien</text>
+    <text font-family="Arial, Helvetica, sans-serif" text-anchor="middle" class="answer" x="1026" y="135">Outputs</text>
+  </g>
+</svg>

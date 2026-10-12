@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1267 584" width="1267" height="584"
+     data-figure-id="abb-44" data-status="faithful"
+     font-family="Arial, Helvetica, sans-serif">
+  <title>Planungsgrundfälle nach Grundig</title>
+  <desc>Rekonstruktion von Abbildung 44 (Skript S. 117, PDF 127): fünf Planungsgrundfälle A–E der Fabrikplanung um den zentralen Begriff.</desc>
+  <rect x="0" y="0" width="1267" height="584" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="9" y="10" width="1249" height="563" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- spokes from the centre to the five cases -->
+  <g stroke="#777" stroke-width="1.5">
+    <line x1="385" y1="150" x2="487" y2="210"/>
+    <line x1="845" y1="155" x2="760" y2="212"/>
+    <line x1="460" y1="300" x2="487" y2="265"/>
+    <line x1="845" y1="320" x2="760" y2="265"/>
+    <line x1="623" y1="420" x2="623" y2="265"/>
+  </g>
+
+  <!-- boxes -->
+  <g fill="#ffffff" stroke="#777" stroke-width="1.5">
+    <rect x="162" y="33" width="393" height="97"/>
+    <rect x="684" y="33" width="391" height="100"/>
+    <rect x="860" y="322" width="346" height="96"/>
+    <rect x="447" y="457" width="353" height="98"/>
+    <rect x="90" y="318" width="358" height="97"/>
+  </g>
+  <rect x="487" y="210" width="273" height="55" fill="#e4e4e4" stroke="#555" stroke-width="1.5"/>
+
+  <!-- case badges -->
+  <g fill="#444">
+    <circle cx="365" cy="145" r="22"/>
+    <circle cx="862" cy="145" r="22"/>
+    <circle cx="860" cy="326" r="22"/>
+    <circle cx="623" cy="442" r="22"/>
+    <circle cx="445" cy="318" r="22"/>
+  </g>
+  <g font-size="21" fill="#ffffff">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="365" y="153" text-anchor="middle">A</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="862" y="153" text-anchor="middle">B</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="860" y="334" text-anchor="middle">C</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="623" y="450" text-anchor="middle">D</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="445" y="326" text-anchor="middle">E</text>
+  </g>
+
+  <!-- labels -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="623" y="246" font-size="24" font-weight="bold" text-anchor="middle">Planungsgrundfälle</text>
+  <g font-size="24" fill="#000">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="358" y="76" text-anchor="middle"><tspan x="358">Neubau eines</tspan><tspan x="358" dy="33">Industriebetriebes</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="880" y="76" text-anchor="middle"><tspan x="880">Um- und Neugestaltung</tspan><tspan x="880" dy="33">bestehender Industriebetriebe</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1033" y="363" text-anchor="middle"><tspan x="1033">Erweiterung bestehender</tspan><tspan x="1033" dy="33">Industriebetriebe</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="623" y="498" text-anchor="middle"><tspan x="623">Rückbau von</tspan><tspan x="623" dy="33">Industriebetrieben</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="269" y="360" text-anchor="middle"><tspan x="269">Revitalisierung von</tspan><tspan x="269" dy="33">Industriebetrieben</tspan></text>
+  </g>
+</svg>

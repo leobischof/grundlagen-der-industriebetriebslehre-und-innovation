@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 840" width="1266" height="840"
+     data-figure-id="abb-08" data-status="faithful"
+     font-family="Arial, Helvetica, sans-serif">
+  <title>Produktlebenszyklus</title>
+  <desc>Rekonstruktion von Abbildung 8 (Skript S. 31, PDF 41): Umsatzverlauf über die Zeit mit fünf Phasen.</desc>
+  <rect x="0" y="0" width="1266" height="840" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="10" y="8" width="1245" height="820" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- phase separators (dotted, light grey) -->
+  <g stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="5 5">
+    <line x1="343" y1="22" x2="343" y2="788"/>
+    <line x1="550" y1="22" x2="550" y2="788"/>
+    <line x1="760" y1="22" x2="760" y2="788"/>
+    <line x1="962" y1="22" x2="962" y2="788"/>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#000" stroke-width="3" fill="none">
+    <line x1="142" y1="760" x2="142" y2="44"/>
+    <line x1="142" y1="760" x2="1176" y2="760"/>
+  </g>
+  <polygon points="142,26 134,46 150,46" fill="#000"/>
+  <polygon points="1194,760 1174,752 1174,768" fill="#000"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="40" y="60" font-size="20">Umsatz</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1117" y="806" font-size="20">Zeit</text>
+
+  <!-- S-shaped sales curve -->
+  <path class="answer" fill="none" stroke="#000" stroke-width="3"
+        d="M152,724 C230,708 290,684 343,646 C420,590 490,515 550,458 C625,388 690,322 770,322 C848,322 916,368 963,425 C1000,472 1025,505 1045,533"/>
+
+  <!-- phase names -->
+  <g font-size="28" fill="#6a6a6a">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="164" y="96">Einführung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="373" y="96">Wachstum</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="577" y="96">Reife</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="776" y="96">Sättigung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="985" y="96">Abschwung</text>
+  </g>
+
+  <!-- phase characteristics (bullet lists) -->
+  <g font-size="19.5" fill="#000">
+    <g class="answer">
+      <text font-family="Arial, Helvetica, sans-serif" x="168" y="127">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="201" y="127"><tspan x="201">Einführung</tspan><tspan x="201" dy="28">des</tspan><tspan x="201" dy="28">Produkts</tspan><tspan x="201" dy="28">mit geringer</tspan><tspan x="201" dy="28">Stückzahl</tspan></text>
+      <text font-family="Arial, Helvetica, sans-serif" x="168" y="267">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="201" y="267"><tspan x="201">Marketing</tspan><tspan x="201" dy="28">zur</tspan><tspan x="201" dy="28">Marktvorber</tspan><tspan x="201" dy="28">eitung</tspan></text>
+    </g>
+    <g class="answer">
+      <text font-family="Arial, Helvetica, sans-serif" x="376" y="127">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="411" y="127"><tspan x="411">Produkt</tspan><tspan x="411" dy="28">setzt sich</tspan><tspan x="411" dy="28">am Markt</tspan><tspan x="411" dy="28">durch</tspan></text>
+      <text font-family="Arial, Helvetica, sans-serif" x="376" y="239">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="411" y="239"><tspan x="411">Stark</tspan><tspan x="411" dy="28">steigende</tspan><tspan x="411" dy="28">Umsätze</tspan></text>
+      <text font-family="Arial, Helvetica, sans-serif" x="376" y="323">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="411" y="323"><tspan x="411">Marketing</tspan><tspan x="411" dy="28">für höhere</tspan><tspan x="411" dy="28">Nachfrage</tspan></text>
+    </g>
+    <g class="answer">
+      <text font-family="Arial, Helvetica, sans-serif" x="579" y="127">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="614" y="127"><tspan x="614">Variationen</tspan><tspan x="614" dy="28">sorgen für</tspan><tspan x="614" dy="28">geringfügig</tspan><tspan x="614" dy="28">steigende</tspan><tspan x="614" dy="28">Umsätze</tspan></text>
+      <text font-family="Arial, Helvetica, sans-serif" x="579" y="267">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="614" y="267"><tspan x="614">Marketing</tspan><tspan x="614" dy="28">für mehr</tspan><tspan x="614" dy="28">Marktanteile</tspan></text>
+    </g>
+    <g class="answer">
+      <text font-family="Arial, Helvetica, sans-serif" x="779" y="127">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="814" y="127"><tspan x="814">Nachfrage ist</tspan><tspan x="814" dy="28">gesättigt</tspan></text>
+      <text font-family="Arial, Helvetica, sans-serif" x="779" y="183">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="814" y="183"><tspan x="814">Marketing</tspan><tspan x="814" dy="28">zum erhalten</tspan><tspan x="814" dy="28">bzw.</tspan><tspan x="814" dy="28">erweitern von</tspan><tspan x="814" dy="28">Marktanteilen</tspan></text>
+    </g>
+    <g class="answer">
+      <text font-family="Arial, Helvetica, sans-serif" x="986" y="127">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="1022" y="127"><tspan x="1022">Umsätze</tspan><tspan x="1022" dy="28">gehen zurück</tspan></text>
+      <text font-family="Arial, Helvetica, sans-serif" x="986" y="183">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="1020" y="183"><tspan x="1020">Marketing</tspan><tspan x="1020" dy="28">stark</tspan><tspan x="1020" dy="28">reduziert</tspan></text>
+      <text font-family="Arial, Helvetica, sans-serif" x="986" y="267">•</text>
+      <text font-family="Arial, Helvetica, sans-serif" x="1020" y="267"><tspan x="1020">Neue</tspan><tspan x="1020" dy="28">Produkte</tspan><tspan x="1020" dy="28">werden</tspan><tspan x="1020" dy="28">vorbereitet</tspan></text>
+    </g>
+  </g>
+</svg>

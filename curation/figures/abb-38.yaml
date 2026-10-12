@@ -1,0 +1,48 @@
+id: abb-38
+title: Aufbau eines Gates
+type: flussdiagramm
+description: >-
+  Einfacher Fluss aus drei Bausteinen von links nach rechts: ein Kreis „Ergebnisse“, ein Pfeil
+  zur Raute „Kriterien“ und ein weiterer Pfeil zum Kreis „Outputs“.
+axes: []
+elements:
+  - {id: e1, kind: kreis, text: Ergebnisse, note: Eingang des Gates (Deliverables)}
+  - {id: e2, kind: box, text: Kriterien, note: Raute = Bewertung/Entscheidung}
+  - {id: e3, kind: kreis, text: Outputs, note: Ergebnis des Gates}
+relations:
+  - {from: e1, to: e2, kind: pfeil}
+  - {from: e2, to: e3, kind: pfeil}
+curves: []
+meaning: >-
+  Jedes Gate im Stage-Gate-Prozess hat laut Skript drei Merkmale: notwendige Ergebnisse
+  (Deliverables, die das Projektteam aus der vorigen Stage mitbringt), Kriterien, an denen das
+  Projekt gemessen wird (Muss-Kriterien als K.-o.-Kriterien und Soll-Kriterien, die mit
+  Punktzahlen bewertet werden), sowie definierte Outputs (Entscheidung go/kill/hold/recycle,
+  ein genehmigter Aktionsplan sowie die Liste der Ergebnisse und das Zieldatum für das nächste
+  Gate). Gates werden von Führungskräften verschiedener Funktionen betreut.
+exam_relevance:
+  level: mittel
+  reason: >-
+    Nicht eigenständig gefragt, aber Teil der Antwort auf die Stage-Gate-Fragen (2025-12-11:
+    zeichnen und erklären); erklärt, was an jedem Gate passiert.
+  question_ids: [frage-2025-12-11-3]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Drei Bausteine in Reihenfolge: Ergebnisse → Kriterien → Outputs"
+    - "Kriterien als Raute (Entscheidung) in der Mitte"
+    - "Outputs: go / kill / hold / recycle, Aktionsplan, Ergebnisse und Termin für das nächste Gate"
+  common_mistakes:
+    - "Reihenfolge vertauscht (Kriterien vor den Ergebnissen)"
+    - "Outputs nur als „go/kill“ erklärt – hold und recycle sowie Aktionsplan fehlen"
+    - "Muss- und Soll-Kriterien nicht unterschieden"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-38.svg
+  notes: >-
+    Visuell per Überlagerung mit dem Original geprüft. Die Abbildung steht auf PDF-Seite 110, ihre
+    Beschriftung erst oben auf Seite 111.
+source:
+  pdf_page: 110
+  printed_page: 100
+  ocr_text_of_labels: Ergebnisse; Kriterien; Outputs

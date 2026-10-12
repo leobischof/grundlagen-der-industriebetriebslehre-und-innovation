@@ -1,0 +1,79 @@
+id: abb-57
+title: Einfluss von Effizienz, Konsistenz und Suffizienz auf Aufwand und Ertrag
+type: kurvendiagramm
+description: >-
+  Aufwands-Ertrags-Diagramm: x-Achse „Ressourcenverbrauch“ von „Nachhaltig“ nach „Ausbeutend“,
+  y-Achse „Wirtschaftlicher Erfolg“ von „Gering“ nach „Hoch“. Drei Geraden aus dem Ursprung
+  stehen für Produktivitäten: „Produktivität p1 = konst.“ (flach), „p2 > p1“ (steiler) und
+  „p3 >> p1“ (sehr steil). Vom Ausgangspunkt A auf p1 führen drei Pfeile: „Effizienz“ nach B
+  (auf p2, etwas weniger Ressourcen, mehr Erfolg), „Suffizienz (Verzicht)“ nach C (auf p1, weniger
+  Ressourcen und weniger Erfolg) und „Konsistenz“ nach D (auf p3, viel weniger Ressourcen, mehr
+  Erfolg). Ein großer gebogener Pfeil oben trägt den Text „Technologie-innovation Nötig für Netto
+  Null“; ein grauer Keil um p1 und zwei gestrichelte senkrechte Linien begrenzen den Bereich.
+axes:
+  - {axis: x, label: Ressourcenverbrauch, unit: null, direction: "rechts (Nachhaltig → Ausbeutend)"}
+  - {axis: y, label: Wirtschaftlicher Erfolg, unit: null, direction: "oben (Gering → Hoch)"}
+elements:
+  - {id: p1, kind: kurve, text: Produktivität p1 = konst., note: flachste Gerade durch A und C}
+  - {id: p2, kind: kurve, text: p2 > p1, note: Gerade durch B}
+  - {id: p3, kind: kurve, text: p3 >> p1, note: steilste Gerade durch D}
+  - {id: A, kind: label, text: A, note: Ausgangspunkt auf p1, rechts}
+  - {id: B, kind: label, text: B, note: auf p2}
+  - {id: C, kind: label, text: C, note: auf p1, links unterhalb von A}
+  - {id: D, kind: label, text: D, note: auf p3, weit links oben}
+  - {id: eff, kind: pfeil, text: Effizienz}
+  - {id: suf, kind: pfeil, text: Suffizienz (Verzicht)}
+  - {id: kon, kind: pfeil, text: Konsistenz}
+  - {id: tech, kind: pfeil, text: "Technologie-innovation / Nötig für Netto Null", note: großer gebogener Pfeil von rechts nach links}
+  - {id: grenz, kind: label, text: "(gestrichelte Senkrechte)", note: "zwei Begrenzungen des Ressourcenverbrauchs, ohne Text"}
+relations:
+  - {from: A, to: B, kind: pfeil, text: Effizienz}
+  - {from: A, to: C, kind: pfeil, text: Suffizienz (Verzicht)}
+  - {from: A, to: D, kind: pfeil, text: Konsistenz}
+  - {from: p2, to: p3, kind: pfeil, text: "Technologie-innovation – nötig für Netto Null"}
+curves:
+  - {name: Produktivität p1 = konst., shape: "Gerade aus dem Ursprung, flach", key_points: "A, C"}
+  - {name: p2 > p1, shape: "Gerade aus dem Ursprung, steiler", key_points: "B"}
+  - {name: p3 >> p1, shape: "Gerade aus dem Ursprung, sehr steil", key_points: "D"}
+meaning: >-
+  Skript 8.3.3 (angelehnt an Schmidt 2008): Effizienz verbessert das Input-Output-Verhältnis und
+  kann Ertrag steigern und Ressourcen schonen, beides aber nur begrenzt (A → B). Suffizienz
+  (genügsameres Konsumverhalten, freiwilliger Verzicht oder politische Maßnahmen) wirkt stärker
+  in Richtung eines akzeptablen Ressourcenverbrauchs, senkt aber zwangsläufig den Ertrag (A → C).
+  Das größte Potential hat die durch technische Innovationen ermöglichte Konsistenz
+  (Öko-Effektivität, z. B. biologisch abbaubare Rohstoffe, erneuerbare Energie,
+  Kreislaufwirtschaft) (A → D): ähnlich wie Effizienz (höhere Produktivität, kein verringerter
+  Ertrag), aber weitaus radikaler. Laut Abbildung ist Technologie-Innovation für Netto Null nötig.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Dreimal gefragt (2025-03-18, 2025-10-15 mit Skizze, Klausur 2026-04-29 Aufgabe 6 mit 6 Punkten).
+    Quelle: exams/topic-mapping.json.
+  question_ids: [frage-2025-03-18-5, frage-2025-10-15-3, frage-2026-04-29-6]
+drawing:
+  difficulty: schwer
+  must_know:
+    - "Achsen: Ressourcenverbrauch (Nachhaltig → Ausbeutend), Wirtschaftlicher Erfolg (Gering → Hoch)"
+    - "Produktivitätsgeraden p1 < p2 < p3 aus dem Ursprung"
+    - "Ausgangspunkt A und die drei Pfeile Effizienz (B), Suffizienz (C), Konsistenz (D)"
+    - "Suffizienz senkt den Erfolg, Effizienz und Konsistenz nicht"
+  common_mistakes:
+    - "Suffizienz-Pfeil nach oben gezeichnet (sie senkt den Ertrag)"
+    - "Effizienz und Konsistenz gleich weit gezeichnet (Konsistenz ist weitaus radikaler)"
+    - "Achsen vertauscht oder Pole Nachhaltig/Ausbeutend vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-57.svg
+  notes: >-
+    Visuell per Nebeneinander-Vergleich geprüft. Der Scan ist um ca. 1,2° gedreht; Punkte wurden
+    am Scan gemessen und um den Ursprung gerade gestellt. Form des gebogenen Pfeils und des grauen
+    Keils angenähert; gestrichelte Linien als einzelne Striche gezeichnet (Renderer-Kompatibilität).
+    Buchstaben A–D sind keine Lösungselemente (Gerüst der Übung); alle Wortbeschriftungen sind
+    class="answer".
+source:
+  pdf_page: 148
+  printed_page: 138
+  ocr_text_of_labels: >-
+    Technologie-innovation; Nötig für Netto Null; Hoch; Wirtschaftlicher Erfolg; Gering;
+    Nachhaltig; Ressourcenverbrauch; Ausbeutend; D; B; A; C; Konsistenz; Effizienz;
+    Suffizienz (Verzicht); Produktivität p1 = konst.; p2 > p1; p3 >> p1

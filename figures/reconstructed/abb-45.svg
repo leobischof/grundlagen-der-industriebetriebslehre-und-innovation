@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 738" width="1266" height="738" data-figure-id="abb-45" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Typologisierung von Produktionssystemen</title>
+  <rect x="0" y="0" width="1266" height="738" fill="#ffffff"/>
+  <rect x="12" y="12" width="1242" height="714" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Tree connectors (structure, not part of the answer) -->
+  <g fill="none" stroke="#333333" stroke-width="2">
+    <path d="M640 125 V245 M322 245 H983 M322 245 V255 M983 245 V255"/>
+    <path d="M322 340 V368 M983 340 V368"/>
+  </g>
+
+  <!-- Root: given as the prompt of the exercise -->
+  <rect x="400" y="40" width="480" height="85" fill="#a6a6a6" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="640" y="74" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">Produktions-</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="640" y="108" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">systeme</text>
+
+  <!-- Left branch: Produktionsart -->
+  <rect x="58" y="255" width="522" height="85" fill="#7f7f7f" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="319" y="307" font-size="26" font-weight="bold" text-anchor="middle">Produktionsart</text>
+  <rect x="58" y="368" width="522" height="84" fill="#d9d9d9" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="319" y="400" font-size="26" font-weight="bold" text-anchor="middle">nach mengenmäßigen Auftragsumfang</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="319" y="438" font-size="26" font-weight="bold" text-anchor="middle">und die Wiederholhäufigkeit</text>
+  <rect x="58" y="470" width="522" height="228" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="319" y="530" font-size="27" text-anchor="middle">Einmalproduktion</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="319" y="572" font-size="27" text-anchor="middle">Einzel- und Kleinserienfertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="319" y="615" font-size="27" text-anchor="middle">Serienfertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="319" y="661" font-size="27" text-anchor="middle">Massenfertigung</text>
+
+  <!-- Right branch: Fertigungsform -->
+  <rect x="745" y="255" width="470" height="85" fill="#7f7f7f" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="980" y="307" font-size="26" font-weight="bold" text-anchor="middle">Fertigungsform</text>
+  <rect x="745" y="368" width="470" height="84" fill="#d9d9d9" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="980" y="420" font-size="26" font-weight="bold" text-anchor="middle">nach räumlicher Anordnung</text>
+  <rect x="748" y="470" width="467" height="228" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="981" y="503" font-size="27" text-anchor="middle">Punktfertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="981" y="549" font-size="27" text-anchor="middle">Werkstattfertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="981" y="593" font-size="27" text-anchor="middle">Gruppenfertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="981" y="638" font-size="27" text-anchor="middle">Reihenfertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="981" y="682" font-size="27" text-anchor="middle">Fließfertigung</text>
+</svg>

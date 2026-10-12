@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 213" width="1263" height="213" data-figure-id="abb-51" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Planungsvorgehen nach Grundig – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1263" height="213" fill="#ffffff" />
+  <rect x="11" y="11" width="1241" height="191" fill="none" stroke="#555555" stroke-width="2" />
+
+  <!-- Phase boxes (light) and the emphasised Grobplanung with its two sub-steps -->
+  <g fill="#efefef" stroke="#d6d6d6" stroke-width="1.5">
+    <rect x="33" y="30" width="127" height="150" />
+    <rect x="190" y="30" width="128" height="150" />
+    <rect x="641" y="30" width="177" height="150" />
+    <rect x="845" y="30" width="187" height="150" />
+    <rect x="1067" y="30" width="163" height="150" />
+  </g>
+  <rect x="350" y="25" width="260" height="160" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <g fill="#efefef" stroke="#cccccc" stroke-width="1.5">
+    <rect x="372" y="70" width="109" height="52" />
+    <rect x="494" y="70" width="104" height="52" />
+  </g>
+
+  <!-- Phase names (answer) -->
+  <rect class="placeholder" x="58.6" y="57.0" width="76.8" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="44.9" y="85.0" width="104.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="230.5" y="57.0" width="63.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="209.9" y="85.0" width="104.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="400.4" y="30.0" width="159.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="388.6" y="80.0" width="76.8" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="514.5" y="80.0" width="63.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="650.4" y="83.0" width="159.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="858.5" y="62.0" width="173.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="892.9" y="95.0" width="104.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1077.2" y="83.0" width="145.5" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Chapter numbers of the source (Grundig), not the script's numbering -->
+  <text font-family="Arial, Helvetica, sans-serif" x="97" y="161" font-size="25" text-anchor="middle">3.4.1</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="260" y="161" font-size="25" text-anchor="middle">3.4.2</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="480" y="161" font-size="25" text-anchor="middle">3.4.3</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="730" y="161" font-size="25" text-anchor="middle">3.4.4</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="945" y="161" font-size="25" text-anchor="middle">3.4.5</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="1150" y="161" font-size="25" text-anchor="middle">3.4.6</text>
+
+  <!-- Sequence arrows -->
+  <line x1="162" y1="99" x2="175" y2="99" stroke="#111111" stroke-width="4" />
+  <polygon points="188,99 175,108 175,90" fill="#111111" />
+  <line x1="320" y1="99" x2="335" y2="99" stroke="#111111" stroke-width="4" />
+  <polygon points="348,99 335,108 335,90" fill="#111111" />
+  <line x1="612" y1="99" x2="627" y2="99" stroke="#111111" stroke-width="4" />
+  <polygon points="640,99 627,108 627,90" fill="#111111" />
+  <line x1="820" y1="99" x2="832" y2="99" stroke="#111111" stroke-width="4" />
+  <polygon points="845,99 832,108 832,90" fill="#111111" />
+  <line x1="1035" y1="99" x2="1052" y2="99" stroke="#111111" stroke-width="4" />
+  <polygon points="1065,99 1052,108 1052,90" fill="#111111" />
+</svg>

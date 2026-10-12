@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1194 721" width="1194" height="721"
+     data-figure-id="abb-37" data-status="faithful"
+     font-family="Arial, Helvetica, sans-serif">
+  <title>Stage-Gate-Prozess nach Cooper</title>
+  <desc>Rekonstruktion von Abbildung 37 (Skript S. 99, PDF 109): Entdeckung, fünf Gates und fünf Stages bis zum Launch, danach Post-Launch-Rückblick.</desc>
+  <defs>
+    <marker id="tip" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1194" height="721" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="8" y="8" width="1178" height="704" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- overall direction arrow -->
+  <polygon points="290,55 995,55 995,30 1085,80 995,132 995,105 290,105" fill="#3a3a3a"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="668" y="90" font-size="24" fill="#ffffff" text-anchor="middle">Neue Produkte auf den Markt bringen</text>
+
+  <!-- flow lines between the stages -->
+  <g stroke="#000" stroke-width="2.5" fill="none" marker-end="url(#tip)">
+    <polyline points="43,148 43,256"/>
+    <line x1="181" y1="393" x2="288" y2="393"/>
+    <line x1="425" y1="393" x2="534" y2="393"/>
+    <line x1="670" y1="393" x2="776" y2="393"/>
+    <line x1="912" y1="393" x2="1017" y2="393"/>
+    <polyline points="1152,393 1152,501"/>
+  </g>
+
+  <!-- stages (dark boxes) -->
+  <g fill="#333333">
+    <rect x="43" y="12" width="139" height="136"/>
+    <rect x="43" y="258" width="138" height="135"/>
+    <rect x="290" y="258" width="135" height="135"/>
+    <rect x="536" y="258" width="134" height="135"/>
+    <rect x="778" y="258" width="134" height="135"/>
+    <rect x="1019" y="258" width="133" height="135"/>
+    <rect x="1019" y="503" width="133" height="134"/>
+  </g>
+  <!-- gates (diamonds) -->
+  <g fill="#555555">
+    <polygon points="113,158 159,203 113,249 67,203"/>
+    <polygon points="236,284 282,330 236,376 190,330"/>
+    <polygon points="480,284 526,330 480,376 434,330"/>
+    <polygon points="724,284 770,330 724,376 678,330"/>
+    <polygon points="968,284 1014,330 968,376 922,330"/>
+  </g>
+
+  <!-- texts inside boxes and gates -->
+  <g font-size="21" fill="#ffffff">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="112" y="72" font-weight="bold" text-anchor="middle"><tspan x="112">Ent-</tspan><tspan x="112" dy="31">deckung</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="112" y="332" font-weight="bold" text-anchor="middle">Stage 1</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="358" y="334" font-weight="bold" text-anchor="middle">Stage 2</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="603" y="334" font-weight="bold" text-anchor="middle">Stage 3</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="845" y="334" font-weight="bold" text-anchor="middle">Stage 4</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1085" y="334" font-weight="bold" text-anchor="middle">Stage 5</text>
+    <text font-family="Arial, Helvetica, sans-serif" x="1085" y="604" font-size="96" font-weight="bold" text-anchor="middle">€</text>
+  </g>
+  <g font-size="19" fill="#ffffff">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="113" y="198" font-weight="bold" text-anchor="middle"><tspan x="113">Gate</tspan><tspan x="113" dy="24">1</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="236" y="325" font-weight="bold" text-anchor="middle"><tspan x="236">Gate</tspan><tspan x="236" dy="24">2</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="480" y="325" font-weight="bold" text-anchor="middle"><tspan x="480">Gate</tspan><tspan x="480" dy="24">3</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="724" y="325" font-weight="bold" text-anchor="middle"><tspan x="724">Gate</tspan><tspan x="724" dy="24">4</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="968" y="325" font-weight="bold" text-anchor="middle"><tspan x="968">Gate</tspan><tspan x="968" dy="24">5</tspan></text>
+  </g>
+
+  <!-- gate decisions (above) and stage activities (below) -->
+  <g font-size="19" fill="#000">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="193" y="154" font-weight="bold"><tspan x="193">Ideen</tspan><tspan x="193" dy="27">Screening</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="237" y="219" font-weight="bold" text-anchor="middle"><tspan x="237">Zweites</tspan><tspan x="237" dy="27">Screening</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="480" y="219" font-weight="bold" text-anchor="middle"><tspan x="480">Zur</tspan><tspan x="480" dy="27">Entwicklung</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="724" y="219" font-weight="bold" text-anchor="middle"><tspan x="724">Zum</tspan><tspan x="724" dy="27">Testen</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="968" y="219" font-weight="bold" text-anchor="middle"><tspan x="968">Zum</tspan><tspan x="968" dy="27">Launch</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="112" y="419" font-weight="bold" text-anchor="middle">Scoping</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="358" y="419" font-weight="bold" text-anchor="middle"><tspan x="358">Business Case</tspan><tspan x="358" dy="27">erstellen</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="602" y="419" font-weight="bold" text-anchor="middle">Entwicklung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="845" y="419" font-weight="bold" text-anchor="middle"><tspan x="845">Prüfung &amp;</tspan><tspan x="845" dy="27">Validierung</tspan></text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1084" y="421" font-weight="bold" text-anchor="middle">Launch</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="942" y="565" font-weight="bold" text-anchor="middle"><tspan x="942">Post-Launch</tspan><tspan x="942" dy="27">Rückblick</tspan></text>
+  </g>
+</svg>
