@@ -56,6 +56,13 @@ def test_dead_link_list_items_vanish_and_prose_links_keep_their_label():
     assert "Siehe 2.5." in out
 
 
+def test_dropped_link_in_a_comma_list_takes_its_comma_along():
+    out = _html("**Abb. 35** ([Original](o.md), [Rekonstruktion](../r.svg), [Zeichenübung](z.md)) · Text\n\n"
+                "**Abb. 36** ([Rekonstruktion](../r.svg), [Original](o.md))\n")
+    assert "(Original, Zeichenübung)" in out
+    assert "(Original)" in out
+
+
 def test_tables_are_wrapped_against_the_story_blank_page_loop():
     out = _html("| a | b |\n|---|---|\n| 1 | 2 |\n")
     assert '<div class="table"><table>' in out and "</table></div>" in out

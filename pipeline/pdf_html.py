@@ -209,6 +209,9 @@ def _links(text: str) -> str:
             return f'{sep or ""}{label} (<span class="url">{html.escape(href)}</span>)'
         return f'{sep or ""}{label}'
     text = _LINK.sub(repl, text)
+    # A dropped link inside a comma list "([Original](…), [Rekonstruktion](….svg), …)" leaves
+    # its comma behind: "(Original, , Zeichenübung)".
+    text = re.sub(r"\(\s*,\s*", "(", re.sub(r",\s*(?=[,)])", "", text))
     return re.sub(r"\s*·\s*(?=</p>)", "", text)
 
 
