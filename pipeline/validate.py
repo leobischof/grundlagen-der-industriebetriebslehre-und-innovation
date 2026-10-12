@@ -11,6 +11,7 @@ Checks (one module per concern):
   qa_checks_figures   – PNG/metadata/SVG/exercise per figure, manifest, detection reports
   qa_checks_exams     – exam questions and topic mapping
   qa_checks_links     – relative links in every committed .md file, footnotes
+  qa_checks_names     – every file name occurs once in the repository (flat loading, NotebookLM)
 """
 from __future__ import annotations
 
@@ -22,6 +23,7 @@ from .cache import write_if_changed
 from .qa_checks_exams import EXAMS, check_questions, check_topic_mapping
 from .qa_checks_figures import DETECTION, FIGURES, check_detection, check_figures
 from .qa_checks_links import FOOTNOTES, LINKS, check_footnotes, check_links
+from .qa_checks_names import NAMES, check_names
 from .qa_checks_structure import (OCR, PAGES, SECTIONS, SOURCES, check_ocr, check_pages,
                                   check_sections, check_sources)
 from .qa_findings import ERROR, WARNING, Finding, count, error, render
@@ -41,6 +43,7 @@ CHECKS: list[tuple[str, Callable[[RepoView], list[Finding]]]] = [
     (EXAMS, check_topic_mapping),
     (LINKS, check_links),
     (FOOTNOTES, check_footnotes),
+    (NAMES, check_names),
 ]
 
 

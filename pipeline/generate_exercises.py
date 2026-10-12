@@ -2,7 +2,7 @@
 
 For every figures/reconstructed/<id>.svg this writes
   figures/exercises/<id>-blank.svg        – answers removed, placeholders kept (svg_blank)
-  learning/drawing-exercises/<id>.md      – German step-by-step guide (drawing_guide)
+  learning/drawing-exercises/<id>-zeichenuebung.md – German step-by-step guide (drawing_guide)
 Both are pure functions of the committed SVG and curation/figures/<id>.yaml, so
 no cache is needed: outputs are rewritten only when their text changes.
 Exercises whose SVG has disappeared are left alone and reported, never deleted:
@@ -30,7 +30,7 @@ def _wanted_ids(pages: str | None) -> set[str] | None:
 def _outputs(fid: str, svg_text: str) -> list[tuple]:
     blank, removed = blank_svg(svg_text)
     return [(config.FIG_EXERCISES / f"{fid}-blank.svg", blank, removed),
-            (GUIDES / f"{fid}.md", drawing_guide.render(fid), None)]
+            (GUIDES / config.drawing_guide_name(fid), drawing_guide.render(fid), None)]
 
 
 def _orphans() -> list[str]:

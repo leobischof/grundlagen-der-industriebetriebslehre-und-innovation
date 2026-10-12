@@ -102,8 +102,8 @@ def figure_block(item: Item, notes: list[int]) -> list[str]:
     links = []
     if (config.FIG_RECONSTRUCTED / f"{fid}.svg").exists():
         links.append(f"[Rekonstruktion](../../figures/reconstructed/{fid}.svg)")
-    if (config.DRAWING_GUIDES / f"{fid}.md").exists():
-        links.append(f"[Zeichenübung](../../learning/drawing-exercises/{fid}.md)")
+    if (config.DRAWING_GUIDES / config.drawing_guide_name(fid)).exists():
+        links.append(f"[Zeichenübung](../../learning/drawing-exercises/{config.drawing_guide_name(fid)})")
     if fig["kind"] == "formula":
         body = ["$$", item.text or fig.get("latex", ""), "$$", ""]
         links.insert(0, f"[Original]({original})")

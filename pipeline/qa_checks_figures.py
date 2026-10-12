@@ -156,7 +156,7 @@ def _manifest_files(view: RepoView, entry: dict) -> list[tuple[str, str | None]]
         "original": config.FIG_ORIGINALS / f"{fid}.png",
         "reconstructed": config.FIG_RECONSTRUCTED / f"{fid}.svg",
         "exercise": config.FIG_EXERCISES / f"{fid}-blank.svg",
-        "drawing_guide": config.DRAWING_GUIDES / f"{fid}.md",
+        "drawing_guide": config.DRAWING_GUIDES / config.drawing_guide_name(fid),
         "metadata": config.FIGURE_META_DIR / f"{fid}.yaml",
     }
     files = entry.get("files") or {}

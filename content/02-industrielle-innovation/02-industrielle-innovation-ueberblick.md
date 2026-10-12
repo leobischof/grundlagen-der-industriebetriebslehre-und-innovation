@@ -23,4 +23,4 @@ source: skript-2024-25-v2.0
   - 2.5.3 Innovation von Systemeigenschaften
   - 2.5.4 Innovation jenseits der Technik
   - 2.5.5 Postindustrielle Innovation
-- [Literatur](literatur.md)
+- [Literatur](02-industrielle-innovation-literatur.md)

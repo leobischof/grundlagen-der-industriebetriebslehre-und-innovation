@@ -11,7 +11,7 @@ exam_questions: [frage-2025-12-11-4]
 
 # Lernleitfaden Kapitel 7: Grundlagen des Industrie Managements
 
-> **KI-Erklärung, nicht das Skript.** Dieser Leitfaden wurde von einer KI erstellt und ist nicht fachlich geprüft. Maßgeblich ist immer der Skripttext im [Kapitel 7](../../content/07-grundlagen-des-industrie-managements/README.md) und die Originalabbildungen. Jede Aussage ist mit einer Fundstelle im Skript belegt; was nicht im Skript steht, ist als „Zusatzwissen" oder „im Skript nicht vollständig" markiert. Die Prüfungsfragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle, eine Klausurabschrift) und sind weder amtlich noch verifiziert.
+> **KI-Erklärung, nicht das Skript.** Dieser Leitfaden wurde von einer KI erstellt und ist nicht fachlich geprüft. Maßgeblich ist immer der Skripttext im [Kapitel 7](../../content/07-grundlagen-des-industrie-managements/07-grundlagen-des-industrie-managements-ueberblick.md) und die Originalabbildungen. Jede Aussage ist mit einer Fundstelle im Skript belegt; was nicht im Skript steht, ist als „Zusatzwissen" oder „im Skript nicht vollständig" markiert. Die Prüfungsfragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle, eine Klausurabschrift) und sind weder amtlich noch verifiziert.
 
 ## Überblick
 

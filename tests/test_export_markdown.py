@@ -7,7 +7,7 @@ from pipeline import content_files, export_markdown
 
 CAPTION = ("![Abbildung 45: Typologie](../../figures/originals/abb-45.png)\n\n"
            "*Abbildung 45 – Skript S. 119* · [Rekonstruktion](../../figures/reconstructed/abb-45.svg)"
-           " · [Zeichenübung](../../learning/drawing-exercises/abb-45.md)")
+           " · [Zeichenübung](../../learning/drawing-exercises/abb-45-zeichenuebung.md)")
 
 
 def test_figures_point_next_to_the_file_and_dead_link_items_vanish():
@@ -30,8 +30,8 @@ def test_prose_links_keep_their_text_and_external_links_and_footnotes_stay():
 def test_sections_are_ordered_numerically(tmp_path: Path):
     chapter = tmp_path / "02-innovation"
     chapter.mkdir()
-    for name in ("2.10-z.md", "2.2-b.md", "literatur.md", "README.md"):
+    for name in ("2.10-z.md", "2.2-b.md", "02-innovation-literatur.md", "02-innovation-ueberblick.md"):
         (chapter / name).write_text("---\ntitle: Innovation\n---\n# x\n", encoding="utf-8")
     (found,) = content_files.discover(tmp_path)
     assert found.title == "Innovation"
-    assert [p.name for p in found.files] == ["README.md", "2.2-b.md", "2.10-z.md", "literatur.md"]
+    assert [p.name for p in found.files] == ["02-innovation-ueberblick.md", "2.2-b.md", "2.10-z.md", "02-innovation-literatur.md"]

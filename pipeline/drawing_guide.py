@@ -1,4 +1,4 @@
-"""Render the German drawing guide learning/drawing-exercises/<id>.md for one figure.
+"""Render the German drawing guide learning/drawing-exercises/<id>-zeichenuebung.md for one figure.
 
 Everything figure-specific comes from the curated metadata (B) in
 curation/figures/<id>.yaml; this module only knows the *types* of figures

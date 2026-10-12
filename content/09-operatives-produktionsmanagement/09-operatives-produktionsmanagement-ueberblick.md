@@ -41,4 +41,4 @@ Die Hauptelemente eines Produktionssystems sind die Fertigung und die Montage, d
   - 9.3.3 Zuverlässigkeit/Liefertreue
   - 9.3.4 Flexibilität
   - 9.3.5 Kosten
-- [Literatur](literatur.md)
+- [Literatur](09-operatives-produktionsmanagement-literatur.md)

@@ -11,10 +11,10 @@ exam_questions: [frage-2024-10-15-4, frage-2025-02-04-4, frage-2025-04-09-1, fra
 # Prüfungsfragen mit Musterlösung – Kapitel 4: Grundlagen der Innovation
 
 > **KI-Erklärung, nicht Teil des Skripts.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript abgeleitet
-> ([Kapitel 4](../../content/04-grundlagen-der-innovation/README.md)) und sind ungeprüft. Die Prüfungsfragen stammen aus
+> ([Kapitel 4](../../content/04-grundlagen-der-innovation/04-grundlagen-der-innovation-ueberblick.md)) und sind ungeprüft. Die Prüfungsfragen stammen aus
 > Studierenden-Quellen (Gedächtnisprotokolle) und sind unverifiziert; Wortlaut und Vollständigkeit können abweichen
 > ([alle Fragen](../../exams/questions.md)). Punkte sind für diese Fragen nicht bekannt. Die Bewertungshinweise sind eine
-> Einschätzung, keine offizielle Bewertung. Lernleitfaden: [Kapitel 4](../chapters/04-grundlagen-der-innovation.md).
+> Einschätzung, keine offizielle Bewertung. Lernleitfaden: [Kapitel 4](../chapters/04-grundlagen-der-innovation-leitfaden.md).
 
 ## 15.10.2024 · Frage 4 · `frage-2024-10-15-4`
 

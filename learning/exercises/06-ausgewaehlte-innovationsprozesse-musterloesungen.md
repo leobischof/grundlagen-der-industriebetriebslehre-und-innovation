@@ -11,10 +11,10 @@ exam_questions: [frage-2025-06-16-2, frage-2025-12-11-3, frage-2024-06-20-2, fra
 # Prüfungsfragen mit Musterlösung – Kapitel 6: Ausgewählte Innovationsprozesse
 
 > **KI-Erklärung, nicht Teil des Skripts.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript abgeleitet
-> ([Kapitel 6](../../content/06-ausgewaehlte-innovationsprozesse/README.md)) und sind ungeprüft. Die Prüfungsfragen stammen aus
+> ([Kapitel 6](../../content/06-ausgewaehlte-innovationsprozesse/06-ausgewaehlte-innovationsprozesse-ueberblick.md)) und sind ungeprüft. Die Prüfungsfragen stammen aus
 > Studierenden-Quellen (Gedächtnisprotokolle) und sind unverifiziert; Wortlaut und Vollständigkeit können abweichen
 > ([alle Fragen](../../exams/questions.md)). Punkte sind für diese Fragen nicht bekannt. Die Bewertungshinweise sind eine
-> Einschätzung, keine offizielle Bewertung. Lernleitfaden: [Kapitel 6](../chapters/06-ausgewaehlte-innovationsprozesse.md).
+> Einschätzung, keine offizielle Bewertung. Lernleitfaden: [Kapitel 6](../chapters/06-ausgewaehlte-innovationsprozesse-leitfaden.md).
 > Die Fragen zu Cooper stehen zuerst, danach die dreimal gestellte Frage zu Design Thinking, zuletzt eine Übungsaufgabe zu Thom (ohne bekannte Prüfungsfrage).
 
 ## 16.06.2025 · Frage 2 · `frage-2025-06-16-2`
@@ -44,7 +44,7 @@ Hinweis zur Quelle: Der Fließtext (sechs Stages inklusive Ideengenerierung) und
 ### Fundstellen
 
 - [6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)
-- [Zeichenübung Abbildung 37](../drawing-exercises/abb-37.md), [Zeichenübung Abbildung 38](../drawing-exercises/abb-38.md)
+- [Zeichenübung Abbildung 37](../drawing-exercises/abb-37-zeichenuebung.md), [Zeichenübung Abbildung 38](../drawing-exercises/abb-38-zeichenuebung.md)
 
 ### Bewertungshinweise (Einschätzung)
 
@@ -60,7 +60,7 @@ Aufgabentyp: Zeichnung mit Erklärung (Punkte unbekannt). Zugeordnete Abbildunge
 
 ### Musterlösung
 
-**Zeichnung** ([Original](../../figures/originals/abb-37.png), [Rekonstruktion](../../figures/reconstructed/abb-37.svg), [Zeichenübung](../drawing-exercises/abb-37.md)) ([6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)):
+**Zeichnung** ([Original](../../figures/originals/abb-37.png), [Rekonstruktion](../../figures/reconstructed/abb-37.svg), [Zeichenübung](../drawing-exercises/abb-37-zeichenuebung.md)) ([6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)):
 
 1. Großen Richtungspfeil „Neue Produkte auf den Markt bringen“ über die Prozesskette setzen.
 2. Von links nach rechts: Kasten „Entdeckung“, dann abwechselnd Gate (Raute) und Stage (Kasten): Gate 1 „Ideen Screening“, Stage 1 „Scoping“, Gate 2 „Zweites Screening“, Stage 2 „Business Case erstellen“, Gate 3 „Zur Entwicklung“, Stage 3 „Entwicklung“, Gate 4 „Zum Testen“, Stage 4 „Prüfung & Validierung“, Gate 5 „Zum Launch“, Stage 5 „Launch“.
@@ -76,7 +76,7 @@ Aufgabentyp: Zeichnung mit Erklärung (Punkte unbekannt). Zugeordnete Abbildunge
 ### Fundstellen
 
 - [6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)
-- [Zeichenübung Abbildung 37](../drawing-exercises/abb-37.md), [Zeichenübung Abbildung 38](../drawing-exercises/abb-38.md)
+- [Zeichenübung Abbildung 37](../drawing-exercises/abb-37-zeichenuebung.md), [Zeichenübung Abbildung 38](../drawing-exercises/abb-38-zeichenuebung.md)
 
 ### Bewertungshinweise (Einschätzung)
 

@@ -12,14 +12,14 @@ exam_questions: [frage-2024-10-15-4, frage-2025-02-04-4, frage-2025-04-09-1, fra
 # Lernleitfaden Kapitel 4: Grundlagen der Innovation
 
 > **KI-Erklärung, nicht Teil des Skripts.** Dieser Leitfaden wurde von einer KI aus dem Skripttext erstellt und ist
-> ungeprüft. Maßgeblich ist immer das Skript: [Kapitel 4 – Grundlagen der Innovation](../../content/04-grundlagen-der-innovation/README.md).
+> ungeprüft. Maßgeblich ist immer das Skript: [Kapitel 4 – Grundlagen der Innovation](../../content/04-grundlagen-der-innovation/04-grundlagen-der-innovation-ueberblick.md).
 > Die genannten Prüfungsfragen stammen aus Studierenden-Quellen und sind unverifiziert
 > ([Prüfungsfragen](../../exams/questions.md)).
 
 ## Überblick
 
 Kapitel 4 vertieft das Thema Innovation: Es geht darum, wie Innovationen in Unternehmen gemanagt und umgesetzt werden und wie Innovation und
-Entrepreneurship zusammenhängen (Kapiteleinleitung, [Kapitel-README](../../content/04-grundlagen-der-innovation/README.md)).
+Entrepreneurship zusammenhängen (Kapiteleinleitung, [Kapitel-README](../../content/04-grundlagen-der-innovation/04-grundlagen-der-innovation-ueberblick.md)).
 Abschnitt 4.1 betrachtet das bestehende Unternehmen: Innovationsmanagement mit seinen Akteuren, die Innovationsstrategie und die
 Innovationsbarrieren, die Veränderung bremsen ([4.1](../../content/04-grundlagen-der-innovation/4.1-innovation-und-strategie.md)). Abschnitt 4.2 betrachtet die unternehmerische Seite: Definition von Entrepreneurship,
 seine Komponenten, die Haupttypen (SME und IDE), der dreiphasige Entrepreneurship-Prozess und die Persönlichkeitsmerkmale von Unternehmern ([4.2](../../content/04-grundlagen-der-innovation/4.2-innovation-und-entrepreneurship.md)).
@@ -117,7 +117,7 @@ Quelle: [Häufigkeitsanalyse](../../exams/frequency-analysis.md); der Score ist 
 | Innovationsstrategie (Kriterien) | 26 / 2.0 | 04.02.2025: „6 Kriterien für Innovationsstrategien“ (`frage-2025-02-04-4`) | [4.1.2](../../content/04-grundlagen-der-innovation/4.1-innovation-und-strategie.md#412-innovationsstrategie) |
 | Entrepreneurship (Definition, SME/IDE, Persönlichkeitsmerkmale) | ohne bekannte Prüfungsfrage | – | [4.2.1](../../content/04-grundlagen-der-innovation/4.2-innovation-und-entrepreneurship.md#421-definition), [4.2.2](../../content/04-grundlagen-der-innovation/4.2-innovation-und-entrepreneurship.md#422-unternehmertätigkeit-und-existenzgründung), [4.2.3](../../content/04-grundlagen-der-innovation/4.2-innovation-und-entrepreneurship.md#423-haupttypen-des-entrepreneurship), [4.2.5](../../content/04-grundlagen-der-innovation/4.2-innovation-und-entrepreneurship.md#425-persönlichkeitsmerkmale-für-erfolgreiches-entrepreneurship) |
 
-Alle vier gefragten Themen sind Aufzählungsaufgaben („nennen“, „aufzählen“) und im Skript voll (bei „6 Kriterien“ nur teilweise) abgedeckt. Musterlösungen: [Übung Kapitel 4](../exercises/04-grundlagen-der-innovation.md).
+Alle vier gefragten Themen sind Aufzählungsaufgaben („nennen“, „aufzählen“) und im Skript voll (bei „6 Kriterien“ nur teilweise) abgedeckt. Musterlösungen: [Übung Kapitel 4](../exercises/04-grundlagen-der-innovation-musterloesungen.md).
 
 ## Typische Fehler und Verwechslungen
 

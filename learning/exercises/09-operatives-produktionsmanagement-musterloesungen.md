@@ -10,7 +10,7 @@ exam_questions: [frage-2024-10-15-2, frage-2025-12-11-5, frage-2025-02-04-2, fra
 
 # Prüfungsfragen mit Musterlösung – Kapitel 9: Das operative Produktionsmanagement
 
-> **KI-Erklärung, nicht das Skript.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript ([Kapitel 9](../../content/09-operatives-produktionsmanagement/README.md)) abgeleitet und sind nicht fachlich geprüft. Die Prüfungsfragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle) und sind weder amtlich noch verifiziert; Wortlaut und Zuordnung können abweichen. Zu diesen Fragen sind keine Punkte bekannt. Die Bewertungshinweise sind Einschätzungen, keine offizielle Beurteilung. Alle Fragen im Überblick: [`exams/questions.md`](../../exams/questions.md). Zusammenfassung des Stoffs: [Lernleitfaden Kapitel 9](../chapters/09-operatives-produktionsmanagement.md).
+> **KI-Erklärung, nicht das Skript.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript ([Kapitel 9](../../content/09-operatives-produktionsmanagement/09-operatives-produktionsmanagement-ueberblick.md)) abgeleitet und sind nicht fachlich geprüft. Die Prüfungsfragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle) und sind weder amtlich noch verifiziert; Wortlaut und Zuordnung können abweichen. Zu diesen Fragen sind keine Punkte bekannt. Die Bewertungshinweise sind Einschätzungen, keine offizielle Beurteilung. Alle Fragen im Überblick: [`exams/questions.md`](../../exams/questions.md). Zusammenfassung des Stoffs: [Lernleitfaden Kapitel 9](../chapters/09-operatives-produktionsmanagement-leitfaden.md).
 
 Inhalt: 13 Fragen. Abschnitt 9.1 (Planung): 6 Fragen. Abschnitt 9.2 (Steuerung): 2 Fragen. Abschnitt 9.3 (Kontrolle und Leistungskennzahlen): 5 Fragen.
 
@@ -41,7 +41,7 @@ Im Skript nicht vollständig: Die Grenzen der Klassen auf den Achsen sind nur ü
 ### Fundstellen
 
 - ([9.1.4](../../content/09-operatives-produktionsmanagement/9.1-planung.md))
-- [Original Abb. 70](../../figures/originals/abb-70.png) · [Rekonstruktion](../../figures/reconstructed/abb-70.svg) · [Zeichenübung](../drawing-exercises/abb-70.md)
+- [Original Abb. 70](../../figures/originals/abb-70.png) · [Rekonstruktion](../../figures/reconstructed/abb-70.svg) · [Zeichenübung](../drawing-exercises/abb-70-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -162,7 +162,7 @@ Prozentangaben wörtlich nach Skript; die Formulierung zum B-Artikel ist ungenau
 ### Fundstellen
 
 - ([9.1.4](../../content/09-operatives-produktionsmanagement/9.1-planung.md))
-- [Original Abb. 70](../../figures/originals/abb-70.png) · [Rekonstruktion](../../figures/reconstructed/abb-70.svg) · [Zeichenübung](../drawing-exercises/abb-70.md)
+- [Original Abb. 70](../../figures/originals/abb-70.png) · [Rekonstruktion](../../figures/reconstructed/abb-70.svg) · [Zeichenübung](../drawing-exercises/abb-70-zeichenuebung.md)
 
 ### Bewertungshinweise
 

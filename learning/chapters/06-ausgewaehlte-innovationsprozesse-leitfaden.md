@@ -12,7 +12,7 @@ exam_questions: [frage-2025-06-16-2, frage-2025-12-11-3, frage-2024-06-20-2, fra
 # Lernleitfaden Kapitel 6: Ausgewählte Innovationsprozesse
 
 > **KI-Erklärung, nicht Teil des Skripts.** Dieser Leitfaden wurde von einer KI aus dem Skripttext erstellt und ist
-> ungeprüft. Maßgeblich ist immer das Skript: [Kapitel 6 – Ausgewählte Innovationsprozesse](../../content/06-ausgewaehlte-innovationsprozesse/README.md).
+> ungeprüft. Maßgeblich ist immer das Skript: [Kapitel 6 – Ausgewählte Innovationsprozesse](../../content/06-ausgewaehlte-innovationsprozesse/06-ausgewaehlte-innovationsprozesse-ueberblick.md).
 > Die genannten Prüfungsfragen stammen aus Studierenden-Quellen und sind unverifiziert
 > ([Prüfungsfragen](../../exams/questions.md)).
 
@@ -90,8 +90,8 @@ Es gibt mehrere Iterationszyklen. OCR-Hinweis: Im Fließtext ist die Nummerierun
 
 ## Abbildungen, die du zeichnen können solltest
 
-- **Abbildung 37 – Stage-Gate-Prozess nach Cooper** ([Original](../../figures/originals/abb-37.png), [Rekonstruktion](../../figures/reconstructed/abb-37.svg), [Zeichenübung](../drawing-exercises/abb-37.md)). Prüfungsfragen 16.06.2025 und 11.12.2025 (dort ausdrücklich „zeichnen und erklären“). Schwierigkeit laut Metadaten: schwer. Du musst die Reihenfolge Entdeckung, Gate 1, Stage 1 bis Gate 5, Stage 5, Post-Launch Rückblick samt Beschriftungen kennen; Gates als Rauten, Stages als Kästen ([6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)). Häufige Fehler laut Metadaten: mit einer Stage beginnen, Gate-Entscheidungen und Stage-Tätigkeiten vertauschen, Scoping/Business Case vertauschen, Post-Launch Rückblick vergessen.
-- **Abbildung 38 – Aufbau eines Gates** ([Original](../../figures/originals/abb-38.png), [Rekonstruktion](../../figures/reconstructed/abb-38.svg), [Zeichenübung](../drawing-exercises/abb-38.md)). Prüfungsfrage 11.12.2025 (zugeordnet). Schwierigkeit: leicht. Reihenfolge Ergebnisse (Kreis) → Kriterien (Raute) → Outputs (Kreis) ([6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)).
+- **Abbildung 37 – Stage-Gate-Prozess nach Cooper** ([Original](../../figures/originals/abb-37.png), [Rekonstruktion](../../figures/reconstructed/abb-37.svg), [Zeichenübung](../drawing-exercises/abb-37-zeichenuebung.md)). Prüfungsfragen 16.06.2025 und 11.12.2025 (dort ausdrücklich „zeichnen und erklären“). Schwierigkeit laut Metadaten: schwer. Du musst die Reihenfolge Entdeckung, Gate 1, Stage 1 bis Gate 5, Stage 5, Post-Launch Rückblick samt Beschriftungen kennen; Gates als Rauten, Stages als Kästen ([6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)). Häufige Fehler laut Metadaten: mit einer Stage beginnen, Gate-Entscheidungen und Stage-Tätigkeiten vertauschen, Scoping/Business Case vertauschen, Post-Launch Rückblick vergessen.
+- **Abbildung 38 – Aufbau eines Gates** ([Original](../../figures/originals/abb-38.png), [Rekonstruktion](../../figures/reconstructed/abb-38.svg), [Zeichenübung](../drawing-exercises/abb-38-zeichenuebung.md)). Prüfungsfrage 11.12.2025 (zugeordnet). Schwierigkeit: leicht. Reihenfolge Ergebnisse (Kreis) → Kriterien (Raute) → Outputs (Kreis) ([6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)).
 - **Abbildung 39 – Phasen des Design Thinking** ([Original](../../figures/originals/abb-39.png)). Prüfungsfragen 20.06.2024, 10.12.2024 und 15.10.2025. Es gibt keine Rekonstruktion und keine Zeichenübung; trotzdem sollten die fünf Phasen mit ihren Leitfragen reproduzierbar sein ([6.3](../../content/06-ausgewaehlte-innovationsprozesse/6.3-nach-design-thinking-methode.md)).
 - **Abbildung 36 – Innovationsprozess nach Thom** ([Original](../../figures/originals/abb-36.png)). Keine Prüfungsfrage bekannt, keine Rekonstruktion; die Struktur (3 Phasen mit je 3 Teilschritten) ist leicht lernbar ([6.1](../../content/06-ausgewaehlte-innovationsprozesse/6.1-nach-thom.md)).
 
@@ -105,7 +105,7 @@ Quelle: [Häufigkeitsanalyse](../../exams/frequency-analysis.md); der Score ist 
 | Stage-Gate (Cooper) | 16 / 5.0 (2 Termine) | 16.06.2025: „Innovationsprozess nach Cooper (Stage-Gate)“ (`frage-2025-06-16-2`); 11.12.2025: „Stage-Gate-Prozess Cooper zeichnen und erklären“ (`frage-2025-12-11-3`) | [6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md) |
 | Innovationsprozess nach Thom | ohne bekannte Prüfungsfrage | – | [6.1](../../content/06-ausgewaehlte-innovationsprozesse/6.1-nach-thom.md) |
 
-Beobachtung aus der Häufigkeitsanalyse: Studierende berichten, dass aktuelle Prüfungen eher Grafiken und Diagramme abfragen (unverifiziert); Zeichenübungen lohnen sich besonders bei Abbildung 37. Musterlösungen: [Übung Kapitel 6](../exercises/06-ausgewaehlte-innovationsprozesse.md). Die Frage zu den kritischen Erfolgsfaktoren nach Cooper (11.12.2025, Frage 1) ist Abschnitt 2.5.1 zugeordnet und gehört nicht zu diesem Kapitel.
+Beobachtung aus der Häufigkeitsanalyse: Studierende berichten, dass aktuelle Prüfungen eher Grafiken und Diagramme abfragen (unverifiziert); Zeichenübungen lohnen sich besonders bei Abbildung 37. Musterlösungen: [Übung Kapitel 6](../exercises/06-ausgewaehlte-innovationsprozesse-musterloesungen.md). Die Frage zu den kritischen Erfolgsfaktoren nach Cooper (11.12.2025, Frage 1) ist Abschnitt 2.5.1 zugeordnet und gehört nicht zu diesem Kapitel.
 
 ## Typische Fehler und Verwechslungen
 
@@ -134,7 +134,7 @@ Beobachtung aus der Häufigkeitsanalyse: Studierende berichten, dass aktuelle Pr
 3. Zeichne den Stage-Gate-Prozess nach Cooper (Reihenfolge der Elemente).
    <details><summary>Lösung</summary>
 
-   Entdeckung → Gate 1 (Ideen Screening) → Stage 1 Scoping → Gate 2 (Zweites Screening) → Stage 2 Business Case erstellen → Gate 3 (Zur Entwicklung) → Stage 3 Entwicklung → Gate 4 (Zum Testen) → Stage 4 Prüfung & Validierung → Gate 5 (Zum Launch) → Stage 5 Launch → Post-Launch Rückblick; darüber der Pfeil „Neue Produkte auf den Markt bringen“ ([6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)) ([Zeichenübung](../drawing-exercises/abb-37.md)).
+   Entdeckung → Gate 1 (Ideen Screening) → Stage 1 Scoping → Gate 2 (Zweites Screening) → Stage 2 Business Case erstellen → Gate 3 (Zur Entwicklung) → Stage 3 Entwicklung → Gate 4 (Zum Testen) → Stage 4 Prüfung & Validierung → Gate 5 (Zum Launch) → Stage 5 Launch → Post-Launch Rückblick; darüber der Pfeil „Neue Produkte auf den Markt bringen“ ([6.2](../../content/06-ausgewaehlte-innovationsprozesse/6.2-nach-cooper.md)) ([Zeichenübung](../drawing-exercises/abb-37-zeichenuebung.md)).
    </details>
 4. Welche drei Merkmale hat ein Gate?
    <details><summary>Lösung</summary>

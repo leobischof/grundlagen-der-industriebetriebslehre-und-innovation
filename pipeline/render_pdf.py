@@ -5,7 +5,7 @@
                                                                 bookmarks, every chapter
   build/pdf/pruefungsfragen.pdf                                  only if exams/questions.md exists
 
-Pipeline per chapter: README + sections in TOC order (2.1, 2.2, … 2.10 numerically) + literatur.md
+Pipeline per chapter: overview + sections in TOC order (2.1, 2.2, … 2.10 numerically) + literature
 → HTML (`pdf_html`) → pages (`pdf_layout`, pymupdf.Story). The rendered chapter is reused for the
 chapter PDF and the complete PDF. A PDF is only re-rendered when the hash of its input files
 (markdown + referenced figures + renderer version) changed; build/ is git-ignored, the
@@ -35,7 +35,7 @@ _IMAGE_LINK = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
 class Chapter:
     slug: str
     title: str
-    files: list[Path]                        # README, sections in numeric order, literatur
+    files: list[Path]                        # overview, sections in numeric order, literature
     rendered: "Rendered | None" = None
 
 
@@ -59,7 +59,7 @@ def input_key(files: list[Path]) -> str:
 
 
 def render_files(files: list[Path], flat: bool = False) -> Rendered:
-    """Markdown files → one paginated document. A chapter README keeps its h1 as chapter
+    """Markdown files → one paginated document. A chapter overview keeps its h1 as chapter
     level (its subheadings drop to h4), every other file is shifted one level down so bookmarks
     nest chapter > section. `flat` (exam questions) keeps heading levels as written."""
     assets, parts, problems = Assets(), [], []

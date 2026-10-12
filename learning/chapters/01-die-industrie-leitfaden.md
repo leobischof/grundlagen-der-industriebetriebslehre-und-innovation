@@ -12,14 +12,14 @@ exam_questions: []
 # Lernleitfaden Kapitel 1: Die Industrie
 
 > **KI-Erklärung, nicht das Skript.** Dieser Leitfaden wurde von einer KI erstellt und ist nicht geprüft. Maßgeblich ist
-> das Skript ([Kapitel 1 – Die Industrie](../../content/01-die-industrie/README.md)). Jede Aussage trägt eine
+> das Skript ([Kapitel 1 – Die Industrie](../../content/01-die-industrie/01-die-industrie-ueberblick.md)). Jede Aussage trägt eine
 > Fundstelle; wo das Skript unklar oder nicht vollständig ist, steht das ausdrücklich dabei.
 > Für dieses Kapitel ist in den vorliegenden Prüfungsquellen **keine** Frage bekannt (siehe Prüfungsfokus).
 
 ## Überblick
 
 Kapitel 1 erklärt, warum die Industrie das „Rückgrat jeder höher entwickelten Volkswirtschaft“ ist
-([Einleitung](../../content/01-die-industrie/README.md)). Abschnitt 1.1 erzählt die Entwicklung des Industriebetriebs aus dem
+([Einleitung](../../content/01-die-industrie/01-die-industrie-ueberblick.md)). Abschnitt 1.1 erzählt die Entwicklung des Industriebetriebs aus dem
 Handwerksbetrieb über vier industrielle Revolutionen bis zu „Industrie 4.0“
 ([1.1](../../content/01-die-industrie/1.1-historische-entwicklung-der-industrie.md)). Abschnitt 1.2 belegt mit Zahlen
 (vor allem für Österreich) und mit sechs Argumenten des Roosevelt Institute, wie wichtig die Fertigung für Wirtschaft,
@@ -164,8 +164,8 @@ bekannte Prüfungsfrage“:
 
 Das bedeutet nicht, dass nie danach gefragt wird: Die Quellen sind lückenhaft (12 Termine, davon 11 Gedächtnisprotokolle). Eine
 indirekte Verbindung: Die Liste der sieben Merkmale eines Industriebetriebs (1.2.3) ist für die Frage „Nennen Sie vier Merkmale von
-Industriebetrieben“ (22.01.2026, Zuordnung zu 3.1.1) nützlich – siehe [Kapitel 3](03-industrie-management.md) und die
-[Musterlösung](../exercises/03-industrie-management.md).
+Industriebetrieben“ (22.01.2026, Zuordnung zu 3.1.1) nützlich – siehe [Kapitel 3](03-industrie-management-leitfaden.md) und die
+[Musterlösung](../exercises/03-industrie-management-musterloesungen.md).
 
 ## Typische Fehler und Verwechslungen
 

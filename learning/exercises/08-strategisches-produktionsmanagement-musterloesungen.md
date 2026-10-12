@@ -10,7 +10,7 @@ exam_questions: [frage-2025-10-15-2, frage-2024-03-14-2, frage-2024-03-14-3, fra
 
 # Prüfungsfragen mit Musterlösung – Kapitel 8: Ausgewählte Kapitel des strategischen Produktionsmanagements
 
-> **KI-Erklärung, nicht das Skript.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript ([Kapitel 8](../../content/08-strategisches-produktionsmanagement/README.md)) abgeleitet und sind nicht fachlich geprüft. Die Prüfungsfragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle bzw. die Abschrift einer Klausur, die Klausur vom 29.04.2026) und sind weder amtlich noch verifiziert; Wortlaut und Zuordnung können abweichen. Punkte sind nur für den 29.04.2026 bekannt. Die Bewertungshinweise sind Einschätzungen, keine offizielle Beurteilung. Alle Fragen im Überblick: [`exams/questions.md`](../../exams/questions.md). Zusammenfassung des Stoffs: [Lernleitfaden Kapitel 8](../chapters/08-strategisches-produktionsmanagement.md).
+> **KI-Erklärung, nicht das Skript.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript ([Kapitel 8](../../content/08-strategisches-produktionsmanagement/08-strategisches-produktionsmanagement-ueberblick.md)) abgeleitet und sind nicht fachlich geprüft. Die Prüfungsfragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle bzw. die Abschrift einer Klausur, die Klausur vom 29.04.2026) und sind weder amtlich noch verifiziert; Wortlaut und Zuordnung können abweichen. Punkte sind nur für den 29.04.2026 bekannt. Die Bewertungshinweise sind Einschätzungen, keine offizielle Beurteilung. Alle Fragen im Überblick: [`exams/questions.md`](../../exams/questions.md). Zusammenfassung des Stoffs: [Lernleitfaden Kapitel 8](../chapters/08-strategisches-produktionsmanagement-leitfaden.md).
 
 Inhalt: 17 Fragen. Abschnitt 8.1 (Standortplanung): 1 Frage. Abschnitt 8.2 (Fabrikplanung): 9 Fragen. Abschnitt 8.3 (Nachhaltigkeit): 7 Fragen.
 
@@ -79,8 +79,8 @@ Zur Einordnung: Die Fertigungsform (Punkt-, Werkstatt-, Gruppen-, Reihen-, Flie�
 ### Fundstellen
 
 - ([8.2.1](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)) (Typologie, Abbildungen 45 und 46)
-- [Original Abb. 45](../../figures/originals/abb-45.png) · [Rekonstruktion](../../figures/reconstructed/abb-45.svg) · [Zeichenübung](../drawing-exercises/abb-45.md)
-- [Original Abb. 46](../../figures/originals/abb-46.png) · [Rekonstruktion](../../figures/reconstructed/abb-46.svg) · [Zeichenübung](../drawing-exercises/abb-46.md)
+- [Original Abb. 45](../../figures/originals/abb-45.png) · [Rekonstruktion](../../figures/reconstructed/abb-45.svg) · [Zeichenübung](../drawing-exercises/abb-45-zeichenuebung.md)
+- [Original Abb. 46](../../figures/originals/abb-46.png) · [Rekonstruktion](../../figures/reconstructed/abb-46.svg) · [Zeichenübung](../drawing-exercises/abb-46-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -107,7 +107,7 @@ Das Skript nennt fünf Planungsgrundfälle der Fabrikplanung (Abbildung 44, Grun
 ### Fundstellen
 
 - ([8.2](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)) (Planungsgrundfälle, Abbildung 44)
-- [Original Abb. 44](../../figures/originals/abb-44.png) · [Rekonstruktion](../../figures/reconstructed/abb-44.svg) · [Zeichenübung](../drawing-exercises/abb-44.md)
+- [Original Abb. 44](../../figures/originals/abb-44.png) · [Rekonstruktion](../../figures/reconstructed/abb-44.svg) · [Zeichenübung](../drawing-exercises/abb-44-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -138,7 +138,7 @@ Im Skript nicht vollständig: Der Bildinhalt von Abbildung 53 wurde hier nicht a
 ### Fundstellen
 
 - ([8.2](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)), ([8.2.2](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)), ([8.2.5.3](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md))
-- [Original Abb. 51](../../figures/originals/abb-51.png) · [Rekonstruktion](../../figures/reconstructed/abb-51.svg) · [Zeichenübung](../drawing-exercises/abb-51.md)
+- [Original Abb. 51](../../figures/originals/abb-51.png) · [Rekonstruktion](../../figures/reconstructed/abb-51.svg) · [Zeichenübung](../drawing-exercises/abb-51-zeichenuebung.md)
 - [Abb. 53 (Original)](../../figures/originals/abb-53.png)
 
 ### Bewertungshinweise
@@ -166,7 +166,7 @@ Die Fälle 2 und 3 gehören zur Schaffung neuer bzw. erweiterter Kapazitäten; a
 ### Fundstellen
 
 - ([8.2](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md))
-- [Original Abb. 44](../../figures/originals/abb-44.png) · [Rekonstruktion](../../figures/reconstructed/abb-44.svg) · [Zeichenübung](../drawing-exercises/abb-44.md)
+- [Original Abb. 44](../../figures/originals/abb-44.png) · [Rekonstruktion](../../figures/reconstructed/abb-44.svg) · [Zeichenübung](../drawing-exercises/abb-44-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -199,8 +199,8 @@ Die Produktionsarten sind in Frage `frage-2024-03-14-2` ausführlich beschrieben
 ### Fundstellen
 
 - ([8.2.1](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md))
-- [Original Abb. 45](../../figures/originals/abb-45.png) · [Rekonstruktion](../../figures/reconstructed/abb-45.svg) · [Zeichenübung](../drawing-exercises/abb-45.md)
-- [Original Abb. 46](../../figures/originals/abb-46.png) · [Rekonstruktion](../../figures/reconstructed/abb-46.svg) · [Zeichenübung](../drawing-exercises/abb-46.md)
+- [Original Abb. 45](../../figures/originals/abb-45.png) · [Rekonstruktion](../../figures/reconstructed/abb-45.svg) · [Zeichenübung](../drawing-exercises/abb-45-zeichenuebung.md)
+- [Original Abb. 46](../../figures/originals/abb-46.png) · [Rekonstruktion](../../figures/reconstructed/abb-46.svg) · [Zeichenübung](../drawing-exercises/abb-46-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -234,8 +234,8 @@ Die Fertigungsform wird maßgeblich von der Produktionsart vorgegeben (Abbildung
 ### Fundstellen
 
 - ([8.2.1](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md))
-- [Original Abb. 45](../../figures/originals/abb-45.png) · [Rekonstruktion](../../figures/reconstructed/abb-45.svg) · [Zeichenübung](../drawing-exercises/abb-45.md)
-- [Original Abb. 50](../../figures/originals/abb-50.png) · [Rekonstruktion](../../figures/reconstructed/abb-50.svg) · [Zeichenübung](../drawing-exercises/abb-50.md)
+- [Original Abb. 45](../../figures/originals/abb-45.png) · [Rekonstruktion](../../figures/reconstructed/abb-45.svg) · [Zeichenübung](../drawing-exercises/abb-45-zeichenuebung.md)
+- [Original Abb. 50](../../figures/originals/abb-50.png) · [Rekonstruktion](../../figures/reconstructed/abb-50.svg) · [Zeichenübung](../drawing-exercises/abb-50-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -262,7 +262,7 @@ Ausführlichere Beschreibung der Fälle: siehe `frage-2024-03-14-3`.
 ### Fundstellen
 
 - ([8.2](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md))
-- [Original Abb. 44](../../figures/originals/abb-44.png) · [Rekonstruktion](../../figures/reconstructed/abb-44.svg) · [Zeichenübung](../drawing-exercises/abb-44.md)
+- [Original Abb. 44](../../figures/originals/abb-44.png) · [Rekonstruktion](../../figures/reconstructed/abb-44.svg) · [Zeichenübung](../drawing-exercises/abb-44-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -294,7 +294,7 @@ Aufgabentyp: Erklärung mit Skizze. Punkte: unbekannt (Gedächtnisprotokoll). Di
 ### Fundstellen
 
 - ([8.2.1](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md))
-- [Original Abb. 46](../../figures/originals/abb-46.png) · [Rekonstruktion](../../figures/reconstructed/abb-46.svg) · [Zeichenübung](../drawing-exercises/abb-46.md)
+- [Original Abb. 46](../../figures/originals/abb-46.png) · [Rekonstruktion](../../figures/reconstructed/abb-46.svg) · [Zeichenübung](../drawing-exercises/abb-46-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -320,7 +320,7 @@ Das Planungsvorgehen der Fabrikplanung nach Grundig besteht aus sechs Schritten 
 ### Fundstellen
 
 - ([8.2.2](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)) (Übersicht, Abbildung 51), ([8.2.3](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)), ([8.2.4](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)), ([8.2.5](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)), ([8.2.6](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md)), ([8.2.7](../../content/08-strategisches-produktionsmanagement/8.2-fabrikplanung.md))
-- [Original Abb. 51](../../figures/originals/abb-51.png) · [Rekonstruktion](../../figures/reconstructed/abb-51.svg) · [Zeichenübung](../drawing-exercises/abb-51.md)
+- [Original Abb. 51](../../figures/originals/abb-51.png) · [Rekonstruktion](../../figures/reconstructed/abb-51.svg) · [Zeichenübung](../drawing-exercises/abb-51-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -427,7 +427,7 @@ Einordnung (Abbildung 57, Schmidt 2008): Effizienz (A nach B) steigert den Ertra
 ### Fundstellen
 
 - ([8.3.3](../../content/08-strategisches-produktionsmanagement/8.3-nachhaltigkeit.md))
-- [Original Abb. 57](../../figures/originals/abb-57.png) · [Rekonstruktion](../../figures/reconstructed/abb-57.svg) · [Zeichenübung](../drawing-exercises/abb-57.md)
+- [Original Abb. 57](../../figures/originals/abb-57.png) · [Rekonstruktion](../../figures/reconstructed/abb-57.svg) · [Zeichenübung](../drawing-exercises/abb-57-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -456,7 +456,7 @@ Aufgabentyp: Erklärung mit Skizze. Punkte: unbekannt (Gedächtnisprotokoll). Di
 ### Fundstellen
 
 - ([8.3.3](../../content/08-strategisches-produktionsmanagement/8.3-nachhaltigkeit.md))
-- [Original Abb. 57](../../figures/originals/abb-57.png) · [Rekonstruktion](../../figures/reconstructed/abb-57.svg) · [Zeichenübung](../drawing-exercises/abb-57.md)
+- [Original Abb. 57](../../figures/originals/abb-57.png) · [Rekonstruktion](../../figures/reconstructed/abb-57.svg) · [Zeichenübung](../drawing-exercises/abb-57-zeichenuebung.md)
 
 ### Bewertungshinweise
 
@@ -510,7 +510,7 @@ Einordnung: Effizienz ist begrenzt wirksam, Suffizienz wirkt stärker, verringer
 ### Fundstellen
 
 - ([8.3.3](../../content/08-strategisches-produktionsmanagement/8.3-nachhaltigkeit.md))
-- [Original Abb. 57](../../figures/originals/abb-57.png) · [Rekonstruktion](../../figures/reconstructed/abb-57.svg) · [Zeichenübung](../drawing-exercises/abb-57.md)
+- [Original Abb. 57](../../figures/originals/abb-57.png) · [Rekonstruktion](../../figures/reconstructed/abb-57.svg) · [Zeichenübung](../drawing-exercises/abb-57-zeichenuebung.md)
 
 ### Bewertungshinweise
 

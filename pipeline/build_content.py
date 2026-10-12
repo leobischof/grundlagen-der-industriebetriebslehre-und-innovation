@@ -1,9 +1,10 @@
 """Stage "build-content": the cleaned text layer as markdown files under content/.
 
-  content/README.md                                   overview of all chapters
-  content/<chapter_slug>/README.md                    chapter intro text + table of contents
+  content/skript-inhalt.md                            overview of all chapters
+  content/<chapter_slug>/<chapter_slug>-ueberblick.md chapter intro text + table of contents
   content/<chapter_slug>/<X.Y>-<slug>.md              one file per X.Y section (deeper = headings)
-  content/<chapter_slug>/literatur.md                 the chapter's reference list
+  content/<chapter_slug>/<chapter_slug>-literatur.md  the chapter's reference list
+(names from config: unique across the repository)
 
 Input is segment.build() (OCR layer → ordered items assigned to TOC entries), the
 curated catalog, and – when the exams stage already ran – exams/topic-mapping.json
@@ -109,7 +110,7 @@ class Builder:
         self.entries = {e.number: e for e in catalog.entries()}
         self.known = {e.number for e in catalog.entries() if e.level == 2 and e.kind in ("section", "frontmatter")}
         self.files: dict[str, str] = {}      # path relative to content/ -> text
-        self.summary: dict[str, dict] = {}    # section number -> frontmatter (for the READMEs)
+        self.summary: dict[str, dict] = {}    # section number -> frontmatter (for the overviews)
 
     def section(self, entry: Entry, chapter: dict) -> None:
         items = self.groups.get(entry.number, [])
@@ -165,7 +166,7 @@ class Builder:
             lines += ["## Einleitung des Kapitels (Skripttext)", ""] + body.lines
             lines += footnote_section(body.refs, self.unanchored.get(f"kap-{cid}", []), self.by_number)
         lines += ["## Inhalt", ""] + self._toc_lines(chapter, sections)
-        self.files[f"{chapter['slug']}/README.md"] = frontmatter(meta) + "\n" + "\n".join(lines).rstrip() + "\n"
+        self.files[f"{chapter['slug']}/{config.chapter_overview_name(chapter['slug'])}"] = frontmatter(meta) + "\n" + "\n".join(lines).rstrip() + "\n"
 
     def _toc_lines(self, chapter: dict, sections: list[Entry]) -> list[str]:
         out = []
@@ -183,7 +184,7 @@ class Builder:
             out.append(f"- [{heading_text(e)}]({info['file']}) · {_pages_text(info['pdf_pages'])}{suffix}")
             out += [f"  - {heading_text(self.entries[s])}" for s in info["subsections"] if s in self.entries]
         if any(x.get("kind") == "literature" for x in chapter["entries"]):
-            out.append("- [Literatur](literatur.md)")
+            out.append(f"- [Literatur]({config.chapter_literature_name(chapter['slug'])})")
         return out + [""]
 
     def literature(self, chapter: dict) -> None:
@@ -201,7 +202,7 @@ class Builder:
                  "zu einem Eintrag je Quelle zusammengeführt; Schreibweisen wie gedruckt. Internetadressen "
                  "fehlen: Die OCR hat sie im Scan nicht erfasst („online unter:“ ohne Adresse).", ""]
         lines += [f"- {ref}" for ref in join_references([it.text for it in items])]
-        self.files[f"{chapter['slug']}/literatur.md"] = frontmatter(meta) + "\n" + "\n".join(lines).rstrip() + "\n"
+        self.files[f"{chapter['slug']}/{config.chapter_literature_name(chapter['slug'])}"] = frontmatter(meta) + "\n" + "\n".join(lines).rstrip() + "\n"
 
     def overview(self) -> None:
         lines = ["---", "id: inhalt", "title: Inhalt der Wissensbasis", "layer: bereinigt",
@@ -217,12 +218,12 @@ class Builder:
                 current_part = ch["part"]
                 lines += ["", f"## Teil {current_part[-1]}: {parts.get(current_part, '')}", ""]
             label = f"Kapitel {int(ch['id'])}: {ch['title']}" if ch["id"] != "00" else ch["title"]
-            lines.append(f"- [{label}]({ch['slug']}/README.md)")
+            lines.append(f"- [{label}]({ch['slug']}/{config.chapter_overview_name(ch['slug'])})")
             for e in _sections_of(ch["id"]):
                 info = self.summary.get(e.number)
                 if info is not None:
                     lines.append(f"  - [{heading_text(e)}]({ch['slug']}/{info['file']})")
-        self.files["README.md"] = "\n".join(lines).rstrip() + "\n"
+        self.files[config.CONTENT_INDEX_NAME] = "\n".join(lines).rstrip() + "\n"
 
 
 def _pages_text(pages: list[int]) -> str:

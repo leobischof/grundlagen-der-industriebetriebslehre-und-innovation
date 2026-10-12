@@ -11,7 +11,7 @@ exam_questions: []
 # Prüfungsfragen mit Musterlösung – Kapitel 1: Die Industrie
 
 > **KI-Erklärung, nicht das Skript.** Maßgeblich ist das Skript
-> ([Kapitel 1](../../content/01-die-industrie/README.md)). Für Kapitel 1 ist in den vorliegenden Prüfungsquellen **keine echte
+> ([Kapitel 1](../../content/01-die-industrie/01-die-industrie-ueberblick.md)). Für Kapitel 1 ist in den vorliegenden Prüfungsquellen **keine echte
 > Prüfungsfrage** bekannt (siehe [Prüfungsfragen](../../exams/questions.md) und
 > [Häufigkeitsanalyse](../../exams/frequency-analysis.md), „Themen ohne bekannte Prüfungsfrage“). Alle Prüfungsquellen sind
 > Studierendenerinnerungen bzw. eine Abschrift und **nicht verifiziert**. Die Aufgaben unten sind deshalb ausdrücklich
@@ -19,7 +19,7 @@ exam_questions: []
 
 Verwandt: Die echte Frage „Nennen Sie vier Merkmale von Industriebetrieben“ (22.01.2026) ist in der Prüfungsfragen-Zuordnung Abschnitt 3.1.1
 zugeordnet; die vollständige Merkmalsliste (sieben Merkmale nach Gewerbeordnung) steht aber in Abschnitt **1.2.3**. Siehe
-[Musterlösung Kapitel 3](03-industrie-management.md).
+[Musterlösung Kapitel 3](03-industrie-management-musterloesungen.md).
 
 ---
 

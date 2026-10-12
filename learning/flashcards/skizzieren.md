@@ -27,7 +27,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Produktlebenszyklus](../../figures/originals/abb-08.png)
 
-[Zeichenübung](../drawing-exercises/abb-08.md)
+[Zeichenübung](../drawing-exercises/abb-08-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -53,7 +53,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Ansoff Matrix](../../figures/originals/abb-11.png)
 
-[Zeichenübung](../drawing-exercises/abb-11.md)
+[Zeichenübung](../drawing-exercises/abb-11-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -121,7 +121,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Industriebetrieb als Arbeitssystem](../../figures/originals/abb-15.png)
 
-[Zeichenübung](../drawing-exercises/abb-15.md)
+[Zeichenübung](../drawing-exercises/abb-15-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -189,7 +189,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Integrationsbereiche der Themen Innovationsprozess & Produktentwicklung](../../figures/originals/abb-35.png)
 
-[Zeichenübung](../drawing-exercises/abb-35.md)
+[Zeichenübung](../drawing-exercises/abb-35-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -213,7 +213,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Stage-Gate-Prozess nach Cooper](../../figures/originals/abb-37.png)
 
-[Zeichenübung](../drawing-exercises/abb-37.md)
+[Zeichenübung](../drawing-exercises/abb-37-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -239,7 +239,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Aufbau eines Gates](../../figures/originals/abb-38.png)
 
-[Zeichenübung](../drawing-exercises/abb-38.md)
+[Zeichenübung](../drawing-exercises/abb-38-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -305,7 +305,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Planungsgrundfälle nach Grundig](../../figures/originals/abb-44.png)
 
-[Zeichenübung](../drawing-exercises/abb-44.md)
+[Zeichenübung](../drawing-exercises/abb-44-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -329,7 +329,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Typologisierung von Produktionssystemen](../../figures/originals/abb-45.png)
 
-[Zeichenübung](../drawing-exercises/abb-45.md)
+[Zeichenübung](../drawing-exercises/abb-45-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -354,7 +354,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Einordnung der Produktionsarten](../../figures/originals/abb-46.png)
 
-[Zeichenübung](../drawing-exercises/abb-46.md)
+[Zeichenübung](../drawing-exercises/abb-46-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -378,7 +378,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Punktfertigung](../../figures/originals/abb-47.png)
 
-[Zeichenübung](../drawing-exercises/abb-47.md)
+[Zeichenübung](../drawing-exercises/abb-47-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -395,7 +395,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Gruppenfertigung](../../figures/originals/abb-48.png)
 
-[Zeichenübung](../drawing-exercises/abb-48.md)
+[Zeichenübung](../drawing-exercises/abb-48-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -412,7 +412,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Reihenfertigung](../../figures/originals/abb-49.png)
 
-[Zeichenübung](../drawing-exercises/abb-49.md)
+[Zeichenübung](../drawing-exercises/abb-49-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -429,7 +429,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Zusammenhang - Produktionsart & Fertigungsform](../../figures/originals/abb-50.png)
 
-[Zeichenübung](../drawing-exercises/abb-50.md)
+[Zeichenübung](../drawing-exercises/abb-50-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -447,7 +447,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Planungsvorgehen nach Grundig](../../figures/originals/abb-51.png)
 
-[Zeichenübung](../drawing-exercises/abb-51.md)
+[Zeichenübung](../drawing-exercises/abb-51-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -499,7 +499,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: Einfluss von Effizienz, Konsistenz und Suffizienz auf Aufwand und Ertrag](../../figures/originals/abb-57.png)
 
-[Zeichenübung](../drawing-exercises/abb-57.md)
+[Zeichenübung](../drawing-exercises/abb-57-zeichenuebung.md)
 
 **Das musst du können:**
 
@@ -552,7 +552,7 @@ Das importierbare Anki-Paket (`.apkg`) liegt im Release dieses Repositorys; es w
 
 ![Skizziere: ABC Analyse](../../figures/originals/abb-70.png)
 
-[Zeichenübung](../drawing-exercises/abb-70.md)
+[Zeichenübung](../drawing-exercises/abb-70-zeichenuebung.md)
 
 **Das musst du können:**
 

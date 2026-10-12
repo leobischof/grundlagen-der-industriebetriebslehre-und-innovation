@@ -12,7 +12,7 @@ exam_questions: [frage-2024-03-14-1, frage-2025-10-15-1, frage-2024-06-20-1, fra
 # Lernleitfaden Kapitel 2: Industrielle Innovation
 
 > **KI-Erklärung, nicht das Skript.** Dieser Leitfaden wurde von einer KI erstellt und ist nicht geprüft. Maßgeblich ist
-> das Skript ([Kapitel 2 – Industrielle Innovation](../../content/02-industrielle-innovation/README.md)). Jede Aussage trägt eine
+> das Skript ([Kapitel 2 – Industrielle Innovation](../../content/02-industrielle-innovation/02-industrielle-innovation-ueberblick.md)). Jede Aussage trägt eine
 > Fundstelle; Unsicheres (OCR, Skript-Lücken) ist markiert. Die genannten Prüfungsfragen stammen aus Studierendenerinnerungen bzw. einer
 > Abschrift und sind **nicht verifiziert**.
 
@@ -163,10 +163,10 @@ Postindustriell ([2.5.5](../../content/02-industrielle-innovation/2.5-arten-der-
 ## Abbildungen, die du zeichnen können solltest
 
 - **Abbildung 8 – Produktlebenszyklus** ([Original](../../figures/originals/abb-08.png), [Rekonstruktion](../../figures/reconstructed/abb-08.svg),
-  [Zeichenübung](../drawing-exercises/abb-08.md)): Achsen Umsatz/Zeit, fünf Phasen in richtiger Reihenfolge durch senkrechte gestrichelte Linien getrennt, S-förmige Kurve mit dem Maximum am Übergang Reife/Sättigung.
+  [Zeichenübung](../drawing-exercises/abb-08-zeichenuebung.md)): Achsen Umsatz/Zeit, fünf Phasen in richtiger Reihenfolge durch senkrechte gestrichelte Linien getrennt, S-förmige Kurve mit dem Maximum am Übergang Reife/Sättigung.
   Prüfungsrelevant (drei Termine, auch als Zeichenaufgabe).
 - **Abbildung 11 – Ansoff-Matrix** ([Original](../../figures/originals/abb-11.png), [Rekonstruktion](../../figures/reconstructed/abb-11.svg),
-  [Zeichenübung](../drawing-exercises/abb-11.md)): 2×2-Raster, Spalten Bestehende/Neue Produkte, Zeilen Bestehende/Neue Märkte; vier Felder korrekt benennen. Prüfungsrelevant.
+  [Zeichenübung](../drawing-exercises/abb-11-zeichenuebung.md)): 2×2-Raster, Spalten Bestehende/Neue Produkte, Zeilen Bestehende/Neue Märkte; vier Felder korrekt benennen. Prüfungsrelevant.
 - **Abbildung 5 – Strategien** ([Original](../../figures/originals/abb-05.png)): Strategischer Vorteil (Einzigartigkeit/Kostenvorsprung) gegen strategisches Zielobjekt (branchenweit/Segment); zugeordnet zu den Fragen zu den generischen Strategien. Keine Rekonstruktion oder Zeichenübung vorhanden.
 - **Abbildung 9 – Kategorien neuer Produkte** ([Original](../../figures/originals/abb-09.png)) und **Abbildung 10 – Produktportfolio** ([Original](../../figures/originals/abb-10.png)):
   keine bekannte Prüfungsfrage; nützlich zum Verstehen (Perlen, Brot und Butter, Austern, Weiße Elefanten). Keine Rekonstruktion/Zeichenübung vorhanden.
@@ -187,7 +187,7 @@ Quelle: [Häufigkeitsanalyse](../../exams/frequency-analysis.md), Fragen im Wort
 | 32 (2,0) | Produktinnovation (Kategorien, Portfolio) | 18.03.2025 (Arten der Innovation, siehe oben) |
 
 Abschnitte ohne bekannte Prüfungsfrage: **2.3 Dimensionen der Innovation**, **2.4 Innovationstreiber (Mega-/Makro-/Mikrotrends)**; Portfolio-Diagramm (Abbildung 10) und Kategorien neuer Produkte (Abbildung 9) werden in den Fragen nicht ausdrücklich genannt.
-Musterlösungen: [Übungsdatei Kapitel 2](../exercises/02-industrielle-innovation.md).
+Musterlösungen: [Übungsdatei Kapitel 2](../exercises/02-industrielle-innovation-musterloesungen.md).
 
 ## Typische Fehler und Verwechslungen
 

@@ -19,12 +19,12 @@ Vertiefung: [docs/architecture.md](docs/architecture.md) (Formate),
 
 | Frage | Datei |
 |---|---|
-| Was steht im Skript zu Abschnitt X.Y? | `content/<kapitel>/<X.Y>-<slug>.md` – Übersicht: [content/README.md](content/README.md) |
+| Was steht im Skript zu Abschnitt X.Y? | `content/<kapitel>/<X.Y>-<slug>.md` – Übersicht: [content/skript-inhalt.md](content/skript-inhalt.md) |
 | Welche Abschnitte hat ein Kapitel? | `content/<kapitel>/README.md` |
 | Wie sieht Abbildung N aus? | `figures/originals/abb-NN.png` (Original, maßgeblich) |
 | Was zeigt die Abbildung, was muss man zeichnen können? | `curation/figures/abb-NN.yaml` (`elements`, `meaning`, `drawing.must_know`, `drawing.common_mistakes`) |
 | Vektor-Rekonstruktion / leere Übungsvorlage | `figures/reconstructed/abb-NN.svg` / `figures/exercises/abb-NN-blank.svg` |
-| Zeichenanleitung | `learning/drawing-exercises/abb-NN.md` |
+| Zeichenanleitung | `learning/drawing-exercises/abb-NN-zeichenuebung.md` |
 | Alle Abbildungen mit Seite, Abschnitt und vorhandenen Schichten | [figures/manifest.json](figures/manifest.json) |
 | Echte Prüfungsfragen (Wortlaut, Punkte, Abschnitte, Abbildungen) | [exams/questions.json](exams/questions.json), lesbar: [exams/questions.md](exams/questions.md) |
 | Was ist prüfungsrelevant, in welcher Reihenfolge lernen? | [exams/frequency-analysis.md](exams/frequency-analysis.md) |
@@ -35,7 +35,7 @@ Vertiefung: [docs/architecture.md](docs/architecture.md) (Formate),
 | Lernstand der Person | nur über `python -m pipeline.progress` (Abschnitt 5) |
 | Wie vollständig und geprüft ist die Wissensbasis? | [reports/coverage.md](reports/coverage.md), [reports/validation.md](reports/validation.md) |
 
-**Lies gezielt.** Erst `content/README.md` oder `topic-mapping.json`, dann den einen Abschnitt.
+**Lies gezielt.** Erst `content/skript-inhalt.md` oder `topic-mapping.json`, dann den einen Abschnitt.
 Nie das ganze `content/` oder die OCR-Schicht in den Kontext laden; ein PNG nur ansehen, wenn Text und
 Metadaten nicht reichen (Bilder kosten Tokens). Die Original-PDFs liegen nur lokal und sind für den
 Lernbetrieb nicht nötig.
@@ -88,7 +88,7 @@ Frag zu Beginn, welcher Modus gewünscht ist, oder schlag einen vor: zuerst fäl
 
 ### 4.1 Verstehen
 
-1. Thema klären und den passenden Abschnitt öffnen (über `content/README.md` oder `topic-mapping.json`).
+1. Thema klären und den passenden Abschnitt öffnen (über `content/skript-inhalt.md` oder `topic-mapping.json`).
 2. Erst den Kern in zwei, drei Sätzen, dann die Struktur des Skripts vollständig: jede Liste, jede
    Stufe, jede Definition – nichts Prüfungsrelevantes weglassen, auch wenn es trocken ist.
 3. Mit Beispielen veranschaulichen; Beispiele, die nicht aus dem Skript stammen, als Zusatzwissen
@@ -184,7 +184,7 @@ python -m pipeline.progress reset --thema abb-08 --ja      # nur auf ausdrückli
 - **Kompetenz**: `definition`, `verstaendnis`, `aufzaehlung`, `erklaerung`, `vergleich`,
   `berechnung`, `zeichnung`.
 - **Fehler** konkret notieren („Phase Sättigung vergessen“), nicht „unvollständig“.
-- Format und Felder: [learning/progress/README.md](learning/progress/README.md).
+- Format und Felder: [learning/progress/lernfortschritt-anleitung.md](learning/progress/lernfortschritt-anleitung.md).
 
 ## 6 · Pflege der Wissensbasis
 
@@ -194,6 +194,10 @@ python -m pipeline.progress reset --thema abb-08 --ja      # nur auf ausdrückli
 - OCR-Fehler → `curation/ocr-corrections.yaml`; Prüfungsfragen → `curation/exams.yaml`;
   Abbildungsbeschreibung → `curation/figures/<id>.yaml`; SVG → `figures/reconstructed/<id>.svg`
   (Konventionen in [docs/architecture.md](docs/architecture.md)).
+- **Jeder Dateiname nur einmal im ganzen Repository** (damit sich alles flach, z. B. in NotebookLM,
+  laden lässt): der unterscheidende Zusatz kommt hinten an den Namen (`…-ueberblick.md`,
+  `…-leitfaden.md`, `…-zeichenuebung.md`), keine weiteren `README.md`. `validate` meldet Doppelungen
+  als Fehler; Details in [docs/architecture.md](docs/architecture.md) „Dateinamen“.
 - Jeder KI-Durchgang an der Wissensbasis (nicht die Lernsitzung) wird mit `pipeline/ailog.py` in
   `curation/ai-log.jsonl` protokolliert.
 - Danach `python -m pipeline offline` (Validierung + Abdeckung) und `python -m pytest`; die CI

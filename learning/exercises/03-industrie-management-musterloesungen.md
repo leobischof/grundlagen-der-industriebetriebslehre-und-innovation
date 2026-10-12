@@ -11,10 +11,10 @@ exam_questions: [frage-2024-03-14-4, frage-2025-03-18-3, frage-2025-12-11-2, fra
 # Prüfungsfragen mit Musterlösung – Kapitel 3: Industrie Management
 
 > **KI-Erklärung, nicht das Skript.** Die Musterlösungen sind KI-erstellt, nicht geprüft und stützen sich nur auf das Skript
-> ([Kapitel 3](../../content/03-industrie-management/README.md)). Die Prüfungsfragen stammen aus Studierendenerinnerungen bzw. einer
+> ([Kapitel 3](../../content/03-industrie-management/03-industrie-management-ueberblick.md)). Die Prüfungsfragen stammen aus Studierendenerinnerungen bzw. einer
 > Abschrift (Klausur 29.04.2026) und sind **nicht verifiziert**; der Wortlaut ist aus [questions.md](../../exams/questions.md) übernommen.
 > Punkte sind nur für die Klausur vom 29.04.2026 bekannt. „Bewertungshinweise“ sind eine **Einschätzung**, keine offizielle Beurteilung.
-> Zum Üben: [Lernleitfaden Kapitel 3](../chapters/03-industrie-management.md). Fragen sind chronologisch geordnet.
+> Zum Üben: [Lernleitfaden Kapitel 3](../chapters/03-industrie-management-leitfaden.md). Fragen sind chronologisch geordnet.
 
 ---
 
@@ -100,7 +100,7 @@ Das Arbeitssystem nach REFA beschreibt, wie **Mensch und Betriebsmittel** mit de
 
 ### Fundstellen
 
-- [3.1.2](../../content/03-industrie-management/3.1-begriffe-und-definitionen.md), Abbildung 15 ([Original](../../figures/originals/abb-15.png), [Rekonstruktion](../../figures/reconstructed/abb-15.svg), [Zeichenübung](../drawing-exercises/abb-15.md), [Leerform](../../figures/exercises/abb-15-blank.svg))
+- [3.1.2](../../content/03-industrie-management/3.1-begriffe-und-definitionen.md), Abbildung 15 ([Original](../../figures/originals/abb-15.png), [Rekonstruktion](../../figures/reconstructed/abb-15.svg), [Zeichenübung](../drawing-exercises/abb-15-zeichenuebung.md), [Leerform](../../figures/exercises/abb-15-blank.svg))
 
 ### Bewertungshinweise (Einschätzung)
 
@@ -164,7 +164,7 @@ Aufgabentyp: Zeichnung und Erklärung (Abbildung 15). Punkte: **6 P** (Klausur-A
 
 ### Fundstellen
 
-- [3.1.2](../../content/03-industrie-management/3.1-begriffe-und-definitionen.md), Abbildung 15 ([Original](../../figures/originals/abb-15.png), [Rekonstruktion](../../figures/reconstructed/abb-15.svg), [Zeichenübung](../drawing-exercises/abb-15.md), [Leerform](../../figures/exercises/abb-15-blank.svg))
+- [3.1.2](../../content/03-industrie-management/3.1-begriffe-und-definitionen.md), Abbildung 15 ([Original](../../figures/originals/abb-15.png), [Rekonstruktion](../../figures/reconstructed/abb-15.svg), [Zeichenübung](../drawing-exercises/abb-15-zeichenuebung.md), [Leerform](../../figures/exercises/abb-15-blank.svg))
 
 ### Bewertungshinweise (Einschätzung)
 
