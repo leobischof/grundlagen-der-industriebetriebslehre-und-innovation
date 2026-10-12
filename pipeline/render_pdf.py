@@ -32,7 +32,6 @@ from .pdf_html import Assets, convert
 
 RENDER_VERSION = 2                          # bump to invalidate every PDF (layout/CSS change)
 OUT_DIR = config.BUILD / "pdf"
-ASSET_LIST = "release-assets.tsv"
 _IMAGE_LINK = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
 
 
@@ -165,11 +164,6 @@ def _remove_leftovers(out_dir: Path, wanted: set[str]) -> None:
             pdf.unlink()
 
 
-def _write_asset_list(out_dir: Path, names: list[ExportName]) -> None:
-    lines = [f"{n.stem}.pdf\t{n.label}" for n in names]
-    (out_dir / ASSET_LIST).write_text("\n".join(lines) + "\n", encoding="utf-8")
-
-
 def run(pages: str | None = None, dry_run: bool = False, force: bool = False, *,
         content_root: Path | None = None, out_dir: Path | None = None,
         exams_file: Path | None = None, guides_root: Path | None = None, today: str | None = None) -> int:
@@ -217,7 +211,7 @@ def run(pages: str | None = None, dry_run: bool = False, force: bool = False, *,
         return 0
     out_dir.mkdir(parents=True, exist_ok=True)
     _remove_leftovers(out_dir, {n.stem for n in produced})
-    _write_asset_list(out_dir, produced)
+    content_files.write_asset_list(out_dir, [(f"{n.stem}.pdf", n.label) for n in produced])
     stamp_file.write_text(json.dumps(stamps, indent=2, sort_keys=True), encoding="utf-8")
     for note in sorted(set(problems)):
         print(f"[render-pdf] Hinweis: {note}")

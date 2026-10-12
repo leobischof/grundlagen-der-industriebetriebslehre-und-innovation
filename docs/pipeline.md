@@ -45,6 +45,7 @@ Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`):
 | `build-content` | `build_content` | OCR-Schicht, `curation/structure.yaml`, `ocr-corrections.yaml`, Abbildungen, Fragen | `content/` |
 | `render-pdf` | `render_pdf` | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/pdf/` (`GIL-…`-PDFs: Kapitel, Gesamtskript, Zusammenfassungen je Kapitel und gesamt, Prüfungsfragen) + `release-assets.tsv` |
 | `export-md` | `export_markdown` | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/markdown/` (dieselben `GIL-…`-Dateien als flaches Markdown, dazu die gezeigten SVGs) |
+| `export-notebooklm` | `export_notebooklm` | `content/`, `learning/chapters/`, `curation/figures/`, `exams/questions.json`, `exams/topic-mapping.json` | `build/notebooklm/` (je Kapitel mit Leitfaden eine `GIL-NotebookLM-Kapitel-N-…md`, alle zusammen in `GIL-NotebookLM.zip`) + `release-assets.tsv` |
 | `anki` | `anki_sketch` | `figures/manifest.json`, `figures/originals/`, `curation/figures/`, `exams/` | `build/anki/*.apkg` (Skizzierkarten), `learning/flashcards/skizzieren.md` |
 | `validate` | `validate` | alles Versionierte | `reports/validation.md` |
 | `report` | `coverage` | alles Versionierte, `curation/ai-log.jsonl` | `reports/coverage.md` |
@@ -154,19 +155,31 @@ das Label des Release-Assets:
 | `GIL-Zusammenfassung-Kapitel-N-<Titel>.pdf` | GIL Zusammenfassung Kapitel N – Titel | Lernleitfaden des Kapitels (prüfungsrelevant) |
 | `GIL-Zusammenfassung-gesamt.pdf` | GIL Zusammenfassung gesamt | alle Lernleitfäden |
 | `GIL-Pruefungsfragen.pdf` | GIL Prüfungsfragen | Fragensammlung |
+| `GIL-NotebookLM.zip` | GIL NotebookLM – alle Kapitel (Markdown) | Ordner `GIL-NotebookLM/` mit je einer `GIL-NotebookLM-Kapitel-N-<Titel>.md` |
+
+**NotebookLM-Dateien.** Jede Datei ist der vollständige Kontext für ein Kapitel – für NotebookLM
+(eine Datei als einzige Quelle, z. B. eine Audio-Zusammenfassung je Kapitel) und jedes andere
+Lernwerkzeug. Aufbau: Anleitung (nur dieses Kapitel, so ausführlich wie möglich; Links auf seine
+Abschnitte), Teil 1 Lernleitfaden, Teil 2 alle Prüfungsfragen zum Kapitel (nach Abschnitt bzw. aus
+`exam_questions` des Leitfadens), Teil 3 das Gesamtskript als Rahmenwissen, das Kapitel darin markiert.
+Alle Verweise sind Anker innerhalb der Datei (`#sec-2-5`, `#frage-…`). Kapitel 0 (Einführung) hat
+keinen Leitfaden und deshalb keine eigene Datei. Die Dateien sind Build-Ausgabe, nicht im Git-Baum:
+jede enthält das ganze Skript.
 
 Abbildungen erscheinen nur als unsere SVG-Rekonstruktion, sonst als Platzhaltertext – nie als
 Ausschnitt aus dem Skript ([architecture.md](architecture.md#abbildungen-vier-schichten-ad)). Das
 Anki-Paket „Abbildungen skizzieren“ (`anki`) zeigt auf seinen Karten die Originalausschnitte und
 bleibt deshalb **außerhalb** des Releases; es ist nur für den lokalen Gebrauch.
 
-**Release** (je Meilenstein ein neues Tag `vX.Y`). `render-pdf` schreibt `build/pdf/release-assets.tsv`
-(`Datei<TAB>Label` je Zeile); `gh release upload` übernimmt das Label hinter `#`:
+**Release** (je Meilenstein ein neues Tag `vX.Y`). `render-pdf` und `export-notebooklm` schreiben je eine
+`release-assets.tsv` (`Datei<TAB>Label` je Zeile, LF); `gh release upload` übernimmt das Label hinter `#`:
 
 ```bash
-python -m pipeline render-pdf
+python -m pipeline render-pdf && python -m pipeline export-notebooklm
 gh release create vX.Y --target main --title "Wissensbasis vX.Y" --notes-file <notizen.md>
-while IFS=$'\t' read -r file label; do gh release upload vX.Y "build/pdf/$file#$label"; done < build/pdf/release-assets.tsv
+for dir in build/pdf build/notebooklm; do
+  while IFS=$'\t' read -r file label; do gh release upload vX.Y "$dir/$file#$label"; done < "$dir/release-assets.tsv"
+done
 ```
 
 Antwortet GitHub beim Anlegen mit HTTP 500, existiert das Release meist schon als Entwurf ohne

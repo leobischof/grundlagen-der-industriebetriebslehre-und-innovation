@@ -34,8 +34,8 @@ BASE_URL_ENV = "GIB_IMAGE_BASE_URL"
 # [text](target) and ![alt](target), optionally as an item of a " · " link list
 # (caption lines: "… · [Rekonstruktion](…) · [Zeichenübung](…)").
 # Footnote references `[^N]` have no parentheses and are left alone.
-_LINK = re.compile(r"( · )?(!?)\[([^\]]*)\]\(([^)\s]+)\)")
-_EXTERNAL = re.compile(r"^(?:https?:|mailto:|#)")
+LINK = re.compile(r"( · )?(!?)\[([^\]]*)\]\(([^)\s]+)\)")
+EXTERNAL = re.compile(r"^(?:https?:|mailto:|#)")
 _RECONSTRUCTED = re.compile(r"(?:^|/)figures/reconstructed/([^/]+\.svg)$")
 
 
@@ -47,7 +47,7 @@ def flatten(text: str, base_url: str, used: set[str]) -> str:
 
     def repl(m: re.Match) -> str:
         sep, bang, label, target = m.groups()
-        if _EXTERNAL.match(target):
+        if EXTERNAL.match(target):
             return m.group(0)
         fig_id = figure_publish.original_id(target)
         if fig_id and bang:                  # the picture itself: our SVG, else say what is missing
@@ -60,7 +60,7 @@ def flatten(text: str, base_url: str, used: set[str]) -> str:
         # must not silently point at our SVG): a link-list item goes entirely, a link inside
         # prose keeps its text.
         return "" if sep else label
-    return _LINK.sub(repl, text)
+    return LINK.sub(repl, text)
 
 
 def _body(path: Path) -> str:

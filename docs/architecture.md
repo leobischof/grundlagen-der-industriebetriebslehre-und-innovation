@@ -147,8 +147,9 @@ IDs: `abb-NN` (Abbildung NN), `tab-NN` (Tabelle), `formel-*`, `abb-u<Seite>` (un
 privaten Repository. Kein Export – PDF, Markdown/Gist, NotebookLM – enthält je einen solchen
 Ausschnitt (Urheberrecht): Er zeigt die Rekonstruktion (C) oder, solange es keine gibt, einen
 Platzhaltertext „Bild des Skripts hier nicht abgedruckt (Urheberrecht) – siehe Original-Skript“ mit
-der Beschreibung aus B, falls vorhanden. Diese Regel steht einmal in `pipeline/figure_publish.py`;
-jeder Export ruft sie auf. Je mehr Abbildungen und Tabellen rekonstruiert sind, desto weniger
+der Beschreibung aus B, falls vorhanden. Der NotebookLM-Export ist reiner Text: Er zeigt auch keine
+SVG, sondern Platzhalter, Beschreibung und Aussage (`meaning`) in Worten. Diese Regel steht einmal in
+`pipeline/figure_publish.py`; jeder Export ruft sie auf. Je mehr Abbildungen und Tabellen rekonstruiert sind, desto weniger
 Platzhalter bleiben.
 
 **Metadaten (B)** – Schema [`figure-metadata.schema.json`](../schemas/figure-metadata.schema.json):
