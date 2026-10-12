@@ -58,6 +58,17 @@ def notebook_export(slug: str, title: str) -> ExportName:
 COMPLETE = _named(f"{PREFIX} Gesamtskript")
 SUMMARY_COMPLETE = _named(f"{PREFIX} Zusammenfassung gesamt")
 EXAMS = _named(f"{PREFIX} Prüfungsfragen")
+NOTEBOOKS = _named(f"{PREFIX} NotebookLM")             # zip of every chapter's NotebookLM file
+
+# Each stage that produces release assets lists them in its build directory, one
+# "file<TAB>label" per line; `gh release upload "<dir>/<file>#<label>"` takes the label.
+ASSET_LIST = "release-assets.tsv"
+
+
+def write_asset_list(out_dir: Path, assets: list[tuple[str, str]]) -> None:
+    """assets: (file name in out_dir, human label)."""
+    text = "".join(f"{name}\t{label}\n" for name, label in assets)
+    (out_dir / ASSET_LIST).write_bytes(text.encode("utf-8"))
 
 
 @dataclass

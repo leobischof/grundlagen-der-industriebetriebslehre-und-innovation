@@ -31,7 +31,9 @@ Fragen deckt das Skript vollständig, 5 nur teilweise – siehe
 [Aktualitätslücken](exams/frequency-analysis.md#aktualitätslücken).
 
 **Downloads:** Im Release dieses Repositorys (nicht im Git-Baum) liegen als `GIL-…`-PDFs jedes
-Kapitel, das Gesamtskript, die Zusammenfassung je Kapitel und gesamt sowie die Prüfungsfragen;
+Kapitel, das Gesamtskript, die Zusammenfassung je Kapitel und gesamt sowie die Prüfungsfragen,
+dazu `GIL-NotebookLM.zip`: je Kapitel eine Markdown-Datei, die als einzige Quelle in NotebookLM oder
+einem anderen Lernwerkzeug genügt (Anleitung, Leitfaden, Prüfungsfragen, Gesamtskript als Rahmen);
 Markdown und PDFs zusätzlich in einem geheimen Gist
 ([Veröffentlichen](docs/pipeline.md#veröffentlichen-release-und-gist)). Abbildungen erscheinen dort
 nur als unsere SVG-Rekonstruktion oder als Platzhalter, nie als Ausschnitt aus dem Skript.
@@ -64,6 +66,7 @@ Weitere Befehle:
 .venv/Scripts/python -m pipeline render-pdf         # GIL-PDFs (Kapitel, Gesamtskript, Zusammenfassungen, Fragen) → build/pdf/
 .venv/Scripts/python -m pipeline anki               # Anki-Skizzierkarten → build/anki/ (nur lokal, nicht ins Release)
 .venv/Scripts/python -m pipeline export-md          # flacher Markdown-Export → build/markdown/
+.venv/Scripts/python -m pipeline export-notebooklm  # je Kapitel eine NotebookLM-Datei + ZIP → build/notebooklm/
 .venv/Scripts/python -m pipeline.progress due       # heute fällige Wiederholungen
 .venv/Scripts/python -m pytest                      # Tests
 ```

@@ -28,6 +28,7 @@ COMMANDS: dict[str, tuple[str, str]] = {
     "build-content": ("build_content", "Kapitel-/Abschnitts-Markdown → content/"),
     "render-pdf": ("render_pdf", "Kapitel- und Gesamt-PDFs aus content/ → build/pdf"),
     "export-md": ("export_markdown", "flacher Markdown-Export (Kapitel, Gesamt, Prüfungsfragen) → build/markdown"),
+    "export-notebooklm": ("export_notebooklm", "je Kapitel eine NotebookLM-Datei (Anleitung, Leitfaden, Fragen, Gesamtskript) → build/notebooklm"),
     "anki": ("anki_sketch", "Anki-Skizzierkarten zu prüfungsrelevanten Abbildungen → build/anki"),
     "validate": ("validate", "Qualitätsprüfungen → reports/validation.md"),
     "report": ("coverage", "Abdeckungsbericht → reports/coverage.md"),
