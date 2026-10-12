@@ -34,6 +34,12 @@ Fragen deckt das Skript vollständig, 5 nur teilweise – siehe
 „Abbildungen skizzieren“ liegen im Release dieses Repositorys (nicht im Git-Baum); Markdown und
 PDFs zusätzlich in einem geheimen Gist ([Veröffentlichen](docs/pipeline.md#veröffentlichen-release-und-gist)).
 
+## Mitarbeit
+
+`main` ist geschützt: Direkt pushen darf nur der Eigentümer, alle anderen öffnen einen Pull Request,
+den @leobischof freigibt; die CI muss grün sein. Ablauf und Regeln für Menschen und Agenten:
+[AGENTS.md, Abschnitt 7](AGENTS.md#7--beiträge-branches-und-pull-requests).
+
 ## Pipeline
 
 ```bash

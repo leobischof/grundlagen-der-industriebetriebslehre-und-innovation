@@ -5,6 +5,10 @@ Innovation* (TU Graz, Skriptum 2024/25) für KI-gestütztes Lernen auf. Dieses D
 **wo was liegt, welchen Quellen du trauen darfst und wie du in jedem Lernmodus vorgehst**.
 Sprache gegenüber der lernenden Person: **Deutsch**.
 
+> **Änderungen am Repository nur über Pull Requests.** Direkt auf `main` pushen darf allein der
+> Eigentümer (@leobischof). Alle anderen – Menschen wie Agenten – arbeiten auf einem eigenen Branch
+> und öffnen einen PR. Details in [Abschnitt 7](#7--beiträge-branches-und-pull-requests).
+
 Vertiefung: [docs/architecture.md](docs/architecture.md) (Formate),
 [docs/pipeline.md](docs/pipeline.md) (Erzeugung, Kosten),
 [docs/learning-method.md](docs/learning-method.md) (Wiederholungsplanung),
@@ -194,3 +198,47 @@ python -m pipeline.progress reset --thema abb-08 --ja      # nur auf ausdrückli
 - Danach `python -m pipeline offline` (Validierung + Abdeckung) und `python -m pytest`; die CI
   verlangt aktuelle Berichte in `reports/`.
 - Originale, Lernfortschritt, Schlüssel und Zugangsdaten nie committen.
+
+## 7 · Beiträge: Branches und Pull Requests
+
+`main` ist geschützt. Diese Regeln gelten für **jede** Person und **jeden** Agenten, die das
+Repository ändern – lies sie, bevor du committest.
+
+| Wer | Darf direkt auf `main` pushen? | Weg für Änderungen |
+|---|---|---|
+| Eigentümer @leobischof (und Agenten, die in seinem Auftrag mit seinem Zugang arbeiten) | ja | direkt oder per PR |
+| alle anderen (Mitwirkende, ihre Agenten, Bots) | **nein** – GitHub lehnt den Push ab | Branch → Pull Request → Freigabe durch @leobischof |
+
+Was GitHub für `main` erzwingt (Branch Protection):
+
+- Änderungen nur per Pull Request; ein direkter Push wird abgelehnt.
+- Mindestens **eine Freigabe**, und zwar vom Code Owner @leobischof ([`.github/CODEOWNERS`](.github/CODEOWNERS)).
+  Neue Commits im PR machen eine erteilte Freigabe ungültig.
+- Die CI (`qa`: Tests, Validierung, aktuelle Berichte) muss grün sein, und der Branch muss auf dem
+  aktuellen Stand von `main` sein.
+- Alle Diskussionen im PR müssen aufgelöst sein.
+- Kein Force-Push auf `main`, kein Löschen von `main`.
+- Der Eigentümer ist als Admin von diesen Regeln ausgenommen.
+
+So läuft ein Beitrag ab:
+
+```bash
+git switch -c fix/ocr-seite-51          # eigener Branch, sprechender Name (feat/…, fix/…, docs/…)
+# … ändern an der Quelle der Wahrheit (Abschnitt 6), Pipeline laufen lassen …
+python -m pipeline offline && python -m pytest
+git add <dateien>                       # gezielt, nie Originale, Fortschritt oder Zugangsdaten
+git commit -m "fix: …"
+git push -u origin fix/ocr-seite-51
+gh pr create --base main --fill         # PR öffnen, dann auf Review warten
+```
+
+Für Agenten zusätzlich:
+
+- **Nie** direkt auf `main` committen oder pushen, nie `--force`, nie Branch-Schutz oder
+  Repository-Einstellungen ändern – auch dann nicht, wenn der Zugang es technisch erlaubt, außer
+  @leobischof verlangt es ausdrücklich.
+- Den PR nicht selbst mergen; das Mergen ist Sache des Eigentümers.
+- Im PR-Text sagen, was geändert wurde, welche Quelle es belegt und dass `pipeline offline` und
+  `pytest` grün sind; jeden KI-Durchgang wie in Abschnitt 6 protokollieren.
+- Das Repository ist **privat** und bleibt es. Nichts daraus veröffentlichen (kein Fork in ein
+  öffentliches Konto, keine öffentlichen Gists, keine Originale anhängen).
