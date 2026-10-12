@@ -43,8 +43,8 @@ Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`):
 | `link` | `link_topics` | `curation/exams.yaml`, `curation/topics.yaml` | `exams/topic-mapping.json` |
 | `exercises` | `generate_exercises` | `figures/reconstructed/`, `curation/figures/` | `figures/exercises/*-blank.svg`, `learning/drawing-exercises/` |
 | `build-content` | `build_content` | OCR-Schicht, `curation/structure.yaml`, `ocr-corrections.yaml`, Abbildungen, Fragen | `content/` |
-| `render-pdf` | `render_pdf` | `content/`, `figures/`, `exams/questions.md` | `build/pdf/` (Kapitel-PDFs, Gesamt-PDF, Fragen-PDF) |
-| `export-md` | `export_markdown` | `content/`, `figures/originals/`, `exams/questions.md` | `build/markdown/` (flache Kapitel-, Gesamt- und Fragen-Markdowns mit den gezeigten PNGs) |
+| `render-pdf` | `render_pdf` | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/pdf/` (`GIL-…`-PDFs: Kapitel, Gesamtskript, Zusammenfassungen je Kapitel und gesamt, Prüfungsfragen) + `release-assets.tsv` |
+| `export-md` | `export_markdown` | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/markdown/` (dieselben `GIL-…`-Dateien als flaches Markdown, dazu die gezeigten SVGs) |
 | `anki` | `anki_sketch` | `figures/manifest.json`, `figures/originals/`, `curation/figures/`, `exams/` | `build/anki/*.apkg` (Skizzierkarten), `learning/flashcards/skizzieren.md` |
 | `validate` | `validate` | alles Versionierte | `reports/validation.md` |
 | `report` | `coverage` | alles Versionierte, `curation/ai-log.jsonl` | `reports/coverage.md` |
@@ -142,18 +142,37 @@ Veröffentlicht wird nur, was per Pull Request auf `main` gemergt ist (AGENTS.md
 `git switch main && git pull --ff-only`. Vor jedem Schritt prüfen, dass das Repository privat ist:
 `gh api repos/<owner>/<repo> --jq .visibility` muss `private` liefern.
 
-**Release** (je Meilenstein ein neues Tag `vX.Y`):
+**Namen.** Jede veröffentlichte Datei heißt `GIL-…` (GIL = Grundlagen der Industriebetriebslehre);
+die Regel steht einmal in `pipeline/content_files.py`. Dateiname nur ASCII mit Bindestrichen (GitHub
+macht aus Leerzeichen, Umlauten und Gedankenstrichen in Asset-Namen Punkte), die lesbare Fassung ist
+das Label des Release-Assets:
+
+| Datei | Label | Inhalt |
+|---|---|---|
+| `GIL-Kapitel-N-<Titel>.pdf` | GIL Kapitel N – Titel | ein Kapitel des Skripts (Textschicht) |
+| `GIL-Gesamtskript.pdf` | GIL Gesamtskript | alle Kapitel mit Inhaltsverzeichnis |
+| `GIL-Zusammenfassung-Kapitel-N-<Titel>.pdf` | GIL Zusammenfassung Kapitel N – Titel | Lernleitfaden des Kapitels (prüfungsrelevant) |
+| `GIL-Zusammenfassung-gesamt.pdf` | GIL Zusammenfassung gesamt | alle Lernleitfäden |
+| `GIL-Pruefungsfragen.pdf` | GIL Prüfungsfragen | Fragensammlung |
+
+Abbildungen erscheinen nur als unsere SVG-Rekonstruktion, sonst als Platzhaltertext – nie als
+Ausschnitt aus dem Skript ([architecture.md](architecture.md#abbildungen-vier-schichten-ad)). Das
+Anki-Paket „Abbildungen skizzieren“ (`anki`) zeigt auf seinen Karten die Originalausschnitte und
+bleibt deshalb **außerhalb** des Releases; es ist nur für den lokalen Gebrauch.
+
+**Release** (je Meilenstein ein neues Tag `vX.Y`). `render-pdf` schreibt `build/pdf/release-assets.tsv`
+(`Datei<TAB>Label` je Zeile); `gh release upload` übernimmt das Label hinter `#`:
 
 ```bash
-python -m pipeline render-pdf && python -m pipeline anki
-gh release create vX.Y --target main --title "Wissensbasis vX.Y" --notes-file <notizen.md>     build/pdf/*.pdf build/anki/*.apkg
+python -m pipeline render-pdf
+gh release create vX.Y --target main --title "Wissensbasis vX.Y" --notes-file <notizen.md>
+while IFS=$'\t' read -r file label; do gh release upload vX.Y "build/pdf/$file#$label"; done < build/pdf/release-assets.tsv
 ```
 
 Antwortet GitHub beim Anlegen mit HTTP 500, existiert das Release meist schon als Entwurf ohne
-Dateien: dann `gh release upload vX.Y <datei> --clobber` je Datei und `gh release edit vX.Y
---draft=false`.
+Dateien: dann die Schleife oben mit `--clobber` und `gh release edit vX.Y --draft=false`.
 
-**Geheimes Gist** (Kapitel- und Gesamt-Markdown, Prüfungsfragen, Abbildungen, PDFs). Ein Gist hat
+**Geheimes Gist** (dieselben `GIL-…`-Dateien als Markdown, die gezeigten SVGs, die PDFs). Ein Gist hat
 keine Ordner und zeigt Bilder nur über absolute URLs, deshalb erzeugt `export-md` flache Dateien und
 setzt die Bild-URL aus `GIB_IMAGE_BASE_URL`:
 
@@ -164,6 +183,6 @@ cd gist && git add -A && git commit -m "…" && git push
 ```
 
 `gh gist create` legt Gists standardmäßig geheim an (nie `--public`) und nimmt keine Binärdateien;
-PNGs und PDFs kommen deshalb über das Git-Remote des Gists. Ein geheimes Gist ist **nicht privat**,
+die PDFs kommen deshalb über das Git-Remote des Gists. Ein geheimes Gist ist **nicht privat**,
 sondern nur ungelistet: Wer die URL kennt, kann es lesen. Bei späteren Ständen dasselbe Gist
 aktualisieren statt ein neues anzulegen. Die Studierenden-Karteikarten gehören nicht hinein.
