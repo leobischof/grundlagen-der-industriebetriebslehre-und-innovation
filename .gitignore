@@ -1,0 +1,29 @@
+# --- Originaldateien: Weitergabe-/Nutzungsrechte ungeklärt → bleiben lokal ---
+# (siehe docs/sources-and-rights.md; sources/manifest.yaml hält Hash + Größe fest)
+/input/
+/sources/original-pdfs/
+*.pdf
+*.apkg
+
+# --- reproduzierbare Zwischenstände (Cache, Stempel) ---
+/build/
+
+# --- persönlicher Lernfortschritt: nie committen ---
+/learning/progress/*
+!/learning/progress/README.md
+!/learning/progress/example.json
+
+# --- lokale Umgebung ---
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,214 @@
+# Canonical table of contents of the script (Skriptversion 2.0, WS 2024/25).
+#
+# Curated by hand from the chapter title pages (PDF p. 10, 30, 56, 68, 84, 106,
+# 116, 123, 156) and the numbered headings found in the OCR layer; every entry
+# was checked against the page image. `pdf_page` is the page holding the
+# heading; the heading line itself is located by fuzzy-matching `title`
+# (outside the running-header band). An entry ends where the next one starts.
+#
+# Printed page = pdf_page - 10 (from PDF page 11 on).
+#
+# kind: chapter | section (default) | literature | frontmatter
+# number_printed: only where the script prints a different (wrong) number.
+# One markdown file is generated per level-2 section (X.Y); deeper entries
+# become headings inside that file.
+
+parts:
+  - {id: teil-1, title: "Einführung in Innovation und Industrie Management", pdf_page: 9}
+  - {id: teil-2, title: "Innovation und Produktentstehung", pdf_page: 67}
+  - {id: teil-3, title: "Industrie Management", pdf_page: 115}
+
+chapters:
+  - id: "00"
+    slug: 00-einfuehrung
+    title: Zielsetzung und Inhalte der Lehrveranstaltung
+    part: null
+    entries:
+      - {number: "0.1", title: "ZIELSETZUNG DER LEHRVERANSTALTUNG", pdf_page: 7, kind: frontmatter, end_page: 8}
+
+  - id: "01"
+    slug: 01-die-industrie
+    title: Die Industrie
+    part: teil-1
+    entries:
+      - {number: "1", title: "DIE INDUSTRIE", pdf_page: 11, kind: chapter}
+      - {number: "1.1", title: "Historische Entwicklung der Industrie", pdf_page: 11}
+      - {number: "1.2", title: "Wirtschaftliche Bedeutung der Industrie", pdf_page: 16}
+      - {number: "1.2.1", title: "Zahlen und Fakten", pdf_page: 16}
+      - {number: "1.2.2", title: "Zentrale Bedeutung der Fertigung für die Wirtschaft", pdf_page: 19}
+      - {number: "1.2.3", title: "Merkmalausprägungen und Bedeutung der Industrie in Österreich", pdf_page: 21}
+      - {number: "1.3", title: "Aktuelle Herausforderungen der Industriebetriebe", pdf_page: 24}
+      - {number: "1.3.1", title: "Globalisierung", pdf_page: 24}
+      - {number: "1.3.2", title: "Durchdringung neuer Technologien", pdf_page: 25}
+      - {number: "1.3.3", title: "Demografischer Wandel", pdf_page: 25}
+      - {number: "1.3.4", title: "Nachhaltigkeit", pdf_page: 27}
+      - {number: "1.3.5", title: "Innovation für Wettbewerbsfähigkeit", pdf_page: 27}
+      - {number: "L1", title: "Literatur Kapitel 1", pdf_page: 29, kind: literature, end_page: 29}
+
+  - id: "02"
+    slug: 02-industrielle-innovation
+    title: Industrielle Innovation
+    part: teil-1
+    entries:
+      - {number: "2", title: "INDUSTRIELLE INNOVATION", pdf_page: 31, kind: chapter}
+      - {number: "2.1", title: "Innovation als Voraussetzung für Fortbestand und Wachstum", pdf_page: 31}
+      - {number: "2.2", title: "Begriffe und Definitionen", pdf_page: 34}
+      - {number: "2.3", title: "Dimensionen der Innovation", pdf_page: 36}
+      - {number: "2.4", title: "Innovationstreiber", pdf_page: 37}
+      - {number: "2.5", title: "Arten der Innovation", pdf_page: 39}
+      - {number: "2.5.1", title: "Produktinnovation", pdf_page: 39}
+      - {number: "2.5.2", title: "Prozessinnovation", pdf_page: 52}
+      - {number: "2.5.3", title: "Innovation von Systemeigenschaften", pdf_page: 52}
+      - {number: "2.5.4", title: "Innovation jenseits der Technik", pdf_page: 52}
+      - {number: "2.5.5", title: "Postindustrielle Innovation", pdf_page: 53}
+      - {number: "L2", title: "Literatur Kapitel 2", pdf_page: 54, kind: literature, end_page: 55}
+
+  - id: "03"
+    slug: 03-industrie-management
+    title: Industrie Management
+    part: teil-1
+    entries:
+      - {number: "3", title: "INDUSTRIE MANAGEMENT", pdf_page: 57, kind: chapter}
+      - {number: "3.1", title: "Begriffe und Definitionen", pdf_page: 57}
+      - {number: "3.1.1", title: "Abgrenzung von Industriebetrieben", pdf_page: 58}
+      - {number: "3.1.2", title: "Industriebetrieb als Arbeitssystem", pdf_page: 59}
+      - {number: "3.2", title: "Produktion als Kernaufgabe von Industriebetrieben", pdf_page: 63}
+      - {number: "3.3", title: "Abgrenzung des Industrie Managements im Kontext der Wirtschaftseinheiten", pdf_page: 65,
+         note: "Fehlt im Kapitel-Inhaltsverzeichnis (PDF S. 56), steht aber als Überschrift im Text."}
+      - {number: "L3", title: "Literatur Kapitel 3", pdf_page: 66, kind: literature, end_page: 66}
+
+  - id: "04"
+    slug: 04-grundlagen-der-innovation
+    title: Grundlagen der Innovation
+    part: teil-2
+    entries:
+      - {number: "4", title: "Grundlagen der Innovation", pdf_page: 69, kind: chapter}
+      - {number: "4.1", title: "Innovation und Strategie", pdf_page: 69}
+      - {number: "4.1.1", title: "Innovationsmanagement", pdf_page: 69}
+      - {number: "4.1.2", title: "Innovationsstrategie", pdf_page: 71}
+      - {number: "4.1.3", title: "Innovationsbarrieren und deren Überwindung", pdf_page: 72}
+      - {number: "4.2", title: "Innovation und Entrepreneurship", pdf_page: 75}
+      - {number: "4.2.1", title: "Definition", pdf_page: 75}
+      - {number: "4.2.2", title: "Unternehmertätigkeit und Existenzgründung", pdf_page: 76}
+      - {number: "4.2.3", title: "Haupttypen des Entrepreneurship", pdf_page: 77}
+      - {number: "4.2.4", title: "Entrepreneurship-Prozess", pdf_page: 79}
+      - {number: "4.2.5", title: "Persönlichkeitsmerkmale für erfolgreiches Entrepreneurship", pdf_page: 81}
+      - {number: "L4", title: "Literatur Kapitel 4", pdf_page: 83, kind: literature, end_page: 83}
+
+  - id: "05"
+    slug: 05-produktentstehung
+    title: Produktentstehung
+    part: teil-2
+    entries:
+      - {number: "5", title: "Produktentstehung", pdf_page: 85, kind: chapter}
+      - {number: "5.1", title: "Ziele der Produktentstehung", pdf_page: 86}
+      - {number: "5.2", title: "Effektivität und Effizienz in der Produktentstehung", pdf_page: 87}
+      - {number: "5.3", title: "Strategische Produktplanung", pdf_page: 88}
+      - {number: "5.4", title: "Produktentwicklung", pdf_page: 88}
+      - {number: "5.5", title: "Produktionssystem-Entwicklung", pdf_page: 89}
+      - {number: "5.6", title: "Integration im Produktentstehungsprozess", pdf_page: 89}
+      - {number: "L5", title: "Literatur Kapitel 5", pdf_page: 104, kind: literature, end_page: 105}
+
+  - id: "06"
+    slug: 06-ausgewaehlte-innovationsprozesse
+    title: Ausgewählte Innovationsprozesse
+    part: teil-2
+    entries:
+      - {number: "6", title: "AUSGEWÄHLTE INNOVATIONSPROZESSE", pdf_page: 107, kind: chapter}
+      - {number: "6.1", title: "Nach Thom", pdf_page: 107}
+      - {number: "6.2", title: "Nach Cooper", pdf_page: 109}
+      - {number: "6.3", title: "Nach Design Thinking Methode", pdf_page: 111}
+      - {number: "L6", title: "Literatur Kapitel 6", pdf_page: 114, kind: literature, end_page: 114}
+
+  - id: "07"
+    slug: 07-grundlagen-des-industrie-managements
+    title: Grundlagen des Industrie Managements
+    part: teil-3
+    entries:
+      - {number: "7", title: "Grundlagen des Industrie Management", pdf_page: 117, kind: chapter}
+      - {number: "7.1", title: "Begriffe und Ziele", pdf_page: 117}
+      - {number: "7.2", title: "Konzept des integrierten Managements", pdf_page: 119}
+      - {number: "7.3", title: "Grundlagen des Produktionsmanagements", pdf_page: 120}
+      - {number: "L7", title: "Literatur Kapitel 7", pdf_page: 122, kind: literature, end_page: 122}
+
+  - id: "08"
+    slug: 08-strategisches-produktionsmanagement
+    title: Ausgewählte Kapitel des strategischen Produktionsmanagements
+    part: teil-3
+    entries:
+      - {number: "8", title: "AUSGEWÄHLTE KAPITEL DES STRATEGISCHEN", pdf_page: 124, kind: chapter}
+      - {number: "8.1", title: "Standortplanung", pdf_page: 124}
+      - {number: "8.1.1", title: "Strategische Standortplanung", pdf_page: 125}
+      - {number: "8.1.2", title: "Standortplanung aus Raumsicht", pdf_page: 126}
+      - {number: "8.2", title: "Fabrikplanung", pdf_page: 126}
+      - {number: "8.2.1", title: "Produktionssysteme - Grundlagen", pdf_page: 128}
+      - {number: "8.2.2", title: "Planungsvorgehen", pdf_page: 134}
+      - {number: "8.2.3", title: "Zielplanung", pdf_page: 135}
+      - {number: "8.2.4", title: "Vorplanung", pdf_page: 135}
+      - {number: "8.2.5", title: "Grobplanung", pdf_page: 135}
+      - {number: "8.2.5.1", number_printed: "8.2.3.1", title: "Dimensionierung", pdf_page: 136,
+         note: "Im Skript als 8.2.3.1 nummeriert, inhaltlich Teil der Grobplanung (8.2.5)."}
+      - {number: "8.2.5.2", number_printed: "8.2.3.2", title: "Strukturierung", pdf_page: 137,
+         note: "Im Skript als 8.2.3.2 nummeriert."}
+      - {number: "8.2.5.3", number_printed: "8.2.3.3", title: "Layoutplanung", pdf_page: 137,
+         note: "Im Skript als 8.2.3.3 nummeriert."}
+      - {number: "8.2.6", title: "Feinplanung", pdf_page: 139}
+      - {number: "8.2.7", title: "Ausführungsplanung und Ausführung", pdf_page: 140}
+      - {number: "8.3", title: "Nachhaltigkeit", pdf_page: 142}
+      - {number: "8.3.1", title: "Begriffserklärung und Ziele", pdf_page: 142}
+      - {number: "8.3.2", title: "Strategische Bedeutung", pdf_page: 144}
+      - {number: "8.3.3", title: "Ökologische Nachhaltigkeit im Industriekontext", pdf_page: 147}
+      - {number: "L8", title: "Literatur Kapitel 8", pdf_page: 153, kind: literature, end_page: 155}
+
+  - id: "09"
+    slug: 09-operatives-produktionsmanagement
+    title: Das operative Produktionsmanagement
+    part: teil-3
+    entries:
+      - {number: "9", title: "DAS OPERATIVE PRODUKTIONSMANAGEMENT", pdf_page: 157, kind: chapter}
+      - {number: "9.1", title: "Planung", pdf_page: 157}
+      - {number: "9.1.1", title: "Absatzplanung", pdf_page: 159}
+      - {number: "9.1.2", title: "Kurzfristige Produktionsprogrammplanung", pdf_page: 160}
+      - {number: "9.1.3", title: "Materialbedarfsplanung", pdf_page: 164}
+      - {number: "9.1.3.1", title: "Material", pdf_page: 166}
+      - {number: "9.1.4", title: "Das Bestandsdilemma", pdf_page: 167}
+      - {number: "9.1.5", title: "Zeit- und Kapazitätsplanung", pdf_page: 169}
+      - {number: "9.1.5.1", title: "Terminierung", pdf_page: 170}
+      - {number: "9.1.6", title: "Kapazitätsplanung", pdf_page: 171}
+      - {number: "9.1.7", title: "Gesamtanlageneffektivität", pdf_page: 173}
+      - {number: "9.1.8", title: "Bewerkstelligung von Zeit- und Kapazitätsplanung", pdf_page: 173}
+      - {number: "9.2", title: "Steuerung", pdf_page: 174}
+      - {number: "9.2.1", title: "Starten und überwachen der Produktion", pdf_page: 177}
+      - {number: "9.2.2", title: "Dilemma der Ablaufplanung", pdf_page: 178}
+      - {number: "9.2.3", title: "Auftragsfreigabe", pdf_page: 180}
+      - {number: "9.2.4", title: "Maschinenbelegung", pdf_page: 181}
+      - {number: "9.3", title: "Kontrolle (Leistungskennzahlen)", pdf_page: 181}
+      - {number: "9.3.1", title: "Qualität", pdf_page: 182}
+      - {number: "9.3.2", title: "Geschwindigkeit", pdf_page: 185}
+      - {number: "9.3.3", title: "Zuverlässigkeit/Liefertreue", pdf_page: 186}
+      - {number: "9.3.4", title: "Flexibilität", pdf_page: 186}
+      - {number: "9.3.5", title: "Kosten", pdf_page: 188}
+      - {number: "L9", title: "Literatur Kapitel 9", pdf_page: 189, kind: literature, end_page: 189}
+
+# Pages deliberately not converted (institute information, part title pages,
+# chapter title/contents pages, blank page). Listed so coverage is explicit.
+skipped_pages:
+  1: Deckblatt
+  2: Institutsadresse
+  3: Titelblatt mit Skriptversion
+  4: "Über uns (Institutsgeschichte)"
+  5: Lehrveranstaltungen des Instituts
+  6: Lehrveranstaltungen des Instituts
+  9: Titelseite Teil 1
+  10: Kapiteltitel und -inhaltsverzeichnis 1
+  30: Kapiteltitel und -inhaltsverzeichnis 2
+  56: Kapiteltitel und -inhaltsverzeichnis 3
+  67: Titelseite Teil 2
+  68: Kapiteltitel und -inhaltsverzeichnis 4
+  84: Kapiteltitel und -inhaltsverzeichnis 5
+  106: Kapiteltitel und -inhaltsverzeichnis 6
+  115: Titelseite Teil 3
+  116: Kapiteltitel und -inhaltsverzeichnis 7
+  123: Kapiteltitel und -inhaltsverzeichnis 8
+  156: Kapiteltitel und -inhaltsverzeichnis 9
+  190: Leerseite

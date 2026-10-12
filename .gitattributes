@@ -1,0 +1,4 @@
+# LF everywhere: generated files must hash identically on every OS (cache keys, CI).
+* text=auto eol=lf
+*.png binary
+*.pdf binary

@@ -1,0 +1,3389 @@
+{
+  "_comment": "Generiert von `python -m pipeline extract-figures` – nicht von Hand bearbeiten. Quelle der Wahrheit: curation/figures.yaml und curation/figures/<id>.yaml.",
+  "source": "skript",
+  "crop_dpi": 200,
+  "figures": [
+    {
+      "id": "abb-01",
+      "kind": "figure",
+      "label": "Abbildung 1",
+      "number": 1,
+      "title": "Historische Entwicklung innerhalb der Industrie",
+      "pdf_page": 14,
+      "printed_page": 4,
+      "bbox": [
+        67.4,
+        233.4,
+        520.6,
+        511.9
+      ],
+      "chapter": "01",
+      "section": "1.1",
+      "subsection": "1.1",
+      "files": {
+        "original": "figures/originals/abb-01.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1277,
+        791
+      ],
+      "sha256": "31e6753956b18fd71b2f90ca1b226779776bcafa53bb40cdc04816700ca8f7c1"
+    },
+    {
+      "id": "abb-02",
+      "kind": "figure",
+      "label": "Abbildung 2",
+      "number": 2,
+      "title": "Mögliche Elemente eines Betriebs der Industrie 4.0",
+      "pdf_page": 16,
+      "printed_page": 6,
+      "bbox": [
+        73.2,
+        62.6,
+        520.6,
+        323.3
+      ],
+      "chapter": "01",
+      "section": "1.1",
+      "subsection": "1.1",
+      "files": {
+        "original": "figures/originals/abb-02.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1260,
+        742
+      ],
+      "sha256": "3f58d31ca6902879d914a67b8eadd86b0d82c4f149f3f21f8543638a9e95bfb9"
+    },
+    {
+      "id": "tab-01",
+      "kind": "table",
+      "label": "Tabelle 1",
+      "number": 1,
+      "title": "Unselbständig Beschäftigte in Österreich",
+      "pdf_page": 17,
+      "printed_page": 7,
+      "bbox": [
+        130.8,
+        176.4,
+        455.8,
+        301.2
+      ],
+      "chapter": "01",
+      "section": "1.2",
+      "subsection": "1.2.1",
+      "files": {
+        "original": "figures/originals/tab-01.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        920,
+        364
+      ],
+      "sha256": "5d5f4eb13ec3dad2ace3d49747a99879e80aa963410cc5a4f6935afdcc15f681"
+    },
+    {
+      "id": "tab-02",
+      "kind": "table",
+      "label": "Tabelle 2",
+      "number": 2,
+      "title": "Prozentualer Anteil der Sektoren an der Gesamtwertschöpfung im Jahr 2023",
+      "pdf_page": 18,
+      "printed_page": 8,
+      "bbox": [
+        107.3,
+        62.6,
+        479.3,
+        420.7
+      ],
+      "chapter": "01",
+      "section": "1.2",
+      "subsection": "1.2.1",
+      "files": {
+        "original": "figures/originals/tab-02.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "note": "Tabellen 2 und 3 tragen im Skript wortgleiche Beschriftungen.",
+      "pixels": [
+        1051,
+        1012
+      ],
+      "sha256": "16e8f19ddd6e4d49f2fa142d651c10eb1e6ba2ddc8121e7be2c1ff8dc054340a"
+    },
+    {
+      "id": "tab-03",
+      "kind": "table",
+      "label": "Tabelle 3",
+      "number": 3,
+      "title": "Prozentualer Anteil der Sektoren an der Gesamtwertschöpfung im Jahr 2023",
+      "pdf_page": 19,
+      "printed_page": 9,
+      "bbox": [
+        67.0,
+        288.7,
+        512.9,
+        417.4
+      ],
+      "chapter": "01",
+      "section": "1.2",
+      "subsection": "1.2.1",
+      "files": {
+        "original": "figures/originals/tab-03.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "note": "Beschriftung im Skript wortgleich mit Tabelle 2 (vermutlich Kopierfehler im Skript); Inhalt laut Tabelle: Beschäftigte nach Unternehmensgröße.",
+      "pixels": [
+        1257,
+        375
+      ],
+      "sha256": "e0cdb78c7a9c384dc3cdc695fe8dd6d4f3f49fd11b64f41aa4c17b518c6c745a"
+    },
+    {
+      "id": "abb-03",
+      "kind": "figure",
+      "label": "Abbildung 3",
+      "number": 3,
+      "title": "Entwicklungen des %-Anteils der Beschäftigten an der Gesamtbevölkerung sowie des %-Anteils der Industriebeschäftigten an den Gesamtbeschäftigten in Österreich",
+      "pdf_page": 22,
+      "printed_page": 12,
+      "bbox": [
+        73.7,
+        104.4,
+        526.3,
+        323.8
+      ],
+      "chapter": "01",
+      "section": "1.2",
+      "subsection": "1.2.3",
+      "files": {
+        "original": "figures/originals/abb-03.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1275,
+        627
+      ],
+      "sha256": "2397bb0c21bbd3f70a40566e148f9aebf417fffba7b82cb70309f7a5b30b52c8"
+    },
+    {
+      "id": "abb-04",
+      "kind": "figure",
+      "label": "Abbildung 4",
+      "number": 4,
+      "title": "Alterspyramide Österreichs (Stand 2021)",
+      "pdf_page": 26,
+      "printed_page": 16,
+      "bbox": [
+        67.4,
+        181.2,
+        522.0,
+        490.8
+      ],
+      "chapter": "01",
+      "section": "1.3",
+      "subsection": "1.3.3",
+      "files": {
+        "original": "figures/originals/abb-04.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1281,
+        877
+      ],
+      "sha256": "7de56ab449775d233954daab92d68a748f763f7ba7f59cc34f8cff4006c3433a"
+    },
+    {
+      "id": "abb-05",
+      "kind": "figure",
+      "label": "Abbildung 5",
+      "number": 5,
+      "title": "Drei generische Strategien, die Unternehmen verfolgen können",
+      "pdf_page": 32,
+      "printed_page": 22,
+      "bbox": [
+        67.4,
+        176.4,
+        520.6,
+        434.6
+      ],
+      "chapter": "02",
+      "section": "2.1",
+      "subsection": "2.1",
+      "files": {
+        "original": "figures/originals/abb-05.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1277,
+        735
+      ],
+      "sha256": "25283c22358ddd1215e3d91a9661541050ca6b846fa848dbc64584104d912d8f"
+    },
+    {
+      "id": "abb-06",
+      "kind": "figure",
+      "label": "Abbildung 6",
+      "number": 6,
+      "title": "Die innovativsten Unternehmen 2022",
+      "pdf_page": 33,
+      "printed_page": 23,
+      "bbox": [
+        60,
+        110.0,
+        530,
+        480.5
+      ],
+      "chapter": "02",
+      "section": "2.1",
+      "subsection": "2.1",
+      "files": {
+        "original": "figures/originals/abb-06.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "bbox_note": "Oberkante schloss eine Fließtextzeile (y≈95–107) ein – manuell unter die Zeile gesetzt.",
+      "pixels": [
+        1323,
+        1047
+      ],
+      "sha256": "58f94dfb71c000cfb25f0be4a69602800606869d827c12683b8ddf03be665948"
+    },
+    {
+      "id": "abb-07",
+      "kind": "figure",
+      "label": "Abbildung 7",
+      "number": 7,
+      "title": "Typischen Merkmale einer Innovation",
+      "pdf_page": 36,
+      "printed_page": 26,
+      "bbox": [
+        67.9,
+        309.4,
+        521.0,
+        490.3
+      ],
+      "chapter": "02",
+      "section": "2.2",
+      "subsection": "2.2",
+      "files": {
+        "original": "figures/originals/abb-07.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        520
+      ],
+      "sha256": "fd9a15d4ab59c220a85ad50bdb0441edffd9d883c013348f61b02c5d5255639c"
+    },
+    {
+      "id": "abb-08",
+      "kind": "figure",
+      "label": "Abbildung 8",
+      "number": 8,
+      "title": "Produktlebenszyklus",
+      "pdf_page": 41,
+      "printed_page": 31,
+      "bbox": [
+        67.0,
+        62.6,
+        516.2,
+        358.8
+      ],
+      "chapter": "02",
+      "section": "2.5",
+      "subsection": "2.5.1",
+      "files": {
+        "original": "figures/originals/abb-08.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        840
+      ],
+      "sha256": "7eedae5111daccbf193ae55eda57852e3d324a21a4ddef6989d72050573bfcc0"
+    },
+    {
+      "id": "abb-09",
+      "kind": "figure",
+      "label": "Abbildung 9",
+      "number": 9,
+      "title": "Kategorien neuer Produkte",
+      "pdf_page": 43,
+      "printed_page": 33,
+      "bbox": [
+        67.9,
+        62.6,
+        517.2,
+        365.5
+      ],
+      "chapter": "02",
+      "section": "2.5",
+      "subsection": "2.5.1",
+      "files": {
+        "original": "figures/originals/abb-09.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1265,
+        859
+      ],
+      "sha256": "d8610d1f4e6848a00b2666c69f22226efb338f94dd412040c299677dac4a1526"
+    },
+    {
+      "id": "abb-10",
+      "kind": "figure",
+      "label": "Abbildung 10",
+      "number": 10,
+      "title": "Portfolio Management für neue Produkte",
+      "pdf_page": 46,
+      "printed_page": 36,
+      "bbox": [
+        69.8,
+        107.3,
+        520.6,
+        319.4
+      ],
+      "chapter": "02",
+      "section": "2.5",
+      "subsection": "2.5.1",
+      "files": {
+        "original": "figures/originals/abb-10.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1270,
+        607
+      ],
+      "sha256": "e5ca076828db476cfbeca59437da1397bf21f201c3e66bfae3405e151b9dd39f"
+    },
+    {
+      "id": "abb-11",
+      "kind": "figure",
+      "label": "Abbildung 11",
+      "number": 11,
+      "title": "Ansoff Matrix",
+      "pdf_page": 48,
+      "printed_page": 38,
+      "bbox": [
+        73.7,
+        66.5,
+        526.3,
+        255.1
+      ],
+      "chapter": "02",
+      "section": "2.5",
+      "subsection": "2.5.1",
+      "files": {
+        "original": "figures/originals/abb-11.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1275,
+        541
+      ],
+      "sha256": "221aacf840bb5d9ce3e6ff305d9014d2e16844abbff8d0e42777faef916555b9"
+    },
+    {
+      "id": "abb-12",
+      "kind": "figure",
+      "label": "Abbildung 12",
+      "number": 12,
+      "title": "Industriebetriebe im System der Wirtschaftseinheiten",
+      "pdf_page": 57,
+      "printed_page": 47,
+      "bbox": [
+        66.5,
+        468.2,
+        515.8,
+        638.6
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1",
+      "files": {
+        "original": "figures/originals/abb-12.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        491
+      ],
+      "sha256": "905eb6fbcbf44a6ef7166ae42b965e274d4a20248648f630c735ea5ba5ce48da"
+    },
+    {
+      "id": "abb-13",
+      "kind": "figure",
+      "label": "Abbildung 13",
+      "number": 13,
+      "title": "Abgrenzung zwischen Industrie- und Dienstleistungsbetrieb",
+      "pdf_page": 59,
+      "printed_page": 49,
+      "bbox": [
+        69.4,
+        103.4,
+        517.7,
+        277.2
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.1",
+      "files": {
+        "original": "figures/originals/abb-13.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1263,
+        501
+      ],
+      "sha256": "d313aebf098fa8330b29eb577e2145d2d9a41569a7aafc4e383bbd33140a3416"
+    },
+    {
+      "id": "abb-14",
+      "kind": "figure",
+      "label": "Abbildung 14",
+      "number": 14,
+      "title": "Abgrenzung zwischen Industriebetrieben und Werkstätten",
+      "pdf_page": 59,
+      "printed_page": 49,
+      "bbox": [
+        68.4,
+        309.8,
+        517.7,
+        583.9
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.1",
+      "files": {
+        "original": "figures/originals/abb-14.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        779
+      ],
+      "sha256": "74186555bddc3739fd539c1211e54ce439eb3613ab6d9181865bebaaa2f88a74"
+    },
+    {
+      "id": "abb-15",
+      "kind": "figure",
+      "label": "Abbildung 15",
+      "number": 15,
+      "title": "Industriebetrieb als Arbeitssystem",
+      "pdf_page": 60,
+      "printed_page": 50,
+      "bbox": [
+        67.4,
+        67.0,
+        520.1,
+        300.2
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.2",
+      "files": {
+        "original": "figures/originals/abb-15.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        666
+      ],
+      "sha256": "b52dca4159d17a1eaa818b969ecdca594ff674cbaf75f9071db2be912d78efcf"
+    },
+    {
+      "id": "formel-produktivitaet",
+      "kind": "formula",
+      "label": "Formel",
+      "number": null,
+      "title": "Produktivität",
+      "pdf_page": 61,
+      "printed_page": 51,
+      "bbox": [
+        170.2,
+        153.4,
+        401.0,
+        209.5
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.2",
+      "files": {
+        "original": "figures/originals/formel-produktivitaet.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "latex": "\\text{Produktivität} = \\frac{\\text{Mengenmäßiger Output}}{\\text{Mengenmäßiger Input}}",
+      "pixels": [
+        659,
+        174
+      ],
+      "sha256": "809cc4df50882715e0defa8ebfe38a5efed66be0c75d47076ec6b12d36083446"
+    },
+    {
+      "id": "formel-spezifischer-mitteleinsatz",
+      "kind": "formula",
+      "label": "Formel",
+      "number": null,
+      "title": "Spezifischer Mitteleinsatz",
+      "pdf_page": 61,
+      "printed_page": 51,
+      "bbox": [
+        142.3,
+        279.6,
+        430.8,
+        331.9
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.2",
+      "files": {
+        "original": "figures/originals/formel-spezifischer-mitteleinsatz.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "latex": "\\text{Spezifischer Mitteleinsatz} = \\frac{\\text{Mengenmäßiger Input}}{\\text{Mengenmäßiger Output}}",
+      "pixels": [
+        819,
+        163
+      ],
+      "sha256": "7c0f1a42887094805209994753cc8eab8233db8cfdc4e714fbf8ea8723164a50"
+    },
+    {
+      "id": "formel-wirtschaftlichkeit",
+      "kind": "formula",
+      "label": "Formel",
+      "number": null,
+      "title": "Wirtschaftlichkeit",
+      "pdf_page": 61,
+      "printed_page": 51,
+      "bbox": [
+        163.9,
+        438.5,
+        408.2,
+        487.0
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.2",
+      "files": {
+        "original": "figures/originals/formel-wirtschaftlichkeit.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "latex": "\\text{Wirtschaftlichkeit} = \\frac{\\text{Leistungsbedingte Erlöse}}{\\text{Kosten}}",
+      "pixels": [
+        697,
+        153
+      ],
+      "sha256": "58227179f25e02ca34ad4c42dfece912fbb16d36f486fadc13ebb901a361c863"
+    },
+    {
+      "id": "formel-spezifische-kosten",
+      "kind": "formula",
+      "label": "Formel",
+      "number": null,
+      "title": "Spezifische Kosten",
+      "pdf_page": 61,
+      "printed_page": 51,
+      "bbox": [
+        154.3,
+        576.2,
+        410.2,
+        624.7
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.2",
+      "files": {
+        "original": "figures/originals/formel-spezifische-kosten.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "latex": "\\text{Spezifische Kosten} = \\frac{\\text{Kosten}}{\\text{Mengenmäßiger Output}}",
+      "pixels": [
+        728,
+        152
+      ],
+      "sha256": "fbf941b001b8903f87974fbedd571294f606525414dad099e04bb1891ab15189"
+    },
+    {
+      "id": "formel-rentabilitaet",
+      "kind": "formula",
+      "label": "Formel",
+      "number": null,
+      "title": "Rentabilität",
+      "pdf_page": 62,
+      "printed_page": 52,
+      "bbox": [
+        161.0,
+        169.7,
+        363.6,
+        217.7
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.2",
+      "files": {
+        "original": "figures/originals/formel-rentabilitaet.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "latex": "\\text{Rentabilität} = \\frac{\\text{Gewinn}}{\\text{Kapital bzw. Umsatz}}",
+      "pixels": [
+        581,
+        151
+      ],
+      "sha256": "04f36f500092de86147d96020863dcfb65f96f5596dbd00baee77e41ab470400"
+    },
+    {
+      "id": "formel-liquiditaet",
+      "kind": "formula",
+      "label": "Formel",
+      "number": null,
+      "title": "Liquidität",
+      "pdf_page": 62,
+      "printed_page": 52,
+      "bbox": [
+        199.0,
+        375.1,
+        386.2,
+        422.6
+      ],
+      "chapter": "03",
+      "section": "3.1",
+      "subsection": "3.1.2",
+      "files": {
+        "original": "figures/originals/formel-liquiditaet.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "latex": "\\text{Liquidität} = \\frac{\\text{Verfügbare Mittel}}{\\text{Verpflichtungen}}",
+      "pixels": [
+        538,
+        150
+      ],
+      "sha256": "c6d845d3e9d0e1b1b078fb91b4b312d1cd1f0fe53f9500d5068ddec9dac41c05"
+    },
+    {
+      "id": "abb-16",
+      "kind": "figure",
+      "label": "Abbildung 16",
+      "number": 16,
+      "title": "Der Produktionsprozess",
+      "pdf_page": 63,
+      "printed_page": 53,
+      "bbox": [
+        67.4,
+        321.4,
+        515.8,
+        537.4
+      ],
+      "chapter": "03",
+      "section": "3.2",
+      "subsection": "3.2",
+      "files": {
+        "original": "figures/originals/abb-16.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1264,
+        618
+      ],
+      "sha256": "1beb1b8d9b034ffe97da60dca99263d4539674948a598822f6fbec7a0493484c"
+    },
+    {
+      "id": "abb-17",
+      "kind": "figure",
+      "label": "Abbildung 17",
+      "number": 17,
+      "title": "Elemente des Produktionsprozesses",
+      "pdf_page": 64,
+      "printed_page": 54,
+      "bbox": [
+        73.7,
+        350.2,
+        526.8,
+        527.8
+      ],
+      "chapter": "03",
+      "section": "3.2",
+      "subsection": "3.2",
+      "files": {
+        "original": "figures/originals/abb-17.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        511
+      ],
+      "sha256": "d220cdf83383df504e770eb7d2d7ebe719655f3119fb2a3270c46fe6bd061e61"
+    },
+    {
+      "id": "abb-18",
+      "kind": "figure",
+      "label": "Abbildung 18",
+      "number": 18,
+      "title": "Abgrenzung des Industrie Management im Kontext der Wirtschaftseinheiten",
+      "pdf_page": 65,
+      "printed_page": 55,
+      "bbox": [
+        66.5,
+        399.1,
+        515.8,
+        586.3
+      ],
+      "chapter": "03",
+      "section": "3.3",
+      "subsection": "3.3",
+      "files": {
+        "original": "figures/originals/abb-18.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        537
+      ],
+      "sha256": "30a0c7bf86c83819b04089da06ba78b5760437197deebdab490bc6d9daea661c"
+    },
+    {
+      "id": "tab-04",
+      "kind": "table",
+      "label": "Tabelle 4",
+      "number": 4,
+      "title": "Kriterien für Innovationsstrategien",
+      "pdf_page": 72,
+      "printed_page": 62,
+      "bbox": [
+        83.3,
+        263.8,
+        510.5,
+        638.0
+      ],
+      "chapter": "04",
+      "section": "4.1",
+      "subsection": "4.1.2",
+      "files": {
+        "original": "figures/originals/tab-04.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "bbox_note": "Unterkante über die Beschriftung (y≈647) hinaus erkannt – manuell auf die Tabelle begrenzt.",
+      "pixels": [
+        1204,
+        1057
+      ],
+      "sha256": "a3f1e4f4106c59028855abd05b79d6afcf808090129380788d434066bbcfc9e6"
+    },
+    {
+      "id": "abb-19",
+      "kind": "figure",
+      "label": "Abbildung 19",
+      "number": 19,
+      "title": "Auswirkung von Innovationsbarrieren",
+      "pdf_page": 74,
+      "printed_page": 64,
+      "bbox": [
+        84.2,
+        183.1,
+        510.5,
+        446.2
+      ],
+      "chapter": "04",
+      "section": "4.1",
+      "subsection": "4.1.3",
+      "files": {
+        "original": "figures/originals/abb-19.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1202,
+        748
+      ],
+      "sha256": "2510fd91bc17b9a27f61e52e5d42adc1d16f84fdf238f32a09c9be753c54b2aa"
+    },
+    {
+      "id": "tab-05",
+      "kind": "table",
+      "label": "Tabelle 5",
+      "number": 5,
+      "title": "Unterschiede zwischen SME und IDE Entrepreneurship",
+      "pdf_page": 77,
+      "printed_page": 67,
+      "bbox": [
+        64.0,
+        272.0,
+        530.0,
+        627.0
+      ],
+      "chapter": "04",
+      "section": "4.2",
+      "subsection": "4.2.3",
+      "files": {
+        "original": "figures/originals/tab-05.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "note": "Tabelle ohne Linien – von der Grafikerkennung nicht gefunden, Ausschnitt manuell gesetzt.",
+      "pixels": [
+        1312,
+        1003
+      ],
+      "sha256": "10e7ac2a16ecf669a5228793a1ac875470e660f63eda90d7f4d5783c70622f1d"
+    },
+    {
+      "id": "abb-20",
+      "kind": "figure",
+      "label": "Abbildung 20",
+      "number": 20,
+      "title": "Vergleich zwischen SME- und IDE-Entrepreneurship",
+      "pdf_page": 78,
+      "printed_page": 68,
+      "bbox": [
+        69.4,
+        71.3,
+        520.6,
+        252.7
+      ],
+      "chapter": "04",
+      "section": "4.2",
+      "subsection": "4.2.3",
+      "files": {
+        "original": "figures/originals/abb-20.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "note": "Der Fließtext verweist für dieselbe Gegenüberstellung auf Tabelle 5 (PDF S. 77).",
+      "pixels": [
+        1271,
+        522
+      ],
+      "sha256": "e3e09807caf65846997a958da24dc7bdc21629b459a8978e33fb8e4cd5d10933"
+    },
+    {
+      "id": "abb-21",
+      "kind": "figure",
+      "label": "Abbildung 21",
+      "number": 21,
+      "title": "Richtungen des Entrepreneurship",
+      "pdf_page": 78,
+      "printed_page": 68,
+      "bbox": [
+        67.4,
+        338.6,
+        521.0,
+        638.6
+      ],
+      "chapter": "04",
+      "section": "4.2",
+      "subsection": "4.2.3",
+      "files": {
+        "original": "figures/originals/abb-21.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1278,
+        851
+      ],
+      "sha256": "d6778e319d983b6e04f3bea5b6e83e59cd256e68a187333ea6d88f2fbd84c965"
+    },
+    {
+      "id": "abb-22",
+      "kind": "figure",
+      "label": "Abbildung 22",
+      "number": 22,
+      "title": "Entrepreneurship-Prozess",
+      "pdf_page": 79,
+      "printed_page": 69,
+      "bbox": [
+        67.4,
+        151.9,
+        516.2,
+        355.4
+      ],
+      "chapter": "04",
+      "section": "4.2",
+      "subsection": "4.2.4",
+      "files": {
+        "original": "figures/originals/abb-22.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1265,
+        583
+      ],
+      "sha256": "0aabe085b30f555e3e72117e4514a086891d932fba5b857d2c211943701e6e74"
+    },
+    {
+      "id": "abb-23",
+      "kind": "figure",
+      "label": "Abbildung 23",
+      "number": 23,
+      "title": "Geschichte der Produktentstehung",
+      "pdf_page": 85,
+      "printed_page": 75,
+      "bbox": [
+        69.4,
+        406.3,
+        518.6,
+        641.0
+      ],
+      "chapter": "04",
+      "section": "L4",
+      "subsection": "5",
+      "files": {
+        "original": "figures/originals/abb-23.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1265,
+        669
+      ],
+      "sha256": "e869cab294336527694e49089917eb1bd5a91124189368ba93ea32b4d8bd88e8"
+    },
+    {
+      "id": "abb-24",
+      "kind": "figure",
+      "label": "Abbildung 24",
+      "number": 24,
+      "title": "Produktentstehung als Teil des Produktlebenszyklus",
+      "pdf_page": 86,
+      "printed_page": 76,
+      "bbox": [
+        68.4,
+        337.7,
+        521.5,
+        559.9
+      ],
+      "chapter": "04",
+      "section": "L4",
+      "subsection": "5",
+      "files": {
+        "original": "figures/originals/abb-24.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        635
+      ],
+      "sha256": "0ca8a9c90db959cf2af1c329efc38d21597b821a90ee0315dd49da787a978a40"
+    },
+    {
+      "id": "abb-25",
+      "kind": "figure",
+      "label": "Abbildung 25",
+      "number": 25,
+      "title": "Zielsystem, Handlungssystem und Sachsystem",
+      "pdf_page": 87,
+      "printed_page": 77,
+      "bbox": [
+        67.9,
+        333.4,
+        517.2,
+        549.8
+      ],
+      "chapter": "05",
+      "section": "5.1",
+      "subsection": "5.1",
+      "files": {
+        "original": "figures/originals/abb-25.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1265,
+        619
+      ],
+      "sha256": "f68266b7e1229efa89f76f2a44a368d1788729784a60d8b6233579ac8ea9053d"
+    },
+    {
+      "id": "abb-26",
+      "kind": "figure",
+      "label": "Abbildung 26",
+      "number": 26,
+      "title": "Integrierte Produktentstehung 2013",
+      "pdf_page": 90,
+      "printed_page": 80,
+      "bbox": [
+        67.9,
+        71.3,
+        521.5,
+        595.9
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-26.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1277,
+        1475
+      ],
+      "sha256": "139e8074b48d5011c4c98935eff9fb40ea43ff523172056d5620a59fa445d99a"
+    },
+    {
+      "id": "abb-27",
+      "kind": "figure",
+      "label": "Abbildung 27",
+      "number": 27,
+      "title": "Festgelegte und verursachte Kosten in der Produktentstehung",
+      "pdf_page": 91,
+      "printed_page": 81,
+      "bbox": [
+        68.4,
+        66.5,
+        519.1,
+        387.1
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-27.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1270,
+        908
+      ],
+      "sha256": "ee463f1ac973b0f1503b2ded95998f81935ae200d35d9c8f4d8991326aa85985"
+    },
+    {
+      "id": "abb-28",
+      "kind": "figure",
+      "label": "Abbildung 28",
+      "number": 28,
+      "title": "Arten der Integration",
+      "pdf_page": 93,
+      "printed_page": 83,
+      "bbox": [
+        70.8,
+        62.6,
+        511.0,
+        374.2
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-28.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1240,
+        883
+      ],
+      "sha256": "675ca732aa486d31ab2524514ab8af5a9074873a70bd95611e14bf8323dbb70c"
+    },
+    {
+      "id": "abb-29",
+      "kind": "figure",
+      "label": "Abbildung 29",
+      "number": 29,
+      "title": "Magisches Dreieck der Produktentstehung",
+      "pdf_page": 94,
+      "printed_page": 84,
+      "bbox": [
+        68.9,
+        65.0,
+        519.1,
+        289.2
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-29.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1268,
+        640
+      ],
+      "sha256": "add0f7fc26a55d062c97a80d9fb0c1a7214d9c732fff724380a6f53fc9f0ff4b"
+    },
+    {
+      "id": "abb-30",
+      "kind": "figure",
+      "label": "Abbildung 30",
+      "number": 30,
+      "title": "Systematik des Simultaneous Engineering",
+      "pdf_page": 95,
+      "printed_page": 85,
+      "bbox": [
+        68.9,
+        62.6,
+        516.7,
+        280.1
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-30.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1261,
+        622
+      ],
+      "sha256": "a362d0d91697d19d9c30e563b8b79b4efd8562ecee8a605dbd99ed8d8d068b3c"
+    },
+    {
+      "id": "abb-31",
+      "kind": "figure",
+      "label": "Abbildung 31",
+      "number": 31,
+      "title": "Point-based Serial Engineering",
+      "pdf_page": 96,
+      "printed_page": 86,
+      "bbox": [
+        71.3,
+        304.6,
+        523.9,
+        377.0
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-31.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1275,
+        219
+      ],
+      "sha256": "b71a7b394af715e4fc61c442a126f618ffb8ff1d3ed7410f45c364fe24ba4b50"
+    },
+    {
+      "id": "abb-32",
+      "kind": "figure",
+      "label": "Abbildung 32",
+      "number": 32,
+      "title": "Point-based Concurrent Engineering",
+      "pdf_page": 97,
+      "printed_page": 87,
+      "bbox": [
+        70.8,
+        62.6,
+        520.1,
+        222.0
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-32.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        460
+      ],
+      "sha256": "46ce6cc4bb98999761c760a7a42fa6ab63b3cf6b7bde289d00bfa184edc92d28"
+    },
+    {
+      "id": "abb-33",
+      "kind": "figure",
+      "label": "Abbildung 33",
+      "number": 33,
+      "title": "Set-based Concurrent Engineering",
+      "pdf_page": 98,
+      "printed_page": 88,
+      "bbox": [
+        67.4,
+        65.5,
+        520.1,
+        284.4
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-33.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        626
+      ],
+      "sha256": "9c239dbaf244b484b237c39dbbcbae49e0324b8dcfdb91a53934f97eb78826b1"
+    },
+    {
+      "id": "abb-34",
+      "kind": "figure",
+      "label": "Abbildung 34",
+      "number": 34,
+      "title": "Rahmenstruktur-Konzept für integrierte Produkt- und Prozessgestaltung nach EVERSHEIM/SCHUH/ASSMUS",
+      "pdf_page": 99,
+      "printed_page": 89,
+      "bbox": [
+        73.7,
+        286.8,
+        522.5,
+        517.2
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-34.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1264,
+        657
+      ],
+      "sha256": "6072e6c6e2bb48b0b2137f2e31a6a3b5e90046f761bca1c5c62320bef860c114"
+    },
+    {
+      "id": "abb-35",
+      "kind": "figure",
+      "label": "Abbildung 35",
+      "number": 35,
+      "title": "Integrationsbereiche der Themen Innovationsprozess & Produktentwicklung",
+      "pdf_page": 103,
+      "printed_page": 93,
+      "bbox": [
+        76.6,
+        62.6,
+        524.9,
+        319.0
+      ],
+      "chapter": "05",
+      "section": "5.6",
+      "subsection": "5.6",
+      "files": {
+        "original": "figures/originals/abb-35.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1263,
+        730
+      ],
+      "sha256": "cd048f67b6a3662b0b080958917a6ad408eb302345f069e2dc958c6b6f3ec75c"
+    },
+    {
+      "id": "abb-36",
+      "kind": "figure",
+      "label": "Abbildung 36",
+      "number": 36,
+      "title": "Innovationsprozess von Thom",
+      "pdf_page": 108,
+      "printed_page": 98,
+      "bbox": [
+        67.9,
+        65.5,
+        520.1,
+        292.6
+      ],
+      "chapter": "06",
+      "section": "6.1",
+      "subsection": "6.1",
+      "files": {
+        "original": "figures/originals/abb-36.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "note": "Die Grafik ist zusätzlich unbeschriftet auf PDF S. 107 abgedruckt (Duplikat, nicht separat extrahiert).",
+      "pixels": [
+        1274,
+        649
+      ],
+      "sha256": "c6f2f0e0d11993bc5b4ff846f12029c010c2096c452f9d20abc1b10f2685a97e"
+    },
+    {
+      "id": "abb-37",
+      "kind": "figure",
+      "label": "Abbildung 37",
+      "number": 37,
+      "title": "Stage-Gate-Prozess nach Cooper",
+      "pdf_page": 109,
+      "printed_page": 99,
+      "bbox": [
+        65.5,
+        237.4,
+        488.9,
+        490.8
+      ],
+      "chapter": "06",
+      "section": "6.2",
+      "subsection": "6.2",
+      "files": {
+        "original": "figures/originals/abb-37.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1194,
+        721
+      ],
+      "sha256": "8a07d5c041ecc113f1d9eff1ea77900074128cfbdbb9371e9d89f690d31fcef1"
+    },
+    {
+      "id": "abb-38",
+      "kind": "figure",
+      "label": "Abbildung 38",
+      "number": 38,
+      "title": "Aufbau eines Gates",
+      "pdf_page": 110,
+      "printed_page": 100,
+      "bbox": [
+        66.5,
+        672.2,
+        523.9,
+        754.8
+      ],
+      "chapter": "06",
+      "section": "6.2",
+      "subsection": "6.2",
+      "files": {
+        "original": "figures/originals/abb-38.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "note": "Beschriftung steht am Kopf von PDF S. 111. Auf PDF S. 110 ist dieselbe Grafik weiter oben ein zweites Mal (unbeschriftet) abgedruckt.",
+      "pixels": [
+        1288,
+        247
+      ],
+      "sha256": "cdcb01452d09411fad4c0e470ae65fcd5d72c2f0a39977f85f3d0e7207846a1f"
+    },
+    {
+      "id": "abb-39",
+      "kind": "figure",
+      "label": "Abbildung 39",
+      "number": 39,
+      "title": "5-Step Prozess des Design Thinking",
+      "pdf_page": 112,
+      "printed_page": 102,
+      "bbox": [
+        67.4,
+        107.8,
+        520.1,
+        313.2
+      ],
+      "chapter": "06",
+      "section": "6.3",
+      "subsection": "6.3",
+      "files": {
+        "original": "figures/originals/abb-39.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        588
+      ],
+      "sha256": "2ba8e97307fed77f998224574307e303d5cbcbfbe16f2a7253d4c6b2cb83b5f5"
+    },
+    {
+      "id": "abb-40",
+      "kind": "figure",
+      "label": "Abbildung 40",
+      "number": 40,
+      "title": "Funktionen des Industrie Management",
+      "pdf_page": 117,
+      "printed_page": 107,
+      "bbox": [
+        67.9,
+        329.5,
+        517.7,
+        642.0
+      ],
+      "chapter": "07",
+      "section": "7.1",
+      "subsection": "7.1",
+      "files": {
+        "original": "figures/originals/abb-40.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1267,
+        886
+      ],
+      "sha256": "d7d4920631b379505a862dc0a6f7e67994b94aff806d2e010341fcd9e2a78a5e"
+    },
+    {
+      "id": "abb-41",
+      "kind": "figure",
+      "label": "Abbildung 41",
+      "number": 41,
+      "title": "Zusammenhang der Kenngrößen des Managements",
+      "pdf_page": 118,
+      "printed_page": 108,
+      "bbox": [
+        66.5,
+        437.5,
+        519.1,
+        683.3
+      ],
+      "chapter": "07",
+      "section": "7.1",
+      "subsection": "7.1",
+      "files": {
+        "original": "figures/originals/abb-41.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1275,
+        701
+      ],
+      "sha256": "ed786320b3c7ab812ae89af367022f2d1642d91c17db56fcb9ff4c082572e072"
+    },
+    {
+      "id": "abb-42",
+      "kind": "figure",
+      "label": "Abbildung 42",
+      "number": 42,
+      "title": "Das Konzept Integriertes Management (UE = Unternehmensumgebung)",
+      "pdf_page": 119,
+      "printed_page": 109,
+      "bbox": [
+        67.4,
+        351.1,
+        515.3,
+        700.1
+      ],
+      "chapter": "07",
+      "section": "7.2",
+      "subsection": "7.2",
+      "files": {
+        "original": "figures/originals/abb-42.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1262,
+        988
+      ],
+      "sha256": "17eda3e2d326a07343e8fae627209d5006b08e9a55ad1625fa1a96ea3658547e"
+    },
+    {
+      "id": "abb-43",
+      "kind": "figure",
+      "label": "Abbildung 43",
+      "number": 43,
+      "title": "Interne und externe Treiber für standortbezogene Reaktionen",
+      "pdf_page": 125,
+      "printed_page": 115,
+      "bbox": [
+        66.5,
+        241.2,
+        515.8,
+        511.4
+      ],
+      "chapter": "08",
+      "section": "8.1",
+      "subsection": "8.1.1",
+      "files": {
+        "original": "figures/originals/abb-43.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        768
+      ],
+      "sha256": "bd2c66641906546a4752448e34f95246f51663cd05d7a9eaaee21e0bf5edfdcc"
+    },
+    {
+      "id": "abb-44",
+      "kind": "figure",
+      "label": "Abbildung 44",
+      "number": 44,
+      "title": "Planungsgrundfälle nach Grundig",
+      "pdf_page": 127,
+      "printed_page": 117,
+      "bbox": [
+        67.9,
+        404.9,
+        517.7,
+        608.9
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2",
+      "files": {
+        "original": "figures/originals/abb-44.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1267,
+        584
+      ],
+      "sha256": "f5bb8653c48beaa7095a0734884c0785b6a2b86cb301b9e06f3cdc1f3dc992c6"
+    },
+    {
+      "id": "abb-45",
+      "kind": "figure",
+      "label": "Abbildung 45",
+      "number": 45,
+      "title": "Typologisierung von Produktionssystemen",
+      "pdf_page": 129,
+      "printed_page": 119,
+      "bbox": [
+        67.0,
+        251.8,
+        516.2,
+        511.4
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.1",
+      "files": {
+        "original": "figures/originals/abb-45.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        738
+      ],
+      "sha256": "fd5b36a231a581a2fb1a39dd5b377daee7e3b3b38a8fdcf9abc0fad1518f705f"
+    },
+    {
+      "id": "abb-46",
+      "kind": "figure",
+      "label": "Abbildung 46",
+      "number": 46,
+      "title": "Einordnung der Produktionsarten",
+      "pdf_page": 131,
+      "printed_page": 121,
+      "bbox": [
+        67.9,
+        69.4,
+        516.2,
+        317.0
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.1",
+      "files": {
+        "original": "figures/originals/abb-46.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1263,
+        705
+      ],
+      "sha256": "353b1b24690302ab415bd2d09797b2d2e6eee6a0849b57559d03287205749517"
+    },
+    {
+      "id": "abb-47",
+      "kind": "figure",
+      "label": "Abbildung 47",
+      "number": 47,
+      "title": "Punktfertigung",
+      "pdf_page": 131,
+      "printed_page": 121,
+      "bbox": [
+        67.4,
+        546.5,
+        516.7,
+        691.4
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.1",
+      "files": {
+        "original": "figures/originals/abb-47.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        420
+      ],
+      "sha256": "8222b53f0daf6966054b5270d20e2f68b454db3a943ff22d0276c712fd675ef6"
+    },
+    {
+      "id": "abb-48",
+      "kind": "figure",
+      "label": "Abbildung 48",
+      "number": 48,
+      "title": "Gruppenfertigung",
+      "pdf_page": 132,
+      "printed_page": 122,
+      "bbox": [
+        67.4,
+        257.0,
+        520.1,
+        484.1
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.1",
+      "files": {
+        "original": "figures/originals/abb-48.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        649
+      ],
+      "sha256": "b5249e8e67bb5d5a6ab833c673f13d360d1e7908458c92bd86a9e97ad565af31"
+    },
+    {
+      "id": "abb-49",
+      "kind": "figure",
+      "label": "Abbildung 49",
+      "number": 49,
+      "title": "Reihenfertigung",
+      "pdf_page": 133,
+      "printed_page": 123,
+      "bbox": [
+        68.4,
+        71.8,
+        517.2,
+        345.4
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.1",
+      "files": {
+        "original": "figures/originals/abb-49.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1264,
+        777
+      ],
+      "sha256": "b99c9a251cfad5a17ef4afca20642c9d61600590c502b1d93e1ff88d1e2a0e0f"
+    },
+    {
+      "id": "abb-50",
+      "kind": "figure",
+      "label": "Abbildung 50",
+      "number": 50,
+      "title": "Zusammenhang - Produktionsart & Fertigungsform",
+      "pdf_page": 134,
+      "printed_page": 124,
+      "bbox": [
+        67.4,
+        69.8,
+        521.0,
+        300.2
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.1",
+      "files": {
+        "original": "figures/originals/abb-50.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1278,
+        658
+      ],
+      "sha256": "7fa3c0370cf34c80b836ed55785ea4445b3843158e5c3b1484cec4dabc95d96a"
+    },
+    {
+      "id": "abb-51",
+      "kind": "figure",
+      "label": "Abbildung 51",
+      "number": 51,
+      "title": "Planungsvorgehen nach Grundig",
+      "pdf_page": 135,
+      "printed_page": 125,
+      "bbox": [
+        67.0,
+        71.8,
+        515.3,
+        142.3
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.2",
+      "files": {
+        "original": "figures/originals/abb-51.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1263,
+        213
+      ],
+      "sha256": "620b8f38d495a361595055b9590139f1fb93fdc4fc8097fbec60b59781a9cfd7"
+    },
+    {
+      "id": "abb-52",
+      "kind": "figure",
+      "label": "Abbildung 52",
+      "number": 52,
+      "title": "Auszug aus der Gliederung der Flächen",
+      "pdf_page": 137,
+      "printed_page": 127,
+      "bbox": [
+        67.0,
+        109.2,
+        514.8,
+        245.0
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.5.1",
+      "files": {
+        "original": "figures/originals/abb-52.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1262,
+        394
+      ],
+      "sha256": "03887d7855be7c2298df1b47712c4966936a03529af3c76107ab214e9e888173"
+    },
+    {
+      "id": "abb-53",
+      "kind": "figure",
+      "label": "Abbildung 53",
+      "number": 53,
+      "title": "Einschränkungen Realplanung",
+      "pdf_page": 139,
+      "printed_page": 129,
+      "bbox": [
+        67.9,
+        71.8,
+        516.2,
+        338.6
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.5.3",
+      "files": {
+        "original": "figures/originals/abb-53.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1263,
+        758
+      ],
+      "sha256": "5b15a563c91eb705d2252d91c9233f5b1c2527cacf8642405dbba9ec10e74404"
+    },
+    {
+      "id": "abb-54",
+      "kind": "figure",
+      "label": "Abbildung 54",
+      "number": 54,
+      "title": "Unterteilung Ausführungsphase",
+      "pdf_page": 141,
+      "printed_page": 131,
+      "bbox": [
+        68.4,
+        130.8,
+        517.2,
+        178.3
+      ],
+      "chapter": "08",
+      "section": "8.2",
+      "subsection": "8.2.7",
+      "files": {
+        "original": "figures/originals/abb-54.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1264,
+        149
+      ],
+      "sha256": "81af1df831ab2a02904332a34f9bb98be51ab5751e5c97105836faaa99c5f2af"
+    },
+    {
+      "id": "abb-55",
+      "kind": "figure",
+      "label": "Abbildung 55",
+      "number": 55,
+      "title": "Die SDGs der United Nations",
+      "pdf_page": 143,
+      "printed_page": 133,
+      "bbox": [
+        67.0,
+        297.4,
+        517.2,
+        658.8
+      ],
+      "chapter": "08",
+      "section": "8.3",
+      "subsection": "8.3.1",
+      "files": {
+        "original": "figures/originals/abb-55.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1268,
+        1022
+      ],
+      "sha256": "46b074f314d4789fcba0c986cbbb4b5f50b5a199b47d66118fe2fe37a80f0f76"
+    },
+    {
+      "id": "abb-56",
+      "kind": "figure",
+      "label": "Abbildung 56",
+      "number": 56,
+      "title": "Beispiele für das Spannungsfeld unternehmerischen Wirkens",
+      "pdf_page": 144,
+      "printed_page": 134,
+      "bbox": [
+        66.0,
+        297.4,
+        519.6,
+        526.3
+      ],
+      "chapter": "08",
+      "section": "8.3",
+      "subsection": "8.3.2",
+      "files": {
+        "original": "figures/originals/abb-56.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1277,
+        654
+      ],
+      "sha256": "6efbaeda65597691750e4619d4c092a28b6dbf75e61ea93421fb73eecfab6d19"
+    },
+    {
+      "id": "abb-57",
+      "kind": "figure",
+      "label": "Abbildung 57",
+      "number": 57,
+      "title": "Einfluss von Effizienz, Konsistenz und Suffizienz auf Aufwand und Ertrag",
+      "pdf_page": 148,
+      "printed_page": 138,
+      "bbox": [
+        60.5,
+        178.0,
+        522.5,
+        551.8
+      ],
+      "chapter": "08",
+      "section": "8.3",
+      "subsection": "8.3.3",
+      "files": {
+        "original": "figures/originals/abb-57.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "bbox_note": "Oberkante schloss das Fließtextende „zenten.“ (y≈164–176) ein – manuell darunter gesetzt.",
+      "pixels": [
+        1301,
+        1056
+      ],
+      "sha256": "e2649447ececef30c611ba94775ec03458e11852344db13bc01dde93d20de9f4"
+    },
+    {
+      "id": "abb-58",
+      "kind": "figure",
+      "label": "Abbildung 58",
+      "number": 58,
+      "title": "Möglichkeiten der Industrie zur Dekarbonisierung",
+      "pdf_page": 149,
+      "printed_page": 139,
+      "bbox": [
+        67.0,
+        131.3,
+        516.2,
+        305.0
+      ],
+      "chapter": "08",
+      "section": "8.3",
+      "subsection": "8.3.3",
+      "files": {
+        "original": "figures/originals/abb-58.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "note": "Beschriftung im Skript: \"Dekabonisierung\" (Tippfehler im Original, hier korrigiert).",
+      "pixels": [
+        1266,
+        500
+      ],
+      "sha256": "b4b9cfd2f193ab3e3af1580458f8a159c8d920b67873018666a4be14ffb6dca9"
+    },
+    {
+      "id": "abb-59",
+      "kind": "figure",
+      "label": "Abbildung 59",
+      "number": 59,
+      "title": "Maßnahmenhierarchie für Materialeffizienz",
+      "pdf_page": 151,
+      "printed_page": 141,
+      "bbox": [
+        68.4,
+        73.2,
+        517.2,
+        272.9
+      ],
+      "chapter": "08",
+      "section": "8.3",
+      "subsection": "8.3.3",
+      "files": {
+        "original": "figures/originals/abb-59.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1264,
+        572
+      ],
+      "sha256": "c7a693589b96f272aecd7f9e6927094535d86409f399ba1459ee9944e465fe92"
+    },
+    {
+      "id": "abb-60",
+      "kind": "figure",
+      "label": "Abbildung 60",
+      "number": 60,
+      "title": "Produktionsprogrammplanung",
+      "pdf_page": 158,
+      "printed_page": 148,
+      "bbox": [
+        66.5,
+        70.8,
+        519.6,
+        351.1
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1",
+      "files": {
+        "original": "figures/originals/abb-60.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        796
+      ],
+      "sha256": "fe0e2fa15e677a87d82af995bc329cc36cb430dac40959e9bc5bd889247b8dfa"
+    },
+    {
+      "id": "abb-61",
+      "kind": "figure",
+      "label": "Abbildung 61",
+      "number": 61,
+      "title": "Beispiele für eine Zeitreihenanalyse (a) und ein Kausalmodell (b)",
+      "pdf_page": 159,
+      "printed_page": 149,
+      "bbox": [
+        66.5,
+        514.8,
+        514.3,
+        688.1
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.1",
+      "files": {
+        "original": "figures/originals/abb-61.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1261,
+        499
+      ],
+      "sha256": "a7ae012da126d7cd974e6d6367a5f12a248c70dddf057f1942b6d23de23edcb9"
+    },
+    {
+      "id": "abb-62",
+      "kind": "figure",
+      "label": "Abbildung 62",
+      "number": 62,
+      "title": "Absatzplanung",
+      "pdf_page": 160,
+      "printed_page": 150,
+      "bbox": [
+        66.5,
+        337.7,
+        519.6,
+        406.3
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.1",
+      "files": {
+        "original": "figures/originals/abb-62.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        208
+      ],
+      "sha256": "b9e96ed7bd7682306ecd1af80adb275b2a75028a10a98ac1145e6fd94c892fab"
+    },
+    {
+      "id": "abb-63",
+      "kind": "figure",
+      "label": "Abbildung 63",
+      "number": 63,
+      "title": "Produktionsprogrammplanung",
+      "pdf_page": 161,
+      "printed_page": 151,
+      "bbox": [
+        67.9,
+        115.0,
+        516.2,
+        185.0
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.2",
+      "files": {
+        "original": "figures/originals/abb-63.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1263,
+        212
+      ],
+      "sha256": "8da5e3e20928e46527d3310c27730b64e591f1109f957547110ba0a0d157c51f"
+    },
+    {
+      "id": "abb-64",
+      "kind": "figure",
+      "label": "Abbildung 64",
+      "number": 64,
+      "title": "Produktfeld Beispiel",
+      "pdf_page": 162,
+      "printed_page": 152,
+      "bbox": [
+        65.5,
+        113.0,
+        515.8,
+        386.6
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.2",
+      "files": {
+        "original": "figures/originals/abb-64.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1269,
+        778
+      ],
+      "sha256": "a45e8e8692a042b3f42a9c8d874f23eb078a3e4404f7ad0dcbcd0ee42835529e"
+    },
+    {
+      "id": "abb-65",
+      "kind": "figure",
+      "label": "Abbildung 65",
+      "number": 65,
+      "title": "Beispiel einer Produktionsprogrammoptimierung",
+      "pdf_page": 164,
+      "printed_page": 154,
+      "bbox": [
+        66.0,
+        71.8,
+        519.1,
+        379.0
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.2",
+      "files": {
+        "original": "figures/originals/abb-65.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        871
+      ],
+      "sha256": "313f0a6dbe6305f6f175d0e8649a04bb528a01ed39cd02ff917085c64b524019"
+    },
+    {
+      "id": "abb-66",
+      "kind": "figure",
+      "label": "Abbildung 66",
+      "number": 66,
+      "title": "Gozintograph",
+      "pdf_page": 165,
+      "printed_page": 155,
+      "bbox": [
+        67.4,
+        199.9,
+        516.7,
+        502.8
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.3",
+      "files": {
+        "original": "figures/originals/abb-66.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        859
+      ],
+      "sha256": "1c1d26cedbb1e744a3c339f3aaea2bea026bd7b05381bccbfd1ff0e38475c9b2"
+    },
+    {
+      "id": "abb-67",
+      "kind": "figure",
+      "label": "Abbildung 67",
+      "number": 67,
+      "title": "Materialbedarfsplanung",
+      "pdf_page": 165,
+      "printed_page": 155,
+      "bbox": [
+        67.0,
+        614.2,
+        516.7,
+        695.8
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.3",
+      "files": {
+        "original": "figures/originals/abb-67.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1267,
+        245
+      ],
+      "sha256": "286a0bef68f1d76001193870485ff6ed923c04eae12a47686530804272686c1c"
+    },
+    {
+      "id": "abb-68",
+      "kind": "figure",
+      "label": "Abbildung 68",
+      "number": 68,
+      "title": "Materialklassen",
+      "pdf_page": 166,
+      "printed_page": 156,
+      "bbox": [
+        66.0,
+        121.2,
+        519.1,
+        335.3
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.3.1",
+      "files": {
+        "original": "figures/originals/abb-68.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1276,
+        612
+      ],
+      "sha256": "e67cbe7b77faff99d3b0c07817aafd9f6be4e5312206d49ec37a581b43074e3b"
+    },
+    {
+      "id": "abb-69",
+      "kind": "figure",
+      "label": "Abbildung 69",
+      "number": 69,
+      "title": "Materialbedarf",
+      "pdf_page": 167,
+      "printed_page": 157,
+      "bbox": [
+        67.4,
+        219.1,
+        516.7,
+        494.2
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.3.1",
+      "files": {
+        "original": "figures/originals/abb-69.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        782
+      ],
+      "sha256": "f30e23666c3489cb71e9fb12ff06fccc339e4703929b322b8e439a5e918d7b3e"
+    },
+    {
+      "id": "abb-70",
+      "kind": "figure",
+      "label": "Abbildung 70",
+      "number": 70,
+      "title": "ABC Analyse",
+      "pdf_page": 169,
+      "printed_page": 159,
+      "bbox": [
+        67.9,
+        74.2,
+        517.7,
+        346.8
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.4",
+      "files": {
+        "original": "figures/originals/abb-70.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1267,
+        775
+      ],
+      "sha256": "a4df0730c71b805768eba1bf5eb6cf14aa68e230186337c155057034102c9455"
+    },
+    {
+      "id": "abb-71",
+      "kind": "figure",
+      "label": "Abbildung 71",
+      "number": 71,
+      "title": "Zeit- und Kapazitätsplanung",
+      "pdf_page": 170,
+      "printed_page": 160,
+      "bbox": [
+        66.0,
+        113.5,
+        517.7,
+        194.2
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.5",
+      "files": {
+        "original": "figures/originals/abb-71.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1272,
+        242
+      ],
+      "sha256": "bdce2e2585ecf2e32fd54c68342900bc00274e2ed889ae58c01c77e96ee78ee7"
+    },
+    {
+      "id": "abb-72",
+      "kind": "figure",
+      "label": "Abbildung 72",
+      "number": 72,
+      "title": "Planungsabhängigkeiten",
+      "pdf_page": 171,
+      "printed_page": 161,
+      "bbox": [
+        67.9,
+        74.2,
+        516.7,
+        330.5
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.5.1",
+      "files": {
+        "original": "figures/originals/abb-72.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1264,
+        730
+      ],
+      "sha256": "7a085af7c023c861e31bd7731733fa2e865937a99de2e9a698155e40e94b0d25"
+    },
+    {
+      "id": "abb-73",
+      "kind": "figure",
+      "label": "Abbildung 73",
+      "number": 73,
+      "title": "Kapazitätsplanung",
+      "pdf_page": 172,
+      "printed_page": 162,
+      "bbox": [
+        65.0,
+        363.6,
+        519.1,
+        733.7
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.6",
+      "files": {
+        "original": "figures/originals/abb-73.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1279,
+        1046
+      ],
+      "sha256": "02d44c03a24ecff5462693393a82078c7f383ef3cbb90c484765b02605a3d37d"
+    },
+    {
+      "id": "abb-74",
+      "kind": "figure",
+      "label": "Abbildung 74",
+      "number": 74,
+      "title": "Gesamtanlageneffektivität",
+      "pdf_page": 173,
+      "printed_page": 163,
+      "bbox": [
+        67.4,
+        319.0,
+        516.7,
+        527.3
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.7",
+      "files": {
+        "original": "figures/originals/abb-74.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1266,
+        597
+      ],
+      "sha256": "4b265f99535fe8bf602534485a607a5350326c796d1ffafe21ca0973112d0a3d"
+    },
+    {
+      "id": "abb-75",
+      "kind": "figure",
+      "label": "Abbildung 75",
+      "number": 75,
+      "title": "Enterprise resource planning",
+      "pdf_page": 174,
+      "printed_page": 164,
+      "bbox": [
+        65.5,
+        114.0,
+        517.7,
+        313.7
+      ],
+      "chapter": "09",
+      "section": "9.1",
+      "subsection": "9.1.8",
+      "files": {
+        "original": "figures/originals/abb-75.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1274,
+        572
+      ],
+      "sha256": "bf468ffbe5845a42af7cc5a34405c2346d54d0418136268a1dfad9da5857b7a5"
+    },
+    {
+      "id": "abb-76",
+      "kind": "figure",
+      "label": "Abbildung 76",
+      "number": 76,
+      "title": "Planung und Steuerung über die Zeit",
+      "pdf_page": 175,
+      "printed_page": 165,
+      "bbox": [
+        67.9,
+        74.2,
+        517.2,
+        355.0
+      ],
+      "chapter": "09",
+      "section": "9.2",
+      "subsection": "9.2",
+      "files": {
+        "original": "figures/originals/abb-76.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1265,
+        798
+      ],
+      "sha256": "7f39406e86deb8e67def29289f76f66e4be3c36d3b70bb530390a090d8611a9d"
+    },
+    {
+      "id": "abb-77",
+      "kind": "figure",
+      "label": "Abbildung 77",
+      "number": 77,
+      "title": "Produktionssteuerung",
+      "pdf_page": 176,
+      "printed_page": 166,
+      "bbox": [
+        65.5,
+        72.2,
+        518.2,
+        354.0
+      ],
+      "chapter": "09",
+      "section": "9.2",
+      "subsection": "9.2",
+      "files": {
+        "original": "figures/originals/abb-77.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1275,
+        800
+      ],
+      "sha256": "12c2ebd7bf43feeff56ef1d4032334f6d4fac3c654766264c318d12e006b2be7"
+    },
+    {
+      "id": "abb-78",
+      "kind": "figure",
+      "label": "Abbildung 78",
+      "number": 78,
+      "title": "Produktionsregelkreis",
+      "pdf_page": 176,
+      "printed_page": 166,
+      "bbox": [
+        64.6,
+        465.4,
+        518.2,
+        729.8
+      ],
+      "chapter": "09",
+      "section": "9.2",
+      "subsection": "9.2",
+      "files": {
+        "original": "figures/originals/abb-78.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1277,
+        752
+      ],
+      "sha256": "eeef4398aa86a7339e5dd9f99ffa4214418f968757e30d637c6df2b6f623d747"
+    },
+    {
+      "id": "tab-06",
+      "kind": "table",
+      "label": "Tabelle 6",
+      "number": 6,
+      "title": "Beispiel Hauptbetriebsdaten",
+      "pdf_page": 177,
+      "printed_page": 167,
+      "bbox": [
+        69.8,
+        506.6,
+        517.7,
+        731.3
+      ],
+      "chapter": "09",
+      "section": "9.2",
+      "subsection": "9.2.1",
+      "files": {
+        "original": "figures/originals/tab-06.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1262,
+        642
+      ],
+      "sha256": "a9a1355adce7e364fd4307e3b43308ab15b9e937c537856cc8d89aae51920c6c"
+    },
+    {
+      "id": "abb-79",
+      "kind": "figure",
+      "label": "Abbildung 79",
+      "number": 79,
+      "title": "Dilemma der Ablaufplanung",
+      "pdf_page": 178,
+      "printed_page": 168,
+      "bbox": [
+        66.5,
+        252.2,
+        518.6,
+        393.8
+      ],
+      "chapter": "09",
+      "section": "9.2",
+      "subsection": "9.2.2",
+      "files": {
+        "original": "figures/originals/abb-79.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1273,
+        411
+      ],
+      "sha256": "a05efcc645aff7f8a60c3d3f5f30ae8272b84828eb5b3d90f171f690976ba4f1"
+    },
+    {
+      "id": "abb-80",
+      "kind": "figure",
+      "label": "Abbildung 80",
+      "number": 80,
+      "title": "Dilemma der Ablaufplanung am Bsp. der Maschinenauslastung und Bestand",
+      "pdf_page": 178,
+      "printed_page": 168,
+      "bbox": [
+        65.5,
+        544.1,
+        519.1,
+        647.8
+      ],
+      "chapter": "09",
+      "section": "9.2",
+      "subsection": "9.2.2",
+      "files": {
+        "original": "figures/originals/abb-80.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1278,
+        305
+      ],
+      "sha256": "79ce495cbcf87759f3ffac929201b3f5e3458434275d39811598ef4419daa276"
+    },
+    {
+      "id": "abb-81",
+      "kind": "figure",
+      "label": "Abbildung 81",
+      "number": 81,
+      "title": "Dilemma der Ablaufplanung am Bsp. der Erhöhung der Kapazitätsauslastung",
+      "pdf_page": 179,
+      "printed_page": 169,
+      "bbox": [
+        67.4,
+        359.3,
+        516.2,
+        521.5
+      ],
+      "chapter": "09",
+      "section": "9.2",
+      "subsection": "9.2.2",
+      "files": {
+        "original": "figures/originals/abb-81.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "note": "Die Grafik ist oben auf derselben Seite (PDF S. 179) ein zweites Mal unbeschriftet abgedruckt (Duplikat, nicht separat extrahiert).",
+      "pixels": [
+        1265,
+        468
+      ],
+      "sha256": "ff564177f0c3f322985604683c312b02effbf160718d4252c6971117218be7f9"
+    },
+    {
+      "id": "abb-82",
+      "kind": "figure",
+      "label": "Abbildung 82",
+      "number": 82,
+      "title": "Visualisierung des Dilemmas der Ablaufplanung mit Produktionskennlinien",
+      "pdf_page": 180,
+      "printed_page": 170,
+      "bbox": [
+        66.0,
+        72.2,
+        519.1,
+        296.9
+      ],
+      "chapter": "09",
+      "section": "9.2",
+      "subsection": "9.2.2",
+      "files": {
+        "original": "figures/originals/abb-82.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "bbox_note": "Linke Kante durch ein Streuzeichen der OCR (x≈14) verfälscht – manuell auf den Satzspiegel begrenzt.",
+      "pixels": [
+        1276,
+        642
+      ],
+      "sha256": "e5cdfae77811c1d2db36431692ab605df2e9edd84697dfdb7e066fc367eb656a"
+    },
+    {
+      "id": "abb-83",
+      "kind": "figure",
+      "label": "Abbildung 83",
+      "number": 83,
+      "title": "Ausgewählte KPIs im operativen Produktionsmanagement",
+      "pdf_page": 182,
+      "printed_page": 172,
+      "bbox": [
+        66.0,
+        190.3,
+        517.2,
+        279.1
+      ],
+      "chapter": "09",
+      "section": "9.3",
+      "subsection": "9.3",
+      "files": {
+        "original": "figures/originals/abb-83.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1270,
+        264
+      ],
+      "sha256": "ff89d16a79ba2b656e76c329fdc84f0291900b4a7e234d572ecf032de6fda711"
+    },
+    {
+      "id": "abb-84",
+      "kind": "figure",
+      "label": "Abbildung 84",
+      "number": 84,
+      "title": "Dimensionen der Produktqualität",
+      "pdf_page": 182,
+      "printed_page": 172,
+      "bbox": [
+        65.0,
+        453.8,
+        516.2,
+        666.0
+      ],
+      "chapter": "09",
+      "section": "9.3",
+      "subsection": "9.3.1",
+      "files": {
+        "original": "figures/originals/abb-84.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1271,
+        607
+      ],
+      "sha256": "8e90618493fa863cb1bcfb0a3fcf6e0dd251ede0c6e65c0dffb257dc035e381b"
+    },
+    {
+      "id": "abb-85",
+      "kind": "figure",
+      "label": "Abbildung 85",
+      "number": 85,
+      "title": "Entkopplungspunkte",
+      "pdf_page": 186,
+      "printed_page": 176,
+      "bbox": [
+        70.3,
+        72.2,
+        523.4,
+        334.3
+      ],
+      "chapter": "09",
+      "section": "9.3",
+      "subsection": "9.3.2",
+      "files": {
+        "original": "figures/originals/abb-85.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1277,
+        745
+      ],
+      "sha256": "58664c3ab963dc10c9a65dcf74cef0ab2d62482899e3779a1fe40ab7886938a8"
+    },
+    {
+      "id": "tab-07",
+      "kind": "table",
+      "label": "Tabelle 7",
+      "number": 7,
+      "title": "Arten der Flexibilität",
+      "pdf_page": 187,
+      "printed_page": 177,
+      "bbox": [
+        66.5,
+        132.2,
+        514.8,
+        319.0
+      ],
+      "chapter": "09",
+      "section": "9.3",
+      "subsection": "9.3.4",
+      "files": {
+        "original": "figures/originals/tab-07.png",
+        "reconstructed": null,
+        "exercise": null,
+        "drawing_guide": null,
+        "metadata": null
+      },
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [
+        1263,
+        537
+      ],
+      "sha256": "9ab3873b9582de5048ac92eb75156240475d9a0fd626b4fdd3c237cc73dc10ab"
+    }
+  ],
+  "duplicates_not_extracted": [
+    {
+      "pdf_page": 107,
+      "bbox": [
+        67.9,
+        117.8,
+        516.7,
+        344.9
+      ],
+      "duplicate_of": "abb-36"
+    },
+    {
+      "pdf_page": 110,
+      "bbox": [
+        67.0,
+        527.8,
+        523.9,
+        610.3
+      ],
+      "duplicate_of": "abb-38"
+    },
+    {
+      "pdf_page": 179,
+      "bbox": [
+        67.9,
+        74.2,
+        516.2,
+        236.9
+      ],
+      "duplicate_of": "abb-81"
+    }
+  ]
+}

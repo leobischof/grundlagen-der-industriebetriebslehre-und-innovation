@@ -1,0 +1,638 @@
+# Kanonische Liste aller Abbildungen, Tabellen und Formelkästen des Skripts (Single Source of Truth).
+#
+# Entstehung: `python -m pipeline detect-figures` schlägt Bildregionen vor
+# (pipeline/layout.py, deterministisch). Jeder Vorschlag wurde auf Kontaktbögen
+# geprüft; die Beschriftungen wurden aus kontrastverstärkten Beschriftungsstreifen
+# gelesen (ein Vision-Durchgang über 4 Streifenbögen, protokolliert in
+# curation/ai-log.jsonl) und werden bei jedem Lauf per Tesseract gegengeprüft
+# (`python -m pipeline captions`).
+#
+# bbox: [x0, y0, x1, y1] in PDF-Punkten, *visuelle* Seitenkoordinaten (Seite
+#       aufrecht, Ursprung oben links). Umfasst nur die Grafik, nicht die Beschriftung.
+# kind: figure (Abbildung) | table (Tabelle) | formula (Formelkasten)
+# id:   abb-NN (Abbildung NN) · tab-NN (Tabelle NN) · formel-* · abb-u<Seite> (unbeschriftet)
+# Ausführliche Metadaten je Abbildung (Achsen, Elemente, Beziehungen, Prüfungsrelevanz …)
+# stehen in curation/figures/<id>.yaml; diese Datei verortet die Abbildung nur.
+
+figures:
+- id: abb-01
+  kind: figure
+  number: 1
+  title: Historische Entwicklung innerhalb der Industrie
+  pdf_page: 14
+  bbox: [67.4, 233.4, 520.6, 511.9]
+- id: abb-02
+  kind: figure
+  number: 2
+  title: Mögliche Elemente eines Betriebs der Industrie 4.0
+  pdf_page: 16
+  bbox: [73.2, 62.6, 520.6, 323.3]
+- id: tab-01
+  kind: table
+  number: 1
+  title: Unselbständig Beschäftigte in Österreich
+  pdf_page: 17
+  bbox: [130.8, 176.4, 455.8, 301.2]
+- id: tab-02
+  kind: table
+  number: 2
+  title: Prozentualer Anteil der Sektoren an der Gesamtwertschöpfung im Jahr 2023
+  pdf_page: 18
+  bbox: [107.3, 62.6, 479.3, 420.7]
+  note: Tabellen 2 und 3 tragen im Skript wortgleiche Beschriftungen.
+- id: tab-03
+  kind: table
+  number: 3
+  title: Prozentualer Anteil der Sektoren an der Gesamtwertschöpfung im Jahr 2023
+  pdf_page: 19
+  bbox: [67.0, 288.7, 512.9, 417.4]
+  note: 'Beschriftung im Skript wortgleich mit Tabelle 2 (vermutlich Kopierfehler im Skript); Inhalt laut Tabelle: Beschäftigte nach Unternehmensgröße.'
+- id: abb-03
+  kind: figure
+  number: 3
+  title: Entwicklungen des %-Anteils der Beschäftigten an der Gesamtbevölkerung sowie des %-Anteils der Industriebeschäftigten an den Gesamtbeschäftigten in Österreich
+  pdf_page: 22
+  bbox: [73.7, 104.4, 526.3, 323.8]
+- id: abb-04
+  kind: figure
+  number: 4
+  title: Alterspyramide Österreichs (Stand 2021)
+  pdf_page: 26
+  bbox: [67.4, 181.2, 522.0, 490.8]
+- id: abb-05
+  kind: figure
+  number: 5
+  title: Drei generische Strategien, die Unternehmen verfolgen können
+  pdf_page: 32
+  bbox: [67.4, 176.4, 520.6, 434.6]
+- id: abb-06
+  kind: figure
+  number: 6
+  title: Die innovativsten Unternehmen 2022
+  pdf_page: 33
+  bbox: [60, 110.0, 530, 480.5]
+  bbox_source: detected+manual
+  bbox_note: Oberkante schloss eine Fließtextzeile (y≈95–107) ein – manuell unter die Zeile gesetzt.
+- id: abb-07
+  kind: figure
+  number: 7
+  title: Typischen Merkmale einer Innovation
+  pdf_page: 36
+  bbox: [67.9, 309.4, 521.0, 490.3]
+- id: abb-08
+  kind: figure
+  number: 8
+  title: Produktlebenszyklus
+  pdf_page: 41
+  bbox: [67.0, 62.6, 516.2, 358.8]
+- id: abb-09
+  kind: figure
+  number: 9
+  title: Kategorien neuer Produkte
+  pdf_page: 43
+  bbox: [67.9, 62.6, 517.2, 365.5]
+- id: abb-10
+  kind: figure
+  number: 10
+  title: Portfolio Management für neue Produkte
+  pdf_page: 46
+  bbox: [69.8, 107.3, 520.6, 319.4]
+- id: abb-11
+  kind: figure
+  number: 11
+  title: Ansoff Matrix
+  pdf_page: 48
+  bbox: [73.7, 66.5, 526.3, 255.1]
+- id: abb-12
+  kind: figure
+  number: 12
+  title: Industriebetriebe im System der Wirtschaftseinheiten
+  pdf_page: 57
+  bbox: [66.5, 468.2, 515.8, 638.6]
+- id: abb-13
+  kind: figure
+  number: 13
+  title: Abgrenzung zwischen Industrie- und Dienstleistungsbetrieb
+  pdf_page: 59
+  bbox: [69.4, 103.4, 517.7, 277.2]
+- id: abb-14
+  kind: figure
+  number: 14
+  title: Abgrenzung zwischen Industriebetrieben und Werkstätten
+  pdf_page: 59
+  bbox: [68.4, 309.8, 517.7, 583.9]
+- id: abb-15
+  kind: figure
+  number: 15
+  title: Industriebetrieb als Arbeitssystem
+  pdf_page: 60
+  bbox: [67.4, 67.0, 520.1, 300.2]
+- id: formel-produktivitaet
+  kind: formula
+  number: null
+  title: Produktivität
+  pdf_page: 61
+  bbox: [170.2, 153.4, 401.0, 209.5]
+  latex: \text{Produktivität} = \frac{\text{Mengenmäßiger Output}}{\text{Mengenmäßiger Input}}
+- id: formel-spezifischer-mitteleinsatz
+  kind: formula
+  number: null
+  title: Spezifischer Mitteleinsatz
+  pdf_page: 61
+  bbox: [142.3, 279.6, 430.8, 331.9]
+  latex: \text{Spezifischer Mitteleinsatz} = \frac{\text{Mengenmäßiger Input}}{\text{Mengenmäßiger Output}}
+- id: formel-wirtschaftlichkeit
+  kind: formula
+  number: null
+  title: Wirtschaftlichkeit
+  pdf_page: 61
+  bbox: [163.9, 438.5, 408.2, 487.0]
+  latex: \text{Wirtschaftlichkeit} = \frac{\text{Leistungsbedingte Erlöse}}{\text{Kosten}}
+- id: formel-spezifische-kosten
+  kind: formula
+  number: null
+  title: Spezifische Kosten
+  pdf_page: 61
+  bbox: [154.3, 576.2, 410.2, 624.7]
+  latex: \text{Spezifische Kosten} = \frac{\text{Kosten}}{\text{Mengenmäßiger Output}}
+- id: formel-rentabilitaet
+  kind: formula
+  number: null
+  title: Rentabilität
+  pdf_page: 62
+  bbox: [161.0, 169.7, 363.6, 217.7]
+  latex: \text{Rentabilität} = \frac{\text{Gewinn}}{\text{Kapital bzw. Umsatz}}
+- id: formel-liquiditaet
+  kind: formula
+  number: null
+  title: Liquidität
+  pdf_page: 62
+  bbox: [199.0, 375.1, 386.2, 422.6]
+  latex: \text{Liquidität} = \frac{\text{Verfügbare Mittel}}{\text{Verpflichtungen}}
+- id: abb-16
+  kind: figure
+  number: 16
+  title: Der Produktionsprozess
+  pdf_page: 63
+  bbox: [67.4, 321.4, 515.8, 537.4]
+- id: abb-17
+  kind: figure
+  number: 17
+  title: Elemente des Produktionsprozesses
+  pdf_page: 64
+  bbox: [73.7, 350.2, 526.8, 527.8]
+- id: abb-18
+  kind: figure
+  number: 18
+  title: Abgrenzung des Industrie Management im Kontext der Wirtschaftseinheiten
+  pdf_page: 65
+  bbox: [66.5, 399.1, 515.8, 586.3]
+- id: tab-04
+  kind: table
+  number: 4
+  title: Kriterien für Innovationsstrategien
+  pdf_page: 72
+  bbox: [83.3, 263.8, 510.5, 638.0]
+  bbox_source: detected+manual
+  bbox_note: Unterkante über die Beschriftung (y≈647) hinaus erkannt – manuell auf die Tabelle begrenzt.
+- id: abb-19
+  kind: figure
+  number: 19
+  title: Auswirkung von Innovationsbarrieren
+  pdf_page: 74
+  bbox: [84.2, 183.1, 510.5, 446.2]
+- id: tab-05
+  kind: table
+  number: 5
+  title: Unterschiede zwischen SME und IDE Entrepreneurship
+  pdf_page: 77
+  bbox: [64.0, 272.0, 530.0, 627.0]
+  bbox_source: manual
+  note: Tabelle ohne Linien – von der Grafikerkennung nicht gefunden, Ausschnitt manuell gesetzt.
+- id: abb-20
+  kind: figure
+  number: 20
+  title: Vergleich zwischen SME- und IDE-Entrepreneurship
+  pdf_page: 78
+  bbox: [69.4, 71.3, 520.6, 252.7]
+  note: Der Fließtext verweist für dieselbe Gegenüberstellung auf Tabelle 5 (PDF S. 77).
+- id: abb-21
+  kind: figure
+  number: 21
+  title: Richtungen des Entrepreneurship
+  pdf_page: 78
+  bbox: [67.4, 338.6, 521.0, 638.6]
+- id: abb-22
+  kind: figure
+  number: 22
+  title: Entrepreneurship-Prozess
+  pdf_page: 79
+  bbox: [67.4, 151.9, 516.2, 355.4]
+- id: abb-23
+  kind: figure
+  number: 23
+  title: Geschichte der Produktentstehung
+  pdf_page: 85
+  bbox: [69.4, 406.3, 518.6, 641.0]
+- id: abb-24
+  kind: figure
+  number: 24
+  title: Produktentstehung als Teil des Produktlebenszyklus
+  pdf_page: 86
+  bbox: [68.4, 337.7, 521.5, 559.9]
+- id: abb-25
+  kind: figure
+  number: 25
+  title: Zielsystem, Handlungssystem und Sachsystem
+  pdf_page: 87
+  bbox: [67.9, 333.4, 517.2, 549.8]
+- id: abb-26
+  kind: figure
+  number: 26
+  title: Integrierte Produktentstehung 2013
+  pdf_page: 90
+  bbox: [67.9, 71.3, 521.5, 595.9]
+- id: abb-27
+  kind: figure
+  number: 27
+  title: Festgelegte und verursachte Kosten in der Produktentstehung
+  pdf_page: 91
+  bbox: [68.4, 66.5, 519.1, 387.1]
+- id: abb-28
+  kind: figure
+  number: 28
+  title: Arten der Integration
+  pdf_page: 93
+  bbox: [70.8, 62.6, 511.0, 374.2]
+- id: abb-29
+  kind: figure
+  number: 29
+  title: Magisches Dreieck der Produktentstehung
+  pdf_page: 94
+  bbox: [68.9, 65.0, 519.1, 289.2]
+- id: abb-30
+  kind: figure
+  number: 30
+  title: Systematik des Simultaneous Engineering
+  pdf_page: 95
+  bbox: [68.9, 62.6, 516.7, 280.1]
+- id: abb-31
+  kind: figure
+  number: 31
+  title: Point-based Serial Engineering
+  pdf_page: 96
+  bbox: [71.3, 304.6, 523.9, 377.0]
+- id: abb-32
+  kind: figure
+  number: 32
+  title: Point-based Concurrent Engineering
+  pdf_page: 97
+  bbox: [70.8, 62.6, 520.1, 222.0]
+- id: abb-33
+  kind: figure
+  number: 33
+  title: Set-based Concurrent Engineering
+  pdf_page: 98
+  bbox: [67.4, 65.5, 520.1, 284.4]
+- id: abb-34
+  kind: figure
+  number: 34
+  title: Rahmenstruktur-Konzept für integrierte Produkt- und Prozessgestaltung nach EVERSHEIM/SCHUH/ASSMUS
+  pdf_page: 99
+  bbox: [73.7, 286.8, 522.5, 517.2]
+- id: abb-35
+  kind: figure
+  number: 35
+  title: Integrationsbereiche der Themen Innovationsprozess & Produktentwicklung
+  pdf_page: 103
+  bbox: [76.6, 62.6, 524.9, 319.0]
+- id: abb-36
+  kind: figure
+  number: 36
+  title: Innovationsprozess von Thom
+  pdf_page: 108
+  bbox: [67.9, 65.5, 520.1, 292.6]
+  note: Die Grafik ist zusätzlich unbeschriftet auf PDF S. 107 abgedruckt (Duplikat, nicht separat extrahiert).
+- id: abb-37
+  kind: figure
+  number: 37
+  title: Stage-Gate-Prozess nach Cooper
+  pdf_page: 109
+  bbox: [65.5, 237.4, 488.9, 490.8]
+- id: abb-38
+  kind: figure
+  number: 38
+  title: Aufbau eines Gates
+  pdf_page: 110
+  bbox: [66.5, 672.2, 523.9, 754.8]
+  note: Beschriftung steht am Kopf von PDF S. 111. Auf PDF S. 110 ist dieselbe Grafik weiter oben ein zweites Mal (unbeschriftet) abgedruckt.
+- id: abb-39
+  kind: figure
+  number: 39
+  title: 5-Step Prozess des Design Thinking
+  pdf_page: 112
+  bbox: [67.4, 107.8, 520.1, 313.2]
+- id: abb-40
+  kind: figure
+  number: 40
+  title: Funktionen des Industrie Management
+  pdf_page: 117
+  bbox: [67.9, 329.5, 517.7, 642.0]
+- id: abb-41
+  kind: figure
+  number: 41
+  title: Zusammenhang der Kenngrößen des Managements
+  pdf_page: 118
+  bbox: [66.5, 437.5, 519.1, 683.3]
+- id: abb-42
+  kind: figure
+  number: 42
+  title: Das Konzept Integriertes Management (UE = Unternehmensumgebung)
+  pdf_page: 119
+  bbox: [67.4, 351.1, 515.3, 700.1]
+- id: abb-43
+  kind: figure
+  number: 43
+  title: Interne und externe Treiber für standortbezogene Reaktionen
+  pdf_page: 125
+  bbox: [66.5, 241.2, 515.8, 511.4]
+- id: abb-44
+  kind: figure
+  number: 44
+  title: Planungsgrundfälle nach Grundig
+  pdf_page: 127
+  bbox: [67.9, 404.9, 517.7, 608.9]
+- id: abb-45
+  kind: figure
+  number: 45
+  title: Typologisierung von Produktionssystemen
+  pdf_page: 129
+  bbox: [67.0, 251.8, 516.2, 511.4]
+- id: abb-46
+  kind: figure
+  number: 46
+  title: Einordnung der Produktionsarten
+  pdf_page: 131
+  bbox: [67.9, 69.4, 516.2, 317.0]
+- id: abb-47
+  kind: figure
+  number: 47
+  title: Punktfertigung
+  pdf_page: 131
+  bbox: [67.4, 546.5, 516.7, 691.4]
+- id: abb-48
+  kind: figure
+  number: 48
+  title: Gruppenfertigung
+  pdf_page: 132
+  bbox: [67.4, 257.0, 520.1, 484.1]
+- id: abb-49
+  kind: figure
+  number: 49
+  title: Reihenfertigung
+  pdf_page: 133
+  bbox: [68.4, 71.8, 517.2, 345.4]
+- id: abb-50
+  kind: figure
+  number: 50
+  title: Zusammenhang - Produktionsart & Fertigungsform
+  pdf_page: 134
+  bbox: [67.4, 69.8, 521.0, 300.2]
+- id: abb-51
+  kind: figure
+  number: 51
+  title: Planungsvorgehen nach Grundig
+  pdf_page: 135
+  bbox: [67.0, 71.8, 515.3, 142.3]
+- id: abb-52
+  kind: figure
+  number: 52
+  title: Auszug aus der Gliederung der Flächen
+  pdf_page: 137
+  bbox: [67.0, 109.2, 514.8, 245.0]
+- id: abb-53
+  kind: figure
+  number: 53
+  title: Einschränkungen Realplanung
+  pdf_page: 139
+  bbox: [67.9, 71.8, 516.2, 338.6]
+- id: abb-54
+  kind: figure
+  number: 54
+  title: Unterteilung Ausführungsphase
+  pdf_page: 141
+  bbox: [68.4, 130.8, 517.2, 178.3]
+- id: abb-55
+  kind: figure
+  number: 55
+  title: Die SDGs der United Nations
+  pdf_page: 143
+  bbox: [67.0, 297.4, 517.2, 658.8]
+- id: abb-56
+  kind: figure
+  number: 56
+  title: Beispiele für das Spannungsfeld unternehmerischen Wirkens
+  pdf_page: 144
+  bbox: [66.0, 297.4, 519.6, 526.3]
+- id: abb-57
+  kind: figure
+  number: 57
+  title: Einfluss von Effizienz, Konsistenz und Suffizienz auf Aufwand und Ertrag
+  pdf_page: 148
+  bbox: [60.5, 178.0, 522.5, 551.8]
+  bbox_source: detected+manual
+  bbox_note: Oberkante schloss das Fließtextende „zenten.“ (y≈164–176) ein – manuell darunter gesetzt.
+- id: abb-58
+  kind: figure
+  number: 58
+  title: Möglichkeiten der Industrie zur Dekarbonisierung
+  pdf_page: 149
+  bbox: [67.0, 131.3, 516.2, 305.0]
+  note: 'Beschriftung im Skript: "Dekabonisierung" (Tippfehler im Original, hier korrigiert).'
+- id: abb-59
+  kind: figure
+  number: 59
+  title: Maßnahmenhierarchie für Materialeffizienz
+  pdf_page: 151
+  bbox: [68.4, 73.2, 517.2, 272.9]
+- id: abb-60
+  kind: figure
+  number: 60
+  title: Produktionsprogrammplanung
+  pdf_page: 158
+  bbox: [66.5, 70.8, 519.6, 351.1]
+- id: abb-61
+  kind: figure
+  number: 61
+  title: Beispiele für eine Zeitreihenanalyse (a) und ein Kausalmodell (b)
+  pdf_page: 159
+  bbox: [66.5, 514.8, 514.3, 688.1]
+- id: abb-62
+  kind: figure
+  number: 62
+  title: Absatzplanung
+  pdf_page: 160
+  bbox: [66.5, 337.7, 519.6, 406.3]
+- id: abb-63
+  kind: figure
+  number: 63
+  title: Produktionsprogrammplanung
+  pdf_page: 161
+  bbox: [67.9, 115.0, 516.2, 185.0]
+- id: abb-64
+  kind: figure
+  number: 64
+  title: Produktfeld Beispiel
+  pdf_page: 162
+  bbox: [65.5, 113.0, 515.8, 386.6]
+- id: abb-65
+  kind: figure
+  number: 65
+  title: Beispiel einer Produktionsprogrammoptimierung
+  pdf_page: 164
+  bbox: [66.0, 71.8, 519.1, 379.0]
+- id: abb-66
+  kind: figure
+  number: 66
+  title: Gozintograph
+  pdf_page: 165
+  bbox: [67.4, 199.9, 516.7, 502.8]
+- id: abb-67
+  kind: figure
+  number: 67
+  title: Materialbedarfsplanung
+  pdf_page: 165
+  bbox: [67.0, 614.2, 516.7, 695.8]
+- id: abb-68
+  kind: figure
+  number: 68
+  title: Materialklassen
+  pdf_page: 166
+  bbox: [66.0, 121.2, 519.1, 335.3]
+- id: abb-69
+  kind: figure
+  number: 69
+  title: Materialbedarf
+  pdf_page: 167
+  bbox: [67.4, 219.1, 516.7, 494.2]
+- id: abb-70
+  kind: figure
+  number: 70
+  title: ABC Analyse
+  pdf_page: 169
+  bbox: [67.9, 74.2, 517.7, 346.8]
+- id: abb-71
+  kind: figure
+  number: 71
+  title: Zeit- und Kapazitätsplanung
+  pdf_page: 170
+  bbox: [66.0, 113.5, 517.7, 194.2]
+- id: abb-72
+  kind: figure
+  number: 72
+  title: Planungsabhängigkeiten
+  pdf_page: 171
+  bbox: [67.9, 74.2, 516.7, 330.5]
+- id: abb-73
+  kind: figure
+  number: 73
+  title: Kapazitätsplanung
+  pdf_page: 172
+  bbox: [65.0, 363.6, 519.1, 733.7]
+- id: abb-74
+  kind: figure
+  number: 74
+  title: Gesamtanlageneffektivität
+  pdf_page: 173
+  bbox: [67.4, 319.0, 516.7, 527.3]
+- id: abb-75
+  kind: figure
+  number: 75
+  title: Enterprise resource planning
+  pdf_page: 174
+  bbox: [65.5, 114.0, 517.7, 313.7]
+- id: abb-76
+  kind: figure
+  number: 76
+  title: Planung und Steuerung über die Zeit
+  pdf_page: 175
+  bbox: [67.9, 74.2, 517.2, 355.0]
+- id: abb-77
+  kind: figure
+  number: 77
+  title: Produktionssteuerung
+  pdf_page: 176
+  bbox: [65.5, 72.2, 518.2, 354.0]
+- id: abb-78
+  kind: figure
+  number: 78
+  title: Produktionsregelkreis
+  pdf_page: 176
+  bbox: [64.6, 465.4, 518.2, 729.8]
+- id: tab-06
+  kind: table
+  number: 6
+  title: Beispiel Hauptbetriebsdaten
+  pdf_page: 177
+  bbox: [69.8, 506.6, 517.7, 731.3]
+- id: abb-79
+  kind: figure
+  number: 79
+  title: Dilemma der Ablaufplanung
+  pdf_page: 178
+  bbox: [66.5, 252.2, 518.6, 393.8]
+- id: abb-80
+  kind: figure
+  number: 80
+  title: Dilemma der Ablaufplanung am Bsp. der Maschinenauslastung und Bestand
+  pdf_page: 178
+  bbox: [65.5, 544.1, 519.1, 647.8]
+- id: abb-81
+  kind: figure
+  number: 81
+  title: Dilemma der Ablaufplanung am Bsp. der Erhöhung der Kapazitätsauslastung
+  pdf_page: 179
+  bbox: [67.4, 359.3, 516.2, 521.5]
+  note: Die Grafik ist oben auf derselben Seite (PDF S. 179) ein zweites Mal unbeschriftet abgedruckt (Duplikat, nicht separat extrahiert).
+- id: abb-82
+  kind: figure
+  number: 82
+  title: Visualisierung des Dilemmas der Ablaufplanung mit Produktionskennlinien
+  pdf_page: 180
+  bbox: [66.0, 72.2, 519.1, 296.9]
+  bbox_source: detected+manual
+  bbox_note: Linke Kante durch ein Streuzeichen der OCR (x≈14) verfälscht – manuell auf den Satzspiegel begrenzt.
+- id: abb-83
+  kind: figure
+  number: 83
+  title: Ausgewählte KPIs im operativen Produktionsmanagement
+  pdf_page: 182
+  bbox: [66.0, 190.3, 517.2, 279.1]
+- id: abb-84
+  kind: figure
+  number: 84
+  title: Dimensionen der Produktqualität
+  pdf_page: 182
+  bbox: [65.0, 453.8, 516.2, 666.0]
+- id: abb-85
+  kind: figure
+  number: 85
+  title: Entkopplungspunkte
+  pdf_page: 186
+  bbox: [70.3, 72.2, 523.4, 334.3]
+- id: tab-07
+  kind: table
+  number: 7
+  title: Arten der Flexibilität
+  pdf_page: 187
+  bbox: [66.5, 132.2, 514.8, 319.0]
+duplicates:
+- pdf_page: 107
+  bbox: [67.9, 117.8, 516.7, 344.9]
+  duplicate_of: abb-36
+- pdf_page: 110
+  bbox: [67.0, 527.8, 523.9, 610.3]
+  duplicate_of: abb-38
+- pdf_page: 179
+  bbox: [67.9, 74.2, 516.2, 236.9]
+  duplicate_of: abb-81

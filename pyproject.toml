@@ -1,0 +1,29 @@
+[project]
+name = "grundlagen-der-industriebetriebslehre-und-innovation"
+version = "0.1.0"
+description = "Grundlagen der Industriebetriebslehre und Innovation – multimodale, agentenfreundliche Wissensbasis"
+readme = "README.md"
+requires-python = ">=3.11"
+# Kern: reicht für `validate`, `report`, `progress` und die Tests (CI).
+dependencies = [
+    "pyyaml>=6.0",
+    "jsonschema>=4.20",
+]
+
+[project.optional-dependencies]
+# Volle Verarbeitung der lokalen Originale (PDF-Rendering, Bildanalyse, Anki).
+pipeline = [
+    "pymupdf>=1.24",
+    "opencv-python-headless>=4.9",
+    "numpy>=1.26",
+    "pillow>=10.0",
+    "zstandard>=0.22",
+]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.setuptools]
+packages = ["pipeline"]
