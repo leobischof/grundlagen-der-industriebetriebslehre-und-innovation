@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 859" width="1266" height="859" data-figure-id="abb-66" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Gozintograph</title>
+  <rect x="0" y="0" width="1266" height="859" fill="#ffffff"/>
+  <rect x="12" y="10" width="1244" height="838" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Production phases (rows) -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="56" y="141" font-size="37">0. Produktionsphase</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="56" y="261" font-size="37">1. Produktionsphase</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="56" y="437" font-size="37">2. Produktionsphase</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="56" y="613" font-size="37">3. Produktionsphase</text>
+
+  <!-- "goes into" arrows: each part/assembly points to the assembly it is built into (structure) -->
+  <g fill="none" stroke="#999999" stroke-width="1.5">
+    <path d="M690 213 L880 160"/><polygon points="880.0,160.0 866.0,158.2 868.9,168.8" fill="#777777"/>
+    <path d="M1083 212 L902 160"/><polygon points="902.0,160.0 913.0,168.8 916.0,158.3" fill="#777777"/>
+    <path d="M583 398 L634 310"/><polygon points="634.0,310.0 622.8,318.5 632.2,324.0" fill="#777777"/>
+    <path d="M680 415 L680 325"/><polygon points="680.0,325.0 674.5,338.0 685.5,338.0" fill="#777777"/>
+    <path d="M800 415 L721 308"/><polygon points="721.0,308.0 724.3,321.7 733.1,315.2" fill="#777777"/>
+    <path d="M1037 395 L1053 311"/><polygon points="1053.0,311.0 1045.2,322.7 1055.9,324.8" fill="#777777"/>
+    <path d="M1150 415 L1124 313"/><polygon points="1124.0,313.0 1121.9,326.9 1132.5,324.2" fill="#777777"/>
+    <path d="M483 577 L524 499"/><polygon points="524.0,499.0 513.1,508.0 522.8,513.0" fill="#777777"/>
+    <path d="M628 577 L605 499"/><polygon points="605.0,499.0 603.4,513.0 613.9,509.9" fill="#777777"/>
+    <path d="M650 577 L984 453"/><polygon points="984.0,453.0 969.9,452.4 973.7,462.6" fill="#777777"/>
+    <path d="M963 577 L1003 496"/><polygon points="1003.0,496.0 992.3,505.2 1002.1,510.1" fill="#777777"/>
+    <path d="M1105 577 L1077 497"/><polygon points="1077.0,497.0 1076.1,511.1 1086.4,507.5" fill="#777777"/>
+  </g>
+
+  <!-- Final product -->
+  <rect x="778" y="82" width="232" height="73" rx="10" ry="10" fill="#3f3f3f"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="894" y="128" font-size="28" fill="#ffffff" text-anchor="middle">Produkt A</text>
+
+  <!-- Assemblies (circles) -->
+  <circle cx="680" cy="268" r="55" fill="#444444"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="680" y="276" font-size="24" fill="#ffffff" text-anchor="middle">A3</text>
+  <circle cx="1093" cy="268" r="55" fill="#444444"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1093" y="276" font-size="24" fill="#ffffff" text-anchor="middle">A4</text>
+  <circle cx="563" cy="450" r="55" fill="#444444"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="563" y="458" font-size="24" fill="#ffffff" text-anchor="middle">A1</text>
+  <circle cx="1040" cy="450" r="55" fill="#444444"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1040" y="458" font-size="24" fill="#ffffff" text-anchor="middle">A2</text>
+
+  <!-- Parts (boxes) -->
+  <rect x="632" y="415" width="96" height="68" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="680" y="457" font-size="24" text-anchor="middle">P5</text>
+  <rect x="756" y="415" width="92" height="68" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="802" y="457" font-size="24" text-anchor="middle">P6</text>
+  <rect x="1107" y="415" width="90" height="68" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1152" y="457" font-size="24" text-anchor="middle">P7</text>
+  <rect x="433" y="577" width="93" height="66" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="479" y="618" font-size="24" text-anchor="middle">P1</text>
+  <rect x="585" y="577" width="93" height="66" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="631" y="618" font-size="24" text-anchor="middle">P2</text>
+  <rect x="914" y="577" width="93" height="66" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="960" y="618" font-size="24" text-anchor="middle">P3</text>
+  <rect x="1063" y="577" width="90" height="66" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1108" y="618" font-size="24" text-anchor="middle">P4</text>
+
+  <!-- Legend -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="975" y="753" font-size="25">P....Teil</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="975" y="807" font-size="25">A....Montage</text>
+</svg>

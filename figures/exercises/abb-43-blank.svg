@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 768" width="1266" height="768" data-figure-id="abb-43" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Interne und externe Treiber für standortbezogene Reaktionen – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1266" height="768" fill="#ffffff" />
+  <rect x="12" y="10" width="1241" height="747" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- External drivers: rounded frame, open at the top right for the label -->
+  <path d="M1055 57 H70 Q45 57 45 82 V216 Q45 241 70 241 H1193 Q1218 241 1218 216 V82 Q1218 57 1193 57 H1182" fill="none" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="1072.8" y="40.0" width="90.5" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <g fill="#d9d9d9" stroke="#555555" stroke-width="2">
+    <rect x="65" y="75" width="327" height="55" />
+    <rect x="421" y="75" width="411" height="55" />
+    <rect x="866" y="77" width="316" height="55" />
+  </g>
+  <rect class="placeholder" x="134.9" y="86.4" width="186.2" height="36.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="581.5" y="86.4" width="89.0" height="36.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="971.4" y="88.4" width="105.2" height="36.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <g fill="#000000">
+    <circle cx="104" cy="160" r="3" /><circle cx="104" cy="188" r="3" /><circle cx="104" cy="217" r="3" />
+    <circle cx="431" cy="157" r="3" /><circle cx="431" cy="185" r="3" /><circle cx="431" cy="214" r="3" />
+    <circle cx="910" cy="161" r="3" /><circle cx="910" cy="189" r="3" /><circle cx="910" cy="219" r="3" />
+  </g>
+  <rect class="placeholder" x="131.0" y="147.0" width="118.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="131.0" y="175.0" width="217.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="131.0" y="204.0" width="261.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="458.0" y="144.0" width="393.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="458.0" y="172.0" width="349.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="458.0" y="201.0" width="327.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="938.0" y="148.0" width="140.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="938.0" y="176.0" width="228.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="938.0" y="206.0" width="173.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Arrow from the external drivers down to the reaction -->
+  <polygon points="601,248 629,248 629,262 643,262 615,284 587,262 601,262" fill="#595959" stroke="#333333" stroke-width="1.5" />
+
+  <!-- Site-related reaction (dark ellipse) -->
+  <ellipse cx="600" cy="370" rx="255" ry="70" fill="#4d4d4d" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="424.4" y="336.4" width="351.2" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="372.1" y="370.4" width="455.7" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Arrow from the internal drivers up to the reaction -->
+  <polygon points="615,448 641,472 628,472 628,495 602,495 602,472 589,472" fill="#595959" stroke="#333333" stroke-width="1.5" />
+
+  <!-- Internal drivers: rounded frame, open at the top right for the label -->
+  <path d="M1068 505 H70 Q45 505 45 530 V713 Q45 738 70 738 H1193 Q1218 738 1218 713 V530 Q1218 505 1193 505 H1165" fill="none" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="1066.8" y="492.0" width="90.5" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <g fill="#000000">
+    <circle cx="197" cy="531" r="3" /><circle cx="197" cy="560" r="3" /><circle cx="197" cy="589" r="3" />
+    <circle cx="197" cy="618" r="3" /><circle cx="197" cy="648" r="3" />
+    <circle cx="739" cy="533" r="3" /><circle cx="739" cy="561" r="3" /><circle cx="739" cy="590" r="3" />
+    <circle cx="739" cy="619" r="3" />
+  </g>
+  <rect class="placeholder" x="224.0" y="518.0" width="206.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="224.0" y="547.0" width="239.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="224.0" y="576.0" width="261.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="224.0" y="605.0" width="228.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="224.0" y="635.0" width="283.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="766.0" y="520.0" width="294.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="766.0" y="548.0" width="305.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="766.0" y="577.0" width="250.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="766.0" y="606.0" width="206.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <g fill="#d9d9d9" stroke="#555555" stroke-width="2">
+    <rect x="172" y="672" width="296" height="53" />
+    <rect x="739" y="672" width="314" height="53" />
+  </g>
+  <rect class="placeholder" x="170.2" y="682.4" width="299.6" height="36.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="778.6" y="682.4" width="234.8" height="36.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <!-- Weak points lead to strategic goals -->
+  <polygon points="678,688 600,688 600,674 556,700 600,726 600,712 678,712" fill="#595959" stroke="#333333" stroke-width="1.5" />
+</svg>

@@ -1,0 +1,84 @@
+id: abb-59
+title: Maßnahmenhierarchie für Materialeffizienz
+type: hierarchie
+description: >-
+  Links ein senkrechter Keil mit Grauverlauf von „FÖRDERN“ (oben) nach „VERMEIDEN“ (unten).
+  Rechts daneben vier geschweift geklammerte Gruppen mit nach rechts zeigenden Pfeilbalken, deren
+  Länge von oben nach unten abnimmt: „Längere Produktlebensdauer mit weniger (Roh-) Materialien“
+  (Weniger (natürliche) Ressourcen verbrauchen; Produkte so gestalten, dass sie länger halten),
+  „Verlängerung der Lebensdauer von Produkten und Teilen“ (Wiederverwendung/ Reparatur/ Upgrade;
+  Aufarbeitung/ Wiederaufbereitung), „Nützlicher Zweck für Materialien am Lebensende“ (Recyceln;
+  Zurückgewinnen (z.B. Energie)) und „Mülldeponie“ (Entsorgen). Eine waagrechte Linie trennt die
+  Nutzungsphasen (oben, Pfeil nach oben) von den Abfallphasen (unten, Pfeil nach unten). Unten
+  rechts die Logos der UN-Nachhaltigkeitsziele und der IEC.
+axes: []
+elements:
+  - {id: foerdern, kind: label, text: FÖRDERN}
+  - {id: vermeiden, kind: label, text: VERMEIDEN}
+  - {id: g1, kind: label, text: Längere Produktlebensdauer mit weniger (Roh-) Materialien}
+  - {id: m1, kind: arrow, text: Weniger (natürliche) Ressourcen verbrauchen, note: "längster Balken, dunkelgrau"}
+  - {id: m2, kind: arrow, text: "Produkte so gestalten, dass sie länger halten"}
+  - {id: g2, kind: label, text: Verlängerung der Lebensdauer von Produkten und Teilen, note: "„Produkten und Teilen“ kursiv"}
+  - {id: m3, kind: arrow, text: Wiederverwendung/ Reparatur/ Upgrade}
+  - {id: m4, kind: arrow, text: Aufarbeitung/ Wiederaufbereitung, note: "Balken im Original fast weiß"}
+  - {id: g3, kind: label, text: Nützlicher Zweck für Materialien am Lebensende}
+  - {id: m5, kind: arrow, text: Recyceln}
+  - {id: m6, kind: arrow, text: Zurückgewinnen (z.B. Energie)}
+  - {id: g4, kind: label, text: Mülldeponie}
+  - {id: m7, kind: arrow, text: Entsorgen, note: "im Scan auf schwarzem Balken kaum lesbar, gelesen als „Entsorgen“"}
+  - {id: nutz, kind: label, text: Nutzungsphasen, note: "über der Trennlinie, Pfeil nach oben"}
+  - {id: abfall, kind: label, text: Abfallphasen, note: "unter der Trennlinie, Pfeil nach unten"}
+relations:
+  - {from: g1, to: m1, kind: enthält}
+  - {from: g1, to: m2, kind: enthält}
+  - {from: g2, to: m3, kind: enthält}
+  - {from: g2, to: m4, kind: enthält}
+  - {from: g3, to: m5, kind: enthält}
+  - {from: g3, to: m6, kind: enthält}
+  - {from: g4, to: m7, kind: enthält}
+  - {from: g1, to: g2, kind: vorrangig_vor, text: Reihenfolge von oben nach unten}
+  - {from: g2, to: g3, kind: vorrangig_vor, text: Trennlinie Nutzungs-/Abfallphasen}
+  - {from: g3, to: g4, kind: vorrangig_vor}
+curves: []
+meaning: >-
+  Im Ressourcenmanagement (8.3.3) zielt Materialeffizienz darauf, mit möglichst wenig Material
+  auszukommen und Verschwendung zu vermeiden. Die Hierarchie ordnet die Maßnahmen nach
+  Wünschbarkeit: Am meisten zu fördern ist, von vornherein weniger Ressourcen zu verbrauchen und
+  langlebige Produkte zu gestalten; danach folgen die Verlängerung der Lebensdauer durch
+  Wiederverwendung, Reparatur und Aufarbeitung (noch Nutzungsphase). Erst am Lebensende
+  (Abfallphase) kommen Recycling und energetische Rückgewinnung, und die Entsorgung auf der
+  Mülldeponie ist zu vermeiden.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; Hintergrundwissen zum
+    Ressourcenmanagement im Kapitel Nachhaltigkeit.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Rangfolge von oben (fördern) nach unten (vermeiden): weniger Ressourcen/langlebig gestalten → Wiederverwendung/Reparatur/Aufarbeitung → Recyceln/Zurückgewinnen → Entsorgen"
+    - "Trennlinie zwischen Nutzungsphasen und Abfallphasen"
+  common_mistakes:
+    - "Recycling als beste Maßnahme eingeordnet, obwohl Vermeidung und Lebensdauerverlängerung vorrangig sind"
+    - "Energetische Rückgewinnung mit stofflichem Recycling gleichgesetzt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-59.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Gruppen, Pfeilbalken (mit
+    abnehmender Länge und angenäherten Grautönen), Klammern, Trennlinie und Phasenbeschriftungen
+    sind im Originalwortlaut vorhanden. Der Farbverlauf des Keils ist mangels Verlaufselement aus
+    schmalen Graustreifen zusammengesetzt; die feinen gepunkteten Hintergrundlinien sind
+    weggelassen. Die Logos (UN-Nachhaltigkeitsziele, IEC) sind nicht nachgebildet, sondern nur als
+    grauer Ring und Kasten mit „IEC“ angedeutet. Die Beschriftung des schwarzen Balkens ist im Scan
+    kaum lesbar und als „Entsorgen“ gelesen.
+source:
+  pdf_page: 151
+  printed_page: 141
+  ocr_text_of_labels: >-
+    FÖRDERN; Längere Produktlebensdauer mit weniger (Roh-) Materialien; Weniger (natürliche)
+    Ressourcen verbrauchen; Produkte so gestalten, dass sie länger halten; Verlängerung der
+    Lebensdauer von Produkten und Teilen; Wiederverwendung/ Reparatur/ Upgrade; Aufarbeitung/
+    Wiederaufbereitung; Nutzungsphasen; Abfallphasen; Nützlicher Zweck für Materialien am
+    Lebensende; Recyceln; Zurückgewinnen (z.B. Energie); Mülldeponie; Entsorgen; VERMEIDEN; IEC

@@ -1,0 +1,65 @@
+id: abb-16
+title: Der Produktionsprozess
+type: system
+description: >-
+  Systemdarstellung der Produktion als Transformation: Ein breiter Pfeil „INPUT“
+  (Produktionsfaktoren) führt in eine graue Ellipse, das Produktionsumfeld. Darin steht der
+  Throughput als dunkelgrauer Pfeilkasten „Produktion-prozess“. Von oben kommt ein Soll-Pfeil
+  aus den Unternehmungs- und Produktionszielen, nach oben verlässt ein Ist-Pfeil die Ellipse.
+  Rechts tritt der Pfeil „OUTPUT“ aus (Produkte/Leistungen, Belastungen, Absatzwirtschaft).
+axes: []
+elements:
+  - {id: input, kind: pfeil, text: INPUT, note: breiter Pfeil von links in die Ellipse}
+  - {id: faktoren, kind: label, text: Produktionsfaktoren, note: unter dem Input-Pfeil}
+  - {id: umfeld, kind: ellipse, text: Produktionsumfeld, note: hellgraue Ellipse um den Prozess}
+  - {id: throughput, kind: label, text: Throughput, note: oben in der Ellipse}
+  - {id: prozess, kind: box, text: Produktion-prozess, note: "dunkelgrauer Pfeilkasten, Wortlaut mit Trennstrich wie im Original („Produktion-“ / „prozess“)"}
+  - {id: ziele, kind: label, text: Unternehmungsziele Produktionsziele, note: "fett, zweizeilig über der Ellipse"}
+  - {id: soll, kind: pfeil, text: Soll, note: Pfeil von oben in die Ellipse}
+  - {id: ist, kind: pfeil, text: Ist, note: Pfeil aus der Ellipse nach oben}
+  - {id: output, kind: pfeil, text: OUTPUT, note: breiter Pfeil aus der Ellipse nach rechts}
+  - {id: output_inhalt, kind: label, text: Produkte/Leistungen Belastungen (Absatzwirtschaft), note: dreizeilig unter dem Output-Pfeil}
+relations:
+  - {from: input, to: prozess, kind: fließt_in, text: Produktionsfaktoren}
+  - {from: prozess, to: output, kind: erzeugt}
+  - {from: ziele, to: prozess, kind: steuert, text: Soll}
+  - {from: prozess, to: ziele, kind: rückmeldung, text: Ist}
+  - {from: umfeld, to: prozess, kind: enthält}
+curves: []
+meaning: >-
+  Produktion ist laut Skript (3.2) ein transformierender Prozess, gegliedert in Input
+  (Produktionsfaktoren, nach REFA Mensch, Kapital, Information bzw. nach Heinen und Schneeweiß
+  Potenzial-/Humanfaktoren und Repetitivfaktoren), Throughput (Kombination und Erzeugung im
+  Produktionsbereich) und Output (Güter, die die Absatzwirtschaft am Markt verkauft). Die
+  Unternehmungs- und Produktionsziele geben Sollwerte vor, die mit den Istwerten verglichen werden.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet. Das
+    Input-Throughput-Output-Schema ist aber Grundlage für viele Produktionsfragen und leicht als
+    Skizze verlangbar, daher mittel.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Drei Elemente: Input – Throughput – Output"
+    - "Input = Produktionsfaktoren, Output = Produkte/Leistungen und Belastungen"
+    - "Produktionsprozess eingebettet im Produktionsumfeld (Ellipse)"
+    - "Soll-Vorgabe aus Unternehmungs-/Produktionszielen, Ist-Rückmeldung"
+  common_mistakes:
+    - "Belastungen (unerwünschter Output) beim Output vergessen"
+    - "Soll- und Ist-Pfeil in der Richtung vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-16.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Pfeilformen, Ellipse und Grautöne
+    angenähert, der leichte Verlauf in der Ellipse des Originals ist als flache hellgraue Fläche
+    dargestellt. Wortlaut „Produktion-“ / „prozess“ (ohne Fugen-s) unverändert übernommen.
+source:
+  pdf_page: 63
+  printed_page: 53
+  ocr_text_of_labels: >-
+    Soll; Unternehmungsziele; Produktionsziele; Ist; Throughput; INPUT; OUTPUT; Produktion-
+    prozess; Produktionsumfeld; Produktionsfaktoren; Produkte/Leistungen; Belastungen;
+    (Absatzwirtschaft)

@@ -1,0 +1,55 @@
+id: abb-07
+title: Typischen Merkmale einer Innovation
+type: system
+description: >-
+  Wirkungsdiagramm: Oben stehen die beiden Merkmale „Neuigkeitsgrad“ (links) und „Komplexität“
+  (rechts). Von jedem führt eine senkrechte Linie nach unten, von der je ein Pfeil mit „+“ zu den
+  beiden mittig übereinander angeordneten Kästen „Unsicherheit Risiko“ und „Konfliktgehalt“ zeigt.
+  Beide Merkmale erhöhen also beide Wirkungen.
+axes: []
+elements:
+  - {id: ng, kind: box, text: Neuigkeitsgrad, note: "Ursache, oben links"}
+  - {id: ko, kind: box, text: Komplexität, note: "Ursache, oben rechts"}
+  - {id: ur, kind: box, text: Unsicherheit Risiko, note: "Wirkung, zweizeilig: Unsicherheit / Risiko"}
+  - {id: kg, kind: box, text: Konfliktgehalt, note: "Wirkung, unten"}
+  - {id: plus, kind: label, text: "+", note: "an allen vier Pfeilen: positiver (verstärkender) Einfluss"}
+relations:
+  - {from: ng, to: ur, kind: beeinflusst, text: "+"}
+  - {from: ng, to: kg, kind: beeinflusst, text: "+"}
+  - {from: ko, to: ur, kind: beeinflusst, text: "+"}
+  - {from: ko, to: kg, kind: beeinflusst, text: "+"}
+curves: []
+meaning: >-
+  Innovationen lassen sich durch die Merkmale Neuigkeitsgrad und Komplexität kennzeichnen.
+  Unabhängig von anderen Merkmalen gelten sie als ursächlich für Unsicherheit, Risiko und den
+  Konfliktgehalt: Je neuer und komplexer eine Innovation, desto höher Unsicherheits-, Risiko- und
+  Konfliktpotential (Skript 2.2, S. 26).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Kleines, leicht zeichenbares
+    Ursache-Wirkungs-Schema zum Innovationsbegriff; als Teil einer Frage zu Merkmalen von
+    Innovationen denkbar.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Ursachen: Neuigkeitsgrad und Komplexität"
+    - "Wirkungen: Unsicherheit/Risiko und Konfliktgehalt"
+    - "Jede Ursache wirkt auf jede Wirkung, alle Einflüsse positiv (+)"
+  common_mistakes:
+    - "Pfeilrichtung umgekehrt (Wirkungen als Ursachen)"
+    - "Nur je eine Verbindung statt aller vier gezeichnet"
+    - "Vorzeichen + vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-07.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kastenpositionen, die hell rosagraue
+    Füllung und die vier Pfeile mit „+“ angenähert. Titelwortlaut „Typischen Merkmale“ unverändert
+    aus dem Skript übernommen (grammatisch holprig). Alle Kastentexte und Vorzeichen class="answer".
+source:
+  pdf_page: 36
+  printed_page: 26
+  ocr_text_of_labels: >-
+    Neuigkeitsgrad; Komplexität; Unsicherheit Risiko; Konfliktgehalt; + (viermal)

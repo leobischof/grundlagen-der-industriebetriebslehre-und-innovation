@@ -1,0 +1,68 @@
+id: tab-01
+title: Unselbständig Beschäftigte in Österreich
+type: tabelle
+description: >-
+  Tabelle mit grau hinterlegter Kopfzeile (Jahr 2000, 2010, 2020, 2023) und grau hinterlegter
+  Vorspalte. Die Zeilen nennen die Gesamtbeschäftigung, die vier Industriebereiche Bergbau,
+  Sachgütererzeugung, Energie-/Wasserversorgung und Baugewerbe, deren Summe als
+  Industriebeschäftigte sowie den %-Anteil der Industriebeschäftigten an der Gesamtbeschäftigung.
+axes: []
+elements:
+  - {id: h0, kind: kopfzeile, text: Jahr}
+  - {id: h1, kind: kopfzeile, text: "2000"}
+  - {id: h2, kind: kopfzeile, text: "2010"}
+  - {id: h3, kind: kopfzeile, text: "2020"}
+  - {id: h4, kind: kopfzeile, text: "2023"}
+  - {id: z1, kind: zeile, text: Gesamtbeschäftigung, note: "3.133.173 | 3.257.786 | 3.717.176 | 3.956.271 (fett)"}
+  - {id: z2, kind: zeile, text: Bergbau, note: "13.738 | 5.801 | 5.935 | 5.417"}
+  - {id: z3, kind: zeile, text: Sachgütererzeugung, note: "612.122 | 563.128 | 619.525 | 645.783"}
+  - {id: z4, kind: zeile, text: Energie-/Wasserversorgung, note: "29.481 | 40.832 | 43.804 | 44.996"}
+  - {id: z5, kind: zeile, text: Baugewerbe, note: "257.754 | 241.673 | 271.072 | 288.654"}
+  - {id: z6, kind: zeile, text: Industriebeschäftigte, note: "913.095 | 851.434 | 940.336 | 986.614 (fett)"}
+  - {id: z7, kind: zeile, text: "%-Anteil", note: "29,1 | 26,1 | 25,3 | 25,4 (fett)"}
+relations:
+  - {from: z2, to: z6, kind: summand}
+  - {from: z3, to: z6, kind: summand}
+  - {from: z4, to: z6, kind: summand}
+  - {from: z5, to: z6, kind: summand}
+  - {from: z6, to: z7, kind: anteil_an, text: "Industriebeschäftigte / Gesamtbeschäftigung"}
+  - {from: z1, to: z7, kind: bezugsgröße}
+curves: []
+meaning: >-
+  Laut Skript (1.2.1) zeigt der Blick auf die Beschäftigtenzahlen die Bedeutung der Industrie für
+  den Arbeitsmarkt: Rund ein Viertel aller unselbständig Beschäftigten in Österreich arbeitet in
+  der Industrie (2023 knapp eine Million Menschen, 25,4 %). Der Anteil ist seit 2000 (29,1 %)
+  gesunken, obwohl die absolute Zahl der Industriebeschäftigten zuletzt wieder gestiegen ist – die
+  Gesamtbeschäftigung wuchs schneller.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Tabelle keine Prüfungsfrage zugeordnet. Einzelzahlen werden
+    nicht gezeichnet; merkenswert ist nur die Größenordnung (etwa ein Viertel der Beschäftigten in
+    der Industrie).
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Industriebeschäftigte = Bergbau + Sachgütererzeugung + Energie-/Wasserversorgung + Baugewerbe"
+    - "Anteil an der Gesamtbeschäftigung rund 25 % (2023: 25,4 %), Tendenz seit 2000 fallend"
+  common_mistakes:
+    - "Baugewerbe nicht zur Industrie gezählt"
+    - "Steigende absolute Zahl mit steigendem Anteil verwechselt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/tab-01.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Zellen mit Wortlaut, Zahlen,
+    Fettdruck und grauer Kopfzeile/Vorspalte übernommen. Zahlen zusätzlich mit der Textschicht des
+    PDFs abgeglichen. Hinweis zum Original: Für 2023 ergibt die Summe der vier Bereiche 984.850,
+    die Tabelle nennt 986.614 Industriebeschäftigte (für 2000–2020 stimmen die Summen); die Zahl
+    ist unverändert aus dem Skript übernommen.
+source:
+  pdf_page: 17
+  printed_page: 7
+  ocr_text_of_labels: >-
+    Jahr 2000 2010 2020 2023; Gesamtbeschäftigung 3.133.173 3.257.786 3.717.176 3.956.271; Bergbau
+    13.738 5.801 5.935 5.417; Sachgütererzeugung 612.122 563.128 619.525 645.783;
+    Energie-/Wasserversorgung 29.481 40.832 43.804 44.996; Baugewerbe 257.754 241.673 271.072
+    288.654; Industriebeschäftigte 913.095 851.434 940.336 986.614; %-Anteil 29,1 26,1 25,3 25,4

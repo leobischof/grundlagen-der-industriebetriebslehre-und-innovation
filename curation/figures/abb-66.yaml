@@ -1,0 +1,83 @@
+id: abb-66
+title: Gozintograph
+type: hierarchie
+description: >-
+  Gozintograph für Produkt A über vier Produktionsphasen (Zeilen 0 bis 3). Oben das Endprodukt
+  „Produkt A“ (Phase 0), darunter die Montagen A3 und A4 (Phase 1), dann Montage A1 und die Teile
+  P5, P6 sowie Montage A2 und Teil P7 (Phase 2), unten die Teile P1, P2, P3, P4 (Phase 3).
+  Pfeile zeigen jeweils in das übergeordnete Element, in das ein Teil bzw. eine Montage eingeht.
+  P2 geht sowohl in A1 als auch in A2 ein. Legende: P....Teil, A....Montage.
+axes: []
+elements:
+  - {id: ph0, kind: ebene, text: 0. Produktionsphase}
+  - {id: ph1, kind: ebene, text: 1. Produktionsphase}
+  - {id: ph2, kind: ebene, text: 2. Produktionsphase}
+  - {id: ph3, kind: ebene, text: 3. Produktionsphase}
+  - {id: pa, kind: box, text: Produkt A, note: "Endprodukt, abgerundetes dunkles Rechteck"}
+  - {id: a3, kind: knoten, text: A3, note: "Montage (dunkler Kreis), Phase 1"}
+  - {id: a4, kind: knoten, text: A4, note: "Montage, Phase 1"}
+  - {id: a1, kind: knoten, text: A1, note: "Montage, Phase 2"}
+  - {id: a2, kind: knoten, text: A2, note: "Montage, Phase 2"}
+  - {id: p5, kind: box, text: P5, note: "Teil, Phase 2"}
+  - {id: p6, kind: box, text: P6, note: "Teil, Phase 2"}
+  - {id: p7, kind: box, text: P7, note: "Teil, Phase 2"}
+  - {id: p1, kind: box, text: P1, note: "Teil, Phase 3"}
+  - {id: p2, kind: box, text: P2, note: "Teil, Phase 3"}
+  - {id: p3, kind: box, text: P3, note: "Teil, Phase 3"}
+  - {id: p4, kind: box, text: P4, note: "Teil, Phase 3"}
+  - {id: leg1, kind: legende, text: P....Teil}
+  - {id: leg2, kind: legende, text: A....Montage}
+relations:
+  - {from: a3, to: pa, kind: geht_ein_in}
+  - {from: a4, to: pa, kind: geht_ein_in}
+  - {from: a1, to: a3, kind: geht_ein_in}
+  - {from: p5, to: a3, kind: geht_ein_in}
+  - {from: p6, to: a3, kind: geht_ein_in}
+  - {from: a2, to: a4, kind: geht_ein_in}
+  - {from: p7, to: a4, kind: geht_ein_in}
+  - {from: p1, to: a1, kind: geht_ein_in}
+  - {from: p2, to: a1, kind: geht_ein_in}
+  - {from: p2, to: a2, kind: geht_ein_in, text: Mehrfachverwendung von P2}
+  - {from: p3, to: a2, kind: geht_ein_in}
+  - {from: p4, to: a2, kind: geht_ein_in}
+curves: []
+meaning: >-
+  Laut Skript (9.1.3) müssen Endprodukte für die Materialbedarfsplanung in Baugruppen und
+  Komponenten untergliedert werden; die Stückliste nennt die je Produkteinheit benötigten Mengen.
+  Zur Veranschaulichung der Stückliste kann ein Gozintograph („goes into“) gezeichnet werden: Er
+  zeigt, welche Teile (P) in welche Montagen/Baugruppen (A) und schließlich in das Produkt
+  eingehen, gegliedert nach Produktionsphasen. Begriffe laut Skript (DIN 199): Produkt (endgültiges
+  Produktionsergebnis), Baugruppe (aus zwei oder mehr Teilen/Baugruppen niedrigerer Ordnung),
+  Einzelteil (nicht zerstörungsfrei zerlegbar), Rohmaterial (Ausgangsmaterial). Mengenangaben an
+  den Pfeilen enthält diese Abbildung nicht.
+exam_relevance:
+  level: mittel
+  reason: >-
+    Laut exams/topic-mapping.json einmal abgefragt (2025-02-04, nur als Stichwort
+    „Gozintograph“ überliefert, Gedächtnisprotokoll): Erklären bzw. Zeichnen eines Gozintographen
+    ist wahrscheinlich, eine Bedarfsrechnung ist nicht ausgeschlossen.
+  question_ids: [frage-2025-02-04-2]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Endprodukt oben, Teile unten; Pfeile zeigen von unten nach oben in das übergeordnete Element"
+    - "Unterscheidung Teil (P, Kasten) und Montage/Baugruppe (A, Kreis) mit Legende"
+    - "Gliederung nach Produktionsphasen 0 bis 3"
+    - "Ein Teil kann in mehrere Montagen eingehen (P2 → A1 und A2)"
+  common_mistakes:
+    - "Pfeilrichtung umgekehrt (vom Produkt zu den Teilen)"
+    - "Teile und Baugruppen nicht unterschieden"
+    - "Mehrfachverwendung eines Teils (P2) nicht dargestellt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-66.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Knoten, Phasenbezeichnungen, die
+    zwölf Pfeile (inklusive P2 → A2) und die Legende übernommen. Pfeilspitzen als eigene Dreiecke
+    gezeichnet.
+source:
+  pdf_page: 165
+  printed_page: 155
+  ocr_text_of_labels: >-
+    0. Produktionsphase; 1. Produktionsphase; 2. Produktionsphase; 3. Produktionsphase; Produkt A;
+    A3; A4; A1; P5; P6; A2; P7; P1; P2; P3; P4; P....Teil; A....Montage

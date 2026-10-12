@@ -1,0 +1,86 @@
+id: abb-36
+title: Innovationsprozess von Thom
+type: prozess
+description: >-
+  Prozessbild in einem grauen Feld (Unternehmen): Ein Blockpfeil „Innovationsimpuls“ führt in drei
+  hintereinander liegende Pfeilsegmente „Ideengenerierung“, „Ideenakzeptierung“ und
+  „Ideenrealisierung“; unter jeder Phase steht ein Kasten mit ihren Teilschritten. Darüber liegt
+  der Balken „Unternehmensplanung“, der mit Pfeilen auf alle drei Phasen wirkt und über eine Linie
+  links den Innovationsimpuls auslöst. Ganz oben liegt der Balken „Umwelt“, der auf die
+  Unternehmensplanung wirkt; vom Ende der Ideenrealisierung führt eine Linie zurück zur Umwelt.
+axes: []
+elements:
+  - {id: umwelt, kind: box, text: Umwelt}
+  - {id: up, kind: box, text: Unternehmensplanung}
+  - {id: impuls, kind: arrow, text: Innovationsimpuls, note: "im Bild „Innovations-“/„impuls“"}
+  - {id: p1, kind: box, text: Ideengenerierung, note: "Phase 1, im Bild „Ideen-“/„generierung“"}
+  - {id: p2, kind: box, text: Ideenakzeptierung, note: "Phase 2, im Bild „Ideen-“/„akzeptierung“"}
+  - {id: p3, kind: box, text: Ideenrealisierung, note: "Phase 3, im Bild „Ideen-“/„realisierung“"}
+  - {id: p1a, kind: label, text: Suchfelder bestimmen}
+  - {id: p1b, kind: label, text: Ideen finden}
+  - {id: p1c, kind: label, text: Ideen vorschlagen}
+  - {id: p2a, kind: label, text: Prüfung der Ideen}
+  - {id: p2b, kind: label, text: Erstellen von Realisierungsplänen}
+  - {id: p2c, kind: label, text: Entscheidung für einen zu realisierenden Plan}
+  - {id: p3a, kind: label, text: Konkrete Verwirklichung der Idee}
+  - {id: p3b, kind: label, text: Verkauf der neuen Idee an den Zielkunden}
+  - {id: p3c, kind: label, text: Akzeptanzkontrolle}
+relations:
+  - {from: umwelt, to: up, kind: beeinflusst}
+  - {from: up, to: impuls, kind: löst aus}
+  - {from: up, to: p1, kind: steuert}
+  - {from: up, to: p2, kind: steuert}
+  - {from: up, to: p3, kind: steuert}
+  - {from: impuls, to: p1, kind: folgt}
+  - {from: p1, to: p2, kind: folgt}
+  - {from: p2, to: p3, kind: folgt}
+  - {from: p3, to: umwelt, kind: rückkopplung}
+  - {from: p1, to: p1a, kind: enthält}
+  - {from: p1, to: p1b, kind: enthält}
+  - {from: p1, to: p1c, kind: enthält}
+  - {from: p2, to: p2a, kind: enthält}
+  - {from: p2, to: p2b, kind: enthält}
+  - {from: p2, to: p2c, kind: enthält}
+  - {from: p3, to: p3a, kind: enthält}
+  - {from: p3, to: p3b, kind: enthält}
+  - {from: p3, to: p3c, kind: enthält}
+curves: []
+meaning: >-
+  Thom (1980) gliedert den Innovationsprozess in drei klar strukturierte Hauptphasen mit je drei
+  Schritten (sec-6.1): Ideengenerierung (Suchfelder bestimmen, Ideen finden, Ideen vorschlagen),
+  Ideenakzeptierung (Prüfung, Realisierungspläne erstellen, Entscheidung für einen Plan) und
+  Ideenrealisierung (konkrete Verwirklichung, Verkauf an Zielkunden, Akzeptanzkontrolle).
+  Berücksichtigt sind der Innovationsimpuls als gemeinsamer Nenner aller Innovationsprozesse sowie
+  Umwelteinflüsse (Gesellschaft, Politik, Ökologie/Wirtschaft, Technik), die über die
+  Unternehmensplanung auf die Innovation wirken.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Klassisches Prozessmodell mit
+    klarer Dreiteilung, das sich gut für Aufzähl- und Skizzierfragen eignet; als Vergleich zu den
+    geprüften Innovationsprozessen (z. B. Design Thinking) relevant.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Drei Phasen: Ideengenerierung → Ideenakzeptierung → Ideenrealisierung"
+    - "Je drei Teilschritte pro Phase"
+    - "Innovationsimpuls am Anfang, Unternehmensplanung und Umwelt als Rahmen"
+  common_mistakes:
+    - "Umwelt und Unternehmensplanung weglassen"
+    - "Ideenakzeptierung mit Ideenrealisierung vertauschen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-36.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Positionen, Pfeile und Grauton des
+    Hintergrundfelds angenähert, die Rasterstruktur der grauen Fläche ist als einfarbiges Hellgrau
+    wiedergegeben. Die Grafik ist im Skript auf PDF S. 107 zusätzlich unbeschriftet abgedruckt.
+source:
+  pdf_page: 108
+  printed_page: 98
+  ocr_text_of_labels: >-
+    Umwelt; Unternehmensplanung; Innovations- impuls; Ideen- generierung; Ideen- akzeptierung;
+    Ideen- realisierung; Suchfelder bestimmen; Ideen finden; Ideen vorschlagen; Prüfung der Ideen;
+    Erstellen von Realisierungsplänen; Entscheidung für einen zu realisierenden Plan; Konkrete
+    Verwirklichung der Idee; Verkauf der neuen Idee an den Zielkunden; Akzeptanzkontrolle

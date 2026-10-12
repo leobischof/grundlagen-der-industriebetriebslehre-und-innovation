@@ -5,7 +5,7 @@ from pathlib import Path
 
 from pipeline import content_files, export_markdown, figure_publish
 
-# abb-45 has a reconstruction (figures/reconstructed/abb-45.svg), abb-23 has none.
+# abb-45 has a reconstruction (figures/reconstructed/abb-45.svg); the stand-in test pretends abb-23 has none.
 CAPTION = ("![Abbildung 45: Typologie](../../figures/originals/abb-45.png)\n\n"
            "*Abbildung 45 – Skript S. 119* · [Rekonstruktion](../../figures/reconstructed/abb-45.svg)"
            " · [Zeichenübung](../../learning/drawing-exercises/abb-45-zeichenuebung.md)")
@@ -19,7 +19,8 @@ def test_figures_show_the_svg_next_to_the_file_and_dead_link_items_vanish():
     assert used == {"abb-45.svg"}
 
 
-def test_figure_without_reconstruction_becomes_stand_in_text_never_png():
+def test_figure_without_reconstruction_becomes_stand_in_text_never_png(monkeypatch):
+    monkeypatch.setattr(figure_publish, "reconstruction", lambda fig_id: None)
     used: set[str] = set()
     out = export_markdown.flatten("![Abbildung 23: Geschichte](../../figures/originals/abb-23.png)", "", used)
     assert out == f"*{figure_publish.stand_in('abb-23')}*"

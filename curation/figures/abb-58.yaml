@@ -1,0 +1,80 @@
+id: abb-58
+title: Möglichkeiten der Industrie zur Dekarbonisierung
+type: tabelle
+description: >-
+  Zweispaltige Tabelle mit dunkler Kopfzeile: links „Kurz- und mittelfristige Maßnahmen“, rechts
+  „Mittel- bis langfristige Maßnahmen“. Sieben Zeilen stellen jeweils eine kurz- bis mittelfristige
+  Maßnahme ihrem weitergehenden, langfristigen Gegenstück gegenüber: Ökostrom → komplett
+  emissionsfreie Energie, Energieeffizienz durch BAT → Effizienz nahe am thermodynamischen Minimum,
+  Brennstoffumstellung → CO2-arme Elektrifizierung und grüner Wasserstoff, Substitution
+  CO2-intensiver Materialien → emissionsfreies Ausgangsmaterial, sektorale → großflächige
+  CO2-Abscheidung (CCUS), Materialeffizienz und Substitution → Ökodesign und Bedarfsreduzierung,
+  Recyclingquoten → Abfallwirtschaft mit Materialkreisläufen.
+axes: []
+elements:
+  - {id: k, kind: header, text: Kurz- und mittelfristige Maßnahmen}
+  - {id: l, kind: header, text: Mittel- bis langfristige Maßnahmen}
+  - {id: k1, kind: cell, text: Verringerung indirekter Emissionen durch Ökostrom}
+  - {id: l1, kind: cell, text: Komplett emissionsfreie Energie, note: "im Scan ohne Leerzeichen „emissionsfreieEnergie“ (Satzfehler)"}
+  - {id: k2, kind: cell, text: Energieeffizienz durch moderne Technologien (BAT)}
+  - {id: l2, kind: cell, text: Energieeffizienz nahe am thermodynamischen Minimum}
+  - {id: k3, kind: cell, text: Umstellung der Brennstoffe (z.B. Biomasse)}
+  - {id: l3, kind: cell, text: Tiefgreifende CO2-arme Elektrifizierung und grüner Wasserstoff, note: "CO2 mit tiefgestellter 2"}
+  - {id: k4, kind: cell, text: Substitution von CO2-intensiven Materialien}
+  - {id: l4, kind: cell, text: "Emissionsfreies Ausgangsmaterial (grüner Wasserstoff, Biomasse)"}
+  - {id: k5, kind: cell, text: Sektorale CO2-Abscheidung (CCUS)}
+  - {id: l5, kind: cell, text: Großflächige CO2-Abscheidung (CCUS)}
+  - {id: k6, kind: cell, text: Materialeffizienz und Substitution}
+  - {id: l6, kind: cell, text: Ökodesign und Bedarfsreduzierung}
+  - {id: k7, kind: cell, text: Erhöhung der Recyclingquoten}
+  - {id: l7, kind: cell, text: Abfallwirtschaft welche Materialkreisläufe ermöglicht}
+relations:
+  - {from: k1, to: l1, kind: entwickelt_sich_zu, text: gleiche Zeile}
+  - {from: k2, to: l2, kind: entwickelt_sich_zu, text: gleiche Zeile}
+  - {from: k3, to: l3, kind: entwickelt_sich_zu, text: gleiche Zeile}
+  - {from: k4, to: l4, kind: entwickelt_sich_zu, text: gleiche Zeile}
+  - {from: k5, to: l5, kind: entwickelt_sich_zu, text: gleiche Zeile}
+  - {from: k6, to: l6, kind: entwickelt_sich_zu, text: gleiche Zeile}
+  - {from: k7, to: l7, kind: entwickelt_sich_zu, text: gleiche Zeile}
+curves: []
+meaning: >-
+  Laut Skript (8.3.3) folgert der Weltklimarat (IPCC) für den Industriesektor, dass mittelfristig
+  emissionsarme bzw. -freie Energie (Konsistenz) und Energieeffizienz den größten Beitrag zur
+  Dekarbonisierung leisten, langfristig vor allem Materialeffizienz sowie die Abscheidung und
+  Nutzung von CO2 (CCUS). Das Ziel, 2050 keine Treibhausgasemissionen mehr auszustoßen, ist nur
+  durch die Entwicklung und Einführung innovativer Technologien erreichbar.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; Beispielwissen zur ökologischen
+    Nachhaltigkeit (8.3.3), eine Frage zur Tabelle ist nicht belegt.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Zwei Zeithorizonte: kurz-/mittelfristig vs. mittel- bis langfristig"
+    - "Hebel: Energie (Ökostrom, Effizienz, Brennstoffe, Elektrifizierung/Wasserstoff), Material (Substitution, Effizienz, Recycling) und CO2-Abscheidung (CCUS)"
+  common_mistakes:
+    - "CCUS nicht aufgelöst (carbon capture, use and storage)"
+    - "Langfristige Maßnahmen nur als Wiederholung der kurzfristigen statt als weitergehende Stufe beschrieben"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-58.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle 16 Zellen im Originalwortlaut,
+    Tabellengitter und dunkle Kopfzeile angenähert (Farbverlauf der Kopfzeile durch einheitliches
+    Grau ersetzt), CO2 mit tiefgestellter 2. Das fehlende Leerzeichen „emissionsfreieEnergie“ im
+    Scan ist als Satzfehler gewertet. Die Bildunterschrift im Skript schreibt „Dekabonisierung“
+    (Tippfehler); der Titel folgt dem Manifest.
+source:
+  pdf_page: 149
+  printed_page: 139
+  ocr_text_of_labels: >-
+    Kurz- und mittelfristige Maßnahmen; Mittel- bis langfristige Maßnahmen; Verringerung indirekter
+    Emissionen durch Ökostrom; Komplett emissionsfreie Energie; Energieeffizienz durch moderne
+    Technologien (BAT); Energieeffizienz nahe am thermodynamischen Minimum; Umstellung der
+    Brennstoffe (z.B. Biomasse); Tiefgreifende CO2-arme Elektrifizierung und grüner Wasserstoff;
+    Substitution von CO2-intensiven Materialien; Emissionsfreies Ausgangsmaterial (grüner
+    Wasserstoff, Biomasse); Sektorale CO2-Abscheidung (CCUS); Großflächige CO2-Abscheidung (CCUS);
+    Materialeffizienz und Substitution; Ökodesign und Bedarfsreduzierung; Erhöhung der
+    Recyclingquoten; Abfallwirtschaft welche Materialkreisläufe ermöglicht

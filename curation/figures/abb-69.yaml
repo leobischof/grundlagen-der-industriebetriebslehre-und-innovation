@@ -1,0 +1,71 @@
+id: abb-69
+title: Materialbedarf
+type: hierarchie
+description: >-
+  Baumdiagramm mit Definitionskästen: Der dunkle Wurzelkasten „Materialbedarfsarten“ verzweigt in
+  Primär-, Sekundär- und Tertiärbedarf, jeweils mit grau hinterlegter Überschrift und kurzer
+  Definition. Darunter stehen die Kästen Bruttobedarf und Nettobedarf; dünne Linien verbinden
+  jede der drei Bedarfsarten mit beiden Kästen (Brutto- und Nettobetrachtung gilt für jede
+  Bedarfsart).
+axes: []
+elements:
+  - {id: root, kind: box, text: Materialbedarfsarten, note: "Wurzel, dunkel hinterlegt"}
+  - {id: prim, kind: box, text: Primärbedarf, note: "Definition: Bedarf an verkaufsfähigen Erzeugnissen (Marktbedarf)"}
+  - {id: sek, kind: box, text: Sekundärbedarf, note: "Definition: Bedarf an Rohstoffen, Teilen und Gruppen zur Fertigung des Primärbedarfs"}
+  - {id: tert, kind: box, text: Tertiärbedarf, note: "Definition: Bedarf an Betriebs- und Hilfsstoffen"}
+  - {id: brutto, kind: box, text: Bruttobedarf, note: "Definition: Periodenbezogener Primär-, Sekundär- oder Tertiärbedarf"}
+  - {id: netto, kind: box, text: Nettobedarf, note: "Definition: Bruttobedarf abzüglich verfügbarem Lagerbestand"}
+relations:
+  - {from: root, to: prim, kind: enthält}
+  - {from: root, to: sek, kind: enthält}
+  - {from: root, to: tert, kind: enthält}
+  - {from: prim, to: brutto, kind: verbunden}
+  - {from: prim, to: netto, kind: verbunden}
+  - {from: sek, to: brutto, kind: verbunden}
+  - {from: sek, to: netto, kind: verbunden}
+  - {from: tert, to: brutto, kind: verbunden}
+  - {from: tert, to: netto, kind: verbunden}
+  - {from: brutto, to: netto, kind: folgt, text: abzüglich verfügbarem Lagerbestand}
+curves: []
+meaning: >-
+  Skript 9.1.3.1: Der Materialbedarf kennzeichnet Art und Menge des Materials für die Herstellung
+  bzw. die Belieferung des Absatzmarktes. Primärbedarf ist der Bedarf an Produkten
+  („Marktbedarf“), der abhängige (sekundäre) Bedarf der Bedarf an Baugruppen, Komponenten und
+  Rohmaterial für den Primärbedarf, der Tertiärbedarf der Bedarf an Hilfsstoffen (laut Abbildung
+  Betriebs- und Hilfsstoffe). Bei der Bestandsaufnahme wird zusätzlich zwischen Bruttobedarf
+  (periodenbezogen, ohne Vorräte) und Nettobedarf (Bruttobedarf minus verfügbarer Bestand)
+  unterschieden.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json am 2025-06-16 abgefragt (Primär-, Sekundär-, Tertiär-, Brutto-
+    und Nettobedarf definieren); die Abbildung enthält genau diese fünf Definitionen.
+  question_ids: [frage-2025-06-16-5]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Drei Bedarfsarten: Primär-, Sekundär-, Tertiärbedarf mit je einer Definition"
+    - "Primärbedarf = Marktbedarf an verkaufsfähigen Erzeugnissen"
+    - "Sekundärbedarf = Rohstoffe, Teile und Gruppen zur Fertigung des Primärbedarfs"
+    - "Tertiärbedarf = Betriebs- und Hilfsstoffe"
+    - "Nettobedarf = Bruttobedarf abzüglich verfügbarem Lagerbestand"
+  common_mistakes:
+    - "Brutto-/Nettobedarf als vierte und fünfte Bedarfsart neben Primär- bis Tertiärbedarf gezeichnet statt als Betrachtung, die für jede Bedarfsart gilt"
+    - "Sekundär- und Tertiärbedarf vertauscht"
+    - "Nettobedarf ohne Bezug auf den verfügbaren Lagerbestand definiert"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-69.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kästen, grau hinterlegte Kopfzeilen und
+    die sechs Kreuzverbindungen positionsgetreu übernommen, Grautöne angenähert. Der Wurzelkasten
+    „Materialbedarfsarten“ ist als Vorgabe kein Lösungselement. Die Abbildung definiert den
+    Tertiärbedarf als „Betriebs- und Hilfsstoffe“, der Fließtext nur als Hilfsstoffe.
+source:
+  pdf_page: 167
+  printed_page: 157
+  ocr_text_of_labels: >-
+    Materialbedarfsarten; Primärbedarf; Bedarf an verkaufsfähigen Erzeugnissen (Marktbedarf);
+    Sekundärbedarf; Bedarf an Rohstoffen, Teilen und Gruppen zur Fertigung des Primärbedarfs;
+    Tertiärbedarf; Bedarf an Betriebs- und Hilfsstoffen; Bruttobedarf; Periodenbezogener Primär-,
+    Sekundär- oder Tertiärbedarf; Nettobedarf; Bruttobedarf abzüglich verfügbarem Lagerbestand

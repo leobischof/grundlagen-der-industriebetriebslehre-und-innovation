@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 597" width="1266" height="597" data-figure-id="abb-74" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Gesamtanlageneffektivität</title>
+  <rect x="0" y="0" width="1266" height="597" fill="#ffffff"/>
+  <rect x="11" y="11" width="1244" height="574" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Connectors: loss bars -> loss causes -> rates -> OEE (structure) -->
+  <g fill="none" stroke="#b3b3b3" stroke-width="1.5">
+    <!-- availability losses fan out to three causes -->
+    <path d="M470 157 H487 M487 76 V239"/>
+    <path d="M487 76 H502"/>
+    <path d="M487 157 H502"/>
+    <path d="M487 239 H502"/>
+    <!-- causes -> Verfügbarkeitsrate -->
+    <path d="M616 76 H632 V157 H644"/>
+    <path d="M616 157 H632"/>
+    <path d="M616 239 H632 V176 H644"/>
+    <!-- speed losses -> two causes -> Leistungsindex -->
+    <path d="M402 380 H450 V339 H496"/>
+    <path d="M402 387 H437 V415 H496"/>
+    <path d="M611 339 H630 V381 H644"/>
+    <path d="M611 415 H630 V401 H644"/>
+    <!-- quality losses -> cause -> Qualitätsrate -->
+    <path d="M276 521 H496"/>
+    <path d="M611 521 H644"/>
+    <!-- three rates -> OEE -->
+    <path d="M935 152 H978 V302 H1029"/>
+    <path d="M936 382 H962 V319 H1029"/>
+    <path d="M936 487 H980 V338 H1029"/>
+  </g>
+
+  <!-- Explicit arrowheads (markers are not rendered by every SVG engine) -->
+  <g fill="#7f7f7f">
+    <polygon points="504.0,76.0 496.0,79.5 496.0,72.5"/>
+    <polygon points="504.0,157.0 496.0,160.5 496.0,153.5"/>
+    <polygon points="504.0,239.0 496.0,242.5 496.0,235.5"/>
+    <polygon points="646.0,157.0 638.0,160.5 638.0,153.5"/>
+    <polygon points="646.0,176.0 638.0,179.5 638.0,172.5"/>
+    <polygon points="498.0,339.0 490.0,342.5 490.0,335.5"/>
+    <polygon points="498.0,415.0 490.0,418.5 490.0,411.5"/>
+    <polygon points="646.0,381.0 638.0,384.5 638.0,377.5"/>
+    <polygon points="646.0,401.0 638.0,404.5 638.0,397.5"/>
+    <polygon points="498.0,521.0 490.0,524.5 490.0,517.5"/>
+    <polygon points="646.0,521.0 638.0,524.5 638.0,517.5"/>
+    <polygon points="1031.0,302.0 1023.0,305.5 1023.0,298.5"/>
+    <polygon points="1031.0,319.0 1023.0,322.5 1023.0,315.5"/>
+    <polygon points="1031.0,338.0 1023.0,341.5 1023.0,334.5"/>
+  </g>
+
+  <!-- Time bars (dark) with loss segments (light) -->
+  <rect x="22" y="25" width="449" height="67" fill="#444444"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="33" y="64" font-size="15" fill="#ffffff">Verfügbare Betriebsmittelzeit</text>
+
+  <rect x="24" y="122" width="347" height="68" fill="#444444"/>
+  <rect x="371" y="122" width="99" height="68" fill="#b5b5b5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="35" y="162" font-size="15" fill="#ffffff">Betriebsmittelzeit insgesamt</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="420" y="146" font-size="10" font-weight="bold" text-anchor="middle">Verluste bei</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="420" y="158" font-size="10" font-weight="bold" text-anchor="middle">der Verfügbar-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="420" y="170" font-size="10" font-weight="bold" text-anchor="middle">keit</text>
+
+  <rect x="24" y="346" width="246" height="66" fill="#444444"/>
+  <rect x="270" y="346" width="132" height="66" fill="#b5b5b5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="35" y="385" font-size="15" fill="#ffffff">Netto Betriebsmittelzeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="336" y="375" font-size="11" font-weight="bold" text-anchor="middle">Geschwindigkeits-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="336" y="392" font-size="11" font-weight="bold" text-anchor="middle">verluste</text>
+
+  <rect x="24" y="487" width="161" height="67" fill="#444444"/>
+  <rect x="185" y="487" width="91" height="67" fill="#b5b5b5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="35" y="515" font-size="15" fill="#ffffff">Wertschöpfende</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="35" y="535" font-size="15" fill="#ffffff">Betriebsmittelzeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="230" y="515" font-size="11" font-weight="bold" text-anchor="middle">Qualitäts-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="230" y="535" font-size="11" font-weight="bold" text-anchor="middle">verluste</text>
+
+  <!-- Loss causes -->
+  <g fill="#ffffff" stroke="#7f7f7f" stroke-width="1.5">
+    <rect x="504" y="42" width="112" height="68"/>
+    <rect x="504" y="122" width="112" height="70"/>
+    <rect x="504" y="205" width="112" height="67"/>
+    <rect x="498" y="304" width="113" height="68"/>
+    <rect x="498" y="387" width="113" height="69"/>
+    <rect x="498" y="487" width="113" height="68"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="560" y="63" font-size="15" text-anchor="middle">Nicht</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="560" y="82" font-size="15" text-anchor="middle">gearbeitet</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="560" y="101" font-size="15" text-anchor="middle">(ungeplant)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="560" y="154" font-size="15" text-anchor="middle">Einrichten</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="560" y="173" font-size="15" text-anchor="middle">und Umrüste</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="560" y="244" font-size="15" text-anchor="middle">Pannenhilfe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="334" font-size="15" text-anchor="middle">Equipment</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="353" font-size="15" text-anchor="middle">"im Leerlauf"</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="406" font-size="15" text-anchor="middle">Langsam</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="425" font-size="15" text-anchor="middle">laufende</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="444" font-size="15" text-anchor="middle">Geräte</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="516" font-size="15" text-anchor="middle">Qualitäts-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="554" y="536" font-size="15" text-anchor="middle">verluste</text>
+
+  <!-- Rates with formulas -->
+  <g fill="#ffffff" stroke="#7f7f7f" stroke-width="1.5">
+    <rect x="646" y="110" width="289" height="94"/>
+    <rect x="646" y="335" width="290" height="92"/>
+    <rect x="646" y="475" width="290" height="92"/>
+    <rect x="1031" y="272" width="207" height="94"/>
+  </g>
+  <g stroke="#222222" stroke-width="1.2">
+    <line x1="695" y1="177" x2="917" y2="177"/>
+    <line x1="702" y1="401" x2="910" y2="401"/>
+    <line x1="682" y1="541" x2="924" y2="541"/>
+  </g>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="790" y="134" font-size="15" font-weight="bold" text-anchor="middle">Verfügbarkeitsrate</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="663" y="182" font-size="15" font-style="italic">a =</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="806" y="170" font-size="14" font-style="italic" text-anchor="middle">Netto Betriebsmittelzeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="806" y="194" font-size="14" font-style="italic" text-anchor="middle">verfügbare Betriebsmittelzeit</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="790" y="359" font-size="15" font-weight="bold" text-anchor="middle">Leistungsindex</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="673" y="406" font-size="15" font-style="italic">p =</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="806" y="395" font-size="14" font-style="italic" text-anchor="middle">Nutzbare Betriebsmittelzeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="806" y="418" font-size="14" font-style="italic" text-anchor="middle">Netto Betriebsmittelzeit</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="790" y="499" font-size="15" font-weight="bold" text-anchor="middle">Qualitätsrate</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="546" font-size="13" font-style="italic">q =</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="803" y="535" font-size="12" font-style="italic" text-anchor="middle">Wertschöpfende Betriebsmittelzeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="803" y="556" font-size="12" font-style="italic" text-anchor="middle">Nutzabre Betriebsmittelzeit</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1134" y="297" font-size="15" font-weight="bold" text-anchor="middle">Gesamtanlagen-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1134" y="316" font-size="15" font-weight="bold" text-anchor="middle">effektivität</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1134" y="349" font-size="14" font-style="italic" text-anchor="middle">OEE = a · p · q</text>
+</svg>

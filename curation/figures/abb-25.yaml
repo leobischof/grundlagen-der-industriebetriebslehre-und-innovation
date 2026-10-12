@@ -1,0 +1,71 @@
+id: abb-25
+title: Zielsystem, Handlungssystem und Sachsystem
+type: system
+description: >-
+  Zwei versetzt übereinanderliegende 3-D-Blöcke. Unten der „Modellbereich“: Von links kommen
+  „Markt“ und „Nutzer“ mit einem Pfeil ins „Ziel-System“, das über das „Handlungs-System“ zum
+  „Sach-System“ führt. Oben rechts der „Objektbereich“: Eine „Maschine“ erhält „Stoff“, „Energie“
+  und „Signal“ als Eingänge und gibt Stoff und Energie aus; ein Pfeil führt aus dem Block zu
+  „Markt“ und „Nutzer“. Gestrichelte Projektionslinien mit der Beschriftung „Produktion“ verbinden
+  das Sach-System mit der Maschine.
+axes: []
+elements:
+  - {id: mb, kind: box, text: Modellbereich, note: unterer Block}
+  - {id: ob, kind: box, text: Objektbereich, note: oberer Block}
+  - {id: mn_in, kind: label, text: Markt / Nutzer, note: Eingang links in den Modellbereich}
+  - {id: zs, kind: box, text: Ziel-System}
+  - {id: hs, kind: box, text: Handlungs-System}
+  - {id: ss, kind: box, text: Sach-System}
+  - {id: m, kind: box, text: Maschine, note: "im Original ein Werkzeugmaschinen-Piktogramm"}
+  - {id: in1, kind: label, text: Stoff}
+  - {id: in2, kind: label, text: Energie}
+  - {id: in3, kind: label, text: Signal}
+  - {id: mn_out, kind: label, text: Markt / Nutzer, note: Ausgang rechts aus dem Objektbereich}
+  - {id: p, kind: label, text: Produktion, note: an den gestrichelten Projektionslinien}
+relations:
+  - {from: mn_in, to: zs, kind: folgt, text: Anforderungen}
+  - {from: zs, to: hs, kind: folgt}
+  - {from: hs, to: ss, kind: folgt}
+  - {from: ss, to: m, kind: folgt, text: Produktion}
+  - {from: in1, to: m, kind: folgt}
+  - {from: in2, to: m, kind: folgt}
+  - {from: in3, to: m, kind: folgt}
+  - {from: m, to: mn_out, kind: folgt}
+curves: []
+meaning: >-
+  Ziel der Produktentstehung ist es, ein Zielsystem (alle Ziele des neuen Produkts) mit einem
+  Handlungssystem (z. B. ein Unternehmen mit seinen Ressourcen) in ein geeignetes Sachsystem
+  (z. B. Simulationsmodelle, Prototypen, serienreife Produkte) zu transformieren (Skript 5.1).
+  Diese Transformation findet im Modellbereich statt; durch die Produktion wird das Sachsystem im
+  Objektbereich zum realen technischen Gebilde (hier eine Maschine), das Stoff, Energie und Signale
+  umsetzt und an Markt und Nutzer geht.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Frage zugeordnet. Begriffsmodell aus 5.1, das als
+    Definitionswissen (Ziel-, Handlungs-, Sachsystem) abfragbar wäre.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Ziel-System → Handlungs-System → Sach-System im Modellbereich"
+    - "Markt/Nutzer liefern die Anforderungen an das Ziel-System"
+    - "Produktion überführt das Sach-System in den Objektbereich (reale Maschine)"
+  common_mistakes:
+    - "Reihenfolge der drei Systeme vertauscht"
+    - "Handlungssystem mit Sachsystem verwechselt (Handlungssystem = ausführendes System, z. B. Unternehmen)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-25.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Blockgeometrie, Grautöne und Pfeillagen
+    angenähert, alle Beschriftungen im Wortlaut. Das Werkzeugmaschinen-Piktogramm des Originals ist
+    durch einen schlichten Umriss aus Rechtecken mit der Beschriftung „Maschine“ ersetzt. Die
+    gestrichelten Linien nutzen stroke-dasharray
+    (seit pipeline/svg_mupdf setzt auch der PDF-Export Strichelung und Marker um).
+source:
+  pdf_page: 87
+  printed_page: 77
+  ocr_text_of_labels: >-
+    Objektbereich; Stoff; Energie; Signal; Maschine; Markt; Nutzer; Modellbereich; Ziel-System;
+    Handlungs-System; Sach-System; Produktion

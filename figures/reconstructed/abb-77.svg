@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1275 800" width="1275" height="800" data-figure-id="abb-77" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Produktionssteuerung</title>
+  <rect x="0" y="0" width="1275" height="800" fill="#ffffff"/>
+  <rect x="12" y="10" width="1253" height="780" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Thin light connectors (structure, not part of the answer) -->
+  <g fill="none" stroke="#c4c4c4" stroke-width="1.5">
+    <!-- root to the three functions -->
+    <path d="M245 400 L329 222 M245 405 L327 516 M245 410 L329 698"/>
+    <!-- Produktion veranlassen to its seven tasks -->
+    <path d="M476 222 L554 51 M476 222 L554 101 M476 222 L554 155 M476 222 L554 205 M476 222 L554 255 M476 222 L554 337 M476 222 L554 385"/>
+    <!-- Produktion überwachen to its three tasks -->
+    <path d="M474 516 L554 467 M474 516 L554 517 M474 516 L554 567"/>
+    <!-- Produktion sichern to its three tasks -->
+    <path d="M476 698 L554 649 M476 698 L554 699 M476 698 L554 749"/>
+  </g>
+  <!-- faint separator between Auftragsvorbereitung and Werkstattsteuerung -->
+  <line x1="555" y1="297" x2="1250" y2="297" stroke="#dddddd" stroke-width="1.5"/>
+
+  <!-- Root: given as the prompt of the exercise -->
+  <rect x="30" y="360" width="215" height="90" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="137" y="398" font-size="35" fill="#ffffff" text-anchor="middle">Produktions-</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="137" y="438" font-size="35" fill="#ffffff" text-anchor="middle">steuerung</text>
+
+  <!-- The three control functions -->
+  <rect x="329" y="178" width="147" height="88" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="402" y="216" font-size="24" fill="#ffffff" text-anchor="middle">Produktion</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="402" y="245" font-size="24" fill="#ffffff" text-anchor="middle">veranlassen</text>
+
+  <rect x="327" y="472" width="147" height="89" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="400" y="510" font-size="24" fill="#ffffff" text-anchor="middle">Produktion</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="400" y="539" font-size="24" fill="#ffffff" text-anchor="middle">überwachen</text>
+
+  <rect x="329" y="654" width="147" height="88" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="402" y="692" font-size="24" fill="#ffffff" text-anchor="middle">Produktion</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="402" y="721" font-size="24" fill="#ffffff" text-anchor="middle">sichern</text>
+
+  <!-- Task boxes -->
+  <g fill="#ffffff" stroke="#555555" stroke-width="1.5">
+    <rect x="554" y="30" width="630" height="42"/>
+    <rect x="554" y="80" width="630" height="42"/>
+    <rect x="554" y="134" width="630" height="42"/>
+    <rect x="554" y="184" width="630" height="42"/>
+    <rect x="554" y="234" width="630" height="42"/>
+    <rect x="554" y="316" width="630" height="42"/>
+    <rect x="554" y="364" width="630" height="42"/>
+    <rect x="554" y="446" width="630" height="42"/>
+    <rect x="554" y="496" width="630" height="42"/>
+    <rect x="554" y="546" width="630" height="42"/>
+    <rect x="554" y="628" width="630" height="42"/>
+    <rect x="554" y="678" width="630" height="42"/>
+    <rect x="554" y="728" width="630" height="42"/>
+  </g>
+  <g font-size="23.5" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="59">Fertigungsprogramm u. -aufträge bilden</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="109">Material- und Kapazitätsbedarf ermitteln</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="163">Material und Kapazität beschaffen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="213">Termine ermitteln u. Kapazität belegen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="263">Arbeitsunterlagen erstellen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="345">Kapazität und Eingaben bereitstellen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="393">Arbeitsverteilung durchführen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="475">Ist-Daten erfassen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="525">Soll- und Ist-Daten vergleichen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="575">Soll-/Ist-Abweichung beurteilen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="657">Störungsursache ermitteln</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="707">In Fertigungslauf eingreifen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="568" y="757">Planänderungen veranlassen</text>
+  </g>
+
+  <!-- Vertical phase labels on the right -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="24" fill="#111111" text-anchor="middle" transform="translate(1230 152) rotate(-90)">Auftragsvorbereitung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="24" fill="#111111" text-anchor="middle" transform="translate(1230 541) rotate(-90)">Werkstattsteuerung</text>
+</svg>

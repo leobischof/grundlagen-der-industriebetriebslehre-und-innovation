@@ -1,0 +1,96 @@
+id: abb-18
+title: Abgrenzung des Industrie Management im Kontext der Wirtschaftseinheiten
+type: hierarchie
+description: >-
+  Baumdiagramm der Wirtschaftswissenschaften: Sie teilen sich in Volkswirtschaftslehre und
+  Betriebswirtschaftslehre, diese in Spezielle und Allgemeine Betriebswirtschaftslehre. Die
+  Spezielle Betriebswirtschaftslehre gliedert sich in Institutionenlehre (Handels-, Industrie-,
+  Bankbetriebslehre; die Industriebetriebslehre weiter in Chemie, Maschinenbau, Bauindustrie,
+  Textil) und Funktionenlehre (Beschaffung, Absatzwirtschaft, Forschung & Entwicklung,
+  Produktionswirtschaft, Controlling, Investitionen/Finanzierung). Der Pfad zur
+  Industriebetriebslehre ist grau-fett hervorgehoben.
+axes: []
+elements:
+  - {id: ww, kind: label, text: Wirtschaftswissenschaften, note: "Wurzel, fett"}
+  - {id: vwl, kind: label, text: Volkswirtschaftslehre}
+  - {id: bwl, kind: label, text: Betriebswirtschaftslehre, note: "hervorgehoben (grau, fett)"}
+  - {id: sbwl, kind: label, text: Spezielle Betriebswirtschaftslehre, note: hervorgehoben}
+  - {id: abwl, kind: label, text: Allgemeine Betriebswirtschaftslehre}
+  - {id: inst, kind: label, text: Institutionenlehre, note: hervorgehoben}
+  - {id: funk, kind: label, text: Funktionenlehre}
+  - {id: handel, kind: label, text: Handelsbetriebslehre, note: "getrennt „Handelsbetriebs-“ / „lehre“"}
+  - {id: ibl, kind: label, text: Industriebetriebslehre, note: "hervorgehoben, getrennt „Industriebetriebs-“ / „lehre“"}
+  - {id: bank, kind: label, text: Bankbetriebslehre, note: "getrennt „Bankbetriebs-“ / „lehre“"}
+  - {id: chemie, kind: label, text: Chemie}
+  - {id: masch, kind: label, text: Maschinenbau}
+  - {id: bau, kind: label, text: Bauindustrie}
+  - {id: textil, kind: label, text: Textil}
+  - {id: besch, kind: label, text: Beschaffung}
+  - {id: absatz, kind: label, text: Absatzwirtschaft}
+  - {id: fue, kind: label, text: Forschung & Entwicklung}
+  - {id: prodw, kind: label, text: Produktionswirtschaft, note: "getrennt „Produktions-“ / „wirtschaft“"}
+  - {id: contr, kind: label, text: Controlling}
+  - {id: invfin, kind: label, text: Investitionen/Finanzierung, note: "im Original falsch getrennt „Investitionen/Fina“ / „nzierung“"}
+relations:
+  - {from: ww, to: vwl, kind: enthält}
+  - {from: ww, to: bwl, kind: enthält}
+  - {from: bwl, to: sbwl, kind: enthält}
+  - {from: bwl, to: abwl, kind: enthält}
+  - {from: sbwl, to: inst, kind: enthält}
+  - {from: sbwl, to: funk, kind: enthält}
+  - {from: inst, to: handel, kind: enthält}
+  - {from: inst, to: ibl, kind: enthält}
+  - {from: inst, to: bank, kind: enthält}
+  - {from: ibl, to: chemie, kind: enthält}
+  - {from: ibl, to: masch, kind: enthält}
+  - {from: ibl, to: bau, kind: enthält}
+  - {from: ibl, to: textil, kind: enthält}
+  - {from: funk, to: besch, kind: enthält}
+  - {from: funk, to: absatz, kind: enthält}
+  - {from: funk, to: fue, kind: enthält}
+  - {from: funk, to: prodw, kind: enthält}
+  - {from: funk, to: contr, kind: enthält}
+  - {from: funk, to: invfin, kind: enthält}
+curves: []
+meaning: >-
+  Industrie Management (Industriebetriebslehre) ist laut Skript (3.3) ein Teil der
+  Wirtschaftswissenschaften, genauer der Betriebswirtschaftslehre, und konzentriert sich auf das
+  Industrieunternehmen als Untersuchungsgegenstand. Als institutionell abgegrenzte Spezielle
+  Betriebswirtschaftslehre steht sie neben Handels- und Bankbetriebslehre und untersucht
+  ganzheitlich die Funktionsbereiche eines Industrieunternehmens; die Funktionenlehre schneidet
+  dagegen nach Funktionen (Beschaffung, Produktion, Absatz …).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung direkt keine Frage zugeordnet. Abschnitt 3.3
+    (by_section) ist aber mit frage-2025-03-18-3 verknüpft (Abgrenzung von Industrieunternehmen
+    gegenüber anderen Wirtschaftseinheiten); die Abbildung stützt diese Abgrenzung, daher mittel.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Wirtschaftswissenschaften → VWL / BWL"
+    - "BWL → Spezielle / Allgemeine BWL"
+    - "Spezielle BWL → Institutionenlehre / Funktionenlehre"
+    - "Institutionenlehre → Handels-, Industrie-, Bankbetriebslehre; Industriebetriebslehre → Branchen"
+    - "Funktionenlehre → sechs Funktionen"
+  common_mistakes:
+    - "Industriebetriebslehre unter die Funktionenlehre statt unter die Institutionenlehre gehängt"
+    - "Allgemeine und Spezielle BWL vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-18.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Verbindungslinien und Pfeilspitzen
+    angenähert, die grau-fette Hervorhebung des Pfads zur Industriebetriebslehre übernommen. Die
+    fehlerhafte Trennung „Investitionen/Fina“ / „nzierung“ ist unverändert aus dem Original
+    übernommen. Der Wurzelknoten „Wirtschaftswissenschaften“ ist bewusst kein Lösungselement.
+source:
+  pdf_page: 65
+  printed_page: 55
+  ocr_text_of_labels: >-
+    Wirtschaftswissenschaften; Volkswirtschaftslehre; Betriebswirtschaftslehre; Spezielle
+    Betriebswirtschaftslehre; Allgemeine Betriebswirtschaftslehre; Institutionenlehre;
+    Funktionenlehre; Handelsbetriebs- lehre; Industriebetriebs- lehre; Bankbetriebs- lehre;
+    Chemie; Maschinenbau; Bauindustrie; Textil; Beschaffung; Investitionen/Fina nzierung;
+    Absatzwirtschaft; Controlling; Forschung & Entwicklung; Produktions- wirtschaft

@@ -11,7 +11,7 @@ import re
 from collections import Counter
 from pathlib import Path
 
-from . import config
+from . import config, sketch_scope
 from .qa_findings import Finding, error, info, warning
 from .qa_markdown import image_targets
 from .qa_repo import RepoView
@@ -90,6 +90,10 @@ def _reconstructions(view: RepoView, ids: set[str]) -> list[Finding]:
     out = []
     rec_dir = view.path(config.FIG_RECONSTRUCTED)
     ex_dir = view.path(config.FIG_EXERCISES)
+    by_figure = (view.json(sketch_scope.TOPIC_MAPPING, {}) or {}).get("by_figure", {})
+    kinds = {f["id"]: f.get("kind", "figure") for f in view.figures}
+    sketchable = {i for i in ids if sketch_scope.worth_sketching(
+        i, kinds.get(i, "figure"), (view.figure_meta(i).get("exam_relevance") or {}).get("level"), by_figure)}
     for fid in sorted(ids):
         status = (view.figure_meta(fid).get("reconstruction") or {}).get("status", "not-started")
         svg = rec_dir / f"{fid}.svg"
@@ -100,7 +104,7 @@ def _reconstructions(view: RepoView, ids: set[str]) -> list[Finding]:
         if not svg.exists():
             continue
         out += _svg_problems(fid, svg.read_text(encoding="utf-8"), status)
-        if status == "faithful" and not (ex_dir / f"{fid}-blank.svg").exists():
+        if status == "faithful" and fid in sketchable and not (ex_dir / f"{fid}-blank.svg").exists():
             out.append(warning(FIGURES, f"`{fid}`: geprüfte Rekonstruktion ohne Zeichenübung "
                                         f"(`python -m pipeline exercises`)"))
     stray = sorted(p.stem for p in rec_dir.glob("*.svg") if p.stem not in ids) if rec_dir.exists() else []

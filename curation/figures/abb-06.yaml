@@ -1,0 +1,77 @@
+id: abb-06
+title: Die innovativsten Unternehmen 2022
+type: tabelle
+description: >-
+  Tabelle mit vier Spalten (Rang 2021, Unternehmen, Land, Sektor) und zehn Zeilen: die zehn
+  innovativsten Unternehmen laut BCG-Rangliste. Sieben der zehn Unternehmen stammen aus den USA,
+  dazu je eines aus Südkorea, China und Japan. Kopfzeile dunkelgrau, Zeilen abwechselnd hell
+  hinterlegt.
+axes: []
+elements:
+  - {id: h1, kind: label, text: Rang 2021, note: Spaltenkopf}
+  - {id: h2, kind: label, text: Unternehmen, note: Spaltenkopf}
+  - {id: h3, kind: label, text: Land, note: Spaltenkopf}
+  - {id: h4, kind: label, text: Sektor, note: Spaltenkopf}
+  - {id: r1, kind: zeile, text: "1 | Apple | USA | Technologie, Hard- und Softwareentwickler"}
+  - {id: r2, kind: zeile, text: "2 | Microsoft | USA | Technologie, Hard- und Softwareentwickler"}
+  - {id: r3, kind: zeile, text: "3 | Amazon | USA | Online-Einkaufsdienstleistungen"}
+  - {id: r4, kind: zeile, text: "4 | Tesla | USA | Elektrische Fahrzeuge, Energieerzeugungs- und Speichersysteme"}
+  - {id: r5, kind: zeile, text: "5 | Samsung | Südkorea | DRAM-, NAND-Flashspeicher-, SSD-, Fernsehgeräte-, Kühlschrank-, Smartphone-Hersteller"}
+  - {id: r6, kind: zeile, text: "6 | Moderna | USA | Biotechnologie"}
+  - {id: r7, kind: zeile, text: "7 | Huawei | China | Smartphone Produzent"}
+  - {id: r8, kind: zeile, text: "8 | Sony | Japan | Elektronik"}
+  - {id: r9, kind: zeile, text: "9 | IBM | USA | Künstliche Intelligenz/Business Analytics, Cloud Computing, Security, Quantencomputing, Internet der Dinge (IoT), Blockchain-Technologien"}
+  - {id: r10, kind: zeile, text: "10 | Meta (Facebook) | USA | Social-Networking"}
+relations:
+  - {from: r1, to: r2, kind: folgt, text: Rangfolge}
+  - {from: r2, to: r3, kind: folgt}
+  - {from: r3, to: r4, kind: folgt}
+  - {from: r4, to: r5, kind: folgt}
+  - {from: r5, to: r6, kind: folgt}
+  - {from: r6, to: r7, kind: folgt}
+  - {from: r7, to: r8, kind: folgt}
+  - {from: r8, to: r9, kind: folgt}
+  - {from: r9, to: r10, kind: folgt}
+curves: []
+meaning: >-
+  Studien wie der „Annual Innovation Report“ der BCG bewerten regelmäßig die innovativsten
+  Unternehmen weltweit. Im Mittel sitzen 7 der 10 innovativsten Unternehmen in den USA, was die
+  Dominanz westlicher Unternehmen bei der Innovationsfähigkeit zeigt. Die BCG-Rangliste beruht auf
+  einer Umfrage unter über 1.500 Innovations-Führungskräften und vier Dimensionen: Global
+  Mindshare, Industry Peer View, Industry Disruption und Wertschöpfung (Skript 2.1, S. 22–24).
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Reine Faktentabelle zur
+    Illustration; prüfungsrelevant ist höchstens die Aussage „7 von 10 in den USA“.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Spalten: Rang 2021, Unternehmen, Land, Sektor"
+    - "Reihenfolge Apple, Microsoft, Amazon, Tesla, Samsung, Moderna, Huawei, Sony, IBM, Meta"
+    - "7 von 10 Unternehmen aus den USA"
+  common_mistakes:
+    - "Länderzuordnung verwechselt (Samsung Südkorea, Huawei China, Sony Japan)"
+    - "Rangjahr 2021 mit dem Berichtsjahr 2022 im Titel verwechselt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-06.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle 10 Zeilen und 4 Spalten vollständig,
+    Zeilenumbrüche der Sektor-Spalte wie im Original. Die durchscheinende Rückseite des Scans und
+    die angeschnittenen Textzeilen am oberen und unteren Bildrand (Fließtext bzw. Bildunterschrift)
+    sind Scan-Artefakte und wurden nicht nachgebildet. Schrift Arial statt Calibri; Grautöne angenähert.
+    Spaltenköpfe ohne class="answer" (vorgegebenes Tabellengerüst), alle Zellinhalte class="answer".
+source:
+  pdf_page: 33
+  printed_page: 23
+  ocr_text_of_labels: >-
+    Rang 2021; Unternehmen; Land; Sektor; 1 Apple USA Technologie, Hard- und Softwareentwickler;
+    2 Microsoft USA Technologie, Hard- und Softwareentwickler; 3 Amazon USA
+    Online-Einkaufsdienstleistungen; 4 Tesla USA Elektrische Fahrzeuge, Energieerzeugungs- und
+    Speichersysteme; 5 Samsung Südkorea DRAM-, NAND-Flashspeicher-, SSD-, Fernsehgeräte-,
+    Kühlschrank-, Smartphone-Hersteller; 6 Moderna USA Biotechnologie; 7 Huawei China Smartphone
+    Produzent; 8 Sony Japan Elektronik; 9 IBM USA Künstliche Intelligenz/Business Analytics, Cloud
+    Computing, Security, Quantencomputing, Internet der Dinge (IoT), Blockchain-Technologien;
+    10 Meta (Facebook) USA Social-Networking

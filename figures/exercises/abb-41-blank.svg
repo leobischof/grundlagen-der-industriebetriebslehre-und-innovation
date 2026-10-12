@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1275 701" width="1275" height="701" data-figure-id="abb-41" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Zusammenhang der Kenngrößen des Managements – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1275" height="701" fill="#ffffff" />
+  <!-- frame of the original figure -->
+  <rect x="12" y="12" width="1253" height="678" fill="#f7f7f7" stroke="#333333" stroke-width="2" />
+
+  <!-- thick dark arrows (structure) -->
+  <g fill="#3c3c3c">
+    <!-- Legitimität -> Zielsystem -->
+    <polygon points="295,91 455,91 455,78 500,108 455,138 455,125 295,125" />
+    <!-- Zielsystem -> Effektivität -->
+    <polygon points="757,91 925,91 925,78 970,108 925,138 925,125 757,125" />
+    <!-- Zielsystem -> Industrieunternehmung -->
+    <polygon points="610,158 646,158 646,195 667,195 628,236 589,195 610,195" />
+    <!-- Effektivität -> Output -->
+    <polygon points="1040,188 1075,188 1075,252 1095,252 1057,306 1019,252 1040,252" />
+    <!-- Effizienz -> Input (L-shaped) -->
+    <polygon points="547,580 547,612 196,612 196,420 177,420 212,366 247,420 229,420 229,580" />
+    <!-- Effizienz -> Output (L-shaped) -->
+    <polygon points="703,580 1041,580 1041,420 1022,420 1057,366 1092,420 1074,420 1074,612 703,612" />
+  </g>
+
+  <!-- Input / Output block arrows -->
+  <polygon points="115,300 290,300 290,285 352,335 290,386 290,372 115,372" fill="#c9c9c9" stroke="#222222" stroke-width="2" />
+  <polygon points="930,300 1105,300 1105,285 1168,335 1105,386 1105,372 930,372" fill="#c9c9c9" stroke="#222222" stroke-width="2" />
+  <rect class="placeholder" x="172.4" y="317.2" width="93.2" height="40.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="964.9" y="317.2" width="110.3" height="40.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- target system -->
+  <rect x="500" y="50" width="256" height="108" fill="#f3e9e9" stroke="#222222" stroke-width="2" />
+  <rect class="placeholder" x="538.8" y="86.2" width="178.5" height="40.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- the three management indicators -->
+  <g fill="#f7f0f0" stroke="#222222" stroke-width="2">
+    <circle cx="215" cy="110" r="80" />
+    <circle cx="1055" cy="110" r="80" />
+    <circle cx="625" cy="598" r="80" />
+  </g>
+  <rect class="placeholder" x="117.2" y="91.2" width="195.5" height="40.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="948.7" y="91.2" width="212.6" height="40.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="544.3" y="579.2" width="161.5" height="40.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- the industrial company as object of management -->
+  <ellipse cx="630" cy="335" rx="228" ry="98" fill="#bdbdbd" stroke="#222222" stroke-width="2" />
+  <rect class="placeholder" x="426.4" y="295.4" width="411.2" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="439.0" y="337.4" width="392.0" height="41.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

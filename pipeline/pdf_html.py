@@ -20,7 +20,7 @@ import pymupdf
 import yaml
 from PIL import Image
 
-from . import content_render, figure_publish, pdf_math
+from . import content_render, figure_publish, pdf_math, svg_mupdf
 from .pdf_geometry import MAX_FIGURE_HEIGHT_PT, TEXT_WIDTH_PT
 
 UNANCHORED_HEADING = re.compile(rf"^#{{1,6}}\s*{re.escape(content_render.UNANCHORED_HEADING)}\s*$", re.M)
@@ -157,7 +157,7 @@ def _block_image(data: bytes, suffix: str, w: float, h: float, assets: Assets, n
 
 
 def _svg_tag(path: Path, assets: Assets) -> str:
-    data = path.read_bytes()
+    data = svg_mupdf.for_mupdf(path.read_bytes())   # MuPDF ignores dashes, markers, <g> text props
     with pymupdf.open("svg", data) as svg:
         rect = svg[0].rect
     return _block_image(data, "svg", rect.width, rect.height, assets, natural=TEXT_WIDTH_PT)

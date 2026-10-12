@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1323 1047" width="1323" height="1047" data-figure-id="abb-06" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Die innovativsten Unternehmen 2022</title>
+  <rect x="0" y="0" width="1323" height="1047" fill="#ffffff"/>
+  <!-- header row: dark grey cells separated by thin white gaps -->
+  <rect x="108" y="40" width="105" height="80" fill="#6b6f75"/>
+  <rect x="216" y="40" width="258" height="80" fill="#6b6f75"/>
+  <rect x="477" y="40" width="154" height="80" fill="#6b6f75"/>
+  <rect x="634" y="40" width="558" height="80" fill="#6b6f75"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="160" y="72" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">Rang</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="160" y="106" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">2021</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="233" y="72" font-size="24" font-weight="bold" fill="#ffffff">Unternehmen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="495" y="72" font-size="24" font-weight="bold" fill="#ffffff">Land</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="651" y="72" font-size="24" font-weight="bold" fill="#ffffff">Sektor</text>
+  <!-- body rows: odd ranks shaded, even ranks white, columns separated by white gaps -->
+  <rect x="108" y="123" width="105" height="74" fill="#e8e3e6"/>
+  <rect x="216" y="123" width="258" height="74" fill="#e8e3e6"/>
+  <rect x="477" y="123" width="154" height="74" fill="#e8e3e6"/>
+  <rect x="634" y="123" width="558" height="74" fill="#e8e3e6"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="158" font-size="24" text-anchor="middle">1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="158" font-size="24">Apple</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="158" font-size="24">USA</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="158" font-size="24">Technologie, Hard- und Softwareentwickler</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="235" font-size="24" text-anchor="middle">2</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="235" font-size="24">Microsoft</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="235" font-size="24">USA</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="235" font-size="24">Technologie, Hard- und Softwareentwickler</text>
+  <rect x="108" y="286" width="105" height="71" fill="#e8e3e6"/>
+  <rect x="216" y="286" width="258" height="71" fill="#e8e3e6"/>
+  <rect x="477" y="286" width="154" height="71" fill="#e8e3e6"/>
+  <rect x="634" y="286" width="558" height="71" fill="#e8e3e6"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="321" font-size="24" text-anchor="middle">3</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="321" font-size="24">Amazon</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="321" font-size="24">USA</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="321" font-size="24">Online-Einkaufsdienstleistungen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="395" font-size="24" text-anchor="middle">4</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="395" font-size="24">Tesla</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="395" font-size="24">USA</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="395" font-size="24">Elektrische Fahrzeuge, Energieerzeugungs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="429" font-size="24">und Speichersysteme</text>
+  <rect x="108" y="448" width="105" height="114" fill="#e8e3e6"/>
+  <rect x="216" y="448" width="258" height="114" fill="#e8e3e6"/>
+  <rect x="477" y="448" width="154" height="114" fill="#e8e3e6"/>
+  <rect x="634" y="448" width="558" height="114" fill="#e8e3e6"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="483" font-size="24" text-anchor="middle">5</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="483" font-size="24">Samsung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="483" font-size="24">Südkorea</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="483" font-size="24">DRAM-, NAND-Flashspeicher-, SSD-,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="517" font-size="24">Fernsehgeräte-, Kühlschrank-, Smartphone-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="551" font-size="24">Hersteller</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="600" font-size="24" text-anchor="middle">6</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="600" font-size="24">Moderna</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="600" font-size="24">USA</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="600" font-size="24">Biotechnologie</text>
+  <rect x="108" y="635" width="105" height="72" fill="#e8e3e6"/>
+  <rect x="216" y="635" width="258" height="72" fill="#e8e3e6"/>
+  <rect x="477" y="635" width="154" height="72" fill="#e8e3e6"/>
+  <rect x="634" y="635" width="558" height="72" fill="#e8e3e6"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="670" font-size="24" text-anchor="middle">7</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="670" font-size="24">Huawei</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="670" font-size="24">China</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="670" font-size="24">Smartphone Produzent</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="745" font-size="24" text-anchor="middle">8</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="745" font-size="24">Sony</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="745" font-size="24">Japan</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="745" font-size="24">Elektronik</text>
+  <rect x="108" y="786" width="105" height="149" fill="#e8e3e6"/>
+  <rect x="216" y="786" width="258" height="149" fill="#e8e3e6"/>
+  <rect x="477" y="786" width="154" height="149" fill="#e8e3e6"/>
+  <rect x="634" y="786" width="558" height="149" fill="#e8e3e6"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="821" font-size="24" text-anchor="middle">9</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="821" font-size="24">IBM</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="821" font-size="24">USA</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="821" font-size="24">Künstliche Intelligenz/Business Analytics,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="855" font-size="24">Cloud Computing, Security,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="889" font-size="24">Quantencomputing, Internet der Dinge (IoT),</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="923" font-size="24">Blockchain-Technologien</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="160" y="973" font-size="24" text-anchor="middle">10</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="973" font-size="24">Meta (Facebook)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="495" y="973" font-size="24">USA</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="651" y="973" font-size="24">Social-Networking</text>
+</svg>

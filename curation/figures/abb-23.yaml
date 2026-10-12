@@ -1,0 +1,80 @@
+id: abb-23
+title: Geschichte der Produktentstehung
+type: prozess
+description: >-
+  Dreispaltige Entwicklungsdarstellung von links nach rechts. Spalte „Bis 1900“: ein einzelner
+  Kasten „Handwerks-Meister“. Spalte „1900-1980“: eine Säule von Fachfunktionen (Marketing,
+  Vertrieb, Finanzwesen, Konstruktion, Entwicklung, Erprobung, Produktionsvorbereitung, Produktion,
+  Qualitätsmanagement, Prod.-Entwicklung, Materialmanagement, Versand, Service), zu denen Linien
+  vom Handwerks-Meister ausfächern. Spalte „heute“: Linien aus den Fachfunktionen laufen im
+  „Simultaneous Engineering Team“ und im „Qualitätsmanagement Team“ zusammen. Unter den Spalten
+  zeigen Pfeile die Entwicklungsrichtung „Differenzierung“ und „Integration“.
+axes: []
+elements:
+  - {id: t1, kind: label, text: Bis 1900, note: Epoche links}
+  - {id: t2, kind: label, text: 1900-1980, note: Epoche Mitte}
+  - {id: t3, kind: label, text: heute, note: Epoche rechts}
+  - {id: hm, kind: box, text: Handwerks-Meister, note: gebündelte Kompetenz in einer Person}
+  - {id: f1, kind: box, text: Marketing}
+  - {id: f2, kind: box, text: Vertrieb}
+  - {id: f3, kind: box, text: Finanzwesen}
+  - {id: f4, kind: box, text: Konstruktion}
+  - {id: f5, kind: box, text: Entwicklung}
+  - {id: f6, kind: box, text: Erprobung}
+  - {id: f7, kind: box, text: Produktionsvorbereitung}
+  - {id: f8, kind: box, text: Produktion}
+  - {id: f9, kind: box, text: Qualitätsmanagement}
+  - {id: f10, kind: box, text: Prod.-Entwicklung}
+  - {id: f11, kind: box, text: Materialmanagement}
+  - {id: f12, kind: box, text: Versand}
+  - {id: f13, kind: box, text: Service}
+  - {id: se, kind: box, text: Simultaneous Engineering Team}
+  - {id: qm, kind: box, text: Qualitätsmanagement Team}
+  - {id: d, kind: pfeil, text: Differenzierung, note: "Übergang Bis 1900 → 1900-1980"}
+  - {id: i, kind: pfeil, text: Integration, note: "Übergang 1900-1980 → heute"}
+relations:
+  - {from: hm, to: f1, kind: folgt, text: "Differenzierung (Linien zu allen Fachfunktionen)"}
+  - {from: f1, to: se, kind: folgt, text: "Integration (Linien aus allen Fachfunktionen)"}
+  - {from: f5, to: qm, kind: folgt, text: "Integration (Linien aus den unteren Fachfunktionen)"}
+  - {from: d, to: i, kind: folgt}
+curves: []
+meaning: >-
+  Die Abbildung zeigt den Wandel der Produktentstehung (Skript S. 75, Kapitel 5 Überblick): Bis
+  zum Ende des 19. Jahrhunderts bündelte der Handwerks-Meister das gesamte Wissen. Mit der
+  Industrialisierung wurden Planung und Ausführung getrennt und die Arbeit in viele Fachgebiete
+  differenziert. Heute werden diese Fachgebiete wieder integriert, z. B. in Simultaneous
+  Engineering Teams oder Qualitätsmanagement Teams, weil eine nicht integrierte Produktentstehung
+  den heutigen Anforderungen nicht gerecht wird.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Frage zugeordnet. Dient als Einstieg und Begründung für die
+    integrierte Produktentstehung (Abschnitt 5.6), die selbst geprüft wird.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Drei Epochen: Bis 1900 – 1900-1980 – heute"
+    - "Handwerks-Meister → Differenzierung in Fachfunktionen → Integration in Teams"
+    - "Teams heute: Simultaneous Engineering Team und Qualitätsmanagement Team"
+  common_mistakes:
+    - "Reihenfolge Differenzierung/Integration vertauscht"
+    - "Heutige Stufe als weitere Spezialisierung statt als Integration dargestellt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-23.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Beschriftungen im Wortlaut
+    übernommen, Kastenpositionen und Grautöne angenähert. Die Verbindungslinien sind nur
+    strukturell nachgebildet: vom Handwerks-Meister zu jeder Fachfunktion, von jeder Fachfunktion
+    zum Simultaneous Engineering Team und von Entwicklung bis Service zum Qualitätsmanagement Team;
+    die genaue Linienzahl und -führung des Originals ist angenähert. Pfeilspitzen als Polygone
+    gezeichnet.
+source:
+  pdf_page: 85
+  printed_page: 75
+  ocr_text_of_labels: >-
+    Bis 1900; 1900-1980; heute; Handwerks-Meister; Marketing; Vertrieb; Finanzwesen; Konstruktion;
+    Entwicklung; Erprobung; Produktionsvorbereitung; Produktion; Qualitätsmanagement;
+    Prod.-Entwicklung; Materialmanagement; Versand; Service; Simultaneous Engineering Team;
+    Qualitäts-management Team; Differenzierung; Integration

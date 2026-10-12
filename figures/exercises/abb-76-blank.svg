@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1265 798" width="1265" height="798" data-figure-id="abb-76" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Planung und Steuerung über die Zeit – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1265" height="798" fill="#ffffff" />
+  <rect x="12" y="10" width="1242" height="775" fill="none" stroke="#555555" stroke-width="2" />
+
+  <!-- Square split along the diagonal: share of planning vs. control -->
+  <polygon points="145,70 640,70 640,715" fill="#ececec" />
+  <polygon points="145,70 145,715 640,715" fill="#3c3c3c" />
+
+  <!-- Axes (structure) -->
+  <g fill="none" stroke="#7f7f7f" stroke-width="1.5">
+    <path d="M145 70 H697" />
+    <path d="M145 70 V765" />
+  </g>
+
+  <!-- Explicit arrowheads (markers are not rendered by every SVG engine) -->
+  <g fill="#7f7f7f">
+    <polygon points="699.0,70.0 688.0,75.0 688.0,65.0" />
+    <polygon points="145.0,767.0 140.0,756.0 150.0,756.0" />
+  </g>
+
+  <!-- Axis titles -->
+  <rect class="placeholder" x="197.5" y="28.2" width="449.0" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="-33.2" y="401.4" width="166.4" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" transform="rotate(-90 50 423)" />
+  <rect class="placeholder" x="13.4" y="143.6" width="185.1" height="32.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" transform="rotate(-90 106 166)" />
+  <rect class="placeholder" x="-8.9" y="399.6" width="197.8" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" transform="rotate(-90 90 422)" />
+  <rect class="placeholder" x="77.0" y="378.6" width="83.9" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" transform="rotate(-90 119 401)" />
+  <rect class="placeholder" x="11.4" y="603.6" width="185.1" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" transform="rotate(-90 104 626)" />
+
+  <!-- Areas -->
+  <rect class="placeholder" x="366.2" y="168.0" width="123.5" height="39.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="269.8" y="569.0" width="156.5" height="39.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Characteristics per horizon -->
+  <g font-size="21">
+    <rect class="placeholder" x="766.0" y="78.2" width="436.4" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="131">•</text>
+    <rect class="placeholder" x="808.0" y="110.2" width="239.0" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="139.2" width="192.8" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="190">•</text>
+    <rect class="placeholder" x="808.0" y="169.2" width="400.7" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="198.2" width="54.2" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="250">•</text>
+    <rect class="placeholder" x="808.0" y="229.2" width="458.5" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="257.2" width="227.5" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="766.0" y="288.2" width="285.2" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="340">•</text>
+    <rect class="placeholder" x="808.0" y="319.2" width="400.7" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="348.2" width="192.8" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="398">•</text>
+    <rect class="placeholder" x="808.0" y="377.2" width="273.7" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="430">•</text>
+    <rect class="placeholder" x="808.0" y="409.2" width="458.5" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="438.2" width="446.9" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="766.0" y="469.2" width="436.4" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="523">•</text>
+    <rect class="placeholder" x="808.0" y="502.2" width="423.8" height="30.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="530.2" width="377.6" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="559.2" width="77.3" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="610">•</text>
+    <rect class="placeholder" x="808.0" y="589.2" width="366.0" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="619.2" width="354.5" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <text font-family="Arial, Helvetica, sans-serif" x="771" y="669">•</text>
+    <rect class="placeholder" x="808.0" y="648.2" width="389.2" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="808.0" y="678.2" width="65.8" height="30.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+</svg>

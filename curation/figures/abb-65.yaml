@@ -1,0 +1,77 @@
+id: abb-65
+title: Beispiel einer Produktionsprogrammoptimierung
+type: kurvendiagramm
+description: >-
+  Grafische Lösung eines linearen Optimierungsproblems mit zwei Produkten. x-Achse Menge Produkt
+  1, y-Achse Menge Produkt 2. Eine senkrechte Linie (Kapazitätsgrenze Produkt 1) und eine
+  waagrechte Linie (Kapazitätsgrenze Produkt 2) begrenzen die Mengen; zwei fallende Geraden
+  (Einschränkung 1 steil, Einschränkung 2 flach) bilden weitere Restriktionen. Die von allen vier
+  Grenzen und den Achsen eingeschlossene Fläche ist dunkel gefüllt und als Lösungsbereich
+  beschriftet.
+axes:
+  - {axis: x, label: Menge Produkt 1, unit: null, direction: rechts}
+  - {axis: y, label: Menge Produkt 2, unit: null, direction: oben}
+elements:
+  - {id: e1, kind: achse, text: Menge Produkt 1}
+  - {id: e2, kind: achse, text: Menge Produkt 2, note: "senkrecht geschrieben"}
+  - {id: r1, kind: gerade, text: Einschränkung 1, note: "steil fallend"}
+  - {id: r2, kind: gerade, text: Einschränkung 2, note: "flach fallend"}
+  - {id: k1, kind: gerade, text: Kapazitätsgrenze Produkt 1, note: "senkrecht"}
+  - {id: k2, kind: gerade, text: Kapazitätsgrenze Produkt 2, note: "waagrecht"}
+  - {id: lb, kind: fläche, text: Lösungsbereich, note: "dunkel gefüllt"}
+relations:
+  - {from: r1, to: lb, kind: begrenzt}
+  - {from: r2, to: lb, kind: begrenzt}
+  - {from: k1, to: lb, kind: begrenzt}
+  - {from: k2, to: lb, kind: begrenzt}
+curves:
+  - name: Einschränkung 1
+    shape: "steil fallende Gerade vom oberen Teil der y-Achse bis rechts der Kapazitätsgrenze Produkt 1 auf der x-Achse"
+    key_points:
+      - "schneidet Einschränkung 2 innerhalb der Kapazitätsgrenzen"
+      - "begrenzt den Lösungsbereich rechts unten bis zur Kapazitätsgrenze Produkt 1"
+  - name: Einschränkung 2
+    shape: "flach fallende Gerade, startet an der y-Achse oberhalb der Kapazitätsgrenze Produkt 2"
+    key_points:
+      - "schneidet die Kapazitätsgrenze Produkt 2 links"
+      - "begrenzt den Lösungsbereich oben bis zum Schnittpunkt mit Einschränkung 1"
+  - name: Kapazitätsgrenzen
+    shape: "senkrechte Gerade (Produkt 1) und waagrechte Gerade (Produkt 2)"
+    key_points:
+      - "Lösungsbereich: Polygon aus Achsen, Kapazitätsgrenze Produkt 2, Einschränkung 2, Einschränkung 1 und Kapazitätsgrenze Produkt 1"
+meaning: >-
+  Laut Skript (9.1.2) werden Produktionsprogrammvarianten anhand von Modellen bewertet; die
+  Zielfunktion ist meist der Gewinnbeitrag (Summe über alle Produkte aus Preis minus variable
+  Kosten je Einheit mal geplante Einheiten). Die Abbildung zeigt die Ermittlung des
+  gewinnoptimierten Produktionsprogramms mit zwei Variablen: Nur Mengenkombinationen innerhalb des
+  Lösungsbereichs erfüllen alle Kapazitäts- und sonstigen Restriktionen; das Optimum liegt auf
+  dessen Rand.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Als Skizze zur
+    Produktionsprogrammoptimierung denkbar, bisher aber nicht abgefragt.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Achsen: Menge Produkt 1 (x) und Menge Produkt 2 (y)"
+    - "Kapazitätsgrenzen als senkrechte bzw. waagrechte Linie"
+    - "Zwei fallende Einschränkungsgeraden mit unterschiedlicher Steigung, die sich schneiden"
+    - "Lösungsbereich = Fläche, die alle Grenzen gleichzeitig einhält (schraffieren/füllen)"
+  common_mistakes:
+    - "Lösungsbereich über eine Einschränkung hinaus gezeichnet"
+    - "Kapazitätsgrenze Produkt 1 waagrecht statt senkrecht gezeichnet"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-65.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Lage der vier Geraden, Schnittpunkte und
+    Eckpunkte des Lösungsbereichs nachgezeichnet, alle Beschriftungen vollständig. Pfeilspitzen der
+    Achsen als eigene Dreiecke gezeichnet.
+source:
+  pdf_page: 164
+  printed_page: 154
+  ocr_text_of_labels: >-
+    Menge Produkt 2; Einschränkung 1; Kapazitätsgrenze Produkt 1; Einschränkung 2;
+    Kapazitätsgrenze Produkt 2; Lösungsbereich; Menge Produkt 1

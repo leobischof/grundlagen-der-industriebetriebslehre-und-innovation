@@ -1,0 +1,103 @@
+id: abb-04
+title: Alterspyramide Österreichs (Stand 2021)
+type: sonstiges
+description: >-
+  Bevölkerungspyramide als doppeltes horizontales Balkendiagramm: links Männer, rechts Frauen, je
+  ein Balken pro Lebensjahr (0 bis 100+, unten jung, oben alt). Die linke Skala nennt den
+  Geburtsjahrgang (2020 unten bis 1920 oben), die Mittelskala die Lebensjahre, die untere Skala die
+  Personenzahl (0 bis 80.000 je Seite). Jeder Balken ist geteilt in einen dunklen inneren Teil
+  (Nicht-Österreich) und einen hellen äußeren Teil (Österreich). Die Form ist keine Pyramide,
+  sondern ein „Pilz“: am breitesten bei den 50- bis 60-Jährigen (Jahrgänge um 1960–1970, bis rund
+  72.000 Personen je Geschlecht), schmaler bei den Jüngeren (rund 42.000–46.000 je Jahrgang) und
+  nach oben stark abnehmend, bei den Frauen im hohen Alter deutlich breiter als bei den Männern.
+  Fünf Markierungen a–e mit Erläuterungen rechts heben Einschnitte und Ausbuchtungen hervor.
+axes:
+  - {axis: x, label: Personen, unit: Personen, direction: "von der Mitte nach außen (links Männer, rechts Frauen)"}
+  - {axis: y, label: "Lebensjahre (Mitte) bzw. Geburtsjahrgang (links)", unit: Jahre, direction: "Lebensjahre nach oben, Geburtsjahrgang nach unten"}
+elements:
+  - {id: m, kind: seite, text: Männer, note: linke Hälfte}
+  - {id: f, kind: seite, text: Frauen, note: rechte Hälfte}
+  - {id: oe, kind: legende, text: Österreich, note: "hell, äußerer Teil der Balken"}
+  - {id: noe, kind: legende, text: Nicht-Österreich, note: "dunkel, innerer Teil der Balken; am breitesten bei den 25- bis 45-Jährigen"}
+  - {id: a, kind: markierung, text: Baby-Boom nach dem Anschluss, note: "Frauen, Alter um 79–81 (Jahrgänge um 1939–1941), Ausbuchtung"}
+  - {id: b, kind: markierung, text: Geburtenausfall zum Ende des 2. Weltkrieges, note: "Männer, Alter um 75 (Jahrgang 1945), Einschnitt"}
+  - {id: c, kind: markierung, text: Baby-Boom der 1960er Jahre, note: "Frauen, Alter etwa 52–58 (Jahrgänge 1962–1969), breiteste Stelle"}
+  - {id: d, kind: markierung, text: Geburtenrückgang der 1970er Jahre, note: "Männer, Alter etwa 43–50 (Jahrgänge 1970–1977), Einschnitt"}
+  - {id: e, kind: markierung, text: Geburtenrückgang der 1990er Jahre, note: "Frauen, Alter etwa 23–28 (Jahrgänge 1993–1998), Verjüngung"}
+relations:
+  - {from: a, to: f, kind: markiert}
+  - {from: b, to: m, kind: markiert}
+  - {from: c, to: f, kind: markiert}
+  - {from: d, to: m, kind: markiert}
+  - {from: e, to: f, kind: markiert}
+curves:
+  - name: Umriss Männer (Gesamt)
+    shape: "unten etwa gleich breit, Ausbuchtung bei 25–35, Einschnitt d, Maximum bei 50–56, danach stark abnehmend mit Einschnitt b"
+    key_points:
+      - "0–20 Jahre: ca. 44.000–46.000 je Jahrgang"
+      - "29–41 Jahre: ca. 62.000–63.000"
+      - "43–46 Jahre (Einschnitt d): ca. 57.000"
+      - "53–55 Jahre: Maximum ca. 72.000"
+      - "75 Jahre (Einschnitt b): ca. 32.000"
+      - "90 Jahre: ca. 7.500"
+  - name: Umriss Frauen (Gesamt)
+    shape: "wie bei den Männern, oberhalb von 70 Jahren aber deutlich breiter (höhere Lebenserwartung)"
+    key_points:
+      - "0–20 Jahre: ca. 42.000–44.000 je Jahrgang"
+      - "28–40 Jahre: ca. 60.000–62.000"
+      - "53–56 Jahre: Maximum ca. 72.000"
+      - "79–81 Jahre (Markierung a): ca. 43.000 gegenüber ca. 28.000 bei 82 Jahren"
+      - "90 Jahre: ca. 12.000"
+  - name: Nicht-Österreich (beide Seiten)
+    shape: "innerer dunkler Keil, am breitesten bei 30–35 Jahren, nach oben und unten schmaler"
+    key_points:
+      - "0–20 Jahre: ca. 7.000–10.000 je Jahrgang"
+      - "30–35 Jahre: Maximum ca. 17.500"
+      - "über 70 Jahre: unter 3.000"
+meaning: >-
+  Laut Skript (1.3.3) beschreibt der demografische Wandel eine grundlegende Änderung der
+  Altersstruktur, in Österreich vor allem durch steigende Lebenserwartung und niedrige Geburtenrate.
+  Die Abbildung zeigt das: Die stärksten Jahrgänge (Baby-Boom der 1960er) stehen kurz vor der
+  Pension, die nachfolgenden Jahrgänge sind schwächer besetzt. Für Industriebetriebe heißt das: Der
+  Anteil älterer Erwerbstätiger steigt deutlich, jüngere Mitarbeiter werden schwerer zu gewinnen.
+  2024 lag das Durchschnittsalter bei 43,4 Jahren (über 61 % im erwerbsfähigen Alter), für 2050
+  sind 46,7 Jahre und etwa 54 % prognostiziert. Folgen laut Skript: Arbeits- und
+  Arbeitsplatzgestaltung für ältere Beschäftigte anpassen, das Erwerbspotenzial (Frauen, Ältere,
+  Personen mit Migrationshintergrund) stärker nutzen, lebenslanges Lernen fördern und die alternde
+  Belegschaft technisch unterstützen.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet. Prüfbar ist
+    allenfalls die Aussage zum demografischen Wandel (alternde Belegschaft, schwächere junge
+    Jahrgänge) und deren Folgen für Industriebetriebe; die Einzelwerte der Pyramide nicht.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Aufbau: Männer links, Frauen rechts, Lebensjahre senkrecht (jung unten), Personenzahl waagrecht von der Mitte nach außen"
+    - "Form „Pilz/Urne“ statt Pyramide: breiteste Stelle bei den Baby-Boomern (Jahrgänge 1960er, heute rund 50–60 Jahre), darunter schmaler"
+    - "Frauen im hohen Alter deutlich zahlreicher als Männer"
+  common_mistakes:
+    - "Klassische Pyramide mit breiter Basis gezeichnet (gilt für wachsende, nicht für alternde Bevölkerung)"
+    - "Geburtsjahrgang und Lebensjahre verwechselt (Jahrgang 1960 = 60 Lebensjahre im Jahr 2020/2021)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-04.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Achsen mit Teilstrichen, alle
+    Beschriftungen, Legende, die fünf Markierungen a–e mit Doppelpfeilen und ihre Erläuterungen
+    stimmen überein. Die 101 Balken je Seite sind nicht nachgezeichnet, sondern aus einer
+    vergrößerten Rasteransicht des Originals auf etwa ±1.000 Personen abgelesen und zwischen den
+    abgelesenen Lebensjahren linear interpoliert; Umriss, Einschnitte und der dunkle
+    Nicht-Österreich-Anteil entsprechen dem Original, einzelne Jahrgänge können um eine
+    Balkenbreite abweichen. Schrift Arial statt der geometrischen Schrift des Originals.
+    Doppelpfeile als Polygone.
+source:
+  pdf_page: 26
+  printed_page: 16
+  ocr_text_of_labels: >-
+    Geburtsjahrgang; Lebensjahre; Männer; Frauen; 1920 1925 … 2020; 100+ 95 … 5 0; 80.000 60.000
+    40.000 20.000 0; 0 20.000 40.000 60.000 80.000; Personen; Österreich; Nicht-Österreich; a
+    Baby-Boom nach dem Anschluss; b Geburtenausfall zum Ende des 2. Weltkrieges; c Baby-Boom der
+    1960er Jahre; d Geburtenrückgang der 1970er Jahre; e Geburtenrückgang der 1990er Jahre

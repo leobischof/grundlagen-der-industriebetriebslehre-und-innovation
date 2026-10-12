@@ -1,0 +1,55 @@
+id: abb-10
+title: Portfolio Management für neue Produkte
+type: portfolio
+description: >-
+  2×2-Portfolio (Risiko-Rendite-Diagramm) mit der Rendite auf der x-Achse (links hoch, rechts
+  niedrig) und der Wahrscheinlichkeit des technologischen Erfolgs auf der y-Achse (oben hoch,
+  unten niedrig). Oben links Perlen, oben rechts Brot und Butter, unten links Austern, unten rechts
+  Weiße Elefanten.
+axes:
+  - {axis: x, label: Rendite, unit: null, direction: "links hoch → rechts niedrig"}
+  - {axis: y, label: Wahrscheinlichkeit des technologischen Erfolgs, unit: null, direction: "oben hoch, unten niedrig"}
+elements:
+  - {id: ax_x, kind: achse, text: Rendite, note: "x-Achse; Enden hoch (links) / niedrig (rechts)"}
+  - {id: ax_y, kind: achse, text: Wahrscheinlichkeit des technologischen Erfolgs, note: "y-Achse; Enden hoch (oben) / niedrig (unten)"}
+  - {id: q1, kind: feld, text: Perlen, note: "Rendite hoch, Erfolgswahrscheinlichkeit hoch"}
+  - {id: q2, kind: feld, text: Brot und Butter, note: "Rendite niedrig, Erfolgswahrscheinlichkeit hoch"}
+  - {id: q3, kind: feld, text: Austern, note: "Rendite hoch, Erfolgswahrscheinlichkeit niedrig"}
+  - {id: q4, kind: feld, text: Weiße Elefanten, note: "Rendite niedrig, Erfolgswahrscheinlichkeit niedrig"}
+relations:
+  - {from: q3, to: q1, kind: folgt, text: "Austern können sich durch neue technologische Entwicklungen in Perlen verwandeln (laut Skripttext, nicht im Bild)"}
+curves: []
+meaning: >-
+  Portfoliomanagement für neue Produkte ist ein dynamischer Entscheidungsprozess zur Auswahl und
+  Priorisierung von Projekten. Neuere Risiko-Rendite-Diagramme verwenden statt Geschäftsstärke und
+  Marktattraktivität den Barwert bzw. die Rendite und die Wahrscheinlichkeit des technologischen
+  Erfolgs. Perlen haben großes Erfolgspotenzial und sollen gefördert werden; Brot und Butter sind
+  sichere Weiterentwicklungen mit geringer Rendite; Austern versprechen hohen Gewinn, aber die
+  technologische Basis fehlt noch; Weiße Elefanten sind unattraktiv geworden und sollten möglichst
+  schnell beendet werden (Skript 2.5, S. 35–37).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Klassisches, schnell zeichenbares
+    Portfolio, das sich bei einer Frage zur Auswahl und Priorisierung neuer Produkte anbietet.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Achsen: Rendite (x, links hoch) und Wahrscheinlichkeit des technologischen Erfolgs (y, oben hoch)"
+    - "Perlen oben links, Brot und Butter oben rechts, Austern unten links, Weiße Elefanten unten rechts"
+  common_mistakes:
+    - "Rendite-Achse wie üblich links niedrig/rechts hoch gezeichnet – im Skript ist sie umgekehrt"
+    - "Austern und Brot und Butter vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-10.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Raster, Achsbeschriftungen (fett) und die
+    umgekehrte Rendite-Achse (links hoch, rechts niedrig) wie im Original. Alle Texte class="answer".
+source:
+  pdf_page: 46
+  printed_page: 36
+  ocr_text_of_labels: >-
+    hoch; niedrig; Wahrscheinlichkeit des technologischen Erfolgs; Perlen; Brot und Butter;
+    Austern; Weiße Elefanten; hoch; Rendite; niedrig

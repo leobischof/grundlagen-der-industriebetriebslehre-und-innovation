@@ -1,0 +1,87 @@
+id: abb-28
+title: Arten der Integration
+type: tabelle
+description: >-
+  Vierspaltige Tabelle unter dem Titelband „Elemente und Methoden der Integrierten
+  Produkterstellung“. Spalten: „1. Mensch“ (1.1 Integration der Leistungsbereitschaft, 1.2
+  Integration der Ziele, 1.3 Integratives Wissen), „2. Methodik“ (2.1 Integration der Kunden, 2.2
+  Aufgabenintegration, 2.3 Methodenintegration), „3. Organisation“ (3.1 Aufbauintegration, 3.2
+  Ablaufintegration, 3.3 örtliche Integration) und „4. Technik“ (4.1 Datenintegration, 4.2
+  Integrative Eigenschafts-früherkennung). Unter jeder Unterart stehen Beispiele als
+  Aufzählungspunkte.
+axes: []
+elements:
+  - {id: t, kind: label, text: Elemente und Methoden der Integrierten Produkterstellung, note: Titelband}
+  - {id: s1, kind: spalte, text: 1. Mensch}
+  - {id: s1_1, kind: zeile, text: 1.1 Integration der Leistungsbereitschaft, note: "gemeinsames Wollen; Motivation"}
+  - {id: s1_2, kind: zeile, text: 1.2 Integration der Ziele, note: "für alle gleiche Ziele, aber heruntergebrochen; Mitarbeiter-Beteiligung; erfolgsorientierte Bezahlung"}
+  - {id: s1_3, kind: zeile, text: 1.3 Integratives Wissen, note: "Ausbildung z.T. als Generalist; systemtechn. Wissen; Weiterbildung; Job-Rotation"}
+  - {id: s2, kind: spalte, text: 2. Methodik}
+  - {id: s2_1, kind: zeile, text: 2.1 Integration der Kunden, note: "Einbezug der Kunden in die Produktentwicklung; Kooperation mit Pilotkunden"}
+  - {id: s2_2, kind: zeile, text: 2.2 Aufgabenintegration, note: "Qualitätsmanagement TQM mit QFD; Target Costing; Arbeitsanreicherung, Fertigungsinseln; Gruppen- / Teamarbeit; Reengineering; Planung u. Ausführung in einer Person; KVP, Kaizen, Verbesserungswesen"}
+  - {id: s2_3, kind: zeile, text: 2.3 Methodenintegration, note: "Nutzung übergreifender Methoden: Konstr. Methodik, IPE, Wertanalyse; Systemtechnik; Verwendung einheitl. Begriffe"}
+  - {id: s3, kind: spalte, text: 3. Organisation}
+  - {id: s3_1, kind: zeile, text: 3.1 Aufbauintegration, note: "Produktorientierte Organisation (Spartenorg.; Profit-Center); flache Hierarchie; Verantwortungsdelegation"}
+  - {id: s3_2, kind: zeile, text: 3.2 Ablaufintegration, note: "Parallelisierung von Tätigkeiten; Projektmanagement; Concurrent Engineering; Fertigungs- und Kostenberatung; konstruktionsbegleitende Kalkulation; Wertanalyse; Qualitätszirkel; Design-Review, FMEA, DFA, DFM; Kooperation mit Systemlieferanten"}
+  - {id: s3_3, kind: zeile, text: 3.3 örtliche Integration, note: "gemeinsame Arbeitsräume; Entwicklungs-Zentren; Segmentierung"}
+  - {id: s4, kind: spalte, text: 4. Technik}
+  - {id: s4_1, kind: zeile, text: 4.1 Datenintegration, note: "Rechnerintegrierte Entwicklung PDM; PLM; CAD-CAM; CAD-CAQ;"}
+  - {id: s4_2, kind: zeile, text: 4.2 Integrative Eigenschafts-früherkennung, note: "Simulation; Virtual Reality; Rapid Prototyping; Digital Mock-up"}
+relations:
+  - {from: t, to: s1, kind: enthält}
+  - {from: t, to: s2, kind: enthält}
+  - {from: t, to: s3, kind: enthält}
+  - {from: t, to: s4, kind: enthält}
+  - {from: s1, to: s1_1, kind: enthält}
+  - {from: s1, to: s1_2, kind: enthält}
+  - {from: s1, to: s1_3, kind: enthält}
+  - {from: s2, to: s2_1, kind: enthält}
+  - {from: s2, to: s2_2, kind: enthält}
+  - {from: s2, to: s2_3, kind: enthält}
+  - {from: s3, to: s3_1, kind: enthält}
+  - {from: s3, to: s3_2, kind: enthält}
+  - {from: s3, to: s3_3, kind: enthält}
+  - {from: s4, to: s4_1, kind: enthält}
+  - {from: s4, to: s4_2, kind: enthält}
+curves: []
+meaning: >-
+  Die Integration in der Produktentstehung kann in vier Formen umgesetzt werden (Skript 5.6):
+  menschliche Integration (Leistungsbereitschaft, Ziele, integratives Wissen), methodische
+  Integration (Kunden, Aufgaben, Methoden wie DFM/DFA), organisatorische Integration (Aufbau-,
+  Ablauf- und örtliche Integration, u. a. Simultaneous/Concurrent Engineering) und technologische
+  Integration (Datenintegration über PDM/CAD-CAM, integrative Eigenschaftsfrüherkennung durch
+  Simulation oder Rapid Prototyping).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json direkt abgefragt: frage-2025-10-15-4 verlangt die vier Methoden
+    der integrierten Produktentwicklung (methodisch, organisatorisch, technologisch, menschlich);
+    die Zuordnung zur Abbildung ist eine Einschätzung des Mappings.
+  question_ids: [frage-2025-10-15-4]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Vier Arten: Mensch, Methodik, Organisation, Technik"
+    - "Je Art die Unterarten (z. B. Aufbau-, Ablauf-, örtliche Integration)"
+    - "Je Unterart ein bis zwei Beispiele (z. B. Job-Rotation, QFD, Concurrent Engineering, PDM)"
+  common_mistakes:
+    - "Simultaneous/Concurrent Engineering der technischen statt der organisatorischen Integration zugeordnet"
+    - "Menschliche Integration vergessen (nur Methoden/Technik genannt)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-28.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; der gesamte Tabelleninhalt ist
+    vollständig im Wortlaut transkribiert, die kursiven Einträge des Originals (erfolgsorientierte,
+    Verwendung einheitl., Entwicklungs-Zentren, Virtual Reality) sind ebenfalls kursiv.
+    Spaltenbreiten und Grautöne angenähert, Schrift etwas vergrößert. Der Titel ist kein
+    Lösungselement, alle Tabelleneinträge sind class="answer".
+source:
+  pdf_page: 93
+  printed_page: 83
+  ocr_text_of_labels: >-
+    Elemente und Methoden der Integrierten Produkterstellung; 1. Mensch; 1.1 Integration der
+    Leistungsbereitschaft; 1.2 Integration der Ziele; 1.3 Integratives Wissen; 2. Methodik; 2.1
+    Integration der Kunden; 2.2 Aufgabenintegration; 2.3 Methodenintegration; 3. Organisation; 3.1
+    Aufbauintegration; 3.2 Ablaufintegration; 3.3 örtliche Integration; 4. Technik; 4.1
+    Datenintegration; 4.2 Integrative Eigenschafts-früherkennung

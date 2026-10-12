@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1266 597" width="1266" height="597" data-figure-id="abb-74" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Gesamtanlageneffektivität – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1266" height="597" fill="#ffffff" />
+  <rect x="11" y="11" width="1244" height="574" fill="none" stroke="#555555" stroke-width="2" />
+
+  <!-- Connectors: loss bars -> loss causes -> rates -> OEE (structure) -->
+  <g fill="none" stroke="#b3b3b3" stroke-width="1.5">
+    <!-- availability losses fan out to three causes -->
+    <path d="M470 157 H487 M487 76 V239" />
+    <path d="M487 76 H502" />
+    <path d="M487 157 H502" />
+    <path d="M487 239 H502" />
+    <!-- causes -> Verfügbarkeitsrate -->
+    <path d="M616 76 H632 V157 H644" />
+    <path d="M616 157 H632" />
+    <path d="M616 239 H632 V176 H644" />
+    <!-- speed losses -> two causes -> Leistungsindex -->
+    <path d="M402 380 H450 V339 H496" />
+    <path d="M402 387 H437 V415 H496" />
+    <path d="M611 339 H630 V381 H644" />
+    <path d="M611 415 H630 V401 H644" />
+    <!-- quality losses -> cause -> Qualitätsrate -->
+    <path d="M276 521 H496" />
+    <path d="M611 521 H644" />
+    <!-- three rates -> OEE -->
+    <path d="M935 152 H978 V302 H1029" />
+    <path d="M936 382 H962 V319 H1029" />
+    <path d="M936 487 H980 V338 H1029" />
+  </g>
+
+  <!-- Explicit arrowheads (markers are not rendered by every SVG engine) -->
+  <g fill="#7f7f7f">
+    <polygon points="504.0,76.0 496.0,79.5 496.0,72.5" />
+    <polygon points="504.0,157.0 496.0,160.5 496.0,153.5" />
+    <polygon points="504.0,239.0 496.0,242.5 496.0,235.5" />
+    <polygon points="646.0,157.0 638.0,160.5 638.0,153.5" />
+    <polygon points="646.0,176.0 638.0,179.5 638.0,172.5" />
+    <polygon points="498.0,339.0 490.0,342.5 490.0,335.5" />
+    <polygon points="498.0,415.0 490.0,418.5 490.0,411.5" />
+    <polygon points="646.0,381.0 638.0,384.5 638.0,377.5" />
+    <polygon points="646.0,401.0 638.0,404.5 638.0,397.5" />
+    <polygon points="498.0,521.0 490.0,524.5 490.0,517.5" />
+    <polygon points="646.0,521.0 638.0,524.5 638.0,517.5" />
+    <polygon points="1031.0,302.0 1023.0,305.5 1023.0,298.5" />
+    <polygon points="1031.0,319.0 1023.0,322.5 1023.0,315.5" />
+    <polygon points="1031.0,338.0 1023.0,341.5 1023.0,334.5" />
+  </g>
+
+  <!-- Time bars (dark) with loss segments (light) -->
+  <rect x="22" y="25" width="449" height="67" fill="#444444" />
+  <rect class="placeholder" x="29.0" y="48.0" width="247.2" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <rect x="24" y="122" width="347" height="68" fill="#444444" />
+  <rect x="371" y="122" width="99" height="68" fill="#b5b5b5" />
+  <rect class="placeholder" x="31.0" y="146.0" width="239.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="380.0" y="134.0" width="80.0" height="18.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="374.0" y="146.0" width="92.0" height="18.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="404.0" y="158.0" width="32.0" height="18.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <rect x="24" y="346" width="246" height="66" fill="#444444" />
+  <rect x="270" y="346" width="132" height="66" fill="#b5b5b5" />
+  <rect class="placeholder" x="31.0" y="369.0" width="206.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="275.9" y="362.2" width="120.2" height="19.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="305.6" y="379.2" width="60.8" height="19.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <rect x="24" y="487" width="161" height="67" fill="#444444" />
+  <rect x="185" y="487" width="91" height="67" fill="#b5b5b5" />
+  <rect class="placeholder" x="31.0" y="499.0" width="123.5" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="31.0" y="519.0" width="156.5" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="193.0" y="502.2" width="74.0" height="19.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="199.6" y="522.2" width="60.8" height="19.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Loss causes -->
+  <g fill="#ffffff" stroke="#7f7f7f" stroke-width="1.5">
+    <rect x="504" y="42" width="112" height="68" />
+    <rect x="504" y="122" width="112" height="70" />
+    <rect x="504" y="205" width="112" height="67" />
+    <rect x="498" y="304" width="113" height="68" />
+    <rect x="498" y="387" width="113" height="69" />
+    <rect x="498" y="487" width="113" height="68" />
+  </g>
+  <rect class="placeholder" x="535.4" y="47.0" width="49.2" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="514.8" y="66.0" width="90.5" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="510.6" y="85.0" width="98.8" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="514.8" y="138.0" width="90.5" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="510.6" y="157.0" width="98.8" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="510.6" y="228.0" width="98.8" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="512.9" y="318.0" width="82.2" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="496.4" y="337.0" width="115.2" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="521.1" y="390.0" width="65.8" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="517.0" y="409.0" width="74.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="525.2" y="428.0" width="57.5" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="508.8" y="500.0" width="90.5" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="517.0" y="520.0" width="74.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Rates with formulas -->
+  <g fill="#ffffff" stroke="#7f7f7f" stroke-width="1.5">
+    <rect x="646" y="110" width="289" height="94" />
+    <rect x="646" y="335" width="290" height="92" />
+    <rect x="646" y="475" width="290" height="92" />
+    <rect x="1031" y="272" width="207" height="94" />
+  </g>
+  <g stroke="#222222" stroke-width="1.2">
+    <line x1="695" y1="177" x2="917" y2="177" />
+    <line x1="702" y1="401" x2="910" y2="401" />
+    <line x1="682" y1="541" x2="924" y2="541" />
+  </g>
+
+  <rect class="placeholder" x="705.0" y="118.0" width="170.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="659.0" y="166.0" width="32.8" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="709.6" y="154.8" width="192.8" height="22.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="690.4" y="178.8" width="231.3" height="22.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <rect class="placeholder" x="723.0" y="343.0" width="134.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="669.0" y="390.0" width="32.8" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="698.0" y="379.8" width="215.9" height="22.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="709.6" y="402.8" width="192.8" height="22.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <rect class="placeholder" x="727.5" y="483.0" width="125.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="653.0" y="531.6" width="29.5" height="21.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="690.1" y="521.4" width="225.8" height="20.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="709.9" y="542.4" width="186.2" height="20.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <rect class="placeholder" x="1067.0" y="281.0" width="134.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1076.0" y="300.0" width="116.0" height="23.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="1072.2" y="333.8" width="123.5" height="22.7" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

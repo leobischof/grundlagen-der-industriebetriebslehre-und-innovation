@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1264 572" width="1264" height="572" data-figure-id="abb-59" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Maßnahmenhierarchie für Materialeffizienz</title>
+  <rect x="0" y="0" width="1264" height="572" fill="#ffffff"/>
+  <rect x="8" y="8" width="1248" height="555" fill="none" stroke="#333333" stroke-width="2"/>
+  <g stroke="none">
+    <polygon points="72,58.0 245.0,58.0 242.7,68.5 72,68.5" fill="#444444"/>
+    <polygon points="72,67.9 242.8,67.9 240.6,78.5 72,78.5" fill="#4e4e4e"/>
+    <polygon points="72,77.9 240.7,77.9 238.4,88.4 72,88.4" fill="#585858"/>
+    <polygon points="72,87.8 238.5,87.8 236.2,98.3 72,98.3" fill="#616161"/>
+    <polygon points="72,97.7 236.4,97.7 234.1,108.3 72,108.3" fill="#6b6b6b"/>
+    <polygon points="72,107.7 234.2,107.7 231.9,118.2 72,118.2" fill="#757575"/>
+    <polygon points="72,117.6 232.0,117.6 229.8,128.1 72,128.1" fill="#7e7e7e"/>
+    <polygon points="72,127.5 229.9,127.5 227.6,138.1 72,138.1" fill="#888888"/>
+    <polygon points="72,137.5 227.7,137.5 225.4,148.0 72,148.0" fill="#929292"/>
+    <polygon points="72,147.4 225.6,147.4 223.3,157.9 72,157.9" fill="#9b9b9b"/>
+    <polygon points="72,157.3 223.4,157.3 221.1,167.8 72,167.8" fill="#a5a5a5"/>
+    <polygon points="72,167.2 221.2,167.2 219.0,177.8 72,177.8" fill="#afafaf"/>
+    <polygon points="72,177.2 219.1,177.2 216.8,187.7 72,187.7" fill="#b8b8b8"/>
+    <polygon points="72,187.1 216.9,187.1 214.6,197.6 72,197.6" fill="#c2c2c2"/>
+    <polygon points="72,197.0 214.8,197.0 212.5,207.6 72,207.6" fill="#cccccc"/>
+    <polygon points="72,207.0 212.6,207.0 210.3,217.5 72,217.5" fill="#d5d5d5"/>
+    <polygon points="72,216.9 210.5,216.9 208.2,227.4 72,227.4" fill="#dfdfdf"/>
+    <polygon points="72,226.8 208.3,226.8 206.0,237.4 72,237.4" fill="#e9e9e9"/>
+    <polygon points="72,236.8 206.1,236.8 203.8,247.3 72,247.3" fill="#f2f2f2"/>
+    <polygon points="72,246.7 204.0,246.7 201.7,257.2 72,257.2" fill="#fcfcfc"/>
+    <polygon points="72,256.6 201.8,256.6 199.5,267.2 72,267.2" fill="#f8f8f8"/>
+    <polygon points="72,266.6 199.7,266.6 197.4,277.1 72,277.1" fill="#efefef"/>
+    <polygon points="72,276.5 197.5,276.5 195.2,287.0 72,287.0" fill="#e6e6e6"/>
+    <polygon points="72,286.4 195.3,286.4 193.1,297.0 72,297.0" fill="#dddddd"/>
+    <polygon points="72,296.4 193.2,296.4 190.9,306.9 72,306.9" fill="#d4d4d4"/>
+    <polygon points="72,306.3 191.0,306.3 188.7,316.8 72,316.8" fill="#cbcbcb"/>
+    <polygon points="72,316.2 188.9,316.2 186.6,326.8 72,326.8" fill="#c2c2c2"/>
+    <polygon points="72,326.2 186.7,326.2 184.4,336.7 72,336.7" fill="#b9b9b9"/>
+    <polygon points="72,336.1 184.5,336.1 182.3,346.6 72,346.6" fill="#b0b0b0"/>
+    <polygon points="72,346.0 182.4,346.0 180.1,356.6 72,356.6" fill="#a7a7a7"/>
+    <polygon points="72,356.0 180.2,356.0 177.9,366.5 72,366.5" fill="#9e9e9e"/>
+    <polygon points="72,365.9 178.1,365.9 175.8,376.4 72,376.4" fill="#959595"/>
+    <polygon points="72,375.8 175.9,375.8 173.6,386.4 72,386.4" fill="#8c8c8c"/>
+    <polygon points="72,385.8 173.8,385.8 171.5,396.3 72,396.3" fill="#848484"/>
+    <polygon points="72,395.7 171.6,395.7 169.3,406.2 72,406.2" fill="#7b7b7b"/>
+    <polygon points="72,405.6 169.4,405.6 167.1,416.1 72,416.1" fill="#727272"/>
+    <polygon points="72,415.5 167.3,415.5 165.0,426.1 72,426.1" fill="#696969"/>
+    <polygon points="72,425.5 165.1,425.5 162.8,436.0 72,436.0" fill="#606060"/>
+    <polygon points="72,435.4 163.0,435.4 160.7,445.9 72,445.9" fill="#575757"/>
+    <polygon points="72,445.3 160.8,445.3 158.5,455.9 72,455.9" fill="#4e4e4e"/>
+    <polygon points="72,455.3 158.6,455.3 156.3,465.8 72,465.8" fill="#454545"/>
+    <polygon points="72,465.2 156.5,465.2 154.2,475.7 72,475.7" fill="#3c3c3c"/>
+    <polygon points="72,475.1 154.3,475.1 152.0,485.7 72,485.7" fill="#333333"/>
+    <polygon points="72,485.1 152.2,485.1 150.0,495.0 72,495.0" fill="#2a2a2a"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="158" y="46" font-size="30" text-anchor="middle" font-weight="bold">FÖRDERN</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="140" y="530" font-size="30" text-anchor="middle" font-weight="bold">VERMEIDEN</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="80" font-size="23" text-anchor="end" font-weight="bold">Längere</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="114" font-size="23" text-anchor="end" font-weight="bold">Produktlebensdauer</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="145" font-size="23" text-anchor="end" font-weight="bold">mit weniger</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="175" font-size="23" text-anchor="end" font-weight="bold">(Roh-) Materialien</text>
+  <path d="M528 62 H520 V172 H528 M520 117 H512" fill="none" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="222" font-size="23" text-anchor="end" font-weight="bold">Verlängerung der</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="254" font-size="23" text-anchor="end" font-weight="bold">Lebensdauer von</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="288" font-size="23" text-anchor="end" font-weight="bold" font-style="italic">Produkten und Teilen</text>
+  <path d="M528 190 H520 V300 H528 M520 245 H512" fill="none" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="358" font-size="23" text-anchor="end" font-weight="bold">Nützlicher Zweck für</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="390" font-size="23" text-anchor="end" font-weight="bold">Materialien am</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="421" font-size="23" text-anchor="end" font-weight="bold">Lebensende</text>
+  <path d="M528 335 H520 V440 H528 M520 388 H512" fill="none" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="493" y="481" font-size="23" text-anchor="end" font-weight="bold">Mülldeponie</text>
+  <path d="M528 455 H520 V497 H528 M520 476 H512" fill="none" stroke="#555555" stroke-width="1.5"/>
+  <polygon points="537,62 1186,62 1210,84 1186,106 537,106" fill="#5e5e5e" stroke="none"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="549" y="91.92" font-size="22" text-anchor="start" fill="#111111">Weniger (natürliche) Ressourcen verbrauchen</text>
+  <polygon points="537,124 1144,124 1168,146 1144,168 537,168" fill="#8f8f8f" stroke="none"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="549" y="153.92" font-size="22" text-anchor="start" fill="#111111">Produkte so gestalten, dass sie länger halten</text>
+  <polygon points="537,190 1081,190 1105,212 1081,234 537,234" fill="#e3e3e3" stroke="none"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="549" y="219.92" font-size="22" text-anchor="start" fill="#111111">Wiederverwendung/ Reparatur/ Upgrade</text>
+  <polygon points="537,256 986,256 1010,278 986,300 537,300" fill="#f8f8f8" stroke="none"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="549" y="285.92" font-size="22" text-anchor="start" fill="#111111">Aufarbeitung/ Wiederaufbereitung</text>
+  <polygon points="537,331 834,331 858,352 834,374 537,374" fill="#b5b5b5" stroke="none"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="549" y="360.42" font-size="22" text-anchor="start" fill="#111111">Recyceln</text>
+  <polygon points="537,393 761,393 785,415 761,437 537,437" fill="#727272" stroke="none"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="549" y="420.4" font-size="15" text-anchor="start" fill="#111111">Zurückgewinnen (z.B. Energie)</text>
+  <polygon points="537,452 640,452 665,474 640,497 537,497" fill="#1a1a1a" stroke="none"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="549" y="482.42" font-size="22" text-anchor="start" fill="#8a8a8a">Entsorgen</text>
+  <line x1="242" y1="318" x2="1234" y2="318" stroke="#555555" stroke-width="2"/>
+  <polygon points="242,313 247,318 242,323 237,318" fill="#555555"/>
+  <polygon points="1234,312 1240,318 1234,324 1228,318" fill="#555555"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1195" y="300" font-size="20" text-anchor="end" font-weight="bold" fill="#555555">Nutzungsphasen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1192" y="346" font-size="20" text-anchor="end" font-weight="bold" fill="#333333">Abfallphasen</text>
+  <g stroke="#333333" stroke-width="2" fill="#333333">
+    <line x1="1213" y1="306" x2="1213" y2="285"/>
+    <polygon points="1207,288 1213,278 1219,288" stroke="none"/>
+    <line x1="1213" y1="332" x2="1213" y2="353"/>
+    <polygon points="1207,350 1213,360 1219,350" stroke="none"/>
+  </g>
+  <circle cx="1090" cy="500" r="32" fill="none" stroke="#7a7a7a" stroke-width="14"/>
+  <rect x="1150" y="462" width="78" height="78" fill="#2a2a2a"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="1189" y="512" font-size="32" text-anchor="middle" fill="#ffffff">IEC</text>
+</svg>

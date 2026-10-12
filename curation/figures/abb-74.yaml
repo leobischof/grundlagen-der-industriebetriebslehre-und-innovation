@@ -1,0 +1,97 @@
+id: abb-74
+title: Gesamtanlageneffektivität
+type: flussdiagramm
+description: >-
+  Zerlegung der Betriebsmittelzeit mit Kennzahlen: Links vier dunkle Zeitbalken, die von oben
+  nach unten kürzer werden (Verfügbare Betriebsmittelzeit, Betriebsmittelzeit insgesamt, Netto
+  Betriebsmittelzeit, Wertschöpfende Betriebsmittelzeit); der hellgraue Rest am Ende der unteren
+  drei Balken ist jeweils der Verlust (Verluste bei der Verfügbarkeit, Geschwindigkeitsverluste,
+  Qualitätsverluste). Von jedem Verlust führen Pfeile zu seinen Ursachen und weiter zur
+  zugehörigen Kennzahl mit Formel (Verfügbarkeitsrate a, Leistungsindex p, Qualitätsrate q).
+  Alle drei Kennzahlen münden rechts in „Gesamtanlageneffektivität“ mit OEE = a · p · q.
+axes: []
+elements:
+  - {id: t0, kind: balken, text: Verfügbare Betriebsmittelzeit}
+  - {id: t1, kind: balken, text: Betriebsmittelzeit insgesamt}
+  - {id: v1, kind: balken, text: Verluste bei der Verfügbarkeit, note: hellgrauer Rest neben Betriebsmittelzeit insgesamt}
+  - {id: t2, kind: balken, text: Netto Betriebsmittelzeit}
+  - {id: v2, kind: balken, text: Geschwindigkeitsverluste}
+  - {id: t3, kind: balken, text: Wertschöpfende Betriebsmittelzeit}
+  - {id: v3, kind: balken, text: Qualitätsverluste}
+  - {id: u1, kind: box, text: Nicht gearbeitet (ungeplant)}
+  - {id: u2, kind: box, text: Einrichten und Umrüste, note: "Wortlaut des Originals (gemeint: Umrüsten)"}
+  - {id: u3, kind: box, text: Pannenhilfe}
+  - {id: u4, kind: box, text: "Equipment \"im Leerlauf\""}
+  - {id: u5, kind: box, text: Langsam laufende Geräte}
+  - {id: u6, kind: box, text: Qualitätsverluste}
+  - {id: a, kind: box, text: Verfügbarkeitsrate, note: "a = Netto Betriebsmittelzeit / verfügbare Betriebsmittelzeit"}
+  - {id: p, kind: box, text: Leistungsindex, note: "p = Nutzbare Betriebsmittelzeit / Netto Betriebsmittelzeit"}
+  - {id: q, kind: box, text: Qualitätsrate, note: "q = Wertschöpfende Betriebsmittelzeit / Nutzabre Betriebsmittelzeit (Tippfehler „Nutzabre“ im Original)"}
+  - {id: oee, kind: box, text: Gesamtanlagen-effektivität, note: "OEE = a · p · q"}
+relations:
+  - {from: v1, to: u1, kind: fließt}
+  - {from: v1, to: u2, kind: fließt}
+  - {from: v1, to: u3, kind: fließt}
+  - {from: u1, to: a, kind: fließt}
+  - {from: u2, to: a, kind: fließt}
+  - {from: u3, to: a, kind: fließt}
+  - {from: v2, to: u4, kind: fließt}
+  - {from: v2, to: u5, kind: fließt}
+  - {from: u4, to: p, kind: fließt}
+  - {from: u5, to: p, kind: fließt}
+  - {from: v3, to: u6, kind: fließt}
+  - {from: u6, to: q, kind: fließt}
+  - {from: a, to: oee, kind: fließt}
+  - {from: p, to: oee, kind: fließt}
+  - {from: q, to: oee, kind: fließt}
+curves: []
+meaning: >-
+  Skript 9.1.7: Die theoretische Kapazität ist in der Praxis nicht immer erreichbar (z. B.
+  Wartung); der Rest ist die effektive Kapazität. Die Gesamtanlageneffektivität (GAE, englisch
+  Overall Equipment Effectiveness, OEE) misst die Wirksamkeit eines Betriebsmittels anhand (1) der
+  verfügbaren Betriebsmittelzeit, (2) der Geschwindigkeit bzw. Durchsatzrate und (3) der
+  erreichten Qualität: GAE = Verfügbarkeitsrate · Leistungsrate · Qualitätsrate. Sie gibt die
+  wertvolle Betriebszeit in Prozent der theoretischen Kapazität an; um die effektive Kapazität zu
+  erhöhen, muss ein Betriebsmittel in allen drei Dimensionen gut sein.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json zweimal abgefragt (2025-03-18 und 2026-01-22): Gesamtanlagen-
+    effektivität definieren, Kenngrößen und Berechnung erklären – genau der Inhalt der Abbildung.
+  question_ids: [frage-2025-03-18-4, frage-2026-01-22-5]
+drawing:
+  difficulty: schwer
+  must_know:
+    - "Vier Zeitstufen: verfügbare → insgesamt → netto → wertschöpfende Betriebsmittelzeit"
+    - "Drei Verlustarten: Verfügbarkeit, Geschwindigkeit, Qualität mit ihren Ursachen"
+    - "a = Netto Betriebsmittelzeit / verfügbare Betriebsmittelzeit"
+    - "p = Nutzbare Betriebsmittelzeit / Netto Betriebsmittelzeit"
+    - "q = Wertschöpfende Betriebsmittelzeit / Nutzbare Betriebsmittelzeit"
+    - "OEE = a · p · q"
+  common_mistakes:
+    - "Kennzahlen addiert statt multipliziert"
+    - "Verlustursachen der falschen Kennzahl zugeordnet (z. B. Leerlauf zur Verfügbarkeit)"
+    - "Zähler und Nenner der Raten vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-74.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Balkenlängen, Kästen und Verbindungslinien
+    positionsgetreu, Pfeilspitzen als eigene Dreiecke (keine SVG-Marker). Die Formeln sind im
+    Original in einer kursiven Serifenschrift (Formelsatz) gesetzt und hier als kursive
+    Arial-Texte mit Bruchstrich wiedergegeben; der Malpunkt in OEE = a · p · q als „·“. Wortlaut
+    inklusive „Einrichten und Umrüste“ und „Nutzabre Betriebsmittelzeit“ unverändert aus dem
+    Original übernommen. Einen eigenen Balken „Nutzbare Betriebsmittelzeit“ (Netto
+    Betriebsmittelzeit abzüglich Geschwindigkeitsverlusten) zeigt das Original nicht, obwohl p und
+    q diese Größe verwenden – so übernommen.
+source:
+  pdf_page: 173
+  printed_page: 163
+  ocr_text_of_labels: >-
+    Verfügbare Betriebsmittelzeit; Betriebsmittelzeit insgesamt; Verluste bei der Verfügbarkeit;
+    Netto Betriebsmittelzeit; Geschwindigkeitsverluste; Wertschöpfende Betriebsmittelzeit;
+    Qualitätsverluste; Nicht gearbeitet (ungeplant); Einrichten und Umrüste; Pannenhilfe;
+    Equipment "im Leerlauf"; Langsam laufende Geräte; Qualitätsverluste; Verfügbarkeitsrate; a =
+    Netto Betriebsmittelzeit / verfügbare Betriebsmittelzeit; Leistungsindex; p = Nutzbare
+    Betriebsmittelzeit / Netto Betriebsmittelzeit; Qualitätsrate; q = Wertschöpfende
+    Betriebsmittelzeit / Nutzabre Betriebsmittelzeit; Gesamtanlagen-effektivität; OEE = a · p · q

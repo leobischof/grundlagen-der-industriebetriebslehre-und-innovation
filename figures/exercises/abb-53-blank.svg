@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 758" width="1263" height="758" data-figure-id="abb-53" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Einschränkungen Realplanung – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1263" height="758" fill="#ffffff" />
+  <rect x="10" y="10" width="1243" height="738" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- Centre: Realplanung -->
+  <ellipse cx="643" cy="383" rx="130" ry="50" fill="#8f8f8f" stroke="#555555" stroke-width="2" />
+  <rect class="placeholder" x="559.8" y="368.8" width="166.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Restriction ellipses: name above a thin divider, simplified symbol below -->
+  <g fill="#ffffff" stroke="#555555" stroke-width="1.5">
+    <ellipse cx="645" cy="105" rx="118" ry="70" />
+    <ellipse cx="366" cy="182" rx="118" ry="70" />
+    <ellipse cx="940" cy="180" rx="116" ry="68" />
+    <ellipse cx="238" cy="375" rx="118" ry="70" />
+    <ellipse cx="1043" cy="383" rx="113" ry="70" />
+    <ellipse cx="366" cy="583" rx="118" ry="72" />
+    <ellipse cx="645" cy="647" rx="118" ry="72" />
+    <ellipse cx="940" cy="580" rx="115" ry="72" />
+  </g>
+  <g stroke="#b0b0b0" stroke-width="1">
+    <line x1="529" y1="107" x2="761" y2="107" />
+    <line x1="250" y1="186" x2="482" y2="186" />
+    <line x1="826" y1="188" x2="1054" y2="188" />
+    <line x1="121" y1="378" x2="355" y2="378" />
+    <line x1="931" y1="375" x2="1155" y2="375" />
+    <line x1="249" y1="580" x2="483" y2="580" />
+    <line x1="528" y1="649" x2="762" y2="649" />
+    <line x1="826" y1="571" x2="1054" y2="571" />
+  </g>
+
+  <rect class="placeholder" x="586.0" y="69.0" width="118.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="307.0" y="132.0" width="118.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="301.5" y="158.0" width="129.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="353.3" y="201.6" width="23.4" height="37.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="897.5" y="147.0" width="85.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="190.0" y="325.0" width="96.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="179.0" y="352.0" width="118.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="225.6" y="394.6" width="24.8" height="37.4" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="989.5" y="345.0" width="107.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="345.5" y="544.0" width="41.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="575.0" y="607.0" width="140.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="859.0" y="542.0" width="162.0" height="29.0" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Simplified symbols (stand-ins for the pictograms of the original) -->
+  <g stroke="#555555" stroke-width="1.5">
+    <!-- Grundstück: site outline with buildings -->
+    <rect x="586" y="115" width="126" height="45" fill="#d9d9d9" stroke="none" />
+    <polygon points="594,124 640,118 690,120 700,140 680,156 620,156 596,146" fill="#c4c4c4" />
+    <rect x="618" y="128" width="20" height="16" fill="#ffffff" />
+    <rect x="646" y="128" width="22" height="16" fill="#ffffff" />
+    <rect x="674" y="122" width="14" height="14" fill="#ffffff" />
+    <!-- Gelände: slope with downhill arrow -->
+    <rect x="876" y="196" width="132" height="38" fill="#d9d9d9" stroke="none" />
+    <polygon points="884,198 884,232 1003,232" fill="#8c8c8c" />
+    <line x1="938" y1="204" x2="992" y2="220" stroke="#1a1a1a" stroke-width="2" />
+    <polygon points="996,222 984,222 988,213" fill="#1a1a1a" stroke="none" />
+    <!-- Fixpunkte: fixed building blocks -->
+    <rect x="1006" y="388" width="72" height="52" fill="#d9d9d9" />
+    <rect x="1010" y="392" width="14" height="30" fill="#8c8c8c" />
+    <rect x="1028" y="392" width="18" height="30" fill="#ffffff" />
+    <rect x="1050" y="392" width="24" height="30" fill="#ffffff" />
+    <rect x="1010" y="426" width="64" height="10" fill="#8c8c8c" />
+    <!-- GMP: process chain -->
+    <rect x="294" y="590" width="150" height="30" fill="#d9d9d9" stroke="none" />
+    <polygon points="298,594 366,594 374,605 366,616 298,616 306,605" fill="#8c8c8c" />
+    <polygon points="370,594 434,594 442,605 434,616 370,616 378,605" fill="#8c8c8c" />
+    <!-- Organisation: org chart -->
+    <rect x="576" y="654" width="146" height="44" fill="#d9d9d9" stroke="none" />
+    <path d="M649 666 V676 M598 676 H700 M598 676 V683 M649 676 V683 M700 676 V683" fill="none" />
+    <rect x="636" y="657" width="26" height="9" fill="#8c8c8c" />
+    <rect x="583" y="683" width="30" height="10" fill="#8c8c8c" />
+    <rect x="634" y="683" width="30" height="10" fill="#8c8c8c" />
+    <rect x="685" y="683" width="30" height="10" fill="#8c8c8c" />
+    <!-- Betriebsmittel: machines -->
+    <rect x="886" y="586" width="104" height="54" fill="#d9d9d9" stroke="none" />
+    <rect x="892" y="590" width="18" height="44" fill="#8c8c8c" />
+    <rect x="910" y="598" width="12" height="12" fill="#ffffff" />
+    <rect x="930" y="606" width="24" height="16" fill="#8c8c8c" />
+    <rect x="910" y="622" width="72" height="10" fill="#8c8c8c" />
+    <rect x="962" y="596" width="20" height="14" fill="#8c8c8c" />
+  </g>
+
+  <!-- All restrictions point at the Realplanung -->
+  <polygon points="-14,-15 0,-15 0,-30 15,0 0,30 0,15 -14,15" fill="#1a1a1a" transform="translate(643 212) rotate(90)" />
+  <polygon points="-14,-15 0,-15 0,-30 15,0 0,30 0,15 -14,15" fill="#1a1a1a" transform="translate(493 249) rotate(42)" />
+  <polygon points="-14,-15 0,-15 0,-30 15,0 0,30 0,15 -14,15" fill="#1a1a1a" transform="translate(815 255) rotate(143)" />
+  <polygon points="-14,-15 0,-15 0,-30 15,0 0,30 0,15 -14,15" fill="#1a1a1a" transform="translate(393 383) rotate(0)" />
+  <polygon points="-14,-15 0,-15 0,-30 15,0 0,30 0,15 -14,15" fill="#1a1a1a" transform="translate(898 383) rotate(180)" />
+  <polygon points="-14,-15 0,-15 0,-30 15,0 0,30 0,15 -14,15" fill="#1a1a1a" transform="translate(465 497) rotate(-32)" />
+  <polygon points="-14,-15 0,-15 0,-30 15,0 0,30 0,15 -14,15" fill="#1a1a1a" transform="translate(840 497) rotate(210)" />
+  <polygon points="-14,-15 0,-15 0,-30 15,0 0,30 0,15 -14,15" fill="#1a1a1a" transform="translate(645 538) rotate(-90)" />
+</svg>

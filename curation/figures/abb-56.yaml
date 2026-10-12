@@ -1,0 +1,77 @@
+id: abb-56
+title: Beispiele für das Spannungsfeld unternehmerischen Wirkens
+type: system
+description: >-
+  Ein gleichseitiges Dreieck, in dessen Innerem „Interessenausgleich“ und „Zieloptimierung“
+  stehen. An den drei Ecken stehen die Dimensionen der Nachhaltigkeit mit Beispielzielen: oben die
+  Ökonomische Dimension (Rentabilität/Liquidität, Wirtschaftlichkeit/Produktivität,
+  Erfolgspotentiale/Wettbewerbsfähigkeit), links unten die Soziale Dimension
+  (Arbeitsmotivation/-zufriedenheit, Humane Arbeitsbedingungen, Mitbestimmung,
+  Arbeitsplatzerhaltung/-schaffung) und rechts unten die Ökologische Dimension (Rohstoffschonung,
+  Okkupation/Emission, Wahrung der natürlichen Lebensgrundlagen, Sicherung der Lebensqualität).
+axes: []
+elements:
+  - {id: dreieck, kind: shape, text: null, note: "Dreieck, verbindet die drei Dimensionen"}
+  - {id: mitte1, kind: label, text: Interessenausgleich, note: "im Original getrennt „Interessen-/ausgleich“, im Dreieck"}
+  - {id: mitte2, kind: label, text: Zieloptimierung, note: "im Dreieck"}
+  - {id: oek, kind: label, text: "Ökonomische Dimension:", note: "obere Ecke, fett"}
+  - {id: oek1, kind: label, text: "- Rentabilität/Liquidität"}
+  - {id: oek2, kind: label, text: "- Wirtschaftlichkeit/Produktivität"}
+  - {id: oek3, kind: label, text: "- Erfolgspotentiale/Wettbewerbsfähigkeit"}
+  - {id: soz, kind: label, text: "Soziale Dimension:", note: "linke untere Ecke, fett"}
+  - {id: soz1, kind: label, text: "- Arbeitsmotivation/-zufriedenheit"}
+  - {id: soz2, kind: label, text: "- Humane Arbeitsbedingungen"}
+  - {id: soz3, kind: label, text: "- Mitbestimmung"}
+  - {id: soz4, kind: label, text: "- Arbeitsplatzerhaltung/-schaffung"}
+  - {id: oeko, kind: label, text: "Ökologische Dimension:", note: "rechte untere Ecke, fett"}
+  - {id: oeko1, kind: label, text: "- Rohstoffschonung"}
+  - {id: oeko2, kind: label, text: "- Okkupation/Emission"}
+  - {id: oeko3, kind: label, text: "- Wahrung der natürlichen Lebensgrundlagen"}
+  - {id: oeko4, kind: label, text: "- Sicherung der Lebensqualität"}
+relations:
+  - {from: oek, to: soz, kind: steht_in_spannung_mit, text: Dreiecksseite}
+  - {from: soz, to: oeko, kind: steht_in_spannung_mit, text: Dreiecksseite}
+  - {from: oeko, to: oek, kind: steht_in_spannung_mit, text: Dreiecksseite}
+curves: []
+meaning: >-
+  Laut Skript (8.3.2) müssen Unternehmen wegen geänderter Vorgaben und Regulierungen (z. B.
+  EU-Taxonomie, CO2-Bepreisung), steigender Nachfrage nach nachhaltigen Produkten und geänderter
+  Mitarbeiterbedürfnisse neben ökonomischen Zielen verstärkt auch soziale und ökologische Ziele
+  verfolgen. Die drei Dimensionen stehen in einem Spannungsfeld: Unternehmerisches Wirken verlangt
+  einen Interessenausgleich und eine Zieloptimierung zwischen ihnen. Ökonomische Nachhaltigkeit
+  heißt dauerhaft gewinnorientiert wirtschaften ohne Ressourcenverknappung, ökologische zeigt sich
+  im Energie- und Materialverbrauch, in Abfällen und CO2-Emissionen, soziale betrifft die
+  Auswirkungen des Unternehmens auf Mitarbeitende, Kunden und lokale Gemeinschaften.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json zweimal geprüft: 2024-06-20 (Spannungsfeld beschreiben und
+    skizzieren) und in der Klausur 2026-04-29 (drei Dimensionen beschreiben, Spannungsfeld
+    skizzieren). Die Abbildung ist genau die verlangte Skizze.
+  question_ids: [frage-2024-06-20-5, frage-2026-04-29-3]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Dreieck mit Ökonomischer (oben), Sozialer (links unten) und Ökologischer Dimension (rechts unten)"
+    - "Im Dreieck: Interessenausgleich, Zieloptimierung"
+    - "Je Dimension zwei bis vier Beispielziele"
+  common_mistakes:
+    - "Mitte des Dreiecks leer gelassen (Interessenausgleich/Zieloptimierung fehlt)"
+    - "Nur die drei Dimensionen ohne Beispielziele skizziert"
+    - "Beispielziele der falschen Dimension zugeordnet (z. B. Mitbestimmung zur Ökonomie)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-56.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Dreieck, alle drei Dimensionen mit allen
+    Stichpunkten und die beiden Begriffe im Dreieck im Originalwortlaut, Positionen angenähert.
+    Nichts vereinfacht.
+source:
+  pdf_page: 144
+  printed_page: 134
+  ocr_text_of_labels: >-
+    Ökonomische Dimension: - Rentabilität/Liquidität - Wirtschaftlichkeit/Produktivität -
+    Erfolgspotentiale/Wettbewerbsfähigkeit; Interessen-ausgleich; Zieloptimierung; Soziale
+    Dimension: - Arbeitsmotivation/-zufriedenheit - Humane Arbeitsbedingungen - Mitbestimmung -
+    Arbeitsplatzerhaltung/-schaffung; Ökologische Dimension: - Rohstoffschonung -
+    Okkupation/Emission - Wahrung der natürlichen Lebensgrundlagen - Sicherung der Lebensqualität

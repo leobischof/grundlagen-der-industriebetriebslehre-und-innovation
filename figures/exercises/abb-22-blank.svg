@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1265 583" width="1265" height="583" data-figure-id="abb-22" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Entrepreneurship-Prozess – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1265" height="583" fill="#ffffff" />
+  <rect x="8" y="8" width="1249" height="568" fill="none" stroke="#444444" stroke-width="1.5" />
+  <!-- Phase 1: Erkennungsphase -->
+  <rect x="28" y="33" width="1172" height="139" rx="14" ry="14" fill="#acacac" />
+  <circle cx="75" cy="103" r="33" fill="#333333" stroke="#ffffff" stroke-width="2" />
+  <text font-family="Arial, Helvetica, sans-serif" x="75" y="113" font-size="28" fill="#ffffff" text-anchor="middle">1</text>
+  <rect class="placeholder" x="134.0" y="87.2" width="222.5" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="398" y="43" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="409.5" y="85.8" width="212.1" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="668" y="43" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="664.9" y="67.8" width="241.2" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="701.3" y="100.8" width="168.3" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="940" y="43" width="226" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="954.3" y="85.8" width="197.5" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <!-- Phase 2: Entwicklungsphase -->
+  <rect x="28" y="226" width="1172" height="139" rx="14" ry="14" fill="#acacac" />
+  <circle cx="75" cy="296" r="33" fill="#333333" stroke="#ffffff" stroke-width="2" />
+  <text font-family="Arial, Helvetica, sans-serif" x="75" y="306" font-size="28" fill="#ffffff" text-anchor="middle">2</text>
+  <rect class="placeholder" x="134.0" y="280.2" width="251.1" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="398" y="238" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="438.6" y="280.8" width="153.8" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="668" y="238" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="694.0" y="280.8" width="182.9" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="940" y="238" width="226" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="976.1" y="262.8" width="153.8" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="961.5" y="295.8" width="182.9" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <!-- Phase 3: Umsetzungsphase -->
+  <rect x="28" y="418" width="1172" height="139" rx="14" ry="14" fill="#acacac" />
+  <circle cx="75" cy="488" r="33" fill="#333333" stroke="#ffffff" stroke-width="2" />
+  <text font-family="Arial, Helvetica, sans-serif" x="75" y="498" font-size="28" fill="#ffffff" text-anchor="middle">3</text>
+  <rect class="placeholder" x="134.0" y="472.2" width="222.5" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="398" y="430" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="453.2" y="472.8" width="124.6" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="668" y="430" width="235" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="723.2" y="472.8" width="124.6" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="940" y="430" width="226" height="118" rx="14" ry="14" fill="#ffffff" stroke="#333333" stroke-width="2" />
+  <rect class="placeholder" x="947.0" y="472.8" width="212.1" height="35.8" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <!-- Verbindungspfeile zwischen den Phasen -->
+  <path d="M 1166 100 H 1228 V 200 H 378 V 212" fill="none" stroke="#3a3a3a" stroke-width="5" />
+  <polygon points="370,210 386,210 378,224" fill="#3a3a3a" />
+  <path d="M 1166 297 H 1228 V 392 H 378 V 404" fill="none" stroke="#3a3a3a" stroke-width="5" />
+  <polygon points="370,402 386,402 378,416" fill="#3a3a3a" />
+</svg>

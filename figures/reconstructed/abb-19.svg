@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1202 748" width="1202" height="748" data-figure-id="abb-19" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Auswirkung von Innovationsbarrieren</title>
+  <rect x="0" y="0" width="1202" height="748" fill="#ffffff"/>
+  <rect x="10" y="10" width="1180" height="726" fill="none" stroke="#555555" stroke-width="2"/>
+  <!-- Two time windows as light grey columns -->
+  <rect x="372" y="112" width="276" height="466" fill="#ebebeb"/>
+  <rect x="690" y="112" width="278" height="466" fill="#ebebeb"/>
+  <!-- Dashed level separators (drawn as short segments because the PDF renderer ignores stroke-dasharray) -->
+  <path d="M155 263h7 M167 263h7 M179 263h7 M191 263h7 M203 263h7 M215 263h7 M227 263h7 M239 263h7 M251 263h7 M263 263h7 M275 263h7 M287 263h7 M299 263h7 M311 263h7 M323 263h7 M335 263h7 M347 263h7 M359 263h7 M371 263h7 M383 263h7 M395 263h7 M407 263h7 M419 263h7 M431 263h7 M443 263h7 M455 263h7 M467 263h7 M479 263h7 M491 263h7 M503 263h7 M515 263h7 M527 263h7 M539 263h7 M551 263h7 M563 263h7 M575 263h7 M587 263h7 M599 263h7 M611 263h7 M623 263h7 M635 263h7 M647 263h7 M659 263h7 M671 263h7 M683 263h7 M695 263h7 M707 263h7 M719 263h7 M731 263h7 M743 263h7 M755 263h7 M767 263h7 M779 263h7 M791 263h7 M803 263h7 M815 263h7 M827 263h7 M839 263h7 M851 263h7 M863 263h7 M875 263h7 M887 263h7 M899 263h7 M911 263h7 M923 263h7 M935 263h7 M947 263h7 M959 263h7 M971 263h7 M983 263h7 M995 263h7 M1007 263h7 M155 421h7 M167 421h7 M179 421h7 M191 421h7 M203 421h7 M215 421h7 M227 421h7 M239 421h7 M251 421h7 M263 421h7 M275 421h7 M287 421h7 M299 421h7 M311 421h7 M323 421h7 M335 421h7 M347 421h7 M359 421h7 M371 421h7 M383 421h7 M395 421h7 M407 421h7 M419 421h7 M431 421h7 M443 421h7 M455 421h7 M467 421h7 M479 421h7 M491 421h7 M503 421h7 M515 421h7 M527 421h7 M539 421h7 M551 421h7 M563 421h7 M575 421h7 M587 421h7 M599 421h7 M611 421h7 M623 421h7 M635 421h7 M647 421h7 M659 421h7 M671 421h7 M683 421h7 M695 421h7 M707 421h7 M719 421h7 M731 421h7 M743 421h7 M755 421h7 M767 421h7 M779 421h7 M791 421h7 M803 421h7 M815 421h7 M827 421h7 M839 421h7 M851 421h7 M863 421h7 M875 421h7 M887 421h7 M899 421h7 M911 421h7 M923 421h7 M935 421h7 M947 421h7 M959 421h7 M971 421h7 M983 421h7 M995 421h7 M1007 421h7 M155 577h7 M167 577h7 M179 577h7 M191 577h7 M203 577h7 M215 577h7 M227 577h7 M239 577h7 M251 577h7 M263 577h7 M275 577h7 M287 577h7 M299 577h7 M311 577h7 M323 577h7 M335 577h7 M347 577h7 M359 577h7 M371 577h7 M383 577h7 M395 577h7 M407 577h7 M419 577h7 M431 577h7 M443 577h7 M455 577h7 M467 577h7 M479 577h7 M491 577h7 M503 577h7 M515 577h7 M527 577h7 M539 577h7 M551 577h7 M563 577h7 M575 577h7 M587 577h7 M599 577h7 M611 577h7 M623 577h7 M635 577h7 M647 577h7 M659 577h7 M671 577h7 M683 577h7 M695 577h7 M707 577h7 M719 577h7 M731 577h7 M743 577h7 M755 577h7 M767 577h7 M779 577h7 M791 577h7 M803 577h7 M815 577h7 M827 577h7 M839 577h7 M851 577h7 M863 577h7 M875 577h7 M887 577h7 M899 577h7 M911 577h7 M923 577h7 M935 577h7 M947 577h7 M959 577h7 M971 577h7 M983 577h7 M995 577h7 M1007 577h7" fill="none" stroke="#777777" stroke-width="1.2"/>
+  <!-- Time axis -->
+  <path d="M120 616 H1002 M120 600 V633 M672 598 V633" fill="none" stroke="#222222" stroke-width="3"/>
+  <polygon points="1016,616 998,608 998,624" fill="#222222"/>
+  <!-- Column headings -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="510" y="62" font-size="29" font-weight="bold" text-anchor="middle">Kurzfristige</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="510" y="99" font-size="29" font-weight="bold" text-anchor="middle">Auswirkungen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="830" y="62" font-size="29" font-weight="bold" text-anchor="middle">Langfristige</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="830" y="99" font-size="29" font-weight="bold" text-anchor="middle">Auswirkungen</text>
+  <!-- Levels -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108" y="218" font-size="28" font-weight="bold" text-anchor="start">Organisations-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108" y="254" font-size="28" font-weight="bold" text-anchor="start">ebene</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108" y="373" font-size="28" font-weight="bold" text-anchor="start">Projekt-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108" y="409" font-size="28" font-weight="bold" text-anchor="start">ebene</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108" y="530" font-size="28" font-weight="bold" text-anchor="start">Individuelle</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108" y="566" font-size="28" font-weight="bold" text-anchor="start">Ebene</text>
+  <!-- Effects (dark boxes) -->
+  <rect x="705" y="128" width="250" height="120" fill="#3d3d3d" stroke="#2a2a2a" stroke-width="1"/>
+  <rect x="385" y="281" width="247" height="122" fill="#3d3d3d" stroke="#2a2a2a" stroke-width="1"/>
+  <rect x="385" y="440" width="247" height="122" fill="#3d3d3d" stroke="#2a2a2a" stroke-width="1"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="830" y="165" font-size="27" fill="#ffffff" text-anchor="middle">Verringerte</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="830" y="200" font-size="27" fill="#ffffff" text-anchor="middle">Anzahl an</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="830" y="235" font-size="27" fill="#ffffff" text-anchor="middle">Patenten</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="508" y="317" font-size="27" fill="#ffffff" text-anchor="middle">Verhinderung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="508" y="352" font-size="27" fill="#ffffff" text-anchor="middle">Verzögerung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="508" y="387" font-size="27" fill="#ffffff" text-anchor="middle">Veränderung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="508" y="477" font-size="27" fill="#ffffff" text-anchor="middle">Mitarbeiter</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="508" y="512" font-size="27" fill="#ffffff" text-anchor="middle">meidet</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="508" y="547" font-size="27" fill="#ffffff" text-anchor="middle">Innovationsproj.</text>
+  <!-- Axis labels -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="190" y="671" font-size="28" font-weight="bold" text-anchor="middle">Projektstart</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="678" y="671" font-size="28" font-weight="bold" text-anchor="middle">Projektende</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1015" y="671" font-size="28" font-weight="bold" text-anchor="middle">Zeit</text>
+</svg>

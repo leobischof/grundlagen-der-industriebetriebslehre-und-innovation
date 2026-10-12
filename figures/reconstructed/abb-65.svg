@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 871" width="1276" height="871" data-figure-id="abb-65" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Beispiel einer Produktionsprogrammoptimierung</title>
+  <rect x="0" y="0" width="1276" height="871" fill="#ffffff"/>
+  <rect x="12" y="10" width="1252" height="850" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Feasible region: bounded by both axes, both capacity limits and both constraints -->
+  <polygon class="answer" points="188,522 387,522 647,613 714,686 714,806 188,806" fill="#474747"/>
+
+  <!-- Constraint lines and capacity limits -->
+  <g class="answer" fill="none" stroke="#999999" stroke-width="1.5">
+    <path d="M188 118 L825 806"/>
+    <path d="M188 452 L1015 743"/>
+    <path d="M714 68 V806"/>
+    <path d="M188 522 H1017"/>
+  </g>
+
+  <!-- Axes (structure) -->
+  <g fill="none" stroke="#888888" stroke-width="1.5">
+    <path d="M188 806 V32"/><polygon points="188.0,32.0 182.5,45.0 193.5,45.0" fill="#777777"/>
+    <path d="M188 806 H1133"/><polygon points="1133.0,806.0 1120.0,800.5 1120.0,811.5" fill="#777777"/>
+  </g>
+
+  <!-- Labels -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="29" text-anchor="middle" transform="translate(180 158) rotate(-90)">Menge Produkt 2</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1012" y="836" font-size="29" text-anchor="middle">Menge Produkt 1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="280" y="182" font-size="29">Einschränkung 1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="272" y="476" font-size="29">Einschränkung 2</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="857" y="106" font-size="29" text-anchor="middle">Kapazitätsgrenze</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="857" y="140" font-size="29" text-anchor="middle">Produkt 1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="983" y="476" font-size="29" text-anchor="middle">Kapazitätsgrenze</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="983" y="510" font-size="29" text-anchor="middle">Produkt 2</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="457" y="686" font-size="29" fill="#ffffff" text-anchor="middle">Lösungsbereich</text>
+</svg>

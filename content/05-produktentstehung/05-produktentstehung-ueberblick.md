@@ -23,7 +23,7 @@ Abbildung 23 zeigt den Wandel von der gebündelten Kompetenz der Handwerks-Meist
 
 ![Abbildung 23: Geschichte der Produktentstehung](../../figures/originals/abb-23.png)
 
-*Abbildung 23: Geschichte der Produktentstehung – Skript S. 75 (PDF 85)*
+*Abbildung 23: Geschichte der Produktentstehung – Skript S. 75 (PDF 85)* · [Rekonstruktion](../../figures/reconstructed/abb-23.svg)
 
 <!-- Seite 76 (PDF 86) -->
 
@@ -35,7 +35,7 @@ Der Produktlebenszyklus beschreibt den gesamten Prozess von der Geschäftsidee b
 
 ![Abbildung 24: Produktentstehung als Teil des Produktlebenszyklus](../../figures/originals/abb-24.png)
 
-*Abbildung 24: Produktentstehung als Teil des Produktlebenszyklus – Skript S. 76 (PDF 86)*
+*Abbildung 24: Produktentstehung als Teil des Produktlebenszyklus – Skript S. 76 (PDF 86)* · [Rekonstruktion](../../figures/reconstructed/abb-24.svg) · [Zeichenübung](../../learning/drawing-exercises/abb-24-zeichenuebung.md)
 
 ## Fußnoten ohne sicheren Textanker
 

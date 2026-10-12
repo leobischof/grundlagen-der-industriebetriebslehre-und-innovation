@@ -1,0 +1,94 @@
+id: abb-60
+title: Produktionsprogrammplanung
+type: prozess
+description: >-
+  Prozessdiagramm des Produktionsplanungsprozesses. Oben ein großer Pfeil „Prozess der
+  Produktionsplanung“ mit fünf aufeinanderfolgenden, von hell nach dunkel eingefärbten
+  Chevrons: Planung des Produktionsprogramms, Materialbedarfsplanung, Zeit- und
+  Kapazitätsplanung, Realisierung der Produktion, Produktionskontrolle. Darunter der Kasten
+  „Produktionsprogramm“ sowie zwei weitere Pfeile „Produktion“ (Herstellung, Assembly) und
+  „Beschaffung“ (Materialnachfrage, Verwaltung des Inventars, Bestellung). Senkrechte Linien und
+  Pfeile verbinden die Planungsschritte mit Produktion und Beschaffung; ein „Auftrag“ geht von der
+  Realisierung in die Produktion, die Produktionskontrolle meldet an die ersten drei
+  Planungsschritte zurück.
+axes: []
+elements:
+  - {id: proz, kind: pfeil, text: Prozess der Produktionsplanung, note: "großer Rahmenpfeil oben"}
+  - {id: s1, kind: schritt, text: Planung des Produktionsprogramms, note: "hellster Chevron"}
+  - {id: s2, kind: schritt, text: Materialbedarfsplanung, note: "im Bild getrennt: Materialbedarfs-/planung"}
+  - {id: s3, kind: schritt, text: Zeit- und Kapazitätsplanung}
+  - {id: s4, kind: schritt, text: Realisierung der Produktion, note: "dunkelgrau, weiße Schrift"}
+  - {id: s5, kind: schritt, text: Produktionskontrolle, note: "dunkelster Chevron; im Bild getrennt: Produktions-/kontrolle"}
+  - {id: pp, kind: box, text: Produktionsprogramm, note: "Ergebnis von s1"}
+  - {id: auf, kind: box, text: Auftrag}
+  - {id: prod, kind: pfeil, text: Produktion}
+  - {id: prod1, kind: schritt, text: Herstellung}
+  - {id: prod2, kind: schritt, text: Assembly, note: "englischer Begriff im Original"}
+  - {id: bes, kind: pfeil, text: Beschaffung}
+  - {id: bes1, kind: schritt, text: Materialnachfrage}
+  - {id: bes2, kind: schritt, text: Verwaltung des Inventars}
+  - {id: bes3, kind: schritt, text: Bestellung, note: "grau, weiße Schrift"}
+relations:
+  - {from: s1, to: s2, kind: folgt}
+  - {from: s2, to: s3, kind: folgt}
+  - {from: s3, to: s4, kind: folgt}
+  - {from: s4, to: s5, kind: folgt}
+  - {from: s5, to: s1, kind: rückkopplung}
+  - {from: s5, to: s2, kind: rückkopplung}
+  - {from: s5, to: s3, kind: rückkopplung}
+  - {from: s1, to: pp, kind: pfeil}
+  - {from: s4, to: auf, kind: linie}
+  - {from: auf, to: prod, kind: pfeil}
+  - {from: s4, to: bes, kind: pfeil, text: senkrechte Linie hinter der Produktion bis in die Beschaffung}
+  - {from: prod, to: s2, kind: pfeil}
+  - {from: prod, to: s3, kind: pfeil}
+  - {from: prod, to: s5, kind: pfeil, text: zwei Rückmeldepfeile in die Produktionskontrolle}
+  - {from: bes, to: prod, kind: pfeil, text: "ein Pfeil nach oben unter „Herstellung“, weitere Linien ohne Spitze"}
+  - {from: prod1, to: prod2, kind: folgt}
+  - {from: bes1, to: bes2, kind: folgt}
+  - {from: bes2, to: bes3, kind: folgt}
+curves: []
+meaning: >-
+  Laut Skript (9.1) umfasst der Produktionsplanungsprozess die Produktionsprogrammplanung
+  (Produktionsmengen für den Planungszeitraum aus der Absatzplanung), die Mengenplanung für
+  Beschaffung und Produktion (Materialbedarfsplanung) und die Termin- und Kapazitätsplanung.
+  Gesamtziel ist die Minimierung der Produktionskosten pro Einheit. Die Abbildung ordnet diese
+  Planungsschritte vor Realisierung und Kontrolle an und zeigt, dass sie mit Produktion und
+  Beschaffung in beide Richtungen verknüpft sind. Die Aufgaben des Operations Management sind
+  Absatzplanung, kurzfristige Produktionsprogrammplanung, Materialbedarfsplanung, Zeit- und
+  Kapazitätsplanung sowie Steuerung und Kontrolle der Produktion.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Die Abbildung ist aber das
+    Gerüst des Abschnitts 9.1; die Reihenfolge der Planungsschritte ist Grundlage für die
+    abgefragten Detailthemen (Materialbedarf, ABC-Analyse, GAE).
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Fünf Schritte in Reihenfolge: Planung des Produktionsprogramms → Materialbedarfsplanung → Zeit- und Kapazitätsplanung → Realisierung der Produktion → Produktionskontrolle"
+    - "Ergebnis der Programmplanung ist das Produktionsprogramm"
+    - "Produktion (Herstellung, Assembly) und Beschaffung (Materialnachfrage, Verwaltung des Inventars, Bestellung) als eigene Bereiche darunter"
+    - "Rückkopplung der Produktionskontrolle auf die Planungsschritte"
+  common_mistakes:
+    - "Materialbedarfsplanung und Zeit- und Kapazitätsplanung vertauscht"
+    - "Produktionskontrolle als Planungsschritt vor der Realisierung eingeordnet"
+    - "Beschaffung weggelassen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-60.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte, Chevrons, Verbindungslinien
+    und Pfeilspitzen übernommen. Grautöne der Chevrons angenähert (im Original leicht rötlich
+    getönte Hellgrautöne). Pfeilspitzen als eigene Dreiecke gezeichnet. Wortlaut „Assembly“
+    (englisch) unverändert. Der Titel der Abbildung lautet im Skript „Produktionsprogrammplanung“,
+    obwohl der gesamte Produktionsplanungsprozess gezeigt wird.
+source:
+  pdf_page: 158
+  printed_page: 148
+  ocr_text_of_labels: >-
+    Prozess der Produktionsplanung; Planung des Produktionsprogramms; Materialbedarfs- planung;
+    Zeit- und Kapazitätsplanung; Realisierung der Produktion; Produktions- kontrolle; Auftrag;
+    Produktionsprogramm; Produktion; Herstellung; Assembly; Beschaffung; Materialnachfrage;
+    Verwaltung des Inventars; Bestellung

@@ -1,0 +1,63 @@
+id: abb-33
+title: Set-based Concurrent Engineering
+type: venn
+description: >-
+  Ein auf der Spitze stehendes Dreieck (Trichter) zeigt den mit der Zeit schrumpfenden
+  Lösungsraum; links verläuft ein dicker grauer Pfeil „Zeit“ nach unten. Oben im Trichter
+  überlappen ein hell umrandetes, auf der Spitze stehendes Quadrat (Lösungs-Set
+  Gestaltungsvarianten der Konstruktion und Entwicklung) und ein schwarz umrandetes Quadrat
+  (Lösungs-Set Produktvarianten der Produktion); die Überlappung ist grau gefüllt. Darunter folgen
+  zwei immer kleinere graue Fünfecke gleicher Form – der gemeinsame Lösungsraum wird schrittweise
+  bis zur endgültigen Lösung eingeengt.
+axes:
+  - {axis: y, label: Zeit, unit: null, direction: unten}
+elements:
+  - {id: zeit, kind: arrow, text: Zeit, note: "Blockpfeil nach unten, links"}
+  - {id: trichter, kind: shape, text: null, note: "auf der Spitze stehendes Dreieck, Lösungsraum"}
+  - {id: set_ke, kind: box, text: Lösungs-Set Gestaltungsvarianten der Konstruktion und Entwicklung, note: hell umrandete Raute}
+  - {id: set_p, kind: box, text: Lösungs-Set Produktvarianten der Produktion, note: schwarz umrandetes Quadrat}
+  - {id: schnitt1, kind: shape, text: null, note: graue Überlappung beider Sets}
+  - {id: schnitt2, kind: shape, text: null, note: "kleinere Überlappung, Mitte"}
+  - {id: schnitt3, kind: shape, text: null, note: "kleinste Überlappung, unten = endgültige Lösung"}
+relations:
+  - {from: set_ke, to: schnitt1, kind: überschneidet}
+  - {from: set_p, to: schnitt1, kind: überschneidet}
+  - {from: schnitt1, to: schnitt2, kind: folgt, text: Einschränkung im Projektverlauf}
+  - {from: schnitt2, to: schnitt3, kind: folgt, text: Einschränkung bis zur Designlösung}
+curves: []
+meaning: >-
+  Set-based Concurrent Engineering (SBCE) betrachtet Lösungs-Sets über mehrere Phasen und legt
+  die endgültige Lösung spät fest (sec-5.6). Zuerst wird das Lösungs-Set der Gestaltungsvarianten
+  von Konstruktion und Entwicklung mit dem Lösungs-Set der Produktvarianten der Produktion
+  verglichen; die Überlappung begrenzt den für beide Seiten möglichen Lösungsraum. Mit dem
+  Projektablauf wird er nach den drei SBCE-Prinzipien (Design-Raum abbilden, Integration durch
+  Überschneidung, Machbarkeit vor Ausführung prüfen) weiter eingeschränkt.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; Abschnitt 5.6 wird über andere
+    Inhalte geprüft. Für das Verständnis von „Integration durch Überschneidung“ hilfreich.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Zwei überlappende Lösungs-Sets (Konstruktion/Entwicklung und Produktion)"
+    - "Nur die Überlappung ist der gemeinsame Lösungsraum"
+    - "Trichter + Zeitpfeil: Lösungsraum schrumpft bis zur endgültigen Lösung"
+  common_mistakes:
+    - "Die beiden Sets nicht beschriften oder vertauschen"
+    - "Einengung über die Zeit (Trichter) weglassen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-33.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Formen, Positionen und Grautöne
+    angenähert (hellgraue Raute, schwarzes Quadrat, graue Überlappungsfünfecke, grauer Blockpfeil
+    „Zeit“ mit weißer, gedrehter Schrift). Die Verbindungslinie zum linken Kasten endet wie im
+    Original kurz vor der Raute.
+source:
+  pdf_page: 98
+  printed_page: 88
+  ocr_text_of_labels: >-
+    Zeit; Lösungs-Set Gestaltungsvarianten der Konstruktion und Entwicklung; Lösungs-Set
+    Produktvarianten der Produktion

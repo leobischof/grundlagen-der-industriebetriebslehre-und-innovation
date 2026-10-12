@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 501" width="1263" height="501" data-figure-id="abb-13" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Abgrenzung zwischen Industrie- und Dienstleistungsbetrieb – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1263" height="501" fill="#ffffff" />
+  <!-- outer frame of the original figure -->
+  <rect x="12" y="9" width="1240" height="481" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- continuum: share of goods (light, bottom left) vs. services (dark, top right) -->
+  <polygon points="92,222 1160,458 92,458" fill="#ecebef" />
+  <polygon points="92,222 1160,222 1160,458" fill="#4a4a4a" />
+  <line x1="92" y1="222" x2="1160" y2="458" stroke="#bbbbbb" stroke-width="1.5" />
+  <rect class="placeholder" x="144.0" y="321.6" width="171.4" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="845.6" y="327.6" width="298.4" height="42.6" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- positions on the continuum -->
+  <g fill="none" stroke="#111111" stroke-width="2">
+    <path d="M162 196 V220" />
+    <path d="M388 190 V220" />
+    <path d="M628 190 V220" />
+    <path d="M884 196 V220" />
+    <path d="M1105 196 V220" />
+  </g>
+  <!-- arrow heads -->
+  <g>
+    <polygon points="162,221 155.95,210 168.05,210" fill="#111111" />
+    <polygon points="388,221 381.95,210 394.05,210" fill="#111111" />
+    <polygon points="628,221 621.95,210 634.05,210" fill="#111111" />
+    <polygon points="884,221 877.95,210 890.05,210" fill="#111111" />
+    <polygon points="1105,221 1098.95,210 1111.05,210" fill="#111111" />
+  </g>
+  <g font-size="24" text-anchor="middle">
+    <rect class="placeholder" x="111.8" y="80.8" width="100.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="92.0" y="112.8" width="140.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="85.4" y="144.8" width="153.2" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="318.0" y="42.8" width="140.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="285.0" y="75.8" width="206.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="318.0" y="108.8" width="140.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="278.4" y="141.8" width="219.2" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="558.0" y="42.8" width="140.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="525.0" y="75.8" width="206.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="571.2" y="108.8" width="113.6" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="518.4" y="141.8" width="219.2" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="781.0" y="46.8" width="206.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="800.8" y="79.8" width="166.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="781.0" y="112.8" width="206.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="814.0" y="144.8" width="140.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+    <rect class="placeholder" x="1054.8" y="80.8" width="100.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="1002.0" y="112.8" width="206.0" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="1021.8" y="144.8" width="166.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1269 778" width="1269" height="778" data-figure-id="abb-64" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Produktfeld Beispiel</title>
+  <rect x="0" y="0" width="1269" height="778" fill="#ffffff"/>
+  <rect x="12" y="10" width="1245" height="758" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Tree connectors and bracket for the two variant levels (structure) -->
+  <g fill="none" stroke="#aaaaaa" stroke-width="1.5">
+    <path d="M1032 103 V145 M520 145 H1133 M520 145 V182 M863 145 V182 M1133 145 V182"/>
+    <path d="M520 262 V300 M461 300 H958 M461 300 V340 M707 300 V340 M958 300 V340"/>
+    <path d="M458 420 V462 M401 462 H895 M401 462 V500 M673 462 V500 M895 462 V500"/>
+    <path d="M458 580 V617 M416 617 H822 M416 617 V654 M552 617 V654 M688 617 V654 M822 617 V654"/>
+    <path d="M346 484 H339 V756 H346 M339 628 H331"/>
+  </g>
+
+  <!-- Level names (left column) -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="75" y="86" font-size="40">Produktbereich</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="75" y="243" font-size="40">Produktgruppe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="75" y="395" font-size="40">Produkttyp</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="75" y="634" font-size="40">Varianten</text>
+
+  <!-- Root: product field -->
+  <rect x="864" y="22" width="325" height="81" fill="#595959"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1026" y="71" font-size="27" font-weight="bold" fill="#ffffff" text-anchor="middle">Schuhe</text>
+
+  <rect x="360" y="182" width="321" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="698" y="182" width="326" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="1042" y="182" width="191" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="358" y="340" width="204" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="609" y="340" width="203" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="862" y="340" width="203" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="358" y="500" width="204" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="579" y="500" width="204" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="801" y="500" width="204" height="80" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="361" y="654" width="112" height="82" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="494" y="654" width="114" height="82" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="629" y="654" width="115" height="82" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="762" y="654" width="116" height="82" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="520" y="230" font-size="27" text-anchor="middle">Sport</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="861" y="230" font-size="27" text-anchor="middle">Männerschuhe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1138" y="230" font-size="27" text-anchor="middle">…</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="460" y="388" font-size="27" text-anchor="middle">Boots</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="710" y="388" font-size="27" text-anchor="middle">Sneakers</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="963" y="388" font-size="27" text-anchor="middle">…</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="460" y="548" font-size="27" text-anchor="middle">schwarz</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="680" y="548" font-size="27" text-anchor="middle">braun</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="903" y="548" font-size="27" text-anchor="middle">…</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="417" y="703" font-size="27" text-anchor="middle">35</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="551" y="703" font-size="27" text-anchor="middle">36</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="686" y="703" font-size="27" text-anchor="middle">37</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="820" y="703" font-size="27" text-anchor="middle">…</text>
+</svg>

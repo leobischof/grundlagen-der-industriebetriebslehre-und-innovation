@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1204 1057" width="1204" height="1057" data-figure-id="tab-04" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Kriterien für Innovationsstrategien</title>
+  <rect x="0" y="0" width="1204" height="1057" fill="#ffffff"/>
+  <!-- Header row shaded grey as in the original -->
+  <rect x="5" y="5" width="1192" height="71" fill="#d9d9d9"/>
+  <!-- Grid -->
+  <g fill="none" stroke="#555555" stroke-width="1.5">
+    <rect x="5" y="5" width="1192" height="1047"/>
+    <path d="M597 5 V1052 M5 76 H1197 M5 242 H1197 M5 359 H1197 M5 477 H1197 M5 592 H1197 M5 711 H1197 M5 777 H1197 M5 942 H1197"/>
+  </g>
+  <!-- Header (given, not part of the answer) -->
+  <text font-family="Arial, Helvetica, sans-serif" x="22" y="50" font-size="32" font-weight="bold">Kriterium</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="612" y="50" font-size="32" font-weight="bold">Effekt/Beispiel</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="114" font-size="32" font-weight="bold">Dominierender Wettbewerbs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="163" font-size="32" font-weight="bold">faktor</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="114" font-size="32">Kostenführerschaft, Differenzierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="163" font-size="32">(Qualität, Technologie), Fokusstrate-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="212" font-size="32">gie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="280" font-size="32" font-weight="bold">Wettbewerbsstrategie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="280" font-size="32">Aggressive Strategie, Anpassungsstra-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="329" font-size="32">tegie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="397" font-size="32" font-weight="bold">Marktumfang</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="397" font-size="32">Globalisierungsstrategie, Fokusstra-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="446" font-size="32">tegie, Nischenstrategie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="515" font-size="32" font-weight="bold">Marktgebiet</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="515" font-size="32">Lokale, regionale, nationale, interna-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="564" font-size="32">tionale, weltweite Strategie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="630" font-size="32" font-weight="bold">Zeitorientierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="630" font-size="32">First-to-Market, Second-to-Market,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="679" font-size="32">Nachfolgestrategie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="749" font-size="32" font-weight="bold">Arbeitsteilung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="749" font-size="32">Solo-Lauf, Kooperationsstrategie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="815" font-size="32" font-weight="bold">Wachstumsrichtung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="815" font-size="32">Marktdurchdringung, Marktentwick-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="864" font-size="32">lung, Produktentwicklung, Diversifi-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="913" font-size="32">kation</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="980" font-size="32" font-weight="bold">Strategischer Schlüsselfaktor</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="980" font-size="32">Leistungsorientiert, kostenorientiert,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="612" y="1029" font-size="32">marktorientiert, zeitorientiert</text>
+</svg>

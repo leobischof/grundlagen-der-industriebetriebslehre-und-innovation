@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1261 499" width="1261" height="499" data-figure-id="abb-61" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Beispiele für eine Zeitreihenanalyse (a) und ein Kausalmodell (b)</title>
+  <rect x="0" y="0" width="1261" height="499" fill="#ffffff"/>
+  <rect x="10" y="10" width="1240" height="478" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Axes (structure) -->
+  <g fill="none" stroke="#999999" stroke-width="1.5">
+    <path d="M103 430 V87"/><polygon points="103.0,87.0 97.5,100.0 108.5,100.0" fill="#888888"/>
+    <path d="M103 430 H535"/><polygon points="535.0,430.0 522.0,424.5 522.0,435.5" fill="#888888"/>
+    <path d="M777 430 V87"/><polygon points="777.0,87.0 771.5,100.0 782.5,100.0" fill="#888888"/>
+    <path d="M777 430 H1200"/><polygon points="1200.0,430.0 1187.0,424.5 1187.0,435.5" fill="#888888"/>
+  </g>
+
+  <!-- a) time series: data points and linear trend line -->
+  <path class="answer" d="M103 353 L477 147" fill="none" stroke="#aaaaaa" stroke-width="1.5"/>
+  <g class="answer" fill="#444444">
+    <circle cx="136" cy="358" r="5"/><circle cx="147" cy="303" r="5"/><circle cx="185" cy="272" r="5"/>
+    <circle cx="218" cy="310" r="5"/><circle cx="255" cy="321" r="5"/><circle cx="274" cy="282" r="5"/>
+    <circle cx="286" cy="227" r="5"/><circle cx="316" cy="196" r="5"/><circle cx="353" cy="231" r="5"/>
+    <circle cx="383" cy="264" r="5"/><circle cx="402" cy="233" r="5"/><circle cx="412" cy="197" r="5"/>
+    <circle cx="424" cy="139" r="5"/><circle cx="462" cy="111" r="5"/>
+  </g>
+
+  <!-- b) causal model: data points and non-linear fitted curve -->
+  <path class="answer" d="M788 400 C830 390 860 370 885 330 C910 285 930 245 965 215 C995 190 1020 178 1045 180 C1075 182 1110 200 1145 218" fill="none" stroke="#aaaaaa" stroke-width="1.5"/>
+  <g class="answer" fill="#444444">
+    <circle cx="798" cy="370" r="5"/><circle cx="838" cy="392" r="5"/><circle cx="848" cy="354" r="5"/>
+    <circle cx="883" cy="360" r="5"/><circle cx="884" cy="309" r="5"/><circle cx="906" cy="268" r="5"/>
+    <circle cx="913" cy="311" r="5"/><circle cx="942" cy="268" r="5"/><circle cx="943" cy="226" r="5"/>
+    <circle cx="974" cy="242" r="5"/><circle cx="981" cy="196" r="5"/><circle cx="1008" cy="219" r="5"/>
+    <circle cx="1023" cy="159" r="5"/><circle cx="1057" cy="196" r="5"/><circle cx="1085" cy="162" r="5"/>
+    <circle cx="1102" cy="219" r="5"/><circle cx="1125" cy="191" r="5"/><circle cx="1149" cy="205" r="5"/>
+  </g>
+
+  <!-- Labels -->
+  <text font-family="Arial, Helvetica, sans-serif" x="38" y="127" font-size="30">a)</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="718" y="127" font-size="30">b)</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="113" y="62" font-size="24" text-anchor="middle">Nachfrage</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="547" y="474" font-size="24" text-anchor="middle">Zeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="761" y="62" font-size="24" text-anchor="middle">Nachfrage</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1160" y="474" font-size="24" text-anchor="middle">Variable</text>
+</svg>

@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1264 657" width="1264" height="657" data-figure-id="abb-34" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Rahmenstruktur-Konzept für integrierte Produkt- und Prozessgestaltung nach EVERSHEIM/SCHUH/ASSMUS</title>
+  <rect x="0" y="0" width="1264" height="657" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="12" y="10" width="1243" height="636" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- floor slab = basis "Organisations- und Informationsmanagement" (oblique 3D view) -->
+  <polygon points="55,500 255,308 1240,308 1020,500" fill="#ececec"/>
+  <polygon points="55,500 1020,500 1020,524 60,524" fill="#a9a9a9"/>
+  <polygon points="1020,500 1240,308 1240,330 1020,524" fill="#c4c4c4"/>
+  <!-- hidden back-left edge of the glass box -->
+  <line x1="255" y1="138" x2="255" y2="308" stroke="#222222" stroke-width="2"/>
+
+  <!-- back lane: Produktionsprozessgestaltung (light grey bar with arrow tip to the right) -->
+  <polygon points="520,232 545,208 1085,208 1060,232" fill="#d6d6d6"/>
+  <polygon points="520,232 1060,232 1060,305 520,305" fill="#bdbdbd"/>
+  <polygon points="1060,232 1085,208 1150,248 1060,328" fill="#a8a8a8"/>
+  <polygon points="1060,214 1098,178 1155,240 1112,300" fill="#3c3c3c"/>
+
+  <!-- top face of the Produktgestaltung lane (light) -->
+  <polygon points="365,385 405,345 960,345 935,385" fill="#d9d9d9"/>
+
+  <!-- dark diagonal beam: integration of Technologie with Markt/Produktgestaltung -->
+  <polygon points="340,215 555,215 420,348 205,348" fill="#333333"/>
+  <polygon points="555,215 555,240 432,372 420,348" fill="#262626"/>
+
+  <!-- Technologie block -->
+  <polygon points="252,248 282,218 392,218 362,248" fill="#d9d9d9"/>
+  <polygon points="362,248 392,218 392,292 362,320" fill="#8f8f8f"/>
+  <rect x="252" y="248" width="110" height="72" fill="#c6c6c6"/>
+
+  <!-- large dark plate: integrated product and production process design -->
+  <polygon points="620,220 972,220 832,372 508,372" fill="#3a3a3a"/>
+  <polygon points="508,372 832,372 832,384 508,384" fill="#1f1f1f"/>
+  <polygon points="832,372 972,220 972,234 832,384" fill="#2a2a2a"/>
+
+  <!-- front lane: Produktgestaltung (light grey bar with arrow tip to the right) -->
+  <rect x="365" y="385" width="570" height="55" fill="#c6c6c6"/>
+  <polygon points="935,346 1030,372 935,470" fill="#a8a8a8"/>
+  <polygon points="934,352 975,312 1030,372 985,420" fill="#3c3c3c"/>
+  <polygon points="832,384 935,384 935,346 862,346" fill="#a0a0a0"/>
+
+  <!-- Markt block and its dark connection to Produktgestaltung -->
+  <polygon points="200,385 243,343 410,343 365,388" fill="#333333"/>
+  <rect x="240" y="388" width="125" height="48" fill="#333333"/>
+  <polygon points="122,385 165,343 283,343 240,385" fill="#d9d9d9"/>
+  <rect x="122" y="385" width="118" height="65" fill="#c6c6c6"/>
+
+  <!-- glass box edges (front and top) -->
+  <g fill="none" stroke="#111111" stroke-width="2">
+    <polyline points="55,330 255,138 1240,138 1020,330"/>
+    <line x1="1240" y1="138" x2="1240" y2="308"/>
+    <line x1="1240" y1="308" x2="1020" y2="500"/>
+    <rect x="55" y="330" width="965" height="170"/>
+  </g>
+
+  <!-- dotted leader lines with end dots -->
+  <!-- dotted lines drawn as small squares (dash patterns do not render reliably) -->
+  <g fill="#111111">
+    <rect x="260.2" y="119.2" width="5" height="5"/>
+    <rect x="267.9" y="125.9" width="5" height="5"/>
+    <rect x="275.7" y="132.7" width="5" height="5"/>
+    <rect x="283.4" y="139.4" width="5" height="5"/>
+    <rect x="291.1" y="146.1" width="5" height="5"/>
+    <rect x="298.8" y="152.8" width="5" height="5"/>
+    <rect x="306.5" y="159.5" width="5" height="5"/>
+    <rect x="314.3" y="166.3" width="5" height="5"/>
+    <rect x="322.0" y="173.0" width="5" height="5"/>
+    <rect x="329.7" y="179.7" width="5" height="5"/>
+    <rect x="337.4" y="186.4" width="5" height="5"/>
+    <rect x="345.1" y="193.1" width="5" height="5"/>
+    <rect x="352.9" y="199.9" width="5" height="5"/>
+    <rect x="360.6" y="206.6" width="5" height="5"/>
+    <rect x="368.3" y="213.3" width="5" height="5"/>
+    <rect x="376.0" y="220.0" width="5" height="5"/>
+    <rect x="383.7" y="226.7" width="5" height="5"/>
+    <rect x="391.5" y="233.5" width="5" height="5"/>
+    <rect x="399.2" y="240.2" width="5" height="5"/>
+    <rect x="406.9" y="246.9" width="5" height="5"/>
+    <rect x="414.6" y="253.6" width="5" height="5"/>
+    <rect x="422.3" y="260.3" width="5" height="5"/>
+    <rect x="430.1" y="267.1" width="5" height="5"/>
+    <rect x="437.8" y="273.8" width="5" height="5"/>
+    <rect x="1023.6" y="117.5" width="5" height="5"/>
+    <rect x="1014.8" y="122.5" width="5" height="5"/>
+    <rect x="1005.9" y="127.5" width="5" height="5"/>
+    <rect x="997.1" y="132.5" width="5" height="5"/>
+    <rect x="988.2" y="137.5" width="5" height="5"/>
+    <rect x="979.4" y="142.5" width="5" height="5"/>
+    <rect x="970.5" y="147.5" width="5" height="5"/>
+    <rect x="961.6" y="152.5" width="5" height="5"/>
+    <rect x="952.8" y="157.5" width="5" height="5"/>
+    <rect x="943.9" y="162.5" width="5" height="5"/>
+    <rect x="935.1" y="167.5" width="5" height="5"/>
+    <rect x="926.2" y="172.5" width="5" height="5"/>
+    <rect x="917.4" y="177.5" width="5" height="5"/>
+    <rect x="908.5" y="182.5" width="5" height="5"/>
+    <rect x="899.6" y="187.5" width="5" height="5"/>
+    <rect x="890.8" y="192.5" width="5" height="5"/>
+    <rect x="881.9" y="197.5" width="5" height="5"/>
+    <rect x="873.1" y="202.5" width="5" height="5"/>
+    <rect x="864.2" y="207.5" width="5" height="5"/>
+    <rect x="855.4" y="212.5" width="5" height="5"/>
+    <rect x="846.5" y="217.5" width="5" height="5"/>
+    <rect x="837.6" y="222.5" width="5" height="5"/>
+    <rect x="828.8" y="227.5" width="5" height="5"/>
+    <rect x="819.9" y="232.5" width="5" height="5"/>
+    <rect x="811.1" y="237.5" width="5" height="5"/>
+    <rect x="802.2" y="242.5" width="5" height="5"/>
+    <rect x="793.4" y="247.5" width="5" height="5"/>
+    <rect x="784.5" y="252.5" width="5" height="5"/>
+    <rect x="775.6" y="257.5" width="5" height="5"/>
+    <rect x="766.8" y="262.5" width="5" height="5"/>
+    <rect x="757.9" y="267.5" width="5" height="5"/>
+    <rect x="749.1" y="272.5" width="5" height="5"/>
+    <rect x="740.2" y="277.5" width="5" height="5"/>
+    <rect x="731.4" y="282.5" width="5" height="5"/>
+    <rect x="509.5" y="524.7" width="5" height="5"/>
+    <rect x="509.5" y="534.9" width="5" height="5"/>
+    <rect x="509.5" y="545.1" width="5" height="5"/>
+    <rect x="509.5" y="555.3" width="5" height="5"/>
+  </g>
+  <g fill="#111111">
+    <circle cx="255" cy="115" r="8"/>
+    <circle cx="448" cy="283" r="8"/>
+    <circle cx="1035" cy="115" r="8"/>
+    <circle cx="725" cy="290" r="8"/>
+    <circle cx="512" cy="517" r="8"/>
+    <circle cx="512" cy="568" r="8"/>
+  </g>
+
+  <!-- labels -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="250" y="68" font-size="27" text-anchor="middle">Integrierte Produktdefinition</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="250" y="100" font-size="27" text-anchor="middle">und Technologieplanung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1035" y="68" font-size="27" text-anchor="middle">Integrierte Produkt- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1050" y="100" font-size="27" text-anchor="middle">Produktionsprozessgestaltung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="708" y="193" font-size="27" text-anchor="middle">Produktionsprozessgestaltung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="307" y="280" font-size="27" text-anchor="middle">Techno-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="307" y="312" font-size="27" text-anchor="middle">logie</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="181" y="428" font-size="27" text-anchor="middle">Markt</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="664" y="423" font-size="27" text-anchor="middle">Produktgestaltung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="510" y="611" font-size="27" text-anchor="middle">Organisations- und Informationsmanagement</text>
+</svg>

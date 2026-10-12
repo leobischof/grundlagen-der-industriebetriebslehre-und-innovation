@@ -1,0 +1,70 @@
+id: abb-22
+title: Entrepreneurship-Prozess
+type: prozess
+description: >-
+  Drei untereinanderliegende graue Phasenbalken, jeweils mit nummeriertem dunklem Kreis und
+  Phasennamen links und drei weißen Schrittkästen rechts: 1 Erkennungsphase (Marktpotential,
+  Unternehmerische Gelegenheit, Geschäftsidee), 2 Entwicklungsphase (SWOT, etc., Businessplan,
+  Gründungsvorbereitung), 3 Umsetzungsphase (Gründung, Wachstum, Stabilisierung). Ein
+  Winkelpfeil führt vom letzten Kasten einer Phase an den Anfang der nächsten Phase.
+axes: []
+elements:
+  - {id: p1, kind: phase, text: Erkennungsphase, note: Nummer 1}
+  - {id: s1a, kind: schritt, text: Marktpotential, note: "Schreibweise „potential“ wie im Original (Fließtext: Marktpotenzial)"}
+  - {id: s1b, kind: schritt, text: Unternehmerische Gelegenheit}
+  - {id: s1c, kind: schritt, text: Geschäftsidee}
+  - {id: p2, kind: phase, text: Entwicklungsphase, note: Nummer 2}
+  - {id: s2a, kind: schritt, text: "SWOT, etc."}
+  - {id: s2b, kind: schritt, text: Businessplan}
+  - {id: s2c, kind: schritt, text: Gründungsvorbereitung, note: "getrennt „Gründungs-“ / „vorbereitung“"}
+  - {id: p3, kind: phase, text: Umsetzungsphase, note: Nummer 3}
+  - {id: s3a, kind: schritt, text: Gründung}
+  - {id: s3b, kind: schritt, text: Wachstum}
+  - {id: s3c, kind: schritt, text: Stabilisierung}
+relations:
+  - {from: s1a, to: s1b, kind: folgt}
+  - {from: s1b, to: s1c, kind: folgt}
+  - {from: s1c, to: p2, kind: pfeil, text: Übergang zur Entwicklungsphase}
+  - {from: s2a, to: s2b, kind: folgt}
+  - {from: s2b, to: s2c, kind: folgt}
+  - {from: s2c, to: p3, kind: pfeil, text: Übergang zur Umsetzungsphase}
+  - {from: s3a, to: s3b, kind: folgt}
+  - {from: s3b, to: s3c, kind: folgt}
+curves: []
+meaning: >-
+  Laut Skript (4.2.4) gliedert sich der Entrepreneurship-Prozess in drei Hauptphasen. In der
+  Erkennungsphase erkennt der Gründer ein Marktpotenzial (erwartete Nachfrage größer als die
+  aktuelle), daraus eine unternehmerische Chance und entwickelt eine Geschäftsidee. In der
+  Entwicklungsphase wird die Machbarkeit geprüft (z. B. SWOT), ein Businessplan erstellt und bei
+  positivem Ergebnis die Gründung vorbereitet (Rechtsform, Organisation, nötiges Wissen). In der
+  Umsetzungsphase erfolgt die formale Gründung, danach folgen individuell Wachstum und
+  Stabilisierung.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json direkt abgefragt (2025-06-16: drei Phasen des
+    Entrepreneurship-Prozesses).
+  question_ids: [frage-2025-06-16-3]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Drei Phasen in Reihenfolge: Erkennungs-, Entwicklungs-, Umsetzungsphase"
+    - "Je drei Schritte: Marktpotential → Unternehmerische Gelegenheit → Geschäftsidee; SWOT → Businessplan → Gründungsvorbereitung; Gründung → Wachstum → Stabilisierung"
+  common_mistakes:
+    - "Businessplan in die Erkennungs- statt in die Entwicklungsphase gesetzt"
+    - "Gründung schon in der Entwicklungsphase verortet (dort nur Gründungsvorbereitung)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-22.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Phasenbalken, Nummernkreise, alle neun
+    Schrittkästen und beide Winkelpfeile wie im Original. Der leichte Verlauf und die Körnung der
+    grauen Balken sind als flaches Grau gezeichnet. Schreibweise „Marktpotential“ wie in der
+    Abbildung. Die Nummern 1–3 sind Ordnungszeichen, keine Lösungselemente.
+source:
+  pdf_page: 79
+  printed_page: 69
+  ocr_text_of_labels: >-
+    1 Erkennungsphase; Marktpotential; Unternehmerische Gelegenheit; Geschäftsidee; 2
+    Entwicklungsphase; SWOT, etc.; Businessplan; Gründungs- vorbereitung; 3 Umsetzungsphase;
+    Gründung; Wachstum; Stabilisierung

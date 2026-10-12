@@ -1,0 +1,59 @@
+id: tab-06
+title: Beispiel Hauptbetriebsdaten
+type: tabelle
+description: >-
+  Zweispaltige Tabelle unter der Kopfzeile „Hauptbetriebsdaten“. Links stehen sechs Kategorien von
+  Betriebsdaten (Bestell-, Mitarbeiter-, Maschinen-, Material- und Bestands-, Prozess- und
+  Qualitätsdaten), rechts jeweils Beispiele, welche Daten in der Produktion konkret erfasst werden.
+axes: []
+elements:
+  - {id: h, kind: kopfzeile, text: Hauptbetriebsdaten}
+  - {id: r1, kind: zeile, text: Bestelldaten, note: "Produktionoutputmenge, Terminierung, Liefertermine"}
+  - {id: r2, kind: zeile, text: Mitarbeiterdaten, note: "Anwesenheit / Abwesenheit von Mitarbeitern, Zuordnung von Arbeiter und Arbeitsauftrag, Zeiterfassung"}
+  - {id: r3, kind: zeile, text: Maschinendaten, note: "Betriebszeit, Ausfallzeiten, Ressourcenkapazitäten"}
+  - {id: r4, kind: zeile, text: Material und Bestandsdaten, note: "Verwendung und Inventar von Roh-, Hilfs- und Betriebsstoffen, Art und Zustand von Baugruppen, Einzelteilen und Produkten auf Lager"}
+  - {id: r5, kind: zeile, text: Prozessdaten, note: "Temperatur, Druck oder Geschwindigkeit, Qualitätsaussage (des Herstellungsprozesses)"}
+  - {id: r6, kind: zeile, text: Qualitätsdaten, note: "Schrottmenge, Gründe für Schrott, analytische Werte"}
+relations: []
+curves: []
+meaning: >-
+  Laut Skript (9.2.1, Produktionsdatenerfassung/Maschinendatenerfassung) sind Betriebsdaten alle
+  während der Produktionsprozesse tatsächlich erzeugten Daten. Sie beschreiben vor allem den Zustand
+  der Operation und die Auftragsverarbeitung und betreffen Konstruktion, Produktionsplanung,
+  Teilefertigung, Montage, Lagerhaltung und Qualitätsmanagement. Die Tabelle gibt Beispiele je
+  Datenkategorie; diese Daten dienen der Auftragsüberwachung und der Aktualisierung von
+  Kundenaufträgen und Produktionsprogrammen.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; Beispieltabelle zur
+    Betriebsdatenerfassung in 9.2.1.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Sechs Kategorien: Bestell-, Mitarbeiter-, Maschinen-, Material- und Bestands-, Prozess-, Qualitätsdaten"
+    - "Je Kategorie ein bis zwei Beispiele (z. B. Maschinendaten: Betriebszeit, Ausfallzeiten)"
+  common_mistakes:
+    - "Prozessdaten (Temperatur, Druck, Geschwindigkeit) und Qualitätsdaten (Schrott, analytische Werte) vertauscht"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/tab-06.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Zellen vollständig und im
+    Originalwortlaut, einschließlich der Silbentrennungen des Blocksatzes („Be-/standsdaten“,
+    „Zu-/stand“, „Herstel-/lungsprozesses“) und der Schreibweise „Produktionoutputmenge“ (fehlendes
+    s im Original). Die Originalschrift ist eine Serifenschrift im Blocksatz; hier Arial
+    linksbündig. Die körnige Graufläche von Kopfzeile und erster Spalte ist als flaches Grau
+    angenähert.
+source:
+  pdf_page: 177
+  printed_page: 167
+  ocr_text_of_labels: >-
+    Hauptbetriebsdaten; Bestelldaten: Produktionoutputmenge, Terminierung, Liefertermine;
+    Mitarbeiterdaten: Anwesenheit / Abwesenheit von Mitarbeitern, Zuordnung von Arbeiter und
+    Arbeitsauftrag, Zeiterfassung; Maschinendaten: Betriebszeit, Ausfallzeiten,
+    Ressourcenkapazitäten; Material und Bestandsdaten: Verwendung und Inventar von Roh-, Hilfs- und
+    Betriebsstoffen, Art und Zustand von Baugruppen, Einzelteilen und Produkten auf Lager;
+    Prozessdaten: Temperatur, Druck oder Geschwindigkeit, Qualitätsaussage (des
+    Herstellungsprozesses); Qualitätsdaten: Schrottmenge, Gründe für Schrott, analytische Werte

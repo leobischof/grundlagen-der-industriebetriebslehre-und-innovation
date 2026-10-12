@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 635" width="1276" height="635" data-figure-id="abb-24" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Produktentstehung als Teil des Produktlebenszyklus – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1276" height="635" fill="#ffffff" />
+  <rect x="12" y="10" width="1251" height="615" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- Upper (dark) arc: product creation, from the business idea to the start of production -->
+  <path d="M182 312 V115 Q182 68 229 68 H1022 Q1069 68 1069 115 V176" fill="none" stroke="#555555" stroke-width="66" />
+  <polygon points="995,172 1138,172 1066,240" fill="#555555" />
+
+  <!-- Lower (light) arc: the rest of the life cycle, back to the next business idea -->
+  <path d="M1070 320 V500 Q1070 558 1012 558 H243 Q185 558 185 500 V452" fill="none" stroke="#aaaaaa" stroke-width="70" />
+  <polygon points="120,456 251,456 185,390" fill="#aaaaaa" />
+
+  <!-- Phase label of the upper arc -->
+  <rect class="placeholder" x="495.5" y="56.0" width="263.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Product creation phases -->
+  <g fill="#ffffff" stroke="#333333" stroke-width="1.5">
+    <rect x="230" y="88" width="235" height="77" />
+    <rect x="478" y="88" width="239" height="77" />
+    <rect x="728" y="88" width="272" height="77" />
+  </g>
+  <rect class="placeholder" x="257.2" y="95.2" width="179.6" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="242.9" y="127.2" width="208.2" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="535.8" y="95.2" width="122.4" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="514.4" y="127.2" width="165.3" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="752.8" y="95.2" width="222.5" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="731.3" y="127.2" width="265.4" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <text font-size="18" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" x="347" y="193">Kapitel 5.3</text>
+  <text font-size="18" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" x="597" y="193">Kapitel 5.4</text>
+  <text font-size="18" fill="#222222" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" x="862" y="193">Kapitel 5.5</text>
+
+  <!-- Milestones and centre label -->
+  <rect class="placeholder" x="971.0" y="260.8" width="238.4" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="113.0" y="340.8" width="195.2" height="33.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="312.0" y="286.4" width="655.9" height="73.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Later life-cycle phases (read right to left along the lower arc) -->
+  <g fill="#ffffff" stroke="#333333" stroke-width="1.5">
+    <rect x="253" y="497" width="175" height="44" />
+    <rect x="443" y="495" width="169" height="46" />
+    <rect x="634" y="495" width="172" height="46" />
+    <rect x="824" y="493" width="174" height="45" />
+  </g>
+  <rect class="placeholder" x="271.6" y="503.2" width="136.7" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="458.6" y="502.2" width="136.7" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="666.0" y="502.2" width="108.1" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="835.5" y="500.2" width="151.0" height="35.3" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

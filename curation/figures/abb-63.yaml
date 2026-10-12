@@ -1,0 +1,56 @@
+id: abb-63
+title: Produktionsprogrammplanung
+type: prozess
+description: >-
+  Input-Prozess-Output-Schema: Links unter „Input“ die Eingangsgrößen Verkaufsplanung,
+  Kapazitätsplanung und Kosten pro Einheit, in der Mitte ein dunkles Quadrat
+  „Produktionsprogramplanung“ zwischen zwei nach rechts weisenden Dreiecken, rechts unter „Output“
+  die Ergebnisse Produktbereich, Zielmenge pro Einheit und Kapazitätsauslastung.
+axes: []
+elements:
+  - {id: in, kind: label, text: Input, note: "Überschrift links, fett"}
+  - {id: in1, kind: label, text: Verkaufsplanung}
+  - {id: in2, kind: label, text: Kapazitätsplanung}
+  - {id: in3, kind: label, text: Kosten pro Einheit}
+  - {id: proc, kind: box, text: Produktionsprogramplanung, note: "dunkelgrau, weiße Schrift; im Bild dreizeilig Produktions-/program-/planung (Tippfehler: nur ein m in program)"}
+  - {id: out, kind: label, text: Output, note: "Überschrift rechts, fett"}
+  - {id: out1, kind: label, text: Produktbereich}
+  - {id: out2, kind: label, text: Zielmenge pro Einheit}
+  - {id: out3, kind: label, text: Kapazitätsauslastung}
+relations:
+  - {from: in, to: proc, kind: pfeil}
+  - {from: proc, to: out, kind: pfeil}
+curves: []
+meaning: >-
+  Laut Skript (9.1.2) legt die kurzfristige Produktionsprogrammplanung auf Basis der
+  Verkaufsplanung fest, welche Produkttypen in welchen Mengen im Planungshorizont produziert
+  werden. Ein Produktionsprogramm hat eine qualitative (welche Produkttypen), eine quantitative
+  (wie viele) und eine zeitbasierte Komponente. Weitere Informationen sind die erwartete
+  Nachfrage, die Verkaufspreisstrukturen, die Produktionskosten pro Einheit und der
+  Kapazitätsbedarf pro Einheit.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; kleines Input-Output-Schema ohne
+    eigene Zeichenaufgabe.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Input: Verkaufsplanung, Kapazitätsplanung, Kosten pro Einheit"
+    - "Output: Produktbereich, Zielmenge pro Einheit, Kapazitätsauslastung"
+  common_mistakes:
+    - "Verkaufsplanung als Ergebnis statt als Eingang der Programmplanung genannt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-63.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte, die beiden Dreiecke und der
+    dunkle Prozesskasten wie im Original angeordnet. Wortlaut „Produktions-/program-/planung“ mit
+    nur einem m (Tippfehler im Original) unverändert übernommen.
+source:
+  pdf_page: 161
+  printed_page: 151
+  ocr_text_of_labels: >-
+    Input; Verkaufsplanung; Kapazitätsplanung; Kosten pro Einheit; Produktions- program- planung;
+    Output; Produktbereich; Zielmenge pro Einheit; Kapazitätsauslastung

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 364" width="920" height="364" data-figure-id="tab-01" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Unselbständig Beschäftigte in Österreich</title>
+  <rect x="0" y="0" width="920" height="364" fill="#ffffff"/>
+  <!-- graue Kopfzeile und Vorspalte wie im Original -->
+  <rect x="8" y="14.0" width="898" height="41.6" fill="#bdbdbd"/>
+  <rect x="8" y="14.0" width="323" height="332.8" fill="#bdbdbd"/>
+  <g stroke="#000000" stroke-width="2.5">
+    <line x1="8" y1="14.0" x2="8" y2="346.8"/>
+    <line x1="331" y1="14.0" x2="331" y2="346.8"/>
+    <line x1="466" y1="14.0" x2="466" y2="346.8"/>
+    <line x1="611" y1="14.0" x2="611" y2="346.8"/>
+    <line x1="756" y1="14.0" x2="756" y2="346.8"/>
+    <line x1="906" y1="14.0" x2="906" y2="346.8"/>
+    <line x1="8" y1="14.0" x2="906" y2="14.0"/>
+    <line x1="8" y1="55.6" x2="906" y2="55.6"/>
+    <line x1="8" y1="97.2" x2="906" y2="97.2"/>
+    <line x1="8" y1="138.8" x2="906" y2="138.8"/>
+    <line x1="8" y1="180.4" x2="906" y2="180.4"/>
+    <line x1="8" y1="222.0" x2="906" y2="222.0"/>
+    <line x1="8" y1="263.6" x2="906" y2="263.6"/>
+    <line x1="8" y1="305.2" x2="906" y2="305.2"/>
+    <line x1="8" y1="346.8" x2="906" y2="346.8"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="321.0" y="42.8" font-size="23" text-anchor="end" font-weight="bold" fill="#000000">Jahr</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="398.5" y="42.8" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000">2000</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="538.5" y="42.8" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000">2010</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683.5" y="42.8" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000">2020</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="831.0" y="42.8" font-size="23" text-anchor="middle" font-weight="bold" fill="#000000">2023</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="84.4" font-size="23" text-anchor="start" font-weight="bold" fill="#000000">Gesamtbeschäftigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="398.5" y="84.4" font-size="23" text-anchor="middle" fill="#000000">3.133.173</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="538.5" y="84.4" font-size="23" text-anchor="middle" fill="#000000">3.257.786</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683.5" y="84.4" font-size="23" text-anchor="middle" fill="#000000">3.717.176</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="831.0" y="84.4" font-size="23" text-anchor="middle" fill="#000000">3.956.271</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="126.0" font-size="23" text-anchor="start" fill="#000000">Bergbau</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="398.5" y="126.0" font-size="23" text-anchor="middle" fill="#000000">13.738</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="538.5" y="126.0" font-size="23" text-anchor="middle" fill="#000000">5.801</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683.5" y="126.0" font-size="23" text-anchor="middle" fill="#000000">5.935</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="831.0" y="126.0" font-size="23" text-anchor="middle" fill="#000000">5.417</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="167.6" font-size="23" text-anchor="start" fill="#000000">Sachgütererzeugung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="398.5" y="167.6" font-size="23" text-anchor="middle" fill="#000000">612.122</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="538.5" y="167.6" font-size="23" text-anchor="middle" fill="#000000">563.128</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683.5" y="167.6" font-size="23" text-anchor="middle" fill="#000000">619.525</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="831.0" y="167.6" font-size="23" text-anchor="middle" fill="#000000">645.783</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="209.2" font-size="23" text-anchor="start" fill="#000000">Energie-/Wasserversorgung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="398.5" y="209.2" font-size="23" text-anchor="middle" fill="#000000">29.481</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="538.5" y="209.2" font-size="23" text-anchor="middle" fill="#000000">40.832</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683.5" y="209.2" font-size="23" text-anchor="middle" fill="#000000">43.804</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="831.0" y="209.2" font-size="23" text-anchor="middle" fill="#000000">44.996</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="250.8" font-size="23" text-anchor="start" fill="#000000">Baugewerbe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="398.5" y="250.8" font-size="23" text-anchor="middle" fill="#000000">257.754</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="538.5" y="250.8" font-size="23" text-anchor="middle" fill="#000000">241.673</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683.5" y="250.8" font-size="23" text-anchor="middle" fill="#000000">271.072</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="831.0" y="250.8" font-size="23" text-anchor="middle" fill="#000000">288.654</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="292.4" font-size="23" text-anchor="start" font-weight="bold" fill="#000000">Industriebeschäftigte</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="398.5" y="292.4" font-size="23" text-anchor="middle" fill="#000000">913.095</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="538.5" y="292.4" font-size="23" text-anchor="middle" fill="#000000">851.434</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683.5" y="292.4" font-size="23" text-anchor="middle" fill="#000000">940.336</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="831.0" y="292.4" font-size="23" text-anchor="middle" fill="#000000">986.614</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="18.0" y="334.0" font-size="23" text-anchor="start" font-weight="bold" fill="#000000">%-Anteil</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="398.5" y="334.0" font-size="23" text-anchor="middle" fill="#000000">29,1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="538.5" y="334.0" font-size="23" text-anchor="middle" fill="#000000">26,1</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683.5" y="334.0" font-size="23" text-anchor="middle" fill="#000000">25,3</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="831.0" y="334.0" font-size="23" text-anchor="middle" fill="#000000">25,4</text>
+</svg>

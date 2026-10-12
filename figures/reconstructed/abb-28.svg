@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 883" width="1240" height="883" data-figure-id="abb-28" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Arten der Integration</title>
+  <rect x="0" y="0" width="1240" height="883" fill="#ffffff"/>
+  <!-- Four grey columns under a dark title band, closed by a dark foot band -->
+  <rect x="12" y="82" width="1218" height="770" fill="#686868"/>
+  <rect x="12" y="10" width="1218" height="72" fill="#2e2e2e"/>
+  <rect x="12" y="852" width="1218" height="22" fill="#2e2e2e"/>
+  <g stroke="#d0d0d0" stroke-width="2">
+    <line x1="320" y1="82" x2="320" y2="852"/>
+    <line x1="625" y1="82" x2="625" y2="852"/>
+    <line x1="930" y1="82" x2="930" y2="852"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" x="621" y="60" font-size="42" fill="#ffffff" text-anchor="middle">Elemente und Methoden der Integrierten Produkterstellung</text>
+  <!-- Table content: every entry is answer material -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="22" y="118" font-size="31" fill="#ffffff">1. Mensch</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="22" y="162" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="36" y="162" font-size="23" fill="#ffffff">1.1 Integration der</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="36" y="189" font-size="23" fill="#ffffff">Leistungsbereitschaft</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="214" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="214" font-size="19.5" fill="#ffffff">gemeinsames Wollen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="240" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="240" font-size="19.5" fill="#ffffff">Motivation</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="22" y="270" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="36" y="270" font-size="23" fill="#ffffff">1.2 Integration der Ziele</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="297" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="297" font-size="19.5" fill="#ffffff">für alle gleiche Ziele, aber</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="319" font-size="19.5" fill="#ffffff">heruntergebrochen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="346" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="346" font-size="19.5" fill="#ffffff">Mitarbeiter-Beteiligung</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="372" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="372" font-size="19.5" fill="#ffffff"><tspan font-style="italic">erfolgsorientierte</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="395" font-size="19.5" fill="#ffffff">Bezahlung</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="22" y="424" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="36" y="424" font-size="23" fill="#ffffff">1.3 Integratives Wissen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="452" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="452" font-size="19.5" fill="#ffffff">Ausbildung z.T. als</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="474" font-size="19.5" fill="#ffffff">Generalist</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="500" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="500" font-size="19.5" fill="#ffffff">systemtechn. Wissen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="527" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="527" font-size="19.5" fill="#ffffff">Weiterbildung</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="44" y="553" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="58" y="553" font-size="19.5" fill="#ffffff">Job-Rotation</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="330" y="118" font-size="31" fill="#ffffff">2. Methodik</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="330" y="162" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="344" y="162" font-size="23" fill="#ffffff">2.1 Integration der</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="344" y="188" font-size="23" fill="#ffffff">Kunden</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="214" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="214" font-size="19.5" fill="#ffffff">Einbezug der Kunden in</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="237" font-size="19.5" fill="#ffffff">die Produktentwicklung</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="262" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="262" font-size="19.5" fill="#ffffff">Kooperation mit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="285" font-size="19.5" fill="#ffffff">Pilotkunden</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="330" y="314" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="344" y="314" font-size="23" fill="#ffffff">2.2 Aufgabenintegration</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="342" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="342" font-size="19.5" fill="#ffffff">Qualitätsmanagement</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="364" font-size="19.5" fill="#ffffff">TQM mit QFD</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="391" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="391" font-size="19.5" fill="#ffffff">Target Costing</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="418" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="418" font-size="19.5" fill="#ffffff">Arbeitsanreicherung,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="440" font-size="19.5" fill="#ffffff">Fertigungsinseln</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="467" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="467" font-size="19.5" fill="#ffffff">Gruppen- / Teamarbeit</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="493" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="493" font-size="19.5" fill="#ffffff">Reengineering</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="520" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="520" font-size="19.5" fill="#ffffff">Planung u. Ausführung in</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="542" font-size="19.5" fill="#ffffff">einer Person</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="569" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="569" font-size="19.5" fill="#ffffff">KVP, Kaizen,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="591" font-size="19.5" fill="#ffffff">Verbesserungswesen</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="330" y="617" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="344" y="617" font-size="23" fill="#ffffff">2.3</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="344" y="645" font-size="23" fill="#ffffff">Methodenintegration</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="674" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="674" font-size="19.5" fill="#ffffff">Nutzung übergreifender</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="697" font-size="19.5" fill="#ffffff">Methoden: Konstr.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="720" font-size="19.5" fill="#ffffff">Methodik, IPE,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="742" font-size="19.5" fill="#ffffff">Wertanalyse</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="768" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="768" font-size="19.5" fill="#ffffff">Systemtechnik</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="352" y="795" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="795" font-size="19.5" fill="#ffffff">Verwendung <tspan font-style="italic">einheitl.</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="366" y="817" font-size="19.5" fill="#ffffff">Begriffe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="635" y="118" font-size="31" fill="#ffffff">3. Organisation</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="635" y="162" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="649" y="162" font-size="23" fill="#ffffff">3.1 Aufbauintegration</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="188" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="188" font-size="19.5" fill="#ffffff">Produktorientierte</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="210" font-size="19.5" fill="#ffffff">Organisation</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="233" font-size="19.5" fill="#ffffff">(Spartenorg.; Profit-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="256" font-size="19.5" fill="#ffffff">Center)</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="282" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="282" font-size="19.5" fill="#ffffff">flache Hierarchie</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="308" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="308" font-size="19.5" fill="#ffffff">Verantwortungsdelegation</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="635" y="338" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="649" y="338" font-size="23" fill="#ffffff">3.2 Ablaufintegration</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="366" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="366" font-size="19.5" fill="#ffffff">Parallelisierung von</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="389" font-size="19.5" fill="#ffffff">Tätigkeiten</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="415" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="415" font-size="19.5" fill="#ffffff">Projektmanagement</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="442" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="442" font-size="19.5" fill="#ffffff">Concurrent Engineering</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="468" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="468" font-size="19.5" fill="#ffffff">Fertigungs- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="491" font-size="19.5" fill="#ffffff">Kostenberatung</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="517" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="517" font-size="19.5" fill="#ffffff">konstruktionsbegleitende</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="540" font-size="19.5" fill="#ffffff">Kalkulation</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="566" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="566" font-size="19.5" fill="#ffffff">Wertanalyse</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="592" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="592" font-size="19.5" fill="#ffffff">Qualitätszirkel</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="619" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="619" font-size="19.5" fill="#ffffff">Design-Review, FMEA,</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="641" font-size="19.5" fill="#ffffff">DFA, DFM</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="668" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="668" font-size="19.5" fill="#ffffff">Kooperation mit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="690" font-size="19.5" fill="#ffffff">Systemlieferanten</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="635" y="719" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="649" y="719" font-size="23" fill="#ffffff">3.3 örtliche Integration</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="747" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="747" font-size="19.5" fill="#ffffff">gemeinsame</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="769" font-size="19.5" fill="#ffffff">Arbeitsräume</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="796" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="796" font-size="19.5" fill="#ffffff"><tspan font-style="italic">Entwicklungs-Zentren</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" x="657" y="822" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="671" y="822" font-size="19.5" fill="#ffffff">Segmentierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="940" y="118" font-size="31" fill="#ffffff">4. Technik</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="940" y="162" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="954" y="162" font-size="23" fill="#ffffff">4.1 Datenintegration</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="962" y="188" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="976" y="188" font-size="19.5" fill="#ffffff">Rechnerintegrierte</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="976" y="210" font-size="19.5" fill="#ffffff">Entwicklung PDM; PLM;</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="976" y="233" font-size="19.5" fill="#ffffff">CAD-CAM; CAD-CAQ;</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="940" y="262" font-size="23" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="954" y="262" font-size="23" fill="#ffffff">4.2 Integrative</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="954" y="289" font-size="23" fill="#ffffff">Eigenschafts-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="954" y="315" font-size="23" fill="#ffffff">früherkennung</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="962" y="344" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="976" y="344" font-size="19.5" fill="#ffffff">Simulation</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="962" y="370" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="976" y="370" font-size="19.5" fill="#ffffff"><tspan font-style="italic">Virtual Reality</tspan></text>
+  <text font-family="Arial, Helvetica, sans-serif" x="962" y="397" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="976" y="397" font-size="19.5" fill="#ffffff">Rapid Prototyping</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="962" y="423" font-size="19.5" fill="#ffffff">•</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="976" y="423" font-size="19.5" fill="#ffffff">Digital Mock-up</text>
+</svg>

@@ -1,0 +1,60 @@
+id: abb-79
+title: Dilemma der Ablaufplanung
+type: sonstiges
+description: >-
+  Zwei Kästen stehen einander gegenüber, verbunden durch zwei hohle Doppelpfeile; dazwischen steht
+  fett „Dilemma der Ablaufplanung“. Links die kapazitätsorientierten Ziele „Maximierung der
+  durchschnittlichen Kapazitätsauslastung“ und „Minimierung der Leer-Kosten“, rechts die
+  flussorientierten Ziele „Minimierung der mittleren Durchlaufzeit“, „Minimierung der Bestände
+  (WIP)“ und „Maximierung der Termintreue“.
+axes: []
+elements:
+  - {id: z1, kind: label, text: Maximierung der durchschnittlichen Kapazitätsauslastung, note: linker Kasten}
+  - {id: z2, kind: label, text: Minimierung der Leer-Kosten, note: linker Kasten}
+  - {id: z3, kind: label, text: Minimierung der mittleren Durchlaufzeit, note: rechter Kasten}
+  - {id: z4, kind: label, text: Minimierung der Bestände (WIP), note: rechter Kasten}
+  - {id: z5, kind: label, text: Maximierung der Termintreue, note: rechter Kasten}
+  - {id: d, kind: label, text: Dilemma der Ablaufplanung, note: "fett, zwischen den beiden Doppelpfeilen"}
+relations:
+  - {from: z1, to: z3, kind: konkurriert, text: "hohler Doppelpfeil (oben)"}
+  - {from: z2, to: z5, kind: konkurriert, text: "hohler Doppelpfeil (unten); die Pfeile verbinden die beiden Zielgruppen als Ganzes"}
+curves: []
+meaning: >-
+  Laut Skript (9.2.2) steht der Forderung nach Minimierung der Durchlaufzeit die Forderung
+  gegenüber, die Fertigungsaufträge zeitlich so zu verteilen, dass eine möglichst hohe Auslastung
+  der Betriebsmittel erreicht wird. Je stärker arbeitsablaufbedingte Leerzeiten minimiert werden,
+  desto besser wird die Kapazitätsauslastung erfüllt. Jede Ablaufplanung versucht, diese beiden
+  entgegengesetzten Forderungen in Einklang zu bringen. Dieses von Gutenberg geprägte „Dilemma der
+  Ablaufplanung“ erfordert eine temporäre, unterschiedliche Gewichtung der Ziele.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json zweimal abgefragt (2024-12-10 und 2025-04-09, jeweils „Erklären
+    Sie das Dilemma der Ablaufplanung“). Die Abbildung liefert die beiden Zielgruppen, die in der
+    Antwort gegenübergestellt werden müssen.
+  question_ids: [frage-2024-12-10-5, frage-2025-04-09-3]
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Links: Maximierung der durchschnittlichen Kapazitätsauslastung, Minimierung der Leer-Kosten"
+    - "Rechts: Minimierung der mittleren Durchlaufzeit, Minimierung der Bestände (WIP), Maximierung der Termintreue"
+    - "Doppelpfeile zwischen beiden Seiten als Zielkonflikt, Mitte: Dilemma der Ablaufplanung"
+    - "Begriff geht auf Gutenberg zurück"
+  common_mistakes:
+    - "Bestände oder Termintreue auf die Seite der Kapazitätsauslastung gestellt"
+    - "Nur „Auslastung vs. Durchlaufzeit“ genannt, ohne Bestände und Termintreue"
+    - "Pfeile einseitig statt als Doppelpfeile (Konflikt) gezeichnet"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-79.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte im Originalwortlaut, beide
+    hohlen Doppelpfeile und beide Kästen vorhanden. Schrift Arial statt Calibri, Grauton der
+    Kästen und Positionen angenähert.
+source:
+  pdf_page: 178
+  printed_page: 168
+  ocr_text_of_labels: >-
+    Maximierung der durchschnittlichen Kapazitätsauslastung; Minimierung der Leer-Kosten; Dilemma
+    der Ablaufplanung; Minimierung der mittleren Durchlaufzeit; Minimierung der Bestände (WIP);
+    Maximierung der Termintreue

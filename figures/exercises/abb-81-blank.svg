@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1265 468" width="1265" height="468" data-figure-id="abb-81" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Dilemma der Ablaufplanung am Bsp. der Erhöhung der Kapazitätsauslastung – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1265" height="468" fill="#ffffff" />
+  <rect x="10" y="10" width="1245" height="448" fill="none" stroke="#333333" stroke-width="2" />
+  <line x1="633" y1="30" x2="633" y2="440" stroke="#555555" stroke-width="1.5" />
+
+  <!-- ===== Left: balanced starting point ===== -->
+  <g stroke="#222222" stroke-width="1.5">
+    <line x1="74" y1="233" x2="466" y2="233" />
+    <line x1="270" y1="69" x2="270" y2="397" />
+  </g>
+  <g fill="#222222">
+    <polygon points="62,233 76,228 76,238" />
+    <polygon points="478,233 464,228 464,238" />
+    <polygon points="270,57 265,71 275,71" />
+    <polygon points="270,409 265,395 275,395" />
+  </g>
+  <g fill="#000000">
+    <circle cx="270" cy="125" r="11" />
+    <circle cx="367" cy="233" r="11" />
+    <circle cx="270" cy="322" r="11" />
+    <circle cx="153" cy="233" r="11" />
+  </g>
+  <g font-size="23" fill="#111111">
+    <rect class="placeholder" x="145.8" y="21.6" width="248.4" height="32.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="164.8" y="408.6" width="210.4" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="33.4" y="252.6" width="109.2" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="33.4" y="282.6" width="109.2" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+  <g font-size="23" fill="#111111">
+    <rect class="placeholder" x="353.6" y="252.6" width="210.4" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="416.5" y="282.6" width="134.5" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+
+  <!-- ===== Right: utilisation raised, the other three targets suffer ===== -->
+  <!-- dashed shifted diamond drawn as explicit dash segments (renderers ignore stroke-dasharray) -->
+  <g stroke="#222222" stroke-width="1.5">
+    <line x1="742" y1="233" x2="1132" y2="233" />
+    <line x1="938" y1="69" x2="938" y2="397" />
+  </g>
+  <g fill="#222222">
+    <polygon points="730,233 744,228 744,238" />
+    <polygon points="1144,233 1130,228 1130,238" />
+    <polygon points="938,57 933,71 943,71" />
+    <polygon points="938,409 933,395 943,395" />
+  </g>
+  <g fill="#000000">
+    <circle cx="938" cy="125" r="11" />
+    <circle cx="1027" cy="233" r="11" />
+    <circle cx="938" cy="322" r="11" />
+    <circle cx="820" cy="233" r="11" />
+  </g>
+  <g fill="#6e6e6e">
+    <circle cx="938" cy="162" r="10" />
+    <circle cx="1076" cy="231" r="10" />
+    <circle cx="938" cy="290" r="10" />
+    <circle cx="868" cy="233" r="10" />
+  </g>
+  <g font-size="23" fill="#111111">
+    <rect class="placeholder" x="813.8" y="21.6" width="248.4" height="32.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="832.8" y="410.6" width="210.4" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="683.4" y="252.6" width="109.2" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="683.4" y="282.6" width="109.2" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+  <g font-size="23" fill="#111111">
+    <rect class="placeholder" x="1029.6" y="252.6" width="210.4" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+    <rect class="placeholder" x="1092.5" y="282.6" width="134.5" height="32.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  </g>
+</svg>

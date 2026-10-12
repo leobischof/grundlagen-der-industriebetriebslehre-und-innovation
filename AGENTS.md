@@ -130,8 +130,9 @@ Frag zu Beginn, welcher Modus gewünscht ist, oder schlag einen vor: zuerst fäl
 
 ### 4.4 Zeichentraining
 
-Für die prüfungsrelevanten Abbildungen gibt es je eine Zeichenübung (16 Stück, Liste in
-`learning/drawing-exercises/`).
+Für die Abbildungen, die sich zu zeichnen lohnen, gibt es je eine Zeichenübung (Liste in
+`learning/drawing-exercises/`; Regel in `pipeline/sketch_scope.py`: in einer Prüfung gefragt oder
+Relevanz `hoch`/`mittel`, nie Tabellen – deren Inhalt wird aufgezählt, nicht gezeichnet).
 
 1. Aufgabe stellen: „Zeichne *‹Titel›* aus dem Gedächtnis und beschrifte alle Elemente.“ Weder das
    Original noch die Rekonstruktion zeigen. Auf Wunsch die leere Vorlage

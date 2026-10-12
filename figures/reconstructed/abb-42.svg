@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1262 988" width="1262" height="988" data-figure-id="abb-42" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Das Konzept Integriertes Management (UE = Unternehmensumgebung)</title>
+  <rect x="0" y="0" width="1262" height="988" fill="#ffffff"/>
+  <rect x="12" y="12" width="1238" height="964" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Horizontal integration: label + grey arrow to the right -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="510" y="52" font-size="22" text-anchor="middle">Horizontale Integration</text>
+  <polygon points="765,40 925,40 925,32 980,50 925,68 925,60 765,60" fill="#a0a0a0" stroke="#555555" stroke-width="1.5"/>
+
+  <!-- Vertical integration: rotated label + grey arrow downwards -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="22" text-anchor="middle" transform="translate(216 390) rotate(-90)">Vertikale Integration</text>
+  <polygon points="202,548 225,548 225,640 235,640 214,678 193,640 202,640" fill="#a0a0a0" stroke="#555555" stroke-width="1.5"/>
+
+  <!-- Management philosophy funnelling into the vision (chevron) -->
+  <polygon points="275,73 1036,73 1036,160 800,160 657,218 515,160 275,160" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="110" font-size="22" font-weight="bold" text-anchor="middle">Managementphilosophie</text>
+  <polygon points="644,117 670,117 670,140 686,140 657,160 628,140 644,140" fill="#a0a0a0" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="187" font-size="22" font-weight="bold" text-anchor="middle">Vision</text>
+
+  <!-- Left column: Strukturen -->
+  <g fill="#ffffff" stroke="#333333" stroke-width="2">
+    <rect x="275" y="188" width="262" height="174"/>
+    <rect x="275" y="362" width="262" height="202"/>
+    <rect x="275" y="564" width="262" height="173"/>
+    <rect x="275" y="737" width="262" height="29"/>
+  </g>
+  <!-- Right column: Verhalten -->
+  <g fill="#ffffff" stroke="#333333" stroke-width="2">
+    <rect x="779" y="188" width="257" height="174"/>
+    <rect x="779" y="362" width="257" height="203"/>
+    <rect x="779" y="565" width="257" height="173"/>
+    <rect x="779" y="738" width="257" height="28"/>
+  </g>
+  <!-- Middle column: Aktivitäten, ending in a downward chevron -->
+  <g fill="none" stroke="#333333" stroke-width="2">
+    <path d="M537 232 H779 M537 391 H779 M537 578 H779 M537 752 H779"/>
+    <path d="M537 232 V752 L657 825 L779 752 V232"/>
+  </g>
+
+  <!-- Level bars (grey bands across all three columns) -->
+  <rect x="313" y="248" width="689" height="26" fill="#c8c8c8"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="269" font-size="22" text-anchor="middle">Normatives Management = begründend</text>
+  <rect x="313" y="406" width="689" height="27" fill="#c8c8c8"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="428" font-size="22" font-style="italic" text-anchor="middle">Strategisches Management = ausrichtend</text>
+  <rect x="333" y="595" width="685" height="26" fill="#c8c8c8"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="676" y="616" font-size="22" text-anchor="middle">Operatives Management = vollziehend</text>
+
+  <!-- Normative level -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="317" font-size="22" text-anchor="middle">Unternehmungs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="346" font-size="22" text-anchor="middle">verfassung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="305" font-size="22" text-anchor="middle">Unternehmungs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="335" font-size="22" text-anchor="middle">politik</text>
+  <polygon points="572,318 597,318 597,340 612,340 584,360 556,340 572,340" fill="#a0a0a0" stroke="#555555" stroke-width="1.5"/>
+  <polygon points="720,318 746,318 746,340 762,340 733,360 704,340 720,340" fill="#a0a0a0" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="383" font-size="22" text-anchor="middle">Missionen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="908" y="318" font-size="22" text-anchor="middle">Unternehmungs-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="908" y="347" font-size="22" text-anchor="middle">kultur</text>
+
+  <!-- Strategic level -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="490" font-size="22" text-anchor="middle">Organisations-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="519" font-size="22" text-anchor="middle">strukturen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="548" font-size="22" text-anchor="middle">Managementsysteme</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="500" font-size="22" text-anchor="middle">Programme</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="908" y="521" font-size="22" text-anchor="middle">Problem-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="908" y="550" font-size="22" text-anchor="middle">verhalten</text>
+
+  <!-- Operative level -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="664" font-size="22" text-anchor="middle">Organisatorische</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="693" font-size="22" text-anchor="middle">Prozesse</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="721" font-size="22" text-anchor="middle">Dispositionssysteme</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="717" font-size="22" text-anchor="middle">Aufträge</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="908" y="666" font-size="22" text-anchor="middle">Leistungs- und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="908" y="695" font-size="22" text-anchor="middle">Kooperations-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="908" y="723" font-size="22" text-anchor="middle">verhalten</text>
+
+  <!-- Column footers -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="405" y="760" font-size="22" text-anchor="middle">Strukturen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="657" y="775" font-size="22" text-anchor="middle">Aktivitäten</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="908" y="761" font-size="22" text-anchor="middle">Verhalten</text>
+
+  <!-- Company environment: big open arrow to the right -->
+  <polygon points="275,828 1055,828 1055,812 1093,882 1055,955 1055,937 275,937" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+  <rect x="393" y="836" width="547" height="24" fill="#c8c8c8"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="667" y="856" font-size="22" text-anchor="middle">Unternehmungsumgebung</text>
+  <g stroke="#333333" stroke-width="2">
+    <line x1="530" y1="866" x2="530" y2="928"/>
+    <line x1="785" y1="866" x2="785" y2="928"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="400" y="918" font-size="22" text-anchor="middle">Innere UE</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="656" y="918" font-size="22" text-anchor="middle">Äußere UE</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="910" y="891" font-size="22" text-anchor="middle">Innere und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="910" y="919" font-size="22" text-anchor="middle">äußere UE</text>
+</svg>

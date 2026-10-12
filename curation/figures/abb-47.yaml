@@ -6,7 +6,7 @@ description: >-
   das Produkt: von links oben „Personal“, von rechts oben „Material“ und von unten „Information“.
 axes: []
 elements:
-  - {id: prod, kind: kreis, text: Produkt, note: ortsfest, Mitte}
+  - {id: prod, kind: kreis, text: Produkt, note: "ortsfest, Mitte"}
   - {id: pers, kind: label, text: Personal, note: links oben}
   - {id: mat, kind: label, text: Material, note: rechts oben}
   - {id: inf, kind: label, text: Information, note: unten}

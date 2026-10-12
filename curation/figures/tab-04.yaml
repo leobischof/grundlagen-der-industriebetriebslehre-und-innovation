@@ -1,0 +1,77 @@
+id: tab-04
+title: Kriterien für Innovationsstrategien
+type: tabelle
+description: >-
+  Zweispaltige Tabelle mit grau hinterlegter Kopfzeile „Kriterium“ / „Effekt/Beispiel“ und acht
+  Zeilen. Links stehen fett die Kriterien, nach denen sich Innovationsstrategien unterscheiden
+  lassen, rechts die jeweiligen Ausprägungen bzw. Beispielstrategien.
+axes: []
+elements:
+  - {id: h1, kind: kopfzeile, text: Kriterium}
+  - {id: h2, kind: kopfzeile, text: Effekt/Beispiel}
+  - {id: k1, kind: zelle, text: Dominierender Wettbewerbsfaktor}
+  - {id: e1, kind: zelle, text: "Kostenführerschaft, Differenzierung (Qualität, Technologie), Fokusstrategie"}
+  - {id: k2, kind: zelle, text: Wettbewerbsstrategie}
+  - {id: e2, kind: zelle, text: "Aggressive Strategie, Anpassungsstrategie"}
+  - {id: k3, kind: zelle, text: Marktumfang}
+  - {id: e3, kind: zelle, text: "Globalisierungsstrategie, Fokusstrategie, Nischenstrategie"}
+  - {id: k4, kind: zelle, text: Marktgebiet}
+  - {id: e4, kind: zelle, text: "Lokale, regionale, nationale, internationale, weltweite Strategie"}
+  - {id: k5, kind: zelle, text: Zeitorientierung}
+  - {id: e5, kind: zelle, text: "First-to-Market, Second-to-Market, Nachfolgestrategie"}
+  - {id: k6, kind: zelle, text: Arbeitsteilung}
+  - {id: e6, kind: zelle, text: "Solo-Lauf, Kooperationsstrategie"}
+  - {id: k7, kind: zelle, text: Wachstumsrichtung}
+  - {id: e7, kind: zelle, text: "Marktdurchdringung, Marktentwicklung, Produktentwicklung, Diversifikation"}
+  - {id: k8, kind: zelle, text: Strategischer Schlüsselfaktor}
+  - {id: e8, kind: zelle, text: "Leistungsorientiert, kostenorientiert, marktorientiert, zeitorientiert"}
+relations:
+  - {from: k1, to: e1, kind: ausprägung}
+  - {from: k2, to: e2, kind: ausprägung}
+  - {from: k3, to: e3, kind: ausprägung}
+  - {from: k4, to: e4, kind: ausprägung}
+  - {from: k5, to: e5, kind: ausprägung}
+  - {from: k6, to: e6, kind: ausprägung}
+  - {from: k7, to: e7, kind: ausprägung}
+  - {from: k8, to: e8, kind: ausprägung}
+curves: []
+meaning: >-
+  Innovationsstrategien beschreiben laut Skript (4.1.2) die Wege, auf denen Unternehmensziele
+  unter Berücksichtigung von Kosten und Zeit (meist fünf bis zehn Jahre) erreicht werden. Die
+  Tabelle gibt einen Überblick über mögliche Kriterien, nach denen eine Innovationsstrategie
+  ausgestaltet wird – vom dominierenden Wettbewerbsfaktor über Markt- und Zeitorientierung bis
+  zum strategischen Schlüsselfaktor –, jeweils mit typischen Ausprägungen.
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json direkt abgefragt (2025-02-04: Kriterien für
+    Innovationsstrategien nennen). Die Frage verlangt sechs Kriterien, die Tabelle listet acht.
+  question_ids: [frage-2025-02-04-4]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Acht Kriterien: dominierender Wettbewerbsfaktor, Wettbewerbsstrategie, Marktumfang, Marktgebiet, Zeitorientierung, Arbeitsteilung, Wachstumsrichtung, strategischer Schlüsselfaktor"
+    - "Je Kriterium mindestens ein Beispiel (z. B. First-/Second-to-Market bei der Zeitorientierung)"
+  common_mistakes:
+    - "Kriterien und Ausprägungen vermischt (z. B. „Kostenführerschaft“ als Kriterium genannt)"
+    - "Marktumfang und Marktgebiet verwechselt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/tab-04.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle 18 Zellen vollständig, Zeilenumbrüche
+    und Silbentrennungen wie im Original. Die Serifenschrift des Skripts ist durch Arial ersetzt,
+    der Raster-Hintergrund der Kopfzeile durch ein flaches Grau. Die Kopfzeile ist Vorgabe und
+    kein Lösungselement.
+source:
+  pdf_page: 72
+  printed_page: 62
+  ocr_text_of_labels: >-
+    Kriterium; Effekt/Beispiel; Dominierender Wettbewerbsfaktor; Kostenführerschaft,
+    Differenzierung (Qualität, Technologie), Fokusstrategie; Wettbewerbsstrategie; Aggressive
+    Strategie, Anpassungsstrategie; Marktumfang; Globalisierungsstrategie, Fokusstrategie,
+    Nischenstrategie; Marktgebiet; Lokale, regionale, nationale, internationale, weltweite
+    Strategie; Zeitorientierung; First-to-Market, Second-to-Market, Nachfolgestrategie;
+    Arbeitsteilung; Solo-Lauf, Kooperationsstrategie; Wachstumsrichtung; Marktdurchdringung,
+    Marktentwicklung, Produktentwicklung, Diversifikation; Strategischer Schlüsselfaktor;
+    Leistungsorientiert, kostenorientiert, marktorientiert, zeitorientiert

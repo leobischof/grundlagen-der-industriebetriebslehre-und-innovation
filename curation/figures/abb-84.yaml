@@ -1,0 +1,71 @@
+id: abb-84
+title: Dimensionen der Produktqualität
+type: system
+description: >-
+  Sterndiagramm: Ein hellgrauer Kreis „Produktqualität“ in der Mitte, von dem acht Pfeile
+  strahlenförmig zu den acht Qualitätsdimensionen zeigen, jeweils deutscher Begriff fett und
+  englischer Begriff in Klammern darunter. Im Uhrzeigersinn von oben: Leistung (Performance),
+  Ausstattung (Features), Zuverlässigkeit (Reliability), Konformität (Conformance), Beständigkeit
+  (Durability), Wartungsfähig (Serviceability), Ästhetik (Aesthetics), Qualitätsimage (Perceived
+  Quality).
+axes: []
+elements:
+  - {id: c, kind: kreis, text: Produktqualität, note: "Mitte, im Original getrennt „Produkt-/qualität“"}
+  - {id: d1, kind: label, text: Leistung (Performance), note: oben}
+  - {id: d2, kind: label, text: Ausstattung (Features), note: rechts oben}
+  - {id: d3, kind: label, text: Zuverlässigkeit (Reliability), note: rechts}
+  - {id: d4, kind: label, text: Konformität (Conformance), note: rechts unten}
+  - {id: d5, kind: label, text: Beständigkeit (Durability), note: unten}
+  - {id: d6, kind: label, text: Wartungsfähig (Serviceability), note: "links unten; im Fließtext „Wartungsfähigkeit“"}
+  - {id: d7, kind: label, text: Ästhetik (Aesthetics), note: links}
+  - {id: d8, kind: label, text: Qualitätsimage (Perceived Quality), note: links oben}
+relations:
+  - {from: c, to: d1, kind: pfeil}
+  - {from: c, to: d2, kind: pfeil}
+  - {from: c, to: d3, kind: pfeil}
+  - {from: c, to: d4, kind: pfeil}
+  - {from: c, to: d5, kind: pfeil}
+  - {from: c, to: d6, kind: pfeil}
+  - {from: c, to: d7, kind: pfeil}
+  - {from: c, to: d8, kind: pfeil}
+curves: []
+meaning: >-
+  Aus Kundensicht lässt sich Produktqualität nach Garvin in acht Dimensionen beschreiben (Skript
+  9.3.1): Leistung (Umfang und Funktionalität), Ausstattung (sekundär zur Leistung, z. B.
+  Ledersitze), Zuverlässigkeit (Ausfallwahrscheinlichkeit in einer Zeitspanne), Konformität
+  (Übereinstimmung mit Anforderungen/Standards), Beständigkeit (Produktlebensdauer),
+  Wartungsfähigkeit (Reparierbarkeit, Servicepersonal), Ästhetik (äußeres Erscheinungsbild,
+  Geschmack, Geruch) und Qualitätsimage (tatsächlich wahrgenommene Qualität, z. B. Marken-Image).
+  Unternehmen können sich auf unterschiedliche Dimensionen konzentrieren, um Wettbewerbsvorteile
+  zu erzielen, und müssen die vom Kunden geforderte Qualität verstehen.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Frage zugeordnet. Die bisherigen Fragen zu
+    9.3.1 betreffen Ziele und Methoden des Qualitätsmanagements, nicht die Dimensionen; eine
+    Aufzählfrage „Dimensionen der Produktqualität“ ist aber naheliegend.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Acht Dimensionen um den Kreis „Produktqualität“"
+    - "Deutsche und englische Begriffe paarweise (Leistung/Performance … Qualitätsimage/Perceived Quality)"
+  common_mistakes:
+    - "Zuverlässigkeit (Ausfallwahrscheinlichkeit) und Beständigkeit (Lebensdauer) verwechselt"
+    - "Leistung und Ausstattung zu einer Dimension zusammengefasst"
+    - "Qualitätsimage vergessen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-84.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kreis, Pfeilwinkel und
+    Beschriftungspositionen angenähert, nichts vereinfacht. Wortlaut „Wartungsfähig“ unverändert
+    aus der Abbildung übernommen (Fließtext: „Wartungsfähigkeit“). Der Kreis „Produktqualität“ ist
+    als vorgegebener Mittelpunkt kein Lösungselement, alle acht Dimensionen sind class="answer".
+source:
+  pdf_page: 182
+  printed_page: 172
+  ocr_text_of_labels: >-
+    Produkt- qualität; Leistung (Performance); Ausstattung (Features); Zuverlässigkeit
+    (Reliability); Konformität (Conformance); Beständigkeit (Durability); Wartungsfähig
+    (Serviceability); Ästhetik (Aesthetics); Qualitätsimage (Perceived Quality)

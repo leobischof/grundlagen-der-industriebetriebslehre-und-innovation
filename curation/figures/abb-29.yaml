@@ -1,0 +1,51 @@
+id: abb-29
+title: Magisches Dreieck der Produktentstehung
+type: sonstiges
+description: >-
+  Graues gleichseitiges Dreieck. Von einem gemeinsamen Mittelpunkt laufen drei gestrichelte
+  Achsenpfeile durch die Ecken nach außen; an den Ecken stehen „Qualität“ (oben), „Zeit“ (links
+  unten) und „Kosten“ (rechts unten).
+axes:
+  - {axis: a1, label: Qualität, unit: null, direction: oben}
+  - {axis: a2, label: Zeit, unit: null, direction: links unten}
+  - {axis: a3, label: Kosten, unit: null, direction: rechts unten}
+elements:
+  - {id: d, kind: flaeche, text: null, note: Dreieck der drei Zielgrößen}
+  - {id: q, kind: label, text: Qualität}
+  - {id: z, kind: label, text: Zeit}
+  - {id: k, kind: label, text: Kosten}
+relations:
+  - {from: q, to: z, kind: konkurriert}
+  - {from: z, to: k, kind: konkurriert}
+  - {from: k, to: q, kind: konkurriert}
+curves: []
+meaning: >-
+  Das „magische Dreieck“ der Produktentstehung besteht aus Kosten, Zeit und Qualität; die drei
+  Ziele konkurrieren miteinander. Simultaneous Engineering soll alle drei zugleich optimieren:
+  kürzere Time-to-Market (Entwicklungszeit), geringere Entwicklungs- und Produktionskosten und
+  bessere Produkt-, Prozess- und Planungsqualität (Skript 5.6).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Frage direkt zugeordnet. Das Zieldreieck begründet den
+    Einsatz von Simultaneous Engineering, dessen Prinzipien geprüft werden (frage-2025-04-09-5 hängt
+    an Abbildung 30).
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Drei Ecken: Qualität, Zeit, Kosten"
+    - "Achsen vom Mittelpunkt nach außen (Zielgrößen konkurrieren)"
+  common_mistakes:
+    - "Andere Zielgrößen (z. B. Flexibilität) statt Qualität eingesetzt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-29.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Geometrie und Beschriftungslage
+    entsprechen dem Original. Die Achsen sind mit stroke-dasharray gestrichelt
+    (seit pipeline/svg_mupdf setzt auch der PDF-Export Strichelung und Marker um); Pfeilspitzen als Polygone.
+source:
+  pdf_page: 94
+  printed_page: 84
+  ocr_text_of_labels: Qualität; Zeit; Kosten

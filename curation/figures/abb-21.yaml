@@ -1,0 +1,93 @@
+id: abb-21
+title: Richtungen des Entrepreneurship
+type: sonstiges
+description: >-
+  Liste aus sieben grauen Überschriftenbalken mit weißer Schrift, unter jedem zwei bis drei
+  Stichpunkte: High-Tech Entrepreneurship, Regional Entrepreneurship, Social Entrepreneurship,
+  Ecopreneurship, Senior Entrepreneurship, Serial Entrepreneurship und Intrapreneurship mit
+  ihren jeweiligen Merkmalen.
+axes: []
+elements:
+  - {id: ht, kind: balken, text: High-Tech Entrepreneurship}
+  - {id: ht1, kind: stichpunkt, text: Wissensintensive Technik}
+  - {id: ht2, kind: stichpunkt, text: Hoher Innovationsgrad}
+  - {id: ht3, kind: stichpunkt, text: Entwicklungszeit kapitalintensiv}
+  - {id: reg, kind: balken, text: Regional Entrepreneurship}
+  - {id: reg1, kind: stichpunkt, text: Regionale Unternehmen verwurzelt in ihrer Region}
+  - {id: reg2, kind: stichpunkt, text: Förderung der regionalen Verbundenheit im Fokus}
+  - {id: soc, kind: balken, text: Social Entrepreneurship}
+  - {id: soc1, kind: stichpunkt, text: Soziales Unternehmertum im Fokus}
+  - {id: soc2, kind: stichpunkt, text: Unternehmen muss ohne die Beteiligung von (öffentlichen) Fördermitteln auskommen}
+  - {id: soc3, kind: stichpunkt, text: Fokus ist das lösen von sozialen Problemen, note: "Kleinschreibung „lösen“ wie im Original"}
+  - {id: eco, kind: balken, text: Ecopreneurship}
+  - {id: eco1, kind: stichpunkt, text: Im Fokus steht die Herausforderungen des Umweltschutzes zu lösen, note: "„die Herausforderungen“ wie im Original"}
+  - {id: eco2, kind: stichpunkt, text: Hoher Innovationsgrad}
+  - {id: eco3, kind: stichpunkt, text: Meist in Marktnischen}
+  - {id: sen, kind: balken, text: Senior Entrepreneurship}
+  - {id: sen1, kind: stichpunkt, text: Gesetzliche Altersgrenze oder Rentenantrittsalter spielen hier keine Rolle}
+  - {id: sen2, kind: stichpunkt, text: Dieser Entrepreneur-Typ arbeitet über das gesetzliche Rentenalter hinaus}
+  - {id: sen3, kind: stichpunkt, text: Vorteil von jahrzehntelanger Erfahrung}
+  - {id: ser, kind: balken, text: Serial Entrepreneurship}
+  - {id: ser1, kind: stichpunkt, text: Dieser Begriff bezeichnet Mehrfach- oder Seriengründer}
+  - {id: ser2, kind: stichpunkt, text: Noch vor Abschluss eines Gründungsprojekts widmen sie sich den nächsten Projekt, note: "„den nächsten Projekt“ wie im Original"}
+  - {id: ser3, kind: stichpunkt, text: "Erfolg jeder einzelnen Gründung steht nicht im Vordergrund, sondern die Gesamtheit der Projekte, welche als Summe genug erwirtschaften"}
+  - {id: intra, kind: balken, text: Intrapreneurship}
+  - {id: intra1, kind: stichpunkt, text: Flexibilität und Innovationskraft in allen Ebenen des Unternehmens werden erhöht}
+  - {id: intra2, kind: stichpunkt, text: Arbeitnehmer sind dazu ermutigt eigene Vorstellungen und Ideen miteinzubringen}
+  - {id: intra3, kind: stichpunkt, text: "Im Idealfall sind Mitarbeiter durch die Eigeninitiative stärker motiviert und handeln stets im Sinne des Unternehmens, welches davon profitiert"}
+relations:
+  - {from: ht, to: ht1, kind: merkmal}
+  - {from: reg, to: reg1, kind: merkmal}
+  - {from: soc, to: soc1, kind: merkmal}
+  - {from: eco, to: eco1, kind: merkmal}
+  - {from: sen, to: sen1, kind: merkmal}
+  - {from: ser, to: ser1, kind: merkmal}
+  - {from: intra, to: intra1, kind: merkmal}
+curves: []
+meaning: >-
+  Neben den Haupttypen SME und IDE kann ein Entrepreneur laut Skript (4.2.3) verschiedene
+  Richtungen einschlagen; die Abbildung beschreibt sieben davon mit ihren Kennzeichen, von
+  wissens- und kapitalintensivem High-Tech Entrepreneurship über regionale, soziale und
+  ökologische Ausrichtungen bis zu Senior-, Serien- und Intrapreneurship (unternehmerisches
+  Handeln von Nicht-Eigentümern im bestehenden Unternehmen).
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet; die Abbildung
+    ist eine reine Aufzählung ohne eigenen Erklärtext im Skript.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Sieben Richtungen: High-Tech, Regional, Social, Ecopreneurship, Senior, Serial, Intrapreneurship"
+    - "Je Richtung ein Kernmerkmal (z. B. Serial = Mehrfach-/Seriengründer, Intrapreneurship = im bestehenden Unternehmen)"
+  common_mistakes:
+    - "Intrapreneurship als eigene Gründung statt als Unternehmertum im bestehenden Unternehmen beschrieben"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-21.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; die leicht strukturierten grauen Balken
+    sind als flache abgerundete graue Rechtecke gezeichnet. Alle Stichpunkte im Originalwortlaut
+    einschließlich der grammatischen Unebenheiten („die Herausforderungen … zu lösen“, „den
+    nächsten Projekt“, „das lösen“). Die Aufzählungspunkte sind keine Lösungselemente.
+source:
+  pdf_page: 78
+  printed_page: 68
+  ocr_text_of_labels: >-
+    High-Tech Entrepreneurship; Wissensintensive Technik; Hoher Innovationsgrad; Entwicklungszeit
+    kapitalintensiv; Regional Entrepreneurship; Regionale Unternehmen verwurzelt in ihrer Region;
+    Förderung der regionalen Verbundenheit im Fokus; Social Entrepreneurship; Soziales
+    Unternehmertum im Fokus; Unternehmen muss ohne die Beteiligung von (öffentlichen)
+    Fördermitteln auskommen; Fokus ist das lösen von sozialen Problemen; Ecopreneurship; Im Fokus
+    steht die Herausforderungen des Umweltschutzes zu lösen; Hoher Innovationsgrad; Meist in
+    Marktnischen; Senior Entrepreneurship; Gesetzliche Altersgrenze oder Rentenantrittsalter
+    spielen hier keine Rolle; Dieser Entrepreneur-Typ arbeitet über das gesetzliche Rentenalter
+    hinaus; Vorteil von jahrzehntelanger Erfahrung; Serial Entrepreneurship; Dieser Begriff
+    bezeichnet Mehrfach- oder Seriengründer; Noch vor Abschluss eines Gründungsprojekts widmen sie
+    sich den nächsten Projekt; Erfolg jeder einzelnen Gründung steht nicht im Vordergrund, sondern
+    die Gesamtheit der Projekte, welche als Summe genug erwirtschaften; Intrapreneurship;
+    Flexibilität und Innovationskraft in allen Ebenen des Unternehmens werden erhöht; Arbeitnehmer
+    sind dazu ermutigt eigene Vorstellungen und Ideen miteinzubringen; Im Idealfall sind
+    Mitarbeiter durch die Eigeninitiative stärker motiviert und handeln stets im Sinne des
+    Unternehmens, welches davon profitiert

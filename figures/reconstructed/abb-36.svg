@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1274 649" width="1274" height="649" data-figure-id="abb-36" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Innovationsprozess von Thom</title>
+  <rect x="0" y="0" width="1274" height="649" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="12" y="12" width="1250" height="625" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- grey field = the company; Umwelt sits partly outside it -->
+  <rect x="192" y="100" width="978" height="505" fill="#dedede"/>
+
+  <!-- connectors (structure) -->
+  <g fill="none" stroke="#111111" stroke-width="2.5">
+    <!-- Unternehmensplanung triggers the innovation impulse -->
+    <polyline points="302,152 45,152 45,305 98,305"/>
+    <!-- realised idea acts back on the Umwelt -->
+    <polyline points="1147,296 1222,296 1222,62 1210,62"/>
+    <!-- Unternehmensplanung steers all three phases -->
+    <line x1="440" y1="178" x2="440" y2="206"/>
+    <line x1="680" y1="178" x2="680" y2="206"/>
+    <line x1="913" y1="178" x2="913" y2="206"/>
+  </g>
+  <line x1="822" y1="88" x2="822" y2="118" stroke="#8a8a8a" stroke-width="2.5"/>
+  <g fill="#111111">
+    <polygon points="110,305 96,299 96,311"/>
+    <polygon points="1198,62 1212,56 1212,68"/>
+    <polygon points="440,218 434,204 446,204"/>
+    <polygon points="680,218 674,204 686,204"/>
+    <polygon points="913,218 907,204 919,204"/>
+  </g>
+  <polygon points="822,129 816,116 828,116" fill="#8a8a8a"/>
+
+  <!-- environment and corporate planning bars -->
+  <rect x="452" y="40" width="745" height="48" rx="9" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="822" y="72" font-size="22" font-weight="bold" text-anchor="middle">Umwelt</text>
+  <rect x="302" y="130" width="743" height="48" rx="9" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="672" y="163" font-size="22" font-weight="bold" text-anchor="middle">Unternehmensplanung</text>
+
+  <!-- innovation impulse (block arrow) -->
+  <polygon points="75,268 240,268 240,232 312,303 240,378 240,342 75,342 110,305" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="189" y="300" font-size="22" font-weight="bold" text-anchor="middle">Innovations-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="176" y="329" font-size="22" font-weight="bold" text-anchor="middle">impuls</text>
+
+  <!-- three main phases as chevrons -->
+  <g fill="#ffffff" stroke="#111111" stroke-width="2.5">
+    <polygon points="300,218 540,218 618,296 540,375 300,375 378,296"/>
+    <polygon points="540,218 783,218 860,296 783,375 540,375 618,296"/>
+    <polygon points="783,218 1070,218 1147,296 1070,375 783,375 860,296"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="480" y="293" font-size="23" font-weight="bold" text-anchor="middle">Ideen-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="480" y="322" font-size="23" font-weight="bold" text-anchor="middle">generierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="728" y="293" font-size="23" font-weight="bold" text-anchor="middle">Ideen-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="728" y="322" font-size="23" font-weight="bold" text-anchor="middle">akzeptierung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="980" y="293" font-size="23" font-weight="bold" text-anchor="middle">Ideen-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="980" y="322" font-size="23" font-weight="bold" text-anchor="middle">realisierung</text>
+
+  <!-- activity boxes below each phase -->
+  <g fill="#ffffff" stroke="#111111" stroke-width="2.5">
+    <rect x="300" y="375" width="240" height="208"/>
+    <rect x="540" y="375" width="243" height="208"/>
+    <rect x="783" y="375" width="277" height="208"/>
+  </g>
+  <g fill="#111111">
+    <circle cx="316" cy="456" r="2.5"/>
+    <circle cx="316" cy="480" r="2.5"/>
+    <circle cx="316" cy="504" r="2.5"/>
+    <circle cx="556" cy="414" r="2.5"/>
+    <circle cx="556" cy="438" r="2.5"/>
+    <circle cx="556" cy="487" r="2.5"/>
+    <circle cx="798" cy="430" r="2.5"/>
+    <circle cx="798" cy="477" r="2.5"/>
+    <circle cx="798" cy="524" r="2.5"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="330" y="463" font-size="19">Suchfelder bestimmen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="330" y="487" font-size="19">Ideen finden</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="330" y="511" font-size="19">Ideen vorschlagen</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="570" y="421" font-size="19">Prüfung der Ideen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="570" y="445" font-size="19">Erstellen von</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="570" y="469" font-size="19">Realisierungsplänen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="570" y="494" font-size="19">Entscheidung für</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="570" y="518" font-size="19">einen zu</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="570" y="542" font-size="19">realisierenden Plan</text>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="437" font-size="19">Konkrete Verwirklichung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="461" font-size="19">der Idee</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="484" font-size="19">Verkauf der neuen Idee an</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="508" font-size="19">den Zielkunden</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="812" y="531" font-size="19">Akzeptanzkontrolle</text>
+</svg>

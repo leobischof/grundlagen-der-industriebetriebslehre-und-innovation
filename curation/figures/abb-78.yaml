@@ -1,0 +1,85 @@
+id: abb-78
+title: Produktionsregelkreis
+type: system
+description: >-
+  Regelkreis der Produktion: Unten läuft der Materialfluss von links nach rechts, vom „Input“
+  (Einzelteile) über einen Kreis „Material supply“ in den Kasten „Fertigung und Montage“ mit dem
+  dunklen Pfeil „Produktionsprozess“ „(Ausführung)“, dann über ein Messkästchen („Messung der
+  tatsächlichen Produktionsmenge Output“) zum „Output“. Oben stehen die Kästen „Planen“ und
+  „Überwachung der Abweichungen zwischen Ist- und Soll-Produktionsmengen“, die über zwei
+  Rückkopplungspfeile verbunden sind. Die Messung meldet an die Überwachung zurück; von der
+  Überwachung führen zwei Pfeile zur Materialversorgung. Unter der Fertigung stehen als Störungen
+  „Materialfehler“ und „Ausfall der Maschine“ neben einem Warndreieck.
+axes: []
+elements:
+  - {id: plan, kind: box, text: Planen}
+  - {id: ueb, kind: box, text: "Überwachung der Abweichungen zwischen Ist- und Soll-Produktionsmengen"}
+  - {id: fm, kind: box, text: Fertigung und Montage}
+  - {id: pp, kind: box, text: Produktionsprozess, note: "dunkler Blockpfeil, darunter „(Ausführung)“"}
+  - {id: in, kind: box, text: Input, note: "dunkler Blockpfeil, darunter „Einzelteile“"}
+  - {id: ms, kind: box, text: Material supply, note: Kreis}
+  - {id: mess, kind: box, text: "Messung der tatsächlichen Produktionsmenge Output", note: "leeres Kästchen, Beschriftung darunter"}
+  - {id: out, kind: box, text: Output, note: "dunkler Blockpfeil, darüber „Tatsächliche Produktionsmenge Ausgang“"}
+  - {id: l1, kind: label, text: "Sicherstellung der Produktion unter Berücksichtigung einer Planänderung aufgrund von Ist-/Soll-Abweichungen", note: "am Pfeil Überwachung → Planen"}
+  - {id: l2, kind: label, text: Zielproduktionsmenge Output, note: "am Pfeil Planen → Überwachung"}
+  - {id: l3, kind: label, text: Materialversorgung auslösen, note: "am Pfeil Überwachung → Material supply"}
+  - {id: l4, kind: label, text: "Sichere Produktion unter Berücksichtigung von Ist-Störungen aufgrund von Ist-/Soll-Abweichungen", note: "am zweiten Pfeil Überwachung → Material supply"}
+  - {id: l5, kind: label, text: Tatsächliche Produktionsmenge Ausgang}
+  - {id: st1, kind: label, text: Materialfehler, note: Störgröße}
+  - {id: st2, kind: label, text: Ausfall der Maschine, note: Störgröße}
+relations:
+  - {from: in, to: ms, kind: fluss}
+  - {from: ms, to: pp, kind: fluss}
+  - {from: pp, to: mess, kind: fluss}
+  - {from: mess, to: out, kind: fluss}
+  - {from: plan, to: ueb, kind: pfeil, text: Zielproduktionsmenge Output}
+  - {from: ueb, to: plan, kind: pfeil, text: "Sicherstellung der Produktion unter Berücksichtigung einer Planänderung aufgrund von Ist-/Soll-Abweichungen"}
+  - {from: mess, to: ueb, kind: pfeil, text: Rückmeldung der gemessenen Ist-Menge}
+  - {from: ueb, to: ms, kind: pfeil, text: Materialversorgung auslösen}
+  - {from: ueb, to: ms, kind: pfeil, text: "Sichere Produktion unter Berücksichtigung von Ist-Störungen aufgrund von Ist-/Soll-Abweichungen"}
+  - {from: st1, to: fm, kind: stört}
+  - {from: st2, to: fm, kind: stört}
+curves: []
+meaning: >-
+  Laut Skript (9.2) bedeutet das Sichern der Aufgabenausführung, zu reagieren: (1) durch
+  Interferieren, also Anpassen des tatsächlichen Zustands an den Zielzustand (Eingriff in die
+  Materialversorgung bzw. Produktion), und (2) durch Anpassen des Plans, also Aktualisieren des
+  Zielzustands mit tatsächlichen Informationen. Zusammen mit der Messung der Ist-Menge und dem
+  Soll-/Ist-Vergleich ergibt sich ein geschlossener Regelkreis, der Störungen wie Materialfehler
+  oder Maschinenausfälle ausregelt.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet; illustriert den Regelkreis-Gedanken
+    der Produktionssteuerung (Abschnitt 9.2).
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Materialfluss: Input → Material supply → Produktionsprozess (Fertigung und Montage) → Messung → Output"
+    - "Rückkopplung: Messung → Überwachung (Soll-/Ist-Vergleich)"
+    - "Zwei Reaktionen: Plan anpassen (Überwachung → Planen) oder in die Produktion eingreifen (Überwachung → Materialversorgung)"
+    - "Planen gibt die Zielproduktionsmenge an die Überwachung"
+    - "Störgrößen: Materialfehler, Ausfall der Maschine"
+  common_mistakes:
+    - "Regelkreis nicht geschlossen (Messung der Ist-Menge vergessen)"
+    - "Nur eine der beiden Reaktionen (Eingriff oder Planänderung) gezeigt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-78.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Kästen, Pfeile, Rückkopplungen und
+    Beschriftungen vollständig im Originalwortlaut. Das Warnschild-Piktogramm ist durch ein
+    einfaches graues Dreieck mit „!“ ersetzt (Bedeutung: Störung). Positionen, Grautöne und
+    Schriftgrößen angenähert, Schrift Arial.
+source:
+  pdf_page: 176
+  printed_page: 166
+  ocr_text_of_labels: >-
+    Planen; Sicherstellung der Produktion unter Berücksichtigung einer Planänderung aufgrund von
+    Ist-/Soll-Abweichungen; Zielproduktionsmenge Output; Überwachung der Abweichungen zwischen Ist-
+    und Soll-Produktionsmengen; Materialversorgung auslösen; Sichere Produktion unter
+    Berücksichtigung von Ist-Störungen aufgrund von Ist-/Soll-Abweichungen; Fertigung und Montage;
+    Tatsächliche Produktionsmenge Ausgang; Input; Einzelteile; Produktionsprozess; (Ausführung);
+    Output; Material supply; Messung der tatsächlichen Produktionsmenge Output; Materialfehler;
+    Ausfall der Maschine

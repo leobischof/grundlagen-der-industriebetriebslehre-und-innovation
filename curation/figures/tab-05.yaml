@@ -1,0 +1,80 @@
+id: tab-05
+title: Unterschiede zwischen SME und IDE Entrepreneurship
+type: tabelle
+description: >-
+  Zweispaltige Tabelle ohne senkrechte Linien mit den Spalten „SME Entrepreneurship“ und „IDE
+  Entrepreneurship“ und fünf Vergleichszeilen: Marktfokus, Rolle von Innovation und
+  Wettbewerbsvorteilen, Art der Arbeitsplätze (non-tradeable vs. tradeable Jobs),
+  Kapitalstruktur und Wachstumsverlauf (linear vs. exponentiell, Verweis auf Abbildung 20).
+axes: []
+elements:
+  - {id: h_sme, kind: kopfzeile, text: SME Entrepreneurship}
+  - {id: h_ide, kind: kopfzeile, text: IDE Entrepreneurship}
+  - {id: sme1, kind: zelle, text: Fokus auf das Bedienen von lokalen und regionalen Märkten}
+  - {id: ide1, kind: zelle, text: Fokus auf globale und / oder regionale Märkte}
+  - {id: sme2, kind: zelle, text: "Für eine Etablierung am Markt und Wachstum ist Innovation nicht notwendig. Auch Wettbewerbsvorteile sind keine Voraussetzung."}
+  - {id: ide2, kind: zelle, text: "Das Unternehmen baut auf Formen der Innovation (Technik, Geschäftsmodell, Modell) und potentiellen Wettbewerbsvorteilen auf."}
+  - {id: sme3, kind: zelle, text: ">>Non-tradeable-Jobs<< Arbeitsplätze die vor Ort bestehen (beispielsweise in der Dienstleistungsbranche – Restaurants, Gesundheitswesen, Einzelhandel, Bauwesen etc.)"}
+  - {id: ide3, kind: zelle, text: ">>Tradeable-Jobs<< Arbeitsplätze können von Personen außerhalb eines Landes ausgeübt werden – beispielsweise Produktion, Beratung, Ingenieurwesen."}
+  - {id: sme4, kind: zelle, text: "Geringes externes Kapital – meist Familienbetriebe"}
+  - {id: ide4, kind: zelle, text: "Breit aufgestellte Eigentümergruppe, einschließlich vieler externer Kapitalgeber"}
+  - {id: sme5, kind: zelle, text: "Unternehmenswachstum linear – je mehr selbst in die Firma investiert wird, desto positiver und zügiger reagiert das System (Ertrag, Cashflow. Arbeitsplätze, etc.) - siehe Abbildung 20", note: "mit Fußnotenzeichen 89; Punkt statt Komma nach „Cashflow“ wie im Original"}
+  - {id: ide5, kind: zelle, text: "Zunächst verliert das Unternehmen Kapital, ist sie jedoch erfolgreich, wächst sie exponentiell. Das System reagiert zunächst träge auf Investitionen. - siehe Abbildung 20", note: "„ist sie“ (statt „ist es“) wie im Original"}
+relations:
+  - {from: sme1, to: ide1, kind: gegenüberstellung, text: Markt}
+  - {from: sme2, to: ide2, kind: gegenüberstellung, text: Innovation}
+  - {from: sme3, to: ide3, kind: gegenüberstellung, text: Arbeitsplätze}
+  - {from: sme4, to: ide4, kind: gegenüberstellung, text: Kapital}
+  - {from: sme5, to: ide5, kind: gegenüberstellung, text: Wachstum}
+curves: []
+meaning: >-
+  Laut Skript (4.2.3) sind die zwei Haupttypen des Entrepreneurship SME (Small and Medium Size
+  Enterprises) und IDE (Innovation-driven Enterprises). SME bedienen lokale/regionale Märkte,
+  brauchen keine Innovation, schaffen ortsgebundene Arbeitsplätze, haben wenig externes Kapital und
+  wachsen linear; IDE zielen auf globale Märkte, bauen auf Innovation und Wettbewerbsvorteilen auf,
+  schaffen handelbare Arbeitsplätze, haben viele externe Kapitalgeber und wachsen nach anfänglichen
+  Verlusten exponentiell (Abbildung 20).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Tabelle keine Prüfungsfrage zugeordnet. Der SME/IDE-Vergleich
+    ist aber eine typische Gegenüberstellung, die als „Vergleichen Sie …“-Frage naheliegt, daher
+    mittel.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "SME = Small and Medium Size Enterprises, IDE = Innovation-driven Enterprises"
+    - "Fünf Vergleichsmerkmale: Markt, Innovation, Arbeitsplätze, Kapital, Wachstum"
+    - "SME linear, IDE erst Verlust, dann exponentiell"
+  common_mistakes:
+    - "Tradeable und non-tradeable Jobs vertauscht"
+    - "IDE als kleines Unternehmen mit geringem Kapitalbedarf beschrieben"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/tab-05.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle zwölf Zellen vollständig mit den
+    Zeilenumbrüchen und Silbentrennungen des Originals. Die oben angeschnittene Textzeile des
+    Fließtexts im Ausschnitt ist weggelassen, die kaum sichtbaren Zeilentrenner sind als hellgraue
+    Linien gezeichnet. Die im Scan schräg/kursiv wirkenden Zeilen der letzten Tabellenzeile sind
+    gerade gesetzt (Scan-Verzerrung, kein inhaltlicher Unterschied). Fußnotenzeichen 89 als
+    kleine hochgestellte Zahl übernommen. Kopfzeile ist Vorgabe, kein Lösungselement.
+source:
+  pdf_page: 77
+  printed_page: 67
+  ocr_text_of_labels: >-
+    SME Entrepreneurship; IDE Entrepreneurship; Fokus auf das Bedienen von lokalen und regionalen
+    Märkten; Fokus auf globale und / oder regionale Märkte; Für eine Etablierung am Markt und
+    Wachstum ist Innovation nicht notwendig. Auch Wettbewerbsvorteile sind keine Voraussetzung.;
+    Das Unternehmen baut auf Formen der Innovation (Technik, Geschäftsmodell, Modell) und
+    potentiellen Wettbewerbsvorteilen auf.; >>Non-tradeable-Jobs<< Arbeitsplätze die vor Ort
+    bestehen (beispielsweise in der Dienstleistungsbranche – Restaurants, Gesundheitswesen,
+    Einzelhandel, Bauwesen etc.); >>Tradeable-Jobs<< Arbeitsplätze können von Personen außerhalb
+    eines Landes ausgeübt werden – beispielsweise Produktion, Beratung, Ingenieurwesen.; Geringes
+    externes Kapital – meist Familienbetriebe; Breit aufgestellte Eigentümergruppe, einschließlich
+    vieler externer Kapitalgeber; Unternehmenswachstum linear – je mehr selbst in die Firma
+    investiert wird, desto positiver und zügiger reagiert das System (Ertrag, Cashflow.
+    Arbeitsplätze, etc.) - siehe Abbildung 20 89; Zunächst verliert das Unternehmen Kapital, ist
+    sie jedoch erfolgreich, wächst sie exponentiell. Das System reagiert zunächst träge auf
+    Investitionen. - siehe Abbildung 20

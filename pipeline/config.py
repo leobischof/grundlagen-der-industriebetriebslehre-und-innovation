@@ -33,7 +33,7 @@ FIG_EXERCISES = FIGURES / "exercises"
 FIG_MANIFEST = FIGURES / "manifest.json"
 EXAMS = ROOT / "exams"
 LEARNING = ROOT / "learning"
-DRAWING_GUIDES = LEARNING / "drawing-exercises"   # one drawing_guide_name(id) per reconstructed figure
+DRAWING_GUIDES = LEARNING / "drawing-exercises"   # one drawing_guide_name(id) per figure worth sketching (sketch_scope)
 CHAPTER_GUIDES = LEARNING / "chapters"            # one chapter_guide_name(slug) per chapter (KI-Leitfaden)
 REPORTS = ROOT / "reports"
 

@@ -1,0 +1,73 @@
+id: abb-76
+title: Planung und Steuerung über die Zeit
+type: sonstiges
+description: >-
+  Links ein Quadrat, das entlang der Diagonale von oben links nach unten rechts geteilt ist: oben
+  rechts das helle Dreieck „Planung“, unten links das dunkle Dreieck „Kontrolle“. Die waagrechte
+  Achse oben heißt „Bedeutung von Planung und Kontrolle“, die senkrechte Achse links
+  „Zeithorizont“ (nach unten gerichtet) mit den Stufen Monate / Jahre, Tage / Wochen / Monate und
+  Stunden / Tage. Je kürzer der Zeithorizont, desto größer der Anteil der Kontrolle. Rechts
+  daneben stehen Stichpunkte zu langfristiger Planung und Kontrolle, mittelfristiger Planung und
+  kurzfristiger Planung und Kontrolle.
+axes:
+  - {axis: x, label: Bedeutung von Planung und Kontrolle, unit: null, direction: rechts}
+  - {axis: y, label: Zeithorizont, unit: null, direction: unten}
+elements:
+  - {id: plan, kind: flaeche, text: Planung, note: helles Dreieck oben rechts}
+  - {id: kontr, kind: flaeche, text: Kontrolle, note: dunkles Dreieck unten links}
+  - {id: h1, kind: label, text: Monate / Jahre, note: oberer Abschnitt der Zeitachse}
+  - {id: h2, kind: label, text: Tage / Wochen / Monate, note: mittlerer Abschnitt}
+  - {id: h3, kind: label, text: Stunden / Tage, note: unterer Abschnitt}
+  - {id: lang, kind: liste, text: Langfristige Planung und Kontrolle, note: "Verwendet gebündelte Bedarfsprognosen; Bestimmt Ressourcen in gebündelter Form; Ziele werden weitgehend in finanzieller Hinsicht festgelegt"}
+  - {id: mittel, kind: liste, text: Mittelfristige Planung, note: "Verwendet teilweise disaggregierte Bedarfsprognosen; Bestimmt die Ressourcen; Ziele werden sowohl in finanzieller als auch in operativer Hinsicht festgelegt"}
+  - {id: kurz, kind: liste, text: Kurzfristige Planung und Kontrolle, note: "Verwendet vollständig disaggregierte Prognosen oder den tatsächlichen Bedarf; Eingriffe in die Ressourcen zur Korrektur von Planabweichungen; Ad-hoc-Betrachtung der operativen Ziele"}
+relations:
+  - {from: h1, to: lang, kind: zugeordnet}
+  - {from: h2, to: mittel, kind: zugeordnet}
+  - {from: h3, to: kurz, kind: zugeordnet}
+  - {from: plan, to: kontr, kind: folgt, text: "mit kürzerem Zeithorizont nimmt der Anteil der Kontrolle zu"}
+curves: []
+meaning: >-
+  Skript 9.2: Planung ist die Formalisierung dessen, was in Zukunft passieren könnte (auf Basis
+  von Prognosen und Annahmen); Steuerung ist die Anpassung der Pläne an Veränderungen der
+  Variablen. Die Grenze zwischen Planung und Kontrolle verschiebt sich entlang des Zeithorizonts:
+  langfristig überwiegt die Planung mit gebündelten Prognosen und finanziellen Zielen, kurzfristig
+  die Kontrolle mit disaggregierten Prognosen bzw. tatsächlichem Bedarf, Eingriffen zur Korrektur
+  von Planabweichungen und Ad-hoc-Betrachtung der operativen Ziele.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Frage zugeordnet. Das Bild ist aber leicht
+    zu zeichnen und erklärt den Übergang von Planung zu Steuerung, der in Kapitel 9.2 die Grundlage
+    für Produktionssteuerung und Regelkreis bildet; daher mittel.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Quadrat diagonal geteilt: Planung oben rechts, Kontrolle unten links"
+    - "x-Achse: Bedeutung von Planung und Kontrolle; y-Achse: Zeithorizont nach unten kürzer werdend"
+    - "Stufen Monate / Jahre – Tage / Wochen / Monate – Stunden / Tage"
+    - "Je Fristigkeit die Art der Prognose (gebündelt, teilweise, vollständig disaggregiert)"
+  common_mistakes:
+    - "Planung und Kontrolle vertauscht (langfristig dominiert die Planung)"
+    - "Zeithorizont nach unten länger statt kürzer gezeichnet"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-76.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Dreiecke, Achsenpfeile (eigene
+    Dreiecke statt SVG-Marker), gedrehte Achsenbeschriftungen und Stichpunktliste zeilengetreu
+    übernommen. Die im hellen Dreieck des Scans durchscheinende Schrift der Rückseite ist kein
+    Bildinhalt und wurde weggelassen. Im Bild heißt es „Kontrolle“, im Kapiteltitel „Steuerung“.
+source:
+  pdf_page: 175
+  printed_page: 165
+  ocr_text_of_labels: >-
+    Bedeutung von Planung und Kontrolle; Zeithorizont; Monate / Jahre; Tage / Wochen / Monate;
+    Stunden / Tage; Planung; Kontrolle; Langfristige Planung und Kontrolle; Verwendet gebündelte
+    Bedarfsprognosen; Bestimmt Ressourcen in gebündelter Form; Ziele werden weitgehend in
+    finanzieller Hinsicht festgelegt; Mittelfristige Planung; Verwendet teilweise disaggregierte
+    Bedarfsprognosen; Bestimmt die Ressourcen; Ziele werden sowohl in finanzieller als auch in
+    operativer Hinsicht festgelegt; Kurzfristige Planung und Kontrolle; Verwendet vollständig
+    disaggregierte Prognosen oder den tatsächlichen Bedarf; Eingriffe in die Ressourcen zur
+    Korrektur von Planabweichungen; Ad-hoc-Betrachtung der operativen Ziele

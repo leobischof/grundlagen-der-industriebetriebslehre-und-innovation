@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 212" width="1263" height="212" data-figure-id="abb-63" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Produktionsprogrammplanung</title>
+  <rect x="0" y="0" width="1263" height="212" fill="#ffffff"/>
+  <rect x="10" y="10" width="1243" height="192" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Input -> process -> output (structure) -->
+  <g fill="none" stroke="#dddddd" stroke-width="1.5">
+    <path d="M97 57 H380 M868 57 H1135"/>
+  </g>
+  <polygon points="452,25 490,108 452,190" fill="#595959"/>
+  <polygon points="776,25 815,108 776,190" fill="#595959"/>
+  <rect x="533" y="24" width="179" height="169" fill="#595959"/>
+
+  <!-- Labels -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="97" y="47" font-size="24" font-weight="bold">Input</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="97" y="94" font-size="24">Verkaufsplanung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="97" y="137" font-size="24">Kapazitätsplanung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="97" y="178" font-size="24">Kosten pro Einheit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="623" y="87" font-size="23" font-weight="bold" fill="#ffffff" text-anchor="middle">Produktions-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="623" y="119" font-size="23" font-weight="bold" fill="#ffffff" text-anchor="middle">program-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="623" y="151" font-size="23" font-weight="bold" fill="#ffffff" text-anchor="middle">planung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="868" y="47" font-size="24" font-weight="bold">Output</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="868" y="95" font-size="24">Produktbereich</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="868" y="138" font-size="24">Zielmenge pro Einheit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="868" y="179" font-size="24">Kapazitätsauslastung</text>
+</svg>

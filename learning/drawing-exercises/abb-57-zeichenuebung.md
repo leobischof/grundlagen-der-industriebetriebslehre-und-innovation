@@ -27,10 +27,10 @@ Skript 8.3.3 (angelehnt an Schmidt 2008): Effizienz verbessert das Input-Output-
    - „Konsistenz“
    - „Technologie-innovation / Nötig für Netto Null“ – großer gebogener Pfeil von rechts nach links
 5. Beschriftungen einzeichnen:
-   - „A“ – Ausgangspunkt auf p1
+   - „A“ – Ausgangspunkt auf p1, rechts
    - „B“ – auf p2
-   - „C“ – auf p1
-   - „D“ – auf p3
+   - „C“ – auf p1, links unterhalb von A
+   - „D“ – auf p3, weit links oben
    - „(gestrichelte Senkrechte)“ – zwei Begrenzungen des Ressourcenverbrauchs, ohne Text
 6. Kurve „Produktivität p1 = konst.“ zeichnen: Gerade aus dem Ursprung, flach.
    - A, C

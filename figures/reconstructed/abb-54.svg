@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1264 149" width="1264" height="149" data-figure-id="abb-54" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Unterteilung Ausführungsphase</title>
+  <rect x="0" y="0" width="1264" height="149" fill="#ffffff"/>
+  <rect x="10" y="10" width="1243" height="125" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Three consecutive phases as chevrons (left to right) -->
+  <g fill="#4f4f4f">
+    <polygon points="55,25 430,25 470,71 430,117 55,117 100,71"/>
+    <polygon points="442,25 818,25 858,71 818,117 442,117 482,71"/>
+    <polygon points="830,25 1182,25 1222,71 1182,117 830,117 870,71"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="268" y="85" font-size="37" fill="#ffffff" text-anchor="middle">Ausführung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="655" y="85" font-size="37" fill="#ffffff" text-anchor="middle">Übergabe</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1035" y="85" font-size="37" fill="#ffffff" text-anchor="middle">Inbetriebnahme</text>
+</svg>

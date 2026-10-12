@@ -1,0 +1,80 @@
+id: abb-17
+title: Elemente des Produktionsprozesses
+type: prozess
+description: >-
+  Wertschöpfungskette als Reihe von Pfeilkästen zwischen den dunklen Randkästen „Lieferanten“
+  (links) und „Absatzmarkt“ (rechts): Einkauf, Rohmateriallager, Fertigung, Montage,
+  Fertigteillager, Vertrieb. Fertigung und Montage liegen in einer dunklen Ellipse mit
+  „PRODUKTIONSPLANUNG“ oben und „PRODUKTIONSKONTROLLE“ unten. Oben verläuft der
+  Informationsfluss gegen den Materialfluss (durchgezogen, vom Absatzmarkt zu den Lieferanten),
+  unten der Informationsfluss mit dem Materialfluss (gepunktet). Darunter drei Logistikbalken:
+  Beschaffungslogistik, Produktionslogistik/Linienbeschickung, Vertriebslogistik.
+axes: []
+elements:
+  - {id: lief, kind: box, text: Lieferanten, note: "dunkler Kasten links, Text senkrecht"}
+  - {id: einkauf, kind: pfeilkasten, text: Einkauf}
+  - {id: rohlager, kind: pfeilkasten, text: Rohmateriallager, note: "getrennt als „Rohmat-“ / „eriallager“"}
+  - {id: fert, kind: pfeilkasten, text: Fertigung, note: "fett, in der Ellipse"}
+  - {id: mont, kind: pfeilkasten, text: Montage, note: "fett, in der Ellipse"}
+  - {id: fertlager, kind: pfeilkasten, text: Fertigteillager, note: "getrennt als „Fertigteil-“ / „lager“"}
+  - {id: vertrieb, kind: pfeilkasten, text: Vertrieb}
+  - {id: absatz, kind: box, text: Absatzmarkt, note: "dunkler Kasten rechts, Text senkrecht"}
+  - {id: planung, kind: ellipse, text: PRODUKTIONSPLANUNG, note: obere Hälfte der dunklen Ellipse}
+  - {id: kontrolle, kind: ellipse, text: PRODUKTIONSKONTROLLE, note: untere Hälfte der dunklen Ellipse}
+  - {id: if_gegen, kind: pfeil, text: Informationsfluss gegen Materialfluss, note: durchgezogene Linie oben mit Abzweigen nach unten}
+  - {id: if_mit, kind: pfeil, text: Informationsfluss mit Materialfluss, note: gepunktete Linie unten mit Abzweigen nach oben}
+  - {id: beschlog, kind: box, text: Beschaffungslogistik, note: Balken unter Lieferanten bis Rohmateriallager}
+  - {id: prodlog, kind: box, text: Produktionslogistik/Linienbeschickung, note: Balken unter der Produktion}
+  - {id: vertlog, kind: box, text: Vertriebslogistik, note: Balken unter Fertigteillager bis Absatzmarkt}
+relations:
+  - {from: lief, to: einkauf, kind: folgt}
+  - {from: einkauf, to: rohlager, kind: folgt}
+  - {from: rohlager, to: fert, kind: folgt}
+  - {from: fert, to: mont, kind: folgt}
+  - {from: mont, to: fertlager, kind: folgt}
+  - {from: fertlager, to: vertrieb, kind: folgt}
+  - {from: vertrieb, to: absatz, kind: folgt}
+  - {from: absatz, to: lief, kind: informationsfluss, text: "gegen Materialfluss (Abzweige zu Rohmateriallager, Produktion, Fertigteillager)"}
+  - {from: lief, to: absatz, kind: informationsfluss, text: "mit Materialfluss (Abzweige zu Rohmateriallager, Produktion, Fertigteillager)"}
+  - {from: planung, to: fert, kind: steuert}
+  - {from: kontrolle, to: mont, kind: überwacht}
+curves: []
+meaning: >-
+  Die Abbildung gibt laut Skript (3.2) eine Übersicht über die allgemeinen Elemente des
+  Produktionsprozesses: Mit dem Produktionsprozess (Fertigung, Montage unter
+  Produktionsplanung und -kontrolle) ist die innerbetriebliche Logistik verbunden, die die
+  Materialverfügbarkeit über Transport-, Umschlag- und Lagertätigkeiten sichert. Beschaffung und
+  Vertrieb verbinden die Produktion mit Lieferanten und Absatzmarkt; Informationen fließen
+  sowohl mit als auch gegen den Materialfluss.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet; sie dient im
+    Skript als Übersicht ohne eigenen Erklärtext.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Kette: Lieferanten – Einkauf – Rohmateriallager – Fertigung – Montage – Fertigteillager – Vertrieb – Absatzmarkt"
+    - "Produktionsplanung und -kontrolle um Fertigung und Montage"
+    - "Informationsfluss gegen und mit dem Materialfluss"
+    - "Beschaffungs-, Produktions- und Vertriebslogistik"
+  common_mistakes:
+    - "Lager an falscher Stelle (Rohmateriallager vor, Fertigteillager nach der Produktion)"
+    - "Nur einen Informationsfluss eingezeichnet"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-17.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; die schwach schraffierten hellgrauen
+    Pfeilkästen sind als flache hellgraue Flächen gezeichnet, Linien und Pfeilspitzen angenähert
+    (Pfeilspitzen an denselben Stellen und in derselben Richtung wie im Original). Silbentrennung
+    „Rohmat-eriallager“ unverändert übernommen.
+source:
+  pdf_page: 64
+  printed_page: 54
+  ocr_text_of_labels: >-
+    Informationsfluss gegen Materialfluss; PRODUKTIONSPLANUNG; Lieferanten; Einkauf; Rohmat-
+    eriallager; Fertigung; Montage; Fertigteil- lager; Vertrieb; Absatzmarkt;
+    PRODUKTIONSKONTROLLE; Informationsfluss mit Materialfluss; Beschaffungslogistik;
+    Produktionslogistik/Linienbeschickung; Vertriebslogistik

@@ -1,0 +1,73 @@
+id: abb-55
+title: Die SDGs der United Nations
+type: sonstiges
+description: >-
+  Raster aus 17 quadratischen Kacheln (fünf Spalten, vier Reihen) mit den 17 Zielen für nachhaltige
+  Entwicklung (Sustainable Development Goals) der Vereinten Nationen. Jede Kachel trägt eine große
+  Zielnummer, den Zieltitel in Großbuchstaben und im Original ein Piktogramm. Rechts unten neben
+  Ziel 17 steht das Logo „ZIELE FÜR NACHHALTIGE ENTWICKLUNG“.
+axes: []
+elements:
+  - {id: sdg1, kind: box, text: "1 KEINE ARMUT"}
+  - {id: sdg2, kind: box, text: "2 KEIN HUNGER"}
+  - {id: sdg3, kind: box, text: "3 GESUNDHEIT UND WOHLERGEHEN"}
+  - {id: sdg4, kind: box, text: "4 HOCHWERTIGE BILDUNG"}
+  - {id: sdg5, kind: box, text: "5 GESCHLECHTERGLEICHHEIT", note: "im Original getrennt „GESCHLECHTER-/GLEICHHEIT“"}
+  - {id: sdg6, kind: box, text: "6 SAUBERES WASSER UND SANITÄREINRICHTUNGEN", note: "im Original getrennt „SANITÄR-/EINRICHTUNGEN“"}
+  - {id: sdg7, kind: box, text: "7 BEZAHLBARE UND SAUBERE ENERGIE"}
+  - {id: sdg8, kind: box, text: "8 MENSCHENWÜRDIGE ARBEIT UND WIRTSCHAFTSWACHSTUM", note: "im Original getrennt „WIRT-/SCHAFTSWACHSTUM“"}
+  - {id: sdg9, kind: box, text: "9 INDUSTRIE, INNOVATION UND INFRASTRUKTUR"}
+  - {id: sdg10, kind: box, text: "10 WENIGER UNGLEICHHEITEN"}
+  - {id: sdg11, kind: box, text: "11 NACHHALTIGE STÄDTE UND GEMEINDEN"}
+  - {id: sdg12, kind: box, text: "12 NACHHALTIGE/R KONSUM UND PRODUKTION"}
+  - {id: sdg13, kind: box, text: "13 MASSNAHMEN ZUM KLIMASCHUTZ"}
+  - {id: sdg14, kind: box, text: "14 LEBEN UNTER WASSER"}
+  - {id: sdg15, kind: box, text: "15 LEBEN AN LAND"}
+  - {id: sdg16, kind: box, text: "16 FRIEDEN, GERECHTIGKEIT UND STARKE INSTITUTIONEN"}
+  - {id: sdg17, kind: box, text: "17 PARTNERSCHAFTEN ZUR ERREICHUNG DER ZIELE"}
+  - {id: logo, kind: label, text: ZIELE FÜR NACHHALTIGE ENTWICKLUNG, note: "Logo, hier als Text"}
+relations: []
+curves: []
+meaning: >-
+  Laut Skript (8.3.1) hat die Generalversammlung der Vereinten Nationen 2015 in der „Agenda 2030“
+  konkrete Ziele für Nachhaltigkeit verabschiedet. Sie gliedern sich in 17 Gruppen mit 169
+  Einzelzielen und umfassen neben humanitären Zielen (z. B. Armut beenden, Bildung, Frieden) auch
+  Ziele, die vor allem für die Industrie relevant sind (z. B. nachhaltige Energie, nachhaltige
+  Produktion, Sofortmaßnahmen gegen den Klimawandel). Umweltbewusstes Management erfordert dabei
+  bereichsübergreifendes Handeln.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Die 17 Ziele müssen nicht
+    gezeichnet werden; als Hintergrund zu Nachhaltigkeitsfragen (8.3) kann es helfen, einige
+    Ziele mit Industriebezug (z. B. 9, 12, 13) nennen zu können.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "17 Ziele der Agenda 2030 der Vereinten Nationen"
+    - "Industrierelevant u. a.: 7 Energie, 8 Arbeit und Wirtschaftswachstum, 9 Industrie/Innovation/Infrastruktur, 12 Konsum und Produktion, 13 Klimaschutz"
+  common_mistakes:
+    - "SDGs mit den drei Nachhaltigkeitsdimensionen verwechselt"
+    - "Anzahl der Ziele falsch angegeben"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-55.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle 17 Kacheln mit Nummer und Titel im
+    Originalwortlaut und Original-Zeilenumbruch, Grautöne der Graustufen-Wiedergabe angenähert. Die
+    Piktogramme der Kacheln sind nicht nachgebildet, sondern durch einen einfachen weißen Ring als
+    Platzhalter ersetzt; das SDG-Logo (farbiges Rad) ist durch einen grauen Ring und seinen Wortlaut
+    „ZIELE FÜR NACHHALTIGE ENTWICKLUNG“ ersetzt. Die schmale Schrift des Originals ist durch
+    horizontal gestauchtes Arial angenähert.
+source:
+  pdf_page: 143
+  printed_page: 133
+  ocr_text_of_labels: >-
+    1 KEINE ARMUT; 2 KEIN HUNGER; 3 GESUNDHEIT UND WOHLERGEHEN; 4 HOCHWERTIGE BILDUNG; 5
+    GESCHLECHTER-GLEICHHEIT; 6 SAUBERES WASSER UND SANITÄR-EINRICHTUNGEN; 7 BEZAHLBARE UND SAUBERE
+    ENERGIE; 8 MENSCHENWÜRDIGE ARBEIT UND WIRT-SCHAFTSWACHSTUM; 9 INDUSTRIE, INNOVATION UND
+    INFRASTRUKTUR; 10 WENIGER UNGLEICHHEITEN; 11 NACHHALTIGE STÄDTE UND GEMEINDEN; 12
+    NACHHALTIGE/R KONSUM UND PRODUKTION; 13 MASSNAHMEN ZUM KLIMASCHUTZ; 14 LEBEN UNTER WASSER; 15
+    LEBEN AN LAND; 16 FRIEDEN, GERECHTIGKEIT UND STARKE INSTITUTIONEN; 17 PARTNERSCHAFTEN ZUR
+    ERREICHUNG DER ZIELE; ZIELE FÜR NACHHALTIGE ENTWICKLUNG

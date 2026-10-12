@@ -1,0 +1,63 @@
+id: abb-09
+title: Kategorien neuer Produkte
+type: matrix
+description: >-
+  3×3-Raster mit der Neuheit auf dem Markt (x-Achse, Niedrig bis Hoch) und der Neuheit im
+  Unternehmen (y-Achse, Niedrig bis Hoch). Sechs der neun Felder sind grau hinterlegt und tragen je
+  eine Kategorie neuer Produkte mit ihrem Anteil: oben links Neue Produktlinie (20%), oben rechts
+  Weltneue Produkte (10%), Mitte links Verbesserungen an bestehenden Produkten (26%), Mitte
+  Ergänzungen zu bestehenden Produktlinien (26%), unten links Kostensenkung (11%), unten Mitte
+  Neupositionierung (7%). Oben Mitte, Mitte rechts und unten rechts bleiben leer.
+axes:
+  - {axis: x, label: Neuheit auf dem Markt, unit: null, direction: "rechts (Niedrig → Hoch)"}
+  - {axis: y, label: Neuheit im Unternehmen, unit: null, direction: "oben (Niedrig → Hoch)"}
+elements:
+  - {id: ax_x, kind: achse, text: Neuheit auf dem Markt, note: "x-Achse, Enden Niedrig / Hoch"}
+  - {id: ax_y, kind: achse, text: Neuheit im Unternehmen, note: "y-Achse, senkrecht geschrieben, Enden Niedrig / Hoch"}
+  - {id: c1, kind: feld, text: Weltneue Produkte (10%), note: "Markt hoch, Unternehmen hoch"}
+  - {id: c2, kind: feld, text: Neue Produktlinie (20%), note: "Markt niedrig, Unternehmen hoch"}
+  - {id: c3, kind: feld, text: Ergänzungen zu bestehenden Produktlinien (26%), note: "Markt mittel, Unternehmen mittel"}
+  - {id: c4, kind: feld, text: Verbesserungen an bestehenden Produkten (26%), note: "Markt niedrig, Unternehmen mittel; im Original als „Verbesserung-en an“ umbrochen"}
+  - {id: c5, kind: feld, text: Neupositionierung (7%), note: "Markt mittel, Unternehmen niedrig"}
+  - {id: c6, kind: feld, text: Kostensenkung (11%), note: "Markt niedrig, Unternehmen niedrig"}
+relations: []
+curves: []
+meaning: >-
+  Klassifizierung neuer Produkte nach Booz und Hamilton (1982): sechs Kategorien, angeordnet nach
+  der Neuheit auf dem Markt (Abszisse) und der Neuheit für das Unternehmen (Ordinate). Weltneuheiten
+  schaffen einen völlig neuen Markt (10%), neue Produktlinien bringen das Unternehmen in einen
+  etablierten Markt (20%), Ergänzungen passen in eine bestehende Produktlinie (26%), Verbesserungen
+  ersetzen bestehende Produkte (26%), Neupositionierung findet neue Anwendungen für alte Produkte
+  (7%), Kostensenkungen bieten gleiche Leistung billiger (11%) (Skript 2.5, S. 32–34).
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage zugeordnet. Die Matrix ordnet aber die sechs
+    Kategorien neuer Produkte übersichtlich ein und ist bei einer Frage zu Arten von Innovationen
+    bzw. neuen Produkten gut zeichenbar.
+  question_ids: []
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Achsen: Neuheit auf dem Markt (x) und Neuheit im Unternehmen (y)"
+    - "Sechs Kategorien an der richtigen Stelle im 3×3-Raster"
+    - "Anteile: 10 / 20 / 26 / 26 / 7 / 11 %"
+  common_mistakes:
+    - "Achsen vertauscht (Neue Produktlinie und Neupositionierung landen dann falsch)"
+    - "Weltneue Produkte nicht in die Ecke hoch/hoch gesetzt"
+    - "Kategorien in die leeren Felder (oben Mitte, rechts) eingetragen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-09.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Rasterlage, graue Hinterlegung der sechs
+    Kategoriefelder und alle Prozentwerte übernommen. Die Trennung „Verbesserung / en an“ und die
+    kursive Schreibweise von „dem Markt“ wie im Original. Die durchscheinende Rückseite des Scans
+    wurde nicht nachgebildet. Alle Texte class="answer".
+source:
+  pdf_page: 43
+  printed_page: 33
+  ocr_text_of_labels: >-
+    Hoch; Niedrig; Neuheit im Unternehmen; Neue Produktlinie (20%); Weltneue Produkte (10%);
+    Verbesserungen an bestehenden Produkten (26%); Ergänzungen zu bestehenden Produktlinien (26%);
+    Kosten-senkung (11%); Neu-positionierung (7%); Niedrig; Neuheit auf dem Markt; Hoch

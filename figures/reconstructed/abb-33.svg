@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 626" width="1276" height="626" data-figure-id="abb-33" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Set-based Concurrent Engineering</title>
+  <rect x="0" y="0" width="1276" height="626" fill="#ffffff"/>
+  <!-- frame of the original figure -->
+  <rect x="10" y="12" width="1256" height="602" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- time arrow on the left (thick dark-grey block arrow pointing down) -->
+  <polygon points="74,52 116,52 116,530 134,530 95,572 56,530 74,530" fill="#7a7a7a"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle" transform="translate(103 300) rotate(-90)">Zeit</text>
+
+  <!-- funnel: the solution space narrows over time -->
+  <polygon points="350,52 988,52 665,572" fill="none" stroke="#9a9a9a" stroke-width="1.5"/>
+
+  <!-- set of design variants (light rhombus) and set of production variants (black square);
+       their overlap (grey pentagon) is the solution space feasible for both sides -->
+  <polygon points="622,73 740,192 622,315 502,192" fill="none" stroke="#c8c8c8" stroke-width="2.5"/>
+  <polygon points="616,110 658,110 740,192 658,275 616,275" fill="#a3a3a3"/>
+  <rect x="616" y="110" width="173" height="171" fill="none" stroke="#111111" stroke-width="3"/>
+
+  <!-- the overlap shrinks step by step down to the final design solution -->
+  <polygon points="617,333 660,333 708,386 660,447 617,447" fill="#a3a3a3"/>
+  <polygon points="645,478 668,478 689,505 668,532 645,532" fill="#a3a3a3"/>
+
+  <!-- connector lines from the label boxes to the two sets -->
+  <line x1="376" y1="180" x2="558" y2="135" stroke="#555555" stroke-width="2"/>
+  <line x1="955" y1="194" x2="789" y2="197" stroke="#111111" stroke-width="2"/>
+
+  <!-- label boxes -->
+  <rect x="127" y="121" width="250" height="119" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="252" y="151" font-size="20" text-anchor="middle">Lösungs-Set</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="252" y="177" font-size="20" text-anchor="middle">Gestaltungsvarianten</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="252" y="203" font-size="20" text-anchor="middle">der Konstruktion und</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="252" y="229" font-size="20" text-anchor="middle">Entwicklung</text>
+
+  <rect x="955" y="135" width="250" height="92" fill="#ffffff" stroke="#333333" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1080" y="163" font-size="20" text-anchor="middle">Lösungs-Set</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1080" y="189" font-size="20" text-anchor="middle">Produktvarianten der</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1080" y="215" font-size="20" text-anchor="middle">Produktion</text>
+</svg>

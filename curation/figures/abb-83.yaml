@@ -1,0 +1,56 @@
+id: abb-83
+title: Ausgewählte KPIs im operativen Produktionsmanagement
+type: hierarchie
+description: >-
+  Einfaches Baumdiagramm: Der dunkelgraue Kopfkasten „KPIs im operativen Produktionsmanagement“
+  verzweigt über eine waagrechte Verteilerlinie mit Pfeilen in fünf gleichrangige, hellgraue
+  Kästen: Qualität, Geschwindigkeit, Zuverlässigkeit, Flexibilität und Kosten.
+axes: []
+elements:
+  - {id: root, kind: box, text: KPIs im operativen Produktionsmanagement, note: "Kopfkasten, dunkelgrau mit weißer Schrift"}
+  - {id: k1, kind: box, text: Qualität}
+  - {id: k2, kind: box, text: Geschwindigkeit}
+  - {id: k3, kind: box, text: Zuverlässigkeit}
+  - {id: k4, kind: box, text: Flexibilität}
+  - {id: k5, kind: box, text: Kosten}
+relations:
+  - {from: root, to: k1, kind: enthält}
+  - {from: root, to: k2, kind: enthält}
+  - {from: root, to: k3, kind: enthält}
+  - {from: root, to: k4, kind: enthält}
+  - {from: root, to: k5, kind: enthält}
+curves: []
+meaning: >-
+  Die Kontrolle im operativen Produktionsmanagement beurteilt Prozesse und Output einer Produktion
+  mit Leistungskennzahlen (Key Performance Indicators). Das Skript (9.3) wählt fünf KPIs aus und
+  behandelt sie anschließend einzeln in 9.3.1 bis 9.3.5: Qualität, Geschwindigkeit,
+  Zuverlässigkeit/Liefertreue, Flexibilität und Kosten.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Frage direkt zugeordnet. Sie ist aber die
+    Gliederung von 9.3, zu dessen Unterabschnitten mehrere Fragen gestellt wurden (Arten der
+    Flexibilität, Methoden des Qualitätsmanagements, Kostenkategorien); die fünf KPIs zu kennen
+    ist der Einstieg in diese Fragen.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Fünf KPIs: Qualität, Geschwindigkeit, Zuverlässigkeit, Flexibilität, Kosten"
+    - "Alle fünf gleichrangig unter „KPIs im operativen Produktionsmanagement“"
+  common_mistakes:
+    - "Einen KPI vergessen (meist Zuverlässigkeit oder Flexibilität)"
+    - "Qualitätsdimensionen (Abbildung 84) mit den KPIs verwechseln"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-83.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Kastenpositionen, Grautöne und
+    Verbindungslinien angenähert, nichts vereinfacht. Der Kopfkasten ist als vorgegebener
+    Wurzelknoten kein Lösungselement, die fünf KPI-Kästen sind class="answer".
+source:
+  pdf_page: 182
+  printed_page: 172
+  ocr_text_of_labels: >-
+    KPIs im operativen Produktionsmanagement; Qualität; Geschwindigkeit; Zuverlässigkeit;
+    Flexibilität; Kosten

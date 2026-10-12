@@ -1,0 +1,83 @@
+id: abb-72
+title: Planungsabhängigkeiten
+type: flussdiagramm
+description: >-
+  Gestuftes Planungsschema: Drei Planungsebenen untereinander – „Produkionsprogramm“
+  (Änderungszeitraum 1 Jahr), „Mittelfristige Terminplanung“ (1 Monat) und „Kurzfristige
+  Terminplanung“ (1 Woche). Links führen Pfeile von oben nach unten durch die Ebenen, beschriftet
+  mit Verkaufsplanung, Programmzuweisung und Versand der Bestellung; von der kurzfristigen
+  Terminplanung geht es zum Kasten „Materialversorgung / Produktionsplan“ und weiter in den
+  dunklen Kasten „Betrieb“, der auf einem Band von „Input“ nach „Output“ liegt. Rechts laufen
+  Feedback-Pfeile vom Betrieb zur kurzfristigen, von dort zur mittelfristigen Terminplanung und
+  weiter zum Produktionsprogramm; zwischen den oberen Ebenen steht „Grobe Terminplanung“.
+axes: []
+elements:
+  - {id: vp, kind: label, text: Verkaufsplanung, note: Eingang von oben in das Produktionsprogramm}
+  - {id: pp, kind: box, text: Produkionsprogramm, note: "Tippfehler im Original (statt Produktionsprogramm); darunter Änderungszeitraum: 1 Jahr"}
+  - {id: pz, kind: label, text: Programmzuweisung, note: Pfeil Produktionsprogramm → mittelfristige Terminplanung}
+  - {id: mt, kind: box, text: Mittelfristige Terminplanung, note: "darunter Änderungszeitraum: 1 Monat"}
+  - {id: vb, kind: label, text: Versand der Bestellung, note: Pfeil mittelfristige → kurzfristige Terminplanung}
+  - {id: kt, kind: box, text: Kurzfristige Terminplanung, note: "darunter Änderungszeitraum: 1 Woche"}
+  - {id: mv, kind: box, text: Materialversorgung / Produktionsplan}
+  - {id: betrieb, kind: box, text: Betrieb, note: dunkel hinterlegt}
+  - {id: input, kind: pfeil, text: Input, note: Band links in den Betrieb}
+  - {id: output, kind: pfeil, text: Output, note: Band rechts aus dem Betrieb}
+  - {id: fb1, kind: label, text: Feedback, note: zum Produktionsprogramm}
+  - {id: gt, kind: label, text: Grobe Terminplanung, note: "rechts zwischen Produktionsprogramm und mittelfristiger Ebene, mit gepunkteter Linie und kleinem Pfeil nach unten"}
+  - {id: fb2, kind: label, text: Feedback, note: zur mittelfristigen Terminplanung}
+  - {id: fb3, kind: label, text: "Feedback (z.B. täglich, pro Bestellung)", note: vom Betrieb zur kurzfristigen Terminplanung}
+relations:
+  - {from: vp, to: pp, kind: fließt}
+  - {from: pp, to: mt, kind: fließt, text: Programmzuweisung}
+  - {from: mt, to: kt, kind: fließt, text: Versand der Bestellung}
+  - {from: kt, to: mv, kind: fließt}
+  - {from: mv, to: betrieb, kind: fließt}
+  - {from: input, to: betrieb, kind: fließt}
+  - {from: betrieb, to: output, kind: fließt}
+  - {from: betrieb, to: kt, kind: rückkopplung, text: "Feedback (z.B. täglich, pro Bestellung)"}
+  - {from: kt, to: mt, kind: rückkopplung, text: Feedback}
+  - {from: mt, to: pp, kind: rückkopplung, text: Feedback}
+curves: []
+meaning: >-
+  Skript 9.1.5.1: Die Terminierung plant die zeitliche Zuordnung der Arbeitsaufgaben; Ergebnis ist
+  der auftrags- und einrichtungsspezifische Produktionsplan als „Zielzustand“, von dem der
+  tatsächliche Zustand durch Störungen abweicht. Die Abbildung zeigt, wie die Planung vom
+  Produktionsprogramm (jährlich änderbar) über die mittelfristige (monatlich) zur kurzfristigen
+  Terminplanung (wöchentlich) verfeinert wird und wie Rückmeldungen aus dem Betrieb die
+  übergeordneten Ebenen korrigieren. Haupttreiber der Planung: Art, Menge, Termine und Qualität
+  der Aufträge, Personal- und Maschinenkapazitäten, geplante Durchlaufzeiten.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Frage zugeordnet. Die Abbildung zeigt aber
+    die Planungshierarchie mit Änderungszeiträumen und Rückkopplung, die zum Verständnis von
+    Planung und Steuerung (Abbildung 76, Produktionsregelkreis) gebraucht wird; daher mittel.
+  question_ids: []
+drawing:
+  difficulty: schwer
+  must_know:
+    - "Drei Ebenen mit Änderungszeitraum: Produktionsprogramm 1 Jahr, mittelfristige Terminplanung 1 Monat, kurzfristige Terminplanung 1 Woche"
+    - "Abwärts: Verkaufsplanung, Programmzuweisung, Versand der Bestellung, Materialversorgung / Produktionsplan, Betrieb"
+    - "Aufwärts: Feedback je Ebene (unten z.B. täglich, pro Bestellung)"
+    - "Betrieb zwischen Input und Output"
+  common_mistakes:
+    - "Feedback-Schleifen weggelassen (Planung nur von oben nach unten)"
+    - "Änderungszeiträume den falschen Ebenen zugeordnet"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-72.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Linienführung und Pfeilspitzen an den
+    gemessenen Positionen nachgezeichnet, Pfeilspitzen als eigene Dreiecke (keine SVG-Marker).
+    Die gepunktete Linie mit kleinem Pfeil bei „Grobe Terminplanung“ ist im Original sehr blass
+    und als gestrichelte Linie wiedergegeben. Tippfehler „Produkionsprogramm“ unverändert aus dem
+    Original übernommen.
+source:
+  pdf_page: 171
+  printed_page: 161
+  ocr_text_of_labels: >-
+    Verkaufsplanung; Produkionsprogramm; Änderungszeitraum: 1 Jahr; Programmzuweisung;
+    Mittelfristige Terminplanung; Änderungszeitraum: 1 Monat; Versand der Bestellung; Kurzfristige
+    Terminplanung; Änderungszeitraum: 1 Woche; Materialversorgung / Produktionsplan; Betrieb;
+    Input; Output; Feedback; Grobe Terminplanung; Feedback; Feedback (z.B. täglich, pro
+    Bestellung)

@@ -38,4 +38,4 @@ Fehler lassen den Lauf scheitern (Exit-Code 1); Warnungen und Hinweise nicht.
 
 ### Abbildungen
 
-- 82 von 98 Abbildungen haben noch keine Metadaten (B)
+- 6 von 98 Abbildungen haben noch keine Metadaten (B)

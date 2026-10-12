@@ -1,0 +1,86 @@
+id: abb-14
+title: Abgrenzung zwischen Industriebetrieben und Werkstätten
+type: sonstiges
+description: >-
+  Profildiagramm (Polaritätenprofil) mit sieben Merkmalsspalten: Unternehmensgröße,
+  Mechanisierung, Personenbezogen, Nähe zum Kunden, Differenzierung der Produkte, Auftragsvolumen,
+  Aufteilung der Arbeit. Eine Skala links reicht von Groß (hoch) oben bis Klein (niedrig) unten. In
+  jeder Spalte liegt ein schwarzer Punkt für Werkstätten und ein grauer Punkt für
+  Industrieunternehmen; die Punkte sind je Typ gestrichelt verbunden. Die beiden Profile sind
+  spiegelbildlich und kreuzen sich zweimal.
+axes:
+  - {axis: x, label: Merkmale (sieben Spalten), unit: null, direction: rechts}
+  - {axis: y, label: Groß (hoch) / Klein (niedrig), unit: null, direction: "Pfeil nach unten: von Groß (hoch) zu Klein (niedrig)"}
+elements:
+  - {id: s_hi, kind: achse, text: Groß (hoch), note: oberes Skalenende}
+  - {id: s_lo, kind: achse, text: Klein (niedrig), note: unteres Skalenende}
+  - {id: m1, kind: label, text: Unternehmensgröße, note: "„Unternehmens-/größe“; Industrie hoch, Werkstatt niedrig"}
+  - {id: m2, kind: label, text: Mechanisierung, note: "Industrie hoch, Werkstatt niedrig"}
+  - {id: m3, kind: label, text: Personenbezogen, note: "„Personen-/bezogen“; Werkstatt hoch, Industrie niedrig"}
+  - {id: m4, kind: label, text: Nähe zum Kunden, note: "Werkstatt hoch, Industrie niedrig"}
+  - {id: m5, kind: label, text: Differenzierung der Produkte, note: "Werkstatt hoch, Industrie niedrig"}
+  - {id: m6, kind: label, text: Auftragsvolumen, note: "„Auftrags-/volumen“; Industrie hoch, Werkstatt niedrig"}
+  - {id: m7, kind: label, text: Aufteilung der Arbeit, note: "Industrie hoch, Werkstatt niedrig"}
+  - {id: l1, kind: legende, text: Werkstätten, note: schwarzer Punkt}
+  - {id: l2, kind: legende, text: Industrieunternehmen, note: grauer Punkt}
+relations: []
+curves:
+  - name: Werkstätten
+    shape: "gestrichelt, schwarz: niedrig – niedrig – hoch – hoch – hoch – niedrig – niedrig"
+    key_points:
+      - {label: Unternehmensgröße, x: "1", y: niedrig}
+      - {label: Mechanisierung, x: "2", y: niedrig}
+      - {label: Personenbezogen, x: "3", y: hoch}
+      - {label: Nähe zum Kunden, x: "4", y: hoch}
+      - {label: Differenzierung der Produkte, x: "5", y: hoch}
+      - {label: Auftragsvolumen, x: "6", y: niedrig}
+      - {label: Aufteilung der Arbeit, x: "7", y: niedrig}
+  - name: Industrieunternehmen
+    shape: "gestrichelt, grau: hoch – hoch – niedrig – niedrig – niedrig – hoch – hoch (spiegelbildlich zu Werkstätten)"
+    key_points:
+      - {label: Unternehmensgröße, x: "1", y: hoch}
+      - {label: Mechanisierung, x: "2", y: hoch}
+      - {label: Personenbezogen, x: "3", y: niedrig}
+      - {label: Nähe zum Kunden, x: "4", y: niedrig}
+      - {label: Differenzierung der Produkte, x: "5", y: niedrig}
+      - {label: Auftragsvolumen, x: "6", y: hoch}
+      - {label: Aufteilung der Arbeit, x: "7", y: hoch}
+meaning: >-
+  Im Industriebetrieb erfolgt die Produktion hauptsächlich mit maschinellen Anlagen bei weitgehender
+  Arbeitsteilung und Spezialisierung der Beschäftigten – im Unterschied zum Handwerksbetrieb bzw.
+  zur Werkstatt. Industrieunternehmen sind daher groß, stark mechanisiert, arbeitsteilig und auf
+  große Auftragsvolumina ausgelegt; Werkstätten sind personenbezogen, kundennah und stark
+  differenziert in ihren Produkten (Skript 3.1.1, S. 48–49).
+exam_relevance:
+  level: hoch
+  reason: >-
+    Laut exams/topic-mapping.json zur Frage 2025-03-18-3 (Definition Industrieunternehmen und
+    Unterschiede zu anderen Wirtschaftseinheiten): die Abbildung liefert die Merkmale der Abgrenzung
+    zu Werkstätten/Handwerksbetrieben.
+  question_ids: [frage-2025-03-18-3]
+drawing:
+  difficulty: mittel
+  must_know:
+    - "Sieben Merkmale in der Reihenfolge des Skripts"
+    - "Industrie hoch bei Größe, Mechanisierung, Auftragsvolumen, Arbeitsteilung"
+    - "Werkstatt hoch bei Personenbezug, Kundennähe, Produktdifferenzierung"
+    - "Profile spiegelbildlich, Skala Groß (hoch) oben – Klein (niedrig) unten"
+  common_mistakes:
+    - "Profile vertauscht (Industrie als kundennah und personenbezogen eingezeichnet)"
+    - "Legende vergessen, sodass die Profile nicht zuordenbar sind"
+    - "Merkmal Aufteilung der Arbeit (Arbeitsteilung) weggelassen"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-14.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; Spaltenraster, Skalenspalte mit Pfeil,
+    Lage aller 14 Punkte, gestrichelte Verbindungen und Legende wie im Original. Grautöne von Spalten
+    und grauen Punkten angenähert (grauer Punkt etwas dunkler als der Spaltenhintergrund, wie im
+    Scan). Alle Beschriftungen, Punkte und Profillinien class="answer".
+source:
+  pdf_page: 59
+  printed_page: 49
+  ocr_text_of_labels: >-
+    Unternehmens-größe; Mechanisierung; Personen-bezogen; Nähe zum Kunden; Differenzierung der
+    Produkte; Auftrags-volumen; Aufteilung der Arbeit; Groß (hoch); Klein (niedrig); Werkstätten;
+    Industrieunternehmen

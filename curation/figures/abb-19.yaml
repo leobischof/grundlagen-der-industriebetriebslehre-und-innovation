@@ -1,0 +1,64 @@
+id: abb-19
+title: Auswirkung von Innovationsbarrieren
+type: matrix
+description: >-
+  Matrix aus drei Ebenen (Zeilen: Organisationsebene, Projektebene, Individuelle Ebene) und zwei
+  Zeitfenstern (Spalten: Kurzfristige und Langfristige Auswirkungen) über einer Zeitachse von
+  Projektstart über Projektende bis Zeit. Kurzfristig, also vor Projektende, zeigen sich auf der
+  Projektebene Verhinderung, Verzögerung, Veränderung und auf der individuellen Ebene meidet der
+  Mitarbeiter Innovationsprojekte; langfristig, nach Projektende, auf der Organisationsebene eine
+  verringerte Anzahl an Patenten.
+axes:
+  - {axis: x, label: Zeit, unit: null, direction: rechts}
+  - {axis: y, label: Ebene, unit: null, direction: "von oben: Organisation, Projekt, Individuum"}
+elements:
+  - {id: kurz, kind: spalte, text: Kurzfristige Auswirkungen, note: zwischen Projektstart und Projektende}
+  - {id: lang, kind: spalte, text: Langfristige Auswirkungen, note: nach Projektende}
+  - {id: org, kind: zeile, text: Organisationsebene, note: "getrennt „Organisations-“ / „ebene“"}
+  - {id: proj, kind: zeile, text: Projektebene, note: "getrennt „Projekt-“ / „ebene“"}
+  - {id: ind, kind: zeile, text: Individuelle Ebene}
+  - {id: patente, kind: box, text: Verringerte Anzahl an Patenten, note: Organisationsebene × langfristig}
+  - {id: verh, kind: box, text: Verhinderung Verzögerung Veränderung, note: Projektebene × kurzfristig}
+  - {id: meidet, kind: box, text: Mitarbeiter meidet Innovationsproj., note: Individuelle Ebene × kurzfristig (Abkürzung wie im Original)}
+  - {id: start, kind: achsenmarke, text: Projektstart}
+  - {id: ende, kind: achsenmarke, text: Projektende}
+  - {id: zeit, kind: achse, text: Zeit}
+relations:
+  - {from: proj, to: verh, kind: auswirkung, text: kurzfristig}
+  - {from: ind, to: meidet, kind: auswirkung, text: kurzfristig}
+  - {from: org, to: patente, kind: auswirkung, text: langfristig}
+  - {from: start, to: ende, kind: folgt}
+curves: []
+meaning: >-
+  Innovationsbarrieren wirken laut Skript (4.1.3) auf unterschiedlichen Unternehmensebenen und
+  je nach Projektzeit unterschiedlich: Kurzfristige Auswirkungen sind schon während des
+  Innovationsprozesses erkennbar und betreffen Projekte und Individuen; Unternehmen, die auf
+  organisatorischer Ebene viele Innovationsbarrieren feststellen, patentieren langfristig weniger.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Abbildung keine Prüfungsfrage zugeordnet; abgefragt wurden
+    zu 4.1 bisher eher Barrieren selbst und Innovationsstrategien.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Drei Ebenen: Organisation, Projekt, Individuum"
+    - "Zeitachse Projektstart – Projektende – Zeit; kurzfristig vor, langfristig nach Projektende"
+    - "Projekt: Verhinderung/Verzögerung/Veränderung; Individuum: meidet Innovationsprojekte; Organisation: weniger Patente"
+  common_mistakes:
+    - "Patentrückgang als kurzfristige Auswirkung eingetragen"
+    - "Auswirkungen der falschen Ebene zugeordnet"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-19.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; die gesprenkelten hellgrauen Spalten sind
+    als flache hellgraue Flächen gezeichnet, die gestrichelten Trennlinien als kurze Striche. Abkürzung „Innovationsproj.“ wie im Original.
+source:
+  pdf_page: 74
+  printed_page: 64
+  ocr_text_of_labels: >-
+    Kurzfristige Auswirkungen; Langfristige Auswirkungen; Organisations- ebene; Projekt- ebene;
+    Individuelle Ebene; Verringerte Anzahl an Patenten; Verhinderung Verzögerung Veränderung;
+    Mitarbeiter meidet Innovationsproj.; Projektstart; Projektende; Zeit

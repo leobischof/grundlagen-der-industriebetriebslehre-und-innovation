@@ -1,0 +1,55 @@
+id: abb-80
+title: Dilemma der Ablaufplanung am Bsp. der Maschinenauslastung und Bestand
+type: prozess
+description: >-
+  Zwei durch eine senkrechte Linie getrennte Szenen eines Materialflusses von links nach rechts mit
+  einer Fertigungsmaschine (dunkles Quadrat). Links warten fünf Produkte vor der Maschine (Klammer
+  „Produkte“, oben „Hoher Bestand (Wartend)“), die Maschine ist voll beschäftigt („Hoher
+  Auslastung“). Rechts kommt kein Produkt vor der Maschine an, nur eines verlässt sie; über der
+  Maschine steht „Geringe Auslastung (Wartend)“. Beide Maschinen sind als „Betriebsmittel
+  (Fertigungsmaschine)“ beschriftet.
+axes: []
+elements:
+  - {id: l1, kind: label, text: Hoher Bestand (Wartend), note: über der Warteschlange links}
+  - {id: l2, kind: label, text: Hoher Auslastung, note: "über der Maschine links (Wortlaut des Originals, grammatisch „Hohe Auslastung“)"}
+  - {id: l3, kind: label, text: Produkte, note: "Klammer unter den fünf wartenden Produkten"}
+  - {id: m1, kind: box, text: Betriebsmittel (Fertigungsmaschine), note: "links, dunkles Quadrat mit Produkt in Bearbeitung"}
+  - {id: r1, kind: label, text: Geringe Auslastung (Wartend), note: "über der Maschine rechts; hier wartet die Maschine"}
+  - {id: m2, kind: box, text: Betriebsmittel (Fertigungsmaschine), note: "rechts, keine Warteschlange davor"}
+relations:
+  - {from: l3, to: m1, kind: fluss, text: "Produkte warten vor der Maschine; ein bearbeitetes Produkt verlässt sie nach rechts"}
+  - {from: m2, to: r1, kind: zustand, text: "keine wartenden Produkte, ein Produkt verlässt die Maschine nach rechts"}
+curves: []
+meaning: >-
+  Laut Skript (9.2.2) lassen sich bei hohem Bestand (Work-in-Process, WIP) hohe Auslastungen der
+  Betriebsmittel erreichen; die Produkte müssen dann aber vor den Maschinen warten, was ihre
+  Durchlaufzeiten erhöht. Werden Durchlaufzeiten und Bestände reduziert, sind die Betriebsmittel
+  geringer ausgelastet. Die Abbildung veranschaulicht so das Dilemma der Ablaufplanung.
+exam_relevance:
+  level: mittel
+  reason: >-
+    In exams/topic-mapping.json keiner Frage direkt zugeordnet; laut Notiz zu frage-2025-04-09-3
+    vertieft die Abbildung aber das zweimal geprüfte Dilemma der Ablaufplanung und eignet sich als
+    Beispiel in der Erklärung.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Links: viele wartende Produkte vor der Maschine → hoher Bestand, hohe Auslastung, lange Durchlaufzeit"
+    - "Rechts: keine Warteschlange → geringer Bestand, kurze Durchlaufzeit, aber Maschine wartet (geringe Auslastung)"
+  common_mistakes:
+    - "„Wartend“ links den Produkten und rechts der Maschine zuordnen vergessen (rechts wartet die Maschine, nicht das Produkt)"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-80.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Beschriftungen im Originalwortlaut
+    (auch „Hoher Auslastung“). Die im Original unscharf gemusterten, hellrosa Produkt-Symbole sind
+    als einfache hellrosa Rechtecke, die Maschinen als dunkle Quadrate mit hellem Werkstück
+    dargestellt. Positionen und Farben angenähert, Schrift Arial.
+source:
+  pdf_page: 178
+  printed_page: 168
+  ocr_text_of_labels: >-
+    Hoher Bestand (Wartend); Hoher Auslastung; Produkte; Betriebsmittel (Fertigungsmaschine);
+    Geringe Auslastung (Wartend); Betriebsmittel (Fertigungsmaschine)

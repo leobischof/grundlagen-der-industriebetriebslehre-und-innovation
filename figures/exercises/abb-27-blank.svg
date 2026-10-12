@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1270 908" width="1270" height="908" data-figure-id="abb-27" data-status="faithful" font-family="Arial, Helvetica, sans-serif" data-exercise="blank">
+  <title>Festgelegte und verursachte Kosten in der Produktentstehung – Zeichenübung (leer)</title>
+  <rect x="0" y="0" width="1270" height="908" fill="#ffffff" />
+  <rect x="14" y="12" width="1243" height="884" fill="none" stroke="#333333" stroke-width="2" />
+
+  <!-- Plot frame: axes with arrows plus closing top/right border -->
+  <g stroke="#3a3a3a" stroke-width="4" fill="none">
+    <line x1="325" y1="745" x2="325" y2="60" />
+    <line x1="325" y1="745" x2="1030" y2="745" />
+    <path d="M325 57 H1007 V745" />
+  </g>
+  <polygon points="325,38 316,62 334,62" fill="#3a3a3a" />
+  <polygon points="1048,745 1026,736 1026,754" fill="#3a3a3a" />
+
+  <!-- Curves -->
+  <!-- Tatsächlich verursachte Kosten: starts at zero, rises slowly, steep only at the end -->
+  <!-- Festgelegte Kosten: rises very steeply at the start, ~80 % fixed early -->
+  <!-- dashes drawn explicitly (the PDF renderer ignores stroke-dasharray); centre line M333 660 C360 420 520 120 1000 60 -->
+  <!-- Kostenbeeinflussungsmöglichkeit: high at the start, falls steeply -->
+  <!-- dashes drawn explicitly; centre line M328 62 C400 420 520 560 1000 695 -->
+  <!-- Curve labels -->
+  <rect x="474" y="115" width="328" height="75" fill="#666666" />
+  <rect class="placeholder" x="509.8" y="138.6" width="256.4" height="32.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="665" y="318" width="325" height="74" fill="#c8c8c8" />
+  <rect class="placeholder" x="751.4" y="326.4" width="153.2" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="705.2" y="358.4" width="245.6" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect x="400" y="500" width="326" height="73" fill="#333333" />
+  <rect class="placeholder" x="420.4" y="508.4" width="285.2" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="486.4" y="539.4" width="153.2" height="31.1" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+
+  <!-- Axis titles and phases -->
+  <rect class="placeholder" x="-123.4" y="-28.8" width="246.7" height="40.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" transform="translate(284 385) rotate(-90)" />
+  <rect class="placeholder" x="325.8" y="760.0" width="90.5" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="512.9" y="760.0" width="104.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="699.5" y="762.0" width="173.0" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="930.9" y="756.0" width="104.2" height="34.2" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+  <rect class="placeholder" x="524.0" y="833.2" width="332.0" height="40.5" fill="#ffffff" fill-opacity="0.9" stroke="#888888" stroke-width="1.5" stroke-dasharray="6 4" rx="3" />
+</svg>

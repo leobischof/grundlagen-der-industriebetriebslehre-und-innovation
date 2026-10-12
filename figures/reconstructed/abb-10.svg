@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1270 607" width="1270" height="607" data-figure-id="abb-10" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Portfolio Management für neue Produkte</title>
+  <rect x="0" y="0" width="1270" height="607" fill="#ffffff"/>
+  <!-- outer frame of the original figure -->
+  <rect x="12" y="8" width="1245" height="590" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- 2x2 portfolio grid -->
+  <g fill="none" stroke="#111111" stroke-width="2.5">
+    <rect x="486" y="33" width="535" height="507"/>
+    <line x1="753" y1="33" x2="753" y2="540"/>
+    <line x1="486" y1="287" x2="1021" y2="287"/>
+  </g>
+
+  <!-- y axis: Wahrscheinlichkeit des technologischen Erfolgs -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="472" y="67" font-size="24" text-anchor="end">hoch</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="472" y="528" font-size="24" text-anchor="end">niedrig</text>
+  <g font-size="22" font-weight="bold">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="250" font-size="22" font-weight="bold">Wahrscheinlichkeit</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="280" font-size="22" font-weight="bold">des</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="311" font-size="22" font-weight="bold">technologischen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="233" y="341" font-size="22" font-weight="bold">Erfolgs</text>
+  </g>
+
+  <!-- x axis: Rendite (high on the left, low on the right) -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="528" y="574" font-size="24" text-anchor="middle">hoch</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="753" y="570" font-size="22" font-weight="bold" text-anchor="middle">Rendite</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="967" y="574" font-size="24" text-anchor="middle">niedrig</text>
+
+  <!-- the four project types -->
+  <g font-size="29" text-anchor="middle">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="619" y="171" font-size="29" text-anchor="middle">Perlen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="888" y="171" font-size="29" text-anchor="middle">Brot und Butter</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="619" y="424" font-size="29" text-anchor="middle">Austern</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="888" y="424" font-size="29" text-anchor="middle">Weiße Elefanten</text>
+  </g>
+</svg>

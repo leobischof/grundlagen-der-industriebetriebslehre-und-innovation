@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1276 511" width="1276" height="511" data-figure-id="abb-17" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Elemente des Produktionsprozesses</title>
+  <rect x="0" y="0" width="1276" height="511" fill="#ffffff"/>
+  <rect x="10" y="10" width="1255" height="488" fill="none" stroke="#555555" stroke-width="2"/>
+
+  <!-- Information flow against the material flow: solid line from the market back to the suppliers -->
+  <g fill="none" stroke="#333333" stroke-width="1.5">
+    <path d="M1222 137 V47 H57 V137"/>
+    <path d="M368 47 V170 M632 47 V76 M900 47 V170"/>
+  </g>
+  <g fill="#333333">
+    <polygon points="1222,43 1217,55 1227,55"/>
+    <polygon points="53,47 65,42 65,52"/>
+    <polygon points="57,140 52,128 62,128"/>
+    <polygon points="368,173 363,161 373,161"/>
+    <polygon points="632,79 627,67 637,67"/>
+    <polygon points="900,173 895,161 905,161"/>
+  </g>
+
+  <!-- Information flow with the material flow: dotted line from the suppliers to the market
+       (drawn as short dashes because the PDF renderer ignores stroke-dasharray) -->
+  <g fill="none" stroke="#555555" stroke-width="1.5">
+    <path d="M57 297v3 M57 304v3 M57 311v3 M57 318v3 M57 325v3 M57 332v3 M57 339v3 M57 346v3 M57 353v3 M57 360v3 M57 367v3 M57 374v3 M57 381v3 M57 383h3 M64 383h3 M71 383h3 M78 383h3 M85 383h3 M92 383h3 M99 383h3 M106 383h3 M113 383h3 M120 383h3 M127 383h3 M134 383h3 M141 383h3 M148 383h3 M155 383h3 M162 383h3 M169 383h3 M176 383h3 M183 383h3 M190 383h3 M197 383h3 M204 383h3 M211 383h3 M218 383h3 M225 383h3 M232 383h3 M239 383h3 M246 383h3 M253 383h3 M260 383h3 M267 383h3 M274 383h3 M281 383h3 M288 383h3 M295 383h3 M302 383h3 M309 383h3 M316 383h3 M323 383h3 M330 383h3 M337 383h3 M344 383h3 M351 383h3 M358 383h3 M365 383h3 M372 383h3 M379 383h3 M386 383h3 M393 383h3 M400 383h3 M407 383h3 M414 383h3 M421 383h3 M428 383h3 M435 383h3 M442 383h3 M449 383h3 M456 383h3 M463 383h3 M470 383h3 M477 383h3 M484 383h3 M491 383h3 M498 383h3 M505 383h3 M512 383h3 M519 383h3 M526 383h3 M533 383h3 M540 383h3 M547 383h3 M554 383h3 M561 383h3 M568 383h3 M575 383h3 M582 383h3 M589 383h3 M596 383h3 M603 383h3 M610 383h3 M617 383h3 M624 383h3 M631 383h3 M638 383h3 M645 383h3 M652 383h3 M659 383h3 M666 383h3 M673 383h3 M680 383h3 M687 383h3 M694 383h3 M701 383h3 M708 383h3 M715 383h3 M722 383h3 M729 383h3 M736 383h3 M743 383h3 M750 383h3 M757 383h3 M764 383h3 M771 383h3 M778 383h3 M785 383h3 M792 383h3 M799 383h3 M806 383h3 M813 383h3 M820 383h3 M827 383h3 M834 383h3 M841 383h3 M848 383h3 M855 383h3 M862 383h3 M869 383h3 M876 383h3 M883 383h3 M890 383h3 M897 383h3 M904 383h3 M911 383h3 M918 383h3 M925 383h3 M932 383h3 M939 383h3 M946 383h3 M953 383h3 M960 383h3 M967 383h3 M974 383h3 M981 383h3 M988 383h3 M995 383h3 M1002 383h3 M1009 383h3 M1016 383h3 M1023 383h3 M1030 383h3 M1037 383h3 M1044 383h3 M1051 383h3 M1058 383h3 M1065 383h3 M1072 383h3 M1079 383h3 M1086 383h3 M1093 383h3 M1100 383h3 M1107 383h3 M1114 383h3 M1121 383h3 M1128 383h3 M1135 383h3 M1142 383h3 M1149 383h3 M1156 383h3 M1163 383h3 M1170 383h3 M1177 383h3 M1184 383h3 M1191 383h3 M1198 383h3 M1205 383h3 M1222 286v3 M1222 293v3 M1222 300v3 M1222 307v3 M1222 314v3 M1222 321v3 M1222 328v3 M1222 335v3 M1222 342v3 M1222 349v3 M1222 356v3 M1222 363v3 M1222 370v3 M1222 377v3"/>
+    <path d="M368 264v3 M368 271v3 M368 278v3 M368 285v3 M368 292v3 M368 299v3 M368 306v3 M368 313v3 M368 320v3 M368 327v3 M368 334v3 M368 341v3 M368 348v3 M368 355v3 M368 362v3 M368 369v3 M368 376v3 M632 356v3 M632 363v3 M632 370v3 M632 377v3 M900 268v3 M900 275v3 M900 282v3 M900 289v3 M900 296v3 M900 303v3 M900 310v3 M900 317v3 M900 324v3 M900 331v3 M900 338v3 M900 345v3 M900 352v3 M900 359v3 M900 366v3 M900 373v3 M900 380v3"/>
+  </g>
+  <g fill="#555555">
+    <polygon points="52,388 47,376 57,376"/>
+    <polygon points="1222,383 1210,378 1210,388"/>
+    <polygon points="1222,277 1217,289 1227,289"/>
+    <polygon points="368,255 363,267 373,267"/>
+    <polygon points="632,347 627,359 637,359"/>
+    <polygon points="900,259 895,271 905,271"/>
+  </g>
+
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="650" y="37" font-size="18" text-anchor="middle">Informationsfluss gegen Materialfluss</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="636" y="406" font-size="18" text-anchor="middle">Informationsfluss mit Materialfluss</text>
+
+  <!-- Production core: planning above, control below the value chain -->
+  <ellipse cx="636" cy="220" rx="190" ry="125" fill="#3a3a3a" stroke="#222222" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="623" y="148" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">PRODUKTIONSPLANUNG</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="632" y="292" font-size="18" font-weight="bold" fill="#ffffff" text-anchor="middle">PRODUKTIONSKONTROLLE</text>
+
+  <!-- Value chain as chevrons (light grey) -->
+  <g fill="#ececec" stroke="#d0d0d0" stroke-width="1">
+    <polygon points="95,172 260,172 300,212 260,252 95,252 135,212"/>
+    <polygon points="272,172 430,172 470,212 430,252 272,252 312,212"/>
+    <polygon points="805,172 960,172 1000,212 960,252 805,252 845,212"/>
+    <polygon points="985,172 1140,172 1180,212 1140,252 985,252 1025,212"/>
+  </g>
+  <g fill="#e6e6e6" stroke="#3a3a3a" stroke-width="2">
+    <polygon points="445,172 610,172 650,212 610,252 445,252 485,212"/>
+    <polygon points="628,172 785,172 825,212 785,252 628,252 668,212"/>
+  </g>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="192" y="219" font-size="19" text-anchor="middle">Einkauf</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="372" y="206" font-size="19" text-anchor="middle">Rohmat-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="372" y="228" font-size="19" text-anchor="middle">eriallager</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="551" y="219" font-size="20" font-weight="bold" text-anchor="middle">Fertigung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="728" y="219" font-size="20" font-weight="bold" text-anchor="middle">Montage</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="904" y="206" font-size="19" text-anchor="middle">Fertigteil-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="904" y="228" font-size="19" text-anchor="middle">lager</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1086" y="219" font-size="19" text-anchor="middle">Vertrieb</text>
+
+  <!-- Market partners at both ends (dark boxes, vertical labels) -->
+  <rect x="18" y="143" width="75" height="154" fill="#2b2b2b"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="21" fill="#ffffff" text-anchor="middle" transform="translate(62 220) rotate(-90)">Lieferanten</text>
+  <rect x="1185" y="137" width="77" height="153" fill="#2b2b2b"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="0" font-size="21" fill="#ffffff" text-anchor="middle" transform="translate(1230 213) rotate(-90)">Absatzmarkt</text>
+
+  <!-- Logistics segments along the bottom -->
+  <rect x="18" y="425" width="344" height="60" fill="#2b2b2b"/>
+  <rect x="368" y="425" width="532" height="60" fill="#2b2b2b"/>
+  <rect x="906" y="425" width="356" height="60" fill="#2b2b2b"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="190" y="463" font-size="22" fill="#ffffff" text-anchor="middle">Beschaffungslogistik</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="634" y="463" font-size="22" fill="#ffffff" text-anchor="middle">Produktionslogistik/Linienbeschickung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1084" y="463" font-size="22" fill="#ffffff" text-anchor="middle">Vertriebslogistik</text>
+</svg>

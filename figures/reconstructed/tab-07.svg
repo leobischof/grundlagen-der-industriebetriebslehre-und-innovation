@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1263 537" width="1263" height="537" data-figure-id="tab-07" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Arten der Flexibilität</title>
+  <rect x="0" y="0" width="1263" height="537" fill="#ffffff"/>
+  <rect x="10" y="10" width="1243" height="68" fill="#ebebeb"/>
+  <!-- table grid: 3 columns (Art | Umfang | Reaktion), header + 4 rows -->
+  <g stroke="#333333" stroke-width="1.5">
+    <line x1="10" y1="10" x2="10" y2="526"/>
+    <line x1="186" y1="10" x2="186" y2="526"/>
+    <line x1="673" y1="10" x2="673" y2="526"/>
+    <line x1="1253" y1="10" x2="1253" y2="526"/>
+    <line x1="10" y1="10" x2="1253" y2="10"/>
+    <line x1="10" y1="78" x2="1253" y2="78"/>
+    <line x1="10" y1="198" x2="1253" y2="198"/>
+    <line x1="10" y1="318" x2="1253" y2="318"/>
+    <line x1="10" y1="433" x2="1253" y2="433"/>
+    <line x1="10" y1="526" x2="1253" y2="526"/>
+  </g>
+  <!-- column heads: the two classification criteria -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="430" y="55" font-size="31" font-weight="bold" text-anchor="middle">Umfang</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="963" y="55" font-size="31" font-weight="bold" text-anchor="middle">Reaktion</text>
+  <!-- body: one row per kind of flexibility -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="20" y="130" font-size="29">Produkt-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="20" y="166" font-size="29">flexibilität</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="130" font-size="29">Die Produktpalette, die das Un-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="166" font-size="29">ternehmen herstellen kann.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683" y="113" font-size="29">Die Zeit, in der das Produkt entwickelt</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683" y="148" font-size="29">wird, bis das neue Produkt produziert</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683" y="183" font-size="29">werden kann (time-to-market).</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="20" y="250" font-size="29">Mischfle-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="20" y="286" font-size="29">xibilität</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="233" font-size="29">Die Produktpalette, die ein Un-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="268" font-size="29">ternehmen innerhalb eines be-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="303" font-size="29">stimmten Zeitraums liefern kann.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683" y="250" font-size="29">Die Zeit, um den Mix der gelieferten Pro-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683" y="286" font-size="29">dukte anzupassen.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="20" y="368" font-size="29">Volumen-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="20" y="403" font-size="29">flexibilität</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="350" font-size="29">Die Höchstmenge, die ein Unter-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="386" font-size="29">nehmen für einen bestimmten</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="420" font-size="29">Produktmix liefern kann.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683" y="386" font-size="29">Die Zeit zum Ändern dieser Höchstmenge</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="20" y="472" font-size="29">Lieferflexi-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="20" y="507" font-size="29">bilität</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="472" font-size="29">Der Umfang, in dem Lieferter-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="196" y="507" font-size="29">mine geändert werden können.</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683" y="472" font-size="29">Die Zeit, um das Liefersystem für einen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="683" y="507" font-size="29">neuen Termin zu reorganisieren</text>
+</svg>

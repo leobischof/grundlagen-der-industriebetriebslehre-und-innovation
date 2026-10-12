@@ -1,0 +1,80 @@
+id: tab-02
+title: Prozentualer Anteil der Sektoren an der Gesamtwertschöpfung im Jahr 2023
+type: tabelle
+description: >-
+  Tabelle mit fünf Spalten (Land, Land-/Forstwirtsch., Industrie, Bauwesen, Dienstleistungen) und
+  24 Zeilen, alphabetisch nach Ländern bzw. Wirtschaftsräumen geordnet. Jede Zeile gibt die
+  prozentualen Anteile der vier Sektoren an der Gesamtwertschöpfung 2023 an. Die Durchschnitte
+  EU (27) und Eurozone (20) sind kursiv, Österreich ist fett hervorgehoben.
+axes: []
+elements:
+  - {id: h1, kind: kopfzeile, text: Land}
+  - {id: h2, kind: kopfzeile, text: Land-/Forstwirtsch.}
+  - {id: h3, kind: kopfzeile, text: Industrie}
+  - {id: h4, kind: kopfzeile, text: Bauwesen}
+  - {id: h5, kind: kopfzeile, text: Dienstleistungen}
+  - {id: z01, kind: zeile, text: Belgien, note: "0,9 | 15,2 | 5,3 | 78,7"}
+  - {id: z02, kind: zeile, text: Deutschland, note: "0,8 | 24,5 | 6,2 | 68,6"}
+  - {id: z03, kind: zeile, text: EU (27), note: "1,9 | 20,6 | 5,7 | 71,7 (kursiv)"}
+  - {id: z04, kind: zeile, text: Eurozone (20), note: "1,7 | 20,2 | 5,6 | 72,6 (kursiv)"}
+  - {id: z05, kind: zeile, text: Finnland, note: "2,9 | 21,3 | 6,6 | 69,1"}
+  - {id: z06, kind: zeile, text: Frankreich, note: "2,1 | 15,2 | 5,5 | 77,1"}
+  - {id: z07, kind: zeile, text: Irland, note: "0,9 | 37,2 | 2,4 | 59,6"}
+  - {id: z08, kind: zeile, text: Italien, note: "2,2 | 20,4 | 5,3 | 72"}
+  - {id: z09, kind: zeile, text: Japan, note: "1,0 | 21,9 | 5,2 | 71,9"}
+  - {id: z10, kind: zeile, text: Kroatien, note: "3,6 | 17 | 5,6 | 73,7"}
+  - {id: z11, kind: zeile, text: Luxemburg, note: "0,3 | 5,7 | 5,7 | 88,2"}
+  - {id: z12, kind: zeile, text: Norwegen, note: "2,3 | 37,5 | 5,3 | 54,8"}
+  - {id: z13, kind: zeile, text: Österreich, note: "1,5 | 21,8 | 7,4 | 69,3 (fett)"}
+  - {id: z14, kind: zeile, text: Schweden, note: "1,8 | 18,7 | 6,7 | 72,8"}
+  - {id: z15, kind: zeile, text: Schweiz, note: "0,6 | 20,7 | 4,8 | 73,7"}
+  - {id: z16, kind: zeile, text: Serbien, note: "6,3 | 24,9 | 6,9 | 61,9"}
+  - {id: z17, kind: zeile, text: Slowakei, note: "2,1 | 28,6 | 7,3 | 61,9"}
+  - {id: z18, kind: zeile, text: Slowenien, note: "2,1 | 25,3 | 7,5 | 65,0"}
+  - {id: z19, kind: zeile, text: Spanien, note: "2,6 | 16,7 | 5,5 | 75,2"}
+  - {id: z20, kind: zeile, text: Tschechien, note: "1,8 | 27,2 | 5,8 | 65,3"}
+  - {id: z21, kind: zeile, text: Türkei, note: "7,0 | 25,6 | 6,3 | 61,1"}
+  - {id: z22, kind: zeile, text: Ungarn, note: "5,4 | 21,8 | 6,3 | 66,6"}
+  - {id: z23, kind: zeile, text: USA, note: "1,0 | 14,4 | 4,2 | 80,5"}
+  - {id: z24, kind: zeile, text: Ver. Königreich, note: "0,8 | 12,7 | 5,9 | 80,7"}
+relations: []
+curves: []
+meaning: >-
+  Laut Skript (1.2.1) spielt die Industrie auch bei der Wertschöpfung in Österreich eine große
+  Rolle; die Tabelle ordnet Österreich international ein. Mit 21,8 % Industrieanteil liegt
+  Österreich über dem EU-Schnitt (20,6 %) und der Eurozone (20,2 %), deutlich über
+  dienstleistungsgeprägten Volkswirtschaften wie Frankreich, USA oder Vereinigtem Königreich,
+  aber unter Deutschland (24,5 %). Der Fließtext nennt für die jüngere Vergangenheit einen
+  Industriebeitrag von stets über 28 Prozent, was mit der Tabelle (21,8 % Industrie, 7,4 %
+  Bauwesen) nur bei Einrechnung des Bauwesens zusammenpasst.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json ist der Tabelle keine Prüfungsfrage zugeordnet. Statistiktabelle
+    zur Einordnung; prüfungsrelevant allenfalls die Aussage, dass Österreich einen
+    überdurchschnittlichen Industrieanteil hat.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Vier Sektoren: Land-/Forstwirtschaft, Industrie, Bauwesen, Dienstleistungen"
+    - "Österreich: Industrie 21,8 %, über EU (27) mit 20,6 %; Dienstleistungen dominieren überall"
+  common_mistakes:
+    - "Industrieanteil Österreichs mit dem Dienstleistungsanteil verwechselt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/tab-02.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle 125 Zellen mit Wortlaut, Zahlen,
+    Kursivsatz (EU, Eurozone) und Fettdruck (Österreich) übernommen. Zahlen zusätzlich mit der
+    Textschicht des PDFs abgeglichen; wo diese abweicht (z. B. Slowakei, Türkei, Deutschland
+    Dienstleistungen), gilt das per Vergrößerung geprüfte Bild. Die Beschriftung im Skript ist
+    wortgleich mit Tabelle 3.
+source:
+  pdf_page: 18
+  printed_page: 8
+  ocr_text_of_labels: >-
+    Land; Land-/Forstwirtsch.; Industrie; Bauwesen; Dienstleistungen; Belgien; Deutschland; EU
+    (27); Eurozone (20); Finnland; Frankreich; Irland; Italien; Japan; Kroatien; Luxemburg;
+    Norwegen; Österreich; Schweden; Schweiz; Serbien; Slowakei; Slowenien; Spanien; Tschechien;
+    Türkei; Ungarn; USA; Ver. Königreich

@@ -1,0 +1,58 @@
+id: abb-67
+title: Materialbedarfsplanung
+type: prozess
+description: >-
+  Input-Prozess-Output-Schema: Links unter „Input“ die Eingangsgrößen Produktionsprogramm und
+  Produktstückliste, in der Mitte ein dunkles Quadrat „Materialbedarfsplanung“ zwischen zwei nach
+  rechts weisenden Dreiecken, rechts unter „Output“ die Materialversorgung mit den Anforderungen
+  pünktlich, in guter Qualität und kosteneffizient.
+axes: []
+elements:
+  - {id: in, kind: label, text: Input, note: "Überschrift links, fett"}
+  - {id: in1, kind: label, text: Produktionsprogramm}
+  - {id: in2, kind: label, text: Produktstückliste}
+  - {id: proc, kind: box, text: Materialbedarfsplanung, note: "dunkelgrau, weiße Schrift; im Bild getrennt: Material-/bedarfsplanung"}
+  - {id: out, kind: label, text: Output, note: "Überschrift rechts, fett"}
+  - {id: out1, kind: label, text: Materialversorgung}
+  - {id: out1a, kind: label, text: "- Pünktlich"}
+  - {id: out1b, kind: label, text: "- In guter Qualität"}
+  - {id: out1c, kind: label, text: "- Kosteneffizient"}
+relations:
+  - {from: in, to: proc, kind: pfeil}
+  - {from: proc, to: out, kind: pfeil}
+  - {from: out1, to: out1a, kind: enthält}
+  - {from: out1, to: out1b, kind: enthält}
+  - {from: out1, to: out1c, kind: enthält}
+curves: []
+meaning: >-
+  Laut Skript (9.1.3) werden die erforderlichen Materialien aus dem Ergebnis des
+  Produktionsprogramms in Kombination mit der Stückliste bestimmt. Ergebnis der
+  Materialbedarfsplanung ist die optimale Materialversorgung für jeden Produktionsprozess
+  hinsichtlich Timing, Qualität und Kosteneffizienz.
+exam_relevance:
+  level: niedrig
+  reason: >-
+    In exams/topic-mapping.json keiner Prüfungsfrage direkt zugeordnet; passt als Ergänzung zur
+    Gozintograph-Frage (frage-2025-02-04-2, Abbildung 66), wenn nach dem Zweck der
+    Materialbedarfsplanung gefragt wird.
+  question_ids: []
+drawing:
+  difficulty: leicht
+  must_know:
+    - "Input: Produktionsprogramm, Produktstückliste"
+    - "Output: Materialversorgung – pünktlich, in guter Qualität, kosteneffizient"
+  common_mistakes:
+    - "Stückliste als Ergebnis statt als Eingang genannt"
+reconstruction:
+  status: faithful
+  svg: figures/reconstructed/abb-67.svg
+  notes: >-
+    Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte, die beiden Dreiecke und der
+    dunkle Prozesskasten wie im Original angeordnet; Großschreibung der Aufzählung („- Pünktlich“,
+    „- In guter Qualität“, „- Kosteneffizient“) wie im Original.
+source:
+  pdf_page: 165
+  printed_page: 155
+  ocr_text_of_labels: >-
+    Input; Produktionsprogramm; Produktstückliste; Material- bedarfsplanung; Output;
+    Materialversorgung; - Pünktlich; - In guter Qualität; - Kosteneffizient

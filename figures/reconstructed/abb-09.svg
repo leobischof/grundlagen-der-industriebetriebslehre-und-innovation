@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1265 859" width="1265" height="859" data-figure-id="abb-09" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Kategorien neuer Produkte</title>
+  <rect x="0" y="0" width="1265" height="859" fill="#ffffff"/>
+  <!-- outer frame of the original figure -->
+  <rect x="12" y="8" width="1243" height="840" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- 3x3 grid: six shaded category cells, three empty white cells -->
+  <g fill="#ebe6e8">
+    <rect x="350" y="32" width="238" height="234"/>
+    <rect x="826" y="32" width="232" height="234"/>
+    <rect x="350" y="266" width="238" height="234"/>
+    <rect x="588" y="266" width="238" height="234"/>
+    <rect x="350" y="500" width="238" height="234"/>
+    <rect x="588" y="500" width="238" height="234"/>
+  </g>
+  <g fill="none" stroke="#222222" stroke-width="2">
+    <rect x="350" y="32" width="708" height="702"/>
+    <line x1="588" y1="32" x2="588" y2="734"/>
+    <line x1="826" y1="32" x2="826" y2="734"/>
+    <line x1="350" y1="266" x2="1058" y2="266"/>
+    <line x1="350" y1="500" x2="1058" y2="500"/>
+  </g>
+
+  <!-- y axis: Neuheit im Unternehmen (rotated, reading top to bottom) -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="335" y="72" font-size="29" text-anchor="end">Hoch</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="335" y="720" font-size="29" text-anchor="end">Niedrig</text>
+  <g transform="translate(282 383) rotate(90)" font-size="29" font-weight="bold" text-anchor="middle">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="-4" font-size="29" font-weight="bold" text-anchor="middle">Neuheit im</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="0" y="25" font-size="29" font-weight="bold" text-anchor="middle">Unternehmen</text>
+  </g>
+
+  <!-- x axis: Neuheit auf dem Markt -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="420" y="775" font-size="29" text-anchor="middle">Niedrig</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1005" y="775" font-size="29" text-anchor="middle">Hoch</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="773" font-size="27" font-weight="bold" text-anchor="middle">Neuheit auf</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="809" font-size="27" font-weight="bold" font-style="italic" text-anchor="middle">dem Markt</text>
+
+  <!-- the six categories with their share of new products -->
+  <g font-size="26" font-weight="bold" text-anchor="middle">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="125" font-size="26" font-weight="bold" text-anchor="middle">Neue</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="160" font-size="26" font-weight="bold" text-anchor="middle">Produktlinie</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="195" font-size="26" font-weight="bold" text-anchor="middle">(20%)</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="942" y="125" font-size="26" font-weight="bold" text-anchor="middle">Weltneue</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="942" y="160" font-size="26" font-weight="bold" text-anchor="middle">Produkte</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="942" y="195" font-size="26" font-weight="bold" text-anchor="middle">(10%)</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="320" font-size="26" font-weight="bold" text-anchor="middle">Verbesserung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="355" font-size="26" font-weight="bold" text-anchor="middle">en an</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="390" font-size="26" font-weight="bold" text-anchor="middle">bestehenden</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="425" font-size="26" font-weight="bold" text-anchor="middle">Produkten</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="462" font-size="26" font-weight="bold" text-anchor="middle">(26%)</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="320" font-size="26" font-weight="bold" text-anchor="middle">Ergänzungen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="355" font-size="26" font-weight="bold" text-anchor="middle">zu</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="390" font-size="26" font-weight="bold" text-anchor="middle">bestehenden</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="425" font-size="26" font-weight="bold" text-anchor="middle">Produktlinien</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="462" font-size="26" font-weight="bold" text-anchor="middle">(26%)</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="590" font-size="26" font-weight="bold" text-anchor="middle">Kosten-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="625" font-size="26" font-weight="bold" text-anchor="middle">senkung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="469" y="660" font-size="26" font-weight="bold" text-anchor="middle">(11%)</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="590" font-size="26" font-weight="bold" text-anchor="middle">Neu-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="625" font-size="26" font-weight="bold" text-anchor="middle">positionierung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="707" y="660" font-size="26" font-weight="bold" text-anchor="middle">(7%)</text>
+  </g>
+</svg>

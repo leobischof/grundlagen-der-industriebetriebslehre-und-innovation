@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 742" width="1260" height="742" data-figure-id="abb-02" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Mögliche Elemente eines Betriebs der Industrie 4.0</title>
+  <rect x="0" y="0" width="1260" height="742" fill="#ffffff"/>
+  <rect x="10" y="12" width="1240" height="720" fill="none" stroke="#555555" stroke-width="2"/>
+  <!-- Piktogramme (LKW mit Globus, Fabrik, Haus) nicht nachgebildet: Platzhalter mit Bedeutung -->
+  <rect x="35" y="45" width="88" height="50" rx="8" fill="none" stroke="#a6a6a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="79.0" y="68.0" font-size="11" text-anchor="middle" fill="#7f7f7f">Piktogramm</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="79.0" y="82.0" font-size="11" text-anchor="middle" fill="#7f7f7f">LKW + Globus</text>
+  <rect x="580" y="35" width="90" height="60" rx="8" fill="none" stroke="#a6a6a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="625.0" y="63.0" font-size="11" text-anchor="middle" fill="#7f7f7f">Piktogramm</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="625.0" y="77.0" font-size="11" text-anchor="middle" fill="#7f7f7f">Fabrik</text>
+  <rect x="1100" y="45" width="80" height="50" rx="8" fill="none" stroke="#a6a6a6" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="1140.0" y="68.0" font-size="11" text-anchor="middle" fill="#7f7f7f">Piktogramm</text>
+  <text font-family="Arial, Helvetica, sans-serif" x="1140.0" y="82.0" font-size="11" text-anchor="middle" fill="#7f7f7f">Haus</text>
+  <rect x="25" y="100" width="168" height="37" fill="#404040"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="109.0" y="127" font-size="24" text-anchor="middle" font-weight="bold" fill="#ffffff">Lieferanten</text>
+  <rect x="240" y="100" width="775" height="37" fill="#404040"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627.5" y="127" font-size="24" text-anchor="middle" font-weight="bold" fill="#ffffff">Produktion</text>
+  <rect x="1062" y="100" width="166" height="37" fill="#404040"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1145.0" y="127" font-size="24" text-anchor="middle" font-weight="bold" fill="#ffffff">Kunden</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="260" y="168" font-size="20" text-anchor="start" font-weight="bold" fill="#000000">Software</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="260" y="408" font-size="20" text-anchor="start" font-weight="bold" fill="#000000">Shopfloor</text>
+  <!-- Element 1 -->
+  <rect x="33" y="165" width="155" height="105" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="110.5" y="199.5" font-size="19" text-anchor="middle" fill="#000000">Intelligentes</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="110.5" y="224.5" font-size="19" text-anchor="middle" fill="#000000">Versorgungsnet</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="110.5" y="249.5" font-size="19" text-anchor="middle" fill="#000000">z</text>
+  <ellipse cx="51" cy="169" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="51" y="176" font-size="18" text-anchor="middle" fill="#ffffff">1</text>
+  <!-- Element 2 -->
+  <rect x="258" y="178" width="745" height="92" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="630.5" y="231.0" font-size="19" text-anchor="middle" fill="#000000">Fertigungssysteme der nächsten Generation</text>
+  <ellipse cx="276" cy="182" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="276" y="189" font-size="18" text-anchor="middle" fill="#ffffff">2</text>
+  <!-- Element 3 -->
+  <rect x="258" y="285" width="240" height="87" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="378.0" y="310.5" font-size="19" text-anchor="middle" fill="#000000">Speicherung &amp;</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="378.0" y="335.5" font-size="19" text-anchor="middle" fill="#000000">Verarbeitung in der</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="378.0" y="360.5" font-size="19" text-anchor="middle" fill="#000000">Cloud</text>
+  <ellipse cx="276" cy="289" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="276" y="296" font-size="18" text-anchor="middle" fill="#ffffff">3</text>
+  <!-- Element 4 -->
+  <rect x="507" y="285" width="243" height="87" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="628.5" y="335.5" font-size="19" text-anchor="middle" fill="#000000">Datenanalytik</text>
+  <ellipse cx="525" cy="289" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="525" y="296" font-size="18" text-anchor="middle" fill="#ffffff">4</text>
+  <!-- Element 5 -->
+  <rect x="758" y="285" width="245" height="87" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="880.5" y="335.5" font-size="19" text-anchor="middle" fill="#000000">Cybersicherheit</text>
+  <ellipse cx="776" cy="289" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="776" y="296" font-size="18" text-anchor="middle" fill="#ffffff">5</text>
+  <!-- Element 6 -->
+  <rect x="253" y="415" width="244" height="88" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="375.0" y="453.5" font-size="19" text-anchor="middle" fill="#000000">Intelligente</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="375.0" y="478.5" font-size="19" text-anchor="middle" fill="#000000">Sensoren/Aktoren</text>
+  <ellipse cx="271" cy="419" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="271" y="426" font-size="18" text-anchor="middle" fill="#ffffff">6</text>
+  <!-- Element 7 -->
+  <rect x="505" y="415" width="244" height="88" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627.0" y="453.5" font-size="19" text-anchor="middle" fill="#000000">Cyber-physische</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627.0" y="478.5" font-size="19" text-anchor="middle" fill="#000000">Systeme</text>
+  <ellipse cx="523" cy="419" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="523" y="426" font-size="18" text-anchor="middle" fill="#ffffff">7</text>
+  <!-- Element 8 -->
+  <rect x="757" y="415" width="246" height="88" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="880.0" y="453.5" font-size="19" text-anchor="middle" fill="#000000">Intelligente</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="880.0" y="478.5" font-size="19" text-anchor="middle" fill="#000000">(Fern)wartung</text>
+  <ellipse cx="775" cy="419" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="775" y="426" font-size="18" text-anchor="middle" fill="#ffffff">8</text>
+  <!-- Element 9 -->
+  <rect x="253" y="515" width="244" height="88" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="375.0" y="566.0" font-size="19" text-anchor="middle" fill="#000000">Mobile Geräte (AR)</text>
+  <ellipse cx="271" cy="519" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="271" y="526" font-size="18" text-anchor="middle" fill="#ffffff">9</text>
+  <!-- Element 10 -->
+  <rect x="505" y="515" width="244" height="88" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627.0" y="553.5" font-size="19" text-anchor="middle" fill="#000000">Selbstfahrende</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627.0" y="578.5" font-size="19" text-anchor="middle" fill="#000000">Transportfahrzeuge</text>
+  <ellipse cx="523" cy="519" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="523" y="526" font-size="18" text-anchor="middle" fill="#ffffff">10</text>
+  <!-- Element 11 -->
+  <rect x="757" y="515" width="246" height="88" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="880.0" y="566.0" font-size="19" text-anchor="middle" fill="#000000">Intelligente Produkte</text>
+  <ellipse cx="775" cy="519" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="775" y="526" font-size="18" text-anchor="middle" fill="#ffffff">11</text>
+  <!-- Element 12 -->
+  <rect x="255" y="617" width="242" height="88" fill="#ffffff" stroke="none"/>
+  <path d="M255.0 617.0L267.0 617.0M272.0 617.0L274.0 617.0M279.0 617.0L291.0 617.0M296.0 617.0L298.0 617.0M303.0 617.0L315.0 617.0M320.0 617.0L322.0 617.0M327.0 617.0L339.0 617.0M344.0 617.0L346.0 617.0M351.0 617.0L363.0 617.0M368.0 617.0L370.0 617.0M375.0 617.0L387.0 617.0M392.0 617.0L394.0 617.0M399.0 617.0L411.0 617.0M416.0 617.0L418.0 617.0M423.0 617.0L435.0 617.0M440.0 617.0L442.0 617.0M447.0 617.0L459.0 617.0M464.0 617.0L466.0 617.0M471.0 617.0L483.0 617.0M488.0 617.0L490.0 617.0M495.0 617.0L497.0 617.0M497.0 617.0L497.0 629.0M497.0 634.0L497.0 636.0M497.0 641.0L497.0 653.0M497.0 658.0L497.0 660.0M497.0 665.0L497.0 677.0M497.0 682.0L497.0 684.0M497.0 689.0L497.0 701.0M497.0 705.0L485.0 705.0M480.0 705.0L478.0 705.0M473.0 705.0L461.0 705.0M456.0 705.0L454.0 705.0M449.0 705.0L437.0 705.0M432.0 705.0L430.0 705.0M425.0 705.0L413.0 705.0M408.0 705.0L406.0 705.0M401.0 705.0L389.0 705.0M384.0 705.0L382.0 705.0M377.0 705.0L365.0 705.0M360.0 705.0L358.0 705.0M353.0 705.0L341.0 705.0M336.0 705.0L334.0 705.0M329.0 705.0L317.0 705.0M312.0 705.0L310.0 705.0M305.0 705.0L293.0 705.0M288.0 705.0L286.0 705.0M281.0 705.0L269.0 705.0M264.0 705.0L262.0 705.0M257.0 705.0L255.0 705.0M255.0 705.0L255.0 693.0M255.0 688.0L255.0 686.0M255.0 681.0L255.0 669.0M255.0 664.0L255.0 662.0M255.0 657.0L255.0 645.0M255.0 640.0L255.0 638.0M255.0 633.0L255.0 621.0" fill="none" stroke="#262626" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="376.0" y="668.0" font-size="19" text-anchor="middle" fill="#000000">Additive Fertigung</text>
+  <ellipse cx="273" cy="621" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="273" y="628" font-size="18" text-anchor="middle" fill="#ffffff">12</text>
+  <!-- Element 13 -->
+  <rect x="505" y="617" width="244" height="88" fill="#ffffff" stroke="none"/>
+  <path d="M505.0 617.0L517.0 617.0M522.0 617.0L524.0 617.0M529.0 617.0L541.0 617.0M546.0 617.0L548.0 617.0M553.0 617.0L565.0 617.0M570.0 617.0L572.0 617.0M577.0 617.0L589.0 617.0M594.0 617.0L596.0 617.0M601.0 617.0L613.0 617.0M618.0 617.0L620.0 617.0M625.0 617.0L637.0 617.0M642.0 617.0L644.0 617.0M649.0 617.0L661.0 617.0M666.0 617.0L668.0 617.0M673.0 617.0L685.0 617.0M690.0 617.0L692.0 617.0M697.0 617.0L709.0 617.0M714.0 617.0L716.0 617.0M721.0 617.0L733.0 617.0M738.0 617.0L740.0 617.0M745.0 617.0L749.0 617.0M749.0 617.0L749.0 629.0M749.0 634.0L749.0 636.0M749.0 641.0L749.0 653.0M749.0 658.0L749.0 660.0M749.0 665.0L749.0 677.0M749.0 682.0L749.0 684.0M749.0 689.0L749.0 701.0M749.0 705.0L737.0 705.0M732.0 705.0L730.0 705.0M725.0 705.0L713.0 705.0M708.0 705.0L706.0 705.0M701.0 705.0L689.0 705.0M684.0 705.0L682.0 705.0M677.0 705.0L665.0 705.0M660.0 705.0L658.0 705.0M653.0 705.0L641.0 705.0M636.0 705.0L634.0 705.0M629.0 705.0L617.0 705.0M612.0 705.0L610.0 705.0M605.0 705.0L593.0 705.0M588.0 705.0L586.0 705.0M581.0 705.0L569.0 705.0M564.0 705.0L562.0 705.0M557.0 705.0L545.0 705.0M540.0 705.0L538.0 705.0M533.0 705.0L521.0 705.0M516.0 705.0L514.0 705.0M509.0 705.0L505.0 705.0M505.0 705.0L505.0 693.0M505.0 688.0L505.0 686.0M505.0 681.0L505.0 669.0M505.0 664.0L505.0 662.0M505.0 657.0L505.0 645.0M505.0 640.0L505.0 638.0M505.0 633.0L505.0 621.0" fill="none" stroke="#262626" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627.0" y="668.0" font-size="19" text-anchor="middle" fill="#000000">Robotik</text>
+  <ellipse cx="523" cy="621" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="523" y="628" font-size="18" text-anchor="middle" fill="#ffffff">13</text>
+  <!-- Element 14 -->
+  <rect x="762" y="617" width="245" height="88" fill="#ffffff" stroke="none"/>
+  <path d="M762.0 617.0L774.0 617.0M779.0 617.0L781.0 617.0M786.0 617.0L798.0 617.0M803.0 617.0L805.0 617.0M810.0 617.0L822.0 617.0M827.0 617.0L829.0 617.0M834.0 617.0L846.0 617.0M851.0 617.0L853.0 617.0M858.0 617.0L870.0 617.0M875.0 617.0L877.0 617.0M882.0 617.0L894.0 617.0M899.0 617.0L901.0 617.0M906.0 617.0L918.0 617.0M923.0 617.0L925.0 617.0M930.0 617.0L942.0 617.0M947.0 617.0L949.0 617.0M954.0 617.0L966.0 617.0M971.0 617.0L973.0 617.0M978.0 617.0L990.0 617.0M995.0 617.0L997.0 617.0M1002.0 617.0L1007.0 617.0M1007.0 617.0L1007.0 629.0M1007.0 634.0L1007.0 636.0M1007.0 641.0L1007.0 653.0M1007.0 658.0L1007.0 660.0M1007.0 665.0L1007.0 677.0M1007.0 682.0L1007.0 684.0M1007.0 689.0L1007.0 701.0M1007.0 705.0L995.0 705.0M990.0 705.0L988.0 705.0M983.0 705.0L971.0 705.0M966.0 705.0L964.0 705.0M959.0 705.0L947.0 705.0M942.0 705.0L940.0 705.0M935.0 705.0L923.0 705.0M918.0 705.0L916.0 705.0M911.0 705.0L899.0 705.0M894.0 705.0L892.0 705.0M887.0 705.0L875.0 705.0M870.0 705.0L868.0 705.0M863.0 705.0L851.0 705.0M846.0 705.0L844.0 705.0M839.0 705.0L827.0 705.0M822.0 705.0L820.0 705.0M815.0 705.0L803.0 705.0M798.0 705.0L796.0 705.0M791.0 705.0L779.0 705.0M774.0 705.0L772.0 705.0M767.0 705.0L762.0 705.0M762.0 705.0L762.0 693.0M762.0 688.0L762.0 686.0M762.0 681.0L762.0 669.0M762.0 664.0L762.0 662.0M762.0 657.0L762.0 645.0M762.0 640.0L762.0 638.0M762.0 633.0L762.0 621.0" fill="none" stroke="#262626" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="884.5" y="655.5" font-size="19" text-anchor="middle" fill="#000000">Neue Materialien &amp;</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="884.5" y="680.5" font-size="19" text-anchor="middle" fill="#000000">Nanowerkstoffe</text>
+  <ellipse cx="780" cy="621" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="780" y="628" font-size="18" text-anchor="middle" fill="#ffffff">14</text>
+  <!-- Element 15 -->
+  <rect x="1071" y="165" width="159" height="240" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1150.5" y="253" font-size="19" text-anchor="middle" fill="#000000">Reaktions-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1150.5" y="278" font-size="19" text-anchor="middle" fill="#000000">schnelle &amp;</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1150.5" y="303" font-size="19" text-anchor="middle" fill="#000000">individuelle</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1150.5" y="328" font-size="19" text-anchor="middle" fill="#000000">Fertigung</text>
+  <ellipse cx="1089" cy="169" rx="17" ry="12" fill="#404040" stroke="#ffffff" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="1089" y="176" font-size="18" text-anchor="middle" fill="#ffffff">15</text>
+  <rect x="22" y="483" width="146" height="35" fill="#ebe6ea" stroke="#262626" stroke-width="3"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="36" y="507" font-size="18" text-anchor="start" fill="#000000">IoT bezogen</text>
+  <rect x="22" y="537" width="190" height="33" fill="#ffffff" stroke="none"/>
+  <path d="M22.0 537.0L34.0 537.0M39.0 537.0L41.0 537.0M46.0 537.0L58.0 537.0M63.0 537.0L65.0 537.0M70.0 537.0L82.0 537.0M87.0 537.0L89.0 537.0M94.0 537.0L106.0 537.0M111.0 537.0L113.0 537.0M118.0 537.0L130.0 537.0M135.0 537.0L137.0 537.0M142.0 537.0L154.0 537.0M159.0 537.0L161.0 537.0M166.0 537.0L178.0 537.0M183.0 537.0L185.0 537.0M190.0 537.0L202.0 537.0M207.0 537.0L209.0 537.0M212.0 537.0L212.0 549.0M212.0 554.0L212.0 556.0M212.0 561.0L212.0 570.0M212.0 570.0L200.0 570.0M195.0 570.0L193.0 570.0M188.0 570.0L176.0 570.0M171.0 570.0L169.0 570.0M164.0 570.0L152.0 570.0M147.0 570.0L145.0 570.0M140.0 570.0L128.0 570.0M123.0 570.0L121.0 570.0M116.0 570.0L104.0 570.0M99.0 570.0L97.0 570.0M92.0 570.0L80.0 570.0M75.0 570.0L73.0 570.0M68.0 570.0L56.0 570.0M51.0 570.0L49.0 570.0M44.0 570.0L32.0 570.0M27.0 570.0L25.0 570.0M22.0 570.0L22.0 558.0M22.0 553.0L22.0 551.0M22.0 546.0L22.0 537.0" fill="none" stroke="#262626" stroke-width="2"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="33" y="560" font-size="18" text-anchor="start" fill="#000000">nicht IoT-bezogen</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1277 654" width="1277" height="654" data-figure-id="abb-56" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Beispiele für das Spannungsfeld unternehmerischen Wirkens</title>
+  <rect x="0" y="0" width="1277" height="654" fill="#ffffff"/>
+  <rect x="10" y="12" width="1256" height="630" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Triangle of the three sustainability dimensions -->
+  <polygon points="510,78 297,393 717,393" fill="none" stroke="#000000" stroke-width="3.5" stroke-linejoin="miter"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="512" y="258" font-size="30" text-anchor="middle">Interessen-</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="512" y="298" font-size="30" text-anchor="middle">ausgleich</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="512" y="359" font-size="30" text-anchor="middle">Zieloptimierung</text>
+
+  <!-- Top corner: economic dimension -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="482" y="66" font-size="30" font-weight="bold" text-anchor="middle">Ökonomische Dimension:</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="740" y="52" font-size="25">- Rentabilität/Liquidität</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="740" y="91" font-size="25">- Wirtschaftlichkeit/Produktivität</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="740" y="134" font-size="25">- Erfolgspotentiale/Wettbewerbsfähigkeit</text>
+
+  <!-- Bottom left corner: social dimension -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="449" font-size="30" font-weight="bold">Soziale Dimension:</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="492" font-size="25">- Arbeitsmotivation/-zufriedenheit</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="532" font-size="25">- Humane Arbeitsbedingungen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="572" font-size="25">- Mitbestimmung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="65" y="612" font-size="25">- Arbeitsplatzerhaltung/-schaffung</text>
+
+  <!-- Bottom right corner: ecological dimension -->
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="449" font-size="30" font-weight="bold">Ökologische Dimension:</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="492" font-size="25">- Rohstoffschonung</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="532" font-size="25">- Okkupation/Emission</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="572" font-size="25">- Wahrung der natürlichen Lebensgrundlagen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="633" y="612" font-size="25">- Sicherung der Lebensqualität</text>
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1277 752" width="1277" height="752" data-figure-id="abb-78" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
+  <title>Produktionsregelkreis</title>
+  <rect x="0" y="0" width="1277" height="752" fill="#ffffff"/>
+  <rect x="12" y="10" width="1253" height="732" fill="none" stroke="#333333" stroke-width="2"/>
+
+  <!-- Feedback lines of the control loop (structure) -->
+  <g fill="none" stroke="#9a9a9a" stroke-width="1.5">
+    <!-- Überwachung -> Planen (left loop) -->
+    <path d="M408 210 H320 V75 H398"/>
+    <!-- Planen -> Überwachung (right loop) -->
+    <path d="M846 75 H942 V208 H856"/>
+    <!-- Überwachung -> Material supply (two lines) -->
+    <path d="M408 232 H275 V494"/>
+    <path d="M408 255 H350 V496"/>
+    <!-- Messung -> Überwachung -->
+    <path d="M942 497 V255 H856"/>
+    <!-- material flow line -->
+    <path d="M220 546 H260 M370 546 H450 M805 546 H888 M998 546 H1048"/>
+  </g>
+  <g fill="#9a9a9a">
+    <polygon points="408,75 396,70 396,80"/>
+    <polygon points="846,208 858,203 858,213"/>
+    <polygon points="275,505 270,493 280,493"/>
+    <polygon points="350,505 345,493 355,493"/>
+    <polygon points="846,255 858,250 858,260"/>
+  </g>
+
+  <!-- Planen -->
+  <rect x="408" y="30" width="438" height="90" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627" y="82" font-size="21" text-anchor="middle">Planen</text>
+
+  <!-- Überwachung -->
+  <rect x="408" y="192" width="438" height="82" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627" y="226" font-size="22" text-anchor="middle">Überwachung der Abweichungen zwischen</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627" y="256" font-size="22" text-anchor="middle">Ist- und Soll-Produktionsmengen</text>
+
+  <!-- Fertigung und Montage -->
+  <rect x="408" y="440" width="438" height="200" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627" y="471" font-size="20" text-anchor="middle">Fertigung und Montage</text>
+  <polygon points="450,510 765,510 805,546 765,583 450,583" fill="#595959"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="577" y="553" font-size="20" fill="#ffffff" text-anchor="middle">Produktionsprozess</text>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="627" y="613" font-size="20" text-anchor="middle">(Ausführung)</text>
+
+  <!-- Input / Material supply / Messung / Output -->
+  <polygon points="35,530 205,530 220,546 205,563 35,563" fill="#595959"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="122" y="553" font-size="18" fill="#ffffff" text-anchor="middle">Input</text>
+  <circle cx="315" cy="546" r="55" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <rect x="888" y="497" width="110" height="95" fill="#ffffff" stroke="#555555" stroke-width="1.5"/>
+  <polygon points="1048,532 1225,532 1240,549 1225,567 1048,567" fill="#595959"/>
+  <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1142" y="557" font-size="18" fill="#ffffff" text-anchor="middle">Output</text>
+
+  <!-- Disturbance (warning sign replaced by a plain triangle) -->
+  <polygon points="604,647 640,708 568,708" fill="#8c8c8c"/>
+  <text font-family="Arial, Helvetica, sans-serif" x="604" y="700" font-size="34" font-weight="bold" fill="#ffffff" text-anchor="middle">!</text>
+
+  <!-- Annotations -->
+  <g font-size="18" fill="#111111">
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="88" y="93">Sicherstellung der</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="88" y="117">Produktion unter</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="88" y="141">Berücksichtigung einer</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="88" y="165">Planänderung aufgrund</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="88" y="189">von Ist-/Soll-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="88" y="213">Abweichungen</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="963" y="118">Zielproduktionsmenge</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="963" y="141">Output</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108" y="341">Materialversorgung</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="108" y="365">auslösen</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="368" y="321">Sichere Produktion unter</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="368" y="344">Berücksichtigung von</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="368" y="367">Ist-Störungen aufgrund</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="368" y="390">von Ist-/Soll-</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="368" y="413">Abweichungen</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="73" y="585">Einzelteile</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="270" y="627">Material</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="270" y="650">supply</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1042" y="473">Tatsächliche</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1042" y="496">Produktionsmenge</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="1042" y="519">Ausgang</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="865" y="630">Messung der</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="865" y="653">tatsächlichen</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="865" y="676">Produktionsmenge</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="865" y="699">Output</text>
+
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="428" y="683">Materialfehler</text>
+    <text font-family="Arial, Helvetica, sans-serif" class="answer" x="677" y="681">Ausfall der Maschine</text>
+  </g>
+</svg>
