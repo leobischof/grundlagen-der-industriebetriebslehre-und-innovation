@@ -33,6 +33,7 @@ FIG_EXERCISES = FIGURES / "exercises"
 FIG_MANIFEST = FIGURES / "manifest.json"
 EXAMS = ROOT / "exams"
 LEARNING = ROOT / "learning"
+DRAWING_GUIDES = LEARNING / "drawing-exercises"   # one <figure id>.md per reconstructed figure
 REPORTS = ROOT / "reports"
 SCHEMAS = ROOT / "schemas"
 

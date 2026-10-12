@@ -14,7 +14,7 @@ from . import catalog, config, drawing_guide
 from .cache import write_if_changed
 from .svg_blank import blank_svg
 
-GUIDES = config.LEARNING / "drawing-exercises"
+GUIDES = config.DRAWING_GUIDES
 
 
 def _wanted_ids(pages: str | None) -> set[str] | None:

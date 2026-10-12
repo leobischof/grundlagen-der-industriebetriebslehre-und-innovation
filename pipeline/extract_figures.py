@@ -52,7 +52,7 @@ def manifest_entry(f: dict) -> dict:
     png = config.FIG_ORIGINALS / f"{fid}.png"
     svg = config.FIG_RECONSTRUCTED / f"{fid}.svg"
     blank = config.FIG_EXERCISES / f"{fid}-blank.svg"
-    guide = config.LEARNING / "drawing-exercises" / f"{fid}.md"
+    guide = config.DRAWING_GUIDES / f"{fid}.md"
     files = {"original": _rel(png), "reconstructed": _rel(svg), "exercise": _rel(blank),
              "drawing_guide": _rel(guide), "metadata": _rel(config.FIGURE_META_DIR / f"{fid}.yaml")}
     status = meta.get("reconstruction", {}).get("status", "not-started")

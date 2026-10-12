@@ -19,3 +19,7 @@ literal:
   - {from: "doi.0rg", to: "doi.org"}
   - {from: "CO»s-Emissionen", to: "CO₂-Emissionen", pages: [145]}
   - {from: "bzw. _freie", to: "bzw. -freie", pages: [148]}
+  # Hochgestellte Fußnotenzeichen, die die OCR mit dem Wort verschmolzen hat und die sich
+  # keiner Fußnote sicher zuordnen lassen (Fußnote 58 steht in der Liste ohne Textanker).
+  - {from: "verlagert wird\"s8, Eine", to: "verlagert wird\". Eine", pages: [51]}
+  - {from: "Produktionsarten!3s", to: "Produktionsarten", pages: [129]}

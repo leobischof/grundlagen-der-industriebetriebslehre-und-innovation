@@ -139,7 +139,7 @@ def overview_md(cards: list[dict]) -> str:
         out += [f"## {c['prompt']}", "", f"*{c['meta']}*", "",
                 "<details><summary>Lösung</summary>", "",
                 f"![{c['prompt']}](../../figures/originals/{c['image']})", ""]
-        guide = config.LEARNING / "drawing-exercises" / f"{c['id']}.md"
+        guide = config.DRAWING_GUIDES / f"{c['id']}.md"
         if guide.exists():
             out += [f"[Zeichenübung](../drawing-exercises/{c['id']}.md)", ""]
         if c["must_know"]:

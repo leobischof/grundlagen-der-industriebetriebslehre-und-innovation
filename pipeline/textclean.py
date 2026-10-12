@@ -19,7 +19,7 @@ ROW_TOLERANCE = 4.0            # pt: fragments whose tops differ less belong to 
 PARAGRAPH_GAP = 1.22           # × typical line pitch: a larger gap starts a new paragraph
                                # (measured: line gaps ≤ 19.5 pt, paragraph gaps ≥ 23 pt at 17.7 pt pitch)
 HANGING_INDENT = 6.0           # pt: bullet text sits right of the bullet glyph
-BULLET_GLYPHS = {"e", "°", "«", "»", "®", "©", "•", "o", "*", "■", "▪", "-", "–", "+"}
+BULLET_GLYPHS = {"e", "°", "«", "»", "®", "©", "•", "o", "O", "*", "■", "▪", "-", "–", "+"}  # "Oo" = ring bullet
 # Words that follow a hyphen at line end *without* being part of the hyphenated word
 # ("Produkt- und Prozessentwicklung").
 KEEP_HYPHEN_BEFORE = {"und", "oder", "bzw.", "sowie", "als", "bis", "noch", "wie"}
