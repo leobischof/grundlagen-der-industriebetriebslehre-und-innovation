@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "section-frontmatter.schema.json",
+  "title": "Frontmatter einer Abschnittsdatei (content/<kapitel>/<X.Y>-<slug>.md)",
+  "description": "Eine Datei je Abschnitt X.Y des Skripts. Erzeugt von `python -m pipeline build-content`; Vertrag siehe docs/architecture.md.",
+  "type": "object",
+  "required": ["id", "title", "chapter", "section", "pdf_pages", "printed_pages", "figures", "layer", "source", "quality"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^sec-\\d+\\.\\d+$", "description": "sec-<X.Y>"},
+    "title": {"type": "string", "minLength": 1},
+    "chapter": {"type": "string", "pattern": "^\\d{2}$", "description": "Kapitel-ID aus curation/structure.yaml, z. B. \"02\""},
+    "chapter_title": {"type": "string"},
+    "section": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "subsections": {"type": "array", "items": {"type": "string", "pattern": "^\\d+(\\.\\d+)+$"}, "uniqueItems": true},
+    "pdf_pages": {"type": "array", "items": {"type": "integer", "minimum": 1}, "minItems": 1, "uniqueItems": true},
+    "printed_pages": {"type": "array", "items": {"type": ["integer", "null"], "minimum": 1}},
+    "figures": {"type": "array", "items": {"$ref": "#/$defs/figure_id"}, "uniqueItems": true},
+    "related_sections": {"type": "array", "items": {"type": "string", "pattern": "^sec-\\d+\\.\\d+$"}, "uniqueItems": true},
+    "exam_questions": {"type": "array", "items": {"$ref": "#/$defs/question_id"}, "uniqueItems": true},
+    "layer": {"enum": ["original", "ocr", "bereinigt", "ki-erklaerung"], "description": "Schicht des Vier-Schichten-Modells"},
+    "source": {"type": "string", "minLength": 1, "description": "Quellen-ID oder Dateistamm aus sources/manifest.yaml"},
+    "quality": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"type": "string", "minLength": 1},
+        "ocr_suspicious_ratio": {"type": "number", "minimum": 0, "maximum": 1},
+        "footnotes_unanchored": {"type": "integer", "minimum": 0}
+      }
+    }
+  },
+  "$defs": {
+    "figure_id": {"type": "string", "pattern": "^(abb|tab|formel)-[a-z0-9][a-z0-9-]*$"},
+    "question_id": {"type": "string", "pattern": "^frage-\\d{4}-\\d{2}-\\d{2}-\\d+$"}
+  },
+  "examples": [
+    {
+      "id": "sec-2.5",
+      "title": "Arten der Innovation",
+      "chapter": "02",
+      "chapter_title": "Industrielle Innovation",
+      "section": "2.5",
+      "subsections": ["2.5.1", "2.5.2"],
+      "pdf_pages": [39, 40, 41],
+      "printed_pages": [29, 30, 31],
+      "figures": ["abb-08", "abb-09"],
+      "related_sections": ["sec-2.4", "sec-6.2"],
+      "exam_questions": ["frage-2025-11-20-3"],
+      "layer": "bereinigt",
+      "source": "skript-2024-25-v2.0",
+      "quality": {"status": "maschinell-bereinigt-ungeprueft", "ocr_suspicious_ratio": 0.031, "footnotes_unanchored": 1}
+    }
+  ]
+}

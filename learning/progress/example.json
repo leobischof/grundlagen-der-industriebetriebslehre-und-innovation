@@ -1,0 +1,104 @@
+{
+  "topics": {
+    "abb-08": {
+      "zeichnung": {
+        "ease": 2.18,
+        "errors": [],
+        "history": [
+          {
+            "date": "2026-10-01",
+            "errors": [
+              "Achsenbeschriftung Umsatz/Gewinn vergessen",
+              "Phase Sättigung ausgelassen"
+            ],
+            "result": 2,
+            "sketch_independent": false
+          },
+          {
+            "date": "2026-10-02",
+            "errors": [],
+            "result": 4,
+            "sketch_independent": true
+          }
+        ],
+        "interval_days": 1,
+        "last_practiced": "2026-10-02",
+        "last_result": 4,
+        "mastery": 0.6,
+        "mastery_level": "lernend",
+        "next_due": "2026-10-03",
+        "repetitions": 1,
+        "sketch_independent": true
+      }
+    },
+    "abb-11": {
+      "zeichnung": {
+        "ease": 2.5,
+        "errors": [],
+        "history": [
+          {
+            "date": "2026-10-05",
+            "errors": [],
+            "result": 4,
+            "sketch_independent": false
+          }
+        ],
+        "interval_days": 1,
+        "last_practiced": "2026-10-05",
+        "last_result": 4,
+        "mastery": 0.8,
+        "mastery_level": "lernend",
+        "next_due": "2026-10-06",
+        "repetitions": 1,
+        "sketch_independent": false
+      }
+    },
+    "sec-2.5": {
+      "aufzaehlung": {
+        "ease": 2.36,
+        "errors": [
+          "nur 3 von 5 Arten genannt"
+        ],
+        "history": [
+          {
+            "date": "2026-10-05",
+            "errors": [
+              "nur 3 von 5 Arten genannt"
+            ],
+            "result": 3,
+            "sketch_independent": null
+          }
+        ],
+        "interval_days": 1,
+        "last_practiced": "2026-10-05",
+        "last_result": 3,
+        "mastery": 0.6,
+        "mastery_level": "lernend",
+        "next_due": "2026-10-06",
+        "repetitions": 1,
+        "sketch_independent": null
+      },
+      "definition": {
+        "ease": 2.6,
+        "errors": [],
+        "history": [
+          {
+            "date": "2026-10-02",
+            "errors": [],
+            "result": 5,
+            "sketch_independent": null
+          }
+        ],
+        "interval_days": 1,
+        "last_practiced": "2026-10-02",
+        "last_result": 5,
+        "mastery": 1.0,
+        "mastery_level": "lernend",
+        "next_due": "2026-10-03",
+        "repetitions": 1,
+        "sketch_independent": null
+      }
+    }
+  },
+  "version": 1
+}

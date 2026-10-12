@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "figure-manifest-entry.schema.json",
+  "title": "Ein Eintrag in figures/manifest.json",
+  "description": "Generiert von `python -m pipeline extract-figures` (pipeline/extract_figures.py: manifest_entry). Verbindet je Abbildung Original (A), Metadaten (B), Rekonstruktion (C) und Übung (D).",
+  "type": "object",
+  "required": ["id", "kind", "label", "number", "title", "pdf_page", "printed_page", "bbox", "chapter", "section",
+               "subsection", "files", "reconstruction_status", "exam_relevance", "drawing_difficulty", "metadata_status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^(abb|tab|formel)-[a-z0-9][a-z0-9-]*$"},
+    "kind": {"enum": ["figure", "table", "formula"]},
+    "label": {"type": "string", "minLength": 1},
+    "number": {"type": ["integer", "null"]},
+    "title": {"type": "string", "minLength": 1},
+    "pdf_page": {"type": "integer", "minimum": 1},
+    "printed_page": {"type": ["integer", "null"]},
+    "bbox": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4},
+    "chapter": {"type": ["string", "null"], "pattern": "^\\d{2}$"},
+    "section": {"type": ["string", "null"]},
+    "subsection": {"type": ["string", "null"]},
+    "files": {
+      "type": "object",
+      "required": ["original", "reconstructed", "exercise", "drawing_guide", "metadata"],
+      "properties": {
+        "original": {"type": ["string", "null"], "pattern": "^figures/originals/.+\\.png$"},
+        "reconstructed": {"type": ["string", "null"], "pattern": "^figures/reconstructed/.+\\.svg$"},
+        "exercise": {"type": ["string", "null"], "pattern": "^figures/exercises/.+\\.svg$"},
+        "drawing_guide": {"type": ["string", "null"], "pattern": "^learning/drawing-exercises/.+\\.md$"},
+        "metadata": {"type": ["string", "null"], "pattern": "^curation/figures/.+\\.yaml$"}
+      },
+      "additionalProperties": false
+    },
+    "reconstruction_status": {"enum": ["faithful", "needs_review", "not-started"]},
+    "exam_relevance": {"enum": ["hoch", "mittel", "niedrig", null]},
+    "drawing_difficulty": {"enum": ["leicht", "mittel", "schwer", null]},
+    "metadata_status": {"enum": ["curated", "missing"]},
+    "pixels": {"type": "array", "items": {"type": "integer", "minimum": 1}, "minItems": 2, "maxItems": 2},
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "latex": {"type": "string"},
+    "note": {"type": "string"},
+    "bbox_note": {"type": "string"}
+  },
+  "additionalProperties": false,
+  "examples": [
+    {
+      "id": "abb-01",
+      "kind": "figure",
+      "label": "Abbildung 1",
+      "number": 1,
+      "title": "Historische Entwicklung innerhalb der Industrie",
+      "pdf_page": 14,
+      "printed_page": 4,
+      "bbox": [67.4, 233.4, 520.6, 511.9],
+      "chapter": "01",
+      "section": "1.1",
+      "subsection": "1.1",
+      "files": {"original": "figures/originals/abb-01.png", "reconstructed": null, "exercise": null, "drawing_guide": null, "metadata": null},
+      "reconstruction_status": "not-started",
+      "exam_relevance": null,
+      "drawing_difficulty": null,
+      "metadata_status": "missing",
+      "pixels": [1277, 791],
+      "sha256": "31e6753956b18fd71b2f90ca1b226779776bcafa53bb40cdc04816700ca8f7c1"
+    }
+  ]
+}

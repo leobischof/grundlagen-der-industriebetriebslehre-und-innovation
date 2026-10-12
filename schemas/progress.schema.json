@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "progress.schema.json",
+  "title": "Lokaler Lernfortschritt (learning/progress/progress.json, git-ignoriert)",
+  "description": "Je Thema und Kompetenz: letzte Übung, Ergebnis, Fehler, Beherrschungsgrad, nächste Wiederholung und ob eine Skizze selbstständig gezeichnet werden konnte. Geschrieben von `python -m pipeline.progress`; Planung siehe pipeline/srs.py.",
+  "type": "object",
+  "required": ["version", "topics"],
+  "properties": {
+    "version": {"const": 1},
+    "topics": {
+      "type": "object",
+      "description": "Schlüssel: Abschnitts-, Abbildungs- oder Themen-ID (sec-2.5, abb-08, …)",
+      "additionalProperties": {
+        "type": "object",
+        "description": "Schlüssel: Kompetenz = Aufgabentyp aus exam-question.schema.json (task_types)",
+        "additionalProperties": {"$ref": "#/$defs/item"}
+      }
+    }
+  },
+  "$defs": {
+    "date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "item": {
+      "type": "object",
+      "required": ["last_practiced", "last_result", "errors", "mastery", "mastery_level", "sketch_independent",
+                   "repetitions", "interval_days", "ease", "next_due", "history"],
+      "properties": {
+        "last_practiced": {"$ref": "#/$defs/date"},
+        "last_result": {"type": "integer", "minimum": 0, "maximum": 5},
+        "errors": {"type": "array", "items": {"type": "string"}},
+        "mastery": {"type": "number", "minimum": 0, "maximum": 1},
+        "mastery_level": {"enum": ["unsicher", "lernend", "gefestigt", "beherrscht"]},
+        "sketch_independent": {"type": ["boolean", "null"]},
+        "repetitions": {"type": "integer", "minimum": 0},
+        "interval_days": {"type": "integer", "minimum": 0},
+        "ease": {"type": "number", "minimum": 1.3},
+        "next_due": {"$ref": "#/$defs/date"},
+        "history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["date", "result"],
+            "properties": {
+              "date": {"$ref": "#/$defs/date"},
+              "result": {"type": "integer", "minimum": 0, "maximum": 5},
+              "errors": {"type": "array", "items": {"type": "string"}},
+              "sketch_independent": {"type": ["boolean", "null"]}
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "figure-metadata.schema.json",
+  "title": "Strukturierte Beschreibung einer Abbildung (curation/figures/<id>.yaml, Schicht B)",
+  "description": "Kuratiert; beschreibt Achsen, Elemente, Beziehungen, Bedeutung, Prüfungsrelevanz und Zeichenhinweise. Vertrag siehe docs/architecture.md.",
+  "type": "object",
+  "required": ["id", "title", "type", "description", "elements", "meaning", "exam_relevance", "drawing", "reconstruction", "source"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^(abb|tab|formel)-[a-z0-9][a-z0-9-]*$"},
+    "title": {"type": "string", "minLength": 1},
+    "type": {"enum": ["kurvendiagramm", "matrix", "prozess", "flussdiagramm", "venn", "system", "tabelle", "portfolio", "hierarchie", "sonstiges"]},
+    "description": {"type": "string", "minLength": 20},
+    "axes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["axis", "label"],
+        "properties": {
+          "axis": {"type": "string"},
+          "label": {"type": "string"},
+          "unit": {"type": ["string", "null"]},
+          "direction": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "elements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "kind"],
+        "properties": {
+          "id": {"type": "string"},
+          "kind": {"type": "string"},
+          "text": {"type": ["string", "null"]},
+          "note": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["from", "to", "kind"],
+        "properties": {
+          "from": {"type": "string"},
+          "to": {"type": "string"},
+          "kind": {"type": "string"},
+          "text": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "curves": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "shape"],
+        "properties": {
+          "name": {"type": "string"},
+          "shape": {"type": "string"},
+          "key_points": {"type": ["array", "string", "null"]}
+        }
+      }
+    },
+    "meaning": {"type": "string", "minLength": 20},
+    "exam_relevance": {
+      "type": "object",
+      "required": ["level", "reason"],
+      "properties": {
+        "level": {"enum": ["hoch", "mittel", "niedrig"]},
+        "reason": {"type": "string", "minLength": 1},
+        "question_ids": {"type": "array", "items": {"type": "string", "pattern": "^frage-\\d{4}-\\d{2}-\\d{2}-\\d+$"}}
+      }
+    },
+    "drawing": {
+      "type": "object",
+      "required": ["difficulty", "must_know"],
+      "properties": {
+        "difficulty": {"enum": ["leicht", "mittel", "schwer"]},
+        "must_know": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "common_mistakes": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "reconstruction": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["faithful", "needs_review", "not-started"]},
+        "svg": {"type": ["string", "null"], "pattern": "^figures/reconstructed/[a-z0-9-]+\\.svg$"},
+        "notes": {"type": ["string", "null"]}
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["pdf_page"],
+      "properties": {
+        "pdf_page": {"type": "integer", "minimum": 1},
+        "printed_page": {"type": ["integer", "null"]},
+        "ocr_text_of_labels": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "examples": [
+    {
+      "id": "abb-08",
+      "title": "Produktlebenszyklus",
+      "type": "kurvendiagramm",
+      "description": "Umsatz und Gewinn eines Produkts über der Zeit, gegliedert in Phasen von der Einführung bis zur Degeneration.",
+      "axes": [{"axis": "x", "label": "Zeit", "unit": null, "direction": "rechts"}],
+      "elements": [{"id": "e1", "kind": "kurve", "text": "Umsatz"}],
+      "relations": [],
+      "curves": [{"name": "Umsatz", "shape": "steigt bis zur Reife, fällt danach", "key_points": []}],
+      "meaning": "Der Produktlebenszyklus zeigt, warum Unternehmen laufend neue Produkte entwickeln müssen.",
+      "exam_relevance": {"level": "hoch", "reason": "Zeichenaufgabe in mehreren Klausuren", "question_ids": []},
+      "drawing": {"difficulty": "mittel", "must_know": ["Achsen beschriften"], "common_mistakes": []},
+      "reconstruction": {"status": "faithful", "svg": "figures/reconstructed/abb-08.svg", "notes": ""},
+      "source": {"pdf_page": 41, "printed_page": 31, "ocr_text_of_labels": "Umsatz Gewinn Zeit"}
+    }
+  ]
+}

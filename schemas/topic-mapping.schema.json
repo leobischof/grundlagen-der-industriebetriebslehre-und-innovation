@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "topic-mapping.schema.json",
+  "title": "Themen ↔ Abschnitte ↔ Abbildungen ↔ Prüfungsfragen (exams/topic-mapping.json)",
+  "description": "by_section-Schlüssel sind Gliederungsnummern (X.Y, tiefere Nummern zusätzlich erlaubt); by_figure-Schlüssel sind Abbildungs-IDs; Werte sind Listen von Fragen-IDs.",
+  "type": "object",
+  "required": ["topics", "by_section", "by_figure"],
+  "properties": {
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "sections": {"type": "array", "items": {"type": "string"}},
+          "figures": {"type": "array", "items": {"type": "string"}},
+          "question_ids": {"type": "array", "items": {"$ref": "#/$defs/question_id"}}
+        }
+      }
+    },
+    "by_section": {
+      "type": "object",
+      "propertyNames": {"pattern": "^(\\d+(\\.\\d+)*|L\\d+)$"},
+      "additionalProperties": {"type": "array", "items": {"$ref": "#/$defs/question_id"}}
+    },
+    "by_figure": {
+      "type": "object",
+      "propertyNames": {"pattern": "^(abb|tab|formel)-[a-z0-9][a-z0-9-]*$"},
+      "additionalProperties": {"type": "array", "items": {"$ref": "#/$defs/question_id"}}
+    }
+  },
+  "$defs": {
+    "question_id": {"type": "string", "pattern": "^frage-\\d{4}-\\d{2}-\\d{2}-\\d+$"}
+  },
+  "examples": [
+    {
+      "topics": [{"id": "produktlebenszyklus", "title": "Produktlebenszyklus", "sections": ["2.5"], "figures": ["abb-08"], "question_ids": ["frage-2026-04-29-1"]}],
+      "by_section": {"2.5": ["frage-2026-04-29-1"]},
+      "by_figure": {"abb-08": ["frage-2026-04-29-1"]}
+    }
+  ]
+}
