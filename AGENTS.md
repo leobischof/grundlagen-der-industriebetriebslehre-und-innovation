@@ -274,7 +274,9 @@ wenn die Änderung per PR auf `main` ist; das Tag zeigt immer auf einen Commit v
 
 - **Nie** auf `main` committen, nie `--force`/`--force-with-lease`, nie Branch Protection,
   Rulesets oder Repository-Einstellungen ändern – außer @leobischof verlangt es ausdrücklich.
-- Den eigenen PR **nicht** selbst mergen, außer @leobischof hat genau das für diesen PR verlangt.
+- Den eigenen PR nur mergen, wenn @leobischof das erlaubt hat. Seine eigenen Agenten (Claude Code in
+  seinem Auftrag) dürfen per `gh pr merge --squash` mergen, sobald `qa` und `konventionen` grün sind;
+  Agenten anderer Personen mergen nie.
 - Im PR-Text sagen, was geändert wurde, welche Quelle es belegt und dass `pipeline offline` und
   `pytest` grün sind; jeden KI-Durchgang wie in Abschnitt 6 protokollieren.
 - Das Repository ist **privat** und bleibt es. Nichts daraus veröffentlichen (kein Fork in ein
