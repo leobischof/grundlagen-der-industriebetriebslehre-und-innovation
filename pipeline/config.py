@@ -96,7 +96,7 @@ CROP_DPI = 200                # ≈ native scan resolution (2320 px / 11.7 in)
 # Stage versions: bump one to invalidate exactly that stage's cache.
 STAGE_VERSIONS = {
     "analyze": 1,
-    "extract-text": 5,   # 2: footnotes without separator rule, 3: footnotes in the footer band
+    "extract-text": 6,   # 2: footnotes without separator rule, 3: footnotes in the footer band, 6: bold words
     "detect-figures": 1,
     "extract-figures": 1,
     "captions": 1,

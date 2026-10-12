@@ -12,7 +12,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from . import catalog, footnotes, outline, textclean
+from . import catalog, emphasis, footnotes, outline, textclean
 from .catalog import Entry
 from .textclean import Block
 
@@ -34,6 +34,7 @@ class Item:
     figure_id: str | None = None
     pages: set[int] = field(default_factory=set)
     notes: list[int] = field(default_factory=list)   # footnotes anchored in a caption or heading
+    bold: list[str] = field(default_factory=list)    # bold runs of the scan, marked in build()
 
 
 @dataclass
@@ -42,6 +43,8 @@ class Document:
     notes: footnotes.FootnoteIndex
     removed_captions: int = 0
     dropped_grey: list[tuple[int, str]] = field(default_factory=list)   # figure labels outside a bbox
+    bold_marked: int = 0
+    unmatched_bold: list[tuple[int, str]] = field(default_factory=list)  # (page, phrase) not found in the text
 
 
 def _inside(bbox, box, pad: float = FIGURE_PAD) -> bool:
@@ -161,7 +164,7 @@ def page_items(rec: dict, notes: list[footnotes.Footnote], doc: Document) -> lis
     for row in rows + [None]:
         if row is None or (run and any(run[-1].y < c <= row.y for c in cuts)):
             for b in textclean.blocks_from_rows(run, margin, pitch):
-                items.append(Item(b.kind, b.page, b.y, b.text, pages=b.pages))
+                items.append(Item(b.kind, b.page, b.y, b.text, pages=b.pages, bold=b.bold))
             run = []
         if row is not None:
             run.append(row)
@@ -188,6 +191,7 @@ def _merge_page_breaks(items: list[Item]) -> list[Item]:
                                         Block(it.kind, it.page, it.y, it.text))):
             prev_text.text = textclean.join_lines(prev_text.text, it.text)
             prev_text.pages |= it.pages
+            prev_text.bold += it.bold
             continue
         out.append(it)
     return out
@@ -212,4 +216,17 @@ def build() -> Document:
     for it in doc.items:
         if it.kind not in ("figure", "formula", "heading"):
             it.text = textclean.correct(it.text, it.pages)
+    _mark_bold(doc)
     return doc
+
+
+def _mark_bold(doc: Document) -> None:
+    """Set the scan's bold phrases in running text. Subheadings are bold as a whole already;
+    reference lists set author names in bold, which would break joining their entries."""
+    for it in doc.items:
+        if it.kind not in ("paragraph", "bullet", "numbered") or it.entry is None or it.entry.kind == "literature":
+            continue
+        phrases = [p for p in (emphasis.clean_phrase(textclean.correct(r, it.pages)) for r in it.bold) if p]
+        it.text, missed = emphasis.apply(it.text, phrases)
+        doc.bold_marked += len(phrases) - len(missed)
+        doc.unmatched_bold += [(it.page, p) for p in missed]

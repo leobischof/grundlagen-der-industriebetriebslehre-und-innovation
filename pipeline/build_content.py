@@ -270,8 +270,13 @@ def run(pages: str | None = None, dry_run: bool = False, force: bool = False) ->
     if pages:
         print("[build-content] Hinweis: --pages wird ignoriert, die Stufe baut immer alle Abschnitte")
     page_quality = {p: rec.get("quality", {}) for p, rec in load_pages().items()}
-    builder = Builder(segment.build(), page_quality)
+    doc = segment.build()
+    builder = Builder(doc, page_quality)
     build(builder)
+    print(f"[build-content] Fettdruck: {doc.bold_marked} Stellen markiert, "
+          f"{len(doc.unmatched_bold)} nicht im Text gefunden")
+    for page, phrase in doc.unmatched_bold:
+        print(f"[build-content]   PDF-Seite {page}: {phrase}")
     changed = [rel for rel, text in sorted(builder.files.items())
                if force or not (config.CONTENT / rel).exists()
                or (config.CONTENT / rel).read_text(encoding="utf-8") != text]

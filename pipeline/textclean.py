@@ -13,7 +13,7 @@ import statistics
 from dataclasses import dataclass, field
 from functools import lru_cache
 
-from . import catalog
+from . import catalog, emphasis
 
 ROW_TOLERANCE = 4.0            # pt: fragments whose tops differ less belong to one visual row
 PARAGRAPH_GAP = 1.22           # × typical line pitch: a larger gap starts a new paragraph
@@ -42,6 +42,8 @@ class Row:
     x0: float
     text: str
     first_fragment: str = ""
+    words: list[str] = field(default_factory=list)   # OCR words; `text` may gain footnote anchors
+    bold: set[int] = field(default_factory=set)      # indices into `words` set in bold print
 
 
 @dataclass
@@ -52,6 +54,8 @@ class Block:
     y: float
     text: str
     pages: set[int] = field(default_factory=set)
+    bold: list[str] = field(default_factory=list)    # bold runs in reading order (emphasis)
+    bold_open: bool = False                          # the last run reaches the end of the last row
 
 
 def to_rows(lines: list[dict], page: int) -> list[Row]:
@@ -67,7 +71,13 @@ def to_rows(lines: list[dict], page: int) -> list[Row]:
         frags.sort(key=lambda l: l["bbox"][0])
         text = " ".join(f["text"].strip() for f in frags if f["text"].strip())
         if text and not PAGE_NUMBER.match(text):
-            out.append(Row(page, frags[0]["bbox"][1], frags[0]["bbox"][0], text, frags[0]["text"].strip()))
+            words: list[str] = []
+            bold: set[int] = set()
+            for f in frags:
+                bold |= {len(words) + k for k in f.get("bold", [])}
+                words += f["text"].split()
+            out.append(Row(page, frags[0]["bbox"][1], frags[0]["bbox"][0], text, frags[0]["text"].strip(),
+                           words, bold))
     return out
 
 
@@ -139,6 +149,17 @@ def label_text(text: str) -> str:
     return text
 
 
+def _take_bold(block: Block, row: Row, joined: bool) -> None:
+    """Add the row's bold runs to the block; a run that goes on across the line break is joined."""
+    rs = emphasis.runs(row.words, row.bold, skip=1 if block.kind == "bullet" and not joined else 0)
+    if joined and block.bold_open and rs and rs[0].at_start:
+        block.bold[-1] = join_lines(block.bold[-1], rs[0].text)
+        block.bold += [r.text for r in rs[1:]]
+    else:
+        block.bold += [r.text for r in rs]
+    block.bold_open = bool(rs) and rs[-1].at_end
+
+
 def blocks_from_rows(rows: list[Row], margin: float, pitch: float) -> list[Block]:
     """Paragraphs, list items and unnumbered subheadings of one run of rows (no page break inside)."""
     blocks: list[Block] = []
@@ -160,12 +181,17 @@ def blocks_from_rows(rows: list[Row], margin: float, pitch: float) -> list[Block
         elif (current and current.kind in ("bullet", "numbered") and gap_before <= PARAGRAPH_GAP * pitch
               and row.x0 > margin + HANGING_INDENT):
             current.text = join_lines(current.text, row.text)         # continuation of a list item
+            _take_bold(current, row, joined=True)
+            continue
         elif current and current.kind != "subheading" and (
                 gap_before <= PARAGRAPH_GAP * pitch
                 or row.text[:1].islower() and not SENTENCE_END.search(current.text)):
             current.text = join_lines(current.text, row.text)        # a wide gap inside a sentence
+            _take_bold(current, row, joined=True)
+            continue
         else:
             blocks.append(Block("paragraph", row.page, row.y, row.text, {row.page}))
+        _take_bold(blocks[-1], row, joined=False)
     return blocks
 
 

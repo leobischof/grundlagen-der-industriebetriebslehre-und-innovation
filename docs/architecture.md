@@ -32,7 +32,7 @@ Die Aufgabenstellung verlangt, vier Arten von Text strikt zu trennen. Jede hat i
 |---|---|---|---|
 | 1 · **original** | das Skript selbst (Scan) | `sources/original-pdfs/skript-2024-25-v2.0.pdf` (nur lokal); Abbildungen als Ausschnitt in `figures/originals/` | Lehrstuhl |
 | 2 · **ocr** | Textschicht des Scans, Zeile für Zeile mit Koordinaten und Qualitätsmaß | `sources/ocr/skript-pages.jsonl` | `extract-text` |
-| 3 · **bereinigt** | redaktionell bereinigte Fassung: OCR-Fehler korrigiert (nur über `curation/ocr-corrections.yaml`), Überschriften, Fußnoten, Formeln (LaTeX), Abbildungen eingebunden – **Wortlaut des Skripts** | `content/` | `build-content` |
+| 3 · **bereinigt** | redaktionell bereinigte Fassung: OCR-Fehler korrigiert (nur über `curation/ocr-corrections.yaml`), Überschriften, Fußnoten, Formeln (LaTeX), Abbildungen eingebunden, Fettdruck des Skripts als `**…**` – **Wortlaut des Skripts** | `content/` | `build-content` |
 | 4 · **ki-erklaerung** | zusätzliche Erklärungen, Beispiele, Übungen eines Modells oder Lernagenten | `learning/` (nie in `content/`) | Lernagent, gekennzeichnet |
 
 Regeln:

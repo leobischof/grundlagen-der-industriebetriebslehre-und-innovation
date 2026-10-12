@@ -15,7 +15,7 @@ source: skript-2024-25-v2.0
 
 <!-- Seite 75 (PDF 85) -->
 
-Die Produktentstehung war und ist aufgrund von sich verändernden Bedingungen anfällig für eine ständige Veränderung. Bis zum Ende des 19. Jahrhunderts verfügten Handwerks-Meister über das benötigte Wissen für die Produktentstehung und die ausführenden Arbeiten wurden vollständig von Handwerkern übernommen. Mit dem Beginn der Industrialisierung kam es zur Trennung von Planungs- und Ausführungsaufgaben. Dieser Ansatz entspricht jedoch nicht mehr den Anforderungen der heutigen Produktentstehung.
+Die Produktentstehung war und ist aufgrund von sich verändernden Bedingungen anfällig für eine **ständige Veränderung**. Bis zum Ende des 19. Jahrhunderts verfügten Handwerks-Meister über das benötigte Wissen für die Produktentstehung und die ausführenden Arbeiten wurden vollständig von Handwerkern übernommen. Mit dem Beginn der Industrialisierung kam es zur Trennung von Planungs- und Ausführungsaufgaben. Dieser Ansatz entspricht jedoch nicht mehr den Anforderungen der heutigen Produktentstehung.
 
 Beispiele für derzeitige sowie bevorstehende Veränderungen und Herausforderungen in der Produktentstehung sind kürzere Produktlebenszyklen, erhöhte Komplexität von Produkten und deren Produktion, verstärkte Ausbildung der Mitarbeiter, die Entwicklung vom Absatz- zum Abnehmermarkt sowie die Globalisierung von Produktion und Entwicklung.
 

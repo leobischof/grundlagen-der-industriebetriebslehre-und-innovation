@@ -5,7 +5,8 @@ than a fresh Tesseract pass – measured, see docs/pipeline.md). Nothing is
 corrected here: this is the *OCR layer* of the four-layer model
 (original → OCR → cleaned → AI explanation). Each line keeps its bounding box
 and an ink class, because the scan prints body text black and captions grey,
-which later separates prose from figure labels without any model.
+which later separates prose from figure labels without any model, and the
+indices of its words set in bold print (bold_print).
 
 Output: sources/ocr/skript-pages.jsonl (one JSON object per PDF page).
 """
@@ -16,7 +17,7 @@ import re
 
 import pymupdf
 
-from . import catalog, config
+from . import bold_print, catalog, config
 from .cache import JsonCache, key_for, sha256_file, write_if_changed
 from .ingest import source_path
 from .layout import CAPTION_MAX_HEIGHT, CAPTION_MIN_DARKEST, PROSE_MAX_DARKEST, darkest_ink, footnote_top
@@ -104,7 +105,8 @@ def page_record(page: pymupdf.Page) -> dict:
     top, bottom = config.HEADER_BAND * H, config.FOOTER_BAND * H
     body_bottom = footnote_top(gray, top, bottom)
     lines = []
-    for ln in visual_lines(page):
+    visual = visual_lines(page)
+    for ln, bold in zip(visual, bold_print.bold_words(gray, visual, config.RENDER_DPI / 72)):
         b = ln.bbox
         lines.append({
             "bbox": [round(v, 1) for v in b],
@@ -113,6 +115,8 @@ def page_record(page: pymupdf.Page) -> dict:
             "ink": _ink(darkest_ink(gray, b), b[3] - b[1]),
             "size": round(b[3] - b[1], 1),
         })
+        if bold:
+            lines[-1]["bold"] = bold         # indices into text.split(): words set in bold print
     _late_footnotes(lines, H)
     _footer_footnotes(lines)
     words = [w for ln in lines if ln["band"] == "body" for w in ln["text"].split()]
