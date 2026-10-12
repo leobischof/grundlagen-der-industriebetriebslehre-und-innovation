@@ -43,8 +43,8 @@ def chapter_number(slug: str) -> int:
 
 
 def chapter_export(slug: str, title: str) -> ExportName:
-    """'GIL Kapitel 2 – Industrielle Innovation' / GIL-Kapitel-2-Industrielle-Innovation."""
-    return _named(f"{PREFIX} Kapitel {chapter_number(slug)} – {title}")
+    """'GIL Skriptkapitel 2 – Industrielle Innovation' / GIL-Skriptkapitel-2-Industrielle-Innovation."""
+    return _named(f"{PREFIX} Skriptkapitel {chapter_number(slug)} – {title}")
 
 
 def summary_export(slug: str, title: str) -> ExportName:
@@ -52,22 +52,34 @@ def summary_export(slug: str, title: str) -> ExportName:
 
 
 def notebook_export(slug: str, title: str) -> ExportName:
-    return _named(f"{PREFIX} NotebookLM Kapitel {chapter_number(slug)} – {title}")
+    return _named(f"{PREFIX} NotebookLM-Kontext Kapitel {chapter_number(slug)} – {title}")
+
+
+def anki_export(slug: str, title: str) -> ExportName:
+    return _named(f"{PREFIX} Anki Kapitel {chapter_number(slug)} – {title}")
 
 
 COMPLETE = _named(f"{PREFIX} Gesamtskript")
 SUMMARY_COMPLETE = _named(f"{PREFIX} Zusammenfassung gesamt")
 EXAMS = _named(f"{PREFIX} Prüfungsfragen")
-NOTEBOOKS = _named(f"{PREFIX} NotebookLM")             # zip of every chapter's NotebookLM file
+NOTEBOOKS = _named(f"{PREFIX} NotebookLM-Kontext")     # zip: folder of every chapter's NotebookLM file
+ANKI_COMPLETE = _named(f"{PREFIX} Anki-Karteikarten")   # collection: every chapter, one sub-deck each
 
 # Each stage that produces release assets lists them in its build directory, one
 # "file<TAB>label" per line; `gh release upload "<dir>/<file>#<label>"` takes the label.
 ASSET_LIST = "release-assets.tsv"
 
 
+def asset_label(name: str, label: str) -> str:
+    """The label a download shows, with the file's ending: a reader must see that
+    "GIL Skriptkapitel 2 – Industrielle Innovation" is a .pdf and the Anki package an .apkg."""
+    suffix = Path(name).suffix
+    return label if not suffix or label.endswith(suffix) else f"{label}{suffix}"
+
+
 def write_asset_list(out_dir: Path, assets: list[tuple[str, str]]) -> None:
-    """assets: (file name in out_dir, human label)."""
-    text = "".join(f"{name}\t{label}\n" for name, label in assets)
+    """assets: (file name in out_dir, human label); the label gets the file's ending."""
+    text = "".join(f"{name}\t{asset_label(name, label)}\n" for name, label in assets)
     (out_dir / ASSET_LIST).write_bytes(text.encode("utf-8"))
 
 

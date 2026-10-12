@@ -1,8 +1,8 @@
 """Stage "export-notebooklm": one self-contained Markdown file per chapter → build/notebooklm/.
 
-  build/notebooklm/GIL-NotebookLM-Kapitel-N-<Titel>.md   one file per chapter with a learning guide
-  build/notebooklm/GIL-NotebookLM.zip                    all of them in one folder (release asset)
-  build/notebooklm/release-assets.tsv                    the zip and its label (content_files)
+  build/notebooklm/GIL-NotebookLM-Kontext-Kapitel-N-<Titel>.md   one file per chapter with a learning guide
+  build/notebooklm/GIL-NotebookLM-Kontext.zip                    all of them in one folder
+  build/notebooklm/release-assets.tsv                            zip and chapter files with labels (content_files)
 
 Made for NotebookLM and other learning tools that take a document as their only context: one
 chapter's file is all a tool needs to teach that chapter (e.g. one audio overview per chapter).
@@ -314,7 +314,12 @@ def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
         stale.unlink()                       # renamed chapter: the old file must not be released
     changed = sum(write_if_changed(OUT_DIR / name, text) for name, text in files.items())
     write_bytes_if_changed(OUT_DIR / zip_name, zip_bytes(files))
-    content_files.write_asset_list(OUT_DIR, [(zip_name, f"{NOTEBOOKS.label} – alle Kapitel (Markdown)")])
+    # The zip is the folder of every chapter's file; each file is released on its own as well,
+    # so a single chapter can be added to NotebookLM without unpacking anything.
+    names = (content_files.notebook_export(c.slug, c.title) for c in content_files.discover(config.CONTENT))
+    labels = {f"{n.stem}.md": n.label for n in names}
+    content_files.write_asset_list(OUT_DIR, [(zip_name, f"{NOTEBOOKS.label} – alle Kapitel (Ordner)"),
+                                             *((name, labels.get(name, Path(name).stem)) for name in sorted(files))])
     size = max((len(t.encode("utf-8")) for t in files.values()), default=0)
     print(f"[export-notebooklm] {len(files)} Kapiteldateien ({changed} geändert, größte {size // 1024} KB) "
           f"+ {zip_name}")

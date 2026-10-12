@@ -31,7 +31,7 @@ Vertiefung: [docs/architecture.md](docs/architecture.md) (Formate),
 | Welche Fragen gehören zu Abschnitt/Abbildung? | [exams/topic-mapping.json](exams/topic-mapping.json) (`by_section`, `by_figure`, `topics`) |
 | Lernleitfaden / Musterlösungen je Kapitel (KI-Erklärung) | `learning/chapters/<kapitel>.md`, `learning/exercises/<kapitel>.md` |
 | Anki-Karten von Studierenden (unverifiziert) | `learning/flashcards/<deck>.md` |
-| Skizzierkarten zu den prüfungsrelevanten Abbildungen | [learning/flashcards/skizzieren.md](learning/flashcards/skizzieren.md); als Anki-Paket nur lokal (`python -m pipeline anki`) |
+| Skizzierkarten zu den prüfungsrelevanten Abbildungen | [learning/flashcards/skizzieren.md](learning/flashcards/skizzieren.md); alle Anki-Karten als Pakete im Release (`python -m pipeline anki`) |
 | Lernstand der Person | nur über `python -m pipeline.progress` (Abschnitt 5) |
 | Wie vollständig und geprüft ist die Wissensbasis? | [reports/coverage.md](reports/coverage.md), [reports/validation.md](reports/validation.md) |
 
