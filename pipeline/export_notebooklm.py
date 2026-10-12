@@ -1,8 +1,9 @@
 """Stage "export-notebooklm": one self-contained Markdown file per chapter → build/notebooklm/.
 
   build/notebooklm/GIL-NotebookLM-Kontext-Kapitel-N-<Titel>.md   one file per chapter with a learning guide
-  build/notebooklm/GIL-NotebookLM-Kontext.zip                    all of them in one folder
-  build/notebooklm/release-assets.tsv                            zip and chapter files with labels (content_files)
+  build/notebooklm/release-assets.tsv                            the chapter files with labels (content_files)
+
+The stage "release" packs the chapter files into one zip (release_bundle).
 
 Made for NotebookLM and other learning tools that take a document as their only context: one
 chapter's file is all a tool needs to teach that chapter (e.g. one audio overview per chapter).
@@ -25,16 +26,14 @@ committed (nine copies of the script would only bloat the repository).
 from __future__ import annotations
 
 import datetime
-import io
 import json
 import re
-import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 
 from . import catalog, config, content_files, figure_publish
-from .cache import write_bytes_if_changed, write_if_changed
-from .content_files import FOOTER, NOTEBOOKS, ChapterFiles
+from .cache import write_if_changed
+from .content_files import FOOTER, ChapterFiles
 from .exam_report import COVERAGE_LABEL, SOURCE_LABEL, TRUST_LABEL, german_date
 from .export_markdown import EXTERNAL, LINK
 from .qa_markdown import split_frontmatter
@@ -42,7 +41,6 @@ from .qa_markdown import split_frontmatter
 OUT_DIR = config.BUILD / "notebooklm"
 _HEADING = re.compile(r"^(#{1,6})(?=\s)", re.M)
 _FIRST_H1 = re.compile(r"\A\s*# .*\n+")
-_ZIP_TIME = (2024, 1, 1, 0, 0, 0)            # fixed: an unchanged export gives a byte-identical zip
 
 
 def anchor(content_id: str) -> str:
@@ -290,37 +288,19 @@ def build(today: str, content_root: Path | None = None, guides_root: Path | None
     return files
 
 
-def zip_bytes(files: dict[str, str]) -> bytes:
-    """All files in one folder of the zip; fixed timestamps so equal input gives equal bytes."""
-    buf = io.BytesIO()
-    with zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zf:
-        for name in sorted(files):
-            info = zipfile.ZipInfo(f"{NOTEBOOKS.stem}/{name}", date_time=_ZIP_TIME)
-            info.compress_type = zipfile.ZIP_DEFLATED
-            zf.writestr(info, files[name].encode("utf-8"))
-    return buf.getvalue()
-
-
 def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
     files = build(datetime.date.today().strftime("%d.%m.%Y"))
-    zip_name = f"{NOTEBOOKS.stem}.zip"
     if dry_run:
-        print(f"[export-notebooklm] würde {len(files)} Kapiteldateien und {zip_name} nach "
-              f"{OUT_DIR.relative_to(config.ROOT)} schreiben")
+        print(f"[export-notebooklm] würde {len(files)} Kapiteldateien nach {OUT_DIR.relative_to(config.ROOT)} schreiben")
         return 0
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    keep = set(files) | {zip_name, content_files.ASSET_LIST}
+    keep = set(files) | {content_files.ASSET_LIST}
     for stale in [p for p in OUT_DIR.iterdir() if p.is_file() and p.name not in keep]:
         stale.unlink()                       # renamed chapter: the old file must not be released
     changed = sum(write_if_changed(OUT_DIR / name, text) for name, text in files.items())
-    write_bytes_if_changed(OUT_DIR / zip_name, zip_bytes(files))
-    # The zip is the folder of every chapter's file; each file is released on its own as well,
-    # so a single chapter can be added to NotebookLM without unpacking anything.
     names = (content_files.notebook_export(c.slug, c.title) for c in content_files.discover(config.CONTENT))
     labels = {f"{n.stem}.md": n.label for n in names}
-    content_files.write_asset_list(OUT_DIR, [(zip_name, f"{NOTEBOOKS.label} – alle Kapitel (Ordner)"),
-                                             *((name, labels.get(name, Path(name).stem)) for name in sorted(files))])
+    content_files.write_asset_list(OUT_DIR, [(name, labels.get(name, Path(name).stem)) for name in sorted(files)])
     size = max((len(t.encode("utf-8")) for t in files.values()), default=0)
-    print(f"[export-notebooklm] {len(files)} Kapiteldateien ({changed} geändert, größte {size // 1024} KB) "
-          f"+ {zip_name}")
+    print(f"[export-notebooklm] {len(files)} Kapiteldateien ({changed} geändert, größte {size // 1024} KB)")
     return 0

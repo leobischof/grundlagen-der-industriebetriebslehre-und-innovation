@@ -1,10 +1,8 @@
 """NotebookLM export: one self-contained file per chapter, every link an anchor inside it, no picture."""
 from __future__ import annotations
 
-import io
 import json
 import re
-import zipfile
 from pathlib import Path
 
 from pipeline import export_notebooklm, figure_publish
@@ -99,14 +97,6 @@ def test_script_headings_shift_under_the_part_and_the_focus_chapter_is_framed(tm
 
 def test_shift_headings_is_capped_at_h6():
     assert export_notebooklm.shift_headings("# a\n##### b\n#hashtag", 2) == "### a\n###### b\n#hashtag"
-
-
-def test_zip_is_deterministic_and_holds_one_folder(tmp_path: Path):
-    files = _sample(tmp_path)
-    data = export_notebooklm.zip_bytes(files)
-    assert data == export_notebooklm.zip_bytes(dict(reversed(files.items())))
-    names = zipfile.ZipFile(io.BytesIO(data)).namelist()
-    assert names == ["GIL-NotebookLM-Kontext/GIL-NotebookLM-Kontext-Kapitel-2-B.md"]
 
 
 def test_repository_export_is_self_contained():

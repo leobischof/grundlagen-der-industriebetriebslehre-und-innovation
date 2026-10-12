@@ -2,6 +2,8 @@
 
   build/anki/GIL-Anki-Karteikarten.apkg              collection: every chapter, one sub-deck per kind
   build/anki/GIL-Anki-Kapitel-N-<Titel>.apkg         the same cards, one chapter per package
+  build/anki/GIL-Anki-Sammlung-ersetzt-alles.colpkg  the collection as a whole Anki collection: its
+                                                     import replaces everything in Anki, hence the name
   build/anki/release-assets.tsv                      packages with labels (content_files)
   learning/flashcards/skizzieren.md                  overview of the sketch cards (committed)
 
@@ -95,7 +97,10 @@ def _inputs_key() -> str:
 
 def _targets() -> list[tuple[str, str, str | None]]:
     """(file name, label, chapter slug or None for the collection) of every package."""
-    out = [(f"{content_files.ANKI_COMPLETE.stem}.apkg", f"{content_files.ANKI_COMPLETE.label} – alle Kapitel", None)]
+    out = [(f"{content_files.ANKI_COMPLETE.stem}.apkg", f"{content_files.ANKI_COMPLETE.label} – alle Kapitel", None),
+           # genanki writes the legacy package layout (collection.anki2 + media), which Anki also
+           # reads as a collection package: the same writer serves .apkg and .colpkg.
+           (f"{content_files.ANKI_PROFILE.stem}.colpkg", content_files.ANKI_PROFILE.label, None)]
     for c in _chapters():
         name = content_files.anki_export(c.slug, c.title)
         out.append((f"{name.stem}.apkg", name.label, c.slug))
