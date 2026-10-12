@@ -19,7 +19,7 @@ Ergänzungen für Claude:
   Unsicherheit aussprechen.
 - **Git:** Niemand pusht direkt auf `main`, auch nicht im Auftrag von @leobischof. Jede Änderung
   auf einem Feature-Branch (`typ/kurz-beschreibung`), Commits als `typ: beschreibung`, dann Pull
-  Request; nie `--force`, den PR nur mergen, wenn ausdrücklich verlangt (AGENTS.md Abschnitt 7,
+  Request; nie `--force`; mergen per Squash erst bei grüner CI (AGENTS.md Abschnitt 7,
   Regeln in `.github/scripts/conventions.py`).
 - **Pflege statt Lernen:** Wer die Wissensbasis ändert, hält sich an AGENTS.md Abschnitt 6 und
   protokolliert jeden KI-Durchgang über `pipeline/ailog.py` in `curation/ai-log.jsonl`
