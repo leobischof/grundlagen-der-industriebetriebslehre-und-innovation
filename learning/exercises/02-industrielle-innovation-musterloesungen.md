@@ -11,10 +11,10 @@ exam_questions: [frage-2024-03-14-1, frage-2024-06-20-1, frage-2024-10-15-1, fra
 # Prüfungsfragen mit Musterlösung – Kapitel 2: Industrielle Innovation
 
 > **KI-Erklärung, nicht das Skript.** Die Musterlösungen sind KI-erstellt, nicht geprüft und stützen sich nur auf das Skript
-> ([Kapitel 2](../../content/02-industrielle-innovation/README.md)). Die Prüfungsfragen stammen aus Studierendenerinnerungen
+> ([Kapitel 2](../../content/02-industrielle-innovation/02-industrielle-innovation-ueberblick.md)). Die Prüfungsfragen stammen aus Studierendenerinnerungen
 > (Fragensammlung) bzw. einer Abschrift (Klausur 29.04.2026) und sind **nicht verifiziert**; der Wortlaut ist aus
 > [questions.md](../../exams/questions.md) übernommen. Punkte sind nur für die Klausur vom 29.04.2026 bekannt. Die „Bewertungshinweise“ sind
-> eine **Einschätzung**, keine offizielle Beurteilung. Zum Üben: [Lernleitfaden Kapitel 2](../chapters/02-industrielle-innovation.md).
+> eine **Einschätzung**, keine offizielle Beurteilung. Zum Üben: [Lernleitfaden Kapitel 2](../chapters/02-industrielle-innovation-leitfaden.md).
 > Fragen sind chronologisch geordnet.
 
 ---
@@ -108,7 +108,7 @@ Skizze: x-Achse Zeit, y-Achse Umsatz; fünf Phasen durch gestrichelte senkrechte
 
 ### Fundstellen
 
-- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 8 ([Original](../../figures/originals/abb-08.png), [Rekonstruktion](../../figures/reconstructed/abb-08.svg), [Zeichenübung](../drawing-exercises/abb-08.md), [Leerform](../../figures/exercises/abb-08-blank.svg))
+- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 8 ([Original](../../figures/originals/abb-08.png), [Rekonstruktion](../../figures/reconstructed/abb-08.svg), [Zeichenübung](../drawing-exercises/abb-08-zeichenuebung.md), [Leerform](../../figures/exercises/abb-08-blank.svg))
 
 ### Bewertungshinweise (Einschätzung)
 
@@ -166,7 +166,7 @@ Die Ansoff-Matrix ordnet Wachstumsstrategien nach den Dimensionen Produkte (best
 
 ### Fundstellen
 
-- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 11 ([Original](../../figures/originals/abb-11.png), [Rekonstruktion](../../figures/reconstructed/abb-11.svg), [Zeichenübung](../drawing-exercises/abb-11.md), [Leerform](../../figures/exercises/abb-11-blank.svg))
+- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 11 ([Original](../../figures/originals/abb-11.png), [Rekonstruktion](../../figures/reconstructed/abb-11.svg), [Zeichenübung](../drawing-exercises/abb-11-zeichenuebung.md), [Leerform](../../figures/exercises/abb-11-blank.svg))
 
 ### Bewertungshinweise (Einschätzung)
 
@@ -217,7 +217,7 @@ Zu zeichnen ist das Diagramm der Abbildung 8:
 
 ### Fundstellen
 
-- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 8 ([Original](../../figures/originals/abb-08.png), [Rekonstruktion](../../figures/reconstructed/abb-08.svg), [Zeichenübung](../drawing-exercises/abb-08.md), [Leerform](../../figures/exercises/abb-08-blank.svg))
+- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 8 ([Original](../../figures/originals/abb-08.png), [Rekonstruktion](../../figures/reconstructed/abb-08.svg), [Zeichenübung](../drawing-exercises/abb-08-zeichenuebung.md), [Leerform](../../figures/exercises/abb-08-blank.svg))
 
 ### Bewertungshinweise (Einschätzung)
 
@@ -321,7 +321,7 @@ Aufgabentyp: Erklärung und Zeichnung (Abbildung 8). Punkte: **6 P** (Klausur-Ab
 
 ### Fundstellen
 
-- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 8 ([Original](../../figures/originals/abb-08.png), [Rekonstruktion](../../figures/reconstructed/abb-08.svg), [Zeichenübung](../drawing-exercises/abb-08.md), [Leerform](../../figures/exercises/abb-08-blank.svg))
+- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 8 ([Original](../../figures/originals/abb-08.png), [Rekonstruktion](../../figures/reconstructed/abb-08.svg), [Zeichenübung](../drawing-exercises/abb-08-zeichenuebung.md), [Leerform](../../figures/exercises/abb-08-blank.svg))
 
 ### Bewertungshinweise (Einschätzung)
 
@@ -350,7 +350,7 @@ Optional: je Feld ein Beispiel (Kelloggs Cornflakes als Snack; Mercedes Kleinwag
 
 ### Fundstellen
 
-- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 11 ([Original](../../figures/originals/abb-11.png), [Rekonstruktion](../../figures/reconstructed/abb-11.svg), [Zeichenübung](../drawing-exercises/abb-11.md), [Leerform](../../figures/exercises/abb-11-blank.svg))
+- [2.5.1](../../content/02-industrielle-innovation/2.5-arten-der-innovation.md), Abbildung 11 ([Original](../../figures/originals/abb-11.png), [Rekonstruktion](../../figures/reconstructed/abb-11.svg), [Zeichenübung](../drawing-exercises/abb-11-zeichenuebung.md), [Leerform](../../figures/exercises/abb-11-blank.svg))
 
 ### Bewertungshinweise (Einschätzung)
 

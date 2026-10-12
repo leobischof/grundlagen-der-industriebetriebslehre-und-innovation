@@ -6,7 +6,7 @@ Person: Deutsch.
 
 Ergänzungen für Claude:
 
-- **Gezielt lesen, Kontext sparen.** Einstieg über [content/README.md](content/README.md) oder
+- **Gezielt lesen, Kontext sparen.** Einstieg über [content/skript-inhalt.md](content/skript-inhalt.md) oder
   [exams/topic-mapping.json](exams/topic-mapping.json), dann nur den einen Abschnitt bzw. die eine
   Metadatendatei öffnen. Nie ganze Verzeichnisse, die OCR-Schicht (`sources/ocr/`) oder PDFs in den
   Kontext laden. Bilder (`figures/originals/*.png`, Fotos von Skizzen) nur ansehen, wenn Text und

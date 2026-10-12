@@ -30,4 +30,4 @@ Die Industrie ist das Rückgrat jeder höher entwickelten Volkswirtschaft und ve
   - 1.3.3 Demografischer Wandel
   - 1.3.4 Nachhaltigkeit
   - 1.3.5 Innovation für Wettbewerbsfähigkeit
-- [Literatur](literatur.md)
+- [Literatur](01-die-industrie-literatur.md)

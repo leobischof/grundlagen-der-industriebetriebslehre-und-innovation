@@ -11,10 +11,10 @@ exam_questions: [frage-2025-03-18-2, frage-2025-04-09-5, frage-2025-10-15-4]
 # Prüfungsfragen mit Musterlösung – Kapitel 5: Produktentstehung
 
 > **KI-Erklärung, nicht Teil des Skripts.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript abgeleitet
-> ([Kapitel 5](../../content/05-produktentstehung/README.md)) und sind ungeprüft. Die Prüfungsfragen stammen aus
+> ([Kapitel 5](../../content/05-produktentstehung/05-produktentstehung-ueberblick.md)) und sind ungeprüft. Die Prüfungsfragen stammen aus
 > Studierenden-Quellen (Gedächtnisprotokolle) und sind unverifiziert; Wortlaut und Vollständigkeit können abweichen
 > ([alle Fragen](../../exams/questions.md)). Punkte sind für diese Fragen nicht bekannt. Die Bewertungshinweise sind eine
-> Einschätzung, keine offizielle Bewertung. Lernleitfaden: [Kapitel 5](../chapters/05-produktentstehung.md).
+> Einschätzung, keine offizielle Bewertung. Lernleitfaden: [Kapitel 5](../chapters/05-produktentstehung-leitfaden.md).
 > Alle drei echten Fragen liegen in Abschnitt 5.6; für 5.1 bis 5.5 ist keine Prüfungsfrage bekannt, dort gibt es unten Übungsaufgaben.
 
 ## 18.03.2025 · Frage 2 · `frage-2025-03-18-2`
@@ -26,7 +26,7 @@ exam_questions: [frage-2025-03-18-2, frage-2025-04-09-5, frage-2025-10-15-4]
 ### Musterlösung
 
 Zu zeichnen ist ein Venn-Diagramm aus drei sich überlappenden Kreisen, die zusammen in einem umschließenden Kreis liegen
-([Original](../../figures/originals/abb-35.png), [Rekonstruktion](../../figures/reconstructed/abb-35.svg), [Zeichenübung](../drawing-exercises/abb-35.md)). Die drei Kreise sind die drei Hauptaufgabenbereiche der Produktentstehung ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)):
+([Original](../../figures/originals/abb-35.png), [Rekonstruktion](../../figures/reconstructed/abb-35.svg), [Zeichenübung](../drawing-exercises/abb-35-zeichenuebung.md)). Die drei Kreise sind die drei Hauptaufgabenbereiche der Produktentstehung ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)):
 
 - **Strategische Produktplanung** (oben)
 - **Produktentwicklung** (unten links)
@@ -44,7 +44,7 @@ Hinweis: Das Original-Bild enthält laut Kurations-Metadaten den Tippfehler „P
 ### Fundstellen
 
 - [5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md) Kooperatives Produktengineering, Integrationsbereiche (Abbildung 35)
-- [Zeichenübung Abbildung 35](../drawing-exercises/abb-35.md)
+- [Zeichenübung Abbildung 35](../drawing-exercises/abb-35-zeichenuebung.md)
 
 ### Bewertungshinweise (Einschätzung)
 

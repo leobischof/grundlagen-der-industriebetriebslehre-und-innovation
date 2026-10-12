@@ -10,7 +10,7 @@
 
 # --- persönlicher Lernfortschritt: nie committen ---
 /learning/progress/*
-!/learning/progress/README.md
+!/learning/progress/lernfortschritt-anleitung.md
 !/learning/progress/example.json
 
 # --- lokale Umgebung ---

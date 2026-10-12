@@ -11,15 +11,15 @@ Industriebetriebslehre und Innovation* (TU Graz, Skriptum 2024/25).
 
 | Bereich | Inhalt |
 |---|---|
-| [`content/`](content/README.md) | bereinigter Skripttext: 9 Kapitel, 32 Abschnitte, 52 Markdown-Dateien mit Frontmatter, Abbildungen, Fußnoten und Prüfungsbezug |
+| [`content/`](content/skript-inhalt.md) | bereinigter Skripttext: 9 Kapitel, 32 Abschnitte, 52 Markdown-Dateien mit Frontmatter, Abbildungen, Fußnoten und Prüfungsbezug |
 | [`exams/`](exams/questions.md) | 61 Prüfungsfragen im exakten Wortlaut (12 Termine), Themen-Zuordnung und [Häufigkeitsanalyse](exams/frequency-analysis.md) mit transparentem Score |
 | `figures/originals/` | 98 PNG-Ausschnitte aus dem Skript (Abb. 1–85, Tab. 1–7, 6 Formelkästen), [Manifest](figures/manifest.json) |
 | `figures/reconstructed/`, `figures/exercises/` | 16 SVG-Rekonstruktionen der Schwerpunkt-Abbildungen und je eine Blanko-Vorlage zum Nachzeichnen |
-| [`learning/chapters/`](learning/chapters/README.md) | Lernleitfaden je Kapitel (KI-Erklärung, quellengebunden) |
-| [`learning/exercises/`](learning/exercises/README.md) | Musterlösungen zu jeder echten Prüfungsfrage, je Kapitel |
+| [`learning/chapters/`](learning/chapters/leitfaeden-uebersicht.md) | Lernleitfaden je Kapitel (KI-Erklärung, quellengebunden) |
+| [`learning/exercises/`](learning/exercises/musterloesungen-uebersicht.md) | Musterlösungen zu jeder echten Prüfungsfrage, je Kapitel |
 | `learning/drawing-exercises/` | 16 Zeichenübungen mit Merkpunkten |
 | `learning/flashcards/` | 413 Studierenden-Karten (unverifiziert) und 32 [Skizzierkarten](learning/flashcards/skizzieren.md) |
-| [`learning/progress/`](learning/progress/README.md) | lokaler Lernfortschritt mit Wiederholungsplanung (nie committet) |
+| [`learning/progress/`](learning/progress/lernfortschritt-anleitung.md) | lokaler Lernfortschritt mit Wiederholungsplanung (nie committet) |
 | [`AGENTS.md`](AGENTS.md) | Anleitung für Lernagenten: vier Schichten, Quellenbindung, fünf Lernmodi |
 | [`docs/`](docs/architecture.md) | [Architektur](docs/architecture.md), [Pipeline](docs/pipeline.md), [Lernmethode](docs/learning-method.md), [Quellen und Rechte](docs/sources-and-rights.md) |
 | [`reports/`](reports/coverage.md) | [Abdeckung](reports/coverage.md), [Validierung](reports/validation.md), Abgleich Bilderkennung ↔ Kuratierung |

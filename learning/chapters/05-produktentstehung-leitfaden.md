@@ -12,14 +12,14 @@ exam_questions: [frage-2025-03-18-2, frage-2025-04-09-5, frage-2025-10-15-4]
 # Lernleitfaden Kapitel 5: Produktentstehung
 
 > **KI-Erklärung, nicht Teil des Skripts.** Dieser Leitfaden wurde von einer KI aus dem Skripttext erstellt und ist
-> ungeprüft. Maßgeblich ist immer das Skript: [Kapitel 5 – Produktentstehung](../../content/05-produktentstehung/README.md).
+> ungeprüft. Maßgeblich ist immer das Skript: [Kapitel 5 – Produktentstehung](../../content/05-produktentstehung/05-produktentstehung-ueberblick.md).
 > Die genannten Prüfungsfragen stammen aus Studierenden-Quellen und sind unverifiziert
 > ([Prüfungsfragen](../../exams/questions.md)).
 
 ## Überblick
 
 Die Produktentstehung umfasst den Prozess von der Produkt- bzw. Geschäftsidee bis zum Produktionsstart (SOP) und ist Teil des
-Produktlebenszyklus (Kapiteleinleitung, [Kapitel-README](../../content/05-produktentstehung/README.md)). Die Abschnitte 5.1 bis 5.5 legen die
+Produktlebenszyklus (Kapiteleinleitung, [Kapitel-README](../../content/05-produktentstehung/05-produktentstehung-ueberblick.md)). Die Abschnitte 5.1 bis 5.5 legen die
 Grundlagen: Ziele (Ziel-, Handlungs- und Sachsystem), Effektivität und Effizienz sowie die drei Hauptaufgabenbereiche strategische Produktplanung,
 Produktentwicklung und Produktionssystem-Entwicklung. Abschnitt 5.6 ist der mit Abstand größte und prüfungsrelevante Teil: Er zeigt, warum
 Integration nötig ist (Kosten werden früh festgelegt), welche Arten der Integration es gibt (Mensch, Methodik, Organisation, Technik), wie
@@ -29,7 +29,7 @@ Simultaneous/Concurrent Engineering funktioniert und wie sich die drei Aufgabenb
 
 Nach diesem Kapitel kannst du …
 
-1. Produktentstehung als Teil des Produktlebenszyklus abgrenzen (Geschäftsidee bis SOP) ([Kapitel-README](../../content/05-produktentstehung/README.md)).
+1. Produktentstehung als Teil des Produktlebenszyklus abgrenzen (Geschäftsidee bis SOP) ([Kapitel-README](../../content/05-produktentstehung/05-produktentstehung-ueberblick.md)).
 2. Ziel-, Handlungs- und Sachsystem erklären ([5.1](../../content/05-produktentstehung/5.1-ziele-der-produktentstehung.md)).
 3. Effektivität („das richtige Projekt“) und Effizienz („das Projekt richtig“) unterscheiden ([5.2](../../content/05-produktentstehung/5.2-effektivitaet-und-effizienz-in-der-produktentstehung.md)).
 4. die Aufgaben von strategischer Produktplanung, Produktentwicklung und Produktionssystem-Entwicklung beschreiben ([5.3](../../content/05-produktentstehung/5.3-strategische-produktplanung.md)) ([5.4](../../content/05-produktentstehung/5.4-produktentwicklung.md)) ([5.5](../../content/05-produktentstehung/5.5-produktionssystem-entwicklung.md)).
@@ -43,8 +43,8 @@ Nach diesem Kapitel kannst du …
 
 | Begriff | Bedeutung laut Skript | Fundstelle |
 |---|---|---|
-| Produktlebenszyklus | gesamter Prozess von der Geschäftsidee bis zur Verwendung des Produktes durch den Kunden | [Kapitel-README](../../content/05-produktentstehung/README.md) |
-| Produktentstehung | Teil des Produktlebenszyklus: Prozess von Produkt-/Geschäftsidee bis zum Produktionsstart (SOP – Start of Production); drei Hauptaufgabenbereiche: strategische Produktplanung, Produktentwicklung, Produktionssystementwicklung | [Kapitel-README](../../content/05-produktentstehung/README.md), [5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md) |
+| Produktlebenszyklus | gesamter Prozess von der Geschäftsidee bis zur Verwendung des Produktes durch den Kunden | [Kapitel-README](../../content/05-produktentstehung/05-produktentstehung-ueberblick.md) |
+| Produktentstehung | Teil des Produktlebenszyklus: Prozess von Produkt-/Geschäftsidee bis zum Produktionsstart (SOP – Start of Production); drei Hauptaufgabenbereiche: strategische Produktplanung, Produktentwicklung, Produktionssystementwicklung | [Kapitel-README](../../content/05-produktentstehung/05-produktentstehung-ueberblick.md), [5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md) |
 | Zielsystem | alle Ziele, die ein neues Produkt anstrebt; zusammengefasste Zielvorgaben | [5.1](../../content/05-produktentstehung/5.1-ziele-der-produktentstehung.md) |
 | Handlungssystem | ausführendes System mit strukturierten Aktivitäten (z. B. ein Unternehmen mit allen verfügbaren Ressourcen); transformiert Inputs, Zustände und Zielvorgaben der Ausgangssituation in Zustände und Ergebnisse der Endsituation | [5.1](../../content/05-produktentstehung/5.1-ziele-der-produktentstehung.md) |
 | Sachsystem | vom Menschen geschaffen; z. B. Simulationsmodelle, Prototypen, serienreife Produkte bzw. technische Systeme (Maschinen, Maschinenteile, Geräte, Apparate) | [5.1](../../content/05-produktentstehung/5.1-ziele-der-produktentstehung.md) |
@@ -101,7 +101,7 @@ Nach diesem Kapitel kannst du …
 
 ## Abbildungen, die du zeichnen können solltest
 
-- **Abbildung 35 – Integrationsbereiche der Themen Innovationsprozess & Produktentwicklung** ([Original](../../figures/originals/abb-35.png), [Rekonstruktion](../../figures/reconstructed/abb-35.svg), [Zeichenübung](../drawing-exercises/abb-35.md)) · Prüfungsfrage 18.03.2025. Du musst drei überlappende Kreise (Strategische Produktplanung oben, Produktentwicklung unten links, Produktionssystementwicklung unten rechts) zeichnen, die vier Überschneidungsflächen richtig benennen und „Systems Engineering“ in der Mitte eintragen ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)). Schwierigkeit laut Metadaten: mittel.
+- **Abbildung 35 – Integrationsbereiche der Themen Innovationsprozess & Produktentwicklung** ([Original](../../figures/originals/abb-35.png), [Rekonstruktion](../../figures/reconstructed/abb-35.svg), [Zeichenübung](../drawing-exercises/abb-35-zeichenuebung.md)) · Prüfungsfrage 18.03.2025. Du musst drei überlappende Kreise (Strategische Produktplanung oben, Produktentwicklung unten links, Produktionssystementwicklung unten rechts) zeichnen, die vier Überschneidungsflächen richtig benennen und „Systems Engineering“ in der Mitte eintragen ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)). Schwierigkeit laut Metadaten: mittel.
 - **Abbildung 28 – Elemente und Methoden der Integrierten Produkterstellung (Arten der Integration)** ([Original](../../figures/originals/abb-28.png)) · Prüfungsfrage 15.10.2025 (Zuordnung ist laut Prüfungsdatenbank eine Einschätzung). Vier Spalten (Mensch, Methodik, Organisation, Technik) mit Unterpunkten; für die Prüfung genügen vermutlich die vier Namen mit je den Hauptpunkten ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)).
 - **Abbildung 30 – Systematik des Simultaneous Engineering** ([Original](../../figures/originals/abb-30.png)) · Prüfungsfrage 09.04.2025 (zugeordnet). Oben konventionell (sequentiell): Produktplanung, danach Produktionsplanung; unten Simultaneous Engineering (parallel): versetzte, überlappende Balken mit Informationsfluss-Pfeilen dazwischen und der Beschriftung „Reduktion Time-to-Market“ ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)).
 - **Abbildung 29 – Magisches Dreieck der Produktentstehung** ([Original](../../figures/originals/abb-29.png)); nicht direkt gefragt, aber Teil des SE-Themas. Dreieck mit den Ecken Qualität (oben), Zeit (unten links), Kosten (unten rechts) ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)).
@@ -119,12 +119,12 @@ Quelle: [Häufigkeitsanalyse](../../exams/frequency-analysis.md); der Score ist 
 | Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm) | 27 / 2.0 | 18.03.2025: „Skizzieren und bennen Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)“ (`frage-2025-03-18-2`) | [5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md) |
 | Produktentstehung (Ziele, Effektivität/Effizienz, Produktplanung, -entwicklung, Produktionssystem-Entwicklung) | ohne bekannte Prüfungsfrage | – | [5.1](../../content/05-produktentstehung/5.1-ziele-der-produktentstehung.md), [5.2](../../content/05-produktentstehung/5.2-effektivitaet-und-effizienz-in-der-produktentstehung.md), [5.3](../../content/05-produktentstehung/5.3-strategische-produktplanung.md), [5.4](../../content/05-produktentstehung/5.4-produktentwicklung.md), [5.5](../../content/05-produktentstehung/5.5-produktionssystem-entwicklung.md) |
 
-Alle drei bekannten Fragen liegen in 5.6. Musterlösungen: [Übung Kapitel 5](../exercises/05-produktentstehung.md).
+Alle drei bekannten Fragen liegen in 5.6. Musterlösungen: [Übung Kapitel 5](../exercises/05-produktentstehung-musterloesungen.md).
 
 ## Typische Fehler und Verwechslungen
 
 - **Effektivität vs. Effizienz:** das richtige Projekt vs. das Projekt richtig ([5.2](../../content/05-produktentstehung/5.2-effektivitaet-und-effizienz-in-der-produktentstehung.md)).
-- **Produktentstehung ≠ ganzer Produktlebenszyklus:** Sie endet mit dem Produktionsstart (SOP); der Lebenszyklus reicht bis zur Verwendung durch den Kunden ([Kapitel-README](../../content/05-produktentstehung/README.md)).
+- **Produktentstehung ≠ ganzer Produktlebenszyklus:** Sie endet mit dem Produktionsstart (SOP); der Lebenszyklus reicht bis zur Verwendung durch den Kunden ([Kapitel-README](../../content/05-produktentstehung/05-produktentstehung-ueberblick.md)).
 - **Zielsystem – Handlungssystem – Sachsystem nicht vertauschen:** Ziele / ausführende Aktivitäten (z. B. Unternehmen mit Ressourcen) / geschaffenes technisches Gebilde ([5.1](../../content/05-produktentstehung/5.1-ziele-der-produktentstehung.md)).
 - **Die drei SE-Prinzipien** heißen Parallelisierung, Integration, Standardisierung – nicht zu verwechseln mit den *drei Zielen* des magischen Dreiecks (Kosten, Zeit, Qualität) ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)).
 - **SE vs. CE:** oft synonym; nur ein *möglicher* Unterschied im Fokus (CE: Schnittstellen, SE: Parallelisierung) ([5.6](../../content/05-produktentstehung/5.6-integration-im-produktentstehungsprozess.md)).
@@ -138,7 +138,7 @@ Alle drei bekannten Fragen liegen in 5.6. Musterlösungen: [Übung Kapitel 5](..
 1. Wie hängen Produktentstehung und Produktlebenszyklus zusammen?
    <details><summary>Lösung</summary>
 
-   Der Produktlebenszyklus beschreibt den gesamten Prozess von der Geschäftsidee bis zur Verwendung durch den Kunden; die Produktentstehung ist ein Teil davon und reicht von der Produkt- bzw. Geschäftsidee bis zum Produktionsstart (SOP) ([Kapitel-README](../../content/05-produktentstehung/README.md)).
+   Der Produktlebenszyklus beschreibt den gesamten Prozess von der Geschäftsidee bis zur Verwendung durch den Kunden; die Produktentstehung ist ein Teil davon und reicht von der Produkt- bzw. Geschäftsidee bis zum Produktionsstart (SOP) ([Kapitel-README](../../content/05-produktentstehung/05-produktentstehung-ueberblick.md)).
    </details>
 2. Was ist Ziel des Produktentstehungsprozesses in Begriffen von Ziel-, Handlungs- und Sachsystem?
    <details><summary>Lösung</summary>

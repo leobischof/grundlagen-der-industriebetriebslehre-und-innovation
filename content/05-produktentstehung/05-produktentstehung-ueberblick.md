@@ -51,4 +51,4 @@ Diese Fußnoten stehen auf den Seiten dieses Abschnitts, ihr Verweiszeichen im T
 - [5.4 Produktentwicklung](5.4-produktentwicklung.md) · S. 78
 - [5.5 Produktionssystem-Entwicklung](5.5-produktionssystem-entwicklung.md) · S. 79
 - [5.6 Integration im Produktentstehungsprozess](5.6-integration-im-produktentstehungsprozess.md) · S. 79–93 – 10 Abb./Formeln, 3 Prüfungsfragen
-- [Literatur](literatur.md)
+- [Literatur](05-produktentstehung-literatur.md)

@@ -128,35 +128,39 @@ class RepoView:
     def topic_mapping(self) -> dict | None:
         return self.json(config.EXAMS / "topic-mapping.json")
 
-    # --- markdown ------------------------------------------------------------------
-    def _git_markdown(self) -> list[str] | None:
-        """Tracked + untracked-but-not-ignored .md files, or None outside a git work tree."""
+    # --- committed files ---------------------------------------------------------
+    def _git_files(self, pattern: str) -> list[str] | None:
+        """Tracked + untracked-but-not-ignored files matching `pattern`, or None outside a git work tree."""
         if not (self.root / ".git").exists() or not shutil.which("git"):
             return None
         res = subprocess.run(["git", "-C", str(self.root), "ls-files", "-co", "--exclude-standard",
-                              "-z", "--", "*.md"], capture_output=True)
+                              "-z", "--", pattern], capture_output=True)
         if res.returncode != 0:
             return None
         return [p for p in res.stdout.decode("utf-8").split("\0") if p]
 
-    def _walk_markdown(self) -> list[str]:
+    def _walk_files(self, pattern: str) -> list[str]:
         out = []
-        for p in self.root.rglob("*.md"):
+        for p in self.root.rglob(pattern):
             parts = p.relative_to(self.root).parts
-            if not any(part in _NOT_COMMITTED for part in parts):
+            if p.is_file() and not any(part in _NOT_COMMITTED for part in parts):
                 out.append(p.relative_to(self.root).as_posix())
         return out
+
+    def committed(self, pattern: str = "*") -> list[str]:
+        """Repository-relative paths of every file that is (or will be) committed, sorted.
+
+        Files deleted from the work tree but still tracked are left out."""
+        rels = self._git_files(pattern)
+        rels = rels if rels is not None else self._walk_files(pattern)
+        return sorted(r for r in rels if (self.root / r).is_file())
 
     @cached_property
     def markdown(self) -> list[MdFile]:
         """Every Markdown file that is (or will be) committed."""
-        rels = self._git_markdown()
-        rels = sorted(rels if rels is not None else self._walk_markdown())
         files = []
-        for rel in rels:
+        for rel in self.committed("*.md"):
             path = self.root / rel
-            if not path.is_file():          # deleted but still tracked
-                continue
             text = path.read_text(encoding="utf-8")
             meta, body, err = split_frontmatter(text)
             files.append(MdFile(path, rel, text, meta, body, err))

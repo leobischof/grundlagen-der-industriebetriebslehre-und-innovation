@@ -33,8 +33,30 @@ FIG_EXERCISES = FIGURES / "exercises"
 FIG_MANIFEST = FIGURES / "manifest.json"
 EXAMS = ROOT / "exams"
 LEARNING = ROOT / "learning"
-DRAWING_GUIDES = LEARNING / "drawing-exercises"   # one <figure id>.md per reconstructed figure
+DRAWING_GUIDES = LEARNING / "drawing-exercises"   # one drawing_guide_name(id) per reconstructed figure
 REPORTS = ROOT / "reports"
+
+# --- file names ---------------------------------------------------------------
+# Every file name is unique across the repository (checked by `validate`), so the whole tree can
+# be loaded flat into a tool like NotebookLM. Hence no README.md/literatur.md per folder: the
+# distinguishing part goes at the end of the name.
+CONTENT_INDEX_NAME = "skript-inhalt.md"
+
+
+def drawing_guide_name(fig_id: str) -> str:
+    """Drawing guide of one figure, e.g. abb-45-zeichenuebung.md – never just abb-45.md, which
+    would share its name with the PNG, the SVG and the curation YAML of the same figure."""
+    return f"{fig_id}-zeichenuebung.md"
+
+
+def chapter_overview_name(slug: str) -> str:
+    """Chapter intro + table of contents, e.g. 01-die-industrie-ueberblick.md."""
+    return f"{slug}-ueberblick.md"
+
+
+def chapter_literature_name(slug: str) -> str:
+    return f"{slug}-literatur.md"
+
 SCHEMAS = ROOT / "schemas"
 
 # --- build cache (git-ignored, always reproducible) ---------------------------

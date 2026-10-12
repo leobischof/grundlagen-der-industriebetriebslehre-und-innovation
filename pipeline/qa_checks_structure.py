@@ -43,7 +43,7 @@ def toc_pages(view: RepoView) -> set[int]:
 
 
 def content_pages(view: RepoView) -> set[int]:
-    """Pages claimed by any content file – sections (sec-*), but also chapter READMEs (kap-*)
+    """Pages claimed by any content file – sections (sec-*), but also chapter overviews (kap-*)
     and reference lists (lit-*), which carry the chapter title and literature pages."""
     return {int(p) for f in view.content_files if f.meta for p in (f.meta.get("pdf_pages") or [])
             if isinstance(p, int)}
@@ -113,17 +113,19 @@ def check_sections(view: RepoView) -> list[Finding]:
 def _chapter_files(view: RepoView) -> list[Finding]:
     out = []
     content = view.path(config.CONTENT)
-    if not (content / "README.md").exists():
-        out.append(error(SECTIONS, "`content/README.md` fehlt"))
+    if not (content / config.CONTENT_INDEX_NAME).exists():
+        out.append(error(SECTIONS, f"`content/{config.CONTENT_INDEX_NAME}` fehlt"))
     for ch in view.structure.get("chapters", []):
         folder = content / ch["slug"]
         if ch["id"] == "00":
             continue
-        if not (folder / "README.md").exists():
-            out.append(error(SECTIONS, f"Kapitel-README fehlt: `content/{ch['slug']}/README.md`"))
+        overview = config.chapter_overview_name(ch["slug"])
+        if not (folder / overview).exists():
+            out.append(error(SECTIONS, f"Kapitelüberblick fehlt: `content/{ch['slug']}/{overview}`"))
         has_lit = any(e.get("kind") == "literature" for e in ch.get("entries", []))
-        if has_lit and not (folder / "literatur.md").exists():
-            out.append(error(SECTIONS, f"Literaturverzeichnis fehlt: `content/{ch['slug']}/literatur.md`"))
+        literature = config.chapter_literature_name(ch["slug"])
+        if has_lit and not (folder / literature).exists():
+            out.append(error(SECTIONS, f"Literaturverzeichnis fehlt: `content/{ch['slug']}/{literature}`"))
     return out
 
 

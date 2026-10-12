@@ -17,6 +17,7 @@ Fehler lassen den Lauf scheitern (Exit-Code 1); Warnungen und Hinweise nicht.
 | Prüfungsfragen | 0 | 0 | 0 |
 | Links | 0 | 0 | 0 |
 | Fußnoten | 0 | 1 | 0 |
+| Dateinamen | 0 | 0 | 0 |
 
 ## Warnungen
 

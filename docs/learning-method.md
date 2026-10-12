@@ -3,7 +3,7 @@
 Wie der Lernagent mit der Wissensbasis arbeitet, steht in [AGENTS.md](../AGENTS.md). Dieses Dokument
 begründet das **Verfahren dahinter**: was gespeichert wird, wie Wiederholungen geplant werden und
 warum. Code: `pipeline/srs.py` (Planung, reine Funktionen), `pipeline/progress_store.py` (Datei),
-`pipeline/progress.py` (Kommandozeile). Format und Befehle: [learning/progress/README.md](../learning/progress/README.md).
+`pipeline/progress.py` (Kommandozeile). Format und Befehle: [learning/progress/lernfortschritt-anleitung.md](../learning/progress/lernfortschritt-anleitung.md).
 
 ## Didaktische Grundlage
 

@@ -75,7 +75,7 @@ def figures(view: RepoView) -> dict:
             "svg": _layer(view, config.FIG_RECONSTRUCTED, f"{fid}.svg"),
             "status": status,
             "exercise": _layer(view, config.FIG_EXERCISES, f"{fid}-blank.svg"),
-            "guide": _layer(view, config.DRAWING_GUIDES, f"{fid}.md"),
+            "guide": _layer(view, config.DRAWING_GUIDES, config.drawing_guide_name(fid)),
             "embedded": fid in embedded,
             "exam": (meta.get("exam_relevance") or {}).get("level"),
         })

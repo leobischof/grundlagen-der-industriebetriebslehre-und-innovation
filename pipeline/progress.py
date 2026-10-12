@@ -1,6 +1,6 @@
 """Local learning-progress CLI: `python -m pipeline.progress <show|record|due|reset>`.
 
-Examples (German UI, see learning/progress/README.md):
+Examples (German UI, see learning/progress/lernfortschritt-anleitung.md):
   python -m pipeline.progress record abb-08 zeichnung 3 --fehler "Achsen vergessen" --skizze ja
   python -m pipeline.progress due
   python -m pipeline.progress show --thema sec-2.5

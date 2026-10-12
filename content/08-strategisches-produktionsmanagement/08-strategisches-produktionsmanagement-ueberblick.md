@@ -37,4 +37,4 @@ Im Folgenden werden ausgewählte Kapitel des strategischen Produktionsmanagement
   - 8.3.1 Begriffserklärung und Ziele
   - 8.3.2 Strategische Bedeutung
   - 8.3.3 Ökologische Nachhaltigkeit im Industriekontext
-- [Literatur](literatur.md)
+- [Literatur](08-strategisches-produktionsmanagement-literatur.md)

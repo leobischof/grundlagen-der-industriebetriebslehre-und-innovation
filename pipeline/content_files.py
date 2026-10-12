@@ -1,7 +1,7 @@
 """Which content/ files make up a chapter, in reading order (shared by every export).
 
-A chapter directory is `NN-slug`; its files are README, the sections in numeric order
-(2.1, 2.2, … 2.10 – not string order) and literatur.md. Deliberately free of PDF and
+A chapter directory is `NN-slug`; its files are the overview (`NN-slug-ueberblick.md`), the
+sections in numeric order (2.1, 2.2, … 2.10 – not string order) and `NN-slug-literatur.md`. Deliberately free of PDF and
 image libraries, so light stages and CI tests can use it.
 """
 from __future__ import annotations
@@ -10,6 +10,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+from . import config
 from .qa_markdown import split_frontmatter
 
 # Base names of the export files (PDF and Markdown), and the line every export carries.
@@ -24,7 +25,7 @@ _CHAPTER_DIR = re.compile(r"^\d\d-")
 class ChapterFiles:
     slug: str
     title: str
-    files: list[Path]                        # README, sections in numeric order, literatur
+    files: list[Path]                        # overview, sections in numeric order, literature
 
 
 def _section_order(path: Path) -> tuple[int, int]:
@@ -36,7 +37,8 @@ def discover(content_root: Path) -> list[ChapterFiles]:
     """Chapter directories in slug order; files in reading order; empty chapters skipped."""
     chapters = []
     for directory in sorted(p for p in content_root.iterdir() if p.is_dir() and _CHAPTER_DIR.match(p.name)):
-        readme, literature = directory / "README.md", directory / "literatur.md"
+        readme = directory / config.chapter_overview_name(directory.name)
+        literature = directory / config.chapter_literature_name(directory.name)
         sections = sorted((p for p in directory.glob("*.md") if _SECTION_FILE.match(p.name)), key=_section_order)
         files = [p for p in (readme, *sections, literature) if p.exists()]
         if not files:

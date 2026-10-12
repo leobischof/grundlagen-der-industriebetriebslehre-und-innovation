@@ -31,4 +31,4 @@ Dabei wird erklärt, wie innovative Ideen entstehen, daraus neue Produkte entwic
   - 4.2.3 Haupttypen des Entrepreneurship
   - 4.2.4 Entrepreneurship-Prozess
   - 4.2.5 Persönlichkeitsmerkmale für erfolgreiches Entrepreneurship
-- [Literatur](literatur.md)
+- [Literatur](04-grundlagen-der-innovation-literatur.md)

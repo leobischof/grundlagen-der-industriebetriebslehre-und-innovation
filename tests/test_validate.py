@@ -65,12 +65,12 @@ def _missing_questions(root):
 
 
 def _broken_link(root):
-    path = root / "content" / "README.md"
+    path = root / "content" / config.CONTENT_INDEX_NAME
     path.write_text(path.read_text(encoding="utf-8") + "\n[weg](gibt-es-nicht.md)\n", encoding="utf-8")
 
 
 def _link_outside(root):
-    path = root / "content" / "README.md"
+    path = root / "content" / config.CONTENT_INDEX_NAME
     path.write_text(path.read_text(encoding="utf-8") + "\n[raus](../../ausserhalb.md)\n", encoding="utf-8")
 
 
@@ -111,6 +111,11 @@ def _unknown_mapping_question(root):
           {"topics": [], "by_section": {"1.1": ["frage-2020-01-01-1"]}, "by_figure": {}})
 
 
+def _duplicate_file_name(root):
+    # Same name in another folder – indistinguishable once the files are loaded flat (NotebookLM).
+    write(root, config.LEARNING / "Literatur" / config.chapter_literature_name("01-test"), "# Kopie\n")
+
+
 @pytest.mark.parametrize("breakage, expected", [
     (_unassigned_page, "weder einem Abschnitt zugeordnet"),
     (_missing_section, "Abschnitt 1.2"),
@@ -123,6 +128,7 @@ def _unknown_mapping_question(root):
     (_broken_link, "gibt-es-nicht.md` – Ziel existiert nicht"),
     (_link_outside, "aus dem Repository heraus"),
     (_footnote_without_definition, "Fußnotenverweise ohne Definition ['7']"),
+    (_duplicate_file_name, "Dateiname `01-test-literatur.md` kommt 2-mal vor"),
     (_invalid_frontmatter, "layer"),
     (_invalid_figure_meta, "'drawing' is a required property"),
     (_stale_manifest, "manifest.json ist veraltet"),

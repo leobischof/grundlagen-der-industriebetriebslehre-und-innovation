@@ -226,7 +226,7 @@ def _protect_math_and_refs(text: str, raw: _Raw, assets: Assets, source: str, pr
 
 def convert(text: str, source: Path, assets: Assets, heading_shift: int = 0, h1_shift: int | None = None) -> Converted:
     """One content file → HTML. `source` is the file path (relative links resolve against it).
-    `h1_shift` overrides the shift of `# ` headings only (chapter README: h1 stays, rest moves down)."""
+    `h1_shift` overrides the shift of `# ` headings only (chapter overview: h1 stays, rest moves down)."""
     meta, body = split_frontmatter(text)
     anchored, defs, unanchored = _classify_footnotes(_prepare_markdown(_COMMENT.sub("", body)))
     problems: list[str] = []
@@ -247,7 +247,7 @@ def convert(text: str, source: Path, assets: Assets, heading_shift: int = 0, h1_
 
 def _shift_headings(text: str, shift: int, h1_shift: int | None = None) -> str:
     """Shift `<hN>…</hN>` pairs by `shift` levels (cap h6); h1 uses `h1_shift` when given.
-    A chapter README's h1 stays chapter level, a section's `# 2.5` becomes h2, so bookmarks
+    A chapter overview's h1 stays chapter level, a section's `# 2.5` becomes h2, so bookmarks
     nest chapter > section > subsection."""
     def repl(m: re.Match) -> str:
         own = h1_shift if (m.group(1) == "1" and h1_shift is not None) else shift

@@ -57,7 +57,7 @@ Regeln:
 | `curation/figures/<id>.yaml` | strukturierte Beschreibung einer Abbildung (Schicht B, unten) | kuratiert (KI, protokolliert) |
 | `curation/ocr-corrections.yaml`, `topics.yaml`, `exams.yaml` | OCR-Korrekturen, Themenkatalog, Prüfungsquellen | kuratiert |
 | `curation/ai-log.jsonl` | jeder KI-Aufruf mit geschätzten Tokens | nur anhängen |
-| `content/` | bereinigter Skripttext, eine Datei je Abschnitt X.Y | generiert (`build-content`) |
+| `content/` | bereinigter Skripttext, eine Datei je Abschnitt X.Y; `skript-inhalt.md`, je Kapitel `<kapitel>-ueberblick.md` und `<kapitel>-literatur.md` | generiert (`build-content`) |
 | `figures/originals/<id>.png` | Originalausschnitt jeder Abbildung (200 dpi) | generiert (`extract-figures`) |
 | `figures/reconstructed/<id>.svg` | Vektor-Rekonstruktion (Schicht C) | kuratiert (KI, protokolliert) |
 | `figures/exercises/<id>-blank.svg` | Zeichenübung: Rekonstruktion ohne Antworten (Schicht D) | generiert (`exercises`) |
@@ -65,15 +65,36 @@ Regeln:
 | `exams/questions.json`, `questions.md` | Prüfungsfragen-Datenbank | generiert (`exams`) |
 | `exams/topic-mapping.json` | Themen ↔ Abschnitte ↔ Abbildungen ↔ Fragen | generiert (`exams`/`link`) |
 | `exams/frequency-analysis.md` | Häufigkeit und Priorität der Themen | generiert (`exams`) |
-| `learning/drawing-exercises/<id>.md` | Zeichenanleitung je Schwerpunkt-Abbildung | generiert (`exercises`) |
+| `learning/drawing-exercises/<id>-zeichenuebung.md` | Zeichenanleitung je Schwerpunkt-Abbildung | generiert (`exercises`) |
 | `learning/flashcards/<deck>.*` | Anki-Karten der Studierenden, **unverifiziert** | generiert (`flashcards`) |
 | `learning/flashcards/skizzieren.md` | Skizzierkarten: „Skizziere …“ → Originalabbildung | generiert (`anki`) |
-| `learning/progress/` | persönlicher Lernfortschritt | lokal, git-ignoriert (außer README, Beispiel) |
+| `learning/chapters/<kapitel>-leitfaden.md` | Lernleitfaden je Kapitel (Übersicht: `leitfaeden-uebersicht.md`) | kuratiert (KI, protokolliert) |
+| `learning/exercises/<kapitel>-musterloesungen.md` | Musterlösungen je Kapitel (Übersicht: `musterloesungen-uebersicht.md`) | kuratiert (KI, protokolliert) |
+| `learning/progress/` | persönlicher Lernfortschritt | lokal, git-ignoriert (außer `lernfortschritt-anleitung.md`, Beispiel) |
 | `reports/` | Validierung, Abdeckung, Bilderkennung, Beschriftungsabgleich | generiert |
 | `schemas/` | JSON-Schemas der Formate | von Hand, versioniert |
 | `build/` | Cache, Stempel, PDF-Export | lokal, git-ignoriert, reproduzierbar |
 | `pipeline/` | Python-Code, eine Stufe je Modul | Code |
 | `tests/` | pytest, läuft offline auf einem Mini-Baum | Code |
+
+### Dateinamen: jeder Name nur einmal
+
+Jede Datei im Repository hat einen Namen, den es sonst nirgends gibt – auch nicht in einem
+anderen Ordner und auch nicht in anderer Groß-/Kleinschreibung. Wer Dateien ohne ihre Ordner
+lädt (NotebookLM, Gist, flacher Download), sieht nur den Namen; zwei `README.md` oder zwei
+`abb-08.md` wären dort nicht zu unterscheiden oder würden einander überschreiben.
+
+- Der unterscheidende Zusatz steht **hinten**: `<kapitel>-ueberblick.md`, `<kapitel>-leitfaden.md`,
+  `<kapitel>-musterloesungen.md`, `<id>-zeichenuebung.md`, `<id>-blank.svg`. So bleiben die Dateien
+  eines Kapitels bzw. einer Abbildung alphabetisch beieinander.
+- Einzige `README.md` ist die im Wurzelverzeichnis; Ordnerübersichten heißen nach ihrem Inhalt
+  (`skript-inhalt.md`, `leitfaeden-uebersicht.md`).
+- Gleiche Stämme mit verschiedener Endung (`abb-08.png`, `abb-08.svg`, `abb-08.yaml`) sind erlaubt;
+  der Name ist samt Endung eindeutig.
+- Generierte Namen entstehen nur in `pipeline/config.py` (`chapter_overview_name`,
+  `chapter_literature_name`, `drawing_guide_name`, `CONTENT_INDEX_NAME`).
+- `validate` prüft das (Gruppe „Dateinamen“, [`qa_checks_names.py`](../pipeline/qa_checks_names.py))
+  und meldet jede Doppelung als Fehler.
 
 ## Formate (Verträge)
 
@@ -81,7 +102,7 @@ Regeln:
 
 Eine Datei je Abschnitt X.Y; tiefere Gliederungsebenen sind Überschriften darin. Je Kapitel
 zusätzlich `README.md` (`id: kap-NN`, Einleitung und Inhaltsverzeichnis) und `literatur.md`
-(`id: lit-NN`), dazu `content/README.md` als Gesamtübersicht.
+(`id: lit-NN`), dazu `content/skript-inhalt.md` als Gesamtübersicht.
 Schema: [`section-frontmatter.schema.json`](../schemas/section-frontmatter.schema.json).
 
 ```yaml
@@ -118,7 +139,7 @@ Verweisstelle nicht sicher zu finden war, unter `## Fußnoten ohne sicheren Text
 | A · Original | `figures/originals/<id>.png` | jede kuratierte Abbildung |
 | B · Metadaten | `curation/figures/<id>.yaml` | die prüfungsrelevanten Schwerpunkt-Abbildungen (`PRIORITY_FIGURES` in `pipeline/qa_checks_figures.py`), sonst optional |
 | C · Rekonstruktion | `figures/reconstructed/<id>.svg` | sobald die Metadaten `reconstruction.status: faithful` oder `needs_review` nennen |
-| D · Übung | `figures/exercises/<id>-blank.svg` + `learning/drawing-exercises/<id>.md` | erwartet für jede geprüfte (`faithful`) Rekonstruktion |
+| D · Übung | `figures/exercises/<id>-blank.svg` + `learning/drawing-exercises/<id>-zeichenuebung.md` | erwartet für jede geprüfte (`faithful`) Rekonstruktion |
 
 IDs: `abb-NN` (Abbildung NN), `tab-NN` (Tabelle), `formel-*`, `abb-u<Seite>` (unbeschriftete Grafik).
 
@@ -157,7 +178,7 @@ Jede Frage trägt außerdem `trust` (Vertrauensstufe ihrer Quelle, siehe
 
 ### Lernfortschritt
 
-Lokal, je Thema und Kompetenz: [`learning/progress/README.md`](../learning/progress/README.md),
+Lokal, je Thema und Kompetenz: [`learning/progress/lernfortschritt-anleitung.md`](../learning/progress/lernfortschritt-anleitung.md),
 Schema [`progress.schema.json`](../schemas/progress.schema.json), Verfahren
 [learning-method.md](learning-method.md).
 
@@ -175,5 +196,5 @@ Eine Stufe je Modul unter `pipeline/`, jede mit `run(pages=None, dry_run=False, 
 registriert in `pipeline/__main__.py`. Geteilte Bausteine: `config` (Pfade, Konstanten), `catalog`
 (Zugriff auf `curation/`), `cache` (SHA-256-Cache, `write_if_changed`). Die Qualitätsprüfung ist in
 kleine Module je Belang geteilt (`qa_checks_structure`, `qa_checks_figures`, `qa_checks_exams`,
-`qa_checks_links`) und arbeitet über `qa_repo.RepoView`, damit die Tests sie auf einem Mini-Baum
+`qa_checks_links`, `qa_checks_names`) und arbeitet über `qa_repo.RepoView`, damit die Tests sie auf einem Mini-Baum
 ausführen können.

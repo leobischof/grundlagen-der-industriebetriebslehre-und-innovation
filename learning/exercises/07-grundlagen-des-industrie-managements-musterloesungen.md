@@ -10,7 +10,7 @@ exam_questions: [frage-2025-12-11-4]
 
 # Prüfungsfragen mit Musterlösung – Kapitel 7: Grundlagen des Industrie Managements
 
-> **KI-Erklärung, nicht das Skript.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript ([Kapitel 7](../../content/07-grundlagen-des-industrie-managements/README.md)) abgeleitet und sind nicht fachlich geprüft. Die Prüfungsfragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle bzw. Abschrift einer Klausur) und sind weder amtlich noch verifiziert; Wortlaut und Zuordnung können abweichen. Die Bewertungshinweise sind Einschätzungen, keine offizielle Beurteilung. Alle Fragen im Überblick: [`exams/questions.md`](../../exams/questions.md).
+> **KI-Erklärung, nicht das Skript.** Die Musterlösungen wurden von einer KI ausschließlich aus dem Skript ([Kapitel 7](../../content/07-grundlagen-des-industrie-managements/07-grundlagen-des-industrie-managements-ueberblick.md)) abgeleitet und sind nicht fachlich geprüft. Die Prüfungsfragen stammen aus Studierenden-Quellen (Gedächtnisprotokolle bzw. Abschrift einer Klausur) und sind weder amtlich noch verifiziert; Wortlaut und Zuordnung können abweichen. Die Bewertungshinweise sind Einschätzungen, keine offizielle Beurteilung. Alle Fragen im Überblick: [`exams/questions.md`](../../exams/questions.md).
 
 Für dieses Kapitel ist in den vorliegenden Quellen genau eine Frage bekannt.
 

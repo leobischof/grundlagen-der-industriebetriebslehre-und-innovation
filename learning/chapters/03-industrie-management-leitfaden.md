@@ -12,7 +12,7 @@ exam_questions: [frage-2024-03-14-4, frage-2025-03-18-3, frage-2025-12-11-2, fra
 # Lernleitfaden Kapitel 3: Industrie Management
 
 > **KI-Erklärung, nicht das Skript.** Dieser Leitfaden wurde von einer KI erstellt und ist nicht geprüft. Maßgeblich ist
-> das Skript ([Kapitel 3 – Industrie Management](../../content/03-industrie-management/README.md)). Jede Aussage trägt eine
+> das Skript ([Kapitel 3 – Industrie Management](../../content/03-industrie-management/03-industrie-management-ueberblick.md)). Jede Aussage trägt eine
 > Fundstelle; Unsicheres (OCR, Skript-Lücken) ist markiert. Die genannten Prüfungsfragen stammen aus Studierendenerinnerungen bzw. einer
 > Abschrift und sind **nicht verifiziert**.
 
@@ -137,7 +137,7 @@ Die Überschrift im Skript lautet „Abgrenzung … im Kontext der Wirtschaftswi
 ## Abbildungen, die du zeichnen können solltest
 
 - **Abbildung 15 – Arbeitssystem nach REFA** ([Original](../../figures/originals/abb-15.png), [Rekonstruktion](../../figures/reconstructed/abb-15.svg),
-  [Zeichenübung](../drawing-exercises/abb-15.md), [Leerform](../../figures/exercises/abb-15-blank.svg)): Systemgrenze, Mensch und Betriebsmittel (Doppelpfeil), Eingabe links, Ausgabe rechts, Prozess und Arbeitsablauf,
+  [Zeichenübung](../drawing-exercises/abb-15-zeichenuebung.md), [Leerform](../../figures/exercises/abb-15-blank.svg)): Systemgrenze, Mensch und Betriebsmittel (Doppelpfeil), Eingabe links, Ausgabe rechts, Prozess und Arbeitsablauf,
   oben Unternehmensziel → Arbeitsaufgabe, Umwelteinflüsse als Doppelpfeil. Prüfungsrelevant (zwei Termine, auch als Zeichenaufgabe). Häufige Fehler: Ziel/Aufgabe vergessen, Umwelteinflüsse als einfacher Pfeil, Mensch/Betriebsmittel hintereinander statt zusammenwirkend.
 - **Abbildungen 12, 13, 14 – Abgrenzung des Industrieunternehmens** ([abb-12](../../figures/originals/abb-12.png), [abb-13](../../figures/originals/abb-13.png), [abb-14](../../figures/originals/abb-14.png)):
   der Frage zur Definition und Abgrenzung zugeordnet; keine Rekonstruktion und keine Zeichenübung vorhanden. Der Inhalt oben stammt aus der Ansicht der Originale.
@@ -157,7 +157,7 @@ Quelle: [Häufigkeitsanalyse](../../exams/frequency-analysis.md); Fragen im Wort
 Ohne bekannte Prüfungsfrage: **3.2 Produktion als Kernaufgabe (Produktionsprozess, Produktionsfaktoren, Logistik)** sowie die Abgrenzung in 3.3 (nur indirekt über die Frage vom 18.03.2025).
 
 Wichtiger Hinweis zur Frage vom 22.01.2026 („vier Merkmale von Industriebetrieben“): Die Zuordnung führt auf Abschnitt 3.1.1, die vollständige Liste von **sieben Merkmalen** (ab vier erfüllten: Industriebetrieb) steht aber in **1.2.3**
-([Kapitel 1](01-die-industrie.md)). Die Frage ist daher im Skript nur teilweise innerhalb von Kapitel 3 abgedeckt. Musterlösungen: [Übungsdatei Kapitel 3](../exercises/03-industrie-management.md).
+([Kapitel 1](01-die-industrie-leitfaden.md)). Die Frage ist daher im Skript nur teilweise innerhalb von Kapitel 3 abgedeckt. Musterlösungen: [Übungsdatei Kapitel 3](../exercises/03-industrie-management-musterloesungen.md).
 
 ## Typische Fehler und Verwechslungen
 
