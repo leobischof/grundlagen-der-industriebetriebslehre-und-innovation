@@ -29,6 +29,13 @@ OUT = config.OCR_DIR / "skript-pages.jsonl"
 _GOOD = re.compile(r"^[\wÄÖÜäöüß.,;:!?()\[\]\-–—/%&'\"„“”‚‘’§+=*<>°€$#@…]+$")
 _MIXED = re.compile(r"[A-Za-zÄÖÜäöüß]+\d+[A-Za-zÄÖÜäöüß]+")   # "Inno4vation"
 LOW_QUALITY = 0.08          # share of suspicious tokens that marks a page as weak
+# Footnote block without a separator rule: starts with a number-like token ("43", "1u6")
+# or a garbled number before "Vgl."/"ibidem", after a clear gap, low on the page, left-aligned.
+# Numbered headings ("9.1.4 Das Bestandsdilemma") look alike and are excluded.
+_NOTE_START = re.compile(r"^\s*(?!\d+[.\-]\d)(?:\S{0,3}\d\S{0,2}\s+\S|\S{1,3}\s+(?:Vg|vg|[\]Ii1l]bid))")
+NOTE_MIN_GAP = 28.0         # pt between the last body line and the first footnote
+NOTE_MAX_X0 = 90.0
+NOTE_REGION = 0.7           # footnote blocks start below this fraction of the page height
 
 
 def _band(bbox, top: float, body_bottom: float, bottom: float) -> str:
@@ -59,6 +66,38 @@ def _quality(words: list[str]) -> dict:
             "low": ratio > LOW_QUALITY, "examples": bad[:8]}
 
 
+def _footer_footnotes(lines: list[dict]) -> None:
+    """Footnotes printed so low that they fall into the footer band.
+
+    The footer holds only the page number, the institute line and the professor's
+    name; a left-aligned footer line longer than a page number is a footnote.
+    """
+    for ln in lines:
+        if ln["band"] == "footer" and ln["bbox"][0] < NOTE_MAX_X0 and len(ln["text"].strip()) > 5:
+            ln["band"] = "footnote"
+
+
+def _late_footnotes(lines: list[dict], H: float) -> None:
+    """Re-band the footnote block of pages where the separator rule was not detected.
+
+    `footnote_top` finds the short rule above the footnotes; on some scans it is too
+    faint and the footnotes end up in the body band. They are recognised by layout
+    instead: a clear gap, then only left-aligned lines down to the footer, the first
+    one starting with a (garbled) footnote number. Line heights are not used: on some
+    pages the OCR layer reports them inflated (p. 148: 23 pt for 12 pt type).
+    """
+    body = [ln for ln in lines if ln["band"] == "body"]
+    for i in range(1, len(body)):
+        ln, prev = body[i], body[i - 1]
+        if ln["bbox"][1] < NOTE_REGION * H or ln["bbox"][1] - prev["bbox"][1] < NOTE_MIN_GAP:
+            continue
+        block = body[i:]
+        if _NOTE_START.match(ln["text"]) and all(b["bbox"][0] < NOTE_MAX_X0 for b in block):
+            for b in block:
+                b["band"] = "footnote"
+            return
+
+
 def page_record(page: pymupdf.Page) -> dict:
     H = page.rect.height
     gray = render_gray(page, config.RENDER_DPI)
@@ -74,6 +113,8 @@ def page_record(page: pymupdf.Page) -> dict:
             "ink": _ink(darkest_ink(gray, b), b[3] - b[1]),
             "size": round(b[3] - b[1], 1),
         })
+    _late_footnotes(lines, H)
+    _footer_footnotes(lines)
     words = [w for ln in lines if ln["band"] == "body" for w in ln["text"].split()]
     pno = page.number + 1
     return {

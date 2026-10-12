@@ -18,6 +18,8 @@ pipeline = [
     "numpy>=1.26",
     "pillow>=10.0",
     "zstandard>=0.22",
+    "matplotlib>=3.8",   # render-pdf: display formulas (mathtext)
+    "markdown>=3.5",     # render-pdf: markdown → HTML
 ]
 dev = ["pytest>=8.0"]
 

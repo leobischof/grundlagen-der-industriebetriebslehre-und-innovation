@@ -19,11 +19,14 @@ COMMANDS: dict[str, tuple[str, str]] = {
     "detect-figures": ("detect_figures", "Bildregionen erkennen und mit curation/figures.yaml abgleichen"),
     "extract-figures": ("extract_figures", "Abbildungen ausschneiden → figures/originals + manifest.json"),
     "captions": ("captions_check", "Beschriftungen per Tesseract gegen die kuratierten Titel prüfen"),
-    "build-content": ("build_content", "Kapitel-/Abschnitts-Markdown → content/"),
     "exams": ("process_exams", "Prüfungsfragen-Datenbank und Häufigkeitsanalyse → exams/"),
     "flashcards": ("flashcards", "Anki-Decks → learning/flashcards (unverified-student)"),
     "link": ("link_topics", "Themen ↔ Abschnitte ↔ Abbildungen ↔ Fragen verknüpfen"),
     "exercises": ("generate_exercises", "Zeichenübungen aus den SVG-Rekonstruktionen erzeugen"),
+    # after exams/link/exercises: section frontmatter lists the exam questions
+    # from topic-mapping.json and figure captions link the drawing exercises
+    "build-content": ("build_content", "Kapitel-/Abschnitts-Markdown → content/"),
+    "render-pdf": ("render_pdf", "Kapitel- und Gesamt-PDFs aus content/ → build/pdf"),
     "validate": ("validate", "Qualitätsprüfungen → reports/validation.md"),
     "report": ("coverage", "Abdeckungsbericht → reports/coverage.md"),
 }

@@ -136,7 +136,7 @@ chapters:
     title: Ausgewählte Kapitel des strategischen Produktionsmanagements
     part: teil-3
     entries:
-      - {number: "8", title: "AUSGEWÄHLTE KAPITEL DES STRATEGISCHEN", pdf_page: 124, kind: chapter}
+      - {number: "8", title: "AUSGEWÄHLTE KAPITEL DES STRATEGISCHEN PRODUKTIONSMANAGEMENT", pdf_page: 124, kind: chapter}
       - {number: "8.1", title: "Standortplanung", pdf_page: 124}
       - {number: "8.1.1", title: "Strategische Standortplanung", pdf_page: 125}
       - {number: "8.1.2", title: "Standortplanung aus Raumsicht", pdf_page: 126}

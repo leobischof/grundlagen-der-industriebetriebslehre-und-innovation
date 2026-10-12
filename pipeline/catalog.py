@@ -18,7 +18,9 @@ from . import config
 def _load(path: Path) -> dict:
     if not path.exists():
         return {}
-    return yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    # The C loader is ~10x faster; figures.yaml alone is ~300 KB of bboxes and labels.
+    loader = getattr(yaml, "CSafeLoader", yaml.SafeLoader)
+    return yaml.load(path.read_text(encoding="utf-8"), Loader=loader) or {}
 
 
 @dataclass(frozen=True)
@@ -83,12 +85,16 @@ def printed_page(pdf_page: int) -> int | None:
 
 
 @lru_cache(maxsize=1)
+def _figures_file() -> dict:
+    return _load(config.FIGURES_YAML)
+
+
 def figures() -> tuple[dict, ...]:
-    return tuple(_load(config.FIGURES_YAML).get("figures", []))
+    return tuple(_figures_file().get("figures", []))
 
 
 def duplicates() -> list[dict]:
-    return _load(config.FIGURES_YAML).get("duplicates", [])
+    return _figures_file().get("duplicates", [])
 
 
 def figure(fig_id: str) -> dict:

@@ -1,0 +1,21 @@
+# Kuratierte OCR-Korrekturen für die bereinigte Textschicht (Single Source of Truth).
+#
+# Angewendet von pipeline/textclean.py:correct() beim Erzeugen von content/.
+# Hier stehen NUR Fehllesungen der OCR – Tippfehler des Skripts selbst
+# („Quallität“, „Bespiele“, „Mangement“, „Entrepreneuership“) bleiben wie gedruckt.
+#
+# Entstehung: Häufigkeitsliste verdächtiger Tokens (Sonderzeichen, Ziffer-Buchstaben-
+# Mischungen, Wörter mit Editierabstand 1 zu häufigen Wörtern), jede Fundstelle im
+# Kontext geprüft (2026-10-12, deterministisch, ohne KI-Aufruf).
+#
+# words:   ganzes Wort → Ersatz, überall
+# literal: wörtliche Zeichenfolge → Ersatz, optional nur auf bestimmten PDF-Seiten
+
+words:
+  "ı": "1"            # Teil ı, ı. Auflage, Scope ı, zwischen ı bis 5 Jahren
+  "1ı": "1"           # KAPITEL 1ı, Menge 1ı (punktloses i hinter der Ziffer)
+
+literal:
+  - {from: "doi.0rg", to: "doi.org"}
+  - {from: "CO»s-Emissionen", to: "CO₂-Emissionen", pages: [145]}
+  - {from: "bzw. _freie", to: "bzw. -freie", pages: [148]}
