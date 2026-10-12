@@ -1,0 +1,45 @@
+# Qualitätsprüfung bei jedem Push und Pull Request.
+#
+# Läuft nur über versionierte Dateien: keine Original-PDFs (sind git-ignoriert),
+# keine OCR, kein PDF-Rendering, keine KI-Aufrufe. Installiert werden daher nur
+# die Kernabhängigkeiten (pyyaml, jsonschema) und pytest – nicht das Extra
+# `pipeline` (PyMuPDF, OpenCV, …).
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: pyproject.toml
+
+      - name: Abhängigkeiten (ohne PDF-/Bild-Stack)
+        run: pip install -e ".[dev]"
+
+      - name: Tests
+        run: python -m pytest
+
+      - name: Validierung und Abdeckungsbericht (validate + report)
+        run: python -m pipeline offline
+
+      - name: Berichte im Repository sind aktuell
+        # validate/report schreiben nur bei Änderungen. Weichen die frisch erzeugten
+        # Berichte von den committeten ab, wurde vergessen, sie neu zu erzeugen.
+        run: |
+          git diff --exit-code -- reports/validation.md reports/coverage.md || {
+            echo "::error::reports/ ist veraltet – lokal 'python -m pipeline offline' ausführen und committen"
+            exit 1
+          }
