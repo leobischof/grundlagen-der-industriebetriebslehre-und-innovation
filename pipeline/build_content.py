@@ -145,8 +145,9 @@ class Builder:
         if not meta["exam_questions"]:
             return []
         ids = ", ".join(f"`{q}`" for q in meta["exam_questions"])
+        n = len(meta["exam_questions"])
         return ["## Prüfungsfragen zu diesem Abschnitt", "",
-                f"{len(meta['exam_questions'])} Fragen aus der [Prüfungsfragen-Datenbank]"
+                f"{n} {'Frage' if n == 1 else 'Fragen'} aus der [Prüfungsfragen-Datenbank]"
                 f"(../../exams/questions.md): {ids}", ""]
 
     def chapter_readme(self, chapter: dict) -> None:

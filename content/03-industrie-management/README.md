@@ -22,6 +22,6 @@ Gegenstand des Industrie Managements ist ein spezieller Typ von Unternehmen: der
 - [3.1 Begriffe und Definitionen](3.1-begriffe-und-definitionen.md) · S. 47–52 – 10 Abb./Formeln, 5 Prüfungsfragen
   - 3.1.1 Abgrenzung von Industriebetrieben
   - 3.1.2 Industriebetrieb als Arbeitssystem
-- [3.2 Produktion als Kernaufgabe von Industriebetrieben](3.2-produktion-als-kernaufgabe-von-industriebetrieben.md) · S. 53–55 – 2 Abb./Formeln
-- [3.3 Abgrenzung des Industrie Managements im Kontext der Wirtschaftseinheiten](3.3-abgrenzung-des-industrie-managements-im-kontext-der-wirtschaftseinheiten.md) · S. 55 – 1 Abb./Formeln, 1 Prüfungsfragen
+- [3.2 Produktion als Kernaufgabe von Industriebetrieben](3.2-produktion-als-kernaufgabe-von-industriebetrieben.md) · S. 53–54 – 2 Abb./Formeln
+- [3.3 Abgrenzung des Industrie Managements im Kontext der Wirtschaftswissenschaften](3.3-abgrenzung-des-industrie-managements-im-kontext-der-wirtschaftswissenschaften.md) · S. 55 – 1 Abb./Formeln, 1 Prüfungsfragen
 - [Literatur](literatur.md)

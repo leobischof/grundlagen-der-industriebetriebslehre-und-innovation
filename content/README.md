@@ -27,7 +27,7 @@ Bereinigte Textschicht des Skripts: je Abschnitt X.Y eine Datei, Abbildungen als
 - [Kapitel 3: Industrie Management](03-industrie-management/README.md)
   - [3.1 Begriffe und Definitionen](03-industrie-management/3.1-begriffe-und-definitionen.md)
   - [3.2 Produktion als Kernaufgabe von Industriebetrieben](03-industrie-management/3.2-produktion-als-kernaufgabe-von-industriebetrieben.md)
-  - [3.3 Abgrenzung des Industrie Managements im Kontext der Wirtschaftseinheiten](03-industrie-management/3.3-abgrenzung-des-industrie-managements-im-kontext-der-wirtschaftseinheiten.md)
+  - [3.3 Abgrenzung des Industrie Managements im Kontext der Wirtschaftswissenschaften](03-industrie-management/3.3-abgrenzung-des-industrie-managements-im-kontext-der-wirtschaftswissenschaften.md)
 
 ## Teil 2: Innovation und Produktentstehung
 

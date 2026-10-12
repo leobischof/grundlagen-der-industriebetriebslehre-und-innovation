@@ -73,8 +73,8 @@ chapters:
       - {number: "3.1.1", title: "Abgrenzung von Industriebetrieben", pdf_page: 58}
       - {number: "3.1.2", title: "Industriebetrieb als Arbeitssystem", pdf_page: 59}
       - {number: "3.2", title: "Produktion als Kernaufgabe von Industriebetrieben", pdf_page: 63}
-      - {number: "3.3", title: "Abgrenzung des Industrie Managements im Kontext der Wirtschaftseinheiten", pdf_page: 65,
-         note: "Fehlt im Kapitel-Inhaltsverzeichnis (PDF S. 56), steht aber als Überschrift im Text."}
+      - {number: "3.3", title: "Abgrenzung des Industrie Managements im Kontext der Wirtschaftswissenschaften", pdf_page: 65,
+         note: "Fehlt im Kapitel-Inhaltsverzeichnis (PDF S. 56), steht aber als Überschrift im Text (Wortlaut der Überschrift; Abb. 18 sagt „Wirtschaftseinheiten“)."}
       - {number: "L3", title: "Literatur Kapitel 3", pdf_page: 66, kind: literature, end_page: 66}
 
   - id: "04"
