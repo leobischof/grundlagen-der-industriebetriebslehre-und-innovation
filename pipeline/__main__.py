@@ -30,6 +30,8 @@ COMMANDS: dict[str, tuple[str, str]] = {
     "export-md": ("export_markdown", "flacher Markdown-Export (Kapitel, Gesamt, Prüfungsfragen) → build/markdown"),
     "export-notebooklm": ("export_notebooklm", "je Kapitel eine NotebookLM-Datei (Anleitung, Leitfaden, Fragen, Gesamtskript) → build/notebooklm"),
     "anki": ("anki_deck", "Anki-Karteikarten (Sammlung + je Kapitel) → build/anki"),
+    # after render-pdf/export-notebooklm/anki: packs what they listed for the release
+    "release": ("release_bundle", "Release packen: Gesamtdateien, je Art ein Kapitel-Zip, Alles-Zip → build/release"),
     "validate": ("validate", "Qualitätsprüfungen → reports/validation.md"),
     "report": ("coverage", "Abdeckungsbericht → reports/coverage.md"),
 }

@@ -2,6 +2,8 @@
 student decks and the release labels."""
 from __future__ import annotations
 
+import pytest
+
 from pipeline import anki_cards, anki_exam_cards, anki_student, content_files
 
 
@@ -73,3 +75,9 @@ def test_release_labels_carry_the_file_ending():
     assert content_files.asset_label("GIL-Gesamtskript.pdf", "GIL Gesamtskript") == "GIL Gesamtskript.pdf"
     assert content_files.asset_label("a.apkg", "GIL Anki.apkg") == "GIL Anki.apkg"
     assert content_files.anki_export("02-x", "Industrielle Innovation").stem == "GIL-Anki-Kapitel-2-Industrielle-Innovation"
+
+
+def test_every_deck_gets_its_parents_for_a_restored_collection():
+    parent_names = pytest.importorskip("pipeline.anki_package").parent_names     # needs genanki (stage extra)
+    names = ["GIL::Kapitel 1 – A::1 Begriffe", "GIL::Kapitel 1 – A::2 Lückentexte", "GIL::Kapitel 2 – B::1 Begriffe"]
+    assert parent_names(names) == ["GIL", "GIL::Kapitel 1 – A", "GIL::Kapitel 2 – B"]

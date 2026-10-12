@@ -77,6 +77,13 @@ def deck_id(name: str) -> int:
     return int(hashlib.sha256(name.encode("utf-8")).hexdigest()[:15], 16)
 
 
+def parent_names(names: list[str]) -> list[str]:
+    """"GIL" and "GIL::Kapitel N – …" above the card decks. Importing an .apkg creates missing
+    parents, restoring a .colpkg takes the collection as it is: without them the tree breaks."""
+    parents = {"::".join(name.split("::")[:depth]) for name in names for depth in range(1, name.count("::") + 1)}
+    return sorted(parents - set(names))
+
+
 def note(card: Card) -> genanki.Note:
     tags = [f"kapitel-{chapter_number(card.chapter)}", card.kind]
     guid = genanki.guid_for("gil", card.kind, card.key)
@@ -111,6 +118,8 @@ def write_package(cards: list[Card], titles: dict[str, str], descriptions: dict[
             decks[slot] = genanki.Deck(deck_id(name), name, description=descriptions.get(card.kind, ""))
         decks[slot].add_note(note(card))
     target.parent.mkdir(parents=True, exist_ok=True)
-    package = genanki.Package([decks[s] for s in sorted(decks)], media_files=stage_media(cards, media_dir))
+    names = [d.name for d in decks.values()]
+    parents = [genanki.Deck(deck_id(name), name) for name in parent_names(names)]
+    package = genanki.Package([*parents, *(decks[s] for s in sorted(decks))], media_files=stage_media(cards, media_dir))
     package.write_to_file(str(target))
     return len(cards)

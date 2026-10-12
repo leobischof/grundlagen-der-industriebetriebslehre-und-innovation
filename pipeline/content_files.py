@@ -62,8 +62,18 @@ def anki_export(slug: str, title: str) -> ExportName:
 COMPLETE = _named(f"{PREFIX} Gesamtskript")
 SUMMARY_COMPLETE = _named(f"{PREFIX} Zusammenfassung gesamt")
 EXAMS = _named(f"{PREFIX} Prüfungsfragen")
-NOTEBOOKS = _named(f"{PREFIX} NotebookLM-Kontext")     # zip: folder of every chapter's NotebookLM file
 ANKI_COMPLETE = _named(f"{PREFIX} Anki-Karteikarten")   # collection: every chapter, one sub-deck each
+# The same cards as a whole Anki collection (.colpkg). Importing one REPLACES the user's
+# collection, so the name says so: only for an empty or a separate Anki profile.
+ANKI_PROFILE = _named(f"{PREFIX} Anki-Sammlung (ersetzt alles)")
+
+# Release bundles (stage "release"): the per-chapter files of one kind in one zip, and the
+# whole release in one zip sorted into folders.
+SCRIPT_CHAPTERS = _named(f"{PREFIX} Skriptkapitel – je Kapitel")
+SUMMARY_CHAPTERS = _named(f"{PREFIX} Zusammenfassung – je Kapitel")
+NOTEBOOKS = _named(f"{PREFIX} NotebookLM-Kontext – je Kapitel")
+ANKI_CHAPTERS = _named(f"{PREFIX} Anki – je Kapitel")
+RELEASE_COMPLETE = _named(f"{PREFIX} Wissensbasis komplett")
 
 # Each stage that produces release assets lists them in its build directory, one
 # "file<TAB>label" per line; `gh release upload "<dir>/<file>#<label>"` takes the label.
