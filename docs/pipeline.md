@@ -34,7 +34,7 @@ Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`):
 | Befehl | Modul | Liest | Schreibt |
 |---|---|---|---|
 | `ingest` | `ingest` | `input/` | `sources/original-pdfs/`, `sources/manifest.yaml` |
-| `extract-text` | `extract_text` | Skript-PDF | `sources/ocr/skript-pages.jsonl` (Zeilen mit Box, Layout-Band, Druckfarbe, Qualitätsmaß) |
+| `extract-text` | `extract_text` | Skript-PDF | `sources/ocr/skript-pages.jsonl` (Zeilen mit Box, Layout-Band, Druckfarbe, fett gedruckten Wörtern, Qualitätsmaß) |
 | `detect-figures` | `detect_figures` | Skript-PDF, `curation/figures.yaml` | `reports/figure-detection.md` (Abgleich Bilderkennung ↔ Kuratierung) |
 | `extract-figures` | `extract_figures` | Skript-PDF, `curation/figures*.yaml`, `figures/reconstructed/` | `figures/originals/*.png`, `figures/manifest.json` |
 | `captions` | `captions_check` | OCR-Schicht, Tesseract (optional) | `reports/captions-check.md` (Gegenprobe der Bildunterschriften) |
@@ -117,6 +117,16 @@ Konstanten in `pipeline/config.py`:
 
 Fließtext ist schwarz, Bildbeschriftungen sind grau gedruckt. `extract-text` speichert die
 Druckfarbe je Zeile; damit trennt `build-content` Fließtext von Beschriftungen ohne Modell.
+
+**Fettdruck.** Die Textschicht kennt keine Schriftstärke, darum misst `pipeline/bold_print.py` sie
+im Bild: die mittlere Länge waagrechter Tintenläufe in der Wortbox ≈ Strichstärke (Normalschrift
+≈ 2,7 px, fett ≈ 4,2 px bei 150 dpi). Fett ist ein Wort ab dem 1,3-Fachen des Seitenmedians; der
+Median ist auf 2,45–2,9 px begrenzt, weil Abbildungsbeschriftungen ihn sonst verfälschen.
+`extract-text` speichert je Zeile die Indizes der fetten Wörter (`bold`). `build-content` setzt
+die fetten Läufe über Zeilenumbrüche hinweg zusammen (`textclean`) und markiert sie im
+bereinigten Text als `**…**` (`pipeline/emphasis.py`) – nur in Absätzen und Listen, nicht im
+Literaturverzeichnis. Eine Phrase, die im Text nicht wiederzufinden ist, wird nicht geraten,
+sondern von `build-content` gemeldet. Ohne die `**` ist der Text Wort für Wort derselbe.
 Fußnoten stehen im Fußbereich und werden ihrem Verweis im Text zugeordnet; gelingt das nicht
 sicher, landen sie sichtbar unter „Fußnoten ohne sicheren Textanker“.
 
