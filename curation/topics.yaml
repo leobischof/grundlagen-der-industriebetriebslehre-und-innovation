@@ -1,0 +1,344 @@
+# Prüfungsrelevante Themen des gesamten Skripts (Single Source of Truth für Themen).
+#
+# Handkuratiert. Jedes Thema bündelt Skript-Abschnitte (TOC-Nummern aus
+# curation/structure.yaml) und Abbildungen/Tabellen/Formeln (Ids aus
+# curation/figures.yaml). Die Liste deckt das ganze Skript ab – auch Themen, die in
+# den bekannten Prüfungen noch nie gefragt wurden (Häufigkeit 0 in
+# exams/frequency-analysis.md).
+#
+# Regeln
+#   * id          kebab-case, deutsch, stabil (wird in exams.yaml und in den
+#                 Verknüpfungsdateien referenziert – nicht umbenennen).
+#   * sections    die spezifischsten TOC-Nummern, die das Thema inhaltlich tragen.
+#   * figures     Abbildungen, die man zur Antwort braucht bzw. zeichnen können sollte.
+#   * keywords    Suchbegriffe (auch Schreibweisen aus den Prüfungsprotokollen).
+#   * Jeder Abschnitt (X.Y) des Skripts soll in mindestens einem Thema vorkommen
+#     (wird von pipeline/link_topics.py geprüft und gemeldet).
+
+topics:
+  # --- Kapitel 1: Die Industrie -------------------------------------------------
+  - id: industrie-historische-entwicklung
+    title: Historische Entwicklung der Industrie (Industrie 1.0 bis 4.0)
+    sections: ["1.1"]
+    figures: [abb-01, abb-02]
+    keywords: [Industrialisierung, Industrie 4.0, industrielle Revolution]
+
+  - id: wirtschaftliche-bedeutung-industrie
+    title: Wirtschaftliche Bedeutung der Industrie (Zahlen, Fertigung, Österreich)
+    sections: ["1.2", "1.2.1", "1.2.2", "1.2.3"]
+    figures: [tab-01, tab-02, tab-03, abb-03]
+    keywords: [Wertschöpfung, Beschäftigte, Entindustrialisierung, KMU, Österreich]
+
+  - id: herausforderungen-industriebetriebe
+    title: Aktuelle Herausforderungen der Industriebetriebe
+    sections: ["1.3", "1.3.1", "1.3.2", "1.3.3", "1.3.4", "1.3.5"]
+    figures: [abb-04]
+    keywords: [Globalisierung, neue Technologien, demografischer Wandel, Wettbewerbsfähigkeit]
+
+  # --- Kapitel 2: Industrielle Innovation ---------------------------------------
+  - id: wettbewerbsstrategien-porter
+    title: Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung)
+    sections: ["2.1"]
+    figures: [abb-05, abb-06]
+    keywords: [Porter, Differenzierung, Kostenführerschaft, Fokussierung, Strategien]
+
+  - id: innovationsbegriffe
+    title: Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation)
+    sections: ["2.2"]
+    figures: [abb-07]
+    keywords: [Invention, Innovation, Imitation, Modifikation, Neuheit, Wert]
+
+  - id: innovationsdimensionen
+    title: Dimensionen der Innovation
+    sections: ["2.3"]
+    figures: []
+    keywords: [Inhaltsdimension, Intensitätsdimension, subjektive Dimension, prozessuale Dimension, normative Dimension]
+
+  - id: innovationstreiber-trends
+    title: Innovationstreiber (Mega-, Makro-, Mikro- und Technologietrends)
+    sections: ["2.4"]
+    figures: []
+    keywords: [Megatrend, Makrotrend, Mikrotrend, Technologietrends]
+
+  - id: innovationsarten
+    title: Arten der Innovation (Prozess-, System-, nicht-technische und postindustrielle Innovation)
+    sections: ["2.5", "2.5.2", "2.5.3", "2.5.4", "2.5.5"]
+    figures: []
+    keywords: [Prozessinnovation, Systeminnovation, Sozialinnovation, postindustrielle Innovation, Arten der Innovation]
+
+  - id: produktinnovation
+    title: Produktinnovation (Kategorien neuer Produkte, Portfolio)
+    sections: ["2.5.1"]
+    figures: [abb-09, abb-10]
+    keywords: [Produktinnovation, Kategorien neuer Produkte, Portfolio Management, Neuprodukt]
+
+  - id: produktlebenszyklus
+    title: Produktlebenszyklus
+    sections: ["2.5.1"]
+    figures: [abb-08]
+    keywords: [Produktlebenszyklus, Einführung, Wachstum, Reife, Sättigung, Degeneration, Lebenszyklus]
+
+  - id: ansoff-matrix
+    title: Ansoff-Matrix (Wachstumsstrategien)
+    sections: ["2.5.1"]
+    figures: [abb-11]
+    keywords: [Ansoff, Marktdurchdringung, Marktentwicklung, Produktentwicklung, Diversifikation]
+
+  - id: treiber-erfolgsfaktoren-produktinnovation
+    title: Treiber und kritische Erfolgsfaktoren von Produktinnovationen (Cooper)
+    sections: ["2.5.1"]
+    figures: []
+    keywords: [Cooper, Innovationstreiber, Erfolgsfaktoren, kritische Erfolgsfaktoren, Frontloading, Markteinführung]
+
+  # --- Kapitel 3: Industrie Management ------------------------------------------
+  - id: industriebetrieb-abgrenzung
+    title: Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten)
+    sections: ["3.1", "3.1.1", "3.3"]
+    figures: [abb-12, abb-13, abb-14, abb-18]
+    keywords: [Industriebetrieb, Industrieunternehmen, Merkmale, Wirtschaftseinheiten, Dienstleistungsbetrieb, Werkstätte]
+
+  - id: arbeitssystem-refa
+    title: Industriebetrieb als Arbeitssystem nach REFA
+    sections: ["3.1.2"]
+    figures: [abb-15]
+    keywords: [REFA, Arbeitssystem, Arbeitsaufgabe, Umwelteinflüsse, Betriebsmittel, Mensch, Eingabe, Ausgabe]
+
+  - id: oekonomische-kennzahlen
+    title: Ökonomische Kennzahlen (Produktivität, Wirtschaftlichkeit, Rentabilität, Liquidität)
+    sections: ["3.1.2"]
+    figures: [formel-produktivitaet, formel-spezifischer-mitteleinsatz, formel-wirtschaftlichkeit, formel-spezifische-kosten, formel-rentabilitaet, formel-liquiditaet]
+    keywords: [Produktivität, Wirtschaftlichkeit, Rentabilität, Liquidität, spezifischer Mitteleinsatz, spezifische Kosten, Formeln]
+
+  - id: produktionsprozess
+    title: Produktion als Kernaufgabe (Produktionsprozess und seine Elemente)
+    sections: ["3.2"]
+    figures: [abb-16, abb-17]
+    keywords: [Produktionsprozess, Input, Output, Transformation, Wertschöpfung]
+
+  # --- Kapitel 4: Grundlagen der Innovation -------------------------------------
+  - id: innovationsmanagement-akteure
+    title: Innovationsmanagement und seine Akteure (Technologie-, Macht-, Prozessförderer)
+    sections: ["4.1", "4.1.1"]
+    figures: []
+    keywords: [Innovationsmanagement, Akteure, Innovationsförderer, Promotoren, Witte, Schumpeter, kreative Zerstörung]
+
+  - id: innovationsstrategie
+    title: Innovationsstrategie (Kriterien)
+    sections: ["4.1.2"]
+    figures: [tab-04]
+    keywords: [Innovationsstrategie, Kriterien, First-to-Market, Wachstumsrichtung, Kooperationsstrategie]
+
+  - id: innovationsbarrieren
+    title: Innovationsbarrieren und deren Überwindung
+    sections: ["4.1.3"]
+    figures: [abb-19]
+    keywords: [Innovationsbarrieren, Nicht-Wollen, Nicht-Wissen, Aufgabenunsicherheit, Ressourcenallokation, Widerstand]
+
+  - id: entrepreneurship-grundlagen
+    title: Entrepreneurship (Definition, Haupttypen SME/IDE, Persönlichkeitsmerkmale)
+    sections: ["4.2", "4.2.1", "4.2.2", "4.2.3", "4.2.5"]
+    figures: [tab-05, abb-20, abb-21]
+    keywords: [Entrepreneurship, SME, IDE, Existenzgründung, Unternehmertätigkeit, Persönlichkeitsmerkmale]
+
+  - id: entrepreneurship-prozess
+    title: Entrepreneurship-Prozess (Erkennungs-, Entwicklungs-, Umsetzungsphase)
+    sections: ["4.2.4"]
+    figures: [abb-22]
+    keywords: [Entrepreneurship-Prozess, Erkennungsphase, Entwicklungsphase, Umsetzungsphase, Businessplan, Gründung]
+
+  # --- Kapitel 5: Produktentstehung ---------------------------------------------
+  - id: produktentstehung-grundlagen
+    title: Produktentstehung (Ziele, Effektivität/Effizienz, Produktplanung, -entwicklung, Produktionssystem-Entwicklung)
+    sections: ["5", "5.1", "5.2", "5.3", "5.4", "5.5"]
+    figures: [abb-23, abb-24, abb-25]
+    keywords: [Produktentstehung, Zielsystem, Handlungssystem, Sachsystem, Produktplanung, Produktentwicklung]
+
+  - id: integrierte-produktentstehung
+    title: Integrierte Produktentstehung (Arten der Integration, Kosten, Rahmenstruktur)
+    sections: ["5.6"]
+    figures: [abb-26, abb-27, abb-28, abb-34]
+    keywords: [integrierte Produktentwicklung, Integration, methodisch, organisatorisch, technologisch, menschlich, festgelegte Kosten, Eversheim]
+
+  - id: simultaneous-engineering
+    title: Simultaneous / Concurrent Engineering (Prinzipien, magisches Dreieck)
+    sections: ["5.6"]
+    figures: [abb-29, abb-30, abb-31, abb-32, abb-33]
+    keywords: [Simultaneous Engineering, Concurrent Engineering, Parallelisierung, Integration, Standardisierung, magisches Dreieck, Set-based]
+
+  - id: integrationsbereiche-innovationsprozess-produktentwicklung
+    title: Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)
+    sections: ["5.6"]
+    figures: [abb-35]
+    keywords: [Integrationsbereiche, Venn-Diagramm, Innovationsprozess, Produktentwicklung]
+
+  # --- Kapitel 6: Ausgewählte Innovationsprozesse -------------------------------
+  - id: innovationsprozess-thom
+    title: Innovationsprozess nach Thom
+    sections: ["6.1"]
+    figures: [abb-36]
+    keywords: [Thom, Ideengenerierung, Ideenakzeptierung, Ideenrealisierung]
+
+  - id: stage-gate-cooper
+    title: Stage-Gate-Prozess nach Cooper
+    sections: ["6.2"]
+    figures: [abb-37, abb-38]
+    keywords: [Stage-Gate, Cooper, Gate, Stage, Innovationsprozess, Phasen]
+
+  - id: design-thinking
+    title: Design Thinking Methode (IDEO, 5-Step-Prozess)
+    sections: ["6.3"]
+    figures: [abb-39]
+    keywords: [Design Thinking, IDEO, Empathize, Define, Ideate, Prototype, Test]
+
+  # --- Kapitel 7: Grundlagen des Industrie Managements --------------------------
+  - id: industriemanagement-funktionen
+    title: Funktionen und Kenngrößen des Industrie Managements
+    sections: ["7.1"]
+    figures: [abb-40, abb-41]
+    keywords: [Industriemanagement, Funktionen, Planung, Steuerung, Kontrolle, Kenngrößen, Ziele]
+
+  - id: integriertes-management
+    title: Konzept des integrierten Managements
+    sections: ["7.2"]
+    figures: [abb-42]
+    keywords: [integriertes Management, Unternehmensumgebung, normativ, strategisch, operativ]
+
+  - id: produktionsmanagement-grundlagen
+    title: Grundlagen des Produktionsmanagements
+    sections: ["7.3"]
+    figures: []
+    keywords: [Produktionsmanagement, Produktionssystem, Operations Management]
+
+  # --- Kapitel 8: Strategisches Produktionsmanagement ---------------------------
+  - id: standortplanung
+    title: Standortplanung (strategisch, Raumsicht; interne und externe Treiber)
+    sections: ["8.1", "8.1.1", "8.1.2"]
+    figures: [abb-43]
+    keywords: [Standortplanung, Standortfaktoren, interne Treiber, externe Treiber, Standortwahl]
+
+  - id: fabrikplanung-planungsgrundfaelle
+    title: Fabrikplanung und Planungsgrundfälle nach Grundig
+    sections: ["8.2"]
+    figures: [abb-44]
+    keywords: [Fabrikplanung, Planungsgrundfälle, Grundfälle, Restrukturierung, Erweiterung, Neuplanung, Revitalisierung]
+
+  - id: produktionsarten-fertigungsformen
+    title: Produktionssysteme (Produktionsarten und Fertigungsformen)
+    sections: ["8.2.1"]
+    figures: [abb-45, abb-46, abb-47, abb-48, abb-49, abb-50]
+    keywords: [Produktionsarten, Fertigungsarten, Losgröße, Variabilität, Volumen, Prozessablauf, Einzelfertigung, Serienfertigung, Massenfertigung, Punktfertigung, Gruppenfertigung, Reihenfertigung, Fließfertigung, Typologie]
+
+  - id: fabrikplanung-planungsvorgehen
+    title: Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung)
+    sections: ["8.2.2", "8.2.3", "8.2.4", "8.2.5", "8.2.5.1", "8.2.5.2", "8.2.5.3", "8.2.6", "8.2.7"]
+    figures: [abb-51, abb-52, abb-53, abb-54]
+    keywords: [Planungsvorgehen, Zielplanung, Vorplanung, Grobplanung, Feinplanung, Dimensionierung, Strukturierung, Layoutplanung, Realplanung, Idealplanung, Ausführungsplanung]
+
+  - id: nachhaltigkeit-grundlagen
+    title: Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs)
+    sections: ["8.3", "8.3.1"]
+    figures: [abb-55]
+    keywords: [Nachhaltigkeit, Brundtland, Brundlandt, Sustainable Development, Verantwortungsprinzip, Kooperationsprinzip, Kreislaufprinzip, SDG, Agenda 2030, CSR]
+
+  - id: nachhaltigkeit-dimensionen-spannungsfeld
+    title: Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens)
+    sections: ["8.3.2"]
+    figures: [abb-56]
+    keywords: [Spannungsfeld, unternehmerisches Wirken, ökonomische Dimension, soziale Dimension, ökologische Dimension, Interessenausgleich]
+
+  - id: effizienz-konsistenz-suffizienz
+    title: Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit)
+    sections: ["8.3.3"]
+    figures: [abb-57]
+    keywords: [Effizienz, Konsistenz, Suffizienz, ökologische Nachhaltigkeit, Aufwand, Ertrag]
+
+  - id: dekarbonisierung-materialeffizienz
+    title: Dekarbonisierung und Materialeffizienz in der Industrie
+    sections: ["8.3.3"]
+    figures: [abb-58, abb-59]
+    keywords: [Dekarbonisierung, Materialeffizienz, Maßnahmenhierarchie, CO2, Kreislaufwirtschaft]
+
+  # --- Kapitel 9: Operatives Produktionsmanagement ------------------------------
+  - id: absatzplanung
+    title: Planung und Absatzplanung (Zeitreihenanalyse, Kausalmodell)
+    sections: ["9.1", "9.1.1"]
+    figures: [abb-60, abb-61, abb-62]
+    keywords: [Absatzplanung, Prognose, Zeitreihenanalyse, Kausalmodell, Produktionsprogrammplanung]
+
+  - id: produktionsprogrammplanung
+    title: Kurzfristige Produktionsprogrammplanung (Produktfeld, Optimierung)
+    sections: ["9.1.2"]
+    figures: [abb-63, abb-64, abb-65]
+    keywords: [Produktionsprogramm, Produktfeld, Programmoptimierung, Deckungsbeitrag]
+
+  - id: gozintograph-materialbedarfsplanung
+    title: Materialbedarfsplanung und Gozintograph
+    sections: ["9.1.3"]
+    figures: [abb-66, abb-67]
+    keywords: [Gozintograph, Materialbedarfsplanung, Stückliste, Teilebedarf, Strukturstückliste]
+
+  - id: materialklassen-bedarfsarten
+    title: Materialklassen und Bedarfsarten (primär, sekundär, tertiär, Brutto-/Nettobedarf)
+    sections: ["9.1.3.1"]
+    figures: [abb-68, abb-69]
+    keywords: [Rohstoffe, Hilfsstoffe, Betriebsstoffe, Primärbedarf, Sekundärbedarf, Tertiärbedarf, Bruttobedarf, Nettobedarf]
+
+  - id: bestandsdilemma-abc-analyse
+    title: Bestandsdilemma und ABC-Analyse
+    sections: ["9.1.4"]
+    figures: [abb-70]
+    keywords: [Bestandsdilemma, ABC-Analyse, Pareto, 80/20, Lagerbestand, Verwendungswert]
+
+  - id: zeit-kapazitaetsplanung
+    title: Zeit- und Kapazitätsplanung (Terminierung, Kapazität, ERP)
+    sections: ["9.1.5", "9.1.5.1", "9.1.6", "9.1.8"]
+    figures: [abb-71, abb-72, abb-73, abb-75]
+    keywords: [Zeitplanung, Kapazitätsplanung, Terminierung, Durchlaufzeit, ERP, Planungsabhängigkeiten]
+
+  - id: gesamtanlageneffektivitaet
+    title: Gesamtanlageneffektivität (OEE)
+    sections: ["9.1.7"]
+    figures: [abb-74]
+    keywords: [Gesamtanlageneffektivität, OEE, Verfügbarkeit, Leistung, Qualität]
+
+  - id: produktionssteuerung
+    title: Produktionssteuerung (Regelkreis, Starten/Überwachen, Auftragsfreigabe, Maschinenbelegung)
+    sections: ["9.2", "9.2.1", "9.2.3", "9.2.4"]
+    figures: [abb-76, abb-77, abb-78, tab-06]
+    keywords: [Produktionssteuerung, Produktionsregelkreis, Auftragsfreigabe, Maschinenbelegung, Betriebsdaten]
+
+  - id: dilemma-ablaufplanung
+    title: Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand)
+    sections: ["9.2.2"]
+    figures: [abb-79, abb-80, abb-81, abb-82]
+    keywords: [Dilemma der Ablaufplanung, Kapazitätsauslastung, Produktionskennlinie, Durchlaufzeit, Bestand]
+
+  - id: leistungskennzahlen-ueberblick
+    title: Kontrolle und Leistungskennzahlen (Überblick)
+    sections: ["9.3"]
+    figures: [abb-83]
+    keywords: [Leistungskennzahlen, KPI, Kontrolle, Leistungsziele]
+
+  - id: qualitaetsmanagement
+    title: Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC)
+    sections: ["9.3.1"]
+    figures: [abb-84]
+    keywords: [Qualität, Qualitätsmanagement, Total Quality Management, TQM, Six Sigma, Statistische Prozesskontrolle, SPC, Kundenzufriedenheit]
+
+  - id: geschwindigkeit-liefertreue
+    title: Geschwindigkeit und Zuverlässigkeit/Liefertreue (Entkopplungspunkt)
+    sections: ["9.3.2", "9.3.3"]
+    figures: [abb-85]
+    keywords: [Geschwindigkeit, Auftragserfüllungszeit, Entkopplungspunkt, make-to-stock, make-to-order, Liefertreue, Zuverlässigkeit]
+
+  - id: flexibilitaet
+    title: Flexibilität (Arten der Flexibilität)
+    sections: ["9.3.4"]
+    figures: [tab-07]
+    keywords: [Flexibilität, Produktflexibilität, Mischflexibilität, Volumenflexibilität, Lieferflexibilität, Agilität]
+
+  - id: kosten-produktion
+    title: Kosten als Leistungsziel (Hauptkostenkategorien)
+    sections: ["9.3.5"]
+    figures: []
+    keywords: [Kosten, Personalkosten, Anlagekosten, Materialkosten, Skaleneffekt, Haupteinteilung]

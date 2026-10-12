@@ -1,0 +1,1828 @@
+{
+  "deck": "benneb1001",
+  "title": "Grundlagen der IBL und Innovation",
+  "source": "anki-benneb1001",
+  "trust": "unverified-student",
+  "disclaimer": "Diese Karten stammen aus Anki-Decks von Studierenden. Sie sind nicht vom Lehrstuhl geprüft und nicht gegen das Skript verifiziert und können Fehler oder veraltete Inhalte enthalten. Im Zweifel gilt das Skript (`content/`).",
+  "count": 202,
+  "cards": [
+    {
+      "id": "benneb1001-001",
+      "front": "Was brachte die erste indusrielle Revolution mit sich?",
+      "back": "- 1750\n- Dampfmaschine\n- keine Hungersnöte mehr -> Bevölkerungsexplosion\n- Weniger Handwerker und Landwirte mehr Fabrikarbeiter\n- Armut der Fabrikarbeiter\n- Kinderarbeit und geringe Lebenserwartungen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-002",
+      "front": "Was brachte die zweite industrielle Revolution mit sich?",
+      "back": "- Fließbandfertigung von Henry Ford\n- wissenschaftliche Managementheorie von Frederic W. Taylor\n- Elektrische Antriebe und Verbrennungsmotoren\n- Maschinen nicht über zentrale Motoren sondern dezentral betreiben\n- Erdöl als Grundstoff auch für Automobile\n- Großindustrielle Massenproduktion\n- allgemeiner Wohlstand\n- Bedeutung der Gewerkschaften\n- Sozialdemoktratie",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-003",
+      "front": "Was brachte die dritte industrielle Revolution mit sich?",
+      "back": "- anfang 1960er\n- Elektronik-> Automatisierung der Produktionsprozesse\n- Kundenwünsche werden differenzierter\n- Qualität und Individualität\n- Dienstleitungssektor gewinnt an relevanz",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-004",
+      "front": "Was brachte die vierte industrielle Revolution mit sich?",
+      "back": "- Preisverfall industrieller Hard- und Software\n- Weiterentwicklung von Hard- (z.B. Sensorik, Embedded Systems) und Software\n- Ausbreitung des Internets\n- (Neue) Technologien (z.B. Künstliche Intelligenz, Cloud-Computing)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-005",
+      "front": "Wirtschaftliche Bedeutung der Industrie",
+      "back": "- Österreich hat einen hohen Anteil Industrie welche zum BIP beiträgt\n-\n\n- 55% des österreichischen BIP über Exporte",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-006",
+      "front": "Was ist ein Hidden Champion? Bedeutung für Österreich",
+      "back": "- 160 hat Österreich davon (sehr viel für die Größe)\n- Definition: Top 3 Weltweit oder Top 1 auf einem Kontionet\n- 3 von 4 aus der Industie",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-007",
+      "front": "Beschäftigung in Österreich",
+      "back": "Kleinunternehmen <50 MA\nMittelunternehmen 50-250 MA\nGroßunternehmen >250 MA\n88% der Industriebetriebe KMUs\n75% der Industiebeschäftigen in Großunternehmen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-008",
+      "front": "Warum ist die Fertigung für die Wirtschaft von zentraler Bedeutung?",
+      "back": "- Die Produktion war der Grund für die wirtschaftliche Entwicklung\n\n- Die Produktion ist das Fundament der globalen “Großmächte”\n\n- Fertigung dient als wichtigster Grund für Wirtschaftswachstum\n\n- Fertigung dient als wichtigster Grund für Wirtschaftswachstum\n\n- Dienstleistungen sind abhängig von Industriegütern\n\n- Fertigung schafft Arbeitsplätze",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-009",
+      "front": "Merkmalausprägungen und Bedeutung der Industrie in Österreich",
+      "back": "- Österreich im internationalen Vergleich als hochindustrialisiert zu\nbezeichnen. (nur mehr 0.7% in der Landwirtschaft beschäftigt)\n- Österreich erlebt einen Prozess der Entindustrialisierung seit 1970.\n\n- Österreich verzeichnet einen verstärkten Prozess des Eindringens industrieller Methoden und Techniken in nichtindustrielle Bereiche.\n\n- Österreich befindet sich, in einem Prozess der\nUmstrukturierung.\n\n- Österreich hat im internationalen Vergleich kleine Industriebetriebe\n\n- kleiner Inlandsmarkt und eine hohe Energie- sowie Rohstoffabhängigkeit vom Ausland.\n\n- allgemein kritischen Haltung gegenüber dem\ntechnischen Fortschritt und einem hohen Umweltbewusstsein geprägt.\n\n- Österreich hat von seinen Ressourcen her gute Voraussetzungen, die\nProbleme der (nach-)industriellen Gesellschaft im ganzheitlichen Sinn zu\nlösen.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-010",
+      "front": "Die Merkmale von Industriebetrieben",
+      "back": "- hoher Einsatz von Anlage- und Betriebskapital;\n\n- Verwendung von Maschinen\n- räumlich\noder organisatorisch zusammenhängenden Betriebsstätten\n\n- serienmäßige Erzeugung, typisierte Verrichtungen;\n\n- weitgehende Arbeitsteilung im Rahmen eines vorbestimmten Arbeitsablaufes;\n\n- größere Zahl von ständig beschäftigten Arbeitnehmern\n\n- organisatorische Trennung in eine technische und eine kaufmännische Führung,\nvier dieser Punkte müssen für ein Industrieunternehmen erfüllt sein",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-011",
+      "front": "Aktuelle Herausforderungen der Industriebetriebe",
+      "back": "- Globalisierung\n\n- Durchdringung neuer Technologien\n\n- Demografischer Wandel\n\n- Nachhaltigkeit\n\n- Innovation für Wettbewerbsfähigkeit",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-012",
+      "front": "Welche drei Strategien kann ein Unternehmen wählen?",
+      "back": "- Umfassende Kostenführerschaft (Fokus auf Effizienz, niedriger Preis, Qualität nicht vergessen)\n- Fokussierung (Konzentration auf Schwerpunkte, Nieschen)\n- Differenzierung (spezielle Anegbote/Services)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-013",
+      "front": "Was bedeutet zwischen den Stühlen im Sinne der Strategie?",
+      "back": "Keine Konzentration auf eine der Strategie, mann nimmt alle Nachteile mit",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-014",
+      "front": "Was ist die BCG-Rangliste?",
+      "back": "- Umfrage von 1500 Führungskräften\n- Wer ist das innovatievste Unternehmen?\nKriterien\n\n- Global Mindshare: die Anzahl der Stimmen, die von allen globalen Innovati-\nonsführungskräften abgegeben wurden\n- Industry Peer View: die Anzahl der Stimmen, die von Führungskräften aus der\neigenen Branche erhalten wurden\n- Industry Disruption: der Diversity Index (nach Herfindahl-Hirschman) über\nalle Branchen hinweg\n- Wertschöpfung: Gesamtrendite für Aktionäre, einschließlich Aktienrückkäufe\nvom 31. Dezember 2018 bis zum 31. Dezember 2021 (drei Jahre)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-015",
+      "front": "Definition von Erfindung?",
+      "back": "\"Erfindung (Invention) ist der erste Schritt zu einem neuen Produkt oder\nVerfahren...\"",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-016",
+      "front": "Was ist Innovation",
+      "back": "\"... Innovation, das ist der Prozess der wirtschaftlichen Anwendung der Erfindungen ...\"\n\nEine Innovation ist somit ein kompletter Prozess, der alle Phasen der\nProduktentwicklung von der Idee bis zur Markteinführung eines neuen Produktes um-\nfasst",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-017",
+      "front": "Was ist Imitation?",
+      "back": "\"„..Imitation, das ist der Prozess, durch den Innovation in der Industrie oder\nder Wirtschaft verbreitet wird...\"",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-018",
+      "front": "Was ist Modifikation?",
+      "back": "- die Veränderung oder Erweiterung eines bestehenden Produktes.\n- können dafür sorgen, die letzte\nPhase des Produktlebenszyklus zu verlängern, dessen Ende jedoch langfristig nicht\nverhindern.\n\n- geringere Kosten und Risiko als Innovation",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-019",
+      "front": "Was sind die Merkmale einer Innvoation?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-020",
+      "front": "Was sind die Dimensionen einer Innovation?",
+      "back": "- Die inhaltliche Dimension: Was ist neu? --> Arten von Innovation\n\n- Die Intensitätsdimension: Wie neu? --> Neuheitsgrad\n\n- Die subjektive Dimension: Neu für wen? --> Neu im Unternehmen, Land, Branche, Welt\n\n- Die prozessuale Dimension: Wo beginnt, wo endet die Neuerung?\n\n- Die normative Dimension: Neu = erfolgreich? --> Innvoation oft nur dann wenn es erfolgreich ist",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-021",
+      "front": "Was sind Innvoationstreiber?",
+      "back": "- Megatrends\n10-20 Jahre, Demographie, Klimawandel, Globalisierung, Energie\n\n- Makrotends\n5-10 Jahre, Autonome Fahrzeuge, WL-Balance, alternative Ernährung, Finanzen\n\n- Mikrotrends\n1-5 Jahre, oft ein kleiner aber relevanter Teil der Bevölkerung\n\n- Technologie Trends verschnellern alles\nBig Data\nAI\nHyperautomatisierung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-022",
+      "front": "Was ist Industrie?",
+      "back": "Als Industrie wird die kommerzielle Produktion von Waren innerhalb eines Fabriksystems bezeichnet.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-023",
+      "front": "Was ist ein Industrieunternehmen?",
+      "back": "Ein Industrieunternehmen ist eine technische, soziale, wirtschaftliche und umweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb\neines Fabriksystems mit dem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen trifft und Risiken eingeht.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-024",
+      "front": "Was ist die Industriebetriebslehre?",
+      "back": "- Teigebiet der Wirschaftswissenschaften\n- „Anwendung der ingenieurmäßigen Betrachtungsweise auf alle Faktoren — einschließlich des menschlichen\nFaktors —, die bei der Herstellung und Verteilung von Erzeugnissen und Leistungen\nbeteiligt sind“",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-025",
+      "front": "Was ist Industriemanagement?",
+      "back": "Unter Management versteht man die Koordination von Aktivitäten innerhalb eines\nUnternehmens mit dem Zweck, vorgegebene Ziele zu erreichen.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-026",
+      "front": "Welche Dimensionen gibt es im Industriemanagement?",
+      "back": "- funktionale Dimension --> geht um Tätigkeit, planen, organisieren, führen\n- institutionelle Dimension --> wer managed formel? Organe, Vorstand, CEO\n- personellen Dimension --> Personen hinter diesen Organen, Stärken und Schwächen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-027",
+      "front": "Unterschied Industieunternehmen und Dienstleistungsunternehmen?",
+      "back": "Ein Industriebetrieb ist ein Unternehmen, das vorwiegend Sachgüter produziert\nund vertreibt und steht damit im Gegensatz zum Dienstleistungsbetrieb, der vor allem Services entwickelt und verkauft.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-028",
+      "front": "Beschreibe die Abgrenzung zwischen Industrie- und Dienstleistungsbetrieb",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-029",
+      "front": "Beschreibe die Abgrenzung zwischen Industriebetrieben und Werkstätten",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-030",
+      "front": "Industriebetrieb als Arbeitssystem",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-031",
+      "front": "Was ist Produktivität?",
+      "back": "- Kenngröße der technischen Leistungsmessung das Verhältnis von\nmengenmäßigem Output und mengenmäßigem Input an Ressourcen.\n-",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-032",
+      "front": "Was ist Wirtschaflichkeit?",
+      "back": "In dieser Kenngröße wird durch monetäre Bewertung der erstellten Leistung (Output)\nund der Einsatzfaktoren (Input) das Wirtschaftlichkeitsprinzip („Erwirtschaften“ statt\n„Verwirtschaften“) konkret gefasst.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-033",
+      "front": "Was ist Rentabilität?",
+      "back": "Rentabilität ist das Verhältnis des Gewinnes einer Rechnungsperiode zum eingesetzten Kapital",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-034",
+      "front": "Was ist die Liquidität?",
+      "back": "Unter Liquidität versteht man die Fähigkeit, den einzelnen Zahlungsverpflichtungen\nfristgerecht zu entsprechen. Wichtig ist das Maß an Liquidität richtig zu wählen",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-035",
+      "front": "Beschreibe den Produktionsprozess anhand einer Grafik",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-036",
+      "front": "Was sind die Produktionsfaktoren nach Heinen und Schneeweiß",
+      "back": "- Potenzial- und Humanfaktoren (Gebäude, Betriebsmittel, Menschen): Stellen\nNutzungspotenzial für Wiederholungen zur Verfügung\n- Repetitivfaktoren (Rohstoffe, Hilfs- und Betriebsstoffe): Gehen im Leistungsprozess zur Gänze drauf müssen und wiederbeschafft werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-037",
+      "front": "Beschreibe die Elemente des Produktionsprozesses",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-038",
+      "front": "Abgrenzung des Industrie Management im Kontext der Wirtschafseinheiten",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-039",
+      "front": "Was ist Innovationsmanagement?",
+      "back": "Innovationsmanagement zählt zu den Kerntätigkeiten von Industriebetrieben und ist\nein systematisch geplanter, gesteuerter Prozess. Dieser Prozess stellt die Innovation\nsowie deren Durchsetzung am Markt oder im Unternehmen sicher.\nDefinition nach Hauschild und Salomo\n(2011):\n„Innovationsmanagement ist die bewusste Gestaltung des Innovationsportfolios. Neben einzelnen Prozessen werden auch Institutionen betrachtet, innerhalb jener diese\nProzesse ablaufen.“",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-040",
+      "front": "Nenne die Ziele des Innovationsmanagements",
+      "back": "- Gestaltung eines neuen Produktes\n- Gestaltung eines neuen Prozesses, im Sinn eines technischen Verfahrens\n- Gestaltung einer neuen Dienstleistung\n- Gestaltung einer neuen internen wie externen Organisation, etwa eines Unternehmensnetzwerks\n- Gestaltung einer Kombination aus den Vorgenannten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-041",
+      "front": "Was ist ein dynamisches Unternehmen?",
+      "back": "Ein dynamisches Unternehmen trifft\nneue Entscheidungen und setzt diese Kombinationen aus Zweck und Mittel unabhängig und zeiteffizient durch. Sowohl das Treffen als auch das Durchsetzen einer Entscheidung sind wichtig.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-042",
+      "front": "Warum sollte Innovationsmanagement vom Management von F&E unterschieden werden?",
+      "back": "F&E ist zweifellos ein Teil von Innovation, aber das zählt nicht zwangsläufig auch umgekehrt. F&E-Projekte beziehen sich auf Wissenschaft und Technik, während Innovationen auch administrative Prozesse umfassen\nkönnen.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-043",
+      "front": "Welche Akteure treten im Innovationsmanagment auf?",
+      "back": "- Technologieförderer --> Fähigkeiten ein Problem zu lösen, beschaffen oder erstellen die erforderlichen Informationen, Fachexperten, Tech. KnowHow\n- Machtförderer haben den Einfluss Innovation zu fördern. Sie nutzen Führungsinstrumente, um den Widerstand zu überwinden und setzen materielle\nund immaterielle Anreize, --> schützen die Innovation von oben\n- Prozessförderer sind für die Administration und die Organisation verantwortlich, stellen relevante Verbindungen her und unterstützen die Interaktion\nder Teilnehmer.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-044",
+      "front": "Was berücksichtigen Innvoationstrategien?",
+      "back": "meist einen Zeitraum von 5-10 jahren\n\n- aktuelle Lage an den Beschaffungs- und Absatzmärkten, das Marktpotenzial\nund das Wachstumstempo\n- Technische Entwicklungen bei relevanten Produktionsverfahren\n- möglichen Strategien der Wettbewerber am Markt\n- System der sozialen Beziehungen, in welches das Unternehmen passt\n\n- Die Produktivität des Unternehmens und die verfügbaren kritischen Ressourcen\n\n- Die möglichen Auswirkungen neuer Produkte auf das Unternehmen, sowie auf potenzielle Kunden und deren Anforderungen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-045",
+      "front": "Durch welche drei Fragen kann eine Innovationsstrategie definiert werden?",
+      "back": "- Wo sind wir jetzt? (Ausgangssituation)\n- Wo wollen wir hin? (Ziele)\n- Wie kommen wir dorthin? (Strategieentscheidung)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-046",
+      "front": "Nenne Kriterien von Innovationsstrategien",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-047",
+      "front": "Was sind Innovationsbarrieren?",
+      "back": "Innovation bedeutet für viele Mitarbeiter eines Unternehmens eine erhebliche Veränderung in deren gewohnten Arbeitsweisen.\nDie Betroffenen empfinden dies oft als Störung, Ärgernis oder auch sinnlose Turbulenz oder Kritik an ihrer bisherigen Arbeitsweise.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-048",
+      "front": "Nenne Beispiele für Innovationsbarrieren",
+      "back": "- Fehlende Motivation zur Zusammenarbeit (aktiver und passiver Widerstand)\n\n- Aufgabenunsicherheit (unklare Ziele und Aufgaben)\n\n- Ressourcenallokation (Konflikte zw. Projekten wegen Geld und MItarbeiter)\n\n- Prozessbedingte Einschränkungen (Bürokratie)\n\n- Barriere des Nicht-Wissens (Mitarbeiter sind zu wenig ausgebildet)\n- Barriere des Nicht-Wollens (unwillen Innovation zuzulassen)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-049",
+      "front": "Beschreibe die kurz- und langfristigen Auswirkungen von Innovationsbarrieren",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-050",
+      "front": "Überwindung von Innovationsbarrieren",
+      "back": "Eine Innovationsbarriere kann dann als überwunden bezeichnet werden, wenn sie im\nInnovationsprozess nicht mehr als hemmender Faktor wahrgenommen wird.\n\n- starker normativer Einfluss von der Unternehmensführung erforderlich\n- Alle Bereiche eines Unternehmens\nmüssen auf gemeinsame Ziele ausgerichtet werden\n- jeder muss Innovation unterstützen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-051",
+      "front": "Was ist Entrepreneurship?",
+      "back": "Entrepreneurship (Unternehmertum) ist eine Teildisziplin der Wirtschaftswissenschaften. Dabei bezeichnet Entrepreneurship das Ausnutzen unternehmerischer Gelegenheiten sowie den kreativen und gestalterischen unternehmerischen Prozess zum\nAufbau neuer Organisationen.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-052",
+      "front": "Aus welchen vier Komponenten besteht Entrepreneurship?",
+      "back": "- Chancen entdecken\n- Innovation durchsetzen\n- Entwicklung und Nutzung von Ressourcen\n- Risikibereitschaft",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-053",
+      "front": "Was ist ein Start-Up?",
+      "back": "Ein Start-up ist ein junges Unternehmen, das sich in einer frühen Phase der Geschäftsentwicklung mit unsicherer Markt- und Produktentwicklung befindet.\n\n- finanzierung ausschalaggebend",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-054",
+      "front": "Welche Haupttypen des Entrepreneurship gibt es?",
+      "back": "SME - Small and Medium Enterprises\n\nIDE - Innovation-driven Enterprises",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-055",
+      "front": "Erkläre ein SME",
+      "back": "- Fokus liegt meist lokal oder regional\n- Innovation ist nicht unbedingt Schlüssel zum Erfolg\n- Non tradable Jobs --> Arbeit passiert vor Ort kann nicht exportiert werden\n- oft Familiebetriebe --> wenig externes Kapital\n- linearer Unternehmenswachstum",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-056",
+      "front": "Erkläre ein IDE",
+      "back": "- globaler/überregionaler Blick\n- baut auf Innovation und Wettbewerbsvorteil auf\n- tradeable jobs --> Software, Beratung, Produktion\n- Investoren und breite Eigentümergruppe\n- nach verlustgeprägten Anfangsphase --> exponentiellles Wachstum",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-057",
+      "front": "WIe schaut der Vergleich der Wachstumsmöglichkeiten von SME und IDE aus?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-058",
+      "front": "Welche Untertypen von Unternehmen gibt es noch?",
+      "back": "- High-Tech Unternehmen\n- Regionales Unternehmen\n- Soziales Unternehmen\n- Ecopreneurship\n- Senior Unternehmen\n- Serial Unternehmen\n- Intrapreneurship",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-059",
+      "front": "Welche Phasen gibt es im Entrepreneurship?",
+      "back": "- Erkennungsphase\n- Entwicklungsphase\n- Umsetzungsphase",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-060",
+      "front": "Welche Persönlichkeitsmerkmale braucht es für erfolgreiches Entrepreneurship?",
+      "back": "- Motivation\n- Eigeninitiative und Wunsch nach Unabhängigkeit\n- Realismus und Fähigkeit zur Zusammenarbeit\n- Kreativität\n- Durchhaltevermögen\n- Risikobereitschaft\n- Emotionale Stabilität, Empathie\n- Problemlösungsfähigkeit\n- Umgang mit Unsicherheit\n- Unternehmerische Selbstwirksamkeitserwartung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-061",
+      "front": "Beschreibe die Geschichte der Produktentstehung",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-062",
+      "front": "Beschreibe den Produktlebenslyklus",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-063",
+      "front": "Was sind aktuelle Herausforderungen bei der Produktentstehung?",
+      "back": "- kürzere Lebenszyklen\n- erhöhte Komplexität\n- gut augeblidete Mitarbeiter\n- Globalisierung\n- Abnehmermarkt nicht mehr Absatzmarkt",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-064",
+      "front": "Was ist Effektivität?",
+      "back": "- die richtigen Dinge tun\n- erreiche ich die Ziele\n- grundsätzliche Zielerreichung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-065",
+      "front": "Was ist Effizienz?",
+      "back": "- die Dinge richtig tun\n- das Ziel möglichst gut treffen mit möglichst wenig Ressourcen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-066",
+      "front": "Beschreibe die strategische Produktplanung",
+      "back": "- hat es überhaupt Potenzial\n- Analyse\n- 3 Kernaufgaben\n\n- Potenzialfindung / Chancen suchen\n- Produktfindung --> Ideen entwickeln auf gefundenem Potenzial\n- Geschäfts- und Produktstrategie festlegen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-067",
+      "front": "Beschreibe die Produktentwickung",
+      "back": "- Konzeptionierung, technisches Design, Vorbereitungen\n- Ergebnis: Beschreibung und Dokumentation --> Beurteilung der Machbarkeit",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-068",
+      "front": "Beschreibe die Schritte der Produktionssystem-Entwicklung",
+      "back": "- Arbeitsablaufplanung\n- Arbeitsmittelplanung\n- Arbeitsplatzgestalung\n- Produktionslogistik\n--> hohe Abhängigkeit zwischen Produkt und Produktionsystem",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-069",
+      "front": "Was ist die Integration im Produktentstehungsprozess?",
+      "back": "Kombination einzelner Teilbereiche zu einem Ganzen\n\n- enge Zusammenarbeit bei Qualität, Zeit, Kosten\n- Parallelisierung erforderlicher Abläufe\nin der frühen Phase sind erst 5% der Kosten verbraucht aber schon 80% davon verplant",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-070",
+      "front": "Welche Ebenen der Integration gibt es?",
+      "back": "- Menschliche Integration\n- Methodische Integration\n- Oragnisatorische Integration\n- Technologische Integration",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-071",
+      "front": "Beschreibe die Menschliche Integration",
+      "back": "- Spaß finden\n- nur der Mensch kann Kreativ sein\n- Leistungsbereitschaft\n- Ziele\n- Wissen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-072",
+      "front": "Beschreibe die methodische Integration",
+      "back": "Design for Manufacturing\nDesign for Assembly\nIntegration des Kunden und der Aufgabe -> Feedback einholen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-073",
+      "front": "Beschreibe die organisatorische Integration",
+      "back": "- wie ist die Organisation aufgebaut\n- gibt es schon Teams dafür\n- flache Hierachien\n- wie laufen die Prozesse ab\n- gemeinsame Büros --> möglichst kurze Kommunikationswege",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-074",
+      "front": "Beschreibe die technologische Integration",
+      "back": "IT-Systeme\ngemeinsame Datenwege\nCAD, CAM\nSimulation",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-075",
+      "front": "Beschreibe Integration in einer Skizze",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-076",
+      "front": "Was ist Cuncurrent/Simultaneous Engineering",
+      "back": "CE/SE sind Teil der organisatorische Integration\nQualität, Zeit, Kosten positiv beeinflussen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-077",
+      "front": "Was sind die 3 Kernprinzipien von Simultaneous Enigneering",
+      "back": "Parallelisierung\n\n- Teilprozesse laufen gleichzeitig ab\n- Starten wenn etwas noch nicht fertig ist --> Kommunikation extrem wichtig\n- Großer Vorteil--> kürzere Entwicklungszeit\nIntegration\n\n- Zusammenspiel aus Mensch, Methode, Organisation, Technik\nStandartisierung\n\n- reduziert Komplexität, macht vieles einfacher und günstiger",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-078",
+      "front": "Was ist Point-based Concurrent Engineering",
+      "back": "Schleifen drehen --> Fehler fallen früher auf\nalle mit einbeziehen\nEine Lösung wird immer verbessert",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-079",
+      "front": "Was ist Set-based Concurrent Engineering",
+      "back": "Abteilungen geben ihren Rahmen vor\nGemeinsame Überlappungen finden\nRahmen immer mehr einschränken",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-080",
+      "front": "Nenne die 3 Hauptbereiche der integriertern Produkt- und Prozessentwicklung",
+      "back": "- Organisations- und Informationsmanagement\n- Integrierte Produktdefinition und Technologieplanung\n- Integrierte Produkt- und Produktionsprozessgestaltung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-081",
+      "front": "Was ist kooperatives Produktengineering?",
+      "back": "- Früherkennung von Produkten und Dienstleistungen für den zukünftigen Markt\n- Neue Lösungen zur Verbesserung eines Faktors bei einem Produkt--> meist durch Technologie\n- Erfolg sichern durch frühe Einbindung aller",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-082",
+      "front": "Beschreibe den Innovationsprozess nach Thom",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-083",
+      "front": "Worauf legt Thom sehr viel Wert in seiner Strategie?",
+      "back": "Er legt sehr viel Wert auf die Berücksichtugung von Faktoren aus der Umwelt (außen) und auch von innen (Unternehmnestrategie)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-084",
+      "front": "Beschreibe den Stage-Gate Prozess nach Cooper",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-085",
+      "front": "Was ist ein Gate nach Cooper?",
+      "back": "jeder Stage geht ein Gate voraus--> es wird sich ausgetauscht und kontrolliert(Meeting)\n\n3 charakteristische Merkmale\n\n- Eine Reihe von notwedigen Ergebnissen\n- Kriterien nach denen das Projekt beurteilt wird\n- Definierte Outputs",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-086",
+      "front": "Was ist die Design Thinking Methode?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-087",
+      "front": "Worum geht es im Industrie Management?",
+      "back": "Es geht darum über alle Stufen der Wertschöpfungskette effiezienter zu werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-088",
+      "front": "Was sind die Kerngrößen des Industrie Managements?",
+      "back": "- Legimitiät --> Normatives Management\ndie Gesamtaufgabe erfüllen (langfrisitiger Erfolg)\n\n- Effektivität --> Strategisches Management\ndie richtigen Dinge tun\n\n- Effizienz --> operatives Management\ndie Dinge richtig tun",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-089",
+      "front": "Beschreibe die Funktionen des Industrie Management",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-090",
+      "front": "Welche 3 Ebenen des integrierten Management gibt es?",
+      "back": "- Normative Ebene\n--> Grundlegende Prinzipien, Werte, Missionen, Unternehmensphilosophie\n--> wo stehen in 5-20 Jahren\n\n- Strategische Ebene\nindustrielle Management\n--> Planung und Umsetzung der Unternehmensstrategie\n\n- Operative Ebene\nTägliche Handeln\n--> Umsetzung was von strateg. Ebene entschieden wurde im Rahmen der normativen Ebene",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-091",
+      "front": "Worum geht es im Produktionsmanagement?",
+      "back": "Gestaltung, Planung, Überwachung, Steuerung eines Produktionssystems, Mensch, Kapital\n\n--> früher meist Minimierung der Kosten\n--> heute managen von Menschen (Arbeiter), Kapital (Betriebsmittel, Anlagen, Maschinen),\nInformation",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-092",
+      "front": "Welche Arten von Produktionsmanagement gibt es?",
+      "back": "- Strategisches Produktionsmanagement\n--> langfristige Auswirkungen und Ziele\nStandortplanung, Fabrikplanung und Nachhaltigkeit\n\n- operatives Produktionsmanagement\n-->kurz/mittelfristige Entscheidungen\nProduktion am Laufen halten, Aufträge abwickeln",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-093",
+      "front": "Was ist der Unterschied zwischen Standortplanung und Fabrikplanung?",
+      "back": "Standortplanung: es geht um die großen Ziele und Entwickungen in der Zukunft, wie entwickeln sich Märkte, Menschen und Umwelt\n\nFabrikplanung: taktisch operative Planung zur Standortplanung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-094",
+      "front": "Beschreibe die strategische Standortplanung",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-095",
+      "front": "Beschreibe die Standortplanung aus Raumsicht",
+      "back": "- Erschließung (LKW, Schiff, intrenes Produkionsnetzwerk\n- Ver- und Entsorgung von Medien\n- Grundstücke (Geometrische Eigenschaften, Boden)\n- Gesetze und Auflagen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-096",
+      "front": "Was ist Fabrikplanung?",
+      "back": "Die Fabrikplanung ist ein Prozess zur Planung einer Fabrik — angefangen bei der\nZielfestlegung bis zum Hochlauf der Produktion. Der systematische, zielorientierte Fabrikplanung\nProzess ist in aufeinander aufbauenden Phasen strukturiert und wird unter Zuhilfenahme von Methoden und Werkzeugen durchgeführt.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-097",
+      "front": "Welche Planungsgrundfälle gibt es?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-098",
+      "front": "Was sind Produktionssysteme?",
+      "back": "sozio-technische Systeme\n--> Menschen (Arbeiter)\n--> Geräte (Maschinen)\ninteragieren um Input in Output umzuwandeln",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-099",
+      "front": "Wie werden Produktionssysteme unterschieden?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-100",
+      "front": "Was ist Einzelproduktion?",
+      "back": "hohe Kundenspezifikation\nhäufig im Anlagenbau\nProjekt hat einen klaren Anfang und Ende",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-101",
+      "front": "Was ist Einzel- und Kleinserienproduktion?",
+      "back": "Mehrfachproduktion einzelner Werkstücke\nhochqualifizierte Mitarbeiter notwendig",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-102",
+      "front": "Was ist Serienproduktion?",
+      "back": "große Jahresstückzahlen gleicher Werkstücke\nwegen Standartisierung und Rüstzeiten meist \"Chargen/Serien\"\n2 bis einige hundert Stück",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-103",
+      "front": "Was ist Massenproduktion?",
+      "back": "Extremfall der Serienfertigung\nstark spezielisierte Produkionsmittel\noft mit Fördersystemen\nmöglichst gleiche Prozesszeit bei jedem Schritt",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-104",
+      "front": "Was ist ein kontinuierlicher Produktionsprozess?",
+      "back": "hohes Volumen an Standartprodukten\n--> Gas, Öl, Stahl",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-105",
+      "front": "Was ist Punktfertigung?",
+      "back": "Produkt wird nicht bewegt\n--> oft schwer zu bewegen (Schiffe, Anlagen)",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-106",
+      "front": "Was ist Werkstattfertigung?",
+      "back": "Betriebsmittel und Mitarbeiter werden in Räume mit ähnliche Funktionen zusammengefasset\n--> lange Wege, Wartezeiten, komplexe Steureung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-107",
+      "front": "Was ist Gruppenfertigung?",
+      "back": "fasst die Arbeitsplätz und Maschinen für ähnliche Teilprozesse zusammen\n--> Wege reduzieren und Fördermittel nutzen\n--> Maschienen oft Universalmaschinen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-108",
+      "front": "Was ist Reihenfertigung?",
+      "back": "Arbeitsplätze und Maschinen nach Arbeitsschritten angeordent\n-->klarer Materialfluss",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-109",
+      "front": "Was ist Fließfertigung?",
+      "back": "räumliche Anordnung wie bei der Reihenfertigung\n--> aber auch zeitlich gebunden --> Anfällig für Verzögerungen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-110",
+      "front": "Beschreibe das Planungsvorgehen?(Fabrikplanung)",
+      "back": "- Anstoß kommt von der Unternehmensführung\n- langer Prozess, muss genau überlegt werden\n- jede Planungsphase baut auf der Vorigen auf",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-111",
+      "front": "Was ist die Zielplanung?",
+      "back": "was soll erreicht werden?\n\n- Kosten\n- Qualität\n- Flexibilität",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-112",
+      "front": "Was ist die Vorplanung? (Fabriksplanung)",
+      "back": "Analyse des Ist-Zustand --> Definition des Sollzustand\nerste Konzepte --> Überprüfung auf Machbarkeit und Wirtschaftlichkeit",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-113",
+      "front": "Was ist die Grobplanung?",
+      "back": "- Dimensionierung\nPersonal, Maschine, Fläche\n\n- Struckturierung\nProduktionssegmentierung (Fabrik in der Fabrik)\nFestlegen der Innovationsform\n\n- Layoutplanung\nIdealplanung --> ohne Rahmenbedingungen (perfekte Lösung)\nRealplanung --> mit Rahmenbedungungen arbeiten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-114",
+      "front": "Beschreibe die Realplanung genauer",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-115",
+      "front": "Was ist die Feinplanung?",
+      "back": "Planung bis in die Ausführungsreife\n\n- Feinanordnung der Betriebsmittel\n- Arbeitsplatzgestaltung\n- Erarbeitung des Feinlayouts\n--> Raum und Flächenplanung (jeder mm)\n\n--> Kabel, Leitungen, Wasser ...",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-116",
+      "front": "Beschreibe die Auftragsplanung und Ausführung?",
+      "back": "- Arbeitspakete erstellen\n- Ablauf und Termine\n- Umzugplanung\n- Zuständigkeiten und Verantwortung regeln\n- Einholen von Genehmigungen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-117",
+      "front": "Bescheibe die Unterteilung der Ausfühungsphase",
+      "back": "Ein Projekt ist erst zu Ende wenn die Produktionsziele erreicht wurden\n-->Überwachung der Kosten und Zeit kritisch",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-118",
+      "front": "Was bedeuted Nachhaltigkeit?",
+      "back": "Nachhaltige Entwicklung befriedigt die eigenen Bedürfnisse ohne die nächste Generation um ihre zukünftigen Bedürfnisse zu bringen.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-119",
+      "front": "Welche 3 Kernprinzipien der Nachhaltigkeit gibt es?",
+      "back": "- Verantwortungsprinzip\n- Kooperationsprinzip\n- Kreislaufprinzip",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-120",
+      "front": "Erkläre das Verantwortungsprinzip (Nachhaltigkgeit)",
+      "back": "- Intragenerative Gerechtigkeit (heute) Gefälle zwischen Industie und Entwicklungsländern schmälern\n- Intergenerative Gerechtigkeit --> zukünftige Bedürfnisse berücksichtigen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-121",
+      "front": "Erkläre das Kooperationsprinzip (Nachhaltigkeit)",
+      "back": "- große Umweltprobleme müssen und können nur gemeinsam gelöst werden\n- was kann ein Unternehmen gemeinsam im dem Land, Stadt, Welt, Gesellschaft dazu beitragen?",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-122",
+      "front": "Erkläre das Kreislaufprinzip (Nachhaltigkeit)",
+      "back": "--> Ressourcen mehrmals nutzen\n\n- langlebige Designs\n- Instandhaltung\n- Aufarbeitung\n- Reperatur\n- Recycling",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-123",
+      "front": "Was sind SDGs?",
+      "back": "Sustainable Development Goals",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-124",
+      "front": "Welche Dimensionen der strategischen Bedeutung von Nachhaltigkeit für Unternhemen gibt es?",
+      "back": "- Ökonomische Dimension\n\n- Soziale Dimension\n\n- Ökologische Dimension",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-125",
+      "front": "Bescheibe die ökonomische Dimension",
+      "back": "- Rentabilität/Liquidität\n- Wirtschaftlichkeit/Produktivität\n- Erfolgspotenziale/Wettbewerbsfähigkeit",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-126",
+      "front": "Beschreibe die soziale Dimension",
+      "back": "- Arbeitsmotivation/-zufriedenheit\n- Humane Arbeitsbedingungen\n- Mitbestimmung\n- Arbeitsplatzerhaltung/-schaffung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-127",
+      "front": "Beschreibe die ökologische Dimension",
+      "back": "- Rohstoffschonung\n- Okkupation/Emission\n- Wahrung der natürlichen Lebensgrundlagen\n- Sicherung der Lebensqualität",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-128",
+      "front": "Was ist eine nachhaltige Produktion?",
+      "back": "Herstellung von Produkten durch wirtschaflich sinnvolle Prozesse, welche negative Umweltauswirkungen minimieren und Energie und Ressourcen schonen\n--> haben auch einen positiven Enfluss auf die Sicherheit der Mitarbeiter, Gesellschaft und Produkte",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-129",
+      "front": "Nenne die Stellschrauben für eine nachhaltige Produktion",
+      "back": "- Mensch\n- Prozesse\n- Betriebsmittel\n- Arbeitsorganisation\n- Produkte",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-130",
+      "front": "Welche Ansätze gibt es zur Verbesserung der Nachhaltigkeit?",
+      "back": "- Effizienz\n- Konsistenz\n- Suffizienz\nzwischen diesen 3 kann es immer Zielkonflikte geben",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-131",
+      "front": "Was ist Effizienz (Nachhaltigkeit)?",
+      "back": "- weniger verbrauchen pro Stück\n- Ressourcenverbrauch reduzieren\n--> spart auch Kosten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-132",
+      "front": "Was ist Konsistenz (Nachhaltigkeit)?",
+      "back": "- die richtigen Ressourcen zu verbrauchen (ökologisch Verträglich)\nbsp: Biologisch abbaubare Materialien, geschlossene Kreisläufe\n\n- oft radikal --> erfordert Innovation",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-133",
+      "front": "Was ist Suffizienz (Nachhaltigkeit)?",
+      "back": "- weniger ist mehr\n- betrifft auch den Verbraucher (Konsum)\n- längere Lebenszeiten und Reperaturangebote\n- kann politisch gefördert werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-134",
+      "front": "Womit kann man den CO2 Ausstoß in der Produktion verringern?",
+      "back": "kurz-mittelfristig\n\n- ökostrom\n- moderne Technologien\n- Brennstoffumstellung (Biogas)\n- höhere Recyclingquoten\nmittel-langfristig\n\n- komplett emissionsfreie Energie\n- Elektrifizierung und grüner Wasserstoff\n- Bedarfsreduzierung\n- Materialkreisläufe",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-135",
+      "front": "Beschreibe den Einfluss von Effizienz, Konsistenz und Suffiezenz auf den Aufwand und Ertrag in einem Diagramm",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-136",
+      "front": "Welche Arten von Energiemanagement gibt es?",
+      "back": "- Energieplanung und Organisation\nMaßnahmen aufgrund des Ausgangszustands (wo greife ich ein?)\n\n- Energieinformationsmanagement\nVerlauf des Verbrauchs tracken\nEnergieintensität = Verhältins verbrauchte Energie zu produziertem Output\n\n- Energiekontrolle\nhochdynamische Entwicklung\n--> immer am neusten Stand bleiben",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-137",
+      "front": "Was ist Ressourcenmangement und welche Arten von Verschwendung gibt es?",
+      "back": "Rohstoffe werden knapper und teurer--> mit weniger mehr produzieren\n\n- verschwendete Ressourcen\n- verschwendete Lebenszyklen\n- verschwendete Fähigkeiten\n- verschwendete eingebettete Werte",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-138",
+      "front": "Was sind verschwendete Ressourcen?",
+      "back": "- Materialeffizienz (Abfall, Ausschuss, Verschnitt)\n- Verbesserungen fordern oft Prozessänderungen\n- Bsp: sortenreine Spantrennung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-139",
+      "front": "Was sind verschwendete Lebenszyklen?",
+      "back": "- haben eine künstlich kurze Lebensdauer\n- werden zu schnell entsorgt",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-140",
+      "front": "Was sind verschwendete Fähigkeiten?",
+      "back": "- Produkte bleiben unnötigerweise ungenützt\n- Bsp: Auto fährt 90% seiner Lebenszeit nicht",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-141",
+      "front": "Was sind verschwendete eingebettete Werte?",
+      "back": "Energie und Materielien welche nicht aus Produkten zurückgewonnen werden können",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-142",
+      "front": "Was sind umweltfreundliche Produkte?",
+      "back": "möglichst geringe Belastung für die Umwelt über die gesamte Lebensdauer\nEinschätzung über Vergleich mit anderen Produkten und\nLebenszyklusanalyse\n\n- Rohstoffgewinnung\n- Produktion\n- Nutzungsphase\n- Entsorgung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-143",
+      "front": "In welche Dimensionen werden Emissionen eingeteilt?",
+      "back": "- Scope 1\ndirekt vom Unternehmen verursachte Emissionen\n--> Verbrennung, chemische Prozesse\n\n- Scope 2\nEmissionen eingekaufter Energie\n--> Strommix\n\n- Scope 3\nEmisionen welche vor und nach der eigenen Produktion stattfinden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-144",
+      "front": "Was ist Planung?",
+      "back": "systematische Suche und Festlegung von Zielen, sowie die Vorbereitung\nvon Aufgaben und Ressourcen, deren Umsetzung zur Erreichung der Ziele notwendig\nsind",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-145",
+      "front": "Was sind die Hauptaufgaben eines Produktionsplanungsprozess?",
+      "back": "- Spezifikation von Ergebnissen aus der Absatzplanung / Ermitteln von Produktionsmengen\n- Ermittlung und Beschaffung von Materialbedarf\n- Termin und Kapazitätsplanung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-146",
+      "front": "Was ist die Absatzplanung und welche Methoden gibt es?",
+      "back": "Erkenntnisse über zukünftige Entwicklungen gewinnen\n--> kurz, mittel, langfristige Planung\neffektive Planung ohne Nachfragepotenzial nicht möglich\n\n- Qualitative Methode\n- Quantitative Methode",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-147",
+      "front": "Was ist die qualitative Methode? (Absatzplanung)",
+      "back": "Einschätzung der Nachfrage über Erfahrungen, Meinungen und Einschätzungen\n--> Delphi Methode",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-148",
+      "front": "Was ist die quantitative Methode? (Absatzplanung)",
+      "back": "- Zeitreihenanalyse\nPlots einer Variable (Verkaufszahlen) über die Zeit\n\n- kausale Modellierung\nBeziehen noch externe Faktoren mit ein\n\n--> z.B. Eis verkauft sich im Sommer besser\n\nBig Data und Data Analyse ermöglichen hier neue Genauigkeit--> nicht kausale Zusammenhänge finden",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-149",
+      "front": "Was ist der Sales & Operations Planning (S&OP) Prozess?",
+      "back": "Geschäftsstrategie und operative Planung aufeinander abzustimmen.\n\n-->die externe Perspektive (Kundennachfrage / Marketing oder Verkauf)\nmit der\n-->internen\nPerspektive (Produktentwicklung und Produktionsplanung)\nzu koordinieren.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-150",
+      "front": "Wie schaut der Ablauf der Absatzplanung aus?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-151",
+      "front": "Wie schaut eine Produktionprogrammplanung aus?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-152",
+      "front": "Welche Bereich in einem Planungsprozess gibt es?",
+      "back": "- Strategische Programmplanung\n- Taktische Programmplanung\n- Operative Programmplanung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-153",
+      "front": "Was ist die strategische Programmplanung?",
+      "back": "allgemeines Tätigkeitsumfeld\n--> Produktfelder",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-154",
+      "front": "Was ist die taktische Programmplanung?",
+      "back": "--> Definition Besonderheiten einzelner Produktfelder\n\n- Produktionsprogrammumfang\nDefinition verschiedener Gruppen, Arten, Varianten\n--> Farbe, Qualität, Dimension\n\n- Produktionsprogrammtiefe\n--> make or buy Entscheidung\nwas wird zugekauft und was selber produziert",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-155",
+      "front": "Was ist die operative Programmplanung?",
+      "back": "Welche Produkte, zu welcher Zeit und wie viele davon Produzieren\n--> alles im Rahmen der strategischen und taktischen Planung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-156",
+      "front": "Wie wird ein Produktionsprogramm noch unterschieden?",
+      "back": "- kundenorientiertes Produktionsprogramm\nBasiert auf eingehenden Bestellungen\n--> keine Unsicherheit\n\n- Marktorientiertes Produktionsprogramm\nBasiert auf Prognosen und Annahmen --> Absatzplanung\n\n--> meist ein Mix aus beiden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-157",
+      "front": "Wie schaut ein Beispiel für eine Produktionsprogrammoptimierung aus?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-158",
+      "front": "Was ist eine Stückliste?",
+      "back": "Ist wie ein Rezept mit allen Zutaten für das Endprodukt\n\nKann mit vielen Baugruppe und Einzelteilen sehr komplex werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-159",
+      "front": "Was ist ein Gozintograph?",
+      "back": "Zeigt die Abhängigkeite von Schritten und Bauteilen während der Montage an",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-160",
+      "front": "Skizziere den Ablauf der Materialbedarfsplanung",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-161",
+      "front": "Was für Materialklassen gibt es?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-162",
+      "front": "Was sind Rohstoffe? (Materialklassen)",
+      "back": "direkt für die Herrstellung oder Bau benötigt\n\n- Rohmaterial--> wird selber weiterverarbeitet z.b. Stahl\n- Teile, Gruppen werden eingekauft z.b. Schrauben",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-163",
+      "front": "Was sind Hilfsstoffe? (Materialklassen)",
+      "back": "indirekte Benötigung\n--> kommen nur in unbedeutenden Mengen im Endprodukt vor\nz.B. Schmiermittel, Klebstoffe",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-164",
+      "front": "Was sind Betriebsstoffe? (Materialklassen)",
+      "back": "gehen nicht in das Produkt selbst\n--> Produktionsanlagen\n\n- Strom\n- Wasser\n- Schmiermittel",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-165",
+      "front": "Beschreibe den Zusammenhang von Materialbedarfsarten",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-166",
+      "front": "Was ist das Bestandsdilemma?",
+      "back": "Lagerbestände sind eine Sicherheit bei Schwankungen und Problemen aber sind auch sehr kostspielig--> binden Platz und Kapital\n\nPareto Prinzip\n--> 80% der Umsätze werden von 20% der Artikel generiert",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-167",
+      "front": "Was ist eine ABC Analyse?",
+      "back": "- A-Artikel--> höchter Güterwert (regelmäßige Lagerkontrollen wichtig) mit 80% aber nur 20% im Lager\n- B-Artikel --> mittlere 10% an Wert --> 30% im Lager\n- C-Artikel --> untere 10% an Wert --> 50% im Lager",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-168",
+      "front": "Wie schaut der Ablauf einer Zeit und Kapazitätsplanung aus?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-169",
+      "front": "Was ist die Terminierung?",
+      "back": "Zeitliche zuordnung der Arbeitsaufgaben",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-170",
+      "front": "Was muss für die Terminierung bekannt sein?",
+      "back": "- Art, Menge, Termine und Qualität der Aufträge\n- Personal- und Maschinenkapazitäten\n- Geplante Durchlaufzeiten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-171",
+      "front": "Was sind Störungen welche die Terminierung beeinflussen?",
+      "back": "- Änderungen innerhalb des Produktionsprogramms und der Aufträge\n- Ungeplanter Ausschuss und Nacharbeit\n- Fehlende Mitarbeiter (z.B. Krankheit) oder Maschinenausfälle\n- Ungenauigkeit der Planungsmethode\nist nie abgeschlossen\n--> es muss ständig reagiert und angepasst werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-172",
+      "front": "Wie wird die Kapazitätsplanung aufgeteilt?",
+      "back": "- Tatsächliche verfügbare Kapazität\n- Kapazitätsbedarfsplanung\n- Kapazitätsplanung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-173",
+      "front": "Was ist dieTatsächliche verfügbare Kapazität?",
+      "back": "theoretische und effektive Leistungsfähigkeit (optimal und realistisch)\n\n- einzelne Kapazität (Mitarbeiter bzw. Betriebsmittel)\n- Gruppenkapazität (Kostenstelle, Abteilung ...)\n- Gesamtkapazität (Produktion).",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-174",
+      "front": "Was ist die Kapazitätsbedarfsplanung?",
+      "back": "Wie viel wird für den Plan gebraucht?",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-175",
+      "front": "Was ist die Kapazitätsplanung?",
+      "back": "Gibt es einen Engpass oder steht etwas Still (Leerlaufzeit)\n--> Vergleich Verfügbarkeit-Bedarf",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-176",
+      "front": "Welche Möglichkeiten der Anpassung gibt es bei der Kapazitätsplanung?",
+      "back": "- lang und mittelfristig\nAuf und Abbau von Kapazitäten --> Mitarbeiter, Anlagen\n\n- kurzfristig\nVerschieben von Aufträgen, Überstunden, Extraschicht, Leerlaufzeit",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-177",
+      "front": "Was ist die Gesamtanlageneffektivität (GAE)?",
+      "back": "wie gut wird die Kapazität genutzt?\nGAE= Verfügbarkeitsrate(Nettolaufzeit) * Leistungsrate(wie schnell im Vergleich zum Optimum) * Qualitätsrate(Ausschuss und Nacharbeit berücksichtigen)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-178",
+      "front": "Bewerkstelligung von Zeit- und Kapazitätsplanung",
+      "back": "Mittels ERP= Enterprise Ressource Planning\n--> alle Daten aus dem gesamten Unternehmen werden eingespeist\n--> Anbieter wie SAP oder Oracle",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-179",
+      "front": "Was sind die Aufgabenbereiche der Produktionssteuerung?",
+      "back": "- Produktion veranlassen\n- Produktion überwachen\n- Produktion sichern",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-180",
+      "front": "Beschreibe Produktion veranlassen",
+      "back": "- Fertigungsprogramm und Fertigungsaufträge bilden\n- Material- und Kapazitätsbedarf ermitteln\n- Material und Kapazität beschaffen\n- Termine ermitteln u. Kapazität belegen\n- Arbeitsunterlagen erstellen\n- Kapazität und Eingaben bereitstellen\n\n- Arbeitsverteilung durchführen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-181",
+      "front": "Beschreibe Produktion überwachen",
+      "back": "- Ist-Daten erfassen\n- Soll-Ist-Daten vergeleichen\n- Soll-Ist-Abweichung beurteilen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-182",
+      "front": "Beschreibe Produktion sichern",
+      "back": "- Störungsursache ermitteln\n- In Fertigungslauf eingreifen\n- Planänderungen veranlassen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-183",
+      "front": "Welche Aufgaben hat das Starten und Überwachen der Produktion?",
+      "back": "- Bereitstellung von Materialien, Unterlagen, Personal, Ausrüstung\n- Arbeitsverteilung\n- Auftragsüberwachung\n- Produktionsdatenerfassung/Maschinendatenerfassung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-184",
+      "front": "Beschreibe die Arbeitsverteilung",
+      "back": "Auftragsmengen und Termine mit Kapazitäten und Produktion vergleichen und geg. eingreifen\n--> Informationsweitergabe mittels Arbeitsdokument",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-185",
+      "front": "Beschreibe Auftragsüberwachung",
+      "back": "Fehler und Rückmeldung aus der Produktion erfassen\nMenge, Qualität, Start-End Termine",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-186",
+      "front": "Beschreibe Produktionsdatenerfassung/Maschinendatenerfassung",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-187",
+      "front": "Was ist das Dilemma der Auftragsplanung?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-188",
+      "front": "Wie schaut eine Visualisierung des Dilemmas der Ablaufplanung mit Produktionskennlinien aus?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-189",
+      "front": "Was ist die Auftragsfreigabe?",
+      "back": "Freigabe der Produktionsaufträge in Wochenrhythmus\n\nfreigegebene Aufträge\n\n- Aufteilungsplanung\n- Reihenfolgeplanung\nKümmert sich um\n\n- Terminierung und Kapazitätsplanung\n- Durchlaufzeiten\n- Anfangs-End Termine\n- Verfügbarkeit nötiger Ressourcen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-190",
+      "front": "Was ist eine statische/dynamische Auftragsfreigabe?",
+      "back": "statisch: wird nur freigeben wenn alle Ressourcen da sind\n\ndynamisch: wird auch freigegben wenn alle Ressourcen zum Produktionsstart da sein sollen --> Durchlaufzeiten verkürzen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-191",
+      "front": "Was ist die Maschinenbelegung?",
+      "back": "terminliche Zuordnung von mehreren Produktionsaufträgen auf einzelne Maschinen, Betriebsmittelgruppen\n\n- Ein-Maschinen-Problem\nmehrere Aufträge auf eine Maschine\n\n- Mehr-Maschinen-Problem\nx Auftrage auf y Maschinen sinnvoll und zielangemessen Aufteilen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-192",
+      "front": "Was sind die KPIs?",
+      "back": "Key Performace Indicator\n\n- Qualität\n- Geschwindigkeit\n- Zuverlässigkeit\n- Flexibilität\n- Kosten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-193",
+      "front": "Welche Faktoren gibt es bei der Produktqualität?",
+      "back": "- Leistung (was kann das Produkt?)\n- Ausstattung (ähnlicher wie Leistung, fließender Übergang)\n- Zuverlässigkeit (Fehleranfälligkeit)\n- Konformität (Differenz zwischen Anforderungen/Gesetzte/Leitlinien und Tatsache)\n- Beständikeit (Maß für Produktlebensdauer)\n- Wartungsfähigkeit (gut wartbar?)\n- Ästhetik (äußere Erscheinungsbild aber auch Geschmack,Geruch)\n- Qualitätimage (tatsächliche Wahrnehmung der Qualität durch den Kunden)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-194",
+      "front": "Was bedeutet Geschwindigkeit im Sinne des QM?",
+      "back": "Wie schnell bekomme ich meine Bestellung?\n\n- make to stock --> schnelle Lieferzeiten weil ständiger Lagerbestand\n--> aber hohe Lagerkosten, womöglich veraltete Ware\n\n- make to order --> Kunde muss warten\n- Hybride Wege mittels Entkopplungspunkten\n--> bis zu einem Entkopplungspunkt Lagerbestand danach Kundenwünsche",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-195",
+      "front": "Was bedeutet Zuverlässigkeit im Sinne des QM?",
+      "back": "- konsequente Einhaltung der zugesagten Liefertermine\n--> schneller nicht immer besser\n\n- zwingt das Unternehmen intern konstant zu arbeiten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-196",
+      "front": "Was bedeutet Flexibilität im Sinne des QM?",
+      "back": "- Produktflexibilität\n--> schnell auf veränderte Kundenbedürfnisse\nmit neuen Produkten reagieren\n\n- Mischflexibilität\n--> breite Palette von Produkten oder Varianten anbieten\n\n- Volumenflexibilität\n--> Output wegen ändernden Kundennachfrage erhöhen oder verringern\n\n- Lieferflexibilität\n--> auf sich ändernde Liefertermine reagieren --> Priotiätenverschiebung trotzdem pünktlich bleiben",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-197",
+      "front": "Beschreibe Kosten im Sinne des QM?",
+      "back": "niedriger Kosten sind das Ziel\n\n- höhere Magen\n- niedriger Preise --> neue Kundengruppen\nHauptfaktoren sind\n\n- Personalkosten\n- Anlagekosten\n- Materialkosten\nVolumen und Vielfalt sind die größten Enflussfaktoren auf die Kosten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-198",
+      "front": "Was bedeutet Qualitätsmanagement?",
+      "back": "wird es immer wichtiger Qualität als hochrangiges Unternehmensziel zu definieren\n\n- Möglichst hohe Kundenzufriedenheit (intern und extern)\n\n- Möglichst geringe qualitätsbezogene Kosten\n- Kontinuierliche Weiterentwicklung des Qualitätsbewusstseins im Unternehmen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-199",
+      "front": "Welche Methoden des QM gibt es?",
+      "back": "- Total Quality Management (TQM)\n- Six Sigma\n- Statische Prozesskontrolle (SPC)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-200",
+      "front": "Beschreibe das Total Quality Management",
+      "back": "- hohe Qualität im gesamten Unternehmen\n- jeder Mitarbeiter will hohe Qualität und will diese ständig verbessern",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-201",
+      "front": "Beschreibe das Six Sigma",
+      "back": "durch hohe Prozesseffizienz die Herstellungskosten senken\n--> niedrigere Verkaufspreise",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    },
+    {
+      "id": "benneb1001-202",
+      "front": "Beschreibe die statische Prozesskontrolle",
+      "back": "operativ orientierte Technik\nQualitätsprüfungen für Prozesse und nicht für das Produktdesign",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-benneb1001"
+    }
+  ]
+}

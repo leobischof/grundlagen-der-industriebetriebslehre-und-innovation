@@ -1,0 +1,613 @@
+{
+  "deck": "fri1703",
+  "title": "Grundlagen der Industriebetriebslehre",
+  "source": "anki-fri1703",
+  "trust": "unverified-student",
+  "disclaimer": "Diese Karten stammen aus Anki-Decks von Studierenden. Sie sind nicht vom Lehrstuhl geprüft und nicht gegen das Skript verifiziert und können Fehler oder veraltete Inhalte enthalten. Im Zweifel gilt das Skript (`content/`).",
+  "count": 67,
+  "cards": [
+    {
+      "id": "fri1703-001",
+      "front": "Nenne die 3 fundamental unterschiedlichen Strategien nach Porter.",
+      "back": "Ein Unternehmen kann auf Basis von drei unterschiedlichen Strategien konkurrieren:\n\n1) Umfassende Kostenführerschaft\n2) Fokussierung (Konzentration auf Schwerpunkte)\n3) Differenzierung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-002",
+      "front": "Was bedeutet zwischen den Stühlen?",
+      "back": "Ist eine verlustbringende Marktposition eines Unternehmens, die aus einer nicht eindeutig definierten Wettbewerbsstrategie resultiert. Unternehmen befindet sich in der Mitte der Strategie.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-003",
+      "front": "Beschreiben Sie 5 Dimensionen der Innovation:",
+      "back": "1) Die inhaltliche Dimension: Was ist neu?\nSie berücksichtigt die verschiedenen Arten der Innovation.\n\n2) Die Intensitätsdimension: Wie neu?\nDie Intensität/Neuheitsgrad kann auf 2 Arten (Fakten u. Einstufung) definiert werden.\n\n3) Die subjektive Dimension: Neu für wen?\nVerschiedene Gruppen schätzen Innovation unterschiedlich ein.\n\n4) Die prozessuale Dimension: Wo beginnt, wo endet die Neuerung?\nInnovation ist umfassender als eine Erfindung, das bedeutet nicht, das die Erfindung immer der 1. Schritt im Innovationsprozess ist. Vorherige Schritte können z.B. Idee, Entdeckung, Forschung, … sein.\n\n5) Die normative Dimension: Neu = erfolgreich?\nZielorientierte Innovation = nur Innovation, wenn Prozess zu Verbesserung gegenüber Ausgangszustandes verholfen hat.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-004",
+      "front": "Beschreiben Sie die 5 Arten der Innovation:",
+      "back": "Die Arten der Innovation werden unterschieden in:\n\n(1) Produktinnovation\nIst die Entwicklung neuer oder verbesserter Produkte und stellt den Kundennutzen in den Mittelpunkt.\n\n(2) Prozessinnovation\nBezeichnet die Entwicklung neuer Fertigungs- und Herstellungsverfahren, um eine schnellere, qualitative, sichere und kostengünstige Fertigung zu erreichen.\n\n(3) Innovation von Systemeigenschaften\nDas System selbst wird unterschieden in:\n→ innovative Systemkomponenten\n→ innovative Systeme\n→ innovative Systemverbund\n\n(4) Innovation jenseits der Technik\nLaut Schumpeter besteht das Wesen der Innovation in der unstetigen Durchsetzung neuer Kombinationen.\n\n(5) Postindustrielle Innovation\nInnovationen können auch in nicht industriellen Unternehmen wie z.B. Banken, Versicherungen, Handelsunternehmen stattfinden. Beispiele sind Kreditkarten, Leasing, Barcodes, ...",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-005",
+      "front": "Wie können neue Produkte kategorisiert werden?",
+      "back": "Allgemein: Neue Produkte können in zwei Kategorien gegliedert werden:\n● Neu für das Unternehmen: Ein Unternehmen hat dieses Produkt noch nie zuvor\nhergestellt oder verkauft, andere Unternehmen vielleicht schon.\n● Neu auf dem Markt bzw. ‘‘innovativ‘‘: Das Produkt ist das erste seiner Art auf dem\nMarkt.\n\nNach Booz und Hamilton: Diese Klassifizierung umfasst 6 Kategorien neuer Produkte.\n• Weltneuheiten\n• Neue Produktlinie\n• Ergänzungen zu bestehenden Produktlinien\n• Verbesserungen an bestehenden Produkten\n• Neupositionierung\n• Kostensenkungen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-006",
+      "front": "Welche Kategorien für neue Produkte kennen Sie? Spezifizieren Sie diese nach Neuheit für das Unternehmen und Neuheit auf dem Markt. Beschreiben Sie jede Kategorie kurz.",
+      "back": "Kategorie 1: Weltneuheiten:\nDiese Produkte sind die ersten ihrer Art und schaffen einen völlig neuen Markt.\n\nKategorie 2: Neue Produktlinien:\nDiese Produkte sind neu für ein bestimmtes Unternehmen, aber nicht neu auf dem Markt.\n\nKategorie 3: Ergänzungen zu bestehenden Produktlinien:\nProdukte dieser Kategorie sind neu im Unternehmen. Sie passen jedoch in eine bereits bestehende Produktlinie.\n\nKategorie 4: Verbesserungen an bestehenden Produkten\nDiese Kategorie umfasst Produkte, die als Ersatz für bestehende Produkte eines Unternehmens dienen.\n→ Solche Produkte sind ‘‘nicht mehr so neu’’.\n\nKategorie 5: Neupositionierung\nHier geht es darum, neue Anwendungen für ‘‘alte’’ Produkte zu finden.\n\nKategorie 6: Kostensenkungen\nDie Produkte dieser Kategorie haben die gleichen Eigenschaften und Leistungen wie bestehende Produkte, nur dass sie billiger sind.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-007",
+      "front": "Skizziere und erkläre das Portfolio Management für neue Produkte.",
+      "back": "Ist ein leistungsfähiges, aber auch komplexes Werkzeug zur Auswahl und Priorisierung neuer Produkte. Eine sehr gebräuchliche und häufig verwendete Darstellung im Portfoliomanagement ist das Bubble Diagramm. Dort werden die geeigneten Parameter zur Kategorisierung der Produkte ausgewählt und diese in einem 2D x-y-Diagramm dargestellt. Mögliche Parameter wären:\n➔ Übereinstimmung mit der Unternehmensstrategie\n➔ Erfinderische Leistung\n➔ Strategische Bedeutung für das Unternehmen\n➔ Langlebigkeit des Wettbewerbsvorteils\n➔ F&E-Kosten bis zur Fertigstellung\n➔ Zeit bis zur Fertigstellung\n\nIm Plot werden die Produkte als Bubbles (Blasen) platziert, wobei Größe, Form, Farbe und Schattierung der Blasen verwendet werden kann, um zusätzliche Informationen über das Produkt zu liefern.\n→ Größe: gibt die benötigten Ressourcen an\n→ Farbe: Projekt wird einer Produktlinie zugeordnet\n\n1) Perlen:\n→ Produkte mit großem Erfolgspotential\n→ Sind ‘’Stars’’ der Zukunft\n→ Brauchen Geld, um sich zu entwickeln\n→ potenziell hohe erzielbare Rendite\n2) Brot und Butter:\n→ Produkte mit hoher Erfolgswahrscheinlichkeit\n→ gering erzielbare Rendite\n3) Austern:\n→ Haben hohen Gewinn, ähnlich wie Perlen\n→ Technologische Basis zur Umsetzung fehlt\n→ Können nur durch neue technologische Entwicklungen erfolgreich sein - dann Umwandlung in Perlen\n4) Weiße Elefanten:\n→ Werden im Laufe der Zeit unattraktiver\n→ Geringe Chance auf Erfolg und Gewinn\n→ Wenn möglich: Projekt beenden",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-008",
+      "front": "Beschreiben und skizzieren Sie die Ansoff-Matrix",
+      "back": "Es werden bestehende und neue Produkte den jeweiligen Märkten zugeordnet. Sie ist eine der wichtigsten Methoden im Innovationsmanagement. Sie stellt zwei Variablen gegenüber, die für das Wachstum eines Unternehmens sowie Produkte verantwortlich sind.\n\nDas Ergebnis sind 4 verschiedene Strategieoptionen:\n\n1) Marktdurchdringungsstrategie:\nHier wird versucht, den Marktanteil des Produktes zu erhöhen.\n\n2) Marktentwicklungsstrategie:\nHier werden die bestehenden Produkte für neue Märkte verfügbar gemacht, um neue Märkte zu erschließen.\n\n3) Produktentwicklungsstrategie:\nHier geht es um die Schaffung neuer oder verbesserter Produkte.\n\n4) Diversifizierungsstrategie:\nHier sucht die Strategie nach neuen Produkten und Märkten.\nVerschiedene Arten der Diversifikation:\n→ vertikale Diversifikation\n→ horizontale Diversifikation\n→ seitliche Diversifikation\n\nDer Vorteil der Ansoff-Matrix liegt in der Ausrichtung auf die Zukunft. Außerdem wird nur eins der vier Felder ausgefüllt. Dies schafft einen positiven Anreiz für die Einfügung weiterer Maßnahmen.\nKritik: Kann vielleicht nicht der Realität entsprechen.\nDeshalb ist es wichtig andere Faktoren wie Einsparungen zu berücksichtigen. Es soll nicht der Fehler gemacht werden, nur in Produkten zu denken, sondern in Strategien.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-009",
+      "front": "Nennen Sie 3 Gründe für das Scheitern der Produkteinführung.",
+      "back": "Die meisten Produkteinführungen scheitern an einem der folgenden 3 Gründe:\n\n● Der Markt hat keinen Bedarf für das Produkt.\n\n● Es gibt einen Bedarf für ein neues Produkt auf dem Markt, aber das neue Produkt entspricht diesem Bedarf nicht\n\n● Das Produkt bietet dem Anwender keinen signifikanten Mehrwert im Verhältnis zu den Kosten für Anschaffung und Nutzung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-010",
+      "front": "Nennen Sie 7 Kritische Erfolgsfaktoren für Produktinnovation.",
+      "back": "Es können 7 kritische Erfolgsfaktoren für Produktinnovationen genannt\nwerden:\n\n● einzigartiges Produkt\n\n● Marktorientierung\n\n● Frontloading (Verlagerung der Identifizierung und Lösung von Problemen in frühere Phasen des Produktentwicklungsprozesses)\n\n● frühe Produktdefinition\n\n● Spiralenentwicklung (bauen, testen, Feedback generieren und überarbeiten)\n\n● gut durchdachte Markteinführung\n\n● Geschwindigkeit zählt!",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-011",
+      "front": "Nennen Sie die Arten der Innovationstreiber.",
+      "back": "Es gibt unterschiedliche Treiber für Innovation. Diese können in 3 Hauptgruppen gegliedert werden:\n\n1) Megatrends:\nBezeichnen wirtschaftliche, politische, ökologische oder technologische\nVeränderungen, welche die Zukunft mitgestalten, sich jedoch langsam entwickeln.\n→ Dauer: 10-20 Jahre\n→ Bsp.: Demographie, Globalisierung, Klimawandel, Umwelt, ...\n\n2) Makrotrends: (=Konsumtrends)\n→ Dauer: 5-10 Jahre\n→ Bsp.: Autonome Fahrzeuge, Work-Life-Balance, Fleisch der nächsten Generation, Personalisierte Gesundheitsvorsorge, ...\n\n3) Mikrotrends:\n→ Entstehen durch eine kleine Gruppe an Menschen.\n→ Dauer: 1-5 Jahre\n→ Bsp.: In den USA wird ein Microtrend nicht mehr als 3 Millionen Menschen\ninvolvieren. Dennoch sind 3 Millionen ausreichend genug, um ein Unternehmen zu gründen.\n\nWeitere Innovationstreiber: Technologietrends. 12 wurden veröffentlicht, hier ein paar davon:\n➢ Data Fabric\n➢ Cybersecurity Mesh\n➢ Decision Intelligence\n➢ AI-Engineering\n➢ Total Experience\n➢ Autonome Systeme\n➢ Generative AI",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-012",
+      "front": "Beschreiben Sie Produktivität, Wirtschaftlichkeit, Rentabilität und Liquidität.",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-013",
+      "front": "Zeichnen Sie den Produktionsprozess auf.",
+      "back": "Mit Produktion wird die Erzeugung von Gütern durch Kombination von Produktionsfaktoren verstanden. Produktion ist ein transformierender Prozess, der sich in Elemente:\n➢ Input (Produktionsfaktoren)\n➢ Throughput (Kombination und Erzeugung) und\n➢ Output (Güter)\ngliedern lässt.\n\nProduktionsfaktoren stellen den Input eines Produktionsprozesses dar.\nDiese sind nach REFA:\n➢ Mensch (Arbeit)\n➢ Kapital (Betriebsmittel, Finanzmittel)\n➢ Information\nBzw. nach Heinen und Schneeweiß\n➢ Potenzial- und Humanfaktoren (Gebäude, Betriebsmittel, Menschen)\n➢ Repetitivfaktoren (Rohstoffe, Hilfs- und Betriebsstoffe)\n\nDer Input wird vom Produktionsbereich als Throughput zu Output transformiert.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-014",
+      "front": "Zeichnen Sie die Elemente des Produktionsprozesses auf.",
+      "back": "Übersicht über die allgemeinen Elemente des Produktionsprozesses:",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-015",
+      "front": "Welche Innovationsbarrieren kennen Sie?",
+      "back": "• Fehlende Motivation zur Zusammenarbeit (Mitarbeiter unterstützen Projekte nicht.)\n\n• Aufgabenunsicherheit (F&E Aufgaben können nicht erfüllt werden.)\n\n• Ressourcenallokation (Problem der Ressourcenzuteilung.)\n\n• Prozessbedingte Einschränkungen (Beschränken die Handlungsfreiheit der\nMitarbeiter.)\n\n• Barriere des Nichts-Wissens (Mitarbeiter haben nicht das Wissen, Aufgaben der Innovation zu bewältigen.)\n\n• Barriere des Nicht-Wollens (Unwillen, Innovationen zuzulassen)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-016",
+      "front": "Welche kurz- und langfristigen Auswirkungen von Innovationsbarrieren kennen Sie? (Graphik)",
+      "back": "Überblick über die kurzfristigen und langfristigen Auswirkungen auf unterschiedlichen Ebenen:",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-017",
+      "front": "Erklären und skizzieren Sie den Unterschied zwischen SME und IDE.",
+      "back": "● SME-Entrepreneurship (Small and Medium Size Enterprises):\n➢ Fokus lokale und regionale Märkte\n➢ Non-tradeable-Jobs (Arbeitsplätze die vor Ort bestehen, Bsp. Einzelhandel)\n➢ Geringes externes Kapital (meist Familienbetriebe)\n➢ Unternehmenswachstum linear\n\n● IDE-Entrepreneurship (Innovation-driven Enterprises):\n➢ Fokus auf globale und/oder regionale Märkte\n➢ Tradeable-Jobs (Arbeitsplätze können außerhalb eines Landes ausgeübt\nwerden, Bsp. Produktion, Ingenieurwesen)\n➢ Viele externe Kapitalgeber\n➢ Unternehmenswachstum sinkt zuerst, steigt dann exponentiell",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-018",
+      "front": "Nenne und beschreiben Sie die Persönlichkeitsmerkmale von Unternehmern.",
+      "back": "➢ Motivation: Der Unternehmer hat eine Vision, die inspiriert!\n\n➢ Wunsch nach Unabhängigkeit: Development of strategies\n\n➢ Kreativität: Ein Unternehmer ist ein kreativer Denker!\n\n➢ Durchhaltevermögen: Ein hohes Maß an Kreativität kann dazu führen, dass Strategien zu oft geändert werden.\n\n➢ Risikobereitschaft: Unternehmerische Aufgaben bieten Chancen und Risiken.\n\n➢ Problemlösungsfähigkeit: Viele Aufgaben eines Unternehmers sind keine Routineaufgaben.\n\n➢ Fähigkeit, mit Unsicherheit umzugehen: Umgang mit großer informationeller Unsicherheit.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-019",
+      "front": "Erklären Sie die Produktentstehung und nennen Sie mind. 8 Aufgaben.",
+      "back": "Bis zum Ende des 19. Jh. Verfügten Handwerks-Meister das Wissen für die\nProduktentstehung. Die auszuführenden Arbeiten wurden vollständig von Handwerkern\nübernommen.\nMit Beginn der Industrialisierung kam die Trennung von Planungs- und\nAusführungsaufgaben.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-020",
+      "front": "Skizzieren Sie die Produktentstehung als Teil des Produktlebenszyklus.",
+      "back": "Der Produktlebenszyklus beschreibt den gesamten Prozess von der Geschäftsidee bis hin zur Verwendung eines Produktes durch den Kunden.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-021",
+      "front": "Erklären Sie den Unterschied zwischen Effektivität und Effizienz. Was sind die Hauptaufgaben des Effizienzmanagements?",
+      "back": "Effektivität ist ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines Ziels beschrieben werden können.\n\nEffektivität erhöhen:\n➢ Aufgaben, Kompetenzen und Verantwortlichkeit der beteiligten Personen werden klar geregelt. -> Vermeidung von Spannungen und Konflikten bezüglich der Ziele.\n➢ Einsatz der richtigen Technologie für die Produkte.\n\nEffizienz ist ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines Ziels in definierter Art und Weise beschrieben werden können. Die Hauptaufgabe des Effizient Managements ist die Sicherstellung des optimalen Verhältnisses zwischen dem erreichten Output und den benötigten Ressourcen als Input.\n\nGrundlage des effizienten Handels ist das ökonomische Prinzip:\n➢ Minimalprinzip: Realisierung einer vorgegebenen Leistung bei minimalem Ressourcenverbrauch.\n➢ Maximalprinzip: Realisierung einer maximalen Leistung bei vorgegebenem Input.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-022",
+      "front": "Nennen Sie die Arten der Integration im Produktentstehungsprozess?",
+      "back": "Die Integration in der Produktentstehung kann in verschiedenen Formen realisiert werden.\nBeispiele sind hierfür:\n\n• Menschliche Integration\n• Methodische Integration\n• Organisatorische Integration\n• Technologische Integration",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-023",
+      "front": "Unterschied zwischen SE/CE erklären.",
+      "back": "Die Begriffe Simultaneous Engineering (SE) und Concurrent Engineering (CE) werden in der Literatur als synonym verwendet. Sie dienen der organisatorischen Integration im Rahmen der Produktentstehung. Ein Unterschied ergibt sich im Anwendungsfokus.\n\n• Concurrent Engineering konzentriert sich auf die Integration von technologischen und organisatorischen Schnittstellen im Produktentstehungsprozess.\n\n• Simultaneous Engineering konzentriert sich auf die Gleichzeitigkeit der einzelnen Schritte während des Produktentstehungsprozesses. SE optimiert das „magische Dreieck“ der Produktentstehung – Kosten, Zeit und Qualität. Die Optimierung kann durch Verkürzung der Time-to-Market Prozesse, Reduzierung der Entwicklungs- und Produktionskosten sowie Verbesserung der Produkt-, Prozess- und Planungsqualität realisiert werden.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-024",
+      "front": "Erklären Sie die Grundprinzipien von SE.",
+      "back": "SE(Simultaneous Engineering) basiert auf 3 Grundprinzipien:\n\n• Parallelisierung:\nDer Fokus liegt auf der Reduzierung der Gesamtzeit für den gesamten Prozess. Teilprozesse können parallel durchgeführt werden. Es kommt zur Reduzierung der Nachbearbeitungskosten.\n\n• Integration:\nMenschliche Integration, Methodische Integration, Organisatorische Integration und Technologische Integration. Sind im Bereich des SE/CE gültig.\n\n• Standardisierung:\nSie unterstützt die Vermeidung von Nacharbeit bzw. unnötigem Aufwand und ist die Grundlage für die erfolgreiche Umsetzung von Parallelisierung und Integration.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-025",
+      "front": "Erklären Sie die Methoden von CE.",
+      "back": "Point-based Ansätze\n\n„Point-Based“ Ansätze sind gekennzeichnet durch die Entwicklung von einem Punkt/ einer Lösung zum nächsten Punkt/ zur nächsten Lösung im Lösungsraum.\n\nPoint-based Serial Engineering\n\nDort werden in verschiedenen Phasen Lösungen entwickelt, basierend auf Lösungen der jeweils früheren Phasen. Nachgelagerte Prozesse haben keinen Einfluss auf vorgelagerte Prozesse. → Falsche Entscheidungen können über mehrere Phasen des Prozesses führen.\n\nPoint-based Concurrent Engineering\n\nNachgelagerte Prozesse können auf Grundlage der Erfahrung im „Point-based Concurrent Engineering“ (PBCE) die vorgelagerten Prozesse beeinflussen.\n\nSet-based Concurrent Engineering:\nEin Merkmal ist die Berücksichtigung sogenannter Lösungs-Sets über mehrere Phasen. In dem 1. Schritt wird das Lösungs-Set der Gestaltungsvarianten von Konstruktion und Entwicklung mit dem Lösungs-Set der Produktvarianten der Produktion verglichen. Die Überlappung beider Sets begrenzt den möglichen Lösungsraum.\n➔ Einschränkung des Lösungsraums bis zur endgültigen Designlösung.\n\nDie Grundprinzipien des SBCE sind:\n1) Abbildung des Design-Raums\n➢ Definieren machbarer Bereiche\n➢ Untersuchen von Kompromissen\n➢ Kommunizieren der möglichen Lösungs-Sets\n2) Integration durch Überschneidung\n➢ Suche nach Schnittpunkten\n➢ Mindestanforderungen festlegen\n➢ Überprüfen auf Stabilität\n3) Machbarkeit vor Ausführung prüfen\n➢ Schmale Lösungs-Sets mit Detailtiefe\n➢ Kontrolle durch Steuerung an Prozess-Gates\n\nSBCE:\n➢ Führt zu einer effizienteren Kommunikation\n➢ Fördert die Parallelisierung von Prozessen\n➢ Unterstützt frühe Entscheidungen\n➢ Unterstützt das interorganisatorische Lernen",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-026",
+      "front": "Beschreiben Sie das kooperative Produktengineering und die Integrationsbereiche. Nennen Sie die 3 Ziele des kooperativen Produktengineerings.",
+      "back": "Ziel des kooperativen Produktengineerings ist die effiziente und zeitnahe Erstellung von Produkten und Dienstleistungen entsprechend den zukünftigen Bedürfnissen des Marktes.\n\nEs verfolgt 3 Ziele:\n• Früherkennung von Produkten und Dienstleistungen für den zukünftigen Markt\n• Entwicklung neuer Problemlösungen für neue Produkte\n• Sicherung des Produkterfolgs und Steigerung der Umsetzungsrate\n\nKooperatives Produktengineering basiert auf Verhaltens- und Prozessinnovationen.\n➢ Verhaltensinnovationen entwickeln Fähigkeiten des kreativen Denkens und Handels und fördern eine zielorientierte und effiziente Zusammenarbeit zwischen einzelnen Disziplinen und Abteilungen.\n➢ Prozessinnovation stärkt die Methodenkompetenz.\n\nDie Produktentstehung umfasst 3 Hauptaufgabenbereiche:\n• Produktplanung\n• Produktentwicklung\n• Produktionssystementwicklung\n\nStrategische Produktentwicklung:\nGegenstand der Schnittmenge aus strategischer Produktplanung und Produktentwicklung ist die Entwicklung von Produkten.\n\nStrategische Produktionssystementwicklung:\nZiel ist ein langfristiger, zielorientierter Aufbau bzw. die Entwicklung von technischen Kernkompetenzen in der Produktion.\n\nIntegrierte Produkt- und Produktionssystementwicklung:\nDort werden strukturintegrierte Lösungen für Entwicklungsaufgaben in abteilungs- und unternehmensübergreifenden Projektteams gefunden.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-027",
+      "front": "Beschreiben Sie den Innovationsprozess nach Thom.",
+      "back": "Innovationsprozess nach Thom in den 1980er Jahren:\n\nInnovationsimpuls: Ist der gemeinsame Nenner aller Innovationsprozesse.\n3 Hauptphasen des Innovationsprozesses nach Thom:\n1) Ideengenerierung:\na) Suchfelder bestimmen\nb) Ideen finden\nc) Ideen vorschlagen\n\n2) Ideenakzeptierung:\na) Prüfung der Ideen\nb) Erstellen von Realisierungsplänen\nc) Entscheidung für einen zu realisierenden Plan\n\n3) Ideenrealisierung:\na) Konkrete Verwirklichung der Idee\nb) Verkauf der neuen Idee an Zielkunden\nc) Akzeptanzkontrolle",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-028",
+      "front": "Beschreiben und skizzieren Sie das Stage-Gate-Prozess.",
+      "back": "Der von Robert Cooper entwickelte Stage-Gate-Prozess ist eine Methode zur Beschreibung von Innovations- und Entwicklungsprozessen.\nDer Prozess ist eine Abfolge mehrerer Stage-Gate-Systeme. Ein Stage-Gate-System ist ein Prozess, der die neuen Produkte durch verschiedene Phasen und Schritte von der Idee bis zur Markteinführung führt.\n\nFunktion der Stages:\nEin Stage-Gate-System besteht aus 4-6 Stages. In jedem Stage werden Informationen gesammelt, die für den nächsten Stage erforderlich sind.\nFolgende 6 Stages stellen die Hauptbestandteile dieses Innovationsprozesses dar:\n• Ideengenerierung: Phase, in welcher Ideen entstehen\n• Scoping: Vorstudie zum Projekt\n• Business Case erstellen: Produkt- und Projektdefinition\n• Entwicklung: Entwicklung des neuen Produktes\n• Prüfen und Validieren: Fehlersuche\n• Markteinführung: Beginn der Serienproduktion, Vermarktung und Verkauf.\n\nFunktionen der Gates:\nSind Kontrollpunkte, an welchen Entscheidungen getroffen werden. Es treffen sich Entwicklungsteams und diskutieren alle erarbeiteten Informationen. Sie dienen auch der Qualitätskontrollen.\n\nGrundstruktur der Gates:\n\nGates umfassen folgende drei Merkmale:\n1) Eine Reihe von notwenigen Ergebnissen\n2) Kriterien, nach denen das Projekt beurteilt wird („must-meet“ oder „knock-out“ Fragen)\n3) Definierte Outputs (go/kill/hold/recycle, Entscheidungen über das Weiterkommen)",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-029",
+      "front": "Beschreiben Sie die Design Thinking Methode von IDEO.",
+      "back": "Ist eine systematische Herangehensweise an komplexe Problemstellungen aus allen Lebensbereichen. Der gesamte Prozess baut auf Input und Feedback von Kunden und Anwendern auf – dies kann als Kern der Methode bezeichnet werden.\n\nAnwender des Design Thinkings begeben sich in die Rolle des Nutzers und blicken aus seiner Perspektive auf das Problem. Beispiele für entwickelte Produkte: Apple Maus, Handheld PC",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-030",
+      "front": "Nennen Sie 3 Aufgaben des Industrial Managements.",
+      "back": "Gestaltung bedeutet die Festlegung eines Rahmens, der die Ausbildung von\nEntwicklungsfähigkeiten ermöglicht.\n\nLenkung beinhaltet das Ausformulieren von Zielen und das Realisieren daraus abgeleiteter Aktivitäten.\n\nEntwicklung umfasst das Einleiten und Bewältigen von Veränderungsprozessen.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-031",
+      "front": "Nennen Sie alle Produktionsarten und Fertigungsformen.",
+      "back": "Einmalproduktion\nEs umfasst Projektprozesse zur Herstellung von Produkten mit der Menge 1. Diese werden verwendet, um ein bestimmtes Produkt nach genauen Kundenspezifikationen herzustellen.\nBsp.: Anlagenbau\n\nEinzel- und Kleinserienproduktion\nBeschreibt die Mehrfachproduktion einzelner Werkstücke bzw. kleiner Losgrößen.\nBsp.: Herstellung von Werkzeugmaschinen\n\nSerienproduktion\nHier werden große Jahresstückzahlen gleicher Werkstücke hergestellt.\nBsp.: Herstellung von Fahrzeugteilen, Bekleidungsindustrie, Bäckereien, …\n\nMassenproduktion\nExtremfall der Serienproduktion, da hier neben den Jahresstückzahlen auch die Losgrößen selbst sehr groß sind.\n➢ Hohe Wiederholhäufigkeit\n➢ Bewegung des Produktes mit Fördersystem\n➢ Geringe Rüstzeiten\nBsp.: Automobilproduktion, Computer- oder Fernsehbaugruppen\n\nSpezialfall: kontinuierlicher Produktionsprozess → hohes Volumen eines Standartproduktes\nwie z.B. Öl, Gas oder Stahl- Papierherstellung.\n\ndie Fertigungsformen sind in einer anderen Frage genauer erklärt",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-032",
+      "front": "Nennen Sie 5 Fertigungsarten und skizzieren Sie diese.",
+      "back": "Punktfertigung (Stationäre oder Baustellenfertigung)\n➢ Fixe Ortsgebundenheit\n➢ Fertigungsmittel werden gebündelt und können ortsfest oder ortsveränderlich sein\n➢ Kommt bei Arbeitsgegenständen zum Einsatz, die schwer zu bewegen sind\nBsp.: Anlagen-, Großmaschinen- und Schiffsbau\n\nWerkstattfertigung\nBetriebsmittel und Arbeitskräfte werden hier mit gleichen Funktionen zusammengeführt und räumlich zu Gruppen (z.B. Dreherei oder Fräserei) angeordnet.\n\nGruppenfertigung\n= Nest-, Insel- oder Zellenfertigung, fasst alle Maschinen und Arbeitsplätze verschiedener Art und Funktion örtlich zusammen. Die Bearbeitungsmaschinen sind ringförmig angeordnet und mit flexiblen Transportmitteln verbunden.\n\nReihenfertigung\nDie Arbeitsplätze werden anhand der dominierenden Arbeitsvorgangsfolgen des Produktionsprogramms räumlich reihenförmig aufgestellt. Es entsteht ein vorwärts gerichteter Materialfluss, bei dem ein Überspringen von Stationen erlaubt ist, Rückläufe jedoch nicht.\n\nFließfertigung\nÄhnlich wie bei der Reihenfertigung, jedoch ist der Produktionsablauf nicht nur örtlich, sondern auch zeitlich gebunden.\n➢ Sehr kurze Durchlaufzeiten\n➢ Hohe Produktivität\n➢ Konstante, automatisierte Fördersysteme kommen zum Einsatz, um die Stabilität zu gewährleisten\n➢ Geringere Flexibilität\n➢ Starke Störanfälligkeit",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-033",
+      "front": "Nenne und beschreibe die Aufgaben des Operations-Managements.",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-034",
+      "front": "Welche Arten von Materialbedarf kennen Sie?",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-035",
+      "front": "Was ist der Unterschied zwischen Brutto- und Nettobedarf?",
+      "back": "Bruttobedarf: Periodenbezogener Materialbedarf ohne Berücksichtigung von Vorräten.\n\nNettobedarf: Differenz zwischen Bruttobedarf und verfügbaren Lagerbestand.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-036",
+      "front": "Beschreiben Sie das Pareto-Gesetz (ABC-Analyse) und zeichnen Sie eine typische Kurve.",
+      "back": "Möglichkeit, Artikel nach ihrer Verwendungsrate zu klassifizieren: Pareto-Gesetz oder 80/20 Regel. Es besteht darin, dass in der Regel 20% aller Artikel für 80% des Umsatzvolumens verantwortlich sind. Die ABC-Analyse basiert auf dem Pareto-Prinzip.\n\n• A-Artikel: Sind Waren, deren Verbrauchswert der höchste ist. 80% des Verbrauchswerts machen 20% des gesamten Lagerbestands aus.\n\n• B-Artikel: Sind Waren, deren Verbrauchswert im Mittelfeld liegt. 10% des Verbrauchswerts machen 30% des gesamten Lagerbestands aus.\n\n• C-Artikel: Sind Waren, deren Verbrauchswert der niedrigste ist. Unteren 10% des Verbrauchswerts machen 50% des gesamten Lagerbestands aus.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-037",
+      "front": "Zählen Sie die Aufgaben der Kapazitätsplanung auf und erklären Sie den Unterschied zwischen Kapazitätsabgleich und Kapazitätsanpassung.",
+      "back": "Die Aufgaben der Kapazitätsplanung sind die Erstellung von: tatsächlich verfügbarer Kapazität, Kapazitätsbedarfsplanung und Kapazitätskoordination.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-038",
+      "front": "Was versteht man unter GAE?",
+      "back": "GAE = Gesamtanlageneffektivität\n\nSie ist ein nützlicher Weg zur Messung der Kapazitätseffektivität. GAE ist ein\nLeistungsindikator für die Wirksamkeit von Betriebsausrüstung. Sie basiert auf:\n➢ Der verfügbaren Betriebszeit\n➢ Der erzeugten Qualität\n➢ Der Geschwindigkeit oder der Durchsatzrate",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-039",
+      "front": "Beschreiben Sie das Dilemma der Ablaufplanung.",
+      "back": "Bsp.: Maschinenauslastung:\nFalls ein hoher Bestand (Work-in-Progress – „WIP“) vorliegt, können hohe Auslastungen für die Betriebsmittel (Fertigungsmaschinen) erreicht werden. Die Produkte müssen auf Grund der Ablaufplanung vor den Maschinen warten, was die Durchlaufzeiten der Produkte erhöht. Sollen die Durchlaufzeiten und Bestände reduziert werden, sind die Betriebsmittel geringer ausgelastet.\n\nBsp.: Erhöhung der Kapazitätsauslastung:\nWill ein Unternehmen z.B. die Kapazitätsauslastung der Betriebsmittel erhöhen, müssen die Bestände erhöht werden. Dadurch können sich die Durchlaufzeiten erhöhen, wodurch auch die Termintreue verschlechtert wird.\n\nAnhand der Produktionskennlinien kann dargestellt werden, wie sich ein Arbeitssystem bei unveränderten Randbedingungen verhält. Die Linien zeigen, dass es nicht möglich ist, ein gleichzeitiges Optimum für alle Zielgrößen zu definieren.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-040",
+      "front": "Erklären Sie die Leistungskennzahlen im Operations-Management.",
+      "back": "Das Ergebnis eines Prozesses ist der Output. Die Beurteilung des Outputs einer Produktion erfolgt mit Leistungskennzahlen (Key Performance Indicators – KPIs).",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-041",
+      "front": "Nennen Sie die Dimensionen der Produktqualität, Ziele des Qualitätsmanagements und Methoden.",
+      "back": "Dimensionen der Produktqualität:\n➢ Leistung\n➢ Ausstattung\n➢ Zuverlässigkeit\n➢ Qualitätsimage\n➢ Ästhetik\n➢ Wartungsfähig\n➢ Konformität\n➢ Beständigkeit\n\nZiele des Qualitätsmanagements:\n• Möglichst hohe Kundenzufriedenheit\n• Möglichst geringe qualitätsbezogene Kosten\n• Kontinuierliche Weiterentwicklung des Qualitätsbewusstseins\n\nMethoden des Qualitätsmanagements:\n• Total Quality Management (TQM): Ist eine Philosophie, die auf hohe Qualität im gesamten Unternehmen abzielt.\n• Six Sigma: Ist eine Initiative zur Qualitätsverbesserung, um hohes Qualitätsniveau zu erreichen.\n• Statische Prozesskontrolle (SPC): Ist eine operative orientierte Technik zur Qualitätsverbesserung.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-042",
+      "front": "Was sind Entkopplungspunkte und wofür werden Sie eingesetzt?",
+      "back": "Ein Entkopplungspunkt ist eine Stelle in der Wertschöpfungskette, an der der Material- oder Produktionsfluss unterbrochen wird. Bis zu diesem Punkt werden Produkte oder Halbzeuge auf Lager gefertigt (Make-to-Stock), um kurzfristige Verfügbarkeit sicherzustellen. Ab dem Entkopplungspunkt erfolgt die weitere Fertigung auftragsbezogen (Make-to-Order), was eine hohe Variantenvielfalt und individuelle Kundenanpassung ermöglicht. Entkopplungspunkte dienen somit dazu, Lagerproduktion und kundenindividuelle Fertigung effizient miteinander zu verbinden.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-043",
+      "front": "Wie beeinflussen Entkopplungspunkte die Fertigung?",
+      "back": "Die Auftragserfüllungszeit reduziert sich durch das vorgelagerte System, die Lagerkosten werden durch ein Halbfertigteillager reduziert, aber dennoch kann durch das nachgelagerte System eine hohe Variantenzahl produziert werden.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-044",
+      "front": "Strategien nach Porter Beschreiben/Erklären",
+      "back": "Porter definierte eine Strategie als „...eine in sich stimmige Anordnung von Aktivitäten, die ein Unternehmen von seinen Konkurrenten unterscheidet. ...“\n\nGrundsätzlich kann ein Unternehmen auf Basis von drei fundamental unterschiedlichen Strategien konkurrieren:\n\nUmfassende Kostenführerschaft\nUnternehmen, die sich auf eine Kostenführerschaft als Strategie konzentrieren, zeichnen sich durch den aggressiven Aufbau von effizienten Produktionsanlagen, die konsequente Verfolgung von Kostensenkungen, eine strikte (Gemein)Kostenkontrolle, die Vermeidung von marginalen Kundenkonten und die Minimierung von Kosten in Bereichen wie F&E, Service, Vertrieb oder Werbung aus.\n\nFokussierung (Konzentration auf Schwerpunkte)\nEntscheidet sich das Unternehmen, die Strategie der Fokussierung zu verfolgen, ist sein Augenmerk auf eine spezifische Käufergruppe, spezifische Produktliniensegmente oder geografische Märkte gerichtet. Fokusstrategien sind typische Nischenstrategien. Sie erlauben dem Unternehmen, seine Kenntnisse, Kompetenzen und Fähigkeiten auf ein ganz bestimmtes Gebiet zu konzentrieren und sich zu spezialisieren. Das Unternehmen tut dies in einer effektiveren und effizienteren Art und Weise als Wettbewerber, die auf breiter Front konkurrieren.\n\nDifferenzierung\nGerade in Hochlohn-Regionen wie Europa oder den USA verfolgen die meisten Unternehmen eine Strategie der Differenzierung vom Wettbewerb. Ein Unternehmen kann seine Produkte z.B. durch hervorragende Qualität oder spezielle Serviceangebote differenzieren. Auch durch spezifisch auf die Kundenbedürfnisse zugeschnittene Produkte, welche die Probleme der Kunden auf drastische Weise lösen, oder durch innovative Produkte können sich Unternehmen differenzieren.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-045",
+      "front": "Produktionsarten Beschreiben/Erklären",
+      "back": "Einmalproduktion\nDie Einmalproduktion umfasst Projektprozesse zur Herstellung von Produkten mit der der Menge 1. Häufig werden diese verwendet, um ein bestimmtes Produkt nach genauen Kundenspezifikationen herzustellen. Jedes Projekt hat einen klar definierten Anfang und ein klar definiertes Ende hat. Das Zeitintervall zwischen dem Start verschiedener Projekte ist relativ lang und die transformierenden Ressourcen werden meistens speziell für jedes Produkt organisiert. Diese Produktionsart findet sich sehr häufig im Anlagenbau.\n\nEinzel- und Kleinserienfertigung\nEinzel- und Kleinserienproduktion wiederum beschreibt die Mehrfachproduktion einzelner Werkstücke bzw. kleiner Losgrößen, beispielsweise die Herstellung von Werkzeugmaschinen. Für die durchgeführten Prozesse mit geringen Wiederholungsgrad sind meist hochqualifizierte Mitarbeiter wichtig, die mit der geforderten Individualisierung (Variabilität) und den teilweise zur Herstellung verwendeten „Allzweckgeräten“ umgehen können. Die Auslastung der Maschinen ist im Allgemeinen gering, da eine hohe Anzahl von Maschineneinstellungen beim Wechsel von einem Produkt zum anderen erfolgt.\nBeispiele sind Feinmechanik und Maßanfertigungen.\n\nSerienfertigung\nBei der Serienproduktion werden große Jahresstückzahlen gleicher Werkstücke bei mittlerer bis großer Wiederholhäufigkeit hergestellt. Dabei wird meist ein breites Spektrum an Volumen- und Variantenkombinationen abgedeckt. Die zur Herstellung von Produkten durchgeführten Prozesse (Batch-Prozesse) weisen eine mittlere bis geringe Variabilität auf. Aus Gründen der Standardisierung und Rüstzeitreduktion werden Produkte zu „Serien“ bzw. „Chargen“ zusammengefasst, wobei die Losgrößen\nzwischen zwei und einigen hundert Produkten liegen können.\nBeispiele sind die Herstellung von Fahrzeugteilen, die Bekleidungsindustrie, Bäckereien und Bücherdruck.\n\nMassenfertigung\nDie Massenproduktion ist ein Extremfall der Serienproduktion, da hier neben den Jahresstückzahlen auch die Losgrößen selbst sehr groß sind. Außerdem liegt bei dieser Produktionsart eine hohe Wiederholhäufigkeit vor, weshalb stark spezialisierte Produktionsmittel zum Einsatz kommen. Die Bewegung des Produktes wird oft mit einem Fördersystem automatisiert und der Produktionsprozess wird standardisiert in eine Reihe von kleinen und einfachen Aufgaben aufgeteilt. Um eine reibungslose Produktion zu gewährleisten, sollte die Prozesszeit an jedem Arbeitsplatz ähnlich sein. Dies wird durch eine Austaktung der Linie realisiert. Durch die geringe Vielfalt sind die Rüstzeiten gering und die Auslastung der Anlagen kann hochgehalten werden.\nBeispiele sind die Automobilproduktion und Computer- oder Fernsehbaugruppen.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-046",
+      "front": "Fabrikplanung – (Planungs)Grundfälle nennen",
+      "back": "A – Neubau eines Industriegebiets\nErrichtung einer Fabrik auf einem unbebauten Gelände. Wird auch als „Planen auf der grünen Wiese“ oder „Greenfield-Planung“ bezeichnet.\n\nB – Um- und Neugestaltung bestehender Industriebetriebe\nDie meisten Fabriken erfordern eine stetige Anpassung der Fertigungsprozesse an das sich verändernde Produktionsprogramm. Zielsetzung dieses Grundfalls sind oftmals auch Rationalisierungen und Modernisierungen. Umfangreiche Projekte dieser Planungsaufgabe werden häufig auch als „Brownfield-Planung“ bezeichnet. In diesem Fall wird eine bestehende Fabrik umfangreich neugestaltet. Die Einhaltung gegebener Randbedingungen (z.B. Gebäudestruktur) verhindern meist die Umsetzung eines optimalen Lösungskonzeptes.\n\nC – Erweiterung bestehender Industriebetriebe\nErweiterung der Kapazitäten, die zum Beispiel aufgrund von Umsatz- und Auftragswachstum benötigt werden. In der Regel erfordert die Kapazitätserweiterung einen Gebäudeausbau. Auch hier wird gegebenenfalls von einer „Brownfield-Planung“ gesprochen.\n\nD – Rückbau von Industriebetrieben\nDer Rückbau von Industriebetrieben kann zum Beispiel durch einen Umsatzrückgang oder Reduzierung der Fertigungstiefe und Auslagerung von Fertigungsschritten herbeigeführt werden. Wesentlicher Inhalt dieses Grundfalls ist die Anpassung der Kapazitäten und Strukturen entsprechend den vorgegebenen Einschränkungen.\n\nE – Revitalisierung von Industriebetrieben\n„Revitalisierung von Industriebetrieben“ stellt einen Sanierungsprozess dar. Dabei werden stillgelegte Fabriken einer neuen industriellen Verwendung zugeführt.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-047",
+      "front": "Formeln für: Wirtschaftlichkeit, Liquidität, spezifischer Mitteleinsatz, Rentabilität",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-048",
+      "front": "Arten der Flexibilität",
+      "back": "Produktflexibilität\n- die Fähigkeit schnell auf veränderte Kundenbedürfnisse mit neuen Produkten reagieren zu können.\n\nMischflexibilität\n- die Fähigkeit eine breite Palette von Produkten oder Varianten anbieten zu können.\n\nVolumenflexibilität\n- die Fähigkeit den Output einer Produktion aufgrund der sich ändernden Kundennachfrage erhöhen oder verringern zu können (auch saisonale Veränderungen).\n\nLieferflexibilität\n- die Fähigkeit auf sich ändernde Liefertermine zu reagieren. Dies würde auch bedeuten, die Prioritäten zwischen den Aufträgen ändern zu können und trotzdem pünktlich zu liefern.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-049",
+      "front": "Begriffserklärung\n+ jeweils ein Beispiel: Invention, Innovation, Imitation, Modifikation",
+      "back": "Invention\nUnter „Invention“ wird die Erfindung an sich verstanden.\nBsp.: Erfindung des Telefons\n\nInnovation\nInnovation ist der Prozess der wirtschaftlichen Anwendung der Erfindungen. Innovation ist somit ein kompletter Prozess, der alle Phasen der Produktentwicklung von der Idee bis zur Markteinführung eines neuen Produktes umfasst.\nBsp.: iPhone, das bestehende Technologien (Touchscreen, mobiles Internet) in einem vereint und erfolgreich vermarktet wurde.\n\nImitation\nursprüngliche Innovation wird von jemand anderem betrieben und es wird eine Imitation (=Nachbildung) erzeugt, die oft von geringerer Qualität ist. Gelingt es, diese Nachbildungen in die eigenen Produkte und Prozesse zu integrieren und sogar zu verbessern, ist es möglich, auch ohne Innovation einen wirtschaftlichen Erfolg zu erzielen.\nBsp.: chinesische Smartphone-Hersteller, die Design und Funktionen von z.B. Apple oder Samsung nachbilden und unter eigener Marke verkaufen\n\nModifikation\nModifikation ist die Veränderung oder Erweiterung eines bestehenden Produktes. Dies kann die Verbesserung der Qualität, sowie die Änderung der Ausstattung oder des Erscheinungsbildes beinhalten. Produktmodifikationen können dafür sorgen, die letzte Phase des Produktlebenszyklus zu verlängern, dessen Ende jedoch langfristig nicht verhindern. Innovation und Modifikation unterscheiden sich in erster Linie darin, dass die Modifikation ein geringeres Risiko und meist auch geringere Investitionskosten mit sich bringt.\nBsp.: Nachfolgermodelle von Smartphones",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-050",
+      "front": "ABC-Analyse im Kontext der Materialbedarfsplanung + Schematische Skizze der Grafik",
+      "back": "Eine Möglichkeit, Artikel nach ihrer Verwendungsrate zu klassifizieren, ist das sogenannte \"Pareto-Gesetz\" oder die \"80/20-Regel\". Das Phänomen des Pareto-Gesetzes besteht darin, dass in der Regel 20% aller Artikel für 80% des Umsatzvolumens verantwortlich sind.\n\nA-Artikel sind Waren, deren jährlicher Verbrauchswert der höchste ist. Die höchsten 80% des jährlichen Verbrauchswerts machen normalerweise 20% des gesamten Lagerbestands aus.\n\nB-Artikel liegen mit einem mittleren Verbrauchswert im Mittelfeld. Die 10% des jährlichen Verbrauchswert machen normalerweise 30% des gesamten Lagerbestands aus.\n\nC-Artikel sind vielmehr Artikel mit dem niedrigsten Verbrauchswert. Die unteren 10% des jährlichen Verbrauchswert machen normalerweise 50% des gesamten Lagerbestands aus.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-051",
+      "front": "Aufzählen und Erklären der Innovationsförderer (Akteure) im Innovationsmanagement",
+      "back": "Nach Witte können 3 Akteure beschrieben werden:\n\nTechnologieförderer haben die Fähigkeiten ein Problem zu lösen. Sie beschaffen oder erstellen die erforderlichen Informationen.\n\nMachtförderer haben den Einfluss Innovation zu fördern. Sie nutzen Führungsinstrumente, um den Widerstand zu überwinden und setzen materielle und immaterielle Anreize, um Innovation zu unterstützen.\n\nProzessförderer sind für die Administration und die Organisation verantwortlich, stellen relevante Verbindungen her und unterstützen die Interaktion der Teilnehmer.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-052",
+      "front": "Definition der Nachhaltigkeit nach der Brundtland-Kommission und Erklärung von „Sustainable Development“",
+      "back": "Der Begriff Nachhaltigkeit (engl. „Sustainability“ bzw. „Sustainable Development“) beschreibt ein Handlungsprinzip zur Ressourcennutzung. Diese muss nach Definition der Brundtland-Kommission so erfolgen, dass heutige Bedürfnisse befriedigt werden, ohne die der zukünftigen Generationen zu beeinträchtigen.\n\n„Sustainable Development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.“\n\nUm die Regenerationsfähigkeit natürlicher Systeme zu bewahren sind drei Prinzipien von besonderer Bedeutung:\n\nDas Verantwortungsprinzip soll dazu beitragen, einerseits das Wohlstandsgefälle zwischen Industrie- und Entwicklungsländern (intragenerative Gerechtigkeit) zu vermindern, andererseits sollen die Bedürfnisse zukünftiger Generationen berücksichtigt werden (intergenerative Gerechtigkeit).\n\nDas Kooperationsprinzip verdeutlicht die Notwendigkeit, globalen und nationalen Umweltproblemen durch eine enge Zusammenarbeit aller Beteiligten (Bund, Länder, Gemeinden, Wirtschaft und Wissenschaft) zu begegnen.\n\nDas Kreislaufprinzip beschreibt, dass Ressourcen mehrmals genutzt werden, bevor sie aus der Produktion oder Nutzung ausgeschieden werden. Klassisches Beispiel hierfür ist das Konzept der Kreislaufwirtschaft („circular economy“) in dem ein regeneratives System angestrebt wird das sowohl auf die Vermeidung wie auch die Verwertung von Abfällen fokussiert. Der „Abfall“ eines Prozesses wird als Rohstoff für andere Prozesse genutzt. Dieser Ansatz kann etwa bei der Instandhaltung (Refurbishment), Refabrikation/Aufarbeitung (Remanufacturing), Reparatur, langlebige Designs und Konstruktion, sowie im letzten Schritt die Müllverwertung („Recycling“) angewandt werden.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-053",
+      "front": "Beschreiben Sie den Produktlebenszyklus (im Zusammenhang mit dem Umsatz)",
+      "back": "Die Nachfrage nach einem Produkt durchläuft ab seiner Einführung am Markt unterschiedliche Phasen ab. Der Produktlebenszyklus beschreibt diese Phasen, welche wie folgt gegliedert sind:\n\nEinführungsphase:\nIn dieser Phase sind die Unsicherheiten bezüglich des Markts besonders hoch.Dies gilt im Besonderen dafür, wie der Markt das Produkt des Unternehmens aufnimmt. Gegebenenfalls muss ein etabliertes Produkt verdrängt werden. Die Produkteinführung erfolgt in kleinen Stückzahlen und wird eher von neugierigen Kunden (z. B. Tech-Freaks) gekauft.\n\nWachstumsphase:\nDer Markt akzeptiert das Produkt, der Umsatz steigt sehr stark an. Ab dieser Phase können bereits die ersten Imitat-Produkte auf den Markt kommen. Letztendlich wird sich ein Standard durchsetzen.\n\nReifephase:\nDer Kampf um Marktanteile ist das zentrale Merkmal dieser Phase. Stellhebel, über die diese Phase in die Länge gezogen werden kann, sind Preispolitik und Produktvariationen.\n\nSättigungsphase:\nUmsatzhöhepunkt. Durch Marketingmaßnahmen wird versucht, die Nachfrage noch zu steigern oder Kunden zum Wechsel des Anbieters zu bewegen. Zentrales Merkmal dieser Phase ist der harte Kampf um die Marktanteile.\n\nAbschwung:\nDer Umsatz des Produkts geht zurück. Neue Entwicklungen substituieren oder überholen das Produkt. Die Marketingaktivitäten werden stark reduziert, da sich Investitionen in das Produkt nicht mehr rechnen.\n\nDie Umsatzentwicklung über den Lebenszyklus wird dabei ideal als S-förmige Kurve dargestellt:",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-054",
+      "front": "Nenne und erkläre die 4 Innovationstreiber nach Cooper",
+      "back": "Die wichtigsten Treiber für Produktinnovationen kommen vom Markt selbst. Cooper identifiziert vier Haupttreiber für die Produktinnovation:\n\n1.Technologischer Fortschritt:\nDie Wissensbasis der Welt wächst exponentiell. Der enorme Know-how-Gewinn ermöglicht neue technische Lösungen, die Quellen für innovative neue Produkte sein können.\n\n2.Veränderte Kundenanforderungen:\nDie Kundenbedürfnisse ändern sich in der heutigen Welt rasant. Der Kunde erkennt schnell, was möglich und auf dem Markt verfügbar ist und will es haben. Auch große und erfolgreiche Unternehmen sind bestrebt, mit den neuen Entwicklungen des Marktes Schritt zu halten. Sie sind anfällig für Fusionen und Übernahmen, wenn es ihnen nicht gelingt, sich an den Markt anzupassen.\n\n3.Kürzere Produktlebenszyklen:\nAls unmittelbare Folge des technologischen Wandels und der sich ändernden Marktanforderungen haben neue Produkte keine Lebensdauer von fünf bis zehn Jahren mehr. Bereits nach kurzer Zeit auf dem Markt werden sie durch Konkurrenzprodukte abgelöst.\n\n4.Globaler Wettbewerb:\nDie internationalen Märkte verschmelzen immer mehr. Das bedeutet, dass einerseits die Unternehmen Zugang zu neuen Märkten haben, andererseits aber auch ausländische Wettbewerber in die lokalen Märkte drängen. Für innovative Produktentwickler ergeben sich dadurch Vorteile auf globaler Ebene, da sie mit ihrem neuen Produkt Zugang zu globalen Märkten erhalten und auch auf dem heimischen Markt Wettbewerbsvorteile haben.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-055",
+      "front": "Design Thinking erklären / Unterschied zu anderen Entwicklungsmethoden",
+      "back": "Design Thinking ist eine systematische Herangehensweise an komplexe Problemstellungen aus allen Lebensbereichen. Der methodische Prozess geht weit über klassische Design-Disziplinen wie Formgebung und Konstruktion hinaus.\n\nIm Gegensatz zu den meisten Entwicklungsmethoden in Wissenschaft und Praxis, die Problemstellungen von Seiten der technischen Lösbarkeit angehen, stehen beim Design Thinking Nutzerwünsche und -bedürfnisse sowie nutzerorientiertes Erfinden im Zentrum des Prozesses. Der gesamte Prozess baut auf Input und Feedback von Kunden und Anwendern auf - dies kann als Kern der Methode bezeichnet werden.\n\nAnwender des Design Thinkings begeben sich in die Rolle des Nutzers und blicken aus seiner Perspektive auf das Problem. Die Methode wurde vom Unternehmen IDEO entwickelt und im Laufe der Jahre erfolgreich angewendet. Erfolgreiche Beispiele sind die erste Apple Maus oder der Handheld PC Palm V.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-056",
+      "front": "Typologien der Produktionsprozesse",
+      "back": "Einzelne Industriebetriebe weisen teilweise sehr große Unterschiede bezüglich der zu lösenden produktionswirtschaftlichen\nAufgaben auf. So hat z.B. ein Automobilhersteller andere Herausforderungen als ein Textilhersteller.\n\nUm diese Unterschiede zu kategorisieren, werden in der Literatur verschiedene Vorschläge zur Typologisierung von Produktionssystemen beschrieben. Aus Organisationssicht kann ein Produktionssystem anhand der Produktionsart (nach mengenmäßigen Auftragsumfang und Wiederholhäufigkeit) und Fertigungsformen (nach der räumlichen Anordnung) charakterisiert werden. Die Fertigungsform gibt die allgemeine Struktur des Fertigungslayouts vor.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-057",
+      "front": "Erkläre das sogenannte Auslastungsdilemma",
+      "back": "Der Forderung nach Minimierung der Durchlaufzeit\nsteht die Forderung, die Fertigungsaufträge zeitlich so zu verteilen, dass eine möglichst hohe Auslastung der Betriebsmittel erreicht wird, gegenüber.\n\nIn dem Maße, in dem es gelingt, arbeitsablaufbedingte Leerzeiten zu minimieren, wird die Forderung nach günstigster Auslastung der Betriebsmittelkapazität erfüllt. Jede Ablaufplanung stellt somit den Versuch dar, diese beiden entgegengesetzten Forderungen miteinander in Einklang zu bringen.\n\nAm folgenden Beispiel soll das Dilemma der Ablaufplanung(=Auslastungsdilemma) veranschaulicht werden. Falls ein hoher Bestand (Work-in-Process - „WIP“) vorliegt, können hohe Auslastungen für die Betriebsmittel (Fertigungsmaschinen) erreicht werden. Die Produkte müssen jedoch eventuell auf Grund der Ablaufplanung vor den Maschinen warten, was die Durchlaufzeiten der Produkte erhöht. Sollen die Durchlaufzeiten und Bestände reduziert werden, sind die Betriebsmittel (Fertigungsmaschinen) geringer ausgelastet.\n\nWill ein Unternehmen z.B. die Kapazitätsauslastung der Betriebsmittel (z.B. Fertigungsmaschinen) erhöhen, müssen die Bestände (Work-in-Process) erhöht werden. Dadurch können sich die Durchlaufzeiten erhöhen, wodurch auch die Termintreue verschlechtert wird.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-058",
+      "front": "Erklären Sie für was die Ansoff-Matrix verwendet wird, und zeichnen Sie diese",
+      "back": "Neben der Einordnung nach Kategorien können bestehende und neue Produkte jeweiligen Märkten zugeordnet werden. Die Ansoff-Matrix stellt zwei wichtige Variablen gegenüber, die für das Wachstum eines Unternehmens, von Märkten sowie Produkten verantwortlich sind. Das Ergebnis dieser Gegenüberstellung sind vier verschiedene Strategieoptionen, die sich auf die möglichen Produkt-Markt-Kombinationen beziehen.\n\nDer Vorteil der Ansoff-Matrix liegt in der Ausrichtung auf die Zukunft. Außerdem wird, wenn die aktuelle Situation des Unternehmens in der Matrix festgehalten wird, nur eines der vier Felder ausgefüllt. Dies schafft einen positiven psychologischen Anreiz für die Einführung weiterer Maßnahmen. Es wurde jedoch die Kritik geäußert, dass die Ansoff-Matrix ein Umfeld zeigt, welches von einem großen Wachstumspotenzial ausgeht, das vielleicht nicht der Realität entspricht.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-059",
+      "front": "a) Rohstoffe usw. werden in Stücklisten eingetragen. Wozu dient dabei ein Gozintograph?\nb)Zeichnen Sie ein allgemeines Beispiel eines Gozintographen",
+      "back": "Ein Gozintograph visualisiert die Struktur von Stücklisten. Er zeigt, welche Komponenten (Bauteile, Rohstoffe) in ein Endprodukt „hineingehen“.\nDadurch wird verdeutlicht, welche und wie viele Einzelteile für ein Produkt erforderlich sind und bei welchen Fertigungsschritten diese benötigt werden.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-060",
+      "front": "Erklären\nSie die Begriffe TQM, Six Sigma und SPC aus dem Qualitätsmanagement",
+      "back": "Total\nQuality Management (TQM): TQM ist eine Philosophie, die auf hohe Qualität\nim gesamten Unternehmen abzielt. Jeder Mitarbeiter ist für eine hohe Qualität\nder Produkte verantwortlich. Die Kunden definieren die gewünschte Qualität und\nihre Bedürfnisse müssen erfüllt werden. Außerdem muss eine kontinuierliche\nVerbesserungskultur entwickelt werden.\n\nSix\nSigma: Ist eine Initiative zur Qualitätsverbesserung, um ein hohes\nQualitätsniveau zu erreichen. Ziel ist es, durch hohe Prozesseffizienz die\nHerstellungskosten zu senken und damit den Umsatz eines Unternehmens durch\nniedrigere Verkaufspreise und hohe Kundenzufriedenheit zu steigern.\n\nStatistische\nProzesskontrolle (SPC): Ist eine operativ orientierte Technik zur\nQualitätsverbesserung. Sie kann als Qualitätsprüfung für Prozesse und nicht für\ndas Produktdesign angesehen werden und basiert auf einer inhärenten\nVariabilität der Prozesse.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-061",
+      "front": "Nennen Sie mindestens sechs Kriterien für Innovationsstrategien und welche Ziele bzw. Strategien daraus folgen.",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-062",
+      "front": "Nennen Sie die Definition von Nachhaltigkeit lt. Brundlandt-Kommission und erklären Sie die drei Prinzipien des Sustainable Developments.",
+      "back": "Der Begriff Nachhaltigkeit (engl.„Sustainability“ bzw. „Sustainable Development“) beschreibt ein Handlungsprinzip zur Ressourcennutzung. Diese muss nach Definition der Brundtland-Kommission so erfolgen, dass heutige Bedürfnisse befriedigt werden, ohne die der zukünftigen Generationen zu beeinträchtigen.\n\n„Sustainable Development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs “.\n\nUm die Regenerationsfähigkeit natürlicher Systeme zu bewahren sind drei Prinzipien von besonderer Bedeutung:\n\nDas Verantwortungsprinzip soll dazu beitragen, einerseits das Wohlstandsgefälle zwischen Industrie- und Entwicklungsländern (intragenerative Gerechtigkeit) zu vermindern, andererseits sollen die Bedürfnisse zukünftiger Generationen berücksichtigt werden(intergenerative Gerechtigkeit).\n\nDas Kooperationsprinzip verdeutlicht die Notwendigkeit, globalen und nationalen Umweltproblemen durch eine enge Zusammenarbeit aller Beteiligten (Bund, Länder, Gemeinden, Wirtschaft und Wissenschaft) zu begegnen.\n\nDas Kreislaufprinzip beschreibt, dass Ressourcen mehrmals genutzt werden, bevor sie aus der Produktion oder Nutzung ausgeschieden werden. Klassisches Beispiel hierfür ist das Konzept der Kreislaufwirtschaft („circular economy“) in dem ein regeneratives System angestrebt wird das sowohl auf die Vermeidung wie auch die Verwertung von Abfällen fokussiert. Der „Abfall“ eines Prozesses wird als Rohstoff für andere Prozesse genutzt. Dieser Ansatz kann etwa bei der Instandhaltung (Refurbishment), Refabrikation/Aufarbeitung (Remanufacturing), Reparatur,\nlanglebige Designs und Konstruktion, sowie im letzten Schritt die Müllverwertung („Recycling“) angewandt werden.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-063",
+      "front": "Unterschiedliche Arten der Innovation",
+      "back": "Produktinnovation:\nProduktinnovation meint die Entwicklung neuer oder verbesserter Produkte und stellt den Kundennutzen in den Mittelpunkt.\n\nProzessinnovation:\nProzessinnovation bezeichnet die Entwicklung neuer Fertigungs- und Herstellungs- verfahren, um eine schnellere, sicherere und/oder kosteneffizientere Fertigung zu erreichen.\n\nInnovation von Systemeigenschaften:\nDie Betrachtung der Innovationsinhalte kann durch systemtheoretische Berücksichtigung der Zahl und der Verzahnung der Elemente von Produkt- oder Prozessinnovationen erweitert werden.\n\nInnovation jenseits der Technik:\nInnovation ist nicht nur ein technisches bzw. naturwissenschaftliches Problem, sondern besitzt auch Relevanz für die Bereiche Ökonomie und Management.\n\nPostindustriellen Innovation:\nDie aktuelle Betrachtung von Innovationen geht einen Schritt weiter und sagt, dass Innovationen nicht nur als Problem industrieller Unternehmen oder als innerbetriebliche Entscheidungsprobleme gesehen werden dürfen. Vielmehr können Innovationen auch in nicht-industriellen Unternehmen wie z.B. Banken, Versicherungen, Handelsunternehmen oder der öffentlichen Verwaltung stattfinden.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-064",
+      "front": "Skizzieren & benennen Sie Integrationsbereiche von Innovationsprozess und\nProduktentwicklung (Venn-Diagramm)",
+      "back": "Strategische Produktentwicklung:\nGegenstand der Schnittmenge aus strategischer Produktplanung und Produktentwicklung ist die Entwicklung von Produkten und\nergänzenden Dienstleistungen nach einem Businessplan, welcher auf Geschäftserfolgspotenzialen basiert.\n\nStrategische Produktionssystementwicklung:\nZiel der strategischen Produktionssystementwicklung ist ein langfristiger, zielorientierter Aufbau bzw. die Entwicklung von technischen Kernkompetenzen in der Produktion. Hierzu muss das technische Entwicklungspotenzial der Produktion aufgezeigt werden und eine Anpassung der Unternehmensziele erfolgen. Im Bedarfsfall muss eine Erweiterung der Prozessfähigkeiten erfolgen.\n\nIntegrierte Produkt- und Produktionssystementwicklung:\nMithilfe der integrierten Produkt- und Produktionssystementwicklung sollen strukturintegrierte Lösungen für Entwicklungsaufgaben in abteilungs- und unternehmens- übergreifenden Projektteams gefunden werden. Zur Gewährleistung einer proaktiven Entwicklung von Produkten und Prozessen findet ein übergreifender Austausch von Informationen sowie technischen und technologischen Anforderungen und Potenzialen statt.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-065",
+      "front": "Definition Industrieunternehmen? Unterschiede anderer Wirtschaftseinheiten",
+      "back": "Ein Industrieunternehmen ist eine technische, soziale, wirtschaftliche und umweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit dem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen trifft und Risiken eingeht.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-066",
+      "front": "Welche\nKennzahl gibt Aufschluss über die Kapazitätseffektivität von Betriebsmitteln?\nGeben Sie die dazugehörige Formel + Formeln der dazugehörigen „Raten“ an.",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    },
+    {
+      "id": "fri1703-067",
+      "front": "Erklären Sie im Kontext der Nachhaltigkeit die Begriffe Effizienz, Suffizienz und Konsistenz. Geben Sie jeweils ein Beispiel in Bezug auf Energieverbrauch an. Welche Rolle spielen technologische Innovationen?",
+      "back": "Effizienz beschreibt eine Verbesserung des Input-Output- Verhältnisses, d.h. eine ökonomische Leistung mit geringstmöglichem Einsatz an Material und Energie zu erstellen. Der Effekt besteht in einer relativen Senkung des Ressourcenverbrauchs.\n\nKonsistenz (Öko-Effektivität) beschreibt den Fokus auf umweltverträgliche Beschaffenheit von Energie und Materialien. Beispiele sind biologisch abbaubare Rohstoffe, erneuerbare Energie und/oder die Kreislaufwirtschaft.\n\nSuffizienz beschreibt ein genügsameres Konsumverhalten, wodurch der Ressourcenverbrauch gesenkt werden kann. Diese lässt sich sowohl über freiwillige Genügsamkeit bzw. Verzicht als auch durch politische Maßnahmen (z.B. Verbote, Beschränkungen) realisieren.\n\n<Effizienz kann sowohl den wirtschaftlichen Ertrag steigern als auch Ressourcen bzw. die Umwelt schonen, beides jedoch nur in einem begrenzten Umfang (Verschiebung von Ausgangspunkt A zu Punkt B). Der Suffizienz wird eine stärkere Wirkung hin zu einem akzeptablen Ressourcenverbrauch zugetraut, sie verringert aber zwangsläufig auch der Ertrag (Übergang von Punkt A zu C). Das größte Potential wir der (durch technische Innovationen ermöglichten) Konsistenz zugetraut (Punkt D). Das abgebildete Aufwands- und Ertragsdiagramm verdeutlicht, dass Konsistenz der Effizienz in ihrem Wirken ähnlich (höhere Produktivität, kein verringerter Ertrag), aber weitaus radikaler ist. Die Entscheidung, ob und wie intensiv das heraus- fordernde Streben nach mehr Konsistenz betrieben wird, liegt zumeist bei den Produzenten.",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-fri1703"
+    }
+  ]
+}

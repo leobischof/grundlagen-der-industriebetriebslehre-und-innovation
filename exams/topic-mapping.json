@@ -1,0 +1,2223 @@
+{
+  "topics": [
+    {
+      "id": "industrie-historische-entwicklung",
+      "title": "Historische Entwicklung der Industrie (Industrie 1.0 bis 4.0)",
+      "sections": [
+        "1.1"
+      ],
+      "figures": [
+        "abb-01",
+        "abb-02"
+      ],
+      "keywords": [
+        "Industrialisierung",
+        "Industrie 4.0",
+        "industrielle Revolution"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "wirtschaftliche-bedeutung-industrie",
+      "title": "Wirtschaftliche Bedeutung der Industrie (Zahlen, Fertigung, Österreich)",
+      "sections": [
+        "1.2",
+        "1.2.1",
+        "1.2.2",
+        "1.2.3"
+      ],
+      "figures": [
+        "tab-01",
+        "tab-02",
+        "tab-03",
+        "abb-03"
+      ],
+      "keywords": [
+        "Wertschöpfung",
+        "Beschäftigte",
+        "Entindustrialisierung",
+        "KMU",
+        "Österreich"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "herausforderungen-industriebetriebe",
+      "title": "Aktuelle Herausforderungen der Industriebetriebe",
+      "sections": [
+        "1.3",
+        "1.3.1",
+        "1.3.2",
+        "1.3.3",
+        "1.3.4",
+        "1.3.5"
+      ],
+      "figures": [
+        "abb-04"
+      ],
+      "keywords": [
+        "Globalisierung",
+        "neue Technologien",
+        "demografischer Wandel",
+        "Wettbewerbsfähigkeit"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "wettbewerbsstrategien-porter",
+      "title": "Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung)",
+      "sections": [
+        "2.1"
+      ],
+      "figures": [
+        "abb-05",
+        "abb-06"
+      ],
+      "keywords": [
+        "Porter",
+        "Differenzierung",
+        "Kostenführerschaft",
+        "Fokussierung",
+        "Strategien"
+      ],
+      "question_ids": [
+        "frage-2024-03-14-1",
+        "frage-2025-10-15-1"
+      ]
+    },
+    {
+      "id": "innovationsbegriffe",
+      "title": "Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation)",
+      "sections": [
+        "2.2"
+      ],
+      "figures": [
+        "abb-07"
+      ],
+      "keywords": [
+        "Invention",
+        "Innovation",
+        "Imitation",
+        "Modifikation",
+        "Neuheit",
+        "Wert"
+      ],
+      "question_ids": [
+        "frage-2024-06-20-1",
+        "frage-2024-10-15-1",
+        "frage-2026-01-22-2"
+      ]
+    },
+    {
+      "id": "innovationsdimensionen",
+      "title": "Dimensionen der Innovation",
+      "sections": [
+        "2.3"
+      ],
+      "figures": [],
+      "keywords": [
+        "Inhaltsdimension",
+        "Intensitätsdimension",
+        "subjektive Dimension",
+        "prozessuale Dimension",
+        "normative Dimension"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "innovationstreiber-trends",
+      "title": "Innovationstreiber (Mega-, Makro-, Mikro- und Technologietrends)",
+      "sections": [
+        "2.4"
+      ],
+      "figures": [],
+      "keywords": [
+        "Megatrend",
+        "Makrotrend",
+        "Mikrotrend",
+        "Technologietrends"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "innovationsarten",
+      "title": "Arten der Innovation (Prozess-, System-, nicht-technische und postindustrielle Innovation)",
+      "sections": [
+        "2.5",
+        "2.5.2",
+        "2.5.3",
+        "2.5.4",
+        "2.5.5"
+      ],
+      "figures": [],
+      "keywords": [
+        "Prozessinnovation",
+        "Systeminnovation",
+        "Sozialinnovation",
+        "postindustrielle Innovation",
+        "Arten der Innovation"
+      ],
+      "question_ids": [
+        "frage-2025-03-18-1",
+        "frage-2026-01-22-2"
+      ]
+    },
+    {
+      "id": "produktinnovation",
+      "title": "Produktinnovation (Kategorien neuer Produkte, Portfolio)",
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-09",
+        "abb-10"
+      ],
+      "keywords": [
+        "Produktinnovation",
+        "Kategorien neuer Produkte",
+        "Portfolio Management",
+        "Neuprodukt"
+      ],
+      "question_ids": [
+        "frage-2025-03-18-1"
+      ]
+    },
+    {
+      "id": "produktlebenszyklus",
+      "title": "Produktlebenszyklus",
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-08"
+      ],
+      "keywords": [
+        "Produktlebenszyklus",
+        "Einführung",
+        "Wachstum",
+        "Reife",
+        "Sättigung",
+        "Degeneration",
+        "Lebenszyklus"
+      ],
+      "question_ids": [
+        "frage-2024-12-10-1",
+        "frage-2025-04-09-2",
+        "frage-2026-04-29-1"
+      ]
+    },
+    {
+      "id": "ansoff-matrix",
+      "title": "Ansoff-Matrix (Wachstumsstrategien)",
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-11"
+      ],
+      "keywords": [
+        "Ansoff",
+        "Marktdurchdringung",
+        "Marktentwicklung",
+        "Produktentwicklung",
+        "Diversifikation"
+      ],
+      "question_ids": [
+        "frage-2025-02-04-1",
+        "frage-2026-04-29-2"
+      ]
+    },
+    {
+      "id": "treiber-erfolgsfaktoren-produktinnovation",
+      "title": "Treiber und kritische Erfolgsfaktoren von Produktinnovationen (Cooper)",
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [],
+      "keywords": [
+        "Cooper",
+        "Innovationstreiber",
+        "Erfolgsfaktoren",
+        "kritische Erfolgsfaktoren",
+        "Frontloading",
+        "Markteinführung"
+      ],
+      "question_ids": [
+        "frage-2024-12-10-2",
+        "frage-2025-12-11-1"
+      ]
+    },
+    {
+      "id": "industriebetrieb-abgrenzung",
+      "title": "Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten)",
+      "sections": [
+        "3.1",
+        "3.1.1",
+        "3.3"
+      ],
+      "figures": [
+        "abb-12",
+        "abb-13",
+        "abb-14",
+        "abb-18"
+      ],
+      "keywords": [
+        "Industriebetrieb",
+        "Industrieunternehmen",
+        "Merkmale",
+        "Wirtschaftseinheiten",
+        "Dienstleistungsbetrieb",
+        "Werkstätte"
+      ],
+      "question_ids": [
+        "frage-2025-03-18-3",
+        "frage-2026-01-22-1"
+      ]
+    },
+    {
+      "id": "arbeitssystem-refa",
+      "title": "Industriebetrieb als Arbeitssystem nach REFA",
+      "sections": [
+        "3.1.2"
+      ],
+      "figures": [
+        "abb-15"
+      ],
+      "keywords": [
+        "REFA",
+        "Arbeitssystem",
+        "Arbeitsaufgabe",
+        "Umwelteinflüsse",
+        "Betriebsmittel",
+        "Mensch",
+        "Eingabe",
+        "Ausgabe"
+      ],
+      "question_ids": [
+        "frage-2025-12-11-2",
+        "frage-2026-04-29-4"
+      ]
+    },
+    {
+      "id": "oekonomische-kennzahlen",
+      "title": "Ökonomische Kennzahlen (Produktivität, Wirtschaftlichkeit, Rentabilität, Liquidität)",
+      "sections": [
+        "3.1.2"
+      ],
+      "figures": [
+        "formel-produktivitaet",
+        "formel-spezifischer-mitteleinsatz",
+        "formel-wirtschaftlichkeit",
+        "formel-spezifische-kosten",
+        "formel-rentabilitaet",
+        "formel-liquiditaet"
+      ],
+      "keywords": [
+        "Produktivität",
+        "Wirtschaftlichkeit",
+        "Rentabilität",
+        "Liquidität",
+        "spezifischer Mitteleinsatz",
+        "spezifische Kosten",
+        "Formeln"
+      ],
+      "question_ids": [
+        "frage-2024-03-14-4"
+      ]
+    },
+    {
+      "id": "produktionsprozess",
+      "title": "Produktion als Kernaufgabe (Produktionsprozess und seine Elemente)",
+      "sections": [
+        "3.2"
+      ],
+      "figures": [
+        "abb-16",
+        "abb-17"
+      ],
+      "keywords": [
+        "Produktionsprozess",
+        "Input",
+        "Output",
+        "Transformation",
+        "Wertschöpfung"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "innovationsmanagement-akteure",
+      "title": "Innovationsmanagement und seine Akteure (Technologie-, Macht-, Prozessförderer)",
+      "sections": [
+        "4.1",
+        "4.1.1"
+      ],
+      "figures": [],
+      "keywords": [
+        "Innovationsmanagement",
+        "Akteure",
+        "Innovationsförderer",
+        "Promotoren",
+        "Witte",
+        "Schumpeter",
+        "kreative Zerstörung"
+      ],
+      "question_ids": [
+        "frage-2024-10-15-4"
+      ]
+    },
+    {
+      "id": "innovationsstrategie",
+      "title": "Innovationsstrategie (Kriterien)",
+      "sections": [
+        "4.1.2"
+      ],
+      "figures": [
+        "tab-04"
+      ],
+      "keywords": [
+        "Innovationsstrategie",
+        "Kriterien",
+        "First-to-Market",
+        "Wachstumsrichtung",
+        "Kooperationsstrategie"
+      ],
+      "question_ids": [
+        "frage-2025-02-04-4"
+      ]
+    },
+    {
+      "id": "innovationsbarrieren",
+      "title": "Innovationsbarrieren und deren Überwindung",
+      "sections": [
+        "4.1.3"
+      ],
+      "figures": [
+        "abb-19"
+      ],
+      "keywords": [
+        "Innovationsbarrieren",
+        "Nicht-Wollen",
+        "Nicht-Wissen",
+        "Aufgabenunsicherheit",
+        "Ressourcenallokation",
+        "Widerstand"
+      ],
+      "question_ids": [
+        "frage-2025-04-09-1"
+      ]
+    },
+    {
+      "id": "entrepreneurship-grundlagen",
+      "title": "Entrepreneurship (Definition, Haupttypen SME/IDE, Persönlichkeitsmerkmale)",
+      "sections": [
+        "4.2",
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.5"
+      ],
+      "figures": [
+        "tab-05",
+        "abb-20",
+        "abb-21"
+      ],
+      "keywords": [
+        "Entrepreneurship",
+        "SME",
+        "IDE",
+        "Existenzgründung",
+        "Unternehmertätigkeit",
+        "Persönlichkeitsmerkmale"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "entrepreneurship-prozess",
+      "title": "Entrepreneurship-Prozess (Erkennungs-, Entwicklungs-, Umsetzungsphase)",
+      "sections": [
+        "4.2.4"
+      ],
+      "figures": [
+        "abb-22"
+      ],
+      "keywords": [
+        "Entrepreneurship-Prozess",
+        "Erkennungsphase",
+        "Entwicklungsphase",
+        "Umsetzungsphase",
+        "Businessplan",
+        "Gründung"
+      ],
+      "question_ids": [
+        "frage-2025-06-16-3"
+      ]
+    },
+    {
+      "id": "produktentstehung-grundlagen",
+      "title": "Produktentstehung (Ziele, Effektivität/Effizienz, Produktplanung, -entwicklung, Produktionssystem-Entwicklung)",
+      "sections": [
+        "5",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4",
+        "5.5"
+      ],
+      "figures": [
+        "abb-23",
+        "abb-24",
+        "abb-25"
+      ],
+      "keywords": [
+        "Produktentstehung",
+        "Zielsystem",
+        "Handlungssystem",
+        "Sachsystem",
+        "Produktplanung",
+        "Produktentwicklung"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "integrierte-produktentstehung",
+      "title": "Integrierte Produktentstehung (Arten der Integration, Kosten, Rahmenstruktur)",
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-26",
+        "abb-27",
+        "abb-28",
+        "abb-34"
+      ],
+      "keywords": [
+        "integrierte Produktentwicklung",
+        "Integration",
+        "methodisch",
+        "organisatorisch",
+        "technologisch",
+        "menschlich",
+        "festgelegte Kosten",
+        "Eversheim"
+      ],
+      "question_ids": [
+        "frage-2025-10-15-4"
+      ]
+    },
+    {
+      "id": "simultaneous-engineering",
+      "title": "Simultaneous / Concurrent Engineering (Prinzipien, magisches Dreieck)",
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-29",
+        "abb-30",
+        "abb-31",
+        "abb-32",
+        "abb-33"
+      ],
+      "keywords": [
+        "Simultaneous Engineering",
+        "Concurrent Engineering",
+        "Parallelisierung",
+        "Integration",
+        "Standardisierung",
+        "magisches Dreieck",
+        "Set-based"
+      ],
+      "question_ids": [
+        "frage-2025-04-09-5"
+      ]
+    },
+    {
+      "id": "integrationsbereiche-innovationsprozess-produktentwicklung",
+      "title": "Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)",
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-35"
+      ],
+      "keywords": [
+        "Integrationsbereiche",
+        "Venn-Diagramm",
+        "Innovationsprozess",
+        "Produktentwicklung"
+      ],
+      "question_ids": [
+        "frage-2025-03-18-2"
+      ]
+    },
+    {
+      "id": "innovationsprozess-thom",
+      "title": "Innovationsprozess nach Thom",
+      "sections": [
+        "6.1"
+      ],
+      "figures": [
+        "abb-36"
+      ],
+      "keywords": [
+        "Thom",
+        "Ideengenerierung",
+        "Ideenakzeptierung",
+        "Ideenrealisierung"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "stage-gate-cooper",
+      "title": "Stage-Gate-Prozess nach Cooper",
+      "sections": [
+        "6.2"
+      ],
+      "figures": [
+        "abb-37",
+        "abb-38"
+      ],
+      "keywords": [
+        "Stage-Gate",
+        "Cooper",
+        "Gate",
+        "Stage",
+        "Innovationsprozess",
+        "Phasen"
+      ],
+      "question_ids": [
+        "frage-2025-06-16-2",
+        "frage-2025-12-11-3"
+      ]
+    },
+    {
+      "id": "design-thinking",
+      "title": "Design Thinking Methode (IDEO, 5-Step-Prozess)",
+      "sections": [
+        "6.3"
+      ],
+      "figures": [
+        "abb-39"
+      ],
+      "keywords": [
+        "Design Thinking",
+        "IDEO",
+        "Empathize",
+        "Define",
+        "Ideate",
+        "Prototype",
+        "Test"
+      ],
+      "question_ids": [
+        "frage-2024-06-20-2",
+        "frage-2024-12-10-3",
+        "frage-2025-10-15-5"
+      ]
+    },
+    {
+      "id": "industriemanagement-funktionen",
+      "title": "Funktionen und Kenngrößen des Industrie Managements",
+      "sections": [
+        "7.1"
+      ],
+      "figures": [
+        "abb-40",
+        "abb-41"
+      ],
+      "keywords": [
+        "Industriemanagement",
+        "Funktionen",
+        "Planung",
+        "Steuerung",
+        "Kontrolle",
+        "Kenngrößen",
+        "Ziele"
+      ],
+      "question_ids": [
+        "frage-2025-12-11-4"
+      ]
+    },
+    {
+      "id": "integriertes-management",
+      "title": "Konzept des integrierten Managements",
+      "sections": [
+        "7.2"
+      ],
+      "figures": [
+        "abb-42"
+      ],
+      "keywords": [
+        "integriertes Management",
+        "Unternehmensumgebung",
+        "normativ",
+        "strategisch",
+        "operativ"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "produktionsmanagement-grundlagen",
+      "title": "Grundlagen des Produktionsmanagements",
+      "sections": [
+        "7.3"
+      ],
+      "figures": [],
+      "keywords": [
+        "Produktionsmanagement",
+        "Produktionssystem",
+        "Operations Management"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "standortplanung",
+      "title": "Standortplanung (strategisch, Raumsicht; interne und externe Treiber)",
+      "sections": [
+        "8.1",
+        "8.1.1",
+        "8.1.2"
+      ],
+      "figures": [
+        "abb-43"
+      ],
+      "keywords": [
+        "Standortplanung",
+        "Standortfaktoren",
+        "interne Treiber",
+        "externe Treiber",
+        "Standortwahl"
+      ],
+      "question_ids": [
+        "frage-2025-10-15-2"
+      ]
+    },
+    {
+      "id": "fabrikplanung-planungsgrundfaelle",
+      "title": "Fabrikplanung und Planungsgrundfälle nach Grundig",
+      "sections": [
+        "8.2"
+      ],
+      "figures": [
+        "abb-44"
+      ],
+      "keywords": [
+        "Fabrikplanung",
+        "Planungsgrundfälle",
+        "Grundfälle",
+        "Restrukturierung",
+        "Erweiterung",
+        "Neuplanung",
+        "Revitalisierung"
+      ],
+      "question_ids": [
+        "frage-2024-03-14-3",
+        "frage-2024-10-15-3",
+        "frage-2025-06-16-4"
+      ]
+    },
+    {
+      "id": "produktionsarten-fertigungsformen",
+      "title": "Produktionssysteme (Produktionsarten und Fertigungsformen)",
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-45",
+        "abb-46",
+        "abb-47",
+        "abb-48",
+        "abb-49",
+        "abb-50"
+      ],
+      "keywords": [
+        "Produktionsarten",
+        "Fertigungsarten",
+        "Losgröße",
+        "Variabilität",
+        "Volumen",
+        "Prozessablauf",
+        "Einzelfertigung",
+        "Serienfertigung",
+        "Massenfertigung",
+        "Punktfertigung",
+        "Gruppenfertigung",
+        "Reihenfertigung",
+        "Fließfertigung",
+        "Typologie"
+      ],
+      "question_ids": [
+        "frage-2024-03-14-2",
+        "frage-2024-12-10-4",
+        "frage-2025-04-09-4",
+        "frage-2026-01-22-3"
+      ]
+    },
+    {
+      "id": "fabrikplanung-planungsvorgehen",
+      "title": "Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung)",
+      "sections": [
+        "8.2.2",
+        "8.2.3",
+        "8.2.4",
+        "8.2.5",
+        "8.2.5.1",
+        "8.2.5.2",
+        "8.2.5.3",
+        "8.2.6",
+        "8.2.7"
+      ],
+      "figures": [
+        "abb-51",
+        "abb-52",
+        "abb-53",
+        "abb-54"
+      ],
+      "keywords": [
+        "Planungsvorgehen",
+        "Zielplanung",
+        "Vorplanung",
+        "Grobplanung",
+        "Feinplanung",
+        "Dimensionierung",
+        "Strukturierung",
+        "Layoutplanung",
+        "Realplanung",
+        "Idealplanung",
+        "Ausführungsplanung"
+      ],
+      "question_ids": [
+        "frage-2024-06-20-3",
+        "frage-2026-04-29-5"
+      ]
+    },
+    {
+      "id": "nachhaltigkeit-grundlagen",
+      "title": "Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs)",
+      "sections": [
+        "8.3",
+        "8.3.1"
+      ],
+      "figures": [
+        "abb-55"
+      ],
+      "keywords": [
+        "Nachhaltigkeit",
+        "Brundtland",
+        "Brundlandt",
+        "Sustainable Development",
+        "Verantwortungsprinzip",
+        "Kooperationsprinzip",
+        "Kreislaufprinzip",
+        "SDG",
+        "Agenda 2030",
+        "CSR"
+      ],
+      "question_ids": [
+        "frage-2024-10-15-5",
+        "frage-2025-02-04-5"
+      ]
+    },
+    {
+      "id": "nachhaltigkeit-dimensionen-spannungsfeld",
+      "title": "Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens)",
+      "sections": [
+        "8.3.2"
+      ],
+      "figures": [
+        "abb-56"
+      ],
+      "keywords": [
+        "Spannungsfeld",
+        "unternehmerisches Wirken",
+        "ökonomische Dimension",
+        "soziale Dimension",
+        "ökologische Dimension",
+        "Interessenausgleich"
+      ],
+      "question_ids": [
+        "frage-2024-06-20-5",
+        "frage-2026-04-29-3"
+      ]
+    },
+    {
+      "id": "effizienz-konsistenz-suffizienz",
+      "title": "Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit)",
+      "sections": [
+        "8.3.3"
+      ],
+      "figures": [
+        "abb-57"
+      ],
+      "keywords": [
+        "Effizienz",
+        "Konsistenz",
+        "Suffizienz",
+        "ökologische Nachhaltigkeit",
+        "Aufwand",
+        "Ertrag"
+      ],
+      "question_ids": [
+        "frage-2025-03-18-5",
+        "frage-2025-10-15-3",
+        "frage-2026-04-29-6"
+      ]
+    },
+    {
+      "id": "dekarbonisierung-materialeffizienz",
+      "title": "Dekarbonisierung und Materialeffizienz in der Industrie",
+      "sections": [
+        "8.3.3"
+      ],
+      "figures": [
+        "abb-58",
+        "abb-59"
+      ],
+      "keywords": [
+        "Dekarbonisierung",
+        "Materialeffizienz",
+        "Maßnahmenhierarchie",
+        "CO2",
+        "Kreislaufwirtschaft"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "absatzplanung",
+      "title": "Planung und Absatzplanung (Zeitreihenanalyse, Kausalmodell)",
+      "sections": [
+        "9.1",
+        "9.1.1"
+      ],
+      "figures": [
+        "abb-60",
+        "abb-61",
+        "abb-62"
+      ],
+      "keywords": [
+        "Absatzplanung",
+        "Prognose",
+        "Zeitreihenanalyse",
+        "Kausalmodell",
+        "Produktionsprogrammplanung"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "produktionsprogrammplanung",
+      "title": "Kurzfristige Produktionsprogrammplanung (Produktfeld, Optimierung)",
+      "sections": [
+        "9.1.2"
+      ],
+      "figures": [
+        "abb-63",
+        "abb-64",
+        "abb-65"
+      ],
+      "keywords": [
+        "Produktionsprogramm",
+        "Produktfeld",
+        "Programmoptimierung",
+        "Deckungsbeitrag"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "gozintograph-materialbedarfsplanung",
+      "title": "Materialbedarfsplanung und Gozintograph",
+      "sections": [
+        "9.1.3"
+      ],
+      "figures": [
+        "abb-66",
+        "abb-67"
+      ],
+      "keywords": [
+        "Gozintograph",
+        "Materialbedarfsplanung",
+        "Stückliste",
+        "Teilebedarf",
+        "Strukturstückliste"
+      ],
+      "question_ids": [
+        "frage-2025-02-04-2"
+      ]
+    },
+    {
+      "id": "materialklassen-bedarfsarten",
+      "title": "Materialklassen und Bedarfsarten (primär, sekundär, tertiär, Brutto-/Nettobedarf)",
+      "sections": [
+        "9.1.3.1"
+      ],
+      "figures": [
+        "abb-68",
+        "abb-69"
+      ],
+      "keywords": [
+        "Rohstoffe",
+        "Hilfsstoffe",
+        "Betriebsstoffe",
+        "Primärbedarf",
+        "Sekundärbedarf",
+        "Tertiärbedarf",
+        "Bruttobedarf",
+        "Nettobedarf"
+      ],
+      "question_ids": [
+        "frage-2025-06-16-5"
+      ]
+    },
+    {
+      "id": "bestandsdilemma-abc-analyse",
+      "title": "Bestandsdilemma und ABC-Analyse",
+      "sections": [
+        "9.1.4"
+      ],
+      "figures": [
+        "abb-70"
+      ],
+      "keywords": [
+        "Bestandsdilemma",
+        "ABC-Analyse",
+        "Pareto",
+        "80/20",
+        "Lagerbestand",
+        "Verwendungswert"
+      ],
+      "question_ids": [
+        "frage-2024-10-15-2",
+        "frage-2025-12-11-5"
+      ]
+    },
+    {
+      "id": "zeit-kapazitaetsplanung",
+      "title": "Zeit- und Kapazitätsplanung (Terminierung, Kapazität, ERP)",
+      "sections": [
+        "9.1.5",
+        "9.1.5.1",
+        "9.1.6",
+        "9.1.8"
+      ],
+      "figures": [
+        "abb-71",
+        "abb-72",
+        "abb-73",
+        "abb-75"
+      ],
+      "keywords": [
+        "Zeitplanung",
+        "Kapazitätsplanung",
+        "Terminierung",
+        "Durchlaufzeit",
+        "ERP",
+        "Planungsabhängigkeiten"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "gesamtanlageneffektivitaet",
+      "title": "Gesamtanlageneffektivität (OEE)",
+      "sections": [
+        "9.1.7"
+      ],
+      "figures": [
+        "abb-74"
+      ],
+      "keywords": [
+        "Gesamtanlageneffektivität",
+        "OEE",
+        "Verfügbarkeit",
+        "Leistung",
+        "Qualität"
+      ],
+      "question_ids": [
+        "frage-2025-03-18-4",
+        "frage-2026-01-22-5"
+      ]
+    },
+    {
+      "id": "produktionssteuerung",
+      "title": "Produktionssteuerung (Regelkreis, Starten/Überwachen, Auftragsfreigabe, Maschinenbelegung)",
+      "sections": [
+        "9.2",
+        "9.2.1",
+        "9.2.3",
+        "9.2.4"
+      ],
+      "figures": [
+        "abb-76",
+        "abb-77",
+        "abb-78",
+        "tab-06"
+      ],
+      "keywords": [
+        "Produktionssteuerung",
+        "Produktionsregelkreis",
+        "Auftragsfreigabe",
+        "Maschinenbelegung",
+        "Betriebsdaten"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "dilemma-ablaufplanung",
+      "title": "Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand)",
+      "sections": [
+        "9.2.2"
+      ],
+      "figures": [
+        "abb-79",
+        "abb-80",
+        "abb-81",
+        "abb-82"
+      ],
+      "keywords": [
+        "Dilemma der Ablaufplanung",
+        "Kapazitätsauslastung",
+        "Produktionskennlinie",
+        "Durchlaufzeit",
+        "Bestand"
+      ],
+      "question_ids": [
+        "frage-2024-12-10-5",
+        "frage-2025-04-09-3"
+      ]
+    },
+    {
+      "id": "leistungskennzahlen-ueberblick",
+      "title": "Kontrolle und Leistungskennzahlen (Überblick)",
+      "sections": [
+        "9.3"
+      ],
+      "figures": [
+        "abb-83"
+      ],
+      "keywords": [
+        "Leistungskennzahlen",
+        "KPI",
+        "Kontrolle",
+        "Leistungsziele"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "qualitaetsmanagement",
+      "title": "Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC)",
+      "sections": [
+        "9.3.1"
+      ],
+      "figures": [
+        "abb-84"
+      ],
+      "keywords": [
+        "Qualität",
+        "Qualitätsmanagement",
+        "Total Quality Management",
+        "TQM",
+        "Six Sigma",
+        "Statistische Prozesskontrolle",
+        "SPC",
+        "Kundenzufriedenheit"
+      ],
+      "question_ids": [
+        "frage-2025-02-04-3",
+        "frage-2026-01-22-4"
+      ]
+    },
+    {
+      "id": "geschwindigkeit-liefertreue",
+      "title": "Geschwindigkeit und Zuverlässigkeit/Liefertreue (Entkopplungspunkt)",
+      "sections": [
+        "9.3.2",
+        "9.3.3"
+      ],
+      "figures": [
+        "abb-85"
+      ],
+      "keywords": [
+        "Geschwindigkeit",
+        "Auftragserfüllungszeit",
+        "Entkopplungspunkt",
+        "make-to-stock",
+        "make-to-order",
+        "Liefertreue",
+        "Zuverlässigkeit"
+      ],
+      "question_ids": []
+    },
+    {
+      "id": "flexibilitaet",
+      "title": "Flexibilität (Arten der Flexibilität)",
+      "sections": [
+        "9.3.4"
+      ],
+      "figures": [
+        "tab-07"
+      ],
+      "keywords": [
+        "Flexibilität",
+        "Produktflexibilität",
+        "Mischflexibilität",
+        "Volumenflexibilität",
+        "Lieferflexibilität",
+        "Agilität"
+      ],
+      "question_ids": [
+        "frage-2024-03-14-5",
+        "frage-2024-06-20-4"
+      ]
+    },
+    {
+      "id": "kosten-produktion",
+      "title": "Kosten als Leistungsziel (Hauptkostenkategorien)",
+      "sections": [
+        "9.3.5"
+      ],
+      "figures": [],
+      "keywords": [
+        "Kosten",
+        "Personalkosten",
+        "Anlagekosten",
+        "Materialkosten",
+        "Skaleneffekt",
+        "Haupteinteilung"
+      ],
+      "question_ids": [
+        "frage-2025-06-16-1"
+      ]
+    }
+  ],
+  "by_section": {
+    "2.1": [
+      "frage-2024-03-14-1",
+      "frage-2025-10-15-1"
+    ],
+    "2.2": [
+      "frage-2024-06-20-1",
+      "frage-2024-10-15-1",
+      "frage-2026-01-22-2"
+    ],
+    "2.5": [
+      "frage-2024-12-10-1",
+      "frage-2024-12-10-2",
+      "frage-2025-02-04-1",
+      "frage-2025-03-18-1",
+      "frage-2025-04-09-2",
+      "frage-2025-12-11-1",
+      "frage-2026-01-22-2",
+      "frage-2026-04-29-1",
+      "frage-2026-04-29-2"
+    ],
+    "2.5.1": [
+      "frage-2024-12-10-1",
+      "frage-2024-12-10-2",
+      "frage-2025-02-04-1",
+      "frage-2025-03-18-1",
+      "frage-2025-04-09-2",
+      "frage-2025-12-11-1",
+      "frage-2026-04-29-1",
+      "frage-2026-04-29-2"
+    ],
+    "2.5.2": [
+      "frage-2025-03-18-1",
+      "frage-2026-01-22-2"
+    ],
+    "2.5.3": [
+      "frage-2025-03-18-1"
+    ],
+    "2.5.4": [
+      "frage-2025-03-18-1"
+    ],
+    "2.5.5": [
+      "frage-2025-03-18-1",
+      "frage-2026-01-22-2"
+    ],
+    "3.1": [
+      "frage-2024-03-14-4",
+      "frage-2025-03-18-3",
+      "frage-2025-12-11-2",
+      "frage-2026-01-22-1",
+      "frage-2026-04-29-4"
+    ],
+    "3.1.1": [
+      "frage-2025-03-18-3",
+      "frage-2026-01-22-1"
+    ],
+    "3.1.2": [
+      "frage-2024-03-14-4",
+      "frage-2025-12-11-2",
+      "frage-2026-04-29-4"
+    ],
+    "3.3": [
+      "frage-2025-03-18-3"
+    ],
+    "4.1": [
+      "frage-2024-10-15-4",
+      "frage-2025-02-04-4",
+      "frage-2025-04-09-1"
+    ],
+    "4.1.1": [
+      "frage-2024-10-15-4"
+    ],
+    "4.1.2": [
+      "frage-2025-02-04-4"
+    ],
+    "4.1.3": [
+      "frage-2025-04-09-1"
+    ],
+    "4.2": [
+      "frage-2025-06-16-3"
+    ],
+    "4.2.4": [
+      "frage-2025-06-16-3"
+    ],
+    "5.6": [
+      "frage-2025-03-18-2",
+      "frage-2025-04-09-5",
+      "frage-2025-10-15-4"
+    ],
+    "6.2": [
+      "frage-2025-06-16-2",
+      "frage-2025-12-11-3"
+    ],
+    "6.3": [
+      "frage-2024-06-20-2",
+      "frage-2024-12-10-3",
+      "frage-2025-10-15-5"
+    ],
+    "7.1": [
+      "frage-2025-12-11-4"
+    ],
+    "8.1": [
+      "frage-2025-10-15-2"
+    ],
+    "8.1.1": [
+      "frage-2025-10-15-2"
+    ],
+    "8.2": [
+      "frage-2024-03-14-2",
+      "frage-2024-03-14-3",
+      "frage-2024-06-20-3",
+      "frage-2024-10-15-3",
+      "frage-2024-12-10-4",
+      "frage-2025-04-09-4",
+      "frage-2025-06-16-4",
+      "frage-2026-01-22-3",
+      "frage-2026-04-29-5"
+    ],
+    "8.2.1": [
+      "frage-2024-03-14-2",
+      "frage-2024-12-10-4",
+      "frage-2025-04-09-4",
+      "frage-2026-01-22-3"
+    ],
+    "8.2.2": [
+      "frage-2024-06-20-3",
+      "frage-2026-04-29-5"
+    ],
+    "8.2.3": [
+      "frage-2026-04-29-5"
+    ],
+    "8.2.4": [
+      "frage-2026-04-29-5"
+    ],
+    "8.2.5": [
+      "frage-2024-06-20-3",
+      "frage-2026-04-29-5"
+    ],
+    "8.2.5.3": [
+      "frage-2024-06-20-3"
+    ],
+    "8.2.6": [
+      "frage-2024-06-20-3",
+      "frage-2026-04-29-5"
+    ],
+    "8.2.7": [
+      "frage-2026-04-29-5"
+    ],
+    "8.3": [
+      "frage-2024-06-20-5",
+      "frage-2024-10-15-5",
+      "frage-2025-02-04-5",
+      "frage-2025-03-18-5",
+      "frage-2025-10-15-3",
+      "frage-2026-04-29-3",
+      "frage-2026-04-29-6"
+    ],
+    "8.3.1": [
+      "frage-2024-10-15-5",
+      "frage-2025-02-04-5"
+    ],
+    "8.3.2": [
+      "frage-2024-06-20-5",
+      "frage-2026-04-29-3"
+    ],
+    "8.3.3": [
+      "frage-2025-03-18-5",
+      "frage-2025-10-15-3",
+      "frage-2026-04-29-6"
+    ],
+    "9.1": [
+      "frage-2024-10-15-2",
+      "frage-2025-02-04-2",
+      "frage-2025-03-18-4",
+      "frage-2025-06-16-5",
+      "frage-2025-12-11-5",
+      "frage-2026-01-22-5"
+    ],
+    "9.1.3": [
+      "frage-2025-02-04-2",
+      "frage-2025-06-16-5"
+    ],
+    "9.1.3.1": [
+      "frage-2025-06-16-5"
+    ],
+    "9.1.4": [
+      "frage-2024-10-15-2",
+      "frage-2025-12-11-5"
+    ],
+    "9.1.7": [
+      "frage-2025-03-18-4",
+      "frage-2026-01-22-5"
+    ],
+    "9.2": [
+      "frage-2024-12-10-5",
+      "frage-2025-04-09-3"
+    ],
+    "9.2.2": [
+      "frage-2024-12-10-5",
+      "frage-2025-04-09-3"
+    ],
+    "9.3": [
+      "frage-2024-03-14-5",
+      "frage-2024-06-20-4",
+      "frage-2025-02-04-3",
+      "frage-2025-06-16-1",
+      "frage-2026-01-22-4"
+    ],
+    "9.3.1": [
+      "frage-2025-02-04-3",
+      "frage-2026-01-22-4"
+    ],
+    "9.3.4": [
+      "frage-2024-03-14-5",
+      "frage-2024-06-20-4"
+    ],
+    "9.3.5": [
+      "frage-2025-06-16-1"
+    ]
+  },
+  "by_figure": {
+    "abb-05": [
+      "frage-2024-03-14-1",
+      "frage-2025-10-15-1"
+    ],
+    "abb-08": [
+      "frage-2024-12-10-1",
+      "frage-2025-04-09-2",
+      "frage-2026-04-29-1"
+    ],
+    "abb-11": [
+      "frage-2025-02-04-1",
+      "frage-2026-04-29-2"
+    ],
+    "abb-12": [
+      "frage-2025-03-18-3"
+    ],
+    "abb-13": [
+      "frage-2025-03-18-3"
+    ],
+    "abb-14": [
+      "frage-2025-03-18-3"
+    ],
+    "abb-15": [
+      "frage-2025-12-11-2",
+      "frage-2026-04-29-4"
+    ],
+    "abb-22": [
+      "frage-2025-06-16-3"
+    ],
+    "abb-28": [
+      "frage-2025-10-15-4"
+    ],
+    "abb-30": [
+      "frage-2025-04-09-5"
+    ],
+    "abb-35": [
+      "frage-2025-03-18-2"
+    ],
+    "abb-37": [
+      "frage-2025-06-16-2",
+      "frage-2025-12-11-3"
+    ],
+    "abb-38": [
+      "frage-2025-12-11-3"
+    ],
+    "abb-39": [
+      "frage-2024-06-20-2",
+      "frage-2024-12-10-3",
+      "frage-2025-10-15-5"
+    ],
+    "abb-40": [
+      "frage-2025-12-11-4"
+    ],
+    "abb-43": [
+      "frage-2025-10-15-2"
+    ],
+    "abb-44": [
+      "frage-2024-03-14-3",
+      "frage-2024-10-15-3",
+      "frage-2025-06-16-4"
+    ],
+    "abb-45": [
+      "frage-2024-03-14-2",
+      "frage-2024-12-10-4",
+      "frage-2025-04-09-4"
+    ],
+    "abb-46": [
+      "frage-2024-03-14-2",
+      "frage-2024-12-10-4",
+      "frage-2026-01-22-3"
+    ],
+    "abb-51": [
+      "frage-2024-06-20-3",
+      "frage-2026-04-29-5"
+    ],
+    "abb-53": [
+      "frage-2024-06-20-3"
+    ],
+    "abb-56": [
+      "frage-2024-06-20-5",
+      "frage-2026-04-29-3"
+    ],
+    "abb-57": [
+      "frage-2025-03-18-5",
+      "frage-2025-10-15-3",
+      "frage-2026-04-29-6"
+    ],
+    "abb-66": [
+      "frage-2025-02-04-2"
+    ],
+    "abb-69": [
+      "frage-2025-06-16-5"
+    ],
+    "abb-70": [
+      "frage-2024-10-15-2",
+      "frage-2025-12-11-5"
+    ],
+    "abb-74": [
+      "frage-2025-03-18-4",
+      "frage-2026-01-22-5"
+    ],
+    "abb-79": [
+      "frage-2024-12-10-5",
+      "frage-2025-04-09-3"
+    ],
+    "formel-liquiditaet": [
+      "frage-2024-03-14-4"
+    ],
+    "formel-rentabilitaet": [
+      "frage-2024-03-14-4"
+    ],
+    "formel-spezifischer-mitteleinsatz": [
+      "frage-2024-03-14-4"
+    ],
+    "formel-wirtschaftlichkeit": [
+      "frage-2024-03-14-4"
+    ],
+    "tab-04": [
+      "frage-2025-02-04-4"
+    ],
+    "tab-07": [
+      "frage-2024-03-14-5",
+      "frage-2024-06-20-4"
+    ]
+  },
+  "by_question": {
+    "frage-2024-03-14-1": {
+      "topics": [
+        "wettbewerbsstrategien-porter"
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "figures": [
+        "abb-05"
+      ]
+    },
+    "frage-2024-03-14-2": {
+      "topics": [
+        "produktionsarten-fertigungsformen"
+      ],
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-45",
+        "abb-46"
+      ]
+    },
+    "frage-2024-03-14-3": {
+      "topics": [
+        "fabrikplanung-planungsgrundfaelle"
+      ],
+      "sections": [
+        "8.2"
+      ],
+      "figures": [
+        "abb-44"
+      ]
+    },
+    "frage-2024-03-14-4": {
+      "topics": [
+        "oekonomische-kennzahlen"
+      ],
+      "sections": [
+        "3.1.2"
+      ],
+      "figures": [
+        "formel-wirtschaftlichkeit",
+        "formel-liquiditaet",
+        "formel-spezifischer-mitteleinsatz",
+        "formel-rentabilitaet"
+      ]
+    },
+    "frage-2024-03-14-5": {
+      "topics": [
+        "flexibilitaet"
+      ],
+      "sections": [
+        "9.3.4"
+      ],
+      "figures": [
+        "tab-07"
+      ]
+    },
+    "frage-2024-06-20-1": {
+      "topics": [
+        "innovationsbegriffe"
+      ],
+      "sections": [
+        "2.2"
+      ],
+      "figures": []
+    },
+    "frage-2024-06-20-2": {
+      "topics": [
+        "design-thinking"
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "figures": [
+        "abb-39"
+      ]
+    },
+    "frage-2024-06-20-3": {
+      "topics": [
+        "fabrikplanung-planungsvorgehen"
+      ],
+      "sections": [
+        "8.2.2",
+        "8.2.5.3",
+        "8.2.6"
+      ],
+      "figures": [
+        "abb-51",
+        "abb-53"
+      ]
+    },
+    "frage-2024-06-20-4": {
+      "topics": [
+        "flexibilitaet"
+      ],
+      "sections": [
+        "9.3.4"
+      ],
+      "figures": [
+        "tab-07"
+      ]
+    },
+    "frage-2024-06-20-5": {
+      "topics": [
+        "nachhaltigkeit-dimensionen-spannungsfeld"
+      ],
+      "sections": [
+        "8.3.2"
+      ],
+      "figures": [
+        "abb-56"
+      ]
+    },
+    "frage-2024-10-15-1": {
+      "topics": [
+        "innovationsbegriffe"
+      ],
+      "sections": [
+        "2.2"
+      ],
+      "figures": []
+    },
+    "frage-2024-10-15-2": {
+      "topics": [
+        "bestandsdilemma-abc-analyse"
+      ],
+      "sections": [
+        "9.1.4"
+      ],
+      "figures": [
+        "abb-70"
+      ]
+    },
+    "frage-2024-10-15-3": {
+      "topics": [
+        "fabrikplanung-planungsgrundfaelle"
+      ],
+      "sections": [
+        "8.2"
+      ],
+      "figures": [
+        "abb-44"
+      ]
+    },
+    "frage-2024-10-15-4": {
+      "topics": [
+        "innovationsmanagement-akteure"
+      ],
+      "sections": [
+        "4.1.1"
+      ],
+      "figures": []
+    },
+    "frage-2024-10-15-5": {
+      "topics": [
+        "nachhaltigkeit-grundlagen"
+      ],
+      "sections": [
+        "8.3",
+        "8.3.1"
+      ],
+      "figures": []
+    },
+    "frage-2024-12-10-1": {
+      "topics": [
+        "produktlebenszyklus"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-08"
+      ]
+    },
+    "frage-2024-12-10-2": {
+      "topics": [
+        "treiber-erfolgsfaktoren-produktinnovation"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": []
+    },
+    "frage-2024-12-10-3": {
+      "topics": [
+        "design-thinking"
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "figures": [
+        "abb-39"
+      ]
+    },
+    "frage-2024-12-10-4": {
+      "topics": [
+        "produktionsarten-fertigungsformen"
+      ],
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-45",
+        "abb-46"
+      ]
+    },
+    "frage-2024-12-10-5": {
+      "topics": [
+        "dilemma-ablaufplanung"
+      ],
+      "sections": [
+        "9.2.2"
+      ],
+      "figures": [
+        "abb-79"
+      ]
+    },
+    "frage-2025-02-04-1": {
+      "topics": [
+        "ansoff-matrix"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-11"
+      ]
+    },
+    "frage-2025-02-04-2": {
+      "topics": [
+        "gozintograph-materialbedarfsplanung"
+      ],
+      "sections": [
+        "9.1.3"
+      ],
+      "figures": [
+        "abb-66"
+      ]
+    },
+    "frage-2025-02-04-3": {
+      "topics": [
+        "qualitaetsmanagement"
+      ],
+      "sections": [
+        "9.3.1"
+      ],
+      "figures": []
+    },
+    "frage-2025-02-04-4": {
+      "topics": [
+        "innovationsstrategie"
+      ],
+      "sections": [
+        "4.1.2"
+      ],
+      "figures": [
+        "tab-04"
+      ]
+    },
+    "frage-2025-02-04-5": {
+      "topics": [
+        "nachhaltigkeit-grundlagen"
+      ],
+      "sections": [
+        "8.3",
+        "8.3.1"
+      ],
+      "figures": []
+    },
+    "frage-2025-03-18-1": {
+      "topics": [
+        "innovationsarten",
+        "produktinnovation"
+      ],
+      "sections": [
+        "2.5.1",
+        "2.5.2",
+        "2.5.3",
+        "2.5.4",
+        "2.5.5"
+      ],
+      "figures": []
+    },
+    "frage-2025-03-18-2": {
+      "topics": [
+        "integrationsbereiche-innovationsprozess-produktentwicklung"
+      ],
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-35"
+      ]
+    },
+    "frage-2025-03-18-3": {
+      "topics": [
+        "industriebetrieb-abgrenzung"
+      ],
+      "sections": [
+        "3.1.1",
+        "3.3"
+      ],
+      "figures": [
+        "abb-12",
+        "abb-13",
+        "abb-14"
+      ]
+    },
+    "frage-2025-03-18-4": {
+      "topics": [
+        "gesamtanlageneffektivitaet"
+      ],
+      "sections": [
+        "9.1.7"
+      ],
+      "figures": [
+        "abb-74"
+      ]
+    },
+    "frage-2025-03-18-5": {
+      "topics": [
+        "effizienz-konsistenz-suffizienz"
+      ],
+      "sections": [
+        "8.3.3"
+      ],
+      "figures": [
+        "abb-57"
+      ]
+    },
+    "frage-2025-04-09-1": {
+      "topics": [
+        "innovationsbarrieren"
+      ],
+      "sections": [
+        "4.1.3"
+      ],
+      "figures": []
+    },
+    "frage-2025-04-09-2": {
+      "topics": [
+        "produktlebenszyklus"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-08"
+      ]
+    },
+    "frage-2025-04-09-3": {
+      "topics": [
+        "dilemma-ablaufplanung"
+      ],
+      "sections": [
+        "9.2.2"
+      ],
+      "figures": [
+        "abb-79"
+      ]
+    },
+    "frage-2025-04-09-4": {
+      "topics": [
+        "produktionsarten-fertigungsformen"
+      ],
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-45"
+      ]
+    },
+    "frage-2025-04-09-5": {
+      "topics": [
+        "simultaneous-engineering"
+      ],
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-30"
+      ]
+    },
+    "frage-2025-06-16-1": {
+      "topics": [
+        "kosten-produktion"
+      ],
+      "sections": [
+        "9.3.5"
+      ],
+      "figures": []
+    },
+    "frage-2025-06-16-2": {
+      "topics": [
+        "stage-gate-cooper"
+      ],
+      "sections": [
+        "6.2"
+      ],
+      "figures": [
+        "abb-37"
+      ]
+    },
+    "frage-2025-06-16-3": {
+      "topics": [
+        "entrepreneurship-prozess"
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "figures": [
+        "abb-22"
+      ]
+    },
+    "frage-2025-06-16-4": {
+      "topics": [
+        "fabrikplanung-planungsgrundfaelle"
+      ],
+      "sections": [
+        "8.2"
+      ],
+      "figures": [
+        "abb-44"
+      ]
+    },
+    "frage-2025-06-16-5": {
+      "topics": [
+        "materialklassen-bedarfsarten"
+      ],
+      "sections": [
+        "9.1.3.1"
+      ],
+      "figures": [
+        "abb-69"
+      ]
+    },
+    "frage-2025-10-15-1": {
+      "topics": [
+        "wettbewerbsstrategien-porter"
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "figures": [
+        "abb-05"
+      ]
+    },
+    "frage-2025-10-15-2": {
+      "topics": [
+        "standortplanung"
+      ],
+      "sections": [
+        "8.1.1"
+      ],
+      "figures": [
+        "abb-43"
+      ]
+    },
+    "frage-2025-10-15-3": {
+      "topics": [
+        "effizienz-konsistenz-suffizienz"
+      ],
+      "sections": [
+        "8.3.3"
+      ],
+      "figures": [
+        "abb-57"
+      ]
+    },
+    "frage-2025-10-15-4": {
+      "topics": [
+        "integrierte-produktentstehung"
+      ],
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-28"
+      ]
+    },
+    "frage-2025-10-15-5": {
+      "topics": [
+        "design-thinking"
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "figures": [
+        "abb-39"
+      ]
+    },
+    "frage-2025-12-11-1": {
+      "topics": [
+        "treiber-erfolgsfaktoren-produktinnovation"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": []
+    },
+    "frage-2025-12-11-2": {
+      "topics": [
+        "arbeitssystem-refa"
+      ],
+      "sections": [
+        "3.1.2"
+      ],
+      "figures": [
+        "abb-15"
+      ]
+    },
+    "frage-2025-12-11-3": {
+      "topics": [
+        "stage-gate-cooper"
+      ],
+      "sections": [
+        "6.2"
+      ],
+      "figures": [
+        "abb-37",
+        "abb-38"
+      ]
+    },
+    "frage-2025-12-11-4": {
+      "topics": [
+        "industriemanagement-funktionen"
+      ],
+      "sections": [
+        "7.1"
+      ],
+      "figures": [
+        "abb-40"
+      ]
+    },
+    "frage-2025-12-11-5": {
+      "topics": [
+        "bestandsdilemma-abc-analyse"
+      ],
+      "sections": [
+        "9.1.4"
+      ],
+      "figures": [
+        "abb-70"
+      ]
+    },
+    "frage-2026-01-22-1": {
+      "topics": [
+        "industriebetrieb-abgrenzung"
+      ],
+      "sections": [
+        "3.1.1"
+      ],
+      "figures": []
+    },
+    "frage-2026-01-22-2": {
+      "topics": [
+        "innovationsbegriffe",
+        "innovationsarten"
+      ],
+      "sections": [
+        "2.2",
+        "2.5.2",
+        "2.5.5"
+      ],
+      "figures": []
+    },
+    "frage-2026-01-22-3": {
+      "topics": [
+        "produktionsarten-fertigungsformen"
+      ],
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-46"
+      ]
+    },
+    "frage-2026-01-22-4": {
+      "topics": [
+        "qualitaetsmanagement"
+      ],
+      "sections": [
+        "9.3.1"
+      ],
+      "figures": []
+    },
+    "frage-2026-01-22-5": {
+      "topics": [
+        "gesamtanlageneffektivitaet"
+      ],
+      "sections": [
+        "9.1.7"
+      ],
+      "figures": [
+        "abb-74"
+      ]
+    },
+    "frage-2026-04-29-1": {
+      "topics": [
+        "produktlebenszyklus"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-08"
+      ]
+    },
+    "frage-2026-04-29-2": {
+      "topics": [
+        "ansoff-matrix"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-11"
+      ]
+    },
+    "frage-2026-04-29-3": {
+      "topics": [
+        "nachhaltigkeit-dimensionen-spannungsfeld"
+      ],
+      "sections": [
+        "8.3.2"
+      ],
+      "figures": [
+        "abb-56"
+      ]
+    },
+    "frage-2026-04-29-4": {
+      "topics": [
+        "arbeitssystem-refa"
+      ],
+      "sections": [
+        "3.1.2"
+      ],
+      "figures": [
+        "abb-15"
+      ]
+    },
+    "frage-2026-04-29-5": {
+      "topics": [
+        "fabrikplanung-planungsvorgehen"
+      ],
+      "sections": [
+        "8.2.2",
+        "8.2.3",
+        "8.2.4",
+        "8.2.5",
+        "8.2.6",
+        "8.2.7"
+      ],
+      "figures": [
+        "abb-51"
+      ]
+    },
+    "frage-2026-04-29-6": {
+      "topics": [
+        "effizienz-konsistenz-suffizienz"
+      ],
+      "sections": [
+        "8.3.3"
+      ],
+      "figures": [
+        "abb-57"
+      ]
+    }
+  },
+  "sections_without_topic": [],
+  "sections_without_questions": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "2.3",
+    "2.4",
+    "3.2",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.1",
+    "7.2",
+    "7.3"
+  ]
+}

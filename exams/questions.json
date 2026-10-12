@@ -1,0 +1,1984 @@
+{
+  "questions": [
+    {
+      "id": "frage-2024-03-14-1",
+      "number": 1,
+      "date": "2024-03-14",
+      "exam_date": "2024-03-14",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Strategien nach Porter beschreiben",
+      "wording": "Strategien nach Porter beschreiben",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung)",
+      "topics": [
+        "wettbewerbsstrategien-porter"
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "figures": [
+        "abb-05"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-03-14-2",
+      "number": 2,
+      "date": "2024-03-14",
+      "exam_date": "2024-03-14",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Produktionsarten beschreiben",
+      "wording": "Produktionsarten beschreiben",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Produktionssysteme (Produktionsarten und Fertigungsformen)",
+      "topics": [
+        "produktionsarten-fertigungsformen"
+      ],
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-45",
+        "abb-46"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-03-14-3",
+      "number": 3,
+      "date": "2024-03-14",
+      "exam_date": "2024-03-14",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Grundfälle der Fabrikplanung nennen",
+      "wording": "Grundfälle der Fabrikplanung nennen",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen"
+      ],
+      "topic": "Fabrikplanung und Planungsgrundfälle nach Grundig",
+      "topics": [
+        "fabrikplanung-planungsgrundfaelle"
+      ],
+      "sections": [
+        "8.2"
+      ],
+      "figures": [
+        "abb-44"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-03-14-4",
+      "number": 4,
+      "date": "2024-03-14",
+      "exam_date": "2024-03-14",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Wirtschaftlichkeit, Liquidität, spez. Mitteleinsatz, Rentabilität Formeln",
+      "wording": "Wirtschaftlichkeit, Liquidität, spez. Mitteleinsatz, Rentabilität Formeln",
+      "points": null,
+      "task_type": "definition",
+      "task_types": [
+        "definition"
+      ],
+      "competencies": [
+        "wissen",
+        "berechnen"
+      ],
+      "topic": "Ökonomische Kennzahlen (Produktivität, Wirtschaftlichkeit, Rentabilität, Liquidität)",
+      "topics": [
+        "oekonomische-kennzahlen"
+      ],
+      "sections": [
+        "3.1.2"
+      ],
+      "figures": [
+        "formel-wirtschaftlichkeit",
+        "formel-liquiditaet",
+        "formel-spezifischer-mitteleinsatz",
+        "formel-rentabilitaet"
+      ],
+      "script_coverage": "voll",
+      "notes": "Verlangt sind die Formeln der vier Kennzahlen; ob zusätzlich gerechnet werden musste, ist unbekannt."
+    },
+    {
+      "id": "frage-2024-03-14-5",
+      "number": 5,
+      "date": "2024-03-14",
+      "exam_date": "2024-03-14",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Arten der Flexibilität",
+      "wording": "Arten der Flexibilität",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Flexibilität (Arten der Flexibilität)",
+      "topics": [
+        "flexibilitaet"
+      ],
+      "sections": [
+        "9.3.4"
+      ],
+      "figures": [
+        "tab-07"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-06-20-1",
+      "number": 1,
+      "date": "2024-06-20",
+      "exam_date": "2024-06-20",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Definitionen: Innovation, Invention, Imitation, Modifikation",
+      "wording": "Definitionen: Innovation, Invention, Imitation, Modifikation",
+      "points": null,
+      "task_type": "definition",
+      "task_types": [
+        "definition"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation)",
+      "topics": [
+        "innovationsbegriffe"
+      ],
+      "sections": [
+        "2.2"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-06-20-2",
+      "number": 2,
+      "date": "2024-06-20",
+      "exam_date": "2024-06-20",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Design Thinking Methode (IDEO)",
+      "wording": "Design Thinking Methode (IDEO)",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Design Thinking Methode (IDEO, 5-Step-Prozess)",
+      "topics": [
+        "design-thinking"
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "figures": [
+        "abb-39"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-06-20-3",
+      "number": 3,
+      "date": "2024-06-20",
+      "exam_date": "2024-06-20",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Planungsvorgehen – Layoutplanung und Realplanung und erklären von Fabrik",
+      "wording": "Planungsvorgehen – Layoutplanung und Realplanung und erklären von Fabrik",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung)",
+      "topics": [
+        "fabrikplanung-planungsvorgehen"
+      ],
+      "sections": [
+        "8.2.2",
+        "8.2.5.3",
+        "8.2.6"
+      ],
+      "figures": [
+        "abb-51",
+        "abb-53"
+      ],
+      "script_coverage": "voll",
+      "notes": "Wortlaut unklar ('erklären von Fabrik'); vermutlich Planungsvorgehen nach Grundig mit Schwerpunkt Layoutplanung/Realplanung. Zuordnung unsicher."
+    },
+    {
+      "id": "frage-2024-06-20-4",
+      "number": 4,
+      "date": "2024-06-20",
+      "exam_date": "2024-06-20",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Arten der Flexibilität",
+      "wording": "Arten der Flexibilität",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Flexibilität (Arten der Flexibilität)",
+      "topics": [
+        "flexibilitaet"
+      ],
+      "sections": [
+        "9.3.4"
+      ],
+      "figures": [
+        "tab-07"
+      ],
+      "script_coverage": "voll",
+      "notes": "Im Skript: Produkt-, Misch-, Volumen- und Lieferflexibilität."
+    },
+    {
+      "id": "frage-2024-06-20-5",
+      "number": 5,
+      "date": "2024-06-20",
+      "exam_date": "2024-06-20",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Beschreibung Spannungsfeld unternemerischen Wirkens",
+      "wording": "Beschreibung Spannungsfeld unternemerischen Wirkens",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "zeichnen"
+      ],
+      "topic": "Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens)",
+      "topics": [
+        "nachhaltigkeit-dimensionen-spannungsfeld"
+      ],
+      "sections": [
+        "8.3.2"
+      ],
+      "figures": [
+        "abb-56"
+      ],
+      "script_coverage": "voll",
+      "notes": "Schreibfehler 'unternemerischen' aus dem Protokoll. Zeichnen nicht ausdrücklich verlangt; in der Klausur 29.04.2026 aber als Skizze geprüft."
+    },
+    {
+      "id": "frage-2024-10-15-1",
+      "number": 1,
+      "date": "2024-10-15",
+      "exam_date": "2024-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Invention, Innovation, Imitation und Modifikation",
+      "wording": "Invention, Innovation, Imitation und Modifikation",
+      "points": null,
+      "task_type": "definition",
+      "task_types": [
+        "definition"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "vergleichen"
+      ],
+      "topic": "Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation)",
+      "topics": [
+        "innovationsbegriffe"
+      ],
+      "sections": [
+        "2.2"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": "Stichwort; Abgrenzung der vier Begriffe voneinander ist naheliegend."
+    },
+    {
+      "id": "frage-2024-10-15-2",
+      "number": 2,
+      "date": "2024-10-15",
+      "exam_date": "2024-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "ABC-Analyse",
+      "wording": "ABC-Analyse",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Bestandsdilemma und ABC-Analyse",
+      "topics": [
+        "bestandsdilemma-abc-analyse"
+      ],
+      "sections": [
+        "9.1.4"
+      ],
+      "figures": [
+        "abb-70"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-10-15-3",
+      "number": 3,
+      "date": "2024-10-15",
+      "exam_date": "2024-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Planungsgrundfälle in der Fabrikplanung",
+      "wording": "Planungsgrundfälle in der Fabrikplanung",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen"
+      ],
+      "topic": "Fabrikplanung und Planungsgrundfälle nach Grundig",
+      "topics": [
+        "fabrikplanung-planungsgrundfaelle"
+      ],
+      "sections": [
+        "8.2"
+      ],
+      "figures": [
+        "abb-44"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-10-15-4",
+      "number": 4,
+      "date": "2024-10-15",
+      "exam_date": "2024-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Innovationsförderer (Akteure) im Innovationsmanagement",
+      "wording": "Innovationsförderer (Akteure) im Innovationsmanagement",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Innovationsmanagement und seine Akteure (Technologie-, Macht-, Prozessförderer)",
+      "topics": [
+        "innovationsmanagement-akteure"
+      ],
+      "sections": [
+        "4.1.1"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": "Im Skript: Technologie-, Macht- und Prozessförderer nach Witte."
+    },
+    {
+      "id": "frage-2024-10-15-5",
+      "number": 5,
+      "date": "2024-10-15",
+      "exam_date": "2024-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Definition Nachhaltigkeit laut Brundlandt Kommission + Erklärung Sustainable Development",
+      "wording": "Definition Nachhaltigkeit laut Brundlandt Kommission + Erklärung Sustainable Development",
+      "points": null,
+      "task_type": "definition",
+      "task_types": [
+        "definition"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs)",
+      "topics": [
+        "nachhaltigkeit-grundlagen"
+      ],
+      "sections": [
+        "8.3",
+        "8.3.1"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-12-10-1",
+      "number": 1,
+      "date": "2024-12-10",
+      "exam_date": "2024-12-10",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Produktlebenszyklus",
+      "wording": "Produktlebenszyklus",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "zeichnen"
+      ],
+      "topic": "Produktlebenszyklus",
+      "topics": [
+        "produktlebenszyklus"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-08"
+      ],
+      "script_coverage": "voll",
+      "notes": "Nur Stichwort."
+    },
+    {
+      "id": "frage-2024-12-10-2",
+      "number": 2,
+      "date": "2024-12-10",
+      "exam_date": "2024-12-10",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "4 Innovationstreiber nach Cooper",
+      "wording": "4 Innovationstreiber nach Cooper",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Treiber und kritische Erfolgsfaktoren von Produktinnovationen (Cooper)",
+      "topics": [
+        "treiber-erfolgsfaktoren-produktinnovation"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": "Cooper-Treiber stehen im Skript bei den Erfolgsfaktoren von Produktinnovationen (2.5.1): technologischer Fortschritt, veränderte Kundenanforderungen, kürzere Produktlebenszyklen, globaler Wettbewerb. Nicht zu verwechseln mit Mega-/Makro-/Mikrotrends in 2.4."
+    },
+    {
+      "id": "frage-2024-12-10-3",
+      "number": 3,
+      "date": "2024-12-10",
+      "exam_date": "2024-12-10",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Design Thinking Methode (IDEO)",
+      "wording": "Design Thinking Methode (IDEO)",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Design Thinking Methode (IDEO, 5-Step-Prozess)",
+      "topics": [
+        "design-thinking"
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "figures": [
+        "abb-39"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2024-12-10-4",
+      "number": 4,
+      "date": "2024-12-10",
+      "exam_date": "2024-12-10",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Typologien der Produktionsprozesse",
+      "wording": "Typologien der Produktionsprozesse",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Produktionssysteme (Produktionsarten und Fertigungsformen)",
+      "topics": [
+        "produktionsarten-fertigungsformen"
+      ],
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-45",
+        "abb-46"
+      ],
+      "script_coverage": "voll",
+      "notes": "Stichwort; gemeint sind vermutlich Produktionsarten und Fertigungsformen (Abbildung 45) bzw. deren Einordnung (Abbildung 46) - unsicher."
+    },
+    {
+      "id": "frage-2024-12-10-5",
+      "number": 5,
+      "date": "2024-12-10",
+      "exam_date": "2024-12-10",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Dilemma der Ablaufplanung",
+      "wording": "Dilemma der Ablaufplanung",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand)",
+      "topics": [
+        "dilemma-ablaufplanung"
+      ],
+      "sections": [
+        "9.2.2"
+      ],
+      "figures": [
+        "abb-79"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2025-02-04-1",
+      "number": 1,
+      "date": "2025-02-04",
+      "exam_date": "2025-02-04",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Ansoff-Matrix",
+      "wording": "Ansoff-Matrix",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "zeichnen"
+      ],
+      "topic": "Ansoff-Matrix (Wachstumsstrategien)",
+      "topics": [
+        "ansoff-matrix"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-11"
+      ],
+      "script_coverage": "voll",
+      "notes": "Nur Stichwort; Skizze nicht ausdrücklich verlangt, aber in der Klausur 29.04.2026 so geprüft."
+    },
+    {
+      "id": "frage-2025-02-04-2",
+      "number": 2,
+      "date": "2025-02-04",
+      "exam_date": "2025-02-04",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Gozintograph",
+      "wording": "Gozintograph",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Materialbedarfsplanung und Gozintograph",
+      "topics": [
+        "gozintograph-materialbedarfsplanung"
+      ],
+      "sections": [
+        "9.1.3"
+      ],
+      "figures": [
+        "abb-66"
+      ],
+      "script_coverage": "voll",
+      "notes": "Nur Stichwort; Erklärung bzw. Zeichnen eines Gozintographen angenommen, eine Bedarfsrechnung ist nicht ausgeschlossen (unsicher)."
+    },
+    {
+      "id": "frage-2025-02-04-3",
+      "number": 3,
+      "date": "2025-02-04",
+      "exam_date": "2025-02-04",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Total Quality Management, Six Sigma, Statistische Prozesskontrolle",
+      "wording": "Total Quality Management, Six Sigma, Statistische Prozesskontrolle",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC)",
+      "topics": [
+        "qualitaetsmanagement"
+      ],
+      "sections": [
+        "9.3.1"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2025-02-04-4",
+      "number": 4,
+      "date": "2025-02-04",
+      "exam_date": "2025-02-04",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "6 Kriterien für Innovationsstrategien",
+      "wording": "6 Kriterien für Innovationsstrategien",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen"
+      ],
+      "topic": "Innovationsstrategie (Kriterien)",
+      "topics": [
+        "innovationsstrategie"
+      ],
+      "sections": [
+        "4.1.2"
+      ],
+      "figures": [
+        "tab-04"
+      ],
+      "script_coverage": "teilweise",
+      "notes": "Tabelle 4 im Skript v2.0 listet acht Kriterien, die Frage verlangt sechs (Protokollfehler oder frühere Skriptfassung)."
+    },
+    {
+      "id": "frage-2025-02-04-5",
+      "number": 5,
+      "date": "2025-02-04",
+      "exam_date": "2025-02-04",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Definition von Nachhaltigkeit laut Brundlandt-Kommission + drei Prinzipien des Sustainable Developments",
+      "wording": "Definition von Nachhaltigkeit laut Brundlandt-Kommission + drei Prinzipien des Sustainable Developments",
+      "points": null,
+      "task_type": "definition",
+      "task_types": [
+        "definition"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Nachhaltigkeit (Brundtland-Definition, drei Prinzipien, SDGs)",
+      "topics": [
+        "nachhaltigkeit-grundlagen"
+      ],
+      "sections": [
+        "8.3",
+        "8.3.1"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": "Brundtland-Definition am Beginn von 8.3; die drei Prinzipien (Verantwortungs-, Kooperations-, Kreislaufprinzip) in 8.3.1. Schreibweise 'Brundlandt' aus dem Protokoll."
+    },
+    {
+      "id": "frage-2025-03-18-1",
+      "number": 1,
+      "date": "2025-03-18",
+      "exam_date": "2025-03-18",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Benennen Sie die unterschiedlichen Arten der Innovation",
+      "wording": "Benennen Sie die unterschiedlichen Arten der Innovation",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen"
+      ],
+      "topic": "Arten der Innovation (Prozess-, System-, nicht-technische und postindustrielle Innovation)",
+      "topics": [
+        "innovationsarten",
+        "produktinnovation"
+      ],
+      "sections": [
+        "2.5.1",
+        "2.5.2",
+        "2.5.3",
+        "2.5.4",
+        "2.5.5"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": "Gliederung des Skripts 2.5: Produktinnovation, Prozessinnovation, Innovation von Systemeigenschaften, Innovation jenseits der Technik, Postindustrielle Innovation."
+    },
+    {
+      "id": "frage-2025-03-18-2",
+      "number": 2,
+      "date": "2025-03-18",
+      "exam_date": "2025-03-18",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Skizzieren und bennen Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)",
+      "wording": "Skizzieren und bennen Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)",
+      "points": null,
+      "task_type": "zeichnung",
+      "task_types": [
+        "zeichnung"
+      ],
+      "competencies": [
+        "zeichnen",
+        "wissen"
+      ],
+      "topic": "Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)",
+      "topics": [
+        "integrationsbereiche-innovationsprozess-produktentwicklung"
+      ],
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-35"
+      ],
+      "script_coverage": "voll",
+      "notes": "Schreibfehler 'bennen' aus dem Protokoll übernommen."
+    },
+    {
+      "id": "frage-2025-03-18-3",
+      "number": 3,
+      "date": "2025-03-18",
+      "exam_date": "2025-03-18",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Wie ist der Begriff „Industrieunternehmen“ definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?",
+      "wording": "Wie ist der Begriff „Industrieunternehmen“ definiert und wo liegen die Unterschiede zu anderen Wirtschaftseinheiten?",
+      "points": null,
+      "task_type": "definition",
+      "task_types": [
+        "definition"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "vergleichen"
+      ],
+      "topic": "Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten)",
+      "topics": [
+        "industriebetrieb-abgrenzung"
+      ],
+      "sections": [
+        "3.1.1",
+        "3.3"
+      ],
+      "figures": [
+        "abb-12",
+        "abb-13",
+        "abb-14"
+      ],
+      "script_coverage": "voll",
+      "notes": "Abgrenzung zu Dienstleistungsbetrieb und Werkstätte (Abbildungen 13, 14) sowie im System der Wirtschaftseinheiten (Abbildung 12)."
+    },
+    {
+      "id": "frage-2025-03-18-4",
+      "number": 4,
+      "date": "2025-03-18",
+      "exam_date": "2025-03-18",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Gesamtanlageneffektivität",
+      "wording": "Gesamtanlageneffektivität",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Gesamtanlageneffektivität (OEE)",
+      "topics": [
+        "gesamtanlageneffektivitaet"
+      ],
+      "sections": [
+        "9.1.7"
+      ],
+      "figures": [
+        "abb-74"
+      ],
+      "script_coverage": "voll",
+      "notes": "Nur Stichwort; vgl. frage-2026-01-22-5."
+    },
+    {
+      "id": "frage-2025-03-18-5",
+      "number": 5,
+      "date": "2025-03-18",
+      "exam_date": "2025-03-18",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Effizienz, Suffizienz, Konsistenz",
+      "wording": "Effizienz, Suffizienz, Konsistenz",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit)",
+      "topics": [
+        "effizienz-konsistenz-suffizienz"
+      ],
+      "sections": [
+        "8.3.3"
+      ],
+      "figures": [
+        "abb-57"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2025-04-09-1",
+      "number": 1,
+      "date": "2025-04-09",
+      "exam_date": "2025-04-09",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Mindestens 4 Innovationsbarrieren nennen + beschreiben",
+      "wording": "Mindestens 4 Innovationsbarrieren nennen + beschreiben",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Innovationsbarrieren und deren Überwindung",
+      "topics": [
+        "innovationsbarrieren"
+      ],
+      "sections": [
+        "4.1.3"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": "Das Skript beschreibt sechs ausgewählte Barrieren (u. a. fehlende Motivation zur Zusammenarbeit, Aufgabenunsicherheit, Ressourcenallokation, Nicht-Wissen, Nicht-Wollen)."
+    },
+    {
+      "id": "frage-2025-04-09-2",
+      "number": 2,
+      "date": "2025-04-09",
+      "exam_date": "2025-04-09",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Produktlebenszyklus Diagramm",
+      "wording": "Produktlebenszyklus Diagramm",
+      "points": null,
+      "task_type": "zeichnung",
+      "task_types": [
+        "zeichnung"
+      ],
+      "competencies": [
+        "zeichnen",
+        "wissen"
+      ],
+      "topic": "Produktlebenszyklus",
+      "topics": [
+        "produktlebenszyklus"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-08"
+      ],
+      "script_coverage": "voll",
+      "notes": null
+    },
+    {
+      "id": "frage-2025-04-09-3",
+      "number": 3,
+      "date": "2025-04-09",
+      "exam_date": "2025-04-09",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Dilemma der Ablaufplanung erklären",
+      "wording": "Dilemma der Ablaufplanung erklären",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Dilemma der Ablaufplanung (Auslastung vs. Durchlaufzeit/Bestand)",
+      "topics": [
+        "dilemma-ablaufplanung"
+      ],
+      "sections": [
+        "9.2.2"
+      ],
+      "figures": [
+        "abb-79"
+      ],
+      "script_coverage": "voll",
+      "notes": "Weitere Abbildungen zum Dilemma (80 bis 82) vertiefen es; hier nur die Grundabbildung zugeordnet."
+    },
+    {
+      "id": "frage-2025-04-09-4",
+      "number": 4,
+      "date": "2025-04-09",
+      "exam_date": "2025-04-09",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Fertigungsarten aufzählen + erklären",
+      "wording": "Fertigungsarten aufzählen + erklären",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Produktionssysteme (Produktionsarten und Fertigungsformen)",
+      "topics": [
+        "produktionsarten-fertigungsformen"
+      ],
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-45"
+      ],
+      "script_coverage": "voll",
+      "notes": "Unsicher, ob Produktionsarten (Einmal-/Einzel-/Serien-/Massenfertigung) oder Fertigungsformen (Punkt-/Werkstatt-/Gruppen-/Reihen-/Fließfertigung) gemeint sind; Abbildung 45 zeigt beide Gliederungen."
+    },
+    {
+      "id": "frage-2025-04-09-5",
+      "number": 5,
+      "date": "2025-04-09",
+      "exam_date": "2025-04-09",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "3 Prinzipien von Simultaneous Engineering aufzählen und erklären",
+      "wording": "3 Prinzipien von Simultaneous Engineering aufzählen und erklären",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Simultaneous / Concurrent Engineering (Prinzipien, magisches Dreieck)",
+      "topics": [
+        "simultaneous-engineering"
+      ],
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-30"
+      ],
+      "script_coverage": "voll",
+      "notes": "Im Skript: Parallelisierung, Integration, Standardisierung."
+    },
+    {
+      "id": "frage-2025-06-16-1",
+      "number": 1,
+      "date": "2025-06-16",
+      "exam_date": "2025-06-16",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Haupteinteilung von Kosten",
+      "wording": "Haupteinteilung von Kosten",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen"
+      ],
+      "topic": "Kosten als Leistungsziel (Hauptkostenkategorien)",
+      "topics": [
+        "kosten-produktion"
+      ],
+      "sections": [
+        "9.3.5"
+      ],
+      "figures": [],
+      "script_coverage": "teilweise",
+      "notes": "Das Skript nennt nur die Hauptkategorien Personal-, Anlage- (inkl. Overhead) und Materialkosten (9.3.5). Eine ausdrückliche Einteilung etwa in Fix-/variable bzw. Einzel-/Gemeinkosten gibt das Skript nicht an (Fixkosten werden nur im Zusammenhang mit dem Skaleneffekt erwähnt); welche Einteilung gemeint war, ist unklar."
+    },
+    {
+      "id": "frage-2025-06-16-2",
+      "number": 2,
+      "date": "2025-06-16",
+      "exam_date": "2025-06-16",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Innovationsprozess nach Cooper (Stage-Gate)",
+      "wording": "Innovationsprozess nach Cooper (Stage-Gate)",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Stage-Gate-Prozess nach Cooper",
+      "topics": [
+        "stage-gate-cooper"
+      ],
+      "sections": [
+        "6.2"
+      ],
+      "figures": [
+        "abb-37"
+      ],
+      "script_coverage": "voll",
+      "notes": "Stichwortfrage; Zeichnen nicht ausdrücklich verlangt, aber naheliegend (vgl. 11.12.2025)."
+    },
+    {
+      "id": "frage-2025-06-16-3",
+      "number": 3,
+      "date": "2025-06-16",
+      "exam_date": "2025-06-16",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Drei Phasen des Entrepreneurship-Prozess",
+      "wording": "Drei Phasen des Entrepreneurship-Prozess",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Entrepreneurship-Prozess (Erkennungs-, Entwicklungs-, Umsetzungsphase)",
+      "topics": [
+        "entrepreneurship-prozess"
+      ],
+      "sections": [
+        "4.2.4"
+      ],
+      "figures": [
+        "abb-22"
+      ],
+      "script_coverage": "voll",
+      "notes": "Erkennungs-, Entwicklungs- und Umsetzungsphase."
+    },
+    {
+      "id": "frage-2025-06-16-4",
+      "number": 4,
+      "date": "2025-06-16",
+      "exam_date": "2025-06-16",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Planungsgrundfälle",
+      "wording": "Planungsgrundfälle",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen"
+      ],
+      "topic": "Fabrikplanung und Planungsgrundfälle nach Grundig",
+      "topics": [
+        "fabrikplanung-planungsgrundfaelle"
+      ],
+      "sections": [
+        "8.2"
+      ],
+      "figures": [
+        "abb-44"
+      ],
+      "script_coverage": "voll",
+      "notes": "Planungsgrundfälle der Fabrikplanung nach Grundig (Abbildung 44)."
+    },
+    {
+      "id": "frage-2025-06-16-5",
+      "number": 5,
+      "date": "2025-06-16",
+      "exam_date": "2025-06-16",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Primär, sekundär, tertiät, brutto, nettobedarf",
+      "wording": "Primär, sekundär, tertiät, brutto, nettobedarf",
+      "points": null,
+      "task_type": "definition",
+      "task_types": [
+        "definition"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Materialklassen und Bedarfsarten (primär, sekundär, tertiär, Brutto-/Nettobedarf)",
+      "topics": [
+        "materialklassen-bedarfsarten"
+      ],
+      "sections": [
+        "9.1.3.1"
+      ],
+      "figures": [
+        "abb-69"
+      ],
+      "script_coverage": "voll",
+      "notes": "Schreibweise 'tertiät' aus dem Protokoll übernommen."
+    },
+    {
+      "id": "frage-2025-10-15-1",
+      "number": 1,
+      "date": "2025-10-15",
+      "exam_date": "2025-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Strategien von Unternehmen: Differenzierung, Kostenführerschaft, Fokussierung",
+      "wording": "Strategien von Unternehmen: Differenzierung, Kostenführerschaft, Fokussierung",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Generische Wettbewerbsstrategien nach Porter (Kostenführerschaft, Differenzierung, Fokussierung)",
+      "topics": [
+        "wettbewerbsstrategien-porter"
+      ],
+      "sections": [
+        "2.1"
+      ],
+      "figures": [
+        "abb-05"
+      ],
+      "script_coverage": "voll",
+      "notes": "Entspricht den drei generischen Strategien nach Porter (Abbildung 5). Verwandte Aufzählung auch in Tabelle 4 (4.1.2), dort als Wettbewerbsfaktor."
+    },
+    {
+      "id": "frage-2025-10-15-2",
+      "number": 2,
+      "date": "2025-10-15",
+      "exam_date": "2025-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Strategische Standortplanung: externe und interne Faktoren",
+      "wording": "Strategische Standortplanung: externe und interne Faktoren",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Standortplanung (strategisch, Raumsicht; interne und externe Treiber)",
+      "topics": [
+        "standortplanung"
+      ],
+      "sections": [
+        "8.1.1"
+      ],
+      "figures": [
+        "abb-43"
+      ],
+      "script_coverage": "voll",
+      "notes": "Abbildung 43 zeigt interne und externe Treiber für standortbezogene Reaktionen."
+    },
+    {
+      "id": "frage-2025-10-15-3",
+      "number": 3,
+      "date": "2025-10-15",
+      "exam_date": "2025-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Suffizienz, Effizienz und Konsistenz (+Skizze)",
+      "wording": "Suffizienz, Effizienz und Konsistenz (+Skizze)",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "zeichnen"
+      ],
+      "topic": "Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit)",
+      "topics": [
+        "effizienz-konsistenz-suffizienz"
+      ],
+      "sections": [
+        "8.3.3"
+      ],
+      "figures": [
+        "abb-57"
+      ],
+      "script_coverage": "voll",
+      "notes": "Die Skizze entspricht Abbildung 57 (Einfluss auf Aufwand und Ertrag)."
+    },
+    {
+      "id": "frage-2025-10-15-4",
+      "number": 4,
+      "date": "2025-10-15",
+      "exam_date": "2025-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "4 Methoden der integrierten Produktentwicklung (methodisch, organisatorisch, technologisch, menschlich)",
+      "wording": "4 Methoden der integrierten Produktentwicklung (methodisch, organisatorisch, technologisch, menschlich)",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Integrierte Produktentstehung (Arten der Integration, Kosten, Rahmenstruktur)",
+      "topics": [
+        "integrierte-produktentstehung"
+      ],
+      "sections": [
+        "5.6"
+      ],
+      "figures": [
+        "abb-28"
+      ],
+      "script_coverage": "voll",
+      "notes": "Zuordnung zu Abbildung 28 (Arten der Integration / Elemente und Methoden der Integrierten Produkterstellung) ist eine Einschätzung; das Skript benennt die vier Begriffe nicht wortgleich."
+    },
+    {
+      "id": "frage-2025-10-15-5",
+      "number": 5,
+      "date": "2025-10-15",
+      "exam_date": "2025-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Design Thinking Methode (IDEO)",
+      "wording": "Design Thinking Methode (IDEO)",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Design Thinking Methode (IDEO, 5-Step-Prozess)",
+      "topics": [
+        "design-thinking"
+      ],
+      "sections": [
+        "6.3"
+      ],
+      "figures": [
+        "abb-39"
+      ],
+      "script_coverage": "voll",
+      "notes": "Stichwortfrage."
+    },
+    {
+      "id": "frage-2025-12-11-1",
+      "number": 1,
+      "date": "2025-12-11",
+      "exam_date": "2025-12-11",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "6 kritische Erfolgsfaktoren für Produktinnovation",
+      "wording": "6 kritische Erfolgsfaktoren für Produktinnovation",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen"
+      ],
+      "topic": "Treiber und kritische Erfolgsfaktoren von Produktinnovationen (Cooper)",
+      "topics": [
+        "treiber-erfolgsfaktoren-produktinnovation"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [],
+      "script_coverage": "teilweise",
+      "notes": "Das Skript v2.0 nennt sieben kritische Erfolgsfaktoren (Cooper 2001), die Frage verlangt sechs. Entweder frühere Skriptfassung oder Protokollfehler; Abweichung im Zweifel durch alle sieben Faktoren abdecken."
+    },
+    {
+      "id": "frage-2025-12-11-2",
+      "number": 2,
+      "date": "2025-12-11",
+      "exam_date": "2025-12-11",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Arbeitssystem nach REFA und Umwelteinflüsse dabei",
+      "wording": "Arbeitssystem nach REFA und Umwelteinflüsse dabei",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Industriebetrieb als Arbeitssystem nach REFA",
+      "topics": [
+        "arbeitssystem-refa"
+      ],
+      "sections": [
+        "3.1.2"
+      ],
+      "figures": [
+        "abb-15"
+      ],
+      "script_coverage": "voll",
+      "notes": "Stichwortfrage; Skizze nicht ausdrücklich verlangt, in der Klausur 29.04.2026 aber so geprüft."
+    },
+    {
+      "id": "frage-2025-12-11-3",
+      "number": 3,
+      "date": "2025-12-11",
+      "exam_date": "2025-12-11",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Stage-Gate-Prozess Cooper zeichnen und erklären",
+      "wording": "Stage-Gate-Prozess Cooper zeichnen und erklären",
+      "points": null,
+      "task_type": "zeichnung",
+      "task_types": [
+        "zeichnung"
+      ],
+      "competencies": [
+        "zeichnen",
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Stage-Gate-Prozess nach Cooper",
+      "topics": [
+        "stage-gate-cooper"
+      ],
+      "sections": [
+        "6.2"
+      ],
+      "figures": [
+        "abb-37",
+        "abb-38"
+      ],
+      "script_coverage": "voll",
+      "notes": "Abbildung 38 (Aufbau eines Gates) gehört zur Erklärung der Gates."
+    },
+    {
+      "id": "frage-2025-12-11-4",
+      "number": 4,
+      "date": "2025-12-11",
+      "exam_date": "2025-12-11",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Funktionen des Industriemanagements",
+      "wording": "Funktionen des Industriemanagements",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Funktionen und Kenngrößen des Industrie Managements",
+      "topics": [
+        "industriemanagement-funktionen"
+      ],
+      "sections": [
+        "7.1"
+      ],
+      "figures": [
+        "abb-40"
+      ],
+      "script_coverage": "voll",
+      "notes": "Stichwortfrage; Abbildung 40 trägt den Titel 'Funktionen des Industrie Management'."
+    },
+    {
+      "id": "frage-2025-12-11-5",
+      "number": 5,
+      "date": "2025-12-11",
+      "exam_date": "2025-12-11",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "ABC und Bestandsdilemma",
+      "wording": "ABC und Bestandsdilemma",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Bestandsdilemma und ABC-Analyse",
+      "topics": [
+        "bestandsdilemma-abc-analyse"
+      ],
+      "sections": [
+        "9.1.4"
+      ],
+      "figures": [
+        "abb-70"
+      ],
+      "script_coverage": "voll",
+      "notes": "Stichwortfrage (ABC-Analyse und Bestandsdilemma)."
+    },
+    {
+      "id": "frage-2026-01-22-1",
+      "number": 1,
+      "date": "2026-01-22",
+      "exam_date": "2026-01-22",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Nennen Sie vier Merkmale von Industriebetrieben",
+      "wording": "Nennen Sie vier Merkmale von Industriebetrieben",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen"
+      ],
+      "topic": "Abgrenzung der Industriebetriebe (Merkmale, Dienstleistung, Handwerk, Wirtschaftseinheiten)",
+      "topics": [
+        "industriebetrieb-abgrenzung"
+      ],
+      "sections": [
+        "3.1.1"
+      ],
+      "figures": [],
+      "script_coverage": "teilweise",
+      "notes": "Das Skript (3.1.1) beschreibt den Industriebetrieb in Fließtext (Sachgüter, maschinelle Anlagen, weitgehende Arbeitsteilung/Spezialisierung, Abgrenzung zu Dienstleistung und Handwerk), nennt aber keine Liste von genau vier Merkmalen."
+    },
+    {
+      "id": "frage-2026-01-22-2",
+      "number": 2,
+      "date": "2026-01-22",
+      "exam_date": "2026-01-22",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und Postindustrielle Innovation. Geben Sie jeweils ein Beispiel an.",
+      "wording": "Erklären Sie die Begriffe Imitation, Modifikation, Prozessinnovation und Postindustrielle Innovation. Geben Sie jeweils ein Beispiel an.",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Begriffe und Definitionen (Invention, Innovation, Imitation, Modifikation)",
+      "topics": [
+        "innovationsbegriffe",
+        "innovationsarten"
+      ],
+      "sections": [
+        "2.2",
+        "2.5.2",
+        "2.5.5"
+      ],
+      "figures": [],
+      "script_coverage": "teilweise",
+      "notes": "Beispiele nennt das Skript nur für die postindustrielle Innovation (Kreditkarten, Leasing, Barcodes, e-business); für Imitation, Modifikation und Prozessinnovation fehlen Beispiele im Skript."
+    },
+    {
+      "id": "frage-2026-01-22-3",
+      "number": 3,
+      "date": "2026-01-22",
+      "exam_date": "2026-01-22",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Wie hängen die Produktionsarten (unterschiedliche Losgrößen) mit Variabilität, Volumen und Prozessablauf zusammen? Fertigen Sie eine Skizze an und erklären Sie jede Produktionsart kurz.",
+      "wording": "Wie hängen die Produktionsarten (unterschiedliche Losgrößen) mit Variabilität, Volumen und Prozessablauf zusammen? Fertigen Sie eine Skizze an und erklären Sie jede Produktionsart kurz.",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "zeichnen"
+      ],
+      "topic": "Produktionssysteme (Produktionsarten und Fertigungsformen)",
+      "topics": [
+        "produktionsarten-fertigungsformen"
+      ],
+      "sections": [
+        "8.2.1"
+      ],
+      "figures": [
+        "abb-46"
+      ],
+      "script_coverage": "voll",
+      "notes": "Die gesuchte Skizze ist Abbildung 46 (Achsen Variabilität und Volumen, Prozessablauf; Einmal-, Einzel-/Kleinserien-, Serien-, Massenfertigung)."
+    },
+    {
+      "id": "frage-2026-01-22-4",
+      "number": 4,
+      "date": "2026-01-22",
+      "exam_date": "2026-01-22",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Welche 3 Ziele bestehen aus Unternehmenssicht im Qualitätsmanagement? Beschreiben Sie folgende Methoden des Qualitätsmanagements in Ihren eigenen Worten: Total Quality Management, Six Sigma, Statistische Prozesskontrolle",
+      "wording": "Welche 3 Ziele bestehen aus Unternehmenssicht im Qualitätsmanagement? Beschreiben Sie folgende Methoden des Qualitätsmanagements in Ihren eigenen Worten: Total Quality Management, Six Sigma, Statistische Prozesskontrolle",
+      "points": null,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Qualität und Qualitätsmanagement (Ziele, TQM, Six Sigma, SPC)",
+      "topics": [
+        "qualitaetsmanagement"
+      ],
+      "sections": [
+        "9.3.1"
+      ],
+      "figures": [],
+      "script_coverage": "voll",
+      "notes": "Zweiteilige Frage (Ziele nennen, drei Methoden beschreiben)."
+    },
+    {
+      "id": "frage-2026-01-22-5",
+      "number": 5,
+      "date": "2026-01-22",
+      "exam_date": "2026-01-22",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "text": "Gesamtanlageneffektivität",
+      "wording": "Gesamtanlageneffektivität",
+      "points": null,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Gesamtanlageneffektivität (OEE)",
+      "topics": [
+        "gesamtanlageneffektivitaet"
+      ],
+      "sections": [
+        "9.1.7"
+      ],
+      "figures": [
+        "abb-74"
+      ],
+      "script_coverage": "voll",
+      "notes": "Nur Stichwort ohne Aufgabenverb; Erklärung bzw. Definition angenommen. Eine Berechnung der Kennzahl ist nicht ausgeschlossen (unsicher)."
+    },
+    {
+      "id": "frage-2026-04-29-1",
+      "number": 1,
+      "date": "2026-04-29",
+      "exam_date": "2026-04-29",
+      "source": "klausur-2026-04-29",
+      "trust": "student-transcript",
+      "text": "Erklären Sie die Phasen in die sich der Produktlebenszyklus am Markt untergliedert. Stellen sie den typischen Verlauf als Diagramm dar.",
+      "wording": "Erklären Sie die Phasen in die sich der Produktlebenszyklus am Markt untergliedert. Stellen sie den typischen Verlauf als Diagramm dar.",
+      "points": 6,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "zeichnen"
+      ],
+      "topic": "Produktlebenszyklus",
+      "topics": [
+        "produktlebenszyklus"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-08"
+      ],
+      "script_coverage": "voll",
+      "notes": "Aufgabe A1 der Klausur."
+    },
+    {
+      "id": "frage-2026-04-29-2",
+      "number": 2,
+      "date": "2026-04-29",
+      "exam_date": "2026-04-29",
+      "source": "klausur-2026-04-29",
+      "trust": "student-transcript",
+      "text": "Wozu dient die Ansoff-Matrix? Skizzieren Sie diese.",
+      "wording": "Wozu dient die Ansoff-Matrix? Skizzieren Sie diese.",
+      "points": 4,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "zeichnen"
+      ],
+      "topic": "Ansoff-Matrix (Wachstumsstrategien)",
+      "topics": [
+        "ansoff-matrix"
+      ],
+      "sections": [
+        "2.5.1"
+      ],
+      "figures": [
+        "abb-11"
+      ],
+      "script_coverage": "voll",
+      "notes": "Aufgabe A2 der Klausur."
+    },
+    {
+      "id": "frage-2026-04-29-3",
+      "number": 3,
+      "date": "2026-04-29",
+      "exam_date": "2026-04-29",
+      "source": "klausur-2026-04-29",
+      "trust": "student-transcript",
+      "text": "Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability\"). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens.",
+      "wording": "Beschreiben Sie die drei Dimensionen der Nachhaltigkeit („Sustainability\"). Skizzieren Sie das Spannungsfeld des unternehmerischen Wirkens.",
+      "points": 4,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen",
+        "zeichnen"
+      ],
+      "topic": "Strategische Bedeutung der Nachhaltigkeit (drei Dimensionen, Spannungsfeld unternehmerischen Wirkens)",
+      "topics": [
+        "nachhaltigkeit-dimensionen-spannungsfeld"
+      ],
+      "sections": [
+        "8.3.2"
+      ],
+      "figures": [
+        "abb-56"
+      ],
+      "script_coverage": "voll",
+      "notes": "Aufgabe A3 der Klausur. Abbildung 56 zeigt die ökonomische, soziale und ökologische Dimension mit den Stichworten Interessenausgleich und Zieloptimierung (8.3.2)."
+    },
+    {
+      "id": "frage-2026-04-29-4",
+      "number": 4,
+      "date": "2026-04-29",
+      "exam_date": "2026-04-29",
+      "source": "klausur-2026-04-29",
+      "trust": "student-transcript",
+      "text": "Skizzieren Sie das Arbeitssystem nach REFA und erklären sie seine Komponenten kurz.",
+      "wording": "Skizzieren Sie das Arbeitssystem nach REFA und erklären sie seine Komponenten kurz.",
+      "points": 6,
+      "task_type": "zeichnung",
+      "task_types": [
+        "zeichnung"
+      ],
+      "competencies": [
+        "zeichnen",
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Industriebetrieb als Arbeitssystem nach REFA",
+      "topics": [
+        "arbeitssystem-refa"
+      ],
+      "sections": [
+        "3.1.2"
+      ],
+      "figures": [
+        "abb-15"
+      ],
+      "script_coverage": "voll",
+      "notes": "Aufgabe A4 der Klausur."
+    },
+    {
+      "id": "frage-2026-04-29-5",
+      "number": 5,
+      "date": "2026-04-29",
+      "exam_date": "2026-04-29",
+      "source": "klausur-2026-04-29",
+      "trust": "student-transcript",
+      "text": "Nennen Sie die Schritte das Planungsvorgehen der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz.",
+      "wording": "Nennen Sie die Schritte das Planungsvorgehen der Fabrikplanung nach Grundig und beschreiben Sie jede Phase kurz.",
+      "points": 7,
+      "task_type": "aufzaehlung",
+      "task_types": [
+        "aufzaehlung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Planungsvorgehen der Fabrikplanung nach Grundig (Zielplanung bis Ausführung)",
+      "topics": [
+        "fabrikplanung-planungsvorgehen"
+      ],
+      "sections": [
+        "8.2.2",
+        "8.2.3",
+        "8.2.4",
+        "8.2.5",
+        "8.2.6",
+        "8.2.7"
+      ],
+      "figures": [
+        "abb-51"
+      ],
+      "script_coverage": "voll",
+      "notes": "Aufgabe A5 der Klausur (höchste Punktzahl). Die Phasen entsprechen den Skript-Abschnitten 8.2.3 bis 8.2.7."
+    },
+    {
+      "id": "frage-2026-04-29-6",
+      "number": 6,
+      "date": "2026-04-29",
+      "exam_date": "2026-04-29",
+      "source": "klausur-2026-04-29",
+      "trust": "student-transcript",
+      "text": "Erklären Sie die Begriffe Effizienz, Konsistenz und Suffizienz im Kontext der ökologischen Nachhaltigkeit.",
+      "wording": "Erklären Sie die Begriffe Effizienz, Konsistenz und Suffizienz im Kontext der ökologischen Nachhaltigkeit.",
+      "points": 6,
+      "task_type": "erklaerung",
+      "task_types": [
+        "erklaerung"
+      ],
+      "competencies": [
+        "wissen",
+        "verstehen"
+      ],
+      "topic": "Effizienz, Konsistenz und Suffizienz (ökologische Nachhaltigkeit)",
+      "topics": [
+        "effizienz-konsistenz-suffizienz"
+      ],
+      "sections": [
+        "8.3.3"
+      ],
+      "figures": [
+        "abb-57"
+      ],
+      "script_coverage": "voll",
+      "notes": "Aufgabe A6 der Klausur."
+    }
+  ],
+  "exams": [
+    {
+      "date": "2024-03-14",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, nur Stichworte, keine Punkte."
+    },
+    {
+      "date": "2024-06-20",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, nur Stichworte, keine Punkte."
+    },
+    {
+      "date": "2024-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, nur Stichworte, keine Punkte."
+    },
+    {
+      "date": "2024-12-10",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, nur Stichworte, keine Punkte."
+    },
+    {
+      "date": "2025-02-04",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, keine Punkte."
+    },
+    {
+      "date": "2025-03-18",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, keine Punkte."
+    },
+    {
+      "date": "2025-04-09",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, keine Punkte."
+    },
+    {
+      "date": "2025-06-16",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, nur Stichworte, keine Punkte."
+    },
+    {
+      "date": "2025-10-15",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, nur Stichworte, keine Punkte."
+    },
+    {
+      "date": "2025-12-11",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, nur Stichworte, keine Punkte."
+    },
+    {
+      "date": "2026-01-22",
+      "source": "fragensammlung-uware",
+      "trust": "student-recollection",
+      "total_points": null,
+      "notes": "Gedächtnisprotokoll, keine Punkte."
+    },
+    {
+      "date": "2026-04-29",
+      "source": "klausur-2026-04-29",
+      "trust": "student-transcript",
+      "total_points": 33,
+      "notes": "Klausur \"Grundlagen IBL\" vom 29.04.2026, 6 Aufgaben (A1 bis A6), Summe 33 P. Notenschlüssel laut Abschrift: 92 bis 100 % = 1, 80 bis 91,9 % = 2, 65 bis 79,9 % = 3, 50 bis 64,9 % = 4, unter 50 % = 5. Anmerkung der Studierenden (sinngemäß): Der Professor legt viel Wert auf Verständnis; aktuell werden tendenziell eher Grafiken und Diagramme abgefragt, Begriffe muss man gut erklären können."
+    }
+  ]
+}

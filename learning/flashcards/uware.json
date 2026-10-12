@@ -1,0 +1,1306 @@
+{
+  "deck": "uware",
+  "title": "Grundlagen Inno",
+  "source": "anki-uware",
+  "trust": "unverified-student",
+  "disclaimer": "Diese Karten stammen aus Anki-Decks von Studierenden. Sie sind nicht vom Lehrstuhl geprüft und nicht gegen das Skript verifiziert und können Fehler oder veraltete Inhalte enthalten. Im Zweifel gilt das Skript (`content/`).",
+  "count": 144,
+  "cards": [
+    {
+      "id": "uware-001",
+      "front": "Beschreiben Sie die erste industrielle Revolution",
+      "back": "- Begann um 1750\n- Angetrieben durch die Entwicklung der Dampfmaschine\n- Entwicklung führte zu einer Bevölkerungsexplosion\n- Gesellschaftliche Auswirkungen durch Abnahme von traditionellem Handwerk und Landwirtschaft und Zunahme von Fabrikarbeit",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-002",
+      "front": "Beschreiben Sie die zweite industrielle Revolution",
+      "back": "- auch organisationsgetriebe Revolution\n- Beispiel: Produktionslinie von Henry Ford\n- elektrische Antriebe, Verbrennungsmotoren und Erdöl als Grundstoff\n- Großindustrielle Massenproduktion\n- Allgemeiner Wohlstand wurde vermehrt berücksichtigt\n- Bedeutung der Gewerkschaften stieg stark an",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-003",
+      "front": "Beschreiben Sie die dritte industrielle Revolution",
+      "back": "- Anfang der 60er\n- Elektronik, Halbleiter und Automatisierung\n- Erschaffung des IT-Sektors\n- Hinzukommen von erneuerbaren Energien\n- variantenreiche Serienfertigung aufgrund individueller Kundenwünsche\n- Fortschreiten der Globalisierung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-004",
+      "front": "Beschreiben Sie die vierte industrielle Revolution, die Industrie 4.0 und dessen Enabler",
+      "back": "- sinkende Preise von Technologien und rasante Entwicklung von Elektronik und Digitalisierung\n- Digitalisierung ermöglicht neue Geschäftsmodelle\n\nIndustrie 4.0:\n- neue Stufe der Organisation und Steuerrung der gesamten Wertschöpfungskette über den Lebenszyklus von Produkten\n- Verfügbarkeit aller relevanten Informationen in Echtzeit durch Vernetzung von Maschinen, Arbeitern und Produkten (Digitalisierung)\n\nEnabler der Industrie 4.0:\n- Preisverfall industrieller Hard- und Software\n- Weiterentwicklung von Hard- und Software\n- Ausbreitung des Internets\n- Neue Technologien (KI, Cloud-Computing)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-005",
+      "front": "Erklären Sie \"Hidden Champions\" in Bezug auf Österreich",
+      "back": "- Hidden Champions sind Unternehmen, die entweder Top 3 auf dem Weltmarkt sind oder Top 1 auf einem Kontinent. \"Hidden\", weil sie der breiten Öffentlichkeit nicht bekannt sind.\n- 160 Hidden Champions in Österreich mit 85% Exportanteil\n- Sind die wichtigsten Lehrlingsausbildner",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-006",
+      "front": "Erklären Sie kleine und mittelständische Unternehmen sowie große Unternehmen",
+      "back": "- kleine Unternehmen: weniger als 50 Beschäftigte\n- mittlere Unternehmen: 50 bis 250 Beschäftigte\n- große Unternehmen: über 250 Beschäftigte\n- cirka 75% der Industriebeschäftigten sind für große Unternehmen tätig",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-007",
+      "front": "Nennen Sie die 6 Gründe (vom Roosevelt Institut), warum die Fertigung für die Wirtschaft von zentraler Bedeutung sind.",
+      "back": "1.) Die Produktion war der Grund für die wirtschaftliche Entwicklung\n2.) Die Produktion ist das Fundament der globalen Großmächtige\n3.) Fertigung dient als wichtigster Grund für Wirtschaftswachstum\n4.) Globaler Handel basiert auf Waren, nicht auf Dienstleistungen\n5.) Dienstleistungen sind abhängig von Industriegütern\n6.) Fertigung schafft Arbeitsplätze",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-008",
+      "front": "Nennen Sie die Merkmale der Industrie in Österreich (Merkmalausprägungen und Bedeutung der Industrie in Österreich)",
+      "back": "1.) Österreich ist im internationalen Vergleich als hochindustrialisiert zu bezeichnen\n2.) Österreich erlebt einen Prozess der Entindustrialisierung seit 1970\n3.) Österreich verzeichnet einen verstärkten Prozess des Eindringends industrieller Methoden und Techniken in nichtindustrielle Bereiche\n4.) Österreich befindet sich, wie viele Industrieländer, in einem Prozess der Umstrukturierung\n5.) Österreich hat im internationalen Vergleich kleine Industriebetriebe\n6.) Österreich hat einen kleinen Inlandsmarkt und eine hohe Energie- und Rohstoffabhängigkeit vom Ausland\n7.) Österreich wird von einer allgemein kritischen Haltung gegenüber dem technischen Fortschritt und einem hohen Umweltbewusstsein geprägt\n8.) Österreich hat von seinen Ressourcen her gute Voraussetzungen, die Probleme der industriellen Gesellschaft im ganzheitlichen Sinn zu lösen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-009",
+      "front": "Nennen sie die Merkmale von Industriebetrieben aus §7 der österreichischen Gewerbeordnung",
+      "back": "1.) hoher Einsatz von Anlage- und Betriebskapital\n\n2.) Verwendung andersartiger als der vom Handwerk und den gebundenen Gewerben gemäßen Maschinen und technischen Einrichtungen oder Verwendung einer Vielzahl von Maschinen und technischen Einrichtungen gleichen Verwendungszweckes\n\n3.) Einsatz von Maschinen und technischen Einrichtungen überwiegend in räumlich oder organisatorisch zusammenhängenden Betriebsstätten\n\n4.) serienmäßige Erzeugung, typisierte Verrichtungen\n\n5.) weitgehende Arbeitsteilung im Rahmen eines vorbestimmten Arbeitsablaufes\n\n6.) größere Zahl von ständig beschäftigten Arbeitnehmern und Überwiegen der nur mit bestimmten regelmäßigen Teilverrichtungen beschäftigten Arbeitskräfte oder automatisierte Betriebsweise\n\n7.) organisatorische Trennung in eine technische und eine kaufmännische Führung, wobei sich die Mitarbeit des Gewerbetreibenden im Wesentlichen auf leitende Tätigkeiten beschränkt\n\n- Industriebetrieb, wenn vier der sieben Punkte erfüllt sind; andernfalls Gewerbebetrieb",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-010",
+      "front": "Nennen und beschreiben Sie die aktuellen Herausforderungen der Industriebetriebe",
+      "back": "1.) Globalisierung:\n- Entstehung von beachtlichen Produktionsnetzwerken\n- hohe Lohnunterschiede unterschiedlicher Länder führt zu Arbeitsplatzexport und Dumping-Preisen\n- Verkürzung der Produktlebenszyklen\n\n2.) Durchdringung neuer Technologien:\n- neueartige Produkte und Produktionsprozesse\n\n3.) Demografischer Wandel\n- steigende Lebenserwartung und niedrige Geburtenrate\n\n4.) Nachhaltigkeit\n- energieeffiziente Produktion\n- Reduktion von Energiekosten\n- Verbesserung des ökologischen Fußabdrucks (Schonung der Umwelt)\n\n5.) Innovation für Wettbewerbsfähigkeit\n- Wandel und Veränderung von innovativen Umgebungen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-011",
+      "front": "Nennen und beschreiben Sie die drei generischen Strategien (Porter), die Unternehmen verfolgen können (+ Skizze)",
+      "back": "- Umfassende Kostenführerschaft: effiziente Produktionsanlagen, Kostensenkungen, strikte Kostenkontrolle\n- Fokussierung: Nischenstrategien, spezifische Käufergruppe, spezifische Produktliniensegmente, spezifische geografische Märkte\n- Differenzierung: Unterscheidung von Konkurrenten durch z.B. hervorragende Qualität oder spezielle Serviceangebote",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-012",
+      "front": "Beschreiben Sie die BCG-Rangliste und nennen Sie die vier dazugehörigen Dimensionen",
+      "back": "- Bewertet die Leistung eines Unternehmens in Bezug auf Innovation\n\nDimensionen:\n- Global Mindshare\n- Industry Peer View\n- Industry Disruption\n- Wertschöpfung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-013",
+      "front": "Erklären Sie die Begriffe Erfindung, Innovation, Modifikation und Imitation",
+      "back": "- Erfindung: Entwicklung einer völlig neuen Idee oder Technik\n- Innovation: Prozess der wirtschaftlichen Anwendung der Erfindung\n- Modifikation: Veränderung oder Erweiterung eines bestehenden Produktes\n- Imitation: Nachbildung der ursprünglichen Innovation durch Dritte",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-014",
+      "front": "Nennen Sie die Merkmale der Innovation (Skizze)",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-015",
+      "front": "Nennen und beschreiben Sie die Dimensionen der Innovation",
+      "back": "1.) inhaltliche Dimension:\n- Was ist neu?\n- Definiert die Art der Innovation\n\n2.) Intensitätsdimension:\n- Wie neu?\n- Einstufung des Neuheitsgrades\n\n3.) subjektive Dimension:\n- Neu für wen?\n- Neuheit nur aus Sicht von bestimmten Personen, Organisationen oder Regionen\n\n4.) prozessuale Dimension:\n- Wo beginnt, wo endet die Neuerung?\n- Innovation als Gesamtprozess von der Idee bis zur erfolgreichen Umsetzung\n\n5.) normative Dimension:\n- Neu = erfolgreich?\n- Bewertung der Innovation nach Verbesserung oder Fortschritt",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-016",
+      "front": "Nennen und beschreiben Sie die verschiedenen Innovationstreiber",
+      "back": "1.) Megatrends:\n- 10-20 Jahre\n- Entwicklungen mit großer Auswirkung auf Gesellschaft, Wirtschaft und Politik\n- z.B. Globalisierung, Klimawandel und nachhaltige Energieversorgung\n\n2.) Makrotrends:\n- 5-10 Jahre\n- Konsumtrends, die bestimmte Branchen oder Bereiche prägen\n- z.B. Autonome Fahrzeuge, Work-Life-Balance und personalisierte Gesundheitsvorsorge\n\n3.) Mikrotrends:\n- 1-5 Jahre\n- Zielgruppenspezifische Entwicklungen\n\n- Technologietrends als Innovationstreiber, jedoch nicht als \"Hauptgruppe\" definiert",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-017",
+      "front": "Nennen Sie die Technologietrends, die aus dem Gartner Research Incorporated Report veröffentlicht wurden",
+      "back": "- Data Fabric\n- Hyperautomatisierung\n- Decision Intelligence\n- AI-Engineering\n- Autonome Systeme",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-018",
+      "front": "Nennen und beschreiben Sie kurz die Arten der Innovation",
+      "back": "1.) Produktinnovation:\nEntwicklung neuer oder verbesserter Produkte, Erhöhung der Effektivität\n\n2. ) Prozessinnovation:\nEntwicklung neuer oder verbesserter Fertigungs- und Herstellungsverfahren, Erhöhung der Effizienz\n\n3.) Innovation von Systemeigenschaften:\nVerzahnung der Elemente von Produkt- oder Prozessinnovationen\n\n4.) Innovation jenseits der Technik:\nInnovation in den Bereichen der Unternehmensführung\nz.B. in den Bereichen Ökonomie oder Management\n\n5.) Postindustrielle Innovation:\nInnovationen können auch in nicht-industriellen Unternehmen wie Banken oder Versicherungen stattfinden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-019",
+      "front": "Skizzieren Sie den Produktlebenszyklus und erklären Sie dessen Phasen",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-020",
+      "front": "Nennen und beschreiben Sie die zwei allgemeinen Kategorien neuer Produkte",
+      "back": "- Neu für das Unternehmen: Produkt wurde vom Unternehmen noch nie hergestellt oder verkauft\n\n- Neu auf dem Markt bzw. \"innovativ\": Produkt ist das Erste seiner Art, weitere Klassifizierung in sechs Kategorien",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-021",
+      "front": "Skizzieren sie die Kategorien neuer Produkte und beschreiben sie diese",
+      "back": "1.) Weltneuheiten: Produkte sind die ersten ihrere Art (Innovationen mit bedeutender technologischer Entwicklung)\n2.) Neue Produktlinien: Neu für das Unternehmen, aber nicht neu auf dem Markt\n3.) Ergänzungen zu bestehenden Produktlinien: Neu für das Unternehmen, aber passen in eine bereits bestehende Produktlinie\n4.) Verbesserung und Überarbeitung bestehender Produkte\n5.) Neupositionierung: Ausrichtung bestehender Produkte auf neue Marktsegmente oder andere Anwendungen\n6.) Kostensenkungen: gleiche Leistung wie bestehende Produkte, nur billiger",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-022",
+      "front": "Skizzieren und beschreiben sie das Portfoliomanagement für neue Produkte (Cooper)",
+      "back": "- Auswahl und Priorisierung eines Produkts zur Erreichung der Geschäftsziele\n\n1.) Perlen: Produkte mit großem Erfolgspotential\n2.) Brot und Butter: hohe Erfolgswarscheinlichkeit von Modifikation oder Erweiterung bestehender Produkte\n3.) Austern: hoher erwarteter Gewinn, jedoch fehlt die Basis zur technologischen Umsetzung\n4.) Weiße Elefanten: geringe Chance auf Erfolg mit geringer Chance auf hohen Gewinn",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-023",
+      "front": "Nennen Sie die Faktoren einer Produktentscheidung",
+      "back": "1.) Strategisch:\nEignung zur Geschäftsstrategie\n\n2.) Wettbewerbs- und Produktvorteile:\nAbhebung des Produktes, überzeugender Mehrwert für den Anwender\n\n3.) Marktattraktivität:\nGröße des Marktes und positive Wettbewerbssituation\n\n4.) Hebelwirkung:\nAusschöpfung der geschäftlichen Kernkompetenzen wie Marketing, Technologie und Fertigung\n\n5.) Technische Machbarkeit:\nWahrscheinlichkeit, das Produkt entwickeln und herstellen zu können\n\n6.)Risiko und Ertrag:\nFinanzielle Aussichten des Produkts im Vergleich zu den Risiken",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-024",
+      "front": "Beschreiben und skizzieren sie die Strategien nach Ansoff zur Einordnung von Produkten zu jeweiligen Märkten",
+      "back": "- Marktdurchdringungsstrategie:\nSteigerung des Absatzes in bestehenden Märkten mit bestehenden Produkten\n\n- Marktentwicklungsstrategie:\nMacht bestehende Produkte für neue Märkte verfügbar\n\n- Produktentwicklungsstrategie:\nEinbringung neuer oder verbesserter Produkte in bestehenden Märkten\n\n- Diversifizierungsstrategie:\nNeue Produkte in neuen Märkten, z.B. durch Zukauf von Firmen und Einbringung von bestehendem Wissen\nvertikale Diversifikation: Erweiterung der Fertigungstiefe\nhorizontale Diversifikation: Erweiterung des Produktionsprogramms um ähnliche Produkte\nseitliche Diversifikation: Erweiterung des Produktionsprogramms um neue, nicht markt-oder kundenbezogene Produkte",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-025",
+      "front": "Nennen sie die vier Haupttreiber für Produktinnovation nach Cooper",
+      "back": "1.) Technologischer Fortschritt\n2.) Veränderte Kundenanforderungen\n3.) Kürzere Produktlebenszyklen\n4.) Globaler Wettbewerb",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-026",
+      "front": "Nennen Sie die Gründe des Scheiterns von Produkteinführungen/ Innovationen",
+      "back": "- Der Markt hat keinen Bedarf für das Produkt\n- Es gibt einen Bedarf für ein neues Produkt auf dem Markt, aber das neue Produkt entspricht diesem Bedarf nicht\n- Das Produkt bietet dem Anwender keinen signifikanten Mehrwert im Verhältnis zu den Anschaffungskosten und Nutzen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-027",
+      "front": "Nennen sie kritische Erfolgsfaktoren für Produktinnovation",
+      "back": "- einzigartiges, überlegenes Produkt\n- Marktorientierung mit Fokus auf Kundenbedürfnisse\n- Frontloading (Verlagerung der Identifizierung und Lösung von Problemen in frühere Phasen des Produktentwicklungsprozesses)\n- klare und frühe Produktdefinition\n- Spiralentwicklung (bauen, testen, Feedback generieren und überarbeiten)\n- korrekt durchgeführte Markteinführung\n- Geschwindigkeit (Beschleunigung von Entwicklungsprojekten)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-028",
+      "front": "Erklären Sie die Begriffe Industrie, Industrieunternehmen und Industriebetriebslehre",
+      "back": "1.) Industrie:\nGesamtheit der Unternehmen mit kommerzieller Produktion von Waren innerhalb eines Fabriksystems\n\n2.) Industrieunternehmen:\nBetriebe, die Sachgüter mit industriellen Produktionsverfahren erzeugen\n\n3.) Industriebetriebslehre:\nTeilgebiet der Betriebswirtschaftslehre, das sich mit der Planung, Steuerung und Organisation von Industrieunternehmen befasst",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-029",
+      "front": "Erklären Sie den Begriff Industrie Management und beschreiben Sie dessen Dimensionen",
+      "back": "- Koordination von Aktivitäten innerhalb eines Industrieunternehmens mit dem Zweck, vorgegebene Ziele zu erreichen\n\nDimensionen:\nFunktionale Dimension (Beschreibung des Managements als eine bestimmte Art des Handelns)\nInstitutionelle Dimension (Umfasst organisatorisch definierte Organe einer Organisation wie Vorstand)\nPersonelle Dimension (Beinhaltet Personen hinter den definierten Organen)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-030",
+      "front": "Beschreiben und skizzieren Sie den Unterschied zwischen Industriebetrieben und Dienstleistungsbetrieben",
+      "back": "Industriebetrieb:\nUnternehmen, welches vorwiegend Sachgüter produziert und vertreibt\n\nDienstleistungsbetrieb:\nUnternehmen, welches Services entwickelt und verkauft",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-031",
+      "front": "Skizzieren Sie das Arbeitssystem nach REFA und erklären Sie dessen Elemente",
+      "back": "- Dient zur Erfüllung von Arbeitsaufgaben in einem Industriebetrieb; Zusammenwirken von Mensch und Betriebsmittel mit der Eingabe unter Umwelteinflüssen\n\nArbeitsaufgabe: Aufforderung an Mensch, Tätigkeiten zur Zielerreichung auszuüben\nArbeitsablauf und Prozess: Geschehen bei der Erfüllung von Arbeitsaufgaben\nEingabe eines Arbeitssystems: Arbeitsgegenstände, Menschen, Informationen etc. die im Sinne der Arbeitsaufgabe verwendet werden sollen\nAusgabe eines Arbeitssystems: Arbeitsgegenstände, Menschen, Informationen etc. die im Sinne der Arbeitsaufgabe verwendet wurden\nMensch und Betriebsmittel: Kapazitäten des Arbeitssystems, die Eingabe und Ausgabe verändern\nUmwelteinflüsse: Physikalische oder organisatorische Einflüsse, die auf das Arbeitssystem wirken",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-032",
+      "front": "Geben sie die Berechnung zu Produktivität, spezifischer Mitteleinsatz, Wirtschaftlichkeit, spezifische Kosten, Rentabilität und Liquidität an und erklären Sie diese",
+      "back": "Produktivität: Kenngröße der technischen Leistungsmessung\nSpezifischer Mitteleinsatz: Kehrwert der Produktivität\nWirtschaftlichkeit: Ausdruck der Sparsamkeit als Effizienzgröße\nSpezifische Kosten: Kosten, die eindeutig einem bestimmten Produkt zugeordnet werden können\nRentabilität: Maß dafür, wie gut ein Unternehmen mit seinem eingesetzten Geld Gewinn erwirtschaftet\nLiquidität: Fähigkeit eines Unternehmens, Zahlungsverpflichtungen fristgerecht zu leisten",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-033",
+      "front": "Erklären Sie den Begriff Produktion",
+      "back": "Erzeugung von Gütern durch Kombination von Produktionsfaktoren",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-034",
+      "front": "Skizzieren Sie den Produktionsprozess",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-035",
+      "front": "Nennen Sie die Produktionsfaktoren nach REFA",
+      "back": "- Mensch (Arbeit)\n- Kapital (Betriebsmittel, Finanzmittel, Material und Energie)\n- Information",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-036",
+      "front": "Nennen Sie die Produktionsfaktoren nach Heinen und Schneeweiß",
+      "back": "Potential- und Humanfaktoren:\nStellen Nutzungspotential für Wiederholungen zur Verfügung\n\nRepetitivfaktoren:\nGehen im Leistungsprozess zur Gänze auf und müssen wiederbeschafft werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-037",
+      "front": "Skizzieren Sie die Elemente des Produktionsprozesses",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-038",
+      "front": "Wie kann man die Industriebetriebslehre im Kontext der Wirtschaftswissenschaften abgrenzen?",
+      "back": "(Bruh als ob man diese fette Skizze wirklich auswendig lernt)\n\nWirtschaftswissenschaften -> BWL -> spezielle BWL -> Institutionenlehre -> Industriebetriebslehre",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-039",
+      "front": "Erklären Sie den Begriff Innovationsmanagement (nach Hauschild und Salomo)",
+      "back": "Innovationsmanagement ist die bewusste Gestaltung des Innovationsportfolios. Neben einzelnen Prozessen werden auch Institutionen betrachtet, innerhalb jener diese Prozesse ablaufen.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-040",
+      "front": "Nennen Sie die Kombinationen von Zweck und Mitteln des Innovationsmanagements, die auf die Wertsteigerung eines Unternehmens abzielt",
+      "back": "- Gestaltung eines neuen Produkts\n- Gestaltung eines neuen Prozesses im Sinne eines technischen Verfahrens\n- Gestaltung einer neuen Dienstleistung\n- Gestaltung einer neuen internen wie externen Organisation\n- Gestaltung einer Kombination aus den Vorgenannten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-041",
+      "front": "Nennen und beschreiben Sie die verschiedenen Akteure (nach Witte) im Innovationsmanagement",
+      "back": "- Technologieförderer:\nHaben die Fähigkeit Probleme zu lösen. Beschaffen oder erstellen erforderliche Informationen.\n\n- Machtförderer:\nHaben den Einfluss z.B. durch Führungsinstrumente, Innovation zu fördern.\n\n- Prozessförderer:\nVerantwortlich für Organisation",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-042",
+      "front": "Nennen Sie jene Punkte, die die Innovationsstrategien berücksichtigen",
+      "back": "Achtung: das sind nicht die Kriterien von Innovationsstrategien\n\n1. Aktuelle Lage an Beschaffungs- und Absatzmärkten\n2. Technische Entwicklungen bei relevanten Produktionsverfahren\n3. Mögliche Strategien der Wettbewerber in Bezug auf den Markt\n4. System der sozialen Beziehungen, in welches das Unternehmen passt\n5. Produktivität des Unternehmens und die verfügbaren kritischen Ressourcen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-043",
+      "front": "Mit Beantwortung welcher Fragen können Innovationsstrategien definiert werden?",
+      "back": "Ausgangssituation: Wo sind wir jetzt?\nZiele: Wo wollen wir hin?\nStrategieentscheidung: Wie kommen wir dorthin?",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-044",
+      "front": "Nennen sie mögliche Kriterien von Innovationsstrategien mit Beispielen",
+      "back": "Wettbewerbsstrategie - Aggressive Strategie, Anpassungsstrategie\nMarktumfang - Globalisierungsstrategie, Fokusstrategie, Nischenstrategie\nMarktgebiet - Lokale, regionale, nationale, internationale, weltweite Strategie\nWachstumsrichtung - Marktdurchdringung, Marktentwicklung, Produktentwicklung, Diversifikation\nZeitorientierung - First-to-market, second-to-market",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-045",
+      "front": "Nennen und beschreiben Sie typische Innovationsbarrieren",
+      "back": "- Fehlende Motivation zur Zusammenarbeit:\nz.B. aktive Sabotage oder passive Kommunikationsverweigerung von Mitarbeitern\n\n- Aufgabenunsicherheit:\nunklare Projektziele hindern Mitarbeiter an Erfüllung von Innovationsvorhaben\n\n- Ressourcenallokation:\nProblem der Ressourcenzuteilung z.B. zwischen Projekten\n\n- Prozessbedingte Einschränkungen:\nEinschränkung der Handlungsfreiheit der Mitarbeiter durch zu strikte Vorgaben\n\n- Barriere des Nicht-Wissens:\nMitarbeiter sind nicht in der Lage, intellektuelle Aufgaben der Innovation zu bewältigen\n\n- Barriere des Nicht-Wollens:\nDer Unwille, Innovation zuzulassen (z.B. religiöse oder persönliche Gründe)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-046",
+      "front": "Beschreiben und skizzieren Sie die Auswirkungen von Innovationsbarrieren",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-047",
+      "front": "Wann gilt eine Innovationsbarriere als überwunden?",
+      "back": "Sobald diese im Innovationsprozess nicht mehr als hemmender Faktor wahrgenommen wird.\nAlle Bereiche des Unternehmens müssen auf gemeinsame Ziele ausgerichtet sein und innovationsförderliches Verhalten müssen unterstützt werden.",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-048",
+      "front": "Wie ist Entrepreneurship definiert und aus welchen Komponenten besteht es?",
+      "back": "Entrepreneurship beschreibt das Ausnutzen unternehmerischer Gelegenheiten sowie den kreativen und gestalterischen Prozess zum Aufbau neuer Organisationen.\n\nKomponenten:\n\n1.) Chancen entdecken:\nFähigkeit, Geschäftsideen zu generieren, zu bewerten und auszuwählen\n\n2.) Innovation durchsetzen:\nUmsetzung und Vermarktung von Geschäftsideen\n\n3.) Entwicklung und Nutzung von Ressourcen:\nSchlüsselressourcen müssen identifiziert und angemessen genutzt werden\n\n4.) Risikobereitschaft:\nRisiko für Geschäftstätigkeit muss eingeschätzt und gegebenfalls übernommen werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-049",
+      "front": "Nennen Sie die Haupttypen von Entrepreneurship, geben Sie die Unterschiede an und vergleichen Sie diese in Bezug auf Einnahmen/ Cashflow/ Arbeitsplätze und Zeit",
+      "back": "SME: Small and Medium Size Enterprises\n- Fokus auf lokale und regionale Märkte\n- Innovation für eine Etablierung am Markt nicht zwingend notwendig\n- Arbeitsplätze bestehen vor Ort\n- Geringes externes Kapital\n- Lineares Unternehmenswachstum\n\nIDE: Innovation-driven Enterprises\n- Fokus auf globale und/ oder regionale Märkte\n- Innovation ist Grundlage des Unternehmens\n- Arbeitsplätze können von Personen außerhalb eines Landes ausgeübt werden\n- Externe Kapitalgeber, breit aufgestellte Eigentümergruppe\n- Exponentielles Unternehmenswachstum mit vorzeitigem Kapitalverlust",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-050",
+      "front": "Welche Richtungen kann ein Entrepreneur (neben den Haupttypen) einschlagen?",
+      "back": "- High-Tech Entrepreneurship\n- Regional Entrepreneurship\n- Social Entrepreneurship\n- Ecopreneurship\n- Senior Entrepreneurship\n- Serial Entrepreneurship\n- Intrapreneurship",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-051",
+      "front": "In welche Phasen kann der Entrepreneurship-Prozess unterteilt werden? (+ Flowchart-Skizze)",
+      "back": "Erkennungsphase\nEntwicklungsphase\nUmsetzungsphase",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-052",
+      "front": "Welche Schritte folgen nach der Unternehmensgründung?",
+      "back": "Wachstum und Stabilisierung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-053",
+      "front": "Nennen Sie Persönlichkeitsmerkmale für erfolgreiches Entrepreneurship",
+      "back": "- Motivation\n- Eigeninitiative und Wunsch nach Unabhängigkeit\n- Realismus und Fähigkeit zur Zusammenarbeit\n- Kreativität\n- Durchhaltevermögen\n- Risikobereitschaft\n- Emotionale Stabilität, Durchsetzungsvermögen und Empathie\n- Problemlösungsfähigkeit",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-054",
+      "front": "Illustrieren Sie die Geschichte der Produktentstehung vom Handwerksmeister bis heute",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-055",
+      "front": "Illustrieren Sie die Produktenstehung als Teil des Produktlebenszyklus",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-056",
+      "front": "Erklären Sie die Begriffe Zielsystem, Handlungssystem und Sachsystem (Produktentstehungsprozess)",
+      "back": "Zielsystem:\nalle Ziele, die ein neues Produkt anstrebt\n\nHandlungssystem:\nein Unternehmen mit allen verfügbaren Ressourcen\n\nSachsystem:\nTransformierung in Simulationsmodelle, Prototypen und serienreife Produkte",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-057",
+      "front": "Erklären Sie die Begriffe Effizienz und Effektivität",
+      "back": "Effizienz:\nDinge richtig tun - mit möglichst geringem Aufwand ein Ziel erreichen\n\nEffektivität:\nDie richtigen Dinge tun - das gewünschte Ziel tatsächlich erreichen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-058",
+      "front": "Erklären Sie den Begriff strategische Produktplanung",
+      "back": "- Prozess der Identifikation von zukünftigen Erfolgspotentialen bis hin zum Entwicklungsauftrag\n- zukünftige Möglichkeiten eines Unternehmens aufzeigen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-059",
+      "front": "Erklären Sie den Begriff Produktentwicklung",
+      "back": "- Umfasst Produktkonzeptionierung, technisches Design und Zusammenfassen der Ergebnisse",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-060",
+      "front": "Nennen Sie jene Punkte, welche die Produktionssystem-Entwicklung berücksichtigt",
+      "back": "Unter Berücksichtigung von:\n- Arbeitsablaufplanung\n- Arbeitsmittelplanung\n- Arbeitsplatzgestaltung\n- Produktionslogistik",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-061",
+      "front": "Skizzieren Sie die Kosten in der Produktentstehung (festgelegte und verursachte Kosten)",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-062",
+      "front": "Nennen und erklären Sie die Methoden der integrierten Produktentwicklung/ Produkterstellung",
+      "back": "Integration wird als Kombination einzelner Teilbereiche zu einem Ganzen definiert.\n\n1.) Menschliche Integration\n- Integration der Leistungsbereitschaft (z.B. Motivation)\n- Integration der Ziele (z.B. erfolgsorientierte Bezahlung)\n- Integratives Wissen (z.B. Weiterbildung)\n\n2.) Methodische Integration\n- Integration der Kunden\n- Aufgabenintegration (z.B. Target Costing)\n- Methodenintegration (z.B. Systemtechnik)\n\n3.) Organisatorische Integration\n- Aufbauintegration (z.B. flache Hierarchie)\n- Ablaufintegration (z.B. Projektmanagement)\n- Örtliche Integration (z.B. gemeinsame Arbeitsräume)\n\n4.) Technologische Integration\n- Datenintegration (z.B. CAD)\n- Integrative Eigenschaftsfrüherkennung (z.B. Simulation)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-063",
+      "front": "Erklären Sie den Begriff Concurrent / Simultaneous Engineering (CE/SE)",
+      "back": "- CE und SE dienen der organisatorischen Integration im Rahmen der Produktentstehung\n\n- Fokus im Concurrent Engineering auf Integration von technologischen und organisatorischen Schnittstellen\n- Fokus im Simultaneous Engineering auf Parallelisierung der einzelnen Schritte im Produktentstehungsprozess",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-064",
+      "front": "Nennen und erklären Sie die Grundprinzipien, auf denen Simultaneous Engineering (SE) basiert, skizzieren Sie die Systematik des Simultaneous Enginnering und erklären Sie das magische Dreieck",
+      "back": "SE beabsichtigt die Optimierung von Kosten, Zeit und Qualität (magisches Dreieck) - bitte im Skript einmal anschauen das merkt man sich sofort\n\nGrundprinzipien:\n\nParallelisierung:\n- Parallelisierung der Teilprozesse im Produktentstehungsprozess\n- Reduzierung der Gesamtzeit des gesamten Prozesses\n\nIntegration:\n- Kombination einzelner Teilbereiche zu einem Ganzen (menschliche Integration, methodische Integration, organisatorische Integration, technologische Integration)\n\nStandardisierung:\n- Einheitliche Strukturierung der Prozesse oder des Produkts\n- Vermeidung von Nacharbeit\n- Grundlage von Parallelisierung und Integration",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-065",
+      "front": "Erklären und skizzieren Sie Point-based Concurrent Engineering",
+      "back": "- Iterativer Ansatz von CE, der aus dem sequentiellen Ansatz der Produktentstehung hervorgegangen ist\n- Gekennzeichnet durch die Entwicklung von einer Lösung zur nächsten Lösung",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-066",
+      "front": "Erklären und skizzieren Sie den Begriff Set-based Concurrent Engineering und nennen Sie dessen Grundprinzipien",
+      "back": "- Berücksichtigung von Lösungs-Sets über mehrere Phasen des Entwicklungsprozesses\n- Späte Ermittlung der endgültigen Lösung\n\nGrundprinzipien:\n\n1.) Abbildung des Design-Raums\n- Definieren machbarer Bereiche\n- Untersuchen von Kompromissen\n- Kommunizieren der möglichen Lösungs-Sets\n\n2.) Integration durch Überschneidung\n- Mindestanforderungen festlegen\n- Überprüfen auf konzeptionelle Stabilität\n\n3.) Machbarkeit vor Ausführung Prüfen\n- Kontrolle durch Steuerung der Unsicherheit an Prozess-Gates",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-067",
+      "front": "Erklären Sie die Rahmenstruktur der integrierten Produkt- und Prozessentwicklung (-gestaltung nach Eversheim/Schuh/Assmus) und nennen sie die drei Hauptbereiche",
+      "back": "- Fokus auf frühe Phasen der Produktentwicklung\n\n1.) Organisations- und Informationsmanagement:\n- Beschreibt Abläufe der integrierten Produkt- und Prozessentwicklung\n- Dient unterstützend dem Projektmanagement\n\n2.) Integrierte Produktdefinition und Technologieplanung:\n- Zusammenführung von Markt- und Kundenbedürfnissen mit technologischen Innovationen\n- Frühzeitige Erfassung dieser\n\n3.) Integrierte Produkt- und Produktionsprozessgestaltung:\n- Frühzeitige Abstimmung von Produkten und Produktionsprozessen\n- Bewertung von Produktionsabläufen\n- Früher Entwurf eines Fertigungsleitsystems",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-068",
+      "front": "Erklären Sie das kooperative Produktengineering und nennen Sie dessen Ziele",
+      "back": "- Inhaltliche und zeitliche Verknüpfung von strategischer Unternehmensplanung, Produktentwicklung und Prozessentwicklung\n\nZiele:\n- Früherkennung von Produkten und Dienstleistungen für den zukünftigen Markt (strategische Unternehmensplanung)\n- Entwicklung neuer Problemlösungen für neue Produkte\n- Sicherung des Produkterfolgs und Steigerung der Umsetzungsrate",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-069",
+      "front": "Skizzieren und benennen Sie die Integrationsbereiche von Innovationsprozess und Produktentwicklung (Venn-Diagramm)",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-070",
+      "front": "Erklären und skizzieren Sie den Innovationsprozess nach Thom",
+      "back": "- Innovationsprozess -> beschreibt, wie aus einer Idee eine Innovation wird",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-071",
+      "front": "Erklären und skizzieren Sie den Stage-Gate-Prozess nach Cooper",
+      "back": "- Methode zur Beschreibung von Innovations- und Entwicklungsprozessen",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-072",
+      "front": "Erklären Sie die Funktionen der Stages und Gates im Stage-Gate-Prozess nach Cooper",
+      "back": "Stages (Informationssammlung für die nächste Stage oder Entscheidungspunkt):\n- Ideengenerierung\n- Scoping\n- Business Case erstellen\n- Entwicklung (des neuen Produktes)\n- Prüfen und validieren\n- Markteinführung\n\nGates (Meilensteine):\n1.) Ergebnisse aus den Stages verdeutlichen\n2.) Beurteilung des Projekts nach Kriterien (um Fehlprojekte schnell auszusortieren)\n3.) Outputs definieren (Aktionsplan für den nächsten Stage)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-073",
+      "front": "Erklären und skizzieren Sie die Nach Design Thinking Methode (IDEO) und erklären Sie die einzelnen Konzepte",
+      "back": "- Systematische Herangehensweise an komplexe Problemstellungen\n- Nutzerwünsche und -bedürfnisse im Zentrum des Prozesses\n\n1.) Entdeckung\n- Verständnis des Nutzers als Grundlage für Ideenfindung\n\n2.) Interpretation\n- Erworbenes Wissen analysieren und Anforderungen ableiten\n\n3.) Ideenfindung\n- Brainstorming-Einheiten\n- Interdisziplinäre Gruppe an Menschen von Vorteil\n\n4.) Experimentieren\n- Umsetzung mit Prototypen\n- Feedback aus Nutzerbenutzung generieren\n\n5.) Evolution\n- Weiterentwicklung des Konzepts\n- Planung der nächsten Schritte\n- Dokumentation der Prozesse",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-074",
+      "front": "Nennen und erklären Sie die Funktionen des Industriemanagements",
+      "back": "1.) Gestaltung\n- Entwurf von Rahmenbedingungen zur Erzeugung von Entwicklungskapazitäten\n\n2.) Lenkung\n- Kontrolle der Ziele und Umsetzung der gewünschten Aktivitäten\n\n3.) Entwicklung\n- Einleitung und Bewältigung von Veränderungsprozessen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-075",
+      "front": "Nennen Sie die Kenngrößen des Managements und skizzieren Sie dessen Zusammenhang",
+      "back": "- Legitimität als Kenngröße für das Normative Management\n- Effektivität als Kenngröße für das Strategische Management\n- Effizienz als Kenngröße für das Operative Management",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-076",
+      "front": "Nennen und erklären Sie die Kenngröße des operativen Managements",
+      "back": "- in allgemeiner Form die Effizienz\n- Einhaltung des Rationalprinzips (Prinzip des vernunftgemäßen Handlens)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-077",
+      "front": "Erklären Sie das Rationalprinzip",
+      "back": "- Prinzip des vernunftgemäßen Handelns\n- optimales Verhältnis zwischen Input und Output finden\n- Ausdruck der Effizienz als Kenngröße für das operative Management",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-078",
+      "front": "Erklären sie das Konzept des integrierten Managements sowie dessen Ebenen",
+      "back": "ACHTUNG: Die Skizze dazu ist äußerst detailreich und da ich keinen bock hab die zu lernen ist sie nur im Skript\n\n- Struktur zur Berücksichtigung von Komplexität und Dynamik im Management-System\n\nEbenen:\n\n1.) Normatives Management = begründend\n- Legt die Vision, Unternehmensphilosophie und Unternehmenspolitik fest\n\n2.) Strategisches Management = ausrichtend\n- Planung und Implementierung der Unternehmensstrategie\n\n3.) Operatives Management = vollziehend\n- Vollzieht auf Basis der anderen Bereiche des integrierten Managements die Ziele bzw. Produktionsprogramme\n- Erarbeitung eines Handlungsprogramms",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-079",
+      "front": "Erklären Sie die Grundlagen des Produktionsmanagements und nennen Sie dessen Unterscheidungen",
+      "back": "- Beinhaltet Aufgaben zur Gestaltung, Planung und Überwachung eines Produktionssystems und der betrieblichen Ressourcen (Mensch, Kapital, Information)\n\nUnterscheidung in operatives und strategisches Management:\n\n1.) Strategisches Produktionsmanagement:\n- Langfristige Ausrichtung der Ziele, der Produktion und des Produktionssystems eines Unternehmens\n- z.B. Standortplanung, Fabrikplanung und Nachhaltigkeit\n\n2.) Operatives Produktionsmanagement:\n- Entscheidungen hinsichtlich Produktionsplanung\n- z.B. Maschinenbelegung, Kapazitätsplanung und Bedarfsermittlung",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-080",
+      "front": "Erklären Sie im Allgemeinen die Standortplanung und nennen sie dessen Teilgebiete",
+      "back": "- Bestimmung geeigneter Produktionsstandorte aus einer globalen Perspektive\n\nTeilgebiete:\n- Strategische Standortplanung\n- Standortplanung aus Raumsicht",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-081",
+      "front": "Nennen Sie die internen und externen Treiber für standortbezogene Reaktionen (Strategische Standortplanung)",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-082",
+      "front": "Erklären Sie die Standortplanung aus Raumsicht und dessen wesentliche Faktoren",
+      "back": "- Analyse des geplanten Standorts auf lokaler Ebene\n\nFaktoren:\n- Erschließung (Anbindungen)\n- Ver- und Entsorgung von Medien (Gas, Abwasser, Elektrizität)\n- Grundstück (Bodenbeschaffenheit, Geometrie)\n- Gesetze und Auflagen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-083",
+      "front": "Erklären Sie die Begriffe Fabrik und Fabrikplanung",
+      "back": "Fabrik:\n- Ort, an dem eine Wertschöpfung durch Produktion von industriellen Gütern stattfindet\n- Unter den primären Produktionsfaktoren Personal, Betriebsmittel, Gebäude und Material\n- Unter den abgeleiteten Faktoren Wissen, Qualifikation und Kapital\n\nFabrikplanung:\n- Prozess zur Planung einer Fabrik\n- In systematische, zielorientierte und aufbauende Phasen strukturiert\n- Von der ersten Idee bis zum Anlauf der Produktion",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-084",
+      "front": "Nennen, skizzieren und erklären Sie die Planungsgrundfälle für die Fabrikplanung (nach Grundig)",
+      "back": "A) Neubau eines Industriebetriebes:\n- Errichtung einer Fabrik auf unbebautem Gelände (Greenfield-Planung)\n\nB) Um- und Neugestaltung bestehender Industriebetriebe\n- Stetige Anpassung der Fertigungsprozesse an das Produktionsprogramm (Brownfield-Planung)\n\nC) Erweiterung bestehender Industriebetriebe\n- Erweiterung der Kapazitäten für Umsatzwachstum (Brownfield-Planung)\n\nD) Rückbau von Industriebetrieben\n- Anpassung der Kapazitäten und Strukturen entsprechend der Einschränkungen (z.B. wegen Umsatzrückgang)\n\nE) Revitalisierung von Industriebetrieben\n- Sanierungsprozess - Stillgelegten Fabriken wird industrielle Verwendung zugeschrieben",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-085",
+      "front": "Erklären Sie den Begriff Produktionssysteme (Typologisierung) und beschreiben Sie dessen Kategorien",
+      "back": "- sozio-technische Systeme, in denen Menschen und Geräte interagieren, um Input in Output umzuwandeln\n- Aufteilung in Produktionsart und Fertigungsform",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-086",
+      "front": "Nennen und erklären Sie die einzelnen Produktionsarten und skizzieren Sie die Einordnung der Produktionsarten",
+      "back": "Einmalproduktion:\n- Herstellen von Produkten mit Menge 1\n- Genaue Kundenspezifikationen\n- Projekt hat klar definierten Anfang und klar definiertes Ende\n\nEinzel- und Kleinserienproduktion:\n- Mehrfachproduktion einzelner Werkstücke bzw. Losgrößen\n- Hochqualifizierte Mitarbeiter für geforderte Individualisierung\n\nSerienproduktion:\n- Große Jahresstückzahlen gleicher Werkstücke\n- Mittlere bis geringe Variabilität\n\nMassenproduktion:\n- Extremfall der Serienproduktion\n- Oft Fördersystem für Bewegung des Produktes\n- Standartisierter Produktionsprozess\n\nSpezialfall kontiunierlicher Produktionsprozess:\n- Hohes Volumen eines Standardproduktes ohne Vielfalt\n- Dauerbetrieb, kontinuierlicher Materialfluss\n- z.B. Ölherstellung",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-087",
+      "front": "Nennen, erklären und skizzieren Sie die einzelnen Fertigungsformen",
+      "back": "Punktfertigung:\n- Fixe Ortsgebundenheit des Erzeugnisses bis zur Fertigstellung\n- z.B. Anlagenbau\n\nWerkstattfertigung:\n- Anordnung der Betriebsmittel entsprechend dem Verrichtungsprinzip\n- Räumliche Gruppenanordnung von Betriebsmitteln und Arbeitskräften\n\nGruppenfertigung:\n- Örtliche Zusammenfassung von gleichen oder verwandten Teilprozessen\n- Ringförmige Anordnung von Bearbeitungsmaschinen\n\nReihenfertigung:\n- Reihenförmige Anordnung der Gesamtarbeitsprozesse gemäß dem Produktionsprogramm\n- Entlang einer Linie gerichteter Materialfluss\n\nFließfertigung:\n- Reihenförmige Anordnung der Gesamtarbeitsprozesse gemäß dem Produktionsprogramm\n- Entlang einer Linie gerichteter Materialfluss\n- Zeitlich gebunden, kurze Durchlaufzeiten",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-088",
+      "front": "Nennen Sie die Unterscheidungen eines Produktionssystems anhand seiner räumlichen Struktur",
+      "back": "Linienstruktur\nRingstruktur\nFlächenstruktur\nLeitstruktur",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-089",
+      "front": "Skizzieren Sie den Zusammenhang zwischen Produktionsart und Fertigungsform",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-090",
+      "front": "Skizzieren sie das allgemeine Planungsvorgehen (nach Grundig)",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-091",
+      "front": "Erklären Sie den Begriff Zielplanung (Planungsvorgehen nach Grundig)",
+      "back": "- Erarbeitung der Zielvorgaben und Planungsgrundlagen für die anschließenden Planungsphasen\n- Hohe Flexibilität und Wandlungsfähigkeit der Fabrik im Fokus",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-092",
+      "front": "Erklären Sie den Begriff Vorplanung (Planungsvorgehen nach Grundig)",
+      "back": "Vorplanung:\n- Fabrik- und Potentialanalyse, Entwurf für Lösungskonzepte, Durchführbarkeitsstudie\n- Analyse des IST-Zustandes\n- Festlegung eines SOLL-Produktionsprogramms",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-093",
+      "front": "Erklären Sie den Begriff Grobplanung (Planungsvorgehen nach Grundig) und nennen Sie dessen Bestandteile",
+      "back": "- Überprüfung, Ergänzung und Verfeinerung der bisherigen Planungsdaten\n- Aufteilung in ideale und reale Grobplanung (Layoutplanung)\n\nBestandteile:\n- Dimensionierung der erforderlichen Ressourcen und Bestimmung des erforderlichen Flächenbedarfs\n- Erstellung eines idealen Funktionsschemas\n- Erstellung eines flächenmaßstäblichen Funktionsschemas\n- Erarbeitung eines idealen Layouts\n- Ableitung des Reallayouts",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-094",
+      "front": "Erklären Sie den Begriff Dimensionierung aus der Grobplanung genauer",
+      "back": "Beinhaltet die Dimensionierung der erforderlichen Ressourcen:\n\nPersonalbedarf:\n- Für Produktions- und Logistikbereiche\n- Art des Personals (qualitativer Personalbedarf)\n- Anzahl des Personals (quantitativer Personalbedarf)\n\nBetriebsmittelbedarf:\n- Maschinen, Anlagen, Vorrichtungen und Werkzeuge\n- Abschätzung der benötigten Anzahl an Betriebsmittel\n\nFlächenbedarf:\n- Unterscheidung in globalen und detaillierten Flächenermittlungsverfahren",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-095",
+      "front": "Erklären Sie den Begriff Strukturierung aus der Grobplanung genauer",
+      "back": "Zwei Bereiche:\n- Produktionssegmentierung\n- Festlegung der Organisationsform\n\nProduktionssegmentierung:\n- \"Fabriken in der Fabrik\"\n- heterogene Produkte durchlaufen gemeinsames Produktionssystem und werden als homogene Teilgruppen bearbeitet",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-096",
+      "front": "Erklären Sie den Begriff Layoutplanung aus der Grobplanung genauer",
+      "back": "- Erarbeitung des zukünftigen Layouts der Fabrik\n\nIdealplanung:\n- beste organisatorische/ technische Lösung\n- Restriktionen werden nicht berücksichtigt\n- Idealbild als Vergleichsbasis für Bewertung des Reallayouts\n- Minimierung der Transportintensität meistens als Ziel\n- Transportintensität: Maß für Transportaufwand; Anzahl der auszuführenden Transporte im Bezugszeitraum\n\nRealplanung:\n- Mit Berücksichtigung von Restriktionen\n\nEinflussfaktoren auf die Realplanung:\n- Rechtliche Bedingungen\n- Gründstück\n- Gelände\n- Fixpunkte\n- Betriebsmittel\n- Organisation\n- GMP (Good Manufacturing Practice - Unternemhensrichtlinien zur Qualitätssicherung in der Produktion)\n- Monetäre Ressourcen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-097",
+      "front": "Erklären Sie den Begriff Feinplanung (Planungsvorgehen nach Grundig) genauer",
+      "back": "- Bearbeitung detaillierter Problemstellungen auf Basis der Grobplanung\n\nAusgewählte Bearbeitungsinhalte in der Feinlayoutphase:\n- Feinanordnung der Betriebsmittel (Maschinenaufstellung, z.B: Fläche und Produktionsform)\n- Arbeitsplatzgestaltung (ergonomische Gestaltung)\n- Erarbeitung des Feinlayouts (Maßgenaue Darstellung aller Strukturen - z.B. Flächenstrukturen, Einbauten, Zuordnung von Arbeitskräften)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-098",
+      "front": "Erklären Sie den Begriff Ausführungsplanung und Ausführung (Planungsvorgehen nach Grundig) genauer",
+      "back": "Ausführungsplanung\n- Beinhaltet alle technischen, organisatorischen und baulichen Planungsaktivitäten\n- Einleitung von Maßnahmen zur Sicherung der termingerechten und komplikationsfreien Ausführung\n\nAufgaben:\n- Strukturierung und Definition von Arbeitspaketen\n- Festlegung von Ablauf- und Terminplänen\n- Umzugsplanung\n- Festlegung von Zuständigkeiten und Verantwortungen\n- Einholen von Genehmigungen\n\nAusführung\n- Realisierung der in der vorherigen Ausführungsplanung festgelegten Arbeitspakete\n- Gliederung in drei Phasen: Ausführung, Übergabe, Inbetriebnahme\n\nAusführung:\n- Bau-, Montage- und Installationsarbeiten sowie Umzugsaktivitäten\n\nÜbergabe:\n- Übergabe von Planungs- und Ausführungsunterlagen sowie Gewährleistungserklärungen und Wartungsvorschriften\n\nInbetriebnahme:\n- Produktionsstart\n- Formaler Projektabschluss ist das Erreichen des gewünschten Durchsatzes",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-099",
+      "front": "Erklären Sie den Begriff Nachhaltigkeit und nennen Sie dessen Prinzipien",
+      "back": "- Handlungsprinzip zur Ressourcennutzung\n- Nach Definition der Brundtland Kommission: Heutige Bedürfnisse müssen befriedigt werden, ohne die Bedürfnisse zukünftiger Generationen zu beeinträchtigen.\n\nPrinzipien für Bewahrung der Regenerationsfähigkeit natürlicher Systeme:\n\n1.) Verantwortungsprinzip\n- Verminderung des Wohlstandsgefälles zwischen Industrie- und Entwicklungsländern\n- Berücksichtigung der Bedürfnisse zukünftiger Generationen\n\n2.) Kooperationsprinzip\n- Notwendigkeit der engen Zusammenarbeit aller Beteiligten (Ländern, Wirtschaft etc.) zur Bewältigung globaler und nationaler Umweltprobleme\n\n3.) Kreislaufprinzip\n- Mehrfache Nutzung von Ressourcen, bevor sie aus der Produktion oder Nutzung ausgeschieden werden\n- z.B. Kreislaufwirtschaft - Anstrebung eines regenerativen Systems in dem Abfälle vermieden und verwertet werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-100",
+      "front": "Nennen Sie die Sustainable Development Goals (konkrete Ziele der Nachhaltigkeit) der Vereinten Nationen",
+      "back": "- Keine Armut\n- Kein Hunger\n- Gesundheit und Wohlbefinden\n- Hochwertige Bildung\n- Geschlechtergleichheit\n- Sauberes Wasser und Sanitäreinrichtungen\n- Leben unter Wasser\n- Leben an Land\n- Frieden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-101",
+      "front": "Nennen Sie Beispiele für das Spannungsfeld unternehmerischen Wirkens (Dimensionen der strategischen Bedeutung von Nachhaltigkeit bzw. dreidimensionales Zielsystem)",
+      "back": "Ökonomische Dimension:\n- Gestaltung einer Wirtschaft, die dauerhaft gewinnorientiert betrieben werden kann, ohne zu Ressourcenknappheit zu führen\n- Rentabilität/ Liquidität\n- Wirtschaftlichkeit/ Produktivität\n\nÖkologische Dimension:\n- Widerspiegelung der ökologischen Nachhaltigkeit in Energie- und Materialverbrauch sowie Menge der produzierten Abfälle und CO2-Emissionen\n- Rohstoffschonung\n- Sicherung der Lebensqualität\n\nSoziale Dimension:\n- Beachtung der Zufriedenheit und Bedürfnisse der Fachkräfte (Arbeitsplätze)\n- Arbeitsmotivation\n- Humane Arbeitsbedingungen\n- Arbeitsplatzerhaltung/ -schaffung",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-102",
+      "front": "Erklären Sie im Kontext der ökologischen Nachhaltigkeit die Begriffe Effizienz, Suffizienz und Konsistenz mit Beispielen und einer Skizze.",
+      "back": "Effizienz:\n- Verbesserung des Input-Output-Verhältnisses\n- Erstellung einer ökonomischen Leistung mit geringstmöglichen Einsatz an Material und Energie\n- z.B. Verwendung von energieeffizienten Elektromotoren (Elektrifizierung der Logistik)\n\nSuffizienz:\n- Genügsames Konsumverhalten\n- Freiwilliger Verzicht oder politische Maßnahmen (Verbote) zur Ressourcenschonung\n- z.B. Mobiltelefone nutzen, bis diese defekt sind, anstatt jedes Jahr ein Neues zu kaufen\n\nKonsistenz:\n- Öko-Effektivität\n- Fokus auf umweltverträgliche Beschaffenheit von Energie und Materialien\n- z.B. biologisch abbaubare Stoffe",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-103",
+      "front": "Erklären Sie im Kontext der Nachhaltigkeit den Begriff Energiemanagement",
+      "back": "- Produktion ist oft Haupttreiber des Energieverbrauchts in Industriebetrieben\n- Planung des gezielten Einsatzes von Energie im Unternehmen durch Energiemanagement\n\nAufgaben:\n\n1.) Energieplanung und Organisation\n- operative und strategische Maßnahmen zur optimalen energiewirtschaftlichen Ausrichtung\n\n2.) Energieinformationsmanagement\n- Gewinnung und Verarbeitung der relevanten Informationen\n- Energieintensität als wichtige Kennzahl (Verhältnis von verbrauchter Energie zum produzierten Output)\n\n3.) Energiekontrolle",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-104",
+      "front": "Erklären Sie im Kontext der Nachhaltigkeit den Begriff Ressourcenmanagement und nennen Sie die Arten der Verschwendung",
+      "back": "- Aufgrund steigender Preise und steigender Nachfrage müssen Strategien entwickelt werden, um aus weniger mehr herzustellen\n\nVier Arten der Verschwendung sollen vermieden werden:\n\n1.) Verschwendete Ressourcen\n- Material und Energie, die nicht kontinuierlich regeneriert werden können\n- Verbesserungen meist nur durch Änderung der Prozesse\n\n2.) Verschwendete Lebenszyklen\n- Produkte mit künstlich verkürzter Lebensdauer\n\n3.) Verschwendete Fähigkeiten\n- Produkte, die unnötigerweise ungenutzt bleiben\n- z.B. Autos bleiben in der Regel 90 Prozent ihrer Lebensdauer ungenutzt\n\n4.) Verschwendete eingebettete Werte\n- Komponenten, Materialien und Energieverbrauch, die nicht aus entsorgten Produkten zurückgewonnen werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-105",
+      "front": "Erklären Sie im Kontext der Nachhaltigkeit den Begriff Umweltmanagement (Hauptaufgaben)",
+      "back": "- Einteilung in zwei Hauptaufgaben für die Industrie\n\n1.) Umweltfreundliche Produkte\n- Neu- oder Weiterentwicklung von Produkten mit möglichst geringer Gesamtbelastung für die Umwelt\n- Ökobilanz (oder Lebenszyklusanalyse) zur Bestimmung der Umweltbelastung von Produkten\n- LCA geht auf folgende Phasen ein: Rohstoffgewinnung, Produktion, Produktnutzung und Entsorgung\n\n2.) Gestaltung einer umweltfreundlichen Produktion\n- Untersuchung der Produktion als Ganzes auf umweltschädliche Emissionen\n- Methoden: Input-Output-Analyse, Ökobilanzmodell nach IÖW Berlin, CO2-Bilanz\n- Unterscheidung der Emissionen des Produktionssystems in drei Scopes\n- Scope 1: Direkt vom Unternehmen erzeugte Emissionen (z.B. Verbrennung fossiler Brennstoffe für Produktion)\n- Scope 2: Emissionen eingekaufter Energie\n- Scope 3: Indirekte Emissionen, die vor und nach der eigenen Produktion entstehen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-106",
+      "front": "Erklären und skizzieren Sie den Begriff Produktionsplanung (operatives Produktionsmanagement, Produktionsprogrammplanung)",
+      "back": "- Befassen mit Planungsparameter und -ressourcen, die für Planung und Ausführung aller Produktionsaktivitäten erforderlich sind\n- Gesamtziel ist die Minimierung der Produktionskosten pro produzierter Einheit",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-107",
+      "front": "Erklären Sie den Begriff Planung und dessen Bestandteile im Industriekontext",
+      "back": "- Suche und Festlegung von Zielen\n- Suche und Festlegung von Vorbereitungen für Aufgaben und Ressourcen, die zur Erreichung der Ziele notwendig ist (Zielzustand)\n\nZielplanung:\n- wirtschaftliche, soziale und organisatorische Ziele\n\nProduktionsplanung:\n- operative Ebene legt tatsächliche Aufgaben fest\n- Befasst sich mit allen Planungsparametern und -ressourcen, die für die Planung und Ausführung aller Produktionsaktivitäten erforderlich sind",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-108",
+      "front": "Welche Hauptaufgaben umfasst der Produktionsplanungsprozess?",
+      "back": "- Spezifikation von Ergebnissen aus der Absatzplanung und Ermittlung von Produktionsmengen für den Planungszeitraum\n- Ermittlung und Beschaffung von Materialbedarf\n- Planung und Festlegung der notwendigen Kapazitäten zur Realisierung des Produktionsplans",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-109",
+      "front": "Welche Aufgaben umfasst das Operations Management?",
+      "back": "- Absatzplanung\n- kurzfristige Produktionsprogrammplanung\n- Materialbedarfsplanung\n- Zeit- und Kapazitätsplanung\n- Steuerung und Kontrolle der Produktion",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-110",
+      "front": "Erklären Sie den Begriff Absatzplanung im Kontext von Operations Management",
+      "back": "- Erkenntnise über zukünftige Entwicklungen der verkauften Produkte als Ziel\n- In Verantwortung der Marketing- und Verkaufsabteilung\n- Ergebnis ist die Grundlage für Produktionsprogrammfestlegung\n- Instrument zum Ausgleich von Kundennachfrage und operativer Kapazität ist der Sales and Operations Planning Prozess\n- Input: Erfahrungen, Expertenmeinungen, vergangene Verkaufsdaten\n- Output: Kundennachfrage, Preisstruktur\n\nZwei Hauptansätze:\n\n1.) Qualitative Methoden\n- Basieren auf früheren Erfahrungen oder Schätzungen\n- z.B. Delphi-Methode\n\n2.) Quantitative Methoden\n- Zeitreihenanalyse oder Kausalmodell\n- Zeitreihenanalysen: Plots einer Variablen über die Zeit (z.B. verkaufte Einheiten pro Jahr)\n- Kausalmodelle: Zusammenhänge und Einfluss verschiedener Variablen aufeinander verstehen (z.B. Einfluss der Temperatur auf Eiscremeverkäufe)",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-111",
+      "front": "Erklären Sie den Begriff Kurzfristige Produktionsprogrammplanung im Kontext des Operations Managements",
+      "back": "- Basierend auf den Ergebnissen der Verkaufsplanung werden Produkttypen, dessen Mengen und der tatsächliche Planungshorizont eroiert\n- Gekennzeichnet durch drei Komponenten:\n- Qualitative Komponente (welche Produkttypen)\n- Quantitative Komponente (wie viele Produkte)\n- Zeitbasierte Komponente (Zuordnung von Produkten und Mengen innerhalb des Planungshorizonts)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-112",
+      "front": "Nennen und beschreiben Sie die drei Hauptproblembereiche, in die der Planungsprozess (kurzfristige Produktionsprogrammplanung) unterteilt werden kann",
+      "back": "1.) Strategische Programmplanung\n- Ermittlung von Produktfeldern\n- Produktfelder kennzeichnen das allgemeine Tätigkeitsfeld des Unternehmens\n\n2.) Taktische Programmplanung\n- Definition von Besonderheiten der einzelnen Produktfelder\n- Unterteilung in Produktionsprogrammumfang und Produktionsprogrammtiefe\n- Produktionsprogrammumfang: Definition verschiedener Produktgruppen, Arten und Varianten\n- Produktionsprogrammtiefe: Festlegung von Produktionsschritten, \"make-or-buy\" Entscheidungen\n\n3.) Operative Programmplanung\n- Bestimmung des detaillierten Produktionsplans für den tatsächlichen (kurzfristigen) Zeithorizont",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-113",
+      "front": "Nennen und beschreiben Sie die zwei Hauptfälle im Rahmen der (kurzfristigen) Produktionsprogrammplanung",
+      "back": "- In Realität ein Mix aus beiden Fällen\n- Kapazität und Nachfrage muss berücksichtigt werden\n\n1.) Kundenorientiertes Produktionsprogramm\n- Basierend auf den tatsächlich eingehenden Bestellungen\n- Keine Unsicherheit über das tatsächliche Verkaufsvolumen\n\n2.) Marktorientiertes Produktionsprogramm\n- Basierend auf Prognosen\n- Verkaufsvolumen sollte konstant sein\n- Hoher Standardisierungsgrad\n- Kunden reagieren empfindlich auf Lieferzeiten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-114",
+      "front": "Wie wird das Produktionsprogramm am möglichen Erfolg eines Unternehmens gemessen? Skizzieren Sie dazu ein Beispiel zur Produktionsprogrammoptimierung",
+      "back": "- Gewinnbeitrag als Zielfunktion soll maximiert werden",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-115",
+      "front": "Erklären Sie den Begriff Materialbedarfsplanung und nennen Sie die relevanten Begriffe und Definitionen",
+      "back": "- Endprodukte müssen in Baugruppen und Komponenten gegliedert werden\n- Stückliste liefert Aufschluss über die erforderliche Menge an Komponenten\n- Visualisierung der Stückliste mit Gozintograph\n- Ergebnis ist die optimale Materialversorgung für jeden Produktionsprozess bezüglich Timing, Qualität und Kosteneffizienz\n- Input: Produktionsprogramm, Produktionsstückliste\n- Output: Materialversorgung (Timing, Qualität, Kosteneffizienz)\n\nProdukt: Ein bearbeitbares Objekt, welches durch die Produktion hergestellt wird. Es besteht aus mehreren Bauteilen/ Baugruppen und ist das endgültige Produktionsergebnis.\n\nBaugruppe: Objekt, welches aus zwei oder mehr Bauteilen/ Baugruppen niedriger Ordnung besteht.\n\nBauteil: Gegenstand, der nicht ohne Zerstörung zerlegt werden kann.\n\nRohmaterial: Ausgangsmaterial für eine Komponente oder Einzelteil",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-116",
+      "front": "Was ist ein Gozintograph? Zeichnen Sie dazu eine Skizze",
+      "back": "- Visualisierung zur Veranschaulichung der Stückliste",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-117",
+      "front": "Nennen und beschreiben Sie die verschiedenen Materialklassen",
+      "back": "1.) Rohstoffe (Rohmaterial, Teile/ Gruppen)\n- Direkt für die Herstellung einer Komponente, einer Baugruppe oder eines Produkts benötigt\n- Kann Rohmaterial oder halbfertiges/ gekauftes Teil bestimmter Art und Dimension sein\n\n2.) Hilfsstoffe\n- Indirekt für die Herstellung benötigt\n- z.B. Klebstoffe\n\n3.) Betriebsstoffe\n- Erforderlich, um den Betrieb aufrechtzuerhalten\n- Stehen nicht mit dem Produkt in Verbindung\n- z.B. Wasser, Schmiermittel der Anlagen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-118",
+      "front": "Nennen und beschreiben Sie die verschiedenen Materialbedarfsarten",
+      "back": "1.) Primärbedarf\n- Bedarf an verkaufsfähigen Erzeugnissen (Marktbedarf)\n\n2.) Sekundärbedarf\n- Bedarf an Rohstoffen, Bauteilen und Baugruppen zur Fertigung des Primärbedarfs\n\n3.) Tertiärbedarf\n- Bedarf an Betriebs- und Hilfsstoffen\n\nWeitere Unterscheidung in:\n\n1.) Bruttobedarf\n- Periodenbezogener Materialbedarf ohne Berücksichtigung von Vorräten (Lager)\n\n2.) Nettobedarf\n- Differenz zwischen Bruttobedarf und verfügbarem Bestand zu einem bestimmten Zeitpunkt",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-119",
+      "front": "Erklären und skizzieren Sie das Bestandsdilemma im Operations Management",
+      "back": "- Lagerbestände dienen grundsätzlich als Sicherheitspolitik für unsichere Zeiten\n- Lagerbestände ermöglichen es, schneller auf Schwankungen der Kundennachfrage zu reagieren\n- Sind kostspielig und binden einen erheblichen Teil des Betriebskapitals\n- Material Resource Planning Systeme (MRP-Systeme) zur Erstellung von Volumen- und Zeitberechnungen\n\nMethode zur Klassifizierung und Bewertung verschiedener Lagerartikel: Pareto-Gesetz (80/20 Regel) bzw. ABC Analyse\n- A-Artikel machen 80% des jährlichen Verbrauchswerts und 20% des gesamten Lagerbestands aus\n- B-Artikel machen 10% des jährlichen Verbrauchswerts und 30% des gesamten Lagerbestands aus\n- C-Artikel machen 10% des jährlichen Verbrauchswerts und 50% des gesamten Lagerbestands aus",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-120",
+      "front": "Erklären Sie den Begriff Zeit- und Kapazitätsplanung im Kontext von Operations Management",
+      "back": "- Definition von Start- und Endterminen für Ausführung von Aufgaben\n- Unter Berücksichtigung der gegebenen Einschränkungen für verfügbare Kapazitäten\n- Erfüllung der Gesamtaufgabe (Erfüllung der Kundennachfrage) innerhalb des vorgegebenen Zeitraums\n- Input: Produktionsprogramm, Materialbedarfsplanung\n- Output: Start- und Enddatum für alle Arbeitsaufträge",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-121",
+      "front": "Erklären Sie den Begriff Terminierung",
+      "back": "- Zeitliche Zuordnung von Arbeitsaufgaben\n- Ergebnis ist der auftragsbezogene und einrichtungsspezifische Produktionsplan\n- Festlegung der Fertigungstermine erfolgt unter Berücksichtigung der Material- und Kapazitätsanforderungen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-122",
+      "front": "Nennen Sie die Haupttreiber für die Planung, die wichtigsten Störungen, die die Planung beeinflussen und skizzieren sie die Abhängigkeiten der Planung",
+      "back": "Haupttreiber:\n- Art, Menge, Termine und Qualität der Aufträge\n- Personal- und Maschinenkapazitäten\n- Geplante Durchlaufzeiten\n\nStörungen:\n- Änderungen innerhalb des Produktionsprogramms und der Aufträge\n- Ungeplanter Ausschuss und Nacharbeit\n- Fehlende Mitarbeiter (z.B. Krankheit) und Maschinenausfälle\n- Ungenauigkeiten der Planungsmethode\n\nPlanungsabhängigkeiten:",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-123",
+      "front": "Nennen und beschreiben Sie die Aufgaben der Kapazitätsplanung",
+      "back": "1.) Tatsächlich verfügbare Kapazität\n- Definiert die tatsächlich verfügbare Kapazität zur Verarbeitung von Arbeitsaufträgen in Bezug auf Qualität und Quantität\n- Unterscheidung in theoretischer und effektiver Leistungsfähigkeit\n- Weitere Unterscheidung in einzelne Kapazität (Mitarbeiter, Betriebsmittel), Gruppenkapazität (Kostenstelle, Abteilung) und Gesamtkapazität (Produktion)\n\n2.) Kapazitätsbedarfsplanung\n- Anpassung der Kapazitätsanforderungen an die qualitativen und quantitativen Anforderungen einzelner Aufträge zu Produktionsplänen\n- Ausrichtung auf das mittel- und langfristige Produktionsprogramm\n\n3.) Kapazitätsplanung\n- Permanenter Abgleich von Kapazitätsbedarf und tatsächlich verfügbarer Kapazität\n- Abhängig vom Zeithorizont\n- Kapazitätsabgleich und Kapazitätsanpassung\n\nKapazitätsabgleich: Angleichung des Kapazitätsangebots an den Kapazitätsbedarf\n- Erweiterung der Betriebsmittel\n- Neue Mitarbeiter\n- Überstunden\n- Kurzarbeit\n- Mitarbeiter entlassen\n\nKapazitätsanpassung: Anpassung des Kapazitätsbedarf an verfügbaren Kapazitäten\n- Zeitabhängige Anpassung (Überlappung, Lageraufträge)\n- Technologische Anpassung (Marketing, Produktion verlagern)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-124",
+      "front": "Erklären und skizzieren Sie die Gesamtanlageneffektivität. Geben Sie auch dazugehörige Formeln an",
+      "back": "- Gibt Aufschluss über die Kapazitätseffektivität von Betriebsmitteln\n- Basiert auf der verfügbaren Betriebsmittelzeit, der Durchsatzrate und der erreichten Qualität",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-125",
+      "front": "Erklären und skizzieren Sie sogenannte Enterprise Resource Planning (ERP) Systeme und nennen Sie dessen wichtigsten Vorteil",
+      "back": "- Verwaltung von Nachfrage, Kapazität und benötigten Informationen unter Berücksichtigung von Einschränkungen\n- Unternehmensweites Informationssystem\n- Informationen für Planung und Steuerrung von operativen Tätigkeiten\n- Wichtigster Vorteil ist die verfügbare Transparenz",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-126",
+      "front": "Erklären Sie den Begriff Steuerung und nennen und skizzieren Sie die Änderung der Grenzen zwischen Planung und Kontrolle entlang des Zeithorizonts (Planung und Steuerung über die Zeit)",
+      "back": "- Steuerung ist der Prozess der Anpassung von Plänen an Veränderungen",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-127",
+      "front": "Skizzieren Sie die Produktionssteuerung und nennen Sie dessen Schwerpunkte",
+      "back": "- Produktion veranlassen\n- Produktion überwachen\n- Produktion sichern",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-128",
+      "front": "Skizzieren Sie den Produktionsregelkreis",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-129",
+      "front": "Nennen Sie die Aspekte von Starten und Überwachen der Produktion und nennen sie Beispiele für die Hauptbetriebsdaten",
+      "back": "1.) Bereitstellung von Materialien, Arbeitsunterlagen, Personal und Ausrüstung am Arbeitsplatz; Push-, Pull- oder Kombiniertes System\n\n2.) Arbeitsverteilung:\n- Aktualisierung der Planauftragsmengen sowie der Auftragstermine\n- Abgleich mit der aktuellen Kapazitätsauslastung der Produktion - Umlagerung von Aufträgen\n- Fertigungsaufträge starten\n\n3.) Auftragsüberwachung:\n- Erfassen von Fehlern und Rückmeldungen der Produktion\n- Überwachung von Mengen, Qualität sowie Start- und Endterminen der Produktionsaufträge\n\n4.) Produktions-/ Maschinendatenerfassung:\n- Daten, die den Zustand der Operation und die Auftragsverarbeitung beschreiben\n- Bestelldaten: Terminierung, Liefertermine\n- Mitarbeiterdaten: Anwesenheit/ Abwesenheit\n- Maschinendaten: Betriebszeit, Ressourcenkapazitäten\n- Material- und Bestandsdaten: Verwendung und Inventar\n- Prozessdaten: Temperatur, Druck\n- Qualitätsdaten: Schrottmenge",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-130",
+      "front": "Erklären Sie das Dilemma der Ablaufplanung und skizzieren Sie dazu Beispiele.",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-131",
+      "front": "Was kann anhand von Produktionskennlinien dargestellt werden? Fertigen Sie dazu auch eine Skizze des Dilemmas der Ablaufplanung mit Produktionslennlinien an",
+      "back": "- Produktionskennlinien: Verhalten eines Arbeitssystems bei ansonsten unveränderten Randbedingungen, wenn z.B. ein anderer Bestand (WIP) eingestellt wird",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-132",
+      "front": "Beschreiben Sie den Prozess der Auftragsfreigabe",
+      "back": "- Im Wochenrythmus\n- Entscheidung für Freigabe von Produktionsaufträgen\n- Zuerst Aufteilungsplanung, dann Reihenfolgeplanung\n- Prüfung, ob sämtliche Ressourcen zur Durchführung des Produktionsauftrags verfügbar sind\n\nPrüfung bezieht sich auf:\n- Benötigte Bauteile und Baugruppen gemäß Arbeitsplan und Stückliste\n- Betriebsmittel, die für die Arbeitsdurchführung vorgesehen sind\n- Erforderliches Personal\n- Benötigte Informationen zur Produktion\n\nStatische Auftragsfreigabe:\n- Freigabe erst dann, wenn alle benötigten Ressourcen am Standort vorhanden sind\n\nDynamische Auftragsfreigabe:\n- Freigabe ohne aller benötigten Ressourcen am Standort\n- Erwartung, dass Ressourcen pünktlich für Arbeitsgänge zur Verfügung stehen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-133",
+      "front": "Erklären Sie das Grundproblem der Maschinenbelegung",
+      "back": "- Aufteilung in zwei verschiedene Maschinenbelegungsprobleme:\n\n1.) Ein-Maschinen-Problem\n- Aufträge durchlaufen nur eine Produktionsstufe, weshalb die Auftragsreihenfolge nur für eine Maschine zu bestimmen ist\n\n2.) Mehr-Maschinen-Problem\n- n Aufträge müssen m Maschinen zugeordnet und eine zielangemessene Maschinenbelegung gefunden werden",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-134",
+      "front": "Wie können die Prozesse oder der Output einer Produktion beurteilt werden?",
+      "back": "- Beurteilung anhand von Leistungskennzahlen (KPI - Key Performance Indicators)\n- Maß für die Güte eines Prozesses ist die Abweichung zwischen Ist- und Soll-Zustand\n\nAusgewählte KPIs:\n- Qualität\n- Geschwindigkeit\n- Zuverlässigkeit\n- Flexibilität\n- Kosten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-135",
+      "front": "Beschreiben Sie den Begriff Qualität und nennen Sie dessen Aspekte bzw. Dimensionen",
+      "back": "- Umfasst Qualität des Produkts und Qualität des Prozesses\n\nAspekte:\n\n1.) Leistung\n- Umfang und Funktionalität des Produkts\n\n2.) Ausstattung\n-Tragen sekundär zur Leistung bei (z.B. Ledersitze im Auto)\n\n3.) Zuverlässigkeit\n- Wahrscheinlichkeit, mit der ein Produkt innerhalb einer bestimmten Zeitspanne fehlerhaft funktioniert oder ausfällt\n\n4.) Konformität\n- Beschreibt die Übereinstimmung von Merkmalswerten mit den verlangten Anforderungen\n\n5.) Beständigkeit\n- Maß für die Produktlebensdauer\n\n6.) Wartungsfähigkeit\n- Erhaltung von Produkten\n- Einfache Reparaturmöglichkeiten oder Schnelligkeit und Kompetenz des Servicepersonals\n\n7.) Ästhetik\n- Äußeres Erscheinungsbild oder auch Geschmack und Geruch eines Produkts\n\n8.) Qualitätsimage\n- Tatsächliche Wahrnehmung der Kunden zur Qualität des Produktes\n- Unter anderem auch Erfahrung der Kunden oder Marken-Image",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-136",
+      "front": "Wie wird Qualität aus Sicht eines Betriebes verstanden?",
+      "back": "- Fokus auf Prozesse oder Erfüllung der Produktentwicklung\n- Messung z.B. mit Ausschussraten (Bauteile die beschädigt sind) oder Fehlerquoten (Bauteilen die den Konstruktionsvorgaben nicht entsprechen)",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-137",
+      "front": "Was sind die wesentlichen Ziele des Qualitätsmanagements? Nennen und beschreiben Sie auch die Methoden des Qualitätsmanagements",
+      "back": "- Möglichst hohe Kundenzufriedenheit - sowohl externe Kunden am Markt und intere Kunden im Unternehmen\n- Möglichst geringe qualitätsbezogene Kosten\n- Kontinuierliche Weiterentwicklung des Qualitätsbewusstseins im Unternehmen als kontinuierlicher Verbesserungsprozess\n\nMethoden:\n\n1.) Total Quality Management (TQM)\n- Philosophie, die auf hohe Qualität im gesamten Unternehmen abzielt.\n- Kontinuierliche Verbesserungskultur\n- Jeder Mitarbeiter ist für hohe Qualität verantwortlich\n\n2.) Six Sigma\n- Initiative zur Qualitätsverbesserung, um hohes Qualitätsniveau zu erreichen\n- Ziel, durch hohe Prozesseffizienz die Herstellungskosten zu senken und damit den Umsatz eines Unternehmens durch niedrige Verkaufspreise und hohe Kundenzufriedenheit zu steigern\n\n3.) Statistische Prozesskontrolle (SPC)\n- Operativ orientierte Technik zur Qualitätsverbesserung\n- Qualitätsprüfung für Prozesse\n- Basiert auf inhärenten Variabilität der Prozesse",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-138",
+      "front": "Beschreiben Sie den Begriff Geschwindigkeit und nennen und beschreiben Sie dessen \"Systeme\"",
+      "back": "- Zeit zwischen der Bestellung eines Produktes durch den Kunden und Erhalt des Produktes\n- Lagerfertigungssystem\n- Einzelfertigungssystem\n- Hybridsystem\n\n1.) Lagerfertigungssystem:\n- Produkte werden vor der Bestellung bereits produziert und gelagert\n- Geringe Auftragserfüllungszeit\n- Eventueller Altbestand im Lager\n- Hohe Kosten für Erhalt des Lagers\n\n2.) Einzelfertigungssystem:\n- Unternehmen muss vor Lieferung zuerst Rohmaterial kaufen und Produkt produzieren\n- Hohe Auftragserfüllungszeit\n\n3.) Hybridsystem\n- Halbzeuge werden bis zu Entkopplungspunkten gefertigt und gelagert (Lagerfertigung)\n- Kundeneinzelfertigungssystem wird nachgeschaltet, um Variantenvielfalt zu ermöglichen",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-139",
+      "front": "Was versteht man unter dem Begriff Zuverlässigkeit/ Liefertreue?",
+      "back": "- Konsequente Einhaltung der zugesagten Lieferzeiten\n- Hohe Geschwindigkeit führt nicht unbedingt zu einer Erhöhung der Kundenzufriedenheit, wenn diese nicht stetig eingehalten werden kann\n- Vertrauen auf pünktliche Lieferung führt zu höherer Kundenzufriedenheit\n- Hohe Zuverlässigkeit/ Liefertreue zwingt Unternehmen, Produktionssysteme zu verbessern und kann zu niedrigeren unternemensinternen Kosten führen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-140",
+      "front": "Beschreiben Sie den Begriff Flexibilität und nennen Sie dessen Bestandteile",
+      "back": "- Bezeichnet die Fähigkeit eines Unternehmens, auf veränderte Kundenbedürfnisse zu reagieren\n- Voraussetzung, um verschiedene Produktvarianten anbieten zu können\n- Wettbewerbsvorteil in Bezug auf Trend zu individualisierten Produkten für Kunden\n\n1.) Produktflexibilität\n- Fähigkeit, schnell auf veränderte Kundenbedürfnisse mit neuen Produkten reagieren zu können\n\n2.) Mischflexibilität\n- Fähigkeit, eine breite Palette von Produkten oder Varianten anbieten zu können\n\n3.) Volumenflexibilität\n- Fähigkeit, den Output einer Produktion aufgrund sich ändernder Kundennachfrage zu erhöhen oder zu verringern\n\n4.) Lieferflexibilität\n- Fähigkeit, auf sich ändernde Liefertermine zu reagieren\n- Änderung von Prioritäten zwischen Aufträgen, aber trotzdem pünktlich liefern können",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-141",
+      "front": "Beschreiben Sie den Begriff Kosten und nennen Sie dessen Hauptkategorien",
+      "back": "- Mehr Gewinn oder mehr Marktanteile, wenn niedrigere Kosten als die der Konkurenten erreicht werden\n- Hängen von Volumen und Produktvielfalt ab\n- Höheres Volumen können Kosten senken (Fixkosten können verteilt werden)\n- Skaleneffekt kann reduziert werden, wenn bei zunehmender Stückzahl die Komplexität der Produktion zu stark ansteigt\n- Produktvielfalt kann Komplexität und Kosten erhöhen\n- Höhere Qualität kann zu höheren Kosten führen\n\nHauptkategorien:\n- Personalkosten\n- Anlagekosten\n- Materialkosten",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-142",
+      "front": "Was ist das Ergebnis, Input und Output der Materialbedarfsplanung?",
+      "back": "- Input: Produktionsprogramm, Stückliste\n- Ergebnis/ Output ist die optimale Materialversorgung für jeden Produktionsprozess bezüglich Timing, Qualität und Kosteneffizienz",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-143",
+      "front": "Skizzieren Sie die Kapazitätsplanung und nennen Sie den Unterschied von Kapazitätsabgleich und Kapazitätsanpassung",
+      "back": "",
+      "tags": [],
+      "had_image": true,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    },
+    {
+      "id": "uware-144",
+      "front": "Nennen Sie die Einflussfaktoren auf die Realplanung",
+      "back": "Einflussfaktoren auf die Realplanung:\n- Rechtliche Bedingungen\n- Gründstück\n- Gelände\n- Fixpunkte\n- Betriebsmittel\n- Organisation\n- GMP (Good Manufacturing Practice - Unternemhensrichtlinien zur Qualitätssicherung in der Produktion)\n- Monetäre Ressourcen",
+      "tags": [],
+      "had_image": false,
+      "trust": "unverified-student",
+      "source": "anki-uware"
+    }
+  ]
+}
