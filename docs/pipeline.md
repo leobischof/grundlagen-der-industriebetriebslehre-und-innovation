@@ -138,7 +138,8 @@ sicher, landen sie sichtbar unter „Fußnoten ohne sicheren Textanker“.
 ## Veröffentlichen (Release und Gist)
 
 Beides läuft lokal und von Hand, nie in der CI, und nie mit den Original-PDFs der Lehrveranstaltung.
-Vor jedem Schritt prüfen, dass das Repository privat ist:
+Veröffentlicht wird nur, was per Pull Request auf `main` gemergt ist (AGENTS.md Abschnitt 7): vorher
+`git switch main && git pull --ff-only`. Vor jedem Schritt prüfen, dass das Repository privat ist:
 `gh api repos/<owner>/<repo> --jq .visibility` muss `private` liefern.
 
 **Release** (je Meilenstein ein neues Tag `vX.Y`):

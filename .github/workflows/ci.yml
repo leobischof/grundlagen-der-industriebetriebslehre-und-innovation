@@ -43,3 +43,43 @@ jobs:
             echo "::error::reports/ ist veraltet – lokal 'python -m pipeline offline' ausführen und committen"
             exit 1
           }
+
+  konventionen:
+    # Branch-Name, Commit-Titel und PR-Titel nach .github/scripts/conventions.py.
+    # Rulesets privater Repos können keine Nachrichten prüfen; main verlangt diesen Job.
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Pull Request – Branch, PR-Titel, Commits
+        if: github.event_name == 'pull_request'
+        # Titel und Branch über env, nie direkt in den Befehl einsetzen (Script-Injection).
+        env:
+          BRANCH: ${{ github.head_ref }}
+          TITLE: ${{ github.event.pull_request.title }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          python .github/scripts/conventions.py branch "$BRANCH"
+          python .github/scripts/conventions.py subject "$TITLE"
+          python .github/scripts/conventions.py commits "$BASE_SHA" HEAD
+
+      - name: Push – Branch und neue Commits
+        if: github.event_name == 'push'
+        env:
+          BRANCH: ${{ github.ref_name }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          python .github/scripts/conventions.py branch "$BRANCH"
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = "0000000000000000000000000000000000000000" ]; then
+            # neuer Branch: alle Commits, die noch nicht auf main sind
+            python .github/scripts/conventions.py commits origin/main HEAD
+          else
+            python .github/scripts/conventions.py commits "$BEFORE" HEAD
+          fi
