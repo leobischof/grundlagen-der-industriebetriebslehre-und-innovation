@@ -86,8 +86,10 @@ reconstruction:
     Per Nebeneinander-Vergleich mit dem Original geprüft; alle 15 Kästen mit Nummern, Texten und
     Linienart (durchgezogen bzw. strichpunktiert), die drei Kopfbalken, die beiden
     Zwischenüberschriften und die Legende stimmen überein. Die Piktogramme (LKW mit Globus, Fabrik,
-    Haus) über den Kopfbalken sind nicht nachgebildet, sondern als gestrichelte Platzhalter mit
-    ihrer Bedeutung als Text ersetzt. Zeilenumbruch „Versorgungsnet / z“ wie im Original
+    Haus) über den Kopfbalken sind nicht nachgebildet, sondern durch freie Lucide-Icons angenähert;
+    ihre Bedeutung bleibt zusätzlich als Text erhalten. Quellen und Lizenzen sind zentral in
+    curation/icon-provenance.json und curation/icon-library-licenses.txt dokumentiert.
+    Zeilenumbruch „Versorgungsnet / z“ wie im Original
     übernommen. Die Nummern-Ovale sind keine Lösungselemente. Die strichpunktierten Rahmen sind als
     einzelne Liniensegmente gezeichnet.
 source:

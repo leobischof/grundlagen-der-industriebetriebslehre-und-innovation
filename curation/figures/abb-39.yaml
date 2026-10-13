@@ -60,7 +60,9 @@ reconstruction:
     Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte im Originalwortlaut (inkl.
     Silbentrennung „inter-/pretiere“ und kleingeschriebenem „neues“). Die fünf Piktogramme
     (Kompass, Lupe, Glühbirne, Zahnrad, Kreislaufpfeile) sind nicht nachgebildet, sondern durch
-    graue Kreise mit dem Namen des Symbols ersetzt. Im Bild heißt Phase 4 „Experimente“, im
+    freie Lucide-Icons angenähert; der jeweilige Symbolname bleibt darunter lesbar. Quellen und
+    Lizenzen stehen in curation/icon-provenance.json und curation/icon-library-licenses.txt.
+    Im Bild heißt Phase 4 „Experimente“, im
     Skripttext „Experimentieren“, Phase 3 im Text „Ideen finden“.
 source:
   pdf_page: 112
