@@ -1,61 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1277 791" width="1277" height="791" data-figure-id="abb-01" data-status="faithful" font-family="Arial, Helvetica, sans-serif">
   <title>Historische Entwicklung innerhalb der Industrie</title>
-  <rect x="0" y="0" width="1277" height="791" fill="#ffffff"/>
-  <rect x="14" y="18" width="1254" height="760" fill="none" stroke="#555555" stroke-width="2"/>
-
-
+  <rect x="0" y="0" width="1277" height="791" fill="#ffffff" />
+  <rect x="14" y="18" width="1254" height="760" fill="none" stroke="#555555" stroke-width="2" />
   <!-- Stufenlinie (Struktur, kein Lösungselement): je Revolution ein waagrechtes Segment, senkrecht zur nächsten Stufe -->
   <g fill="none" stroke="#7f7f7f" stroke-width="2">
-    <path d="M390 632 H497 V510 H605 V383 H713 V258 H820"/>
+    <path d="M390 632 H497 V510 H605 V383 H713 V258 H820" />
   </g>
   <g fill="#d9d9d9" stroke="#bfbfbf" stroke-width="2">
-    <circle cx="390" cy="632" r="20"/>
-    <circle cx="497" cy="632" r="20"/>
-    <circle cx="497" cy="510" r="20"/>
-    <circle cx="605" cy="510" r="20"/>
-    <circle cx="605" cy="383" r="20"/>
-    <circle cx="713" cy="383" r="20"/>
-    <circle cx="713" cy="258" r="20"/>
-    <circle cx="820" cy="258" r="20"/>
+    <circle cx="390" cy="632" r="20" />
+    <circle cx="497" cy="632" r="20" />
+    <circle cx="497" cy="510" r="20" />
+    <circle cx="605" cy="510" r="20" />
+    <circle cx="605" cy="383" r="20" />
+    <circle cx="713" cy="383" r="20" />
+    <circle cx="713" cy="258" r="20" />
+    <circle cx="820" cy="258" r="20" />
   </g>
-
   <!-- Piktogramme des Originals nur als Platzhalter mit Bedeutung (nicht nachgebildet) -->
-  <g fill="none" stroke="#a6a6a6" stroke-width="1.5" stroke-dasharray="5 4">
-    <rect x="208" y="522" width="56" height="84" rx="8"/>
-    <rect x="335" y="358" width="130" height="92" rx="10"/>
-    <rect x="470" y="245" width="88" height="88" rx="10"/>
-    <rect x="618" y="50" width="88" height="82" rx="10"/>
-    <rect x="722" y="78" width="40" height="32" rx="6"/>
-    <rect x="778" y="50" width="48" height="85" rx="10"/>
-    <rect x="718" y="132" width="44" height="64" rx="6"/>
-  </g>
-  <g font-size="11" fill="#7f7f7f" text-anchor="middle">
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="236" y="560">Pikto-</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="236" y="574">gramm</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="236" y="588">Zahnräder</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="400" y="400">Piktogramm Arbeiter</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="400" y="415">am Fließband</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="514" y="285">Piktogramm</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="514" y="300">Roboterarm</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="662" y="88">Roboter-</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="662" y="105">arm</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="742" y="98">WLAN</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="802" y="96">Mensch</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="740" y="168">Smart-</text>
-    <text text-anchor="middle" font-size="11" fill="#7f7f7f" font-family="Arial, Helvetica, sans-serif" x="740" y="184">phone</text>
-  </g>
   <!-- Kreislaufpfeile um die Industrie-4.0-Piktogramme -->
   <g fill="none" stroke="#000000" stroke-width="5">
-    <path d="M728 52 Q750 38 768 58"/>
-    <path d="M810 145 Q812 170 788 184"/>
-    <path d="M708 182 Q680 184 664 164"/>
+    <path d="M728 52 Q750 38 768 58" />
+    <path d="M810 145 Q812 170 788 184" />
+    <path d="M708 182 Q680 184 664 164" />
   </g>
   <g fill="#000000">
-    <polygon points="774.7,65.4 758.6,61 772,49"/>
-    <polygon points="779.4,189 795.9,189.7 786.9,174.3"/>
-    <polygon points="657.8,156.2 673.5,161.5 659.5,172.7"/>
+    <polygon points="774.7,65.4 758.6,61 772,49" />
+    <polygon points="779.4,189 795.9,189.7 786.9,174.3" />
+    <polygon points="657.8,156.2 673.5,161.5 659.5,172.7" />
   </g>
-
   <!-- Stufenbezeichnungen -->
   <g font-size="19" fill="#000000">
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="265" y="609">1.Industrielle Revolution</text>
@@ -63,26 +35,399 @@
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="471" y="360">3.Industrielle Revolution</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="610" y="232">4.Industrielle Revolution</text>
   </g>
-
   <!-- Merkmale je Stufe -->
   <g font-size="18" fill="#000000">
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="678" font-weight="bold">Mechanisierung:</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="702">Einführung mechanischer</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="727">Betriebsmittel, die mit Wasser</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="388" y="751">und Dampf betrieben werden</text>
-
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="537" y="554" font-weight="bold">Elektrifizierung:</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="537" y="578">Einführung von arbeitsteiligen</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="537" y="603">Konzepten mit Hilfe von</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="537" y="627">elektrischer Energie</text>
-
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="428" font-weight="bold">Information/Automatisierung:</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="452">Einführung von Elektronik und IT</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="477">zur Automatisierung der</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="646" y="501">Produktion</text>
-
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="750" y="310" font-weight="bold">Digitalisierung/Vernetzung:</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="750" y="335">Vernetzung von Maschinen,</text>
     <text font-family="Arial, Helvetica, sans-serif" class="answer" x="750" y="360">Arbeitern und Produkten</text>
+  </g>
+  <g data-icon-query="cog" data-icon-box="214 527 44 44" data-icon-color="#555555">
+    <g data-library-icon="lucide:cog" transform="translate(214 527) scale(1.83333)">
+      <metadata>lucide:cog; 1.2.143; ISC; https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</metadata>
+      <g fill="none" stroke="#555555" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M11 10.27L7 3.34m4 10.39l-4 6.93M12 22v-2m0-18v2m2 8h8m-5 8.66l-1-1.73m1-15.59l-1 1.73M2 12h2m16.66 5l-1.73-1m1.73-9l-1.73 1M3.34 17l1.73-1M3.34 7l1.73 1" />
+        <circle cx="12" cy="12" r="2" />
+        <circle cx="12" cy="12" r="8" />
+      </g>
+    </g>
+    <text x="236" y="591" font-size="11" fill="#555555" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Zahnräder</text>
+  </g>
+  <g data-icon-query="person-standing" data-icon-box="365 362 32 60" data-icon-color="#555555">
+    <g data-library-icon="lucide:person-standing" transform="translate(365 376) scale(1.33333)">
+      <metadata>lucide:person-standing; 1.2.143; ISC; https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</metadata>
+      <g fill="none" stroke="#555555" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <circle cx="12" cy="5" r="1" />
+        <path d="m9 20l3-6l3 6M6 8l6 2l6-2m-6 2v4" />
+      </g>
+    </g>
+    <text x="400" y="442" font-size="11" fill="#555555" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Arbeiter am Fließband</text>
+  </g>
+  <g data-icon-query="robot-industrial" data-icon-box="486 247 56 56" data-icon-color="#555555">
+    <g data-library-icon="mdi:robot-industrial" transform="translate(486 247) scale(2.33333)">
+      <metadata>mdi:robot-industrial; 1.2.3; Apache-2.0; https://registry.npmjs.org/@iconify-json/mdi/-/mdi-1.2.3.tgz
+Pictogrammers Free License
+--------------------------
+
+This icon collection is released as free, open source, and GPL friendly by
+the [Pictogrammers](http://pictogrammers.com/) icon group. You may use it
+for commercial projects, open source projects, or anything really.
+
+# Icons: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+Some of the icons are redistributed under the Apache 2.0 license. All other
+icons are either redistributed under their respective licenses or are
+distributed under the Apache 2.0 license.
+
+# Fonts: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+All web and desktop fonts are distributed under the Apache 2.0 license. Web
+and desktop fonts contain some icons that are redistributed under the Apache
+2.0 license. All other icons are either redistributed under their respective
+licenses or are distributed under the Apache 2.0 license.
+
+# Code: MIT (https://opensource.org/licenses/MIT)
+The MIT license applies to all non-font and non-icon files.
+</metadata>
+      <path fill="#555555" d="M18.41 4L16 6.41v.18L18.41 9H22v2h-4.41L16 9.41V12h-1a2 2 0 0 1-2-2V7.5H9.86c-.09.37-.24.72-.44 1.05L15.18 19H20a2 2 0 0 1 2 2v1H2v-1a2 2 0 0 1 2-2h6.61l-4.69-8.5a4.006 4.006 0 0 1-3.81-3A4 4 0 0 1 5 2.63c2.13-.55 4.31.73 4.86 2.87H13V3a2 2 0 0 1 2-2h1v2.59L17.59 2H22v2zM6 4.5a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2" />
+    </g>
+    <text x="514" y="324" font-size="11" fill="#555555" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Roboterarm</text>
+  </g>
+  <g data-icon-query="robot-industrial" data-icon-box="640 53 44 44" data-icon-color="#555555">
+    <g data-library-icon="mdi:robot-industrial" transform="translate(640 53) scale(1.83333)">
+      <metadata>mdi:robot-industrial; 1.2.3; Apache-2.0; https://registry.npmjs.org/@iconify-json/mdi/-/mdi-1.2.3.tgz
+Pictogrammers Free License
+--------------------------
+
+This icon collection is released as free, open source, and GPL friendly by
+the [Pictogrammers](http://pictogrammers.com/) icon group. You may use it
+for commercial projects, open source projects, or anything really.
+
+# Icons: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+Some of the icons are redistributed under the Apache 2.0 license. All other
+icons are either redistributed under their respective licenses or are
+distributed under the Apache 2.0 license.
+
+# Fonts: Apache 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+All web and desktop fonts are distributed under the Apache 2.0 license. Web
+and desktop fonts contain some icons that are redistributed under the Apache
+2.0 license. All other icons are either redistributed under their respective
+licenses or are distributed under the Apache 2.0 license.
+
+# Code: MIT (https://opensource.org/licenses/MIT)
+The MIT license applies to all non-font and non-icon files.
+</metadata>
+      <path fill="#555555" d="M18.41 4L16 6.41v.18L18.41 9H22v2h-4.41L16 9.41V12h-1a2 2 0 0 1-2-2V7.5H9.86c-.09.37-.24.72-.44 1.05L15.18 19H20a2 2 0 0 1 2 2v1H2v-1a2 2 0 0 1 2-2h6.61l-4.69-8.5a4.006 4.006 0 0 1-3.81-3A4 4 0 0 1 5 2.63c2.13-.55 4.31.73 4.86 2.87H13V3a2 2 0 0 1 2-2h1v2.59L17.59 2H22v2zM6 4.5a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2" />
+    </g>
+    <text x="662" y="119" font-size="11" fill="#555555" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Roboterarm</text>
+  </g>
+  <g data-icon-query="wifi" data-icon-box="728 74 28 28" data-icon-color="#555555">
+    <g data-library-icon="lucide:wifi" transform="translate(728 74) scale(1.16667)">
+      <metadata>lucide:wifi; 1.2.143; ISC; https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</metadata>
+      <path fill="none" stroke="#555555" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 20h.01M2 8.82a15 15 0 0 1 20 0M5 12.859a10 10 0 0 1 14 0m-10.5 3.57a5 5 0 0 1 7 0" />
+    </g>
+    <text x="742" y="120" font-size="11" fill="#555555" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">WLAN</text>
+  </g>
+  <g data-icon-query="person-standing" data-icon-box="781 52 42 57" data-icon-color="#555555">
+    <g data-library-icon="lucide:person-standing" transform="translate(781 59.5) scale(1.75)">
+      <metadata>lucide:person-standing; 1.2.143; ISC; https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</metadata>
+      <g fill="none" stroke="#555555" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <circle cx="12" cy="5" r="1" />
+        <path d="m9 20l3-6l3 6M6 8l6 2l6-2m-6 2v4" />
+      </g>
+    </g>
+    <text x="802" y="129" font-size="11" fill="#555555" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Mensch</text>
+  </g>
+  <g data-icon-query="smartphone" data-icon-box="726 133 28 37" data-icon-color="#555555">
+    <g data-library-icon="lucide:smartphone" transform="translate(726 137.5) scale(1.16667)">
+      <metadata>lucide:smartphone; 1.2.143; ISC; https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</metadata>
+      <g fill="none" stroke="#555555" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+        <path d="M12 18h.01" />
+      </g>
+    </g>
+    <text x="740" y="191" font-size="11" fill="#555555" text-anchor="middle" font-family="Arial, Helvetica, sans-serif">Smartphone</text>
+  </g>
+  <g data-icon-query="briefcase-conveyor-belt" data-icon-box="402 380 48 42" data-icon-color="#555555">
+    <g data-library-icon="lucide:briefcase-conveyor-belt" transform="translate(405 380) scale(1.75)">
+      <metadata>lucide:briefcase-conveyor-belt; 1.2.143; ISC; https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</metadata>
+      <g fill="none" stroke="#555555" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+        <path d="M10 20v2m4-2v2m4-2v2m3-2H3m3 0v2m2-6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12" />
+        <rect width="16" height="10" x="4" y="6" rx="2" />
+      </g>
+    </g>
   </g>
 </svg>

@@ -1,0 +1,308 @@
+[
+  {
+    "figure": "abb-01",
+    "query": "cog",
+    "icon": "lucide:cog",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "4d9d01ffba366734c1d5a365a448aaa00f26d64de4b6c65b2382003fa3fd8643"
+  },
+  {
+    "figure": "abb-01",
+    "query": "person-standing",
+    "icon": "lucide:person-standing",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "d2f9d60090877821dd6c8830c5f67d8a81b31838a6502d03444a10f5ca24590e"
+  },
+  {
+    "figure": "abb-01",
+    "query": "robot-industrial",
+    "icon": "mdi:robot-industrial",
+    "version": "1.2.3",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/@iconify-json/mdi/-/mdi-1.2.3.tgz",
+    "body_sha256": "69e87b94971c20f884a01abc9bf228229dbcc6fb19695ac90fc9674b6c7caf18"
+  },
+  {
+    "figure": "abb-01",
+    "query": "robot-industrial",
+    "icon": "mdi:robot-industrial",
+    "version": "1.2.3",
+    "license": "Apache-2.0",
+    "source": "https://registry.npmjs.org/@iconify-json/mdi/-/mdi-1.2.3.tgz",
+    "body_sha256": "69e87b94971c20f884a01abc9bf228229dbcc6fb19695ac90fc9674b6c7caf18"
+  },
+  {
+    "figure": "abb-01",
+    "query": "wifi",
+    "icon": "lucide:wifi",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "4b74183bda681965a11596682ba04dd32db67b3651176680511e6a03f9176f4f"
+  },
+  {
+    "figure": "abb-01",
+    "query": "person-standing",
+    "icon": "lucide:person-standing",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "d2f9d60090877821dd6c8830c5f67d8a81b31838a6502d03444a10f5ca24590e"
+  },
+  {
+    "figure": "abb-01",
+    "query": "smartphone",
+    "icon": "lucide:smartphone",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "0987edc4839b30f6cc7c8ed93a5e80bdddb3686ab82b819ac041ab9cf8ccfa4e"
+  },
+  {
+    "figure": "abb-01",
+    "query": "briefcase-conveyor-belt",
+    "icon": "lucide:briefcase-conveyor-belt",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "198de8dbdd3c1dea87eb86a4c85c0ffd2736b4f315a88323bd54d3e9db9ae012"
+  },
+  {
+    "figure": "abb-02",
+    "query": "truck",
+    "icon": "lucide:truck",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "628b8d2b9038be8e11f634757128c25408c02cd8081206064ff13a7f7afef56b"
+  },
+  {
+    "figure": "abb-02",
+    "query": "earth",
+    "icon": "lucide:earth",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "960b97d04a3a624ad74f87ea4812010c46ea1c91a960b73404f440b95e850f55"
+  },
+  {
+    "figure": "abb-02",
+    "query": "factory",
+    "icon": "lucide:factory",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "f5d0716d33a41f9fbe38475a696c730064ba5db46c96b5649e2c50bab996df57"
+  },
+  {
+    "figure": "abb-02",
+    "query": "house",
+    "icon": "lucide:house",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "c02572709d48584a79df1154d2a55b27a30298c455f53eb2454a9e9cc0c8b323"
+  },
+  {
+    "figure": "abb-39",
+    "query": "compass",
+    "icon": "lucide:compass",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "9be7015f1c61d16a7b85530756c58a85ba76661952faa2fe33a5bc5f6cea7cea"
+  },
+  {
+    "figure": "abb-39",
+    "query": "search",
+    "icon": "lucide:search",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "9a0b1fbf39d43b41e8fc8543fa8efb0c2c4a0aea4e31f8a83d151977b742b656"
+  },
+  {
+    "figure": "abb-39",
+    "query": "lightbulb",
+    "icon": "lucide:lightbulb",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "d8cedf2577381615fd4b722419e322eea5ad2921f8e8e4696b49efcfb93eb114"
+  },
+  {
+    "figure": "abb-39",
+    "query": "cog",
+    "icon": "lucide:cog",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "4d9d01ffba366734c1d5a365a448aaa00f26d64de4b6c65b2382003fa3fd8643"
+  },
+  {
+    "figure": "abb-39",
+    "query": "refresh-cw",
+    "icon": "lucide:refresh-cw",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "fa799ff1e89802be45433bc0320d7d7e23aa6d2dad1aaf9a7d89223887dcdbbf"
+  },
+  {
+    "figure": "abb-55",
+    "query": "hand-coins",
+    "icon": "lucide:hand-coins",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "9c8c923993cfa5689dc133a5c5ecd38bea5bab075983668a672eb364eeb59547"
+  },
+  {
+    "figure": "abb-55",
+    "query": "wheat",
+    "icon": "lucide:wheat",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "f3c4970cd98c69318533671874630e592f2073a6a4ed7af95276c4e7ab5995a5"
+  },
+  {
+    "figure": "abb-55",
+    "query": "heart-pulse",
+    "icon": "lucide:heart-pulse",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "54c0a3c5ace6405410dfa79b3bb7aae804076a5a3b5d4105841aa5d0c450f45b"
+  },
+  {
+    "figure": "abb-55",
+    "query": "graduation-cap",
+    "icon": "lucide:graduation-cap",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "4a3fe1759fb933b5fb0ffb55eb66b8825432fd26df54280d8ad3e22c01be36e2"
+  },
+  {
+    "figure": "abb-55",
+    "query": "venus-and-mars",
+    "icon": "lucide:venus-and-mars",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "af26c0fe305cb7f605092413e0a38537b867bf3bc024d68a02d4fed8a1531373"
+  },
+  {
+    "figure": "abb-55",
+    "query": "droplets",
+    "icon": "lucide:droplets",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "f43547bcd79cb79bb246a7c63de5c1c257090c4c347b3a1923f9754fa5525d04"
+  },
+  {
+    "figure": "abb-55",
+    "query": "sun",
+    "icon": "lucide:sun",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "ab77169678f4200e68ae1ff7e407c97bb618a4714b69fb29bcf140b2ff164f29"
+  },
+  {
+    "figure": "abb-55",
+    "query": "chart-no-axes-combined",
+    "icon": "lucide:chart-no-axes-combined",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "28f58630812fbb0a27b8b8d77a6d3a54dc2017ae209355c18ed0976d0ad864be"
+  },
+  {
+    "figure": "abb-55",
+    "query": "factory",
+    "icon": "lucide:factory",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "f5d0716d33a41f9fbe38475a696c730064ba5db46c96b5649e2c50bab996df57"
+  },
+  {
+    "figure": "abb-55",
+    "query": "equal",
+    "icon": "lucide:equal",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "3a0f1b99554993b4bb35c89ddbc18eb79988d647e28577a43a7ab0f886e293a4"
+  },
+  {
+    "figure": "abb-55",
+    "query": "building",
+    "icon": "lucide:building",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "8319ec501f96fe9c8e9b26a087e8cc249794499c2d3436a1d80b1a3234942456"
+  },
+  {
+    "figure": "abb-55",
+    "query": "recycle",
+    "icon": "lucide:recycle",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "991dbd09d9d8999c9b1285445f1be804f12c08550b9f706670e7c3c5123a0e35"
+  },
+  {
+    "figure": "abb-55",
+    "query": "earth",
+    "icon": "lucide:earth",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "960b97d04a3a624ad74f87ea4812010c46ea1c91a960b73404f440b95e850f55"
+  },
+  {
+    "figure": "abb-55",
+    "query": "fish",
+    "icon": "lucide:fish",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "3f5d793ab1f150d1b4d67bb097583676f044e4302fbfff9224362b9702f1012c"
+  },
+  {
+    "figure": "abb-55",
+    "query": "trees",
+    "icon": "lucide:trees",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "7aea3544c35cfb07890fd67ba9738c328636173e60a0cd036dacf1313b4d7e67"
+  },
+  {
+    "figure": "abb-55",
+    "query": "scale",
+    "icon": "lucide:scale",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "b96f92099ace9e837a8273648b57a99053b7aa917136983da1772c10040eb263"
+  },
+  {
+    "figure": "abb-55",
+    "query": "handshake",
+    "icon": "lucide:handshake",
+    "version": "1.2.143",
+    "license": "ISC",
+    "source": "https://registry.npmjs.org/@iconify-json/lucide/-/lucide-1.2.143.tgz",
+    "body_sha256": "781689b764795f32f35e7c8ac3723c8461bc9067d6c2a256bb730867385643ba"
+  }
+]

@@ -23,6 +23,8 @@ FIGURES_YAML = CURATION / "figures.yaml"
 EXAMS_YAML = CURATION / "exams.yaml"
 FIGURE_META_DIR = CURATION / "figures"
 AI_LOG = CURATION / "ai-log.jsonl"
+ICON_PROVENANCE = CURATION / "icon-provenance.json"
+ICON_LICENSES = CURATION / "icon-library-licenses.txt"
 
 # --- generated (committed) ----------------------------------------------------
 CONTENT = ROOT / "content"
@@ -69,6 +71,11 @@ SCHEMAS = ROOT / "schemas"
 BUILD = ROOT / "build"
 CACHE = BUILD / "cache"
 STAMPS = BUILD / "stamps"
+ICON_CACHE = BUILD / "icon-cache"
+ICON_LIBRARIES = (
+    ("lucide", "1.2.143", "ISC", "https://raw.githubusercontent.com/lucide-icons/lucide/main/LICENSE"),
+    ("mdi", "1.2.3", "Apache-2.0", "https://raw.githubusercontent.com/Templarian/MaterialDesign/master/LICENSE"),
+)
 
 # --- source ids (keys of manifest.yaml) ---------------------------------------
 SKRIPT = "skript"

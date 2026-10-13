@@ -21,6 +21,7 @@ from __future__ import annotations
 import datetime
 import json
 import re
+from xml.sax.saxutils import escape
 from dataclasses import dataclass, field
 from typing import Callable
 from pathlib import Path
@@ -32,7 +33,7 @@ from .cache import key_for, sha256_file
 from .content_files import COMPLETE, EXAMS, FOOTER, SUMMARY_COMPLETE, ExportName
 from .pdf_html import Assets, convert
 
-RENDER_VERSION = 4                          # bump to invalidate every PDF (layout/CSS change)
+RENDER_VERSION = 5                          # include icon license metadata
 OUT_DIR = config.BUILD / "pdf"
 _IMAGE_LINK = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
 
@@ -67,7 +68,7 @@ def _image_inputs(link: str, base: Path) -> list:
 
 def input_key(files: list[Path], read: Callable[[Path], str] = read_file) -> str:
     """Hash of every file that influences the PDF: the markdown and what it shows for each image."""
-    parts: list = [RENDER_VERSION]
+    parts: list = [RENDER_VERSION, sha256_file(config.ICON_LICENSES) if config.ICON_LICENSES.exists() else None]
     for f in files:
         text = read(f)
         parts.append((f.name, key_for(text)))
@@ -111,6 +112,12 @@ def _save(parts: list[pymupdf.Document], headings: list[pdf_layout.Heading], toc
     pdf_layout.stamp(out, headings, FOOTER.format(today=today), skip)
     out.set_toc(toc)
     out.set_metadata(_metadata(title, today))
+    if config.ICON_LICENSES.is_file():
+        rights = escape(config.ICON_LICENSES.read_text(encoding="utf-8"))
+        out.set_xml_metadata('<x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">'
+                             '<rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/">'
+                             '<dc:rights><rdf:Alt><rdf:li xml:lang="x-default">'+rights+
+                             '</rdf:li></rdf:Alt></dc:rights></rdf:Description></rdf:RDF></x:xmpmeta>')
     path.parent.mkdir(parents=True, exist_ok=True)
     out.save(path, garbage=4, deflate=True)
     out.close()
