@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "chapter": 2,
+  "audio_sha256": "81eb7447ba243f98f78e13ba22a6a0062a3d6f59dab14a9b1e5e196108640aa0",
+  "pdf_sha256": "f4ea9b11f0fc55fb4e80c8c2306d5ed67d554f0cfb77660d64e3891d8264fecc",
+  "generator": "faster-whisper/tiny + lexical matching",
+  "annotations": [
+    {
+      "id": "auto-1",
+      "start": 322.12,
+      "end": 342.44,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.8165083135391924,
+        0.7602686008485425,
+        0.04838478650163302
+      ],
+      "label": "Darüber hinaus sind zwei weitere charakteristische Eigenschaften zu betrachten: Zum einen die\nNeuheit („novelt",
+      "transcript": "die kommerzielle wirtschaftliche Anwendung folgen.  Es muss also Neuheit plus Wert sein.  Genau.  Wir das mal in den größeren Zusammenhang stellen.  Innovation bedeutet, dass diese Neuheit einen bewiesenen Nutzen auf dem Markt generiert.  Jemand muss also bereit sein für meine Zeitmaschine Geld auf den Tisch zu legen, weil sie ein konkretes Problem für ihn löst.",
+      "target_text": "Darüber hinaus sind zwei weitere charakteristische Eigenschaften zu betrachten: Zum einen die\nNeuheit („novelty“) und zum anderen der Wert („value“). Neuheit plus Wert, deﬁnieren gemeinsam die\nInnovation.37\n",
+      "confidence": 0.303,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-2",
+      "start": 476.72,
+      "end": 495.0,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.5522564958223538,
+        0.7753275638868828,
+        0.08045133105932675
+      ],
+      "label": "Es gibt unterschiedliche Treiber für Innovation, welche aus unterschiedlichen Ursprüngen in\nvarlierenden Forme",
+      "transcript": "Es ist der Unterschied zwischen dem Klima und dem Motor deines Autos.  Okay.  Trends sind die Rahmenbedingungen.  Megatrends laufen über Jahrzehnte.  Sie formen die Gesellschaft um, sind global.  Wie zum Beispiel der Klimawandel.  Sie sind aber Träge.  Und Marco und Mikrotrends?  Diesen kurzen Lebegger.",
+      "target_text": "Es gibt unterschiedliche Treiber für Innovation, welche aus unterschiedlichen Ursprüngen in\nvarlierenden Formen auftreten können. Vergleicht man diese Treiber über ihren Zeithorizont und das\nEinﬂussgebiet so lassen sich diese in die 3 Hauptgruppen Megatrends, Makrotrends und Mikrotrends\ngliedern. Neben langfristigen globalen Trends können auch kurzfristige lokale Trends einen signiﬁkanten\nEinﬂuss auf den Innovationsbedarf haben.\n",
+      "confidence": 0.24,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-3",
+      "start": 588.92,
+      "end": 609.92,
+      "page": 10,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.12767220902612827,
+        0.772453577378217,
+        0.04838480462371029
+      ],
+      "label": "Wachstumsphase: Der Markt akzeptiert das Produkt, der Umsatz steigt sehr stark an. Ab dieser Phase\nkönnen bere",
+      "transcript": "Sie ist aufregend ja, in Phase 1 der Einführung.  Kauf nur ein paar Technik-Afine-Elli-Adoptas.  So, nörzt dein Produkt.  Du verbränsst das mal Geld für Marketing.  Dann in Phase 2, dem Wachstum, setzt sich der Standard durch,  die Umsätze explodieren, der Markt akzeptiert das Produkt.",
+      "target_text": "Wachstumsphase: Der Markt akzeptiert das Produkt, der Umsatz steigt sehr stark an. Ab dieser Phase\nkönnen bereits die ersten Imitat-Produkte auf den Markt kommen. Letztendlich wird sich ein Standard\ndurchsetzen.\n",
+      "confidence": 0.337,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-4",
+      "start": 648.92,
+      "end": 666.92,
+      "page": 10,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.27731591448931114,
+        0.7677980823677127,
+        0.04838478650163302
+      ],
+      "label": "Abschwung: Der Umsatz des Produkts geht zurück. Neue Entwicklungen substituieren oder überholen\ndas Produkt. D",
+      "transcript": "Was dann Nadelos in die Settikungsphase führt. Der Umsatz erreicht seinen absoluten Höhepunkt. Der Markt ist komplett abgegrast.  man braucht mehr ein neues Mardfahren, allerhaben 1.  Unter nach Kompasset 5, der Abschwung. Investition lohnt sich nicht mehr, das Produkt wird  still schweigend beerdigt.  Ein ganz natürlicher Tod.",
+      "target_text": "Abschwung: Der Umsatz des Produkts geht zurück. Neue Entwicklungen substituieren oder überholen\ndas Produkt. Die Marketingaktivitäten werden stark reduziert, da sich Investitionen in das Produkt nicht\nmehr rechnen.\n",
+      "confidence": 0.286,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-5",
+      "start": 666.92,
+      "end": 686.28,
+      "page": 15,
+      "type": "rect",
+      "rect": [
+        0.24987849387801997,
+        0.33464137278939654,
+        0.5002434225643382,
+        0.013668649270245695
+      ],
+      "label": "Abbildung 10: Portfolio Management für neue Produkte – Skript S. 36 (PDF 46)",
+      "transcript": "Wenn ich als Unternehmen also nicht mit einem einzigen Produkt untergehen will, brauche ich  logischerweise ein ganzes Portfolio von Produkten in verschiedenen Phasen dieser Eskurve.  Und dafür nutzt das Management die sogenannte Portfolio Matrix. Und dann nehmen wir ein  Ihre Produkte balanceieren. Du kategorisiertst sie in vier Quartranden.",
+      "target_text": "Abbildung 10: Portfolio Management für neue Produkte – Skript S. 36 (PDF 46)\n",
+      "confidence": 0.324,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-6",
+      "start": 861.48,
+      "end": 881.4,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6718041789220235,
+        0.7566048630145418,
+        0.04838478650163302
+      ],
+      "label": "Diese Dimension berücksichtigt die verschiedenen Arten der Innovation und beantwortet die Frage\n„Was ist neu?“",
+      "transcript": "Aber die Prozessinnovation zielt auf die innerbetriebliche Effizienze ab.  Sie beantwortet die Frage, ob wir die Dinge schneller, sicherer oder Beliege machen können.  Lassen Sie das auf meinen Müsli Problem vom Anfang anwenden.  Wenn die Müslimarke ein völlig neu-frezept mit  gefriergetrockneten exotischen Früchten entwickelt,  ist das eine Produktinnovation.",
+      "target_text": "Diese Dimension berücksichtigt die verschiedenen Arten der Innovation und beantwortet die Frage\n„Was ist neu?“. Dabei wird in der Literatur zwischen Produktinnovation, Prozessinnovation, Innovation\nvon Systemeigenschaften, Innovation jenseits der\n",
+      "confidence": 0.376,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-7",
+      "start": 961.74,
+      "end": 984.64,
+      "page": 19,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.24524940617577198,
+        0.7738149178128283,
+        0.08045129481517221
+      ],
+      "label": "Der Schlüssel zum Erfolg liegt in der Durchführung der Hausaufgaben und dem Frontloading des\nProdukts. Dabei i",
+      "transcript": "Klingt logisch. Wenn dein Produkt nicht signifikant besser ist als das der Konkurrenz wird es  in der Reifephase sofort sequencht. Aber der eigentliche Schlüssel zum Erfolg den Kube identifiziert  verbild sich hinter dem Fokus auf Hausaufgaben.  Im Kommentar steht nicht das Wort Frontloading auf.  heißt es einfach nur, dass ich am Anfang früher und klare Produkt Definition machen muss.",
+      "target_text": "Der Schlüssel zum Erfolg liegt in der Durchführung der Hausaufgaben und dem Frontloading des\nProdukts. Dabei ist Frontloading deﬁniert als \"eine Strategie, die darauf abzielt, die Entwicklungsleistung\nzu verbessern, indem die Identiﬁzierung und Lösung von Problemen in frühere Phasen des\nProduktentwicklungsprozesses verlagert wird\". Eine sorgfältige Projektprüfung vor Beginn der\nProduktentwicklung zahlt sich aus.\n",
+      "confidence": 0.269,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-8",
+      "start": 1003.64,
+      "end": 1026.64,
+      "page": 19,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.37173396674584325,
+        0.7462520054408482,
+        0.03235153234486342
+      ],
+      "label": "Spiralentwicklung —- bauen, testen, Feedback generieren und überarbeiten — etwas so früh wie\nmöglich den Kunde",
+      "transcript": "Aber verletman dadurch nicht extrem viel Zeit?  Deswegen sagt Cooper auch Geschwindigkeit zählt, aber nicht auf Kosten der Qualität.  Die Lösung dafür nennt sich Spiralentwicklung.  Spiralentwicklung, das heißt, bauen testen anpassen.  Ganz genau. Du baust einen frühen Prototyp, testest ihn am Markt, holst Feedback und drehst die nächste Schleife.",
+      "target_text": "Spiralentwicklung —- bauen, testen, Feedback generieren und überarbeiten — etwas so früh wie\nmöglich den Kunden zu präsentieren, hilft oft, das Produkt zu verbessern.\n",
+      "confidence": 0.345,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-9",
+      "start": 1026.64,
+      "end": 1045.72,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.8664489166187277,
+        0.35208394026555934,
+        0.016353942436163896
+      ],
+      "label": "Der Markt hat keinen Bedarf für das Produkt",
+      "transcript": "Wer diese Schleife nicht dreht und das Frontloading ignoriert, scheitert.  Weil der Markt schlicht weg kein Bedarf hat.  Das ist Erfolgsfaktor 2.  Eine Erfindung ohne Marktbedarf ist das klassische Rezept für einen weißen Elefanten.  Weitere Gründe für Schalten sind, dass das Produkt das Problem nicht wirklich löst,",
+      "target_text": "Der Markt hat keinen Bedarf für das Produkt\n",
+      "confidence": 0.315,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    }
+  ]
+}

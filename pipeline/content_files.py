@@ -59,6 +59,10 @@ def anki_export(slug: str, title: str) -> ExportName:
     return _named(f"{PREFIX}-{chapter_number(slug)}-Anki – {title}")
 
 
+def audio_export(slug: str, title: str) -> ExportName:
+    return _named(f"{PREFIX}-{chapter_number(slug)}-Audio – {title}")
+
+
 COMPLETE = _named(f"{PREFIX} Gesamtskript")
 SUMMARY_COMPLETE = _named(f"{PREFIX} Zusammenfassung gesamt")
 EXAMS = _named(f"{PREFIX} Prüfungsfragen")
@@ -73,6 +77,8 @@ SCRIPT_CHAPTERS = _named(f"{PREFIX} Skriptkapitel – je Kapitel")
 SUMMARY_CHAPTERS = _named(f"{PREFIX} Zusammenfassung – je Kapitel")
 NOTEBOOKS = _named(f"{PREFIX} NotebookLM-Kontext – je Kapitel")
 ANKI_CHAPTERS = _named(f"{PREFIX} Anki – je Kapitel")
+AUDIO_CHAPTERS = _named(f"{PREFIX} Audio – je Kapitel")
+INTERACTIVE_COMPLETE = _named(f"{PREFIX} Interaktiver-Kapitelreader")
 RELEASE_COMPLETE = _named(f"{PREFIX} Wissensbasis komplett")
 
 # Each stage that produces release assets lists them in its build directory, one

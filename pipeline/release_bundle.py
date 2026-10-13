@@ -22,9 +22,10 @@ import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 
-from . import config, content_files
+from . import chapter_audio, config, content_files
 from .cache import write_bytes_if_changed
-from .content_files import (ANKI_CHAPTERS, ANKI_COMPLETE, ANKI_PROFILE, ASSET_LIST, COMPLETE, EXAMS, NOTEBOOKS,
+from .content_files import (ANKI_CHAPTERS, ANKI_COMPLETE, ANKI_PROFILE, ASSET_LIST, AUDIO_CHAPTERS, COMPLETE, EXAMS, NOTEBOOKS,
+                            INTERACTIVE_COMPLETE,
                             RELEASE_COMPLETE, SCRIPT_CHAPTERS, SUMMARY_CHAPTERS, SUMMARY_COMPLETE,
                             ExportName)
 
@@ -38,7 +39,8 @@ SINGLES = ((COMPLETE, "1-Skript"), (SUMMARY_COMPLETE, "2-Zusammenfassungen"),
 PER_CHAPTER = ((content_files.chapter_export, SCRIPT_CHAPTERS, "1-Skript/Skriptkapitel"),
                (content_files.summary_export, SUMMARY_CHAPTERS, "2-Zusammenfassungen/Kapitel"),
                (content_files.notebook_export, NOTEBOOKS, "4-NotebookLM-Kontext"),
-               (content_files.anki_export, ANKI_CHAPTERS, "5-Anki/Kapitel"))
+               (content_files.anki_export, ANKI_CHAPTERS, "5-Anki/Kapitel"),
+               (content_files.audio_export, AUDIO_CHAPTERS, "6-Audio"))
 
 
 @dataclass(frozen=True)
@@ -103,6 +105,21 @@ def zip_bytes(files: dict[str, Path]) -> bytes:
     return buf.getvalue()
 
 
+def audio_assets(root: Path, chapters: list[content_files.ChapterFiles]) -> list[tuple[Path, str]]:
+    """Optional local audio is released only with canonical, chapter-specific names."""
+    by_number = {content_files.chapter_number(c.slug): c for c in chapters}
+    assets = []
+    for n, path in chapter_audio.discover(root).items():
+        c = by_number.get(n)
+        if c is None:
+            raise ValueError(f"Audio für unbekanntes Kapitel {n}")
+        name = content_files.audio_export(c.slug,c.title)
+        if path.stem != name.stem:
+            raise ValueError(f"Audio umbenennen: python -m pipeline.chapter_audio ({path.name})")
+        assets.append((path,name.label))
+    return assets
+
+
 def assets(release: Release) -> dict[str, tuple[str, bytes]]:
     """Asset file name → (label, bytes), the complete zip first."""
     out = {f"{RELEASE_COMPLETE.stem}.zip": (f"{RELEASE_COMPLETE.label} (alles in Ordnern)",
@@ -116,14 +133,31 @@ def assets(release: Release) -> dict[str, tuple[str, bytes]]:
 
 def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
     try:
-        release = plan(listed(config.BUILD), places(content_files.discover(config.CONTENT)))
+        chapters = content_files.discover(config.CONTENT)
+        release = plan(listed(config.BUILD) + audio_assets(config.AUDIO_DIR,chapters), places(chapters))
     except (FileNotFoundError, ValueError) as err:
         print(f"[release] Fehler: {err}")
         return 1
-    built = assets(release)
+    reader = config.INTERACTIVE_BUILD
     if dry_run:
-        print(f"[release] würde {len(built)} Assets nach {OUT_DIR.relative_to(config.ROOT)} schreiben")
+        count = 1 + len(release.bundles) + len(release.singles) + int((reader / "reader-manifest.json").is_file())
+        print(f"[release] würde {count} Assets nach {OUT_DIR.relative_to(config.ROOT)} schreiben")
         return 0
+    built = assets(release)
+    if (reader / "reader-manifest.json").is_file():
+        # A self-contained offline download; excludes local transcripts and original PDFs.
+        listing = reader / "reader-assets.txt"
+        if not listing.is_file():
+            print("[release] Reader-Dateiliste fehlt; zuerst python -m pipeline interactive")
+            return 1
+        files = {}
+        for rel in listing.read_text(encoding="utf-8").splitlines():
+            path = (reader / rel).resolve()
+            if not path.is_relative_to(reader.resolve()) or not path.is_file():
+                print(f"[release] Ungültiger Reader-Dateipfad: {rel}")
+                return 1
+            files[f"{INTERACTIVE_COMPLETE.stem}/{rel}"] = path
+        built[f"{INTERACTIVE_COMPLETE.stem}.zip"] = (INTERACTIVE_COMPLETE.label,zip_bytes(files))
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     for stale in [p for p in OUT_DIR.iterdir() if p.is_file() and p.name not in {*built, ASSET_LIST}]:
         stale.unlink()                       # renamed asset: the old one must not be released

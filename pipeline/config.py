@@ -10,6 +10,8 @@ ROOT = Path(__file__).resolve().parent.parent
 
 # --- inputs -----------------------------------------------------------------
 INPUT_DIR = ROOT / "input"                      # where the user drops files (git-ignored)
+AUDIO_DIR = ROOT / "audio"                      # local chapter recordings; release only, never Git
+INTERACTIVE_SOURCE = ROOT / "interactive"
 ORIGINALS_DIR = ROOT / "sources" / "original-pdfs"  # canonical local copies (git-ignored)
 MANIFEST = ROOT / "sources" / "manifest.yaml"
 OCR_DIR = ROOT / "sources" / "ocr"
@@ -69,6 +71,10 @@ SCHEMAS = ROOT / "schemas"
 BUILD = ROOT / "build"
 CACHE = BUILD / "cache"
 STAMPS = BUILD / "stamps"
+INTERACTIVE_BUILD = BUILD / "interactive"
+TRANSCRIPTS = BUILD / "transcripts"
+INTERACTIVE_CURATION = CURATION / "interactive"
+AUDIO_EXTENSIONS = (".m4a", ".mp3", ".wav", ".ogg", ".opus", ".mp4", ".webm")
 
 # --- source ids (keys of manifest.yaml) ---------------------------------------
 SKRIPT = "skript"

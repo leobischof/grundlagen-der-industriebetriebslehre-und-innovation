@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "chapter": 3,
+  "audio_sha256": "bfd315b8d087458912af6a4e527f3b8b00395bc313695d60abbcdc89fd203238",
+  "pdf_sha256": "9d0d5007fbdfb58be5ecfec04a15d6a76cb1388302785346f525b17fae19ec78",
+  "generator": "faster-whisper/tiny + lexical matching",
+  "annotations": [
+    {
+      "id": "auto-1",
+      "start": 114.68,
+      "end": 134.4,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.5969715254323783,
+        0.7632098798992253,
+        0.0644180406584026
+      ],
+      "label": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene",
+      "transcript": "und irgendwelche Management der Spurz stürzen,  wir müssen ganz grundlegend anfangs.  Wir brauchen Fundament.  Und bedingt hier.  Im Leitfaden wird ein Industrieunternehmen definiert,  als eine X-Tema-Kurz technische, soziale,  wirtschaftliche und umweltbezogene Einheit  zu kommunizieren, Produktion von Waren  innerhalb eines Fabriegsystems.",
+      "target_text": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit\ndem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen triﬀt und Risiken\neingeht.\n",
+      "confidence": 0.568,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-2",
+      "start": 154.8,
+      "end": 173.44,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.5969715254323783,
+        0.7632098798992253,
+        0.0644180406584026
+      ],
+      "label": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene",
+      "transcript": "in der Roboter-Arme, Funken-Sprüne und Autos zusammengeweisen.  Es ist zwingend auch eine soziale Einheit.  Ah, wegen der Mitarbeiter.  Genau.  Dort arbeiten Menschen.  Sie kommunizieren, sie bilden hier reichen.  Man kann es ehrlich sie tragen auch Konflikte aus.  Klar, wo Menschen sind gibt es Reiber.  Brechtig.  Und es ist eine wirtschaftliche Einheit,",
+      "target_text": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit\ndem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen triﬀt und Risiken\neingeht.\n",
+      "confidence": 0.313,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-3",
+      "start": 173.44,
+      "end": 192.44,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.5969715254323783,
+        0.7632098798992253,
+        0.0644180406584026
+      ],
+      "label": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene",
+      "transcript": "weil sie externe Bedürfnisse befriedigen muss.  Also das, was du als Kunde am Ende kaufen möchte.  Mhm.  Und das wichtigste dabei,  dass Unternehmen tut das ja nicht als Karinitativer Einrichtung.  Es geht ganz bewusst eigenriesigen Ein.  Das trifft autonome Entscheidungen und zielt eben auf kommerzielle Produktion ab.  Es geht also um das Kaliro.",
+      "target_text": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit\ndem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen triﬀt und Risiken\neingeht.\n",
+      "confidence": 0.362,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-4",
+      "start": 211.8,
+      "end": 230.8,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.5969715254323783,
+        0.7632098798992253,
+        0.0644180406584026
+      ],
+      "label": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene",
+      "transcript": "Beides sind ja irgendwie Wirtschafts einheiten.  Beide produzieren Schuhe um externe Bedürfnisse zu befriedigen.  Ja, aber da gibt es klare Trendlinien.  Der Leitfaden sieht er eine sehr detaillierte Grenze zwischen Handwerke und Industrie.  Das basiert auf 7 konkreten Merkmal.  Ok, let's m'a hören.",
+      "target_text": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit\ndem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen triﬀt und Risiken\neingeht.\n",
+      "confidence": 0.326,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-5",
+      "start": 529.66,
+      "end": 549.9,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.07363420427553444,
+        0.7757983167632287,
+        0.4357971046429632
+      ],
+      "label": "Das Arbeitssystem nach REFA (Abbildung 15) dient der Erfüllung von Arbeitsaufgaben in einem\nIndustriebetrieb.",
+      "transcript": "Ah!  Sie stehen eben nicht einfach isoliert, neben meiner Nandere.  Sie wirken zusammen.  Es ist eine permanent wechselseite Geinteraktion.  Der Mensch bedient also die Maschine und...  Und die Maschine reagiert.  Der Mensch überwacht den Prozess, die Maschine meldet Parameter zurück.  Dieses Zusammenwirken ist der eigentliche Motor des Systems.",
+      "target_text": "Das Arbeitssystem nach REFA (Abbildung 15) dient der Erfüllung von Arbeitsaufgaben in einem\nIndustriebetrieb. Hierbei wirken Mensch und Betriebsmittel mit der Eingabe unter Umwelteinﬂüssen\nzusammen.\n",
+      "confidence": 0.318,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-6",
+      "start": 568.42,
+      "end": 590.32,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.4761892576965187,
+        0.7500836412445838,
+        0.04838478650163302
+      ],
+      "label": "Die Eingabe eines Arbeitssystems besteht im Allgemeinen aus Arbeitsgegenständen, aber auch aus\nMenschen, Infor",
+      "transcript": "Das wirkt auf den ersten Blick völlig widersprüchlich.  Was meinst du?  Laut Text besteht der Input, also die Eingabe,  nicht nur aus Material oder Energie, sondern auch aus Informationen und Menschen.  Ah, ja.  Warte mal, wenn der Mensch doch in der Mitte des Systems steht und den Prozess zusammenn,  mit der Maschine ausführt, wie kann ein Mensch dann gleichzeitig die Eingabe also der",
+      "target_text": "Die Eingabe eines Arbeitssystems besteht im Allgemeinen aus Arbeitsgegenständen, aber auch aus\nMenschen, Informationen und Energie, die im Sinne der Arbeitsaufgabe in ihrem Zustand, ihrer Form\noder ihrer Lage verändert oder verwendet werden sollen.\n",
+      "confidence": 0.283,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-7",
+      "start": 610.3,
+      "end": 630.38,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5706073099530508,
+        0.7724535902007287,
+        0.03235153234486342
+      ],
+      "label": "Mensch und Betriebsmittel bzw. Arbeitsmittel sind die Kapazitäten des Arbeitssystems, die gemäß der\nArbeitsauf",
+      "transcript": "Die Arbeitersystem, der hier hoch und sein Skalpel bilden das Zentrum,  also Mensch und Betriebsmittel die zusammenwirken.  Der Patient auf der Lige ist in diesem spezifischen Moment das Objektearbeit.  Ach so.  Er ist die Eingabe.  Die Indersystem herreingebracht wird, den Prozess durchleuft und als Ausgabe  hoffentlich geheilt, das System wiederverlässt.",
+      "target_text": "Mensch und Betriebsmittel bzw. Arbeitsmittel sind die Kapazitäten des Arbeitssystems, die gemäß der\nArbeitsaufgabe die Eingabe in die Ausgabe verändern.\n",
+      "confidence": 0.37,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-8",
+      "start": 903.02,
+      "end": 922.54,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.276956771161947,
+        0.7509072440011161,
+        0.04838478650163302
+      ],
+      "label": "In dieser Kenngröße wird durch monetäre Bewertung der erstellten Leistung (Output) und der\nEinsatzfaktoren (In",
+      "transcript": "und betreten die Welt der Finanzen.  Also jetzt geht's ums Geld?  Genau.  Die Formel lautet hier Leistungsbedingte Erlöse,  geteilt durch Kosten.  Es geht um das monetäre Prinzip,  dass man oft als Erwirtschaften statt Verwirtschaften bezeichnet.  Das heißt, bei meinen tausend hässlichen Sneakern  habe ich enorme Kosten verursacht  für das Ledert in Strom der Maschinen die Löhne.",
+      "target_text": "In dieser Kenngröße wird durch monetäre Bewertung der erstellten Leistung (Output) und der\nEinsatzfaktoren (Input) das Wirtschaftlichkeitsprinzip („Erwirtschaften“ statt „Verwirtschaften“) konkret\ngefasst.\n",
+      "confidence": 0.372,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-9",
+      "start": 981.22,
+      "end": 1000.22,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.6188547311089667,
+        0.7659157376329438,
+        0.04838478650163302
+      ],
+      "label": "Rentabilität ist das Verhältnis des Gewinnes einer Rechnungsperiode zum eingesetzten Kapital\n(Kapitalrentabili",
+      "transcript": "Und wenn nicht?  Wenn nicht bist du in solvent, das ist der akute plötzliche Tod eines Unternehmens.  Okay, das ist Liquidität. Und rentabilität?  Rentabilität hingegen ist, wie hart dein eingesetztes Kapital für dich arbeitet.  Also, wie viel Gewinn erwirtschaftest du im Verhältnis zu dem Geld, dass du in die Fabrie gesteckt hast?",
+      "target_text": "Rentabilität ist das Verhältnis des Gewinnes einer Rechnungsperiode zum eingesetzten Kapital\n(Kapitalrentabilität), bzw. lässt sich allgemein die Überlegung herleiten: „Welchen Erfolg hat man erzielt\nund wie viel hat man einsetzen müssen, um diesen Erfolg zu erreichen.“\n",
+      "confidence": 0.337,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-10",
+      "start": 1114.98,
+      "end": 1135.98,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.14729410379874605,
+        0.42839311250881457,
+        0.4486048466017266,
+        0.016318278188093824
+      ],
+      "label": "•  Kapital (Betriebsmittel, Finanzmittel, Material und Energie)",
+      "transcript": "Genau Mensch und Betriebsmittel.  Triebsmittel und so.  Richtig.  Hier talte man die Infos ein in den Menschen, in Informationen und in das sogenannte Kapital.  Wobei Kapital bei Riefer nicht nur Geld ist, oder?  Genau.  Das ist ein Sammelbegriff für Finanzmittel, Betriebsmittel, Material und Energie.  Das ist sehr praxisnah und direkt am Fließbandorientiert.",
+      "target_text": "•  Kapital (Betriebsmittel, Finanzmittel, Material und Energie)\n",
+      "confidence": 0.839,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-11",
+      "start": 1177.98,
+      "end": 1195.98,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.14729410379874605,
+        0.49311995336392145,
+        0.7288903885528821,
+        0.03235153234486342
+      ],
+      "label": "•  Potenzial- und Humanfaktoren (Gebäude, Betriebsmittel, Menschen): Stellen Nutzungspotenzial\nfür Wiederholun",
+      "transcript": "weil wir ein Nutzungspotenzial bereitstellen.  Wir machen 100 Espresse, aber danach haben wir uns ja nicht in Luft aufgelöst.  Wir sind noch da.  Der Kernner allerologie ist völlig richtig.  Aber wir müssen das für die Industrie noch ein bisschen weiterfassen.  Du als Berister und die Cafémaschine, ihr stellt ein Potenzial zur Verfügung.",
+      "target_text": "•  Potenzial- und Humanfaktoren (Gebäude, Betriebsmittel, Menschen): Stellen Nutzungspotenzial\nfür Wiederholungen zur Verfügung\n",
+      "confidence": 0.48,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    }
+  ]
+}

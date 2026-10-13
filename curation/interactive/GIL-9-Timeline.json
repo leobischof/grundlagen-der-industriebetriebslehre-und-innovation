@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "chapter": 9,
+  "audio_sha256": "9a07bddd2302441beea3000d6beafeb5d86cb45219348ac261f9927bc45128a2",
+  "pdf_sha256": "9b9b95cef0c8f63dada4c471328a15f7cf643c48231ba1606d9bfd4a636433f1",
+  "generator": "faster-whisper/tiny + lexical matching",
+  "annotations": [
+    {
+      "id": "auto-1",
+      "start": 546.84,
+      "end": 564.84,
+      "page": 19,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.3772552562722684,
+        0.694016592843192,
+        0.016318278188093824
+      ],
+      "label": "Die GAE repräsentiert somit die wertvolle Betriebszeit in Prozent der theoretischen Kapazität.",
+      "transcript": "Deine Maschine läuft also in Wahrheit mit knapp 73 Prozent ihrer theoretischen Kapazität.  Über ein Firtel deines Potenzias ist einfach weg.  Obwohl sich jeder Einzelwert nach der Garten einserne hört.  Es ist verrückt oder ein Firtel. Es ist einfach weg.  Aber wo genau verschwinde diese ganze Leistung?",
+      "target_text": "Die GAE repräsentiert somit die wertvolle Betriebszeit in Prozent der theoretischen Kapazität.\n",
+      "confidence": 0.296,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-2",
+      "start": 622.36,
+      "end": 644.16,
+      "page": 20,
+      "type": "rect",
+      "rect": [
+        0.2792642032398897,
+        0.3186955032892295,
+        0.44147190126050423,
+        0.013668649270245695
+      ],
+      "label": "Abbildung 75: Enterprise resource planning – Skript S. 164 (PDF 174)",
+      "transcript": "Absolut.  Und hier kommt an der Röntgen Apparat ins Spiel, den wir am Anfang gesucht haben.  In der Industrie nennt man das EAP-Systeme, also Enterprise Resource Planning.  Aber wie genau macht so eine Software diese Verluste sichtbar?  Ich meine es sind nicht einfach nur eine riesige Bunde Exxel-Tabelle, oder?  Nein, überhaupt nicht.  Ein modernes EAP-System ist im Grunde, dass digitale Nervensystem der gesamten Fabriek.",
+      "target_text": "Abbildung 75: Enterprise resource planning – Skript S. 164 (PDF 174)\n",
+      "confidence": 0.506,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-3",
+      "start": 701.28,
+      "end": 720.92,
+      "page": 25,
+      "type": "rect",
+      "rect": [
+        0.28244277569426207,
+        0.24970745530660815,
+        0.43511473070673584,
+        0.013668649270245695
+      ],
+      "label": "Abbildung 79: Dilemma der Ablaufplanung – Skript S. 168 (PDF 178)",
+      "transcript": "Und damit haben Sie direkt in das, was im Skript als,  dass die Lämmer der Ablaufplanung nach Gutenberg beschrieben wird richtig?  Ja, ein absoluter Klassiker der Produktionswirtschaft.  Dieses Dilemma beschreibt einen physikalischen und matematischen Konflikt,  die man nicht einfach wegmännischen kann, egal wie sie immer in es versucht.  Es gibt der Zweiziele, die sich beisen.",
+      "target_text": "Abbildung 79: Dilemma der Ablaufplanung – Skript S. 168 (PDF 178)\n",
+      "confidence": 0.345,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-4",
+      "start": 933.68,
+      "end": 952.08,
+      "page": 32,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.42686502270913745,
+        0.7556803086224724,
+        0.03235153234486342
+      ],
+      "label": "Tragen sekundär zur Leistung bei (z.B. Ledersitze in einem Auto). Fließender Übergang zwischen der\nDimension L",
+      "transcript": "Wobei man sagen muss, dass Qualität ein extrem dehnbarer Begriff ist.  Forscher wie David Garwin haben das sehr schön verschiedene Dimension zerlegt.  Qualität ist eben nicht nur das etwas nicht sofort kaputtgeht.  Garwin spricht davon acht Dimensionen richtig.  Das reicht von der Puh in Leistung, also fährt das Auto schnell,",
+      "target_text": "Tragen sekundär zur Leistung bei (z.B. Ledersitze in einem Auto). Fließender Übergang zwischen der\nDimension Leistung und Ausstattung.\n",
+      "confidence": 0.286,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-5",
+      "start": 1015.34,
+      "end": 1036.34,
+      "page": 33,
+      "type": "rect",
+      "rect": [
+        0.14729411662125788,
+        0.6306413301662708,
+        0.7037139892578125,
+        0.04838478650163302
+      ],
+      "label": "•  Statistische Prozesskontrolle (SPC): Ist eine operativ orientierte Technik zur\nQualitätsverbesserung. Sie k",
+      "transcript": "Prozesskontrolle richtig.  Ganz genau.  Die Statistische Prozesskontrolle,  misst quasi die natürliche Variabilität von Maschine.  Keine einzige Maschine, bord ein Loch jedes Mal auf den 100. Minimeter genau identisch.  Es gibt immer minimale Abweichungen.  Richtig.  Und die Statistik hilft uns diese Abweichungen in Echtzeit zu messen.",
+      "target_text": "•  Statistische Prozesskontrolle (SPC): Ist eine operativ orientierte Technik zur\nQualitätsverbesserung. Sie kann als Qualitätsprüfung für Prozesse und nicht für das\nProduktdesign angesehen werden und basiert auf einer inhärenten Variabilität der Prozesse.\n",
+      "confidence": 0.277,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-6",
+      "start": 1160.98,
+      "end": 1179.38,
+      "page": 9,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.12767220902612827,
+        0.5571763238987001,
+        0.01631828724913246
+      ],
+      "label": "Gewinnbeitrag = Zproaucts (Preis pro Einheit - variable Kosten pro Einheit)",
+      "transcript": "Aber diese ganze Flexibilität und agilität, das hat doch sein Preis.  Wenn wir uns die Wirtschaftlichkeit ansehen, landen wir unausweichlich beim Skalenefekt  den sogenannten Economies of Scales.  Das ist das Eisernengesetz der Masse-Produktion.  Hohe Stückzahlen senken die Fixkosten pro Einheit.",
+      "target_text": "Gewinnbeitrag = Zproaucts (Preis pro Einheit - variable Kosten pro Einheit)\n",
+      "confidence": 0.33,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-7",
+      "start": 1221.58,
+      "end": 1240.1,
+      "page": 36,
+      "type": "rect",
+      "rect": [
+        0.14729410379874605,
+        0.7774490755131013,
+        0.7373273961684284,
+        0.1445843114422506
+      ],
+      "label": "•  Materialkosten Die Kosten hängen vom Volumen und der Produktvielfalt ab. Durch ein höheres\nVolumen, sinken",
+      "transcript": "Und wie er in uns anders bestands die Lämmer,  dein Lagerplatt aus allen Netten. Dein gebundenes Kapital steigt.  Die Kosten für diese Komplexität steigen also exponentiell an.  Genau.  Hohe Qualität und hohe Flexibilität schließen sich zwar nicht aus.  Aber unendliche Vielfalt ist der natürliche Feind der geringen Stück Kosten.",
+      "target_text": "•  Materialkosten Die Kosten hängen vom Volumen und der Produktvielfalt ab. Durch ein höheres\nVolumen, sinken die Kosten pro Einheit im Allgemeinen, da die Fixkosten auf eine höhere Anzahl\nvon Einheiten verteilt werden können. Dieser Skaleneﬀekt kann aber auch reduziert werden,\nwenn bei zunehmender Stückzahl die Komplexität in der Produktion zu stark ansteigt. Die\nProduktvielfalt kann auch die Komplexität und damit die Kosten erhöhen. Die Komplexität kann\ndurch Designvereinfachungen und Standard",
+      "confidence": 0.25,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    }
+  ]
+}

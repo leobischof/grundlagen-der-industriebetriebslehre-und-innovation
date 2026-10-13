@@ -1,0 +1,24 @@
+import {test} from "node:test";
+import assert from "node:assert/strict";
+import {activeAt, validateTimeline} from "./reader-timeline.mjs";
+
+const annotation = {id:"a", start:10, end:20, page:2, type:"rect", rect:[.1,.2,.5,.2], status:"unreviewed"};
+const timeline = () => ({version:1, chapter:2, audio_sha256:"audio", pdf_sha256:"pdf", annotations:[structuredClone(annotation)]});
+test("seek forward, backward and across end-exclusive boundaries", () => {
+  for (const [time, expected] of [[0,0],[10,1],[19.9,1],[20,0],[12,1],[5,0]]) assert.equal(activeAt([annotation],time).length,expected);
+});
+test("reject wrong document identity, invalid geometry, pages and timestamps", () => {
+  assert.throws(() => validateTimeline(timeline(), {pdfHash:"other"}));
+  assert.throws(() => validateTimeline(timeline(), {audioHash:"other"}));
+  assert.throws(() => validateTimeline(timeline(), {chapter:3}));
+  for (const change of [{end:9},{start:-1},{page:0},{page:3},{rect:[.9,0,.5,.2]},{rect:[0,0,-1,.2]},{type:"script"}]) {
+    const t = timeline(); Object.assign(t.annotations[0], change);
+    assert.throws(() => validateTimeline(t, {pages:2}));
+  }
+  assert.equal(validateTimeline(timeline(), {pages:2, duration:30}).annotations.length,1);
+});
+test("arrows use normalized endpoints; IDs cannot be repeated", () => {
+  const t = timeline(); t.annotations[0] = {...annotation,type:"arrow",points:[.1,.2,.8,.9]};
+  validateTimeline(t);
+  t.annotations.push({...t.annotations[0]}); assert.throws(() => validateTimeline(t));
+});

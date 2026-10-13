@@ -164,7 +164,7 @@ damit man im Release sieht, was ein PDF, ein Zip, eine Markdown-Datei oder ein A
 
 **Aufbau des Releases** (Regel, Stufe `release`): Kapitelweises kommt nie als einzelne Assets ins
 Release, sondern je Art in **ein Zip**; Dateien für den ganzen Kurs bleiben einzeln; dazu **ein
-Alles-Zip** mit dem gesamten Release in Ordnern. Ein Release hat damit zehn Assets:
+Alles-Zip** mit dem gesamten Release in Ordnern. Ohne optionale Medien hat ein Release zehn Assets:
 
 | Asset | Label | Inhalt |
 |---|---|---|
@@ -181,6 +181,13 @@ Alles-Zip** mit dem gesamten Release in Ordnern. Ein Release hat damit zehn Asse
 
 Jede Datei, die eine Stufe in ihrer `release-assets.tsv` nennt, braucht einen Platz in
 `release_bundle.SINGLES` oder `PER_CHAPTER`; sonst bricht `release` ab, statt sie still wegzulassen.
+
+**Optionale Audios und interaktiver Reader.** Lokale Kapitelaufnahmen unter `audio/` sind
+git-ignoriert und heißen `GIL-<N>-Audio-<Titel>.<Endung>`. `release` nimmt vorhandene Aufnahmen
+als `GIL-Audio-je-Kapitel.zip` sowie im Gesamt-Zip unter `6-Audio/` auf. Ein gebauter Reader
+kommt zusätzlich als eigenständiges `GIL-Interaktiver-Kapitelreader.zip` mit PDF, Audio-Ordner,
+Timeline-Dateien und lokalem PDF.js dazu. Einrichtung, automatische Vorbereitung und Korrektur:
+[interactive-reader.md](interactive-reader.md). Diese optionalen Dateien fehlen bewusst in CI.
 
 **NotebookLM-Dateien.** Jede Datei ist der vollständige Kontext für ein Kapitel – für NotebookLM
 (eine Datei als einzige Quelle, z. B. eine Audio-Zusammenfassung je Kapitel) und jedes andere

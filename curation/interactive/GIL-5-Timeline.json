@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "chapter": 5,
+  "audio_sha256": "79fde492d3d270541224f8cafa6058b4b732d7d0b134e7eb67b30962deddeb5c",
+  "pdf_sha256": "36edfa40c4d561b83120a6163493d9d767d50256e8adcdf05c0843e9e79fbb28",
+  "generator": "faster-whisper/tiny + lexical matching",
+  "annotations": [
+    {
+      "id": "auto-1",
+      "start": 243.24,
+      "end": 263.24,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.2288641921612395,
+        0.34093158205444624,
+        0.5422718721277574,
+        0.013668649270245695
+      ],
+      "label": "Abbildung 25: Zielsystem, Handlungssystem und Sachsystem – Skript S. 77 (PDF 87)",
+      "transcript": "Das Handlungssystem nimmt die Vorgaben aus dem Zielsystem und wandelt sie in das Sachsystem um.  Okay, lassen Sie das mal kurz aufschlüsse, damit das nicht so wahnsinnig abstrakt bleibt.  In den alten Notizen gab es oft dieses Beispiel vom Kuchenwackung, aber ich finde, das greif bei industrieller Komplexitäten, das hier so kurz.  Stellt ihr stattdessen vor, wie organisieren ein gigantisches Musikfestewel.",
+      "target_text": "Abbildung 25: Zielsystem, Handlungssystem und Sachsystem – Skript S. 77 (PDF 87)\n",
+      "confidence": 0.509,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-2",
+      "start": 318.64,
+      "end": 337.76,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.4931673244739089,
+        0.7668231739717372,
+        0.09648454897194181
+      ],
+      "label": "Eﬀektivität und Eﬃzienz sind wesentlich für die Realisierung einer erfolgreichen Produktinnovation.\nEinerseits",
+      "transcript": "Die Tränung von Effektivität und Effizienz.  Das sind ja so klassische Buswurst, die Leute in Meetings wahnsinnig gerne will durch die Nunderwerfen.  Leider ja, das stimmt.  Aber in der Produktentstehung ist dieser Unterschied existenziell.  Effektivität bedeutet,  zu do the right project.",
+      "target_text": "Eﬀektivität und Eﬃzienz sind wesentlich für die Realisierung einer erfolgreichen Produktinnovation.\nEinerseits ist es wichtig, das richtige Projekt zu verfolgen (to do the right project - eﬀectivity),\nandererseits ist es wichtig, das Projekt richtig abzuwickeln (to do the project right - eﬃciency).\nEﬀektivität ist ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines gesetzten\nZiels beschrieben werden können. Beispielsweise besteht Potenzial, die Eﬀektivität zu steigern, inde",
+      "confidence": 0.308,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-3",
+      "start": 520.72,
+      "end": 541.36,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.7288295718666493,
+        0.7548064287971048,
+        0.0644180406584026
+      ],
+      "label": "Die Kostenfestlegung in der Produktentstehung erfolgt sehr früh im Prozess. In einer frühen Phase, in\nder erst",
+      "transcript": "Zu diesem Zeitpunkt sind vielleicht 5% der gesamten späteren Kosten deines Produkts  tatsächlich verursacht.  Also vom Konto abgebucht.  Mhm.  Aber und hier wird es wirklich interessant.  Durch die Entscheidung, die dieses kleine Themen genau jetzt trifft.  Werden bereits rund 80 Prozent der gesamten zukünftigen Kosten",
+      "target_text": "Die Kostenfestlegung in der Produktentstehung erfolgt sehr früh im Prozess. In einer frühen Phase, in\nder erst 5% der Kosten tatsächlich verursacht wurden, sind bereits ca. 80% der Kosten festgelegt.\nSpeziell in diesem Zusammenhang ist ersichtlich, dass ein integrierter Produktentstehungsprozess\nunerlässlich ist, um Eﬃzienz und Eﬀektivität in der Produktentstehung zu gewährleisten.\n",
+      "confidence": 0.324,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-4",
+      "start": 715.6,
+      "end": 736.16,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.35748218527315917,
+        0.7743863915194984,
+        0.08045129481517221
+      ],
+      "label": "Technologische Integration ermöglicht eine einheitliche, digitale Entwicklung, Produktion und\nDistribution, z.",
+      "transcript": "V.a. wir vielleicht mit der technologischen und organisatorischen Ebene an.  Technologisch bedeutet, wir nutzen gemeinsam Datenbasen.  Das spricht jeder immer von CRD und PDM.  Was genau ist das?  Ziel AD sind Computer-Ade Designprogramme.  Also die Software mit der man digitale 3D-Modelle baut.  PDM steht für Product Data Management.",
+      "target_text": "Technologische Integration ermöglicht eine einheitliche, digitale Entwicklung, Produktion und\nDistribution, z.B. Datenintegration und integrative Eigenschaftsfrüherkennung. Datenintegration kann\ndurch die Implementierung von PDM-Systemen (Product Data Management) und die Bereitstellung von\ngängigen Schnittstellen wie CAD-CAM erfolgen. Eine integrative Eigenschaftsfrüherkennung kann durch\nSimulation oder Rapid Prototyping realisiert werden.\n",
+      "confidence": 0.267,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-5",
+      "start": 856.84,
+      "end": 878.2,
+      "page": 10,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.3722804198638843,
+        0.4399662178103663,
+        0.016318278188093824
+      ],
+      "label": "Simultaneous Engineering basiert auf drei Grundprinzipien:",
+      "transcript": "Genial.  Und wenn wir all diese ebennen, also Menschen, Methode, Organisation und Technologie kombinieren,  dann landen wir bei dem Konzept, dass die moderne Industrie Revolutioniert hat.  Das sogenannte Simultaneous Engineering, also die gleichzeitige Parallelle Entwicklung.  Genau. Das Ziel des Simultaneous Engineering ist es, das klassische margische drei Ecke in den Entwicklungen zu knacken.",
+      "target_text": "Simultaneous Engineering basiert auf drei Grundprinzipien:\n",
+      "confidence": 0.402,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-6",
+      "start": 1053.08,
+      "end": 1075.68,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6902221534710882,
+        0.29322685434036894,
+        0.016353942436163896
+      ],
+      "label": "Point-based Concurrent Engineering",
+      "transcript": "Wer kämpft dagegen?  Auf der einen Seite haben wir das klassische Point-based concurrent engineering.  Nennen wir es mal PBCE.  Auf der anderen Seite steht das Set-Based concurrent engineering, das SPCE.  Welches vor allem durch den Erfolg von Toyota so richtig berühmt wurde?  Wo liegt da der Unterschied?  Bei der Point-based Methode sucht das Entwickler Team sehr früh nach der einen besten",
+      "target_text": "Point-based Concurrent Engineering\n",
+      "confidence": 0.587,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-7",
+      "start": 1096.28,
+      "end": 1114.48,
+      "page": 13,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.2947218616331558,
+        0.27736130401867776,
+        0.016353924314086624
+      ],
+      "label": "Set-based Concurrent Engineering",
+      "transcript": "Man tasset sich in solchen Schleifenvorwärts.  Und wie macht Toyota das beim Set-Based Engineering?  Die drehen diese Logik komplett um.  Man entscheidet sich nicht früh für eine einzige Lösung.  Sonder?  Stattdessen entwickelt man über einen sehr langen Zeitraum ganz der Lösungssetz, also mehrere  echte Alternativen.",
+      "target_text": "Set-based Concurrent Engineering\n",
+      "confidence": 0.356,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-8",
+      "start": 1151.72,
+      "end": 1169.72,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.75251432948894,
+        0.766722440318901,
+        0.03235153234486342
+      ],
+      "label": "\"Point-based\"” Ansätze sind gekennzeichnet durch die Entwicklung von einem Punkt/einer Lösung zum\nnächsten Pun",
+      "transcript": "PBCE, also der Point-Bast-Ansatz sieht so aus.  Ich schau aber heute aus dem Fenster, entscheidet mich für exakt ein,  Okay.  Sagen wir eine Blaugines und einen Dünn-Pulover.  Das ist mein Punkt.  In den nächsten Tagen höre ich den Wetterbericht.  Oh, es soll kälter werden.  Okay, fiedbeckschleife.",
+      "target_text": "\"Point-based\"” Ansätze sind gekennzeichnet durch die Entwicklung von einem Punkt/einer Lösung zum\nnächsten Punkt/zur nächsten Lösung im Lösungsraum (siehe Abbildung 31).\n",
+      "confidence": 0.532,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    },
+    {
+      "id": "auto-9",
+      "start": 1346.44,
+      "end": 1367.68,
+      "page": 16,
+      "type": "rect",
+      "rect": [
+        0.14729411662125788,
+        0.9002375296912114,
+        0.6821845815963103,
+        0.016318278188093824
+      ],
+      "label": "•  Entwicklung neuer Problemlösungen für neue Produkte oder zur Verbesserung des Preis-",
+      "transcript": "Wir wollen Marktbedürfnisse und technologische Möglichkeiten erkennen,  lange bevor die Konkurrenz überhaupt aufracht.  Macht's.  Zweitens, Innovation.  Wir wollen nicht nur alte Produkte ein bisschen Hübschamachen, sondern durch die kluge Integration  von 90.  Login völlig neue Problemlösungen anbieten.  Denkt er mal an die mich atronig, wo Mechanik, Elektronik und Software verschmelzen, das",
+      "target_text": "•  Entwicklung neuer Problemlösungen für neue Produkte oder zur Verbesserung des Preis-\n",
+      "confidence": 0.416,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "pointer": true
+    }
+  ]
+}

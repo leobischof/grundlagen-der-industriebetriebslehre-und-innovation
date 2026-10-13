@@ -7,6 +7,8 @@
 
 # --- reproduzierbare Zwischenstände (Cache, Stempel) ---
 /build/
+/audio/
+/interactive/node_modules/
 
 # --- persönlicher Lernfortschritt: nie committen ---
 /learning/progress/*
@@ -27,3 +29,6 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
+
+*.[mM][pP]3
+*.[mM]4[aA]
