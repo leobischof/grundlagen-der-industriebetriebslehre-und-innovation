@@ -114,6 +114,8 @@ def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
               f"nach {OUT_DIR.relative_to(config.ROOT)} schreiben")
         return 0
     OUT_DIR.mkdir(parents=True, exist_ok=True)
+    if config.ICON_LICENSES.is_file():
+        shutil.copyfile(config.ICON_LICENSES, OUT_DIR / config.ICON_LICENSES.name)
     # Leftovers of an earlier export (renamed chapter, dropped figure, the PNGs of older
     # versions) would be published too.
     for stale in [p for p in OUT_DIR.iterdir() if p.is_file() and p.name not in files and p.name not in used]:

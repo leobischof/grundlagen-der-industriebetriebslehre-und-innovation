@@ -26,6 +26,7 @@ COMMANDS: dict[str, tuple[str, str]] = {
     # after exams/link/exercises: section frontmatter lists the exam questions
     # from topic-mapping.json and figure captions link the drawing exercises
     "build-content": ("build_content", "Kapitel-/Abschnitts-Markdown → content/"),
+    "figure-icons": ("figure_icons", "Freie Icons automatisch suchen und in SVG-Rekonstruktionen einbetten"),
     "render-pdf": ("render_pdf", "Kapitel- und Gesamt-PDFs aus content/ → build/pdf"),
     "export-md": ("export_markdown", "flacher Markdown-Export (Kapitel, Gesamt, Prüfungsfragen) → build/markdown"),
     "export-notebooklm": ("export_notebooklm", "je Kapitel eine NotebookLM-Datei (Anleitung, Leitfaden, Fragen, Gesamtskript) → build/notebooklm"),

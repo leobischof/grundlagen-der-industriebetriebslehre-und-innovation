@@ -60,8 +60,10 @@ reconstruction:
   notes: >-
     Per Nebeneinander-Vergleich mit dem Original geprüft; alle Texte, die Treppe mit den acht
     Punkten und die drei Kreislaufpfeile stimmen überein. Die Piktogramme (Zahnräder, Arbeiter am
-    Fließband, Roboterarm, Roboterarm/WLAN/Mensch/Smartphone) sind nicht nachgebildet, sondern als
-    gestrichelte Platzhalter mit ihrer Bedeutung als Text ersetzt. Die strukturierte Füllung der
+    Fließband, Roboterarm, Roboterarm/WLAN/Mensch/Smartphone) sind nicht nachgebildet, sondern durch
+    freie Bibliotheksicons aus Lucide bzw. Material Design Icons angenähert. Ihre Bedeutung bleibt
+    zusätzlich als Text erhalten; Quellen und Lizenzen stehen in curation/icon-provenance.json
+    und curation/icon-library-licenses.txt. Die strukturierte Füllung der
     Punkte ist als einfaches Hellgrau wiedergegeben. Der am oberen Rand des Scan-Ausschnitts
     angeschnittene Text (Bildunterschrift) gehört nicht zur Abbildung und fehlt. Wortlaut ohne
     Leerzeichen nach der Ordnungszahl („1.Industrielle Revolution“) wie im Original.

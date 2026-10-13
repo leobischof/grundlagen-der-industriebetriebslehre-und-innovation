@@ -56,8 +56,10 @@ reconstruction:
   notes: >-
     Per Nebeneinander-Vergleich mit dem Original geprüft; alle 17 Kacheln mit Nummer und Titel im
     Originalwortlaut und Original-Zeilenumbruch, Grautöne der Graustufen-Wiedergabe angenähert. Die
-    Piktogramme der Kacheln sind nicht nachgebildet, sondern durch einen einfachen weißen Ring als
-    Platzhalter ersetzt; das SDG-Logo (farbiges Rad) ist durch einen grauen Ring und seinen Wortlaut
+    Piktogramme der Kacheln sind nicht nachgebildet, sondern durch freie Lucide-Icons angenähert;
+    die Zielnummern und Zieltitel bleiben vollständig erhalten. Dies sind keine offiziellen
+    UN-SDG-Piktogramme. Quellen und Lizenzen stehen in curation/icon-provenance.json und
+    curation/icon-library-licenses.txt. Das SDG-Logo (farbiges Rad) ist durch einen grauen Ring und seinen Wortlaut
     „ZIELE FÜR NACHHALTIGE ENTWICKLUNG“ ersetzt. Die schmale Schrift des Originals ist durch
     horizontal gestauchtes Arial angenähert.
 source:
