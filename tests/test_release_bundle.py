@@ -16,11 +16,11 @@ CHAPTERS = [ChapterFiles("01-a", "Die Industrie", []), ChapterFiles("02-b", "Ind
 def _build(tmp_path: Path, extra: str = "") -> Path:
     """A build/ tree with what render-pdf, export-notebooklm and anki list."""
     lists = {
-        "pdf": ["GIL-Gesamtskript.pdf", "GIL-Skriptkapitel-1-Die-Industrie.pdf",
-                "GIL-Skriptkapitel-2-Industrielle-Innovation.pdf", "GIL-Zusammenfassung-Kapitel-2-Industrielle-Innovation.pdf",
+        "pdf": ["GIL-Gesamtskript.pdf", "GIL-1-Skriptkapitel-Die-Industrie.pdf",
+                "GIL-2-Skriptkapitel-Industrielle-Innovation.pdf", "GIL-2-Zusammenfassung-Industrielle-Innovation.pdf",
                 "GIL-Pruefungsfragen.pdf"],
-        "notebooklm": ["GIL-NotebookLM-Kontext-Kapitel-2-Industrielle-Innovation.md"],
-        "anki": ["GIL-Anki-Karteikarten.apkg", "GIL-Anki-Sammlung-ersetzt-alles.colpkg", "GIL-Anki-Kapitel-1-Die-Industrie.apkg", *([extra] if extra else [])],
+        "notebooklm": ["GIL-2-NotebookLM-Kontext-Industrielle-Innovation.md"],
+        "anki": ["GIL-Anki-Karteikarten.apkg", "GIL-Anki-Sammlung-ersetzt-alles.colpkg", "GIL-1-Anki-Die-Industrie.apkg", *([extra] if extra else [])],
     }
     root = tmp_path / "build"
     for source, names in lists.items():
@@ -49,12 +49,12 @@ def test_complete_zip_holds_every_file_once_sorted_into_folders(tmp_path: Path):
     label, data = built["GIL-Wissensbasis-komplett.zip"]
     names = zipfile.ZipFile(io.BytesIO(data)).namelist()
     assert len(names) == 9 and all(n.startswith("GIL-Wissensbasis-komplett/") for n in names)
-    assert "GIL-Wissensbasis-komplett/1-Skript/Skriptkapitel/GIL-Skriptkapitel-1-Die-Industrie.pdf" in names
+    assert "GIL-Wissensbasis-komplett/1-Skript/Skriptkapitel/GIL-1-Skriptkapitel-Die-Industrie.pdf" in names
     assert "GIL-Wissensbasis-komplett/5-Anki/GIL-Anki-Karteikarten.apkg" in names
-    assert "GIL-Wissensbasis-komplett/4-NotebookLM-Kontext/GIL-NotebookLM-Kontext-Kapitel-2-Industrielle-Innovation.md" in names
+    assert "GIL-Wissensbasis-komplett/4-NotebookLM-Kontext/GIL-2-NotebookLM-Kontext-Industrielle-Innovation.md" in names
     chapter_zip = zipfile.ZipFile(io.BytesIO(built["GIL-Skriptkapitel-je-Kapitel.zip"][1])).namelist()
-    assert chapter_zip == ["GIL-Skriptkapitel-je-Kapitel/GIL-Skriptkapitel-1-Die-Industrie.pdf",
-                           "GIL-Skriptkapitel-je-Kapitel/GIL-Skriptkapitel-2-Industrielle-Innovation.pdf"]
+    assert chapter_zip == ["GIL-Skriptkapitel-je-Kapitel/GIL-1-Skriptkapitel-Die-Industrie.pdf",
+                           "GIL-Skriptkapitel-je-Kapitel/GIL-2-Skriptkapitel-Industrielle-Innovation.pdf"]
     assert len(built) == 9 and label.startswith("GIL Wissensbasis komplett")
 
 

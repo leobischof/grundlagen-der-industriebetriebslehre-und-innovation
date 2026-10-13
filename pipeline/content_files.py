@@ -43,20 +43,20 @@ def chapter_number(slug: str) -> int:
 
 
 def chapter_export(slug: str, title: str) -> ExportName:
-    """'GIL Skriptkapitel 2 – Industrielle Innovation' / GIL-Skriptkapitel-2-Industrielle-Innovation."""
-    return _named(f"{PREFIX} Skriptkapitel {chapter_number(slug)} – {title}")
+    """'GIL-2-Skriptkapitel – Industrielle Innovation' / GIL-2-Skriptkapitel-Industrielle-Innovation."""
+    return _named(f"{PREFIX}-{chapter_number(slug)}-Skriptkapitel – {title}")
 
 
 def summary_export(slug: str, title: str) -> ExportName:
-    return _named(f"{PREFIX} Zusammenfassung Kapitel {chapter_number(slug)} – {title}")
+    return _named(f"{PREFIX}-{chapter_number(slug)}-Zusammenfassung – {title}")
 
 
 def notebook_export(slug: str, title: str) -> ExportName:
-    return _named(f"{PREFIX} NotebookLM-Kontext Kapitel {chapter_number(slug)} – {title}")
+    return _named(f"{PREFIX}-{chapter_number(slug)}-NotebookLM-Kontext – {title}")
 
 
 def anki_export(slug: str, title: str) -> ExportName:
-    return _named(f"{PREFIX} Anki Kapitel {chapter_number(slug)} – {title}")
+    return _named(f"{PREFIX}-{chapter_number(slug)}-Anki – {title}")
 
 
 COMPLETE = _named(f"{PREFIX} Gesamtskript")
@@ -82,7 +82,7 @@ ASSET_LIST = "release-assets.tsv"
 
 def asset_label(name: str, label: str) -> str:
     """The label a download shows, with the file's ending: a reader must see that
-    "GIL Skriptkapitel 2 – Industrielle Innovation" is a .pdf and the Anki package an .apkg."""
+    "GIL-2-Skriptkapitel – Industrielle Innovation" is a .pdf and the Anki package an .apkg."""
     suffix = Path(name).suffix
     return label if not suffix or label.endswith(suffix) else f"{label}{suffix}"
 

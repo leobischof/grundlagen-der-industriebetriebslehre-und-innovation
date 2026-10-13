@@ -6,15 +6,15 @@ from pipeline import content_files, figure_publish
 
 def test_chapter_names_are_ascii_stems_with_a_readable_label():
     name = content_files.chapter_export("06-ausgewaehlte-innovationsprozesse", "Ausgewählte Innovationsprozesse")
-    assert name.stem == "GIL-Skriptkapitel-6-Ausgewaehlte-Innovationsprozesse"
-    assert name.label == "GIL Skriptkapitel 6 – Ausgewählte Innovationsprozesse"
+    assert name.stem == "GIL-6-Skriptkapitel-Ausgewaehlte-Innovationsprozesse"
+    assert name.label == "GIL-6-Skriptkapitel – Ausgewählte Innovationsprozesse"
 
 
 def test_summary_and_notebook_names_follow_the_same_pattern():
     assert content_files.summary_export("02-x", "Industrielle Innovation").stem == \
-        "GIL-Zusammenfassung-Kapitel-2-Industrielle-Innovation"
+        "GIL-2-Zusammenfassung-Industrielle-Innovation"
     assert content_files.notebook_export("02-x", "Industrielle Innovation").stem == \
-        "GIL-NotebookLM-Kontext-Kapitel-2-Industrielle-Innovation"
+        "GIL-2-NotebookLM-Kontext-Industrielle-Innovation"
 
 
 def test_collection_names():

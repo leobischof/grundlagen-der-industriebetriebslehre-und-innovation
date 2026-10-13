@@ -1,9 +1,9 @@
 """Stage "render-pdf": knowledge-base markdown → PDFs (local, deterministic, no external binaries).
 
-  build/pdf/GIL-Skriptkapitel-N-<Titel>.pdf            one PDF per script chapter
+  build/pdf/GIL-N-Skriptkapitel-<Titel>.pdf            one PDF per script chapter
   build/pdf/GIL-Gesamtskript.pdf                       title page, TOC with page numbers, bookmarks,
                                                        every chapter
-  build/pdf/GIL-Zusammenfassung-Kapitel-N-<Titel>.pdf  one PDF per learning guide (learning/chapters)
+  build/pdf/GIL-N-Zusammenfassung-<Titel>.pdf  one PDF per learning guide (learning/chapters)
   build/pdf/GIL-Zusammenfassung-gesamt.pdf             every learning guide, with title page and TOC
   build/pdf/GIL-Pruefungsfragen.pdf                    only if exams/questions.md exists
   build/pdf/release-assets.tsv                         file name <TAB> label, for the release upload

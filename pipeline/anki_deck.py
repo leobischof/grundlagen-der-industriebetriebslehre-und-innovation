@@ -1,7 +1,7 @@
 """Stage "anki": every Anki card of the knowledge base → build/anki/ (release assets).
 
   build/anki/GIL-Anki-Karteikarten.apkg              collection: every chapter, one sub-deck per kind
-  build/anki/GIL-Anki-Kapitel-N-<Titel>.apkg         the same cards, one chapter per package
+  build/anki/GIL-N-Anki-<Titel>.apkg         the same cards, one chapter per package
   build/anki/GIL-Anki-Sammlung-ersetzt-alles.colpkg  the collection as a whole Anki collection: its
                                                      import replaces everything in Anki, hence the name
   build/anki/release-assets.tsv                      packages with labels (content_files)

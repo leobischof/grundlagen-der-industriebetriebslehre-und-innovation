@@ -56,9 +56,9 @@ def _dangling(text: str) -> list[str]:
 
 def test_one_file_per_chapter_with_a_guide_instructions_first_then_three_parts(tmp_path: Path):
     files = _sample(tmp_path)
-    assert list(files) == ["GIL-NotebookLM-Kontext-Kapitel-2-B.md"]
-    text = files["GIL-NotebookLM-Kontext-Kapitel-2-B.md"]
-    assert text.startswith('<a id="anleitung"></a>\n\n# GIL NotebookLM-Kontext Kapitel 2 – B\n')
+    assert list(files) == ["GIL-2-NotebookLM-Kontext-B.md"]
+    text = files["GIL-2-NotebookLM-Kontext-B.md"]
+    assert text.startswith('<a id="anleitung"></a>\n\n# GIL-2-NotebookLM-Kontext – B\n')
     positions = [text.index(s) for s in ("## Anleitung für NotebookLM", '<a id="teil-1">',
                                          '<a id="teil-2">', '<a id="teil-3">')]
     assert positions == sorted(positions)
@@ -66,7 +66,7 @@ def test_one_file_per_chapter_with_a_guide_instructions_first_then_three_parts(t
 
 
 def test_every_link_is_an_anchor_inside_the_file(tmp_path: Path):
-    text = _sample(tmp_path)["GIL-NotebookLM-Kontext-Kapitel-2-B.md"]
+    text = _sample(tmp_path)["GIL-2-NotebookLM-Kontext-B.md"]
     assert _dangling(text) == []
     assert "[2.1](#sec-2-1)" in text                                # guide and chapter 1 → section anchor
     assert "[Frage](#frage-2020-01-01-1)" in text and "[andere](#teil-2)" in text
@@ -74,21 +74,21 @@ def test_every_link_is_an_anchor_inside_the_file(tmp_path: Path):
 
 
 def test_questions_of_the_chapter_by_section_and_named_by_guide(tmp_path: Path):
-    text = _sample(tmp_path)["GIL-NotebookLM-Kontext-Kapitel-2-B.md"]
+    text = _sample(tmp_path)["GIL-2-NotebookLM-Kontext-B.md"]
     ids = re.findall(r'<a id="(frage-[^"]+)"></a>', text)
     assert ids == ["frage-2022-01-01-1", "frage-2021-01-01-1", "frage-2020-01-01-1"]
     assert "Thema eins" in text and "[2.1.3](#sec-2-1)" in text and "Fünf offene Fragen." in text
 
 
 def test_figures_are_words_never_pictures(tmp_path: Path):
-    text = _sample(tmp_path)["GIL-NotebookLM-Kontext-Kapitel-2-B.md"]
+    text = _sample(tmp_path)["GIL-2-NotebookLM-Kontext-B.md"]
     assert ".png" not in text and ".svg" not in text and "figures/" not in text
     assert f"*{figure_publish.in_words('abb-23')}*" in text
     assert "Zeichenübung" not in text
 
 
 def test_script_headings_shift_under_the_part_and_the_focus_chapter_is_framed(tmp_path: Path):
-    text = _sample(tmp_path)["GIL-NotebookLM-Kontext-Kapitel-2-B.md"]
+    text = _sample(tmp_path)["GIL-2-NotebookLM-Kontext-B.md"]
     part3 = text[text.index('<a id="teil-3">'):]
     assert "\n## Kapitel 1: A\n" in part3 and "\n### 2.1 X\n" in part3 and "\n#### Unter\n" in part3
     begin, end = part3.index("Beginn des Lernthemas"), part3.index("Ende des Lernthemas Kapitel 2")
@@ -101,7 +101,13 @@ def test_shift_headings_is_capped_at_h6():
 
 def test_repository_export_is_self_contained():
     files = export_notebooklm.build("01.01.2026")
-    assert files and all(name.startswith("GIL-NotebookLM-Kontext-Kapitel-") for name in files)
+    assert files and all(re.match(r"^GIL-\d+-NotebookLM-Kontext-", name) for name in files)
     for name, text in files.items():
         assert _dangling(text) == [], name
         assert "figures/originals" not in text and ".png" not in text, name
+        n = name.split("-")[1]
+        instruction = text[:text.index('<a id="teil-1">')]
+        assert f"mit **`GIL-{n}-`** beginnen" in instruction, name
+        assert "**einzige ausgewählte Quelle**" in instruction, name
+        assert "Bei mehreren ausgewählten Quellen oder einem kapitelübergreifenden Thema gilt diese" in instruction, name
+        assert "keine weitere ausgewählte Quelle" in instruction, name

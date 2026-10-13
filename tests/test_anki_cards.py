@@ -74,7 +74,7 @@ def test_student_cards_without_an_answer_are_left_out_and_image_loss_is_noted():
 def test_release_labels_carry_the_file_ending():
     assert content_files.asset_label("GIL-Gesamtskript.pdf", "GIL Gesamtskript") == "GIL Gesamtskript.pdf"
     assert content_files.asset_label("a.apkg", "GIL Anki.apkg") == "GIL Anki.apkg"
-    assert content_files.anki_export("02-x", "Industrielle Innovation").stem == "GIL-Anki-Kapitel-2-Industrielle-Innovation"
+    assert content_files.anki_export("02-x", "Industrielle Innovation").stem == "GIL-2-Anki-Industrielle-Innovation"
 
 
 def test_every_deck_gets_its_parents_for_a_restored_collection():
