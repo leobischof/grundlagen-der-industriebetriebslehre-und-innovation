@@ -1,6 +1,6 @@
 """Stage "export-notebooklm": one self-contained Markdown file per chapter → build/notebooklm/.
 
-  build/notebooklm/GIL-NotebookLM-Kontext-Kapitel-N-<Titel>.md   one file per chapter with a learning guide
+  build/notebooklm/GIL-N-NotebookLM-Kontext-<Titel>.md   one file per chapter with a learning guide
   build/notebooklm/release-assets.tsv                            the chapter files with labels (content_files)
 
 The stage "release" packs the chapter files into one zip (release_bundle).
@@ -147,6 +147,14 @@ Diese Datei ist der **vollständige und einzige Kontext**, um **{name}** zu lern
 
 So ist diese Datei zu verwenden:
 
+- **Verbindliche Titelvorgabe bei einer einzigen Kapitelquelle:** Nur wenn diese Kapiteldatei
+  die **einzige ausgewählte Quelle** ist und ausschließlich Kapitel {n} behandelt wird, **MUSS**
+  der Titel jeder Audio-Zusammenfassung (auch Podcast oder Hörspiel) mit **`GIL-{n}-`** beginnen.
+  Danach folgt der restliche Titel, zum Beispiel **`GIL-{n}-{chapter.title} – Audio-Zusammenfassung`**.
+  Das Präfix exakt übernehmen: keine Leerzeichen darin und kein Text davor. Das Gesamtskript
+  in Teil 3 ist eingebettetes Rahmenwissen und keine weitere ausgewählte Quelle.
+  Bei mehreren ausgewählten Quellen oder einem kapitelübergreifenden Thema gilt diese
+  Titelvorgabe nicht; dann kein einzelnes Kapitelpräfix aus dieser Anleitung ableiten.
 - **Das Thema ist ausschließlich Kapitel {n}.** Jede Zusammenfassung, jede Audio-Zusammenfassung
   (Hörspiel, Podcast), jedes Quiz, jede Karteikarte und jede Mindmap behandelt nur {name} – und
   zwar **so ausführlich und vollständig wie möglich**: jeden Abschnitt, jeden Fachbegriff, jede

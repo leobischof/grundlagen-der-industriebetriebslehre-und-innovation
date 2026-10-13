@@ -45,7 +45,7 @@ Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`):
 | `build-content` | `build_content` | OCR-Schicht, `curation/structure.yaml`, `ocr-corrections.yaml`, Abbildungen, Fragen | `content/` |
 | `render-pdf` | `render_pdf` (Leitfaden-Bilder: `guide_figures`) | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/pdf/` (`GIL-…`-PDFs: Kapitel, Gesamtskript, Zusammenfassungen je Kapitel und gesamt, Prüfungsfragen) + `release-assets.tsv` |
 | `export-md` | `export_markdown` (Leitfaden-Bilder: `guide_figures`) | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/markdown/` (dieselben `GIL-…`-Dateien als flaches Markdown, dazu die gezeigten SVGs) |
-| `export-notebooklm` | `export_notebooklm` | `content/`, `learning/chapters/`, `curation/figures/`, `exams/questions.json`, `exams/topic-mapping.json` | `build/notebooklm/` (je Kapitel mit Leitfaden eine `GIL-NotebookLM-Kontext-Kapitel-N-…md`) + `release-assets.tsv` |
+| `export-notebooklm` | `export_notebooklm` | `content/`, `learning/chapters/`, `curation/figures/`, `exams/questions.json`, `exams/topic-mapping.json` | `build/notebooklm/` (je Kapitel mit Leitfaden eine `GIL-N-NotebookLM-Kontext-…md`) + `release-assets.tsv` |
 | `anki` | `anki_deck` (Karten: `anki_cards`, `anki_exam_cards`, `anki_sketch`, `anki_student`; Pakete: `anki_package`) | `content/`, `learning/exercises/`, `learning/flashcards/*.json`, `figures/manifest.json`, `figures/reconstructed/`, `curation/figures/`, `exams/` | `build/anki/` (`GIL-Anki-Karteikarten.apkg`, dieselbe Sammlung als `.colpkg`, je Kapitel ein `.apkg`) + `release-assets.tsv`, `learning/flashcards/skizzieren.md` |
 | `release` | `release_bundle` | `release-assets.tsv` aus `build/pdf/`, `build/notebooklm/`, `build/anki/` | `build/release/` (Gesamtdateien, je Art ein Kapitel-Zip, Alles-Zip) + `release-assets.tsv` |
 | `validate` | `validate` | alles Versionierte | `reports/validation.md` |
@@ -155,7 +155,9 @@ Veröffentlicht wird nur, was per Pull Request auf `main` gemergt ist (AGENTS.md
 `gh api repos/<owner>/<repo> --jq .visibility` muss `private` liefern.
 
 **Namen.** Jede veröffentlichte Datei heißt `GIL-…` (GIL = Grundlagen der Industriebetriebslehre);
-die Regel steht einmal in `pipeline/content_files.py`. Dateiname nur ASCII mit Bindestrichen (GitHub
+bei kapitelbezogenen Dateien steht die Kapitelnummer unmittelbar nach `GIL`: **`GIL-<N>-<Art>-<Titel>`**
+(z. B. `GIL-2-NotebookLM-Kontext-Industrielle-Innovation.md`). Gesamtdateien und Sammel-Zips
+tragen keine einzelne Kapitelnummer. Die Regel steht einmal in `pipeline/content_files.py`. Dateiname nur ASCII mit Bindestrichen (GitHub
 macht aus Leerzeichen, Umlauten und Gedankenstrichen in Asset-Namen Punkte), die lesbare Fassung ist
 das Label des Release-Assets. Das Label trägt immer die Dateiendung (`content_files.asset_label`),
 damit man im Release sieht, was ein PDF, ein Zip, eine Markdown-Datei oder ein Anki-Paket ist.
@@ -167,10 +169,10 @@ Alles-Zip** mit dem gesamten Release in Ordnern. Ein Release hat damit zehn Asse
 | Asset | Label | Inhalt |
 |---|---|---|
 | `GIL-Wissensbasis-komplett.zip` | GIL Wissensbasis komplett (alles in Ordnern).zip | alles unten, in `1-Skript/` (darin `Skriptkapitel/`), `2-Zusammenfassungen/` (darin `Kapitel/`), `3-Pruefungsfragen/`, `4-NotebookLM-Kontext/`, `5-Anki/` (darin `Kapitel/`) |
-| `GIL-Skriptkapitel-je-Kapitel.zip` | GIL Skriptkapitel – je Kapitel.zip | je Kapitel `GIL-Skriptkapitel-N-<Titel>.pdf` (Textschicht des Skripts) |
-| `GIL-Zusammenfassung-je-Kapitel.zip` | GIL Zusammenfassung – je Kapitel.zip | je Kapitel `GIL-Zusammenfassung-Kapitel-N-<Titel>.pdf` (Lernleitfaden) |
-| `GIL-NotebookLM-Kontext-je-Kapitel.zip` | GIL NotebookLM-Kontext – je Kapitel.zip | je Kapitel `GIL-NotebookLM-Kontext-Kapitel-N-<Titel>.md` |
-| `GIL-Anki-je-Kapitel.zip` | GIL Anki – je Kapitel.zip | je Kapitel `GIL-Anki-Kapitel-N-<Titel>.apkg` |
+| `GIL-Skriptkapitel-je-Kapitel.zip` | GIL Skriptkapitel – je Kapitel.zip | je Kapitel `GIL-N-Skriptkapitel-<Titel>.pdf` (Textschicht des Skripts) |
+| `GIL-Zusammenfassung-je-Kapitel.zip` | GIL Zusammenfassung – je Kapitel.zip | je Kapitel `GIL-N-Zusammenfassung-<Titel>.pdf` (Lernleitfaden) |
+| `GIL-NotebookLM-Kontext-je-Kapitel.zip` | GIL NotebookLM-Kontext – je Kapitel.zip | je Kapitel `GIL-N-NotebookLM-Kontext-<Titel>.md` |
+| `GIL-Anki-je-Kapitel.zip` | GIL Anki – je Kapitel.zip | je Kapitel `GIL-N-Anki-<Titel>.apkg` |
 | `GIL-Gesamtskript.pdf` | GIL Gesamtskript.pdf | alle Kapitel mit Inhaltsverzeichnis |
 | `GIL-Zusammenfassung-gesamt.pdf` | GIL Zusammenfassung gesamt.pdf | alle Lernleitfäden |
 | `GIL-Pruefungsfragen.pdf` | GIL Prüfungsfragen.pdf | Fragensammlung |
@@ -187,7 +189,11 @@ Abschnitte), Teil 1 Lernleitfaden, Teil 2 alle Prüfungsfragen zum Kapitel (nach
 `exam_questions` des Leitfadens), Teil 3 das Gesamtskript als Rahmenwissen, das Kapitel darin markiert.
 Alle Verweise sind Anker innerhalb der Datei (`#sec-2-5`, `#frage-…`). Kapitel 0 (Einführung) hat
 keinen Leitfaden und deshalb keine eigene Datei. Die Dateien sind Build-Ausgabe, nicht im Git-Baum:
-jede enthält das ganze Skript.
+jede enthält das ganze Skript. Ist genau diese Kapiteldatei die einzige ausgewählte Quelle und
+behandelt das Audio nur dieses Kapitel, verlangt die Anleitung ausdrücklich einen Audiotitel mit
+dem exakten Präfix **`GIL-<N>-`**, z. B. `GIL-2-Industrielle Innovation – Audio-Zusammenfassung`.
+Das eingebettete Gesamtskript zählt dabei als Rahmenwissen, nicht als zusätzliche Quelle. Bei
+mehreren ausgewählten Quellen oder kapitelübergreifenden Audios gilt diese Titelvorgabe nicht.
 
 **Anki-Karteikarten** (`anki`, ohne Modellaufruf). Je Kapitel 1–9 ein Unterdeck
 `GIL::Kapitel N – Titel` mit bis zu fünf Unterdecks: *1 Begriffe* und *2 Lückentexte* aus dem
