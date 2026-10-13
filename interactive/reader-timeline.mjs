@@ -31,3 +31,8 @@ export function formatTime(seconds) {
   const n = Math.max(0, Math.floor(seconds || 0));
   return `${Math.floor(n/60)}:${String(n%60).padStart(2,"0")}`;
 }
+
+export function seekTarget(time, offset, duration) {
+  const end = Number.isFinite(duration) && duration >= 0 ? duration : Infinity;
+  return Math.max(0,Math.min(end,time+offset));
+}

@@ -6,6 +6,11 @@ Seitenwechsel. Ein SVG-Overlay zeigt zeitgesteuerte Rechtecke, Hervorhebungen un
 Das PDF bleibt unverändert. Die Wiedergabe läuft beim Scrollen weiter. Automatisches Mitgehen
 ist optional und anfangs ausgeschaltet.
 
+Die Seitenleiste startet eingeklappt und merkt sich ihre Einstellung in diesem Browser.
+Am Rand bleiben nur Öffnen/Einklappen, Abspielen/Pause sowie zehn Sekunden zurück/vor sichtbar.
+Der Header ist 40 Pixel hoch. Auf kleinen Bildschirmen öffnet sich die Leiste über dem PDF,
+statt dem Dokument zusätzlichen Platz wegzunehmen. Das Audio läuft beim Einklappen weiter.
+
 ## Lokal vorbereiten und starten
 
 ```powershell

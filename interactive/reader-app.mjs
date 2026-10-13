@@ -1,6 +1,6 @@
 import * as pdfjsLib from "./vendor/build/pdf.mjs";
 import {PDFViewer, EventBus, PDFLinkService, PDFFindController} from "./vendor/web/pdf_viewer.mjs";
-import {activeAt, validateTimeline, formatTime} from "./reader-timeline.mjs";
+import {activeAt, validateTimeline, formatTime, seekTarget} from "./reader-timeline.mjs";
 
 const $ = id => document.getElementById(id);
 const svgNS = "http://www.w3.org/2000/svg";
@@ -16,7 +16,29 @@ let manifest, chapter, pdf, timeline, loadingTask, currentMedia = $("audio");
 let selected = null, drawing = false, drag = null, activeKey = "", followKey = "", loadSequence = 0;
 let cueButtons = new Map();
 
-function notice(text, error = false) { $("status").textContent = text; $("status").classList.toggle("error", error); }
+function updateMiniControls() {
+  const available = Boolean(chapter?.audio) && currentMedia.readyState > 0 && !currentMedia.error;
+  for (const id of ["mini-play","mini-back","mini-forward"]) $(id).disabled = !available;
+  const playing = !currentMedia.paused && !currentMedia.ended;
+  const label = playing ? "Audio pausieren" : "Audio abspielen";
+  $("mini-play").textContent = playing ? "Ⅱ" : "▶";
+  $("mini-play").setAttribute("aria-label",label); $("mini-play").title = label;
+}
+function setSidebarOpen(open) {
+  document.body.classList.toggle("sidebar-collapsed",!open);
+  $("sidebar-body").inert = !open;
+  $("toggle-sidebar").setAttribute("aria-expanded",String(open));
+  const label = open ? "Seitenleiste einklappen" : "Seitenleiste öffnen";
+  $("toggle-sidebar").setAttribute("aria-label",label); $("toggle-sidebar").title = label;
+  $("toggle-sidebar").textContent = open ? "›" : "☰";
+  try { localStorage.setItem("gil-reader-sidebar-open",String(open)); } catch {}
+  requestAnimationFrame(() => { if (pdf) { viewer.currentScaleValue = $("zoom").value; viewer.update(); sync(true); } });
+}
+
+function notice(text, error = false) {
+  $("status").textContent = text; $("status").classList.toggle("error", error);
+  if (error && document.body.classList.contains("sidebar-collapsed")) setSidebarOpen(true);
+}
 function storageKey() { return `gil-timeline:${chapter.pdf_sha256}:${chapter.audio_sha256 || "no-audio"}`; }
 function limits() { return {chapter:chapter.number, pages:pdf?.numPages, audioHash:chapter.audio_sha256,
   pdfHash:chapter.pdf_sha256, duration:Number.isFinite(currentMedia.duration) && currentMedia.duration > 1 ? currentMedia.duration : Infinity}; }
@@ -196,6 +218,7 @@ async function loadChapter(number) {
   history.replaceState(null,"",`?chapter=${chapter.number}`);
   notice("PDF und Timeline werden geladen …");
   if (chapter.audio) currentMedia.src = chapter.audio;
+  updateMiniControls();
   currentMedia.playbackRate = Number($("speed").value);
   $("draw").disabled = !chapter.audio;
   viewer.setDocument(null); linkService.setDocument(null);
@@ -222,9 +245,17 @@ eventBus.on("pagerendered",() => sync(true));
 eventBus.on("pagechanging",e => { $("page").value = e.pageNumber; });
 eventBus.on("updatefindmatchescount",e => { $("matches").textContent = e.matchesCount.total ? `${e.matchesCount.current}/${e.matchesCount.total}` : "0 Treffer"; });
 for (const media of [$("audio"),$("video")]) {
-  for (const event of ["timeupdate","seeking","seeked","loadedmetadata","play","pause","ended"]) media.addEventListener(event,() => { if (media === currentMedia) sync(); });
+  for (const event of ["timeupdate","seeking","seeked","loadedmetadata","play","pause","ended","emptied","error"]) media.addEventListener(event,() => { if (media === currentMedia) { updateMiniControls(); sync(); } });
   media.addEventListener("error",() => { if (media === currentMedia && media.getAttribute("src")) notice("Audio/Video konnte nicht geladen werden. Bitte Dateipfad und Browser-Unterstützung prüfen.",true); });
 }
+$("toggle-sidebar").addEventListener("click",() => setSidebarOpen(document.body.classList.contains("sidebar-collapsed")));
+$("mini-play").addEventListener("click",async () => {
+  try { if (currentMedia.paused) await currentMedia.play(); else currentMedia.pause(); }
+  catch (error) { notice(`Wiedergabe nicht möglich: ${error.message}`,true); setSidebarOpen(true); }
+});
+for (const [id,offset] of [["mini-back",-10],["mini-forward",10]]) $(id).addEventListener("click",() => {
+  currentMedia.currentTime = seekTarget(currentMedia.currentTime,offset,currentMedia.duration); sync(true);
+});
 $("chapters").addEventListener("change",e => loadChapter(e.target.value).catch(e => notice(e.message,true)));
 $("previous").addEventListener("click",() => { viewer.currentPageNumber = Math.max(1,viewer.currentPageNumber-1); });
 $("next").addEventListener("click",() => { viewer.currentPageNumber = Math.min(pdf?.numPages || 1,viewer.currentPageNumber+1); });
@@ -264,6 +295,8 @@ $("import").addEventListener("change",async e => {
 });
 
 try {
+  let open = false; try { open = localStorage.getItem("gil-reader-sidebar-open") === "true"; } catch {}
+  setSidebarOpen(open);
   manifest = await getJSON("reader-manifest.json");
   for (const c of manifest.chapters) { const option = document.createElement("option"); option.value = c.number; option.textContent = `${c.number} · ${c.title}${c.audio ? "" : " (ohne Audio)"}`; $("chapters").append(option); }
   const requested = Number(new URLSearchParams(location.search).get("chapter"));

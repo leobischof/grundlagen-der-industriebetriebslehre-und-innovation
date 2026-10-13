@@ -7,11 +7,10 @@
   <link rel="stylesheet" href="vendor/web/pdf_viewer.css">
   <link rel="stylesheet" href="reader.css">
 </head>
-<body>
+<body class="sidebar-collapsed">
   <header class="topbar">
-    <a class="brand" href="reader.html"><b>GIL</b><span>Skript hören & verstehen</span></a>
+    <a class="brand" href="reader.html" aria-label="GIL Kapitelreader"><b>GIL</b></a>
     <label class="chapter-label">Kapitel <select id="chapters" aria-label="Kapitel auswählen"></select></label>
-    <span class="local-badge">Lokal · ohne Upload</span>
   </header>
   <div class="workspace">
     <main class="document-pane">
@@ -26,10 +25,15 @@
       </div>
       <div class="pdf-stage"><div id="viewerContainer"><div id="viewer" class="pdfViewer"></div></div></div>
     </main>
-    <aside class="sidebar">
-      <p class="eyebrow">DEIN LERNBEGLEITER</p>
+    <aside class="sidebar" id="sidebar" aria-label="Audio und Markierungen">
+      <nav class="sidebar-rail" aria-label="Schnellsteuerung">
+        <button id="toggle-sidebar" aria-label="Seitenleiste öffnen" aria-expanded="false" aria-controls="sidebar-body" title="Seitenleiste öffnen">☰</button>
+        <button id="mini-play" aria-label="Audio abspielen" title="Audio abspielen" disabled>▶</button>
+        <button id="mini-back" aria-label="10 Sekunden zurück" title="10 Sekunden zurück" disabled>↶<small>10</small></button>
+        <button id="mini-forward" aria-label="10 Sekunden vor" title="10 Sekunden vor" disabled>↷<small>10</small></button>
+      </nav>
+      <div class="sidebar-body" id="sidebar-body">
       <h1 id="chapter-title">Kapitel wird geladen …</h1>
-      <p class="intro">Hör zu. Lies mit. Bewege dich frei durchs Skript.</p>
       <section class="player-card" aria-label="Audiowiedergabe">
         <span class="section-label">Kapitelerklärung</span>
         <audio id="audio" controls preload="metadata"></audio>
@@ -63,6 +67,7 @@
         <p class="small">Änderungen werden zusätzlich nur in diesem Browser gespeichert. Zum dauerhaften Übernehmen die Timeline herunterladen.</p>
       </details>
       <footer>KI-Erklärung · Skript 2024/25 · Das Skript ist maßgeblich.</footer>
+      </div>
     </aside>
   </div>
   <script type="module" src="reader-app.mjs"></script>
