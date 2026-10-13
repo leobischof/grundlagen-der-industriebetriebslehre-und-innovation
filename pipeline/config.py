@@ -74,9 +74,12 @@ BUILD = ROOT / "build"
 CACHE = BUILD / "cache"
 STAMPS = BUILD / "stamps"
 INTERACTIVE_BUILD = BUILD / "interactive"
+STANDALONE_BUILD = BUILD / "standalone"
 TRANSCRIPTS = BUILD / "transcripts"
 INTERACTIVE_CURATION = CURATION / "interactive"
 AUDIO_EXTENSIONS = (".m4a", ".mp3", ".wav", ".ogg", ".opus", ".mp4", ".webm")
+ASR_MODEL = "tiny"
+AUDIO_MATCH_THRESHOLD = .16
 ICON_CACHE = BUILD / "icon-cache"
 ICON_LIBRARIES = (
     ("lucide", "1.2.143", "ISC", "https://raw.githubusercontent.com/lucide-icons/lucide/main/LICENSE"),

@@ -28,3 +28,32 @@ def test_package_refuses_stale_identity_or_broken_coordinates():
         broken["annotations"][0].update(delta)
         with pytest.raises(ValueError):
             validate_timeline(broken,2,"a","p")
+
+
+def test_fresh_checkout_can_build_pdf_reader_without_ignored_audio(tmp_path,monkeypatch):
+    import json
+    import shutil
+    from pipeline import build_interactive, config, content_files
+    source = tmp_path / "source"
+    source.mkdir()
+    for path in config.INTERACTIVE_SOURCE.glob("reader*"):
+        if path.is_file(): shutil.copyfile(path,source / path.name)
+    vendor = source / "node_modules" / "pdfjs-dist"
+    for directory in ("build","web","cmaps","standard_fonts","wasm"):
+        (vendor / directory).mkdir(parents=True)
+    for rel in ("build/pdf.mjs","build/pdf.worker.mjs","LICENSE"):
+        (vendor / rel).write_text("test fixture",encoding="utf-8")
+    build = tmp_path / "build"
+    (build / "pdf").mkdir(parents=True)
+    (build / "pdf" / "GIL-2-Skriptkapitel-Test.pdf").write_bytes(b"fixture document")
+    curated = tmp_path / "curation"
+    curated.mkdir()
+    (curated / "GIL-2-Timeline.json").write_text(json.dumps(dict(version=1,chapter=2,pdf_sha256="old",audio_sha256="not-cloned",annotations=[])))
+    for key,value in dict(INTERACTIVE_SOURCE=source,BUILD=build,INTERACTIVE_BUILD=build/"interactive",AUDIO_DIR=tmp_path/"missing-audio",INTERACTIVE_CURATION=curated).items():
+        monkeypatch.setattr(config,key,value)
+    monkeypatch.setattr(content_files,"discover",lambda _: [content_files.ChapterFiles("02-x","Test",[])])
+    assert build_interactive.run() == 0
+    manifest=json.loads((build/"interactive"/"reader-manifest.json").read_text(encoding="utf-8"))
+    assert manifest["chapters"][0]["audio"] is None
+    timeline=json.loads((build/"interactive"/manifest["chapters"][0]["timeline"]).read_text(encoding="utf-8"))
+    assert timeline["audio_sha256"] is None and timeline["annotations"] == []

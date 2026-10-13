@@ -13,7 +13,8 @@
 .brand b{padding:3px 6px;border-radius:4px;font-size:12px;letter-spacing:.03em}
 .chapter-label{gap:6px;font-size:11px}
 .chapter-label select{max-width:min(70vw,570px);padding:3px 6px;font-size:12px;background:transparent;border-color:transparent}
-.workspace{display:grid;position:relative;grid-template-columns:minmax(0,1fr) clamp(340px,30vw,440px);height:100dvh}
+.workspace{--navigation-width:36px;--audio-width:clamp(340px,30vw,440px);display:grid;position:relative;grid-template-columns:var(--navigation-width) minmax(0,1fr) var(--audio-width);height:100dvh}
+body.navigation-open .workspace{--navigation-width:246px}
 .document-pane{height:auto;min-height:0;container-type:inline-size}
 .pdf-toolbar{display:grid;grid-template-columns:1fr minmax(0,420px) 1fr;padding:5px 9px;gap:10px;font-size:11px}
 .toolbar-pages,.toolbar-actions,.toolbar-chapter{display:flex;align-items:center;gap:5px;min-width:0}
@@ -46,20 +47,42 @@
 #timeline-cues{position:absolute;left:7px;right:7px;bottom:0;height:4px;overflow:hidden;pointer-events:none}
 .timeline-cue{position:absolute;top:0;height:4px;background:#ce933d;border-radius:1px}
 .timeline-cue.reviewed{background:#3a855e}
-.sidebar-collapsed .workspace{grid-template-columns:minmax(0,1fr) 40px}
+.timeline-cue.topic{top:2px;height:2px;background:#6386aa}
+.gil-mark.topic{stroke:#6687a6;stroke-width:2;fill:#6a91b00a;stroke-dasharray:8 4}
+.sidebar-collapsed .workspace{--audio-width:40px}
 .sidebar-collapsed .sidebar-body{display:none}
 .sidebar-collapsed .sidebar{grid-template-columns:40px}
 .sidebar h1{font-size:20px;line-height:1.25;margin-bottom:16px}
 .sidebar .player-card{padding:12px}
 #viewerContainer{padding:10px 5px}
 @media(max-width:740px){
-  .workspace,.sidebar-collapsed .workspace{grid-template-columns:minmax(0,1fr) 40px;height:100dvh}
+  .workspace,.sidebar-collapsed .workspace,body.navigation-open .workspace{grid-template-columns:36px minmax(0,1fr) 40px;height:100dvh}
   .sidebar{border-left:1px solid var(--line)}
   body:not(.sidebar-collapsed) .sidebar{position:absolute;right:0;top:0;bottom:0;width:min(400px,95vw);z-index:40;box-shadow:-6px 0 24px #23382b22}
   .sidebar-collapsed .sidebar{position:static}
   .pdf-toolbar form{margin-left:0}
   .pdf-toolbar #search{width:115px}
 }
+.navigation-sidebar{display:grid;grid-template-columns:36px minmax(0,1fr);grid-template-rows:minmax(0,1fr);min-height:0;min-width:0;background:#faf9f5;border-right:1px solid var(--line);overflow:hidden}
+.navigation-rail{display:flex;flex-direction:column;align-items:center;gap:5px;padding:6px 2px;background:#f7f6f2}
+.navigation-rail button{width:30px;height:34px;padding:0;border-color:transparent;background:transparent;font-size:19px}
+.navigation-rail button:hover,.navigation-rail button[aria-pressed="true"]{background:#e0eadb;color:var(--green)}
+.navigation-body{min-width:0;min-height:0;overflow:auto;padding:14px 9px;border-left:1px solid var(--line)}
+.navigation-body h2{font-size:12px;padding:0 4px;margin:0 0 14px}
+body:not(.navigation-open) .navigation-body{display:none}
+body:not(.navigation-open) .navigation-sidebar{grid-template-columns:36px}
+.chapter-link{display:block;width:100%;border:0;background:transparent;text-align:left;font-size:12px;line-height:1.5;padding:9px 5px}
+.chapter-link[aria-current]{background:#e3ecdf;color:var(--green);font-weight:650}
+.outline-chapter{border-bottom:1px solid var(--line)}
+#pdf-outline ul{list-style:none;padding:0 0 0 10px;margin:4px 0 10px}
+#pdf-outline li{margin:3px 0}
+#pdf-outline li button,#pdf-outline li span{display:block;width:100%;border:0;background:transparent;text-align:left;font-size:11px;line-height:1.45;padding:5px 3px}
+#pdf-outline li button:hover{background:#edf1e9}
+.page-thumbnail{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%;padding:8px;margin-bottom:10px;border-color:transparent;background:transparent;font-size:10px}
+.page-thumbnail[aria-current]{border-color:var(--green);background:#e5ecdf}
+.thumbnail-frame{width:140px;max-width:100%;aspect-ratio:1/1.414;background:white;box-shadow:0 1px 5px #24332e25;overflow:hidden}
+.thumbnail-frame canvas{display:block;width:100%;height:auto}
+@media(max-width:740px){body.navigation-open .navigation-sidebar{position:absolute;left:0;top:0;bottom:0;width:min(280px,90vw);z-index:41;box-shadow:6px 0 24px #23382b22}}
 @container (max-width:850px){
   .pdf-toolbar{grid-template-columns:auto minmax(0,1fr) auto;gap:6px}
   .pdf-toolbar #zoom{width:90px}

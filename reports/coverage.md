@@ -91,7 +91,7 @@ Kuratiert (`curation/figures.yaml`): 98 (85 figure, 6 formula, 7 table).
 
 ## KI-Aufrufe (aus `curation/ai-log.jsonl`)
 
-Gesamt: 28 protokollierte Aufrufe, geschätzt 2497700 Eingabe- und 519600 Ausgabe-Tokens (2026-10-11 bis 2026-10-13).
+Gesamt: 30 protokollierte Aufrufe, geschätzt 2527700 Eingabe- und 536100 Ausgabe-Tokens (2026-10-11 bis 2026-10-13).
 
 | Stufe | Aufrufe | Eingabe-Tokens | Ausgabe-Tokens |
 |---|---:|---:|---:|
@@ -104,7 +104,8 @@ Gesamt: 28 protokollierte Aufrufe, geschätzt 2497700 Eingabe- und 519600 Ausgab
 | figure-icons | 1 | 11000 | 7000 |
 | figure-reconstruction | 12 | 1475000 | 276000 |
 | figures-batch-b | 1 | 80000 | 45000 |
-| interactive-reader | 4 | 35000 | 23000 |
+| interactive-portable | 1 | 16000 | 6500 |
+| interactive-reader | 5 | 49000 | 33000 |
 | layout-qc | 1 | 22000 | 3000 |
 | learning-guides | 3 | 240000 | 143000 |
 

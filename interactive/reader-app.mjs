@@ -1,6 +1,8 @@
 import * as pdfjsLib from "./vendor/build/pdf.mjs";
 import {PDFViewer, EventBus, PDFLinkService, PDFFindController} from "./vendor/web/pdf_viewer.mjs";
 import {activeAt, validateTimeline, formatTime, seekTarget, isManualPdfNavigation} from "./reader-timeline.mjs";
+import {DocumentNavigation} from "./reader-navigation.mjs";
+import {setupOffline} from "./reader-offline.mjs";
 
 const $ = id => document.getElementById(id);
 const svgNS = "http://www.w3.org/2000/svg";
@@ -10,12 +12,44 @@ const findController = new PDFFindController({eventBus, linkService});
 const viewer = new PDFViewer({container:$("viewerContainer"), viewer:$("viewer"), eventBus,
   linkService, findController, annotationEditorMode:-1});
 linkService.setViewer(viewer);
-pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/build/pdf.worker.mjs";
+pdfjsLib.GlobalWorkerOptions.workerSrc = globalThis.GIL_EMBEDDED?.workerURL || "./vendor/build/pdf.worker.mjs";
 
 let manifest, chapter, pdf, timeline, loadingTask, currentMedia = $("audio");
 let selected = null, drawing = false, drag = null, activeKey = "", followKey = "", loadSequence = 0;
 let cueButtons = new Map();
 let timelineDuration = 0;
+let navigationTab = "outline";
+const navigation = new DocumentNavigation({outline:$("pdf-outline"),thumbnails:$("pdf-thumbnails"),scrollRoot:$("navigation-body"),
+  onChapter:number => { if (number !== chapter?.number) loadChapter(number).catch(error => notice(error.message,true)); },
+  onPage:page => { stopFollowing(); viewer.currentPageNumber = page; },
+  onDestination:dest => { stopFollowing(); linkService.goToDestination(dest).catch(error => notice(error.message,true)); },
+  onError:error => notice(`Inhaltsverzeichnis nicht verfügbar: ${error.message}`)});
+
+function resizePDF() {
+  requestAnimationFrame(() => { if (pdf) { viewer.currentScaleValue = $("zoom").value; viewer.update(); sync(true); } });
+}
+function setNavigation(open,tab = navigationTab) {
+  navigationTab = tab;
+  document.body.classList.toggle("navigation-open",open); $("navigation-body").inert = !open;
+  $("toggle-navigation").setAttribute("aria-expanded",String(open));
+  const label = open ? "PDF-Navigation einklappen" : "PDF-Navigation öffnen";
+  $("toggle-navigation").setAttribute("aria-label",label); $("toggle-navigation").title = label;
+  $("pdf-outline").hidden = tab !== "outline"; $("pdf-thumbnails").hidden = tab !== "thumbnails";
+  $("show-outline").setAttribute("aria-pressed",String(tab === "outline"));
+  $("show-thumbnails").setAttribute("aria-pressed",String(tab === "thumbnails"));
+  $("navigation-title").textContent = tab === "outline" ? "Kapitel & Inhalt" : "Seitenminiaturen";
+  try { localStorage.setItem("gil-navigation",JSON.stringify({open,tab})); } catch {}
+  resizePDF();
+}
+function updateZoomSelect() {
+  const value = String(viewer.currentScaleValue);
+  let option = [...$("zoom").options].find(item => item.value === value);
+  if (!option) {
+    $("zoom").querySelector("[data-custom]")?.remove(); option = document.createElement("option");
+    option.value = value; option.dataset.custom = "true"; option.textContent = `${Math.round(viewer.currentScale*100)} %`; $("zoom").append(option);
+  }
+  $("zoom").value = value;
+}
 
 function updateMiniControls() {
   const available = Boolean(chapter?.audio) && currentMedia.readyState > 0 && !currentMedia.error;
@@ -53,8 +87,9 @@ function renderTimelineCues() {
   $("timeline-cues").replaceChildren();
   if (!timeline || timelineDuration <= 0) return;
   for (const a of timeline.annotations) {
+    if (a.scope === "topic" && !a.primary) continue;
     const tick = document.createElement("span");
-    tick.className = `timeline-cue ${a.status}`;
+    tick.className = `timeline-cue ${a.status} ${a.scope || ""}`;
     tick.style.left = `${Math.min(100,a.start/timelineDuration*100)}%`;
     tick.style.width = `${Math.max(.15,Math.min(100,(a.end-a.start)/timelineDuration*100))}%`;
     tick.title = `${formatTime(a.start)} · ${a.label || "Markierung"}`;
@@ -74,7 +109,7 @@ function setSidebarOpen(open) {
   $("toggle-sidebar").setAttribute("aria-label",label); $("toggle-sidebar").title = label;
   $("toggle-sidebar").textContent = open ? "›" : "☰";
   try { localStorage.setItem("gil-reader-sidebar-open",String(open)); } catch {}
-  requestAnimationFrame(() => { if (pdf) { viewer.currentScaleValue = $("zoom").value; viewer.update(); sync(true); } });
+  resizePDF();
 }
 
 function notice(text, error = false) {
@@ -122,12 +157,12 @@ function renderMarks() {
     const markerId = `gil-arrow-${n}`;
     const defs = makeSVG("defs"), marker = makeSVG("marker",{id:markerId,viewBox:"0 0 10 10",refX:9,refY:5,markerWidth:8,markerHeight:8,orient:"auto-start-reverse"});
     marker.append(makeSVG("path",{d:"M 0 0 L 10 5 L 0 10 z",fill:"#d55b39"})); defs.append(marker); svg.append(defs);
-    const onPage = active.filter(a => a.page === n);
+    const onPage = active.filter(a => a.page === n).sort((a,b) => Number(a.scope !== "topic")-Number(b.scope !== "topic"));
     if (selected && $("editor").open && selected.page === n && !onPage.includes(selected)) onPage.push(selected);
     for (const a of onPage) {
       const node = geometryNode(a);
       if (a.type === "arrow") node.setAttribute("marker-end",`url(#${markerId})`);
-      node.setAttribute("class",`gil-mark ${a.type} ${a.status} ${a.animation || ""}`);
+      node.setAttribute("class",`gil-mark ${a.type} ${a.status} ${a.scope || ""} ${a.animation || ""}`);
       const title = makeSVG("title"); title.textContent = a.label || "Markierung"; node.append(title); svg.append(node);
       if (a.pointer && a.rect) {
         const [x,y,,h] = a.rect;
@@ -153,8 +188,12 @@ function sync(force = false) {
     activeKey = key; renderMarks();
     for (const [id,button] of cueButtons) button.classList.toggle("active",active.some(a => a.id === id));
   }
-  if ($("follow").checked && active.length && key !== followKey) {
-    followKey = key; jumpTo(active[0]);
+  if ($("follow").checked && active.length) {
+    const target = active.find(a => a.scope !== "topic") || active.find(a => a.page === viewer.currentPageNumber) || active.find(a => a.primary) || active[0];
+    if (target.id !== followKey) {
+      followKey = target.id;
+      if (target.scope !== "topic" || target.page !== viewer.currentPageNumber) jumpTo(target);
+    }
   }
 }
 function jumpTo(a) {
@@ -168,7 +207,7 @@ function jumpTo(a) {
 function renderCues() {
   $("cues").replaceChildren(); cueButtons = new Map();
   renderTimelineCues();
-  const cues = [...timeline.annotations].sort((a,b) => a.start-b.start);
+  const cues = timeline.annotations.filter(a => a.scope !== "topic" || a.primary).sort((a,b) => a.start-b.start);
   $("cue-count").textContent = `${cues.length} Stellen`;
   if (!cues.length) {
     const p = document.createElement("p"); p.className = "small";
@@ -243,6 +282,7 @@ function drawEnd(event) {
   timeline.annotations.push(a); selectCue(a); persist();
 }
 async function getJSON(path) {
+  if (globalThis.GIL_EMBEDDED?.json?.[path]) return globalThis.GIL_EMBEDDED.json[path];
   const response = await fetch(path); if (!response.ok) throw new Error(`Datei nicht verfügbar: ${path}`);
   return response.json();
 }
@@ -251,6 +291,7 @@ async function loadChapter(number) {
   chapter = manifest.chapters.find(c => c.number === Number(number));
   if (!chapter) throw new Error("Kapitel nicht gefunden.");
   cancelDrawing(); selected = null; activeKey = followKey = ""; timeline = null; pdf = null;
+  navigation.setDocument(null,manifest.chapters,chapter.number);
   $("annotation-form").reset(); $("excerpt").textContent = "";
   for (const media of [$("audio"),$("video")]) { media.pause(); media.removeAttribute("src"); media.load(); }
   currentMedia = chapter.media_type === "video" ? $("video") : $("audio");
@@ -258,7 +299,7 @@ async function loadChapter(number) {
   $("chapter-title").textContent = `Kapitel ${chapter.number} · ${chapter.title}`;
   $("pdf-download").href = chapter.pdf; $("pdf-download").target = "_blank"; $("pdf-download").rel = "noopener";
   $("chapters").value = chapter.number;
-  history.replaceState(null,"",`?chapter=${chapter.number}`);
+  try { history.replaceState(null,"",`?chapter=${chapter.number}`); } catch {}
   notice("PDF und Timeline werden geladen …");
   if (chapter.audio) currentMedia.src = chapter.audio;
   updateMiniControls();
@@ -268,7 +309,8 @@ async function loadChapter(number) {
   if (loadingTask) await loadingTask.destroy();
   if (sequence !== loadSequence) return;
   loadingTask = pdfjsLib.getDocument({url:chapter.pdf,cMapUrl:"./vendor/cmaps/",cMapPacked:true,
-    standardFontDataUrl:"./vendor/standard_fonts/",wasmUrl:"./vendor/wasm/",isEvalSupported:false});
+    standardFontDataUrl:"./vendor/standard_fonts/",wasmUrl:"./vendor/wasm/",isEvalSupported:false,
+    ...(globalThis.GIL_EMBEDDED?.pdfOptions || {})});
   const [doc, data] = await Promise.all([loadingTask.promise,getJSON(chapter.timeline)]);
   if (sequence !== loadSequence) return;
   pdf = doc; timeline = validateTimeline(data,limits());
@@ -277,6 +319,7 @@ async function loadChapter(number) {
     if (saved) timeline = validateTimeline(JSON.parse(saved),limits());
   } catch { notice("Gespeicherte Timeline passt nicht mehr. Die Paketversion wird geladen.",true); }
   viewer.setDocument(pdf); linkService.setDocument(pdf);
+  navigation.setDocument(pdf,manifest.chapters,chapter.number);
   $("pages").textContent = `/ ${pdf.numPages}`; $("page").max = pdf.numPages;
   renderCues();
   const unreviewed = timeline.annotations.filter(a => a.status !== "reviewed").length;
@@ -285,13 +328,19 @@ async function loadChapter(number) {
 
 eventBus.on("pagesinit",() => { viewer.currentScaleValue = $("zoom").value; sync(true); });
 eventBus.on("pagerendered",() => sync(true));
-eventBus.on("pagechanging",e => { $("page").value = e.pageNumber; });
+eventBus.on("pagechanging",e => { $("page").value = e.pageNumber; navigation.setCurrentPage(e.pageNumber); });
+eventBus.on("scalechanging",updateZoomSelect);
 eventBus.on("updatefindmatchescount",e => { $("matches").textContent = e.matchesCount.total ? `${e.matchesCount.current}/${e.matchesCount.total}` : "0 Treffer"; });
 for (const media of [$("audio"),$("video")]) {
   for (const event of ["timeupdate","seeking","seeked","loadedmetadata","durationchange","play","pause","ended","emptied","error","volumechange","ratechange"]) media.addEventListener(event,() => { if (media === currentMedia) { updateMiniControls(); sync(); } });
   media.addEventListener("error",() => { if (media === currentMedia && media.getAttribute("src")) notice("Audio/Video konnte nicht geladen werden. Bitte Dateipfad und Browser-Unterstützung prüfen.",true); });
 }
 $("toggle-sidebar").addEventListener("click",() => setSidebarOpen(document.body.classList.contains("sidebar-collapsed")));
+$("toggle-navigation").addEventListener("click",() => setNavigation(!document.body.classList.contains("navigation-open")));
+$("show-outline").addEventListener("click",() => setNavigation(true,"outline"));
+$("show-thumbnails").addEventListener("click",() => setNavigation(true,"thumbnails"));
+$("zoom-in").addEventListener("click",() => { viewer.increaseScale(); sync(true); });
+$("zoom-out").addEventListener("click",() => { viewer.decreaseScale(); sync(true); });
 $("mini-play").addEventListener("click",async () => {
   try { if (currentMedia.paused) await currentMedia.play(); else currentMedia.pause(); }
   catch (error) { notice(`Wiedergabe nicht möglich: ${error.message}`,true); setSidebarOpen(true); }
@@ -329,6 +378,19 @@ $("viewerContainer").addEventListener("pointerdown",e => {
   const overScrollbar = e.target === container && (e.clientX >= rect.left+container.clientWidth || e.clientY >= rect.top+container.clientHeight);
   if (isManualPdfNavigation(e,overScrollbar)) stopFollowing();
 });
+// Chromium/Firefox expose a trackpad pinch as Ctrl+wheel. Keep browser chrome unchanged.
+$("viewerContainer").addEventListener("wheel",e => {
+  if (!e.ctrlKey || !pdf) return;
+  e.preventDefault();
+  const delta = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? $("viewerContainer").clientHeight : 1);
+  viewer.updateScale({scaleFactor:Math.exp(-Math.max(-100,Math.min(100,delta))*.01),origin:[e.clientX,e.clientY],drawingDelay:100});
+},{passive:false});
+let gestureScale = 1;
+$("viewerContainer").addEventListener("gesturestart",e => { if (pdf) { e.preventDefault(); gestureScale = viewer.currentScale; } },{passive:false});
+$("viewerContainer").addEventListener("gesturechange",e => {
+  if (!pdf || !Number.isFinite(e.scale)) return;
+  e.preventDefault(); viewer.updateScale({scaleFactor:gestureScale*e.scale/viewer.currentScale,origin:[e.clientX,e.clientY],drawingDelay:100});
+},{passive:false});
 $("draw").addEventListener("click",() => {
   if (drawing) return cancelDrawing();
   drawing = true; document.body.classList.add("drawing"); $("draw").textContent = "Zeichnen abbrechen";
@@ -360,10 +422,13 @@ $("import").addEventListener("change",async e => {
 try {
   let open = false; try { open = localStorage.getItem("gil-reader-sidebar-open") === "true"; } catch {}
   setSidebarOpen(open);
+  let savedNavigation = {}; try { savedNavigation = JSON.parse(localStorage.getItem("gil-navigation") || "{}"); } catch {}
+  setNavigation(savedNavigation.open === true,savedNavigation.tab === "thumbnails" ? "thumbnails" : "outline");
   manifest = await getJSON("reader-manifest.json");
   for (const c of manifest.chapters) { const option = document.createElement("option"); option.value = c.number; option.textContent = `${c.number} · ${c.title}${c.audio ? "" : " (ohne Audio)"}`; $("chapters").append(option); }
   const requested = Number(new URLSearchParams(location.search).get("chapter"));
   const first = manifest.chapters.find(c => c.number === requested) || manifest.chapters.find(c => c.audio) || manifest.chapters[0];
   if (!first) throw new Error("Das Paket enthält noch keine Kapitel.");
   await loadChapter(first.number);
+  setupOffline({button:$("offline-save"),status:$("offline-status"),getChapter:() => chapter});
 } catch (error) { console.error(error); notice(`Reader konnte nicht geladen werden: ${error.message}`,true); }

@@ -6,7 +6,7 @@ import shutil
 from pathlib import Path
 
 from . import chapter_audio, config, content_files
-from .cache import write_if_changed
+from .cache import key_for, write_if_changed
 
 
 def validate_timeline(value: dict, chapter: int, audio_hash: str | None, pdf_hash: str) -> None:
@@ -63,7 +63,7 @@ def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
         pdf_hash, audio_hash = chapter_audio.digest(pdf), chapter_audio.digest(audio) if audio else None
         timeline_name = f"GIL-{n}-Timeline.json"
         timeline_source = config.INTERACTIVE_CURATION / timeline_name
-        timeline = json.loads(timeline_source.read_text(encoding="utf-8")) if timeline_source.exists() else dict(
+        timeline = json.loads(timeline_source.read_text(encoding="utf-8")) if audio and timeline_source.exists() else dict(
             version=1,chapter=n,pdf_sha256=pdf_hash,audio_sha256=audio_hash,annotations=[])
         try:
             validate_timeline(timeline,n,audio_hash,pdf_hash)
@@ -80,7 +80,9 @@ def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
         return 0
     out = config.INTERACTIVE_BUILD
     out.mkdir(parents=True,exist_ok=True)
-    for name in ("reader.html","reader.css","reader-app.mjs","reader-timeline.mjs"):
+    shell_names = ("reader.html","reader.css","reader-app.mjs","reader-timeline.mjs","reader-navigation.mjs",
+                   "reader-offline.mjs","reader.webmanifest","reader-icon.svg","reader-icon-180.png","reader-icon-192.png","reader-icon-512.png")
+    for name in shell_names:
         _copy(config.INTERACTIVE_SOURCE / name,out / name)
     _copy(config.ROOT / "pipeline" / "reader_serve.py",out / "reader_serve.py")
     # Only redistributable viewer assets, never original-script PDFs or crops.
@@ -99,7 +101,7 @@ def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
     write_if_changed(out / "reader-manifest.json",json.dumps(dict(version=1,chapters=[r for r,_,_,_ in planned]),ensure_ascii=False,indent=2)+"\n")
     write_if_changed(out / "Reader-starten.cmd","@echo off\ncd /d \"%~dp0\"\npy -3 reader_serve.py --open\nif errorlevel 1 pause\n")
     write_if_changed(out / "Reader-Anleitung.txt","GIL – Interaktiver Kapitelreader\n\nStart: Reader-starten.cmd (Windows mit Python) oder python reader_serve.py --open\nAdresse: http://127.0.0.1:8765/reader.html\n\nPDF und Audio bleiben getrennt. Rechtecke/Pfeile sind nur eine Darstellungsebene.\nAutomatische Vorschläge sind ungeprüft. Im Reader korrigieren und die Timeline herunterladen.\nZum Übernehmen die passende Datei in curation/interactive/ ersetzen und neu bauen.\nKeine Original-PDFs enthalten; Kapitel-PDFs sind bereinigte Skriptexporte mit eigenen SVGs.\n")
-    allowed = ["reader.html","reader.css","reader-app.mjs","reader-timeline.mjs","reader_serve.py",
+    allowed = [*shell_names,"reader_serve.py",
                "reader-manifest.json","Reader-starten.cmd","Reader-Anleitung.txt","vendor/PDFJS-LICENSE",
                "vendor/build/pdf.mjs","vendor/build/pdf.worker.mjs"]
     if config.ICON_LICENSES.is_file():
@@ -111,6 +113,15 @@ def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
         allowed.extend([record["pdf"],record["timeline"]])
         if record["audio"]:
             allowed.append(record["audio"])
+    worker_source = (config.INTERACTIVE_SOURCE / "reader-service-worker.mjs").read_text(encoding="utf-8")
+    static_files = [name for name in allowed if not name.startswith(("GIL-","audio/"))]
+    version = key_for(worker_source,[(name,chapter_audio.digest(out/name)) for name in static_files],
+                      [(record["pdf_sha256"],record["audio_sha256"],chapter_audio.digest(out/record["timeline"])) for record,_,_,_ in planned])[:16]
+    write_if_changed(out / "reader-service-worker.mjs",worker_source.replace("__GIL_CACHE_VERSION__",version))
+    shell = [name for name in static_files if not name.endswith((".py",".cmd",".txt"))]
+    shell.extend(["reader-service-worker.mjs","reader-offline-index.json"])
+    write_if_changed(out / "reader-offline-index.json",json.dumps(dict(version=version,shell=sorted(shell)),indent=2)+"\n")
+    allowed.extend(["reader-service-worker.mjs","reader-offline-index.json"])
     write_if_changed(out / "reader-assets.txt","\n".join(sorted(allowed))+"\n")
     print(f"[interactive] {len(planned)} Kapitel, {len(recordings)} Audios -> {out}")
     return 0

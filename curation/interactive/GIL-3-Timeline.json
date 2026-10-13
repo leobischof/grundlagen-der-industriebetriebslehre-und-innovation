@@ -3,8 +3,168 @@
   "chapter": 3,
   "audio_sha256": "bfd315b8d087458912af6a4e527f3b8b00395bc313695d60abbcdc89fd203238",
   "pdf_sha256": "5aa20528e19596a28dfa13e5ef9babd401edf9f6ffc21d73db8c2236fc8caba4",
-  "generator": "faster-whisper/tiny + lexical matching",
+  "generator": "faster-whisper/tiny + persistent topics + lexical matching",
   "annotations": [
+    {
+      "id": "topic-1-page-1",
+      "start": 0,
+      "end": 1114.98,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "3.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 3.1 Begriffe und Definitionen",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-2",
+      "start": 0,
+      "end": 1114.98,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "3.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 3.1 Begriffe und Definitionen",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-3",
+      "start": 0,
+      "end": 1114.98,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "3.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 3.1 Begriffe und Definitionen",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-4",
+      "start": 0,
+      "end": 1114.98,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "3.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 3.1 Begriffe und Definitionen",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-5",
+      "start": 0,
+      "end": 1114.98,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "3.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 3.1 Begriffe und Definitionen",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-6",
+      "start": 0,
+      "end": 1114.98,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "3.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 3.1 Begriffe und Definitionen",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-7",
+      "start": 1114.98,
+      "end": 1643.369,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "3.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 3.2 Produktion als Kernaufgabe von Industriebetrieben",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-8",
+      "start": 1114.98,
+      "end": 1643.369,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "3.2",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 3.2 Produktion als Kernaufgabe von Industriebetrieben",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
     {
       "id": "auto-1",
       "start": 114.68,
@@ -23,7 +183,10 @@
       "target_text": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit\ndem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen triﬀt und Risiken\neingeht.\n",
       "confidence": 0.568,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 134.4
     },
     {
       "id": "auto-2",
@@ -43,7 +206,10 @@
       "target_text": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit\ndem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen triﬀt und Risiken\neingeht.\n",
       "confidence": 0.313,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 173.44
     },
     {
       "id": "auto-3",
@@ -63,7 +229,10 @@
       "target_text": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit\ndem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen triﬀt und Risiken\neingeht.\n",
       "confidence": 0.362,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 192.44
     },
     {
       "id": "auto-4",
@@ -83,7 +252,10 @@
       "target_text": "Ein Industrieunternehmen (siehe Abbildung 12) ist eine technische, soziale, wirtschaftliche und\numweltbezogene Einheit zur kommerziellen Produktion von Waren innerhalb eines Fabriksystems mit\ndem Ziel, externe Bedürfnisse zu befriedigen, indem es unabhängige Entscheidungen triﬀt und Risiken\neingeht.\n",
       "confidence": 0.326,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 230.8
     },
     {
       "id": "auto-5",
@@ -103,7 +275,10 @@
       "target_text": "Das Arbeitssystem nach REFA (Abbildung 15) dient der Erfüllung von Arbeitsaufgaben in einem\nIndustriebetrieb. Hierbei wirken Mensch und Betriebsmittel mit der Eingabe unter Umwelteinﬂüssen\nzusammen.\n",
       "confidence": 0.318,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 549.9
     },
     {
       "id": "auto-6",
@@ -123,7 +298,10 @@
       "target_text": "Die Eingabe eines Arbeitssystems besteht im Allgemeinen aus Arbeitsgegenständen, aber auch aus\nMenschen, Informationen und Energie, die im Sinne der Arbeitsaufgabe in ihrem Zustand, ihrer Form\noder ihrer Lage verändert oder verwendet werden sollen.\n",
       "confidence": 0.283,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 590.32
     },
     {
       "id": "auto-7",
@@ -143,10 +321,59 @@
       "target_text": "Mensch und Betriebsmittel bzw. Arbeitsmittel sind die Kapazitäten des Arbeitssystems, die gemäß der\nArbeitsaufgabe die Eingabe in die Ausgabe verändern.\n",
       "confidence": 0.37,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 630.38
     },
     {
       "id": "auto-8",
+      "start": 650.9,
+      "end": 673.38,
+      "page": 9,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5317134540041382,
+        0.7734114831235228,
+        0.09648458521609635
+      ],
+      "pointer": true,
+      "label": "Industrie Management ist ein Teil der Wirtschaftswissenschaften (siehe Abbildung 18), der sich mit der\nÖkonomi",
+      "transcript": "Stimmt er es noch mehr in dem Schaubild?  Ja, über dem ganzen Spebtes Unternehmen ziel,  dass dem System die konkrete Arbeitsaufgabe dictiert.  Aber noch viel kritischer für das Management sind die Faktoren,  die von außen auf diese gestrichelte Systemgrenze einförten.  Du meinst die Umwelt-Einflüsse, die da erwähnt werden.  Richtig. Weißt du, wenn ich umwelt einflüsse, höre, denke ich sofort an Regen, Klimawandel",
+      "target_text": "Industrie Management ist ein Teil der Wirtschaftswissenschaften (siehe Abbildung 18), der sich mit der\nÖkonomie von Anlagen bzw. Unternehmen unter Berücksichtigung ihrer Wechselwirkungen mit anderen\nUnternehmen und ihrer Umwelt beschäftigen. Während die allgemeinen Wirtschaftswissenschaften\nversuchen, Fragen zu beantworten, die sich in allen Unternehmensformen gleichermaßen stellen,\nkonzentriert sich das Industrie Management auf das Industrieunternehmen als\nUntersuchungsgegenstand.\n",
+      "confidence": 0.184,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.3",
+      "matched_end": 673.38
+    },
+    {
+      "id": "auto-9",
+      "start": 809.98,
+      "end": 827.98,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.3926789924820925,
+        0.7715795949727547,
+        0.04838478650163302
+      ],
+      "pointer": true,
+      "label": "Leistungsbedingte Erlöse ergeben sich aus dem mengenmäßigen Output, bewertet mit am Absatzmarkt\nerzielbaren Pr",
+      "transcript": "Ich ständig durch an ander geworfen.  Welche Begriffen meinst du?  Fangwem wird der absoluten Basis an, der Produktivität?  Das ist eine rein technische Mengenmäßige Leistungsmessung.  Die Formel ist schlicht und einfach, Mengenmäßige Output,  geteilt durch Mengenmäßigen Input.",
+      "target_text": "Leistungsbedingte Erlöse ergeben sich aus dem mengenmäßigen Output, bewertet mit am Absatzmarkt\nerzielbaren Preisen; ebenso resultieren die Kosten als Werteinsatz zur Leistungserstellung aus dem\nmengenmäßigen Einsatz, bewertet mit den durch den Beschaﬀungsmarkt gegebenen Preisen.\n",
+      "confidence": 0.22,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 827.98
+    },
+    {
+      "id": "auto-10",
       "start": 903.02,
       "end": 922.54,
       "page": 6,
@@ -163,10 +390,13 @@
       "target_text": "In dieser Kenngröße wird durch monetäre Bewertung der erstellten Leistung (Output) und der\nEinsatzfaktoren (Input) das Wirtschaftlichkeitsprinzip („Erwirtschaften“ statt „Verwirtschaften“) konkret\ngefasst.\n",
       "confidence": 0.372,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 922.54
     },
     {
-      "id": "auto-9",
+      "id": "auto-11",
       "start": 981.22,
       "end": 1000.22,
       "page": 6,
@@ -183,10 +413,13 @@
       "target_text": "Rentabilität ist das Verhältnis des Gewinnes einer Rechnungsperiode zum eingesetzten Kapital\n(Kapitalrentabilität), bzw. lässt sich allgemein die Überlegung herleiten: „Welchen Erfolg hat man erzielt\nund wie viel hat man einsetzen müssen, um diesen Erfolg zu erreichen.“\n",
       "confidence": 0.337,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 1000.22
     },
     {
-      "id": "auto-10",
+      "id": "auto-12",
       "start": 1114.98,
       "end": 1135.98,
       "page": 8,
@@ -203,10 +436,13 @@
       "target_text": "•  Kapital (Betriebsmittel, Finanzmittel, Material und Energie)\n",
       "confidence": 0.839,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.2",
+      "matched_end": 1135.98
     },
     {
-      "id": "auto-11",
+      "id": "auto-13",
       "start": 1177.98,
       "end": 1195.98,
       "page": 8,
@@ -223,7 +459,57 @@
       "target_text": "•  Potenzial- und Humanfaktoren (Gebäude, Betriebsmittel, Menschen): Stellen Nutzungspotenzial\nfür Wiederholungen zur Verfügung\n",
       "confidence": 0.48,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.2",
+      "matched_end": 1195.98
+    },
+    {
+      "id": "auto-14",
+      "start": 1295.78,
+      "end": 1316.78,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.11210079673959428,
+        0.5288808283500037,
+        0.7725038800920759,
+        0.08054629074422877
+      ],
+      "pointer": true,
+      "label": "Malik deﬁnierte die drei Dimensionen des Managements. Dabei ist die erste Dimension die funktionale\nDimension,",
+      "transcript": "Er beschreibt Management nämlich in drei Dimensionen.  Funktional, Institutionell und Personal.  Und Funktional heißt dann was genau?  Das Funktionalemandenschment muss genau diesen Fluss orchestrieren, den wir besprochen haben.  Die Beschaffungslogistik muss die Rohstoffe anschaffen.  Die Produktionslogistik muss sie durch das Reversystem schleusen",
+      "target_text": "Malik deﬁnierte die drei Dimensionen des Managements. Dabei ist die erste Dimension die funktionale\nDimension, die das Management als eine bestimmte Art eines Handelns von Menschen beschreibt und\nfür ein Unternehmen notwendig ist. Zweitens die institutionelle Dimension, die die organisatorisch\ndeﬁnierten Organe einer Organisation, wie Vorstand oder Geschäftsführer umfasst und als Dritte, die\npersonelle Dimension, welche die Personen hinter den genannten Organen beinhaltet.\n",
+      "confidence": 0.184,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.1",
+      "matched_end": 1316.78
+    },
+    {
+      "id": "auto-15",
+      "start": 1440.58,
+      "end": 1460.54,
+      "page": 9,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5317134540041382,
+        0.7734114831235228,
+        0.09648458521609635
+      ],
+      "pointer": true,
+      "label": "Industrie Management ist ein Teil der Wirtschaftswissenschaften (siehe Abbildung 18), der sich mit der\nÖkonomi",
+      "transcript": "ein Prozent schneller zu machen, das ist natürlich wichtig, aber es ist eben nur ein Teil der Wahrheit.  Weil die Ökonomie fehlt?  Exact.  Die brillantes technische Lösung der perfekte Roboterarm im Riefersystem ist absolut  wertlos, wenn er sich nicht ökonomisch am Markt behaupten kann.  Wenn das Controling, also eine Funktion auf der anderen Arxen nicht aufpasst, dass die",
+      "target_text": "Industrie Management ist ein Teil der Wirtschaftswissenschaften (siehe Abbildung 18), der sich mit der\nÖkonomie von Anlagen bzw. Unternehmen unter Berücksichtigung ihrer Wechselwirkungen mit anderen\nUnternehmen und ihrer Umwelt beschäftigen. Während die allgemeinen Wirtschaftswissenschaften\nversuchen, Fragen zu beantworten, die sich in allen Unternehmensformen gleichermaßen stellen,\nkonzentriert sich das Industrie Management auf das Industrieunternehmen als\nUntersuchungsgegenstand.\n",
+      "confidence": 0.21,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "3.3",
+      "matched_end": 1460.54
     }
-  ]
+  ],
+  "generated_annotations_sha256": "5123a85e5914a94c916d7acb78e31eff8aff6226a4b44e0984fc38912e5b6fce"
 }

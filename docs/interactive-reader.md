@@ -23,6 +23,31 @@ Stelle bleibt die PDF-Position stehen; es wird keine passende Stelle erfunden.
 
 ## Lokal vorbereiten und starten
 
+Einrichtung und Alltag unter Windows:
+
+```powershell
+.\dev.ps1 setup   # .venv, Python-Abhängigkeiten und node_modules einrichten
+.\dev.ps1         # Audio-Pipeline ausführen, Reader starten und Browser öffnen
+.\dev.ps1 build   # nur automatisch vorbereiten und bauen
+.\dev.ps1 test    # Python-/JS-Tests und Offline-Validierung
+.\dev.ps1 release # lokale Release-Pakete bauen, ohne Veröffentlichung
+```
+
+Python 3.11+ und Node.js 22+ müssen installiert sein. Änderungen an `pyproject.toml` oder
+`interactive/package-lock.json` lösen beim nächsten Aufruf eine passende Neuinstallation aus;
+sonst wird die vorhandene Einrichtung verwendet. `-Reinstall` installiert Abhängigkeiten erneut,
+`-Port 8766` wählt einen anderen Port, `-NoOpen` unterdrückt das Öffnen des Browsers.
+VS Code bietet dieselben Befehle in `.vscode/tasks.json` unter „Tasks: Run Task“;
+Strg+Umschalt+B führt den Reader-Build aus.
+
+Der gemeinsame Pipeline-Befehl lautet **`python -m pipeline audio-reader`**: Audios erkennen und
+kanonisch benennen → Kapitel-PDFs rendern → lokal transkribieren (Cache) → Themen-/Detailmarkierungen
+vorbereiten → Reader bauen. `python -m pipeline sync-audio` führt nur die Audio-Vorbereitung aus.
+Nach einem frischen Checkout ohne lokale Audios bleiben die Kapitel als PDF lesbar. Die Audios
+aus dem privaten Audio-Release lassen sich später in `audio/` ablegen.
+
+Die einzelnen Schritte lassen sich weiterhin getrennt ausführen:
+
 ```powershell
 # Repository-Wurzel; Windows, Python und Node.js erforderlich
 & .\.venv\Scripts\Activate.ps1
@@ -58,6 +83,11 @@ Original-PDFs und Original-Abbildungsausschnitte werden nicht ins Paket kopiert.
 Ein fehlendes Audio verhindert das Lesen des Kapitels nicht; die Oberfläche zeigt den fehlenden
 Audiostand an. Derzeit existieren Aufnahmen für Kapitel 2–9, nicht für Kapitel 1.
 
+Links gibt es eine getrennte, einklappbare PDF-Navigation: Kapitelwechsel und das echte
+PDF-Inhaltsverzeichnis oder Seitenminiaturen. Miniaturen werden erst nahe am sichtbaren Bereich
+gerendert. Plus/Minus, Zoomstufen, Seitenbreite und ganze Seite stehen oben bereit. Eine
+Touchpad-Pinch-Geste (bzw. Strg+Mausrad) zoomt das PDF um den Zeiger; die Oberfläche bleibt gleich groß.
+
 ## Automatische Vorbereitung und Korrektur
 
 `audio_sync` transkribiert mit lokalem faster-whisper (Deutsch, CPU/int8). Beim ersten Lauf wird
@@ -75,6 +105,14 @@ Renderer es als Bild ausweist. Vektorgrafiken können eine manuelle Flächenkorr
 Zeichnungen und ASR-Fehler können zu fehlenden oder falschen Treffern führen. Ein Ähnlichkeitswert
 ist keine fachliche Richtigkeitswahrscheinlichkeit. Das Skript bleibt maßgeblich.
 
+Die Darstellung hat zwei Ebenen: Große blaue Themenrahmen umfassen den zugehörigen Abschnitt
+auf einer halben oder fast ganzen Seite, bei mehrseitigen Themen auch mehrere Seiten. Sie bleiben
+bis zum nächsten ausreichend erkannten Themenwechsel sichtbar, auch während erläuternder Beispiele.
+Orange Detailrahmen und Pfeile erscheinen ausschließlich im Zeitfenster des konkreten Treffers.
+Sie verschwinden am Ende dieses Fensters, auch wenn anschließend keine neue Detailstelle erkannt
+wird. Nur die großen Themenrahmen bleiben als Kontext sichtbar. Themen- und Detailzuordnungen
+sind vollständig ungeprüft und korrigierbar.
+
 Im Reader eine Stelle auswählen, „Markierungen korrigieren“ öffnen, Start/Ende, PDF-Seite und
 Koordinaten ändern oder ein Rechteck, Highlight bzw. einen Pfeil aufziehen. „Inhaltlich geprüft“
 ist eine bewusste Bestätigung der Person. Änderungen werden in diesem Browser unter dem
@@ -82,9 +120,14 @@ PDF-/Audio-Hash gespeichert. Die heruntergeladene Timeline ersetzt nach Prüfung
 Datei in `curation/interactive/`; danach `python -m pipeline interactive` erneut ausführen.
 Import mit falschem Kapitel oder falschem PDF-/Audio-Hash wird abgewiesen.
 
-Eine bestehende Timeline wird von `audio_sync` nie überschrieben: neue Vorschläge liegen dann in
-`build/transcripts/GIL-<N>-Timeline-Vorschlag.json`. Bei Änderungen an PDF oder Audio die Vorschläge
-neu erzeugen, prüfen und übernehmen. Die Pipeline baut kein Paket mit veralteter Zuordnung.
+Der gemeinsame Pipeline-Lauf aktualisiert eine bestehende Timeline nur, wenn ihr gespeicherter
+Generierungs-Hash unverändert ist und alle Einträge ungeprüft aus der Automatik stammen. Schon
+eine manuelle Inhaltsänderung oder ein geprüfter Eintrag schützt die Datei. Neue Vorschläge liegen
+dann getrennt in `build/transcripts/GIL-<N>-Timeline-Vorschlag.json`. Der direkte Aufruf von
+`pipeline.audio_sync` schützt bestehende Dateien standardmäßig immer; `--refresh-unreviewed`
+aktiviert dieselbe Hash-Prüfung wie die Pipeline. Bei Änderungen an PDF/Audio und gleichzeitig
+manuell korrigierter Timeline die Vorschläge prüfen und übernehmen. Ein Paket mit veralteter
+Dokumentzuordnung wird nicht gebaut.
 
 ## Timeline-Vertrag (Version 1)
 
@@ -120,14 +163,35 @@ berücksichtigt die Betriebssystem-Einstellung für reduzierte Bewegung.
 
 ## Releases und Prüfungen
 
+`.\dev.ps1 package` erzeugt nach der Audio-Pipeline neun eigenständige HTML-Dateien unter
+`build/standalone/`, benannt `GIL-<N>-Lernpaket-<Titel>.html`. Alternativ nach dem Reader-Build:
+`python -m pipeline package-reader`. PDF, vorhandenes Audio, Timeline, Reader, PDF.js und dessen
+Schriften sind eingebettet; die Kapiteldatei benötigt keine danebenliegenden Dateien.
+Kapitel 1 enthält derzeit nur das PDF. Lokales Öffnen benötigt einen Browser, der JavaScript
+in HTML-Dateien ausführt. Die iOS-Dateivorschau ist dafür nicht zuverlässig geeignet.
+
+Der Reader ist zusätzlich eine installierbare PWA. Für Mobilgeräte das entpackte Reader-Paket
+über **HTTPS** bereitstellen; der lokale Entwicklungsserver funktioniert über `localhost`.
+„Kapitel offline speichern“ lädt das gewählte PDF, Audio und die Timeline in den Browsercache.
+Danach ist dieses Kapitel auch ohne Verbindung nutzbar. Auf iOS lässt sich die HTTPS-Seite über
+Safari zum Home-Bildschirm hinzufügen. Browser können gespeicherte Daten bei Speicherknappheit
+entfernen. Das Erzeugen des Pakets veröffentlicht oder hostet es nicht.
+
 `python -m pipeline release` ergänzt lokale Audios als `GIL-Audio-je-Kapitel.zip` und im
 Gesamtpaket unter `6-Audio/`. Ist der Reader gebaut, kommt ein eigener, vollständiger Download
-`GIL-Interaktiver-Kapitelreader.zip` hinzu. Audios bleiben außerhalb Git; in CI fehlen sie bewusst.
+`GIL-Interaktiver-Kapitelreader.zip` mit PWA und lokalem Server hinzu. Die HTML-Kapiteldateien
+kommen in `GIL-Lernpakete-je-Kapitel.zip` und im Gesamtpaket unter `7-Lernpakete/` hinzu.
+`.\dev.ps1 release` führt alle nötigen Schritte einschließlich Paketbildung aus.
+Audios bleiben außerhalb Git; in CI fehlen sie bewusst.
 Veröffentlicht werden Releases ausschließlich nach dem Merge auf `main`, im privaten Repository.
 
 Tests: `python -m pytest`, `npm test --prefix interactive`, `python -m pipeline offline`.
 Die JS-Tests prüfen Zeitsprünge und Timeline-Verträge; die Python-Tests prüfen u. a. sichere
-Umbenennung, Audio-Release-Zuordnung, Matching, Dokumentidentität und HTTP-Byte-Ranges.
+Umbenennung, Audio-Release-Zuordnung, Matching, Dokumentidentität, HTTP-Byte-Ranges,
+eingebettete Kapiteldateien und deterministische, speicherschonende ZIP-Erzeugung.
+
+PWA-Grundlagen: [MDN: Service Worker API](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API),
+[WebKit: Home Screen web apps](https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/).
 
 Technische Quellen: [PDF.js-Komponentenbeispiel](https://github.com/mozilla/pdf.js/blob/master/examples/components/simpleviewer.mjs),
 [PDF.js](https://mozilla.github.io/pdf.js/), [faster-whisper](https://github.com/SYSTRAN/faster-whisper).

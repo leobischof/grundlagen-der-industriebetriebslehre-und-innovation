@@ -3,19 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#275e49">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="reader.webmanifest">
+  <link rel="apple-touch-icon" href="reader-icon-180.png">
   <title>GIL · Skript hören & verstehen</title>
   <link rel="stylesheet" href="vendor/web/pdf_viewer.css">
   <link rel="stylesheet" href="reader.css">
 </head>
 <body class="sidebar-collapsed">
   <div class="workspace">
+    <aside class="navigation-sidebar" aria-label="PDF-Navigation">
+      <nav class="navigation-rail" aria-label="Navigationsansicht">
+        <button id="toggle-navigation" title="PDF-Navigation öffnen" aria-label="PDF-Navigation öffnen" aria-expanded="false" aria-controls="navigation-body">☰</button>
+        <button id="show-outline" title="Kapitel und Inhaltsverzeichnis" aria-label="Kapitel und Inhaltsverzeichnis" aria-pressed="true">☷</button>
+        <button id="show-thumbnails" title="Seitenminiaturen" aria-label="Seitenminiaturen" aria-pressed="false">▤</button>
+      </nav>
+      <div class="navigation-body" id="navigation-body" inert>
+        <h2 id="navigation-title">Kapitel & Inhalt</h2>
+        <div id="pdf-outline"></div>
+        <div id="pdf-thumbnails" hidden></div>
+      </div>
+    </aside>
     <main class="document-pane">
       <div class="pdf-toolbar" aria-label="PDF-Werkzeuge">
         <div class="toolbar-pages">
         <button id="previous" aria-label="Vorherige Seite">←</button>
         <label>Seite <input id="page" type="number" min="1" value="1" aria-label="PDF-Seite"></label>
         <span id="pages">/ –</span><button id="next" aria-label="Nächste Seite">→</button>
-        <select id="zoom" aria-label="Zoom"><option value="page-width">Seitenbreite</option><option value="0.75">75 %</option><option value="1">100 %</option><option value="1.25">125 %</option><option value="1.5">150 %</option><option value="2">200 %</option></select>
+        <button id="zoom-out" aria-label="PDF verkleinern" title="PDF verkleinern">−</button>
+        <select id="zoom" aria-label="Zoom"><option value="page-width">Seitenbreite</option><option value="page-fit">Ganze Seite</option><option value="0.5">50 %</option><option value="0.75">75 %</option><option value="1">100 %</option><option value="1.25">125 %</option><option value="1.5">150 %</option><option value="2">200 %</option><option value="3">300 %</option></select>
+        <button id="zoom-in" aria-label="PDF vergrößern" title="PDF vergrößern">+</button>
         </div>
         <div class="toolbar-chapter">
           <a class="brand" href="reader.html" aria-label="GIL Kapitelreader"><b>GIL</b></a>
@@ -85,6 +103,10 @@
         <div class="row"><button id="export">Timeline herunterladen</button><label class="file-button">Timeline laden<input id="import" type="file" accept="application/json,.json" hidden></label></div>
         <p class="small">Änderungen werden zusätzlich nur in diesem Browser gespeichert. Zum dauerhaften Übernehmen die Timeline herunterladen.</p>
       </details>
+      <section class="offline-section">
+        <button id="offline-save" disabled>Kapitel offline speichern</button>
+        <p id="offline-status" class="small"></p>
+      </section>
       <footer>KI-Erklärung · Skript 2024/25 · Das Skript ist maßgeblich.</footer>
       </div>
     </aside>

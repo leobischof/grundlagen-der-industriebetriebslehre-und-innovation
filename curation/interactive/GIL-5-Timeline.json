@@ -3,10 +3,416 @@
   "chapter": 5,
   "audio_sha256": "79fde492d3d270541224f8cafa6058b4b732d7d0b134e7eb67b30962deddeb5c",
   "pdf_sha256": "29d64b11e0e64078a463ac2f7ec978b047f1b20da998f8b1ca900d3a256b918a",
-  "generator": "faster-whisper/tiny + lexical matching",
+  "generator": "faster-whisper/tiny + persistent topics + lexical matching",
   "annotations": [
     {
+      "id": "topic-1-page-3",
+      "start": 0,
+      "end": 243.24,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "5.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 5.1 Ziele der Produktentstehung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-4",
+      "start": 243.24,
+      "end": 856.84,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "5.3",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 5.3 Strategische Produktplanung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-5",
+      "start": 243.24,
+      "end": 856.84,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.16785
+      ],
+      "scope": "topic",
+      "topic_id": "5.3",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.3 Strategische Produktplanung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-5",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-6",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-7",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-8",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-9",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 9,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-10",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 10,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-11",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-12",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 12,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-13",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 13,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-14",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 14,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-15",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 15,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-16",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 16,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-17",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 17,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-18",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-19",
+      "start": 856.84,
+      "end": 1502.215,
+      "page": 19,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "5.6",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 5.6 Integration im Produktentstehungsprozess",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
       "id": "auto-1",
+      "start": 127.64,
+      "end": 146.4,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6547551460900386,
+        0.7706216122923779,
+        0.04838478650163302
+      ],
+      "pointer": true,
+      "label": "Ziel des Produktentstehungsprozesses ist es, ein Zielsystem (alle Ziele, die ein neues Produkt anstrebt)\nmit e",
+      "transcript": "Also ein Produkt schön, Braf, Abteilung für Abteilung, Schritt für Schritt zu entwickeln.  Heute der sich als der Weg ist, um ein Unternehmen komplett in den Ruhen zu treiben.  Bei wie hier wirklich über einen massiven Paradigmenwechsel in der Industrie sprechen.  Aber bevor wir wirklich tief in diese modernen Methoden eintrauchen und analysieren, wie Produkte",
+      "target_text": "Ziel des Produktentstehungsprozesses ist es, ein Zielsystem (alle Ziele, die ein neues Produkt anstrebt)\nmit einem Handlungssystem (z.B. ein Unternehmen mit allen verfügbaren Ressourcen) in ein\ngeeignetes Sachsystem (z.B. Simulationsmodelle, Prototypen, serienreife Produkte) zu transformieren.\n",
+      "confidence": 0.174,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.1",
+      "matched_end": 146.4
+    },
+    {
+      "id": "auto-2",
+      "start": 185.56,
+      "end": 203.96,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5121025755966078,
+        0.7136636044798779,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Der Produktlebenszyklus beschreibt den gesamten Prozess von der Geschäftsidee bis hin zur\nVerwendung eines Pro",
+      "transcript": "Sie beginnt bei der Idee und endet exakt an einem einzigen unmissverständlichen Punkt.  Dem SOP.  Okay, SOP steht für Start of Production.  Richtig.  Also der Moment, in dem in der Fabrik Bustäblich, dieser Rote Knopf gedrückt wird und das  Fließband mit der Serienfertigung anleuft.  Exakt zur Isis.",
+      "target_text": "Der Produktlebenszyklus beschreibt den gesamten Prozess von der Geschäftsidee bis hin zur\nVerwendung eines Produktes durch den Kunden. Als Teil des Produktlebenszyklus bildet die\nProduktentstehung den grundlegenden Prozess von der Produkt- bzw. Geschäftsidee bis zum\nProduktionsstart (SOP — Start of Production) ab. Diese Deﬁnition der Produktentstehung (siehe\nAbbildung 24) ﬁndet sich in den folgenden Kapiteln wieder.\n",
+      "confidence": 0.232,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.1",
+      "matched_end": 203.96
+    },
+    {
+      "id": "auto-3",
       "start": 243.24,
       "end": 263.24,
       "page": 4,
@@ -23,10 +429,13 @@
       "target_text": "Abbildung 25: Zielsystem, Handlungssystem und Sachsystem – Skript S. 77 (PDF 87)\n",
       "confidence": 0.509,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.3",
+      "matched_end": 263.24
     },
     {
-      "id": "auto-2",
+      "id": "auto-4",
       "start": 318.64,
       "end": 337.76,
       "page": 4,
@@ -43,10 +452,105 @@
       "target_text": "Eﬀektivität und Eﬃzienz sind wesentlich für die Realisierung einer erfolgreichen Produktinnovation.\nEinerseits ist es wichtig, das richtige Projekt zu verfolgen (to do the right project - eﬀectivity),\nandererseits ist es wichtig, das Projekt richtig abzuwickeln (to do the project right - eﬃciency).\nEﬀektivität ist ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines gesetzten\nZiels beschrieben werden können. Beispielsweise besteht Potenzial, die Eﬀektivität zu steigern, inde",
       "confidence": 0.308,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.3",
+      "matched_end": 337.76
     },
     {
-      "id": "auto-3",
+      "id": "auto-5",
+      "start": 337.76,
+      "end": 353.76,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.4931673244739089,
+        0.7668231739717372,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "Eﬀektivität und Eﬃzienz sind wesentlich für die Realisierung einer erfolgreichen Produktinnovation.\nEinerseits",
+      "transcript": "Also das richtige Projekt mache.  richtig. Man fokussiert sich darauf,  dass er richtige zu tun.  Das heißt, du hast den Markt verstanden,  du hast die richtige Technologie ausgewählt,  du baußt ein Produkt, dass die Leute tatsächlich brauchen.  Es geht um die Ausrichtung, quasi um den Kompass.",
+      "target_text": "Eﬀektivität und Eﬃzienz sind wesentlich für die Realisierung einer erfolgreichen Produktinnovation.\nEinerseits ist es wichtig, das richtige Projekt zu verfolgen (to do the right project - eﬀectivity),\nandererseits ist es wichtig, das Projekt richtig abzuwickeln (to do the project right - eﬃciency).\nEﬀektivität ist ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines gesetzten\nZiels beschrieben werden können. Beispielsweise besteht Potenzial, die Eﬀektivität zu steigern, inde",
+      "confidence": 0.224,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.3",
+      "matched_end": 353.76
+    },
+    {
+      "id": "auto-6",
+      "start": 355.76,
+      "end": 372.0,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.667751647514289,
+        0.7752097121807707,
+        0.128551057285481
+      ],
+      "pointer": true,
+      "label": "Hingegen ist die Eﬃzienz ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines\ngesetzten Z",
+      "transcript": "Effizienz hingegen bedeutet,  Das Projekt richtig machen.  Genau, hier geht es um die Ausführung.  Wie optimalen nutzen wir unsere Ressourcen?  Wie schnell programmieren wir?  Wie wenig Material auszuschossen wir?  Das ist der Tacho.",
+      "target_text": "Hingegen ist die Eﬃzienz ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines\ngesetzten Ziels in deﬁnierter Art und Weise beschrieben werden können. Wesentliche Kriterien für die\nEﬃzienz im Produktentstehungsprozess sind die zeitliche Überschneidung von Aufgaben und die\nIntegration aller Beteiligten zur Sicherstellung der erforderlichen Entwicklungszeit und -qualität. In der\nProduktentwicklung bedarf es einer optimierten Gestaltung der Prozesse und Strukturen, um die\ngesteck",
+      "confidence": 0.169,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.3",
+      "matched_end": 372.0
+    },
+    {
+      "id": "auto-7",
+      "start": 387.76,
+      "end": 407.52,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.667751647514289,
+        0.7752097121807707,
+        0.128551057285481
+      ],
+      "pointer": true,
+      "label": "Hingegen ist die Eﬃzienz ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines\ngesetzten Z",
+      "transcript": "hochgradig effizient sind, dann ist das Ergebnis doch zwangsläufig auch effektiv oder nicht.  Gut der Input, guter Output. Das ist der gefährlichste Tuchschluss in der gesamten Produktentwicklung.  Wirklich?  Echt jetzt.  Ja, lassen Sie uns das mal an einem realen scenario durchspielen.  Stell dir vor, du hast ein Entwickler Team, das perfekt auf anderem darabgestimmt ist.",
+      "target_text": "Hingegen ist die Eﬃzienz ein Bewertungskriterium, mit dem sinnvolle Maßnahmen zur Erreichung eines\ngesetzten Ziels in deﬁnierter Art und Weise beschrieben werden können. Wesentliche Kriterien für die\nEﬃzienz im Produktentstehungsprozess sind die zeitliche Überschneidung von Aufgaben und die\nIntegration aller Beteiligten zur Sicherstellung der erforderlichen Entwicklungszeit und -qualität. In der\nProduktentwicklung bedarf es einer optimierten Gestaltung der Prozesse und Strukturen, um die\ngesteck",
+      "confidence": 0.163,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.3",
+      "matched_end": 407.52
+    },
+    {
+      "id": "auto-8",
+      "start": 428.68,
+      "end": 447.24,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.7917067285388213,
+        0.7678651825720523,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "In einem punktbasierten seriellen Ansatz werden in verschiedenen Phasen des Entwicklungsprozesses\nLösungen ent",
+      "transcript": "im Jahr der Einführung des ersten Smartphones.  Verstehe, niemand will mehr einen Pager haben.  Genau das.  Du hast das komplett falsche Produkt entwickelt.  Die Kunden anforderungen waren völlig veraltet.  Die Marktvision hat nicht gestimmt, das Projekt hat den Null-Effektivität.  Wow, okay, das läuft ein.",
+      "target_text": "In einem punktbasierten seriellen Ansatz werden in verschiedenen Phasen des Entwicklungsprozesses\nLösungen entwickelt, basierend auf Lösungen der jeweils früheren Phasen. Nachgelagerte Prozesse\nhaben keinen Einﬂuss auf vorgelagerte Prozesse. Falsche Entscheidungen können somit zu immensen\nIterationsschleifen über mehrere Phasen des sequentiellen Prozesses führen.\n",
+      "confidence": 0.191,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 447.24
+    },
+    {
+      "id": "auto-9",
       "start": 520.72,
       "end": 541.36,
       "page": 6,
@@ -63,10 +567,59 @@
       "target_text": "Die Kostenfestlegung in der Produktentstehung erfolgt sehr früh im Prozess. In einer frühen Phase, in\nder erst 5% der Kosten tatsächlich verursacht wurden, sind bereits ca. 80% der Kosten festgelegt.\nSpeziell in diesem Zusammenhang ist ersichtlich, dass ein integrierter Produktentstehungsprozess\nunerlässlich ist, um Eﬃzienz und Eﬀektivität in der Produktentstehung zu gewährleisten.\n",
       "confidence": 0.324,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 541.36
     },
     {
-      "id": "auto-4",
+      "id": "auto-10",
+      "start": 656.76,
+      "end": 676.04,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.7288295718666493,
+        0.7548064287971048,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "Die Kostenfestlegung in der Produktentstehung erfolgt sehr früh im Prozess. In einer frühen Phase, in\nder erst",
+      "transcript": "Ja.  Wie verhindert man, dass Leute in dieser frühen Phase Entscheidungen treffen,  die später Millionen Kosten, weil ihn der Blick für das große ganze fehlt?  Die Antwort der Experten im Skript lautet Integration.  Keine isolierten Abteilungen mehr. Das ist der Schlüssel.  In der Vergangenheit herstieg er der Sikfinzzielle Ansatz.  Wie ist das aus?",
+      "target_text": "Die Kostenfestlegung in der Produktentstehung erfolgt sehr früh im Prozess. In einer frühen Phase, in\nder erst 5% der Kosten tatsächlich verursacht wurden, sind bereits ca. 80% der Kosten festgelegt.\nSpeziell in diesem Zusammenhang ist ersichtlich, dass ein integrierter Produktentstehungsprozess\nunerlässlich ist, um Eﬃzienz und Eﬀektivität in der Produktentstehung zu gewährleisten.\n",
+      "confidence": 0.183,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 676.04
+    },
+    {
+      "id": "auto-11",
+      "start": 696.28,
+      "end": 715.48,
+      "page": 17,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.33669833729216153,
+        0.7724368568228073,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Die beschriebenen Teilbereiche der Produktentstehung werden nicht als bestimmte, aufeinander\nfolgende Phasen v",
+      "transcript": "Wie man diesen Wahnsinn überhaupt zusammen schrauben soll.  Und wie reißt man diese Mauer jetzt ab?  Die Analysen der TU-Gratsschlagen der vier konkrete Ebene der Integration vor.  Menschenlich, Methodisch, Organisatorisch und Technologisch.  Aber lassen es dann nicht einfach drüber fliegen,  sondern wirklich verstehen, wie das in der Praxis funktioniert.",
+      "target_text": "Die beschriebenen Teilbereiche der Produktentstehung werden nicht als bestimmte, aufeinander\nfolgende Phasen verstanden, sondern sind vielmehr als Gesamtbild zu verstehen. Die Integration der\nPhasen erfolgt in den Integrationsbereichen Strategische Produktentwicklung, Strategische\nProduktionssystementwicklung, Integrierte Produkt- und Produktionssystem-entwicklung sowie Systems\nEngineering als Kooperationskern (Abbildung 35).\n",
+      "confidence": 0.221,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 715.48
+    },
+    {
+      "id": "auto-12",
       "start": 715.6,
       "end": 736.16,
       "page": 8,
@@ -83,10 +636,13 @@
       "target_text": "Technologische Integration ermöglicht eine einheitliche, digitale Entwicklung, Produktion und\nDistribution, z.B. Datenintegration und integrative Eigenschaftsfrüherkennung. Datenintegration kann\ndurch die Implementierung von PDM-Systemen (Product Data Management) und die Bereitstellung von\ngängigen Schnittstellen wie CAD-CAM erfolgen. Eine integrative Eigenschaftsfrüherkennung kann durch\nSimulation oder Rapid Prototyping realisiert werden.\n",
       "confidence": 0.267,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 736.16
     },
     {
-      "id": "auto-5",
+      "id": "auto-13",
       "start": 856.84,
       "end": 878.2,
       "page": 10,
@@ -103,10 +659,82 @@
       "target_text": "Simultaneous Engineering basiert auf drei Grundprinzipien:\n",
       "confidence": 0.402,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 878.2
     },
     {
-      "id": "auto-6",
+      "id": "auto-14",
+      "start": 878.2,
+      "end": 899.0,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.3763657884756347,
+        0.7444872174944196,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "Das Ergebnis der Produktentwicklung ist die Beschreibung und die Dokumentation des Produktes.\nDiese beinhaltet",
+      "transcript": "Das margische drei Ecke?  Ja, die drei Ecken dieses drei Ecke sind, Kosten, Zeit und Qualität.  Das ist auch dieser alte Handwerker sprach oder du kannst es gut, schnell oder billig haben.  Willz weiter von aus.  Exakt den, meine ich.  Wenn es schnell und billig sein soll, leidet die Qualität.  Wenn du Spitzenqualität willst und das auch noch extrem schnell, dann wird es astronomisch teuer.",
+      "target_text": "Das Ergebnis der Produktentwicklung ist die Beschreibung und die Dokumentation des Produktes.\nDiese beinhaltet detaillierte und verbindliche Beschreibungen des Produktes hinsichtlich technischer\nFunktionen, Qualität und Zeit. Auf dieser Grundlage erfolgt die Beurteilung der Machbarkeit unter\nwirtschaftlichen und technologischen Aspekten.\n",
+      "confidence": 0.18,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 899.0
+    },
+    {
+      "id": "auto-15",
+      "start": 899.0,
+      "end": 918.0,
+      "page": 9,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6516057465252004,
+        0.7575122865308233,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "Der Einsatz von SE beabsichtigt die Optimierung des sogenannten \"magischen Dreiecks\" der\nProduktentstehung - K",
+      "transcript": "Und genau diese Eiserneregel wird hier attackiert.  Das Ziel ist, ist die Entwicklungste Zeit drastisch zu verkürzen,  dabei die Kosten zu senken und die Qualität zu steigern.  Klingt wie mag ich? Wie macht man das?  Indem man Prozesse, die früher brav nacheinander abliefen, radikal parallelisiert.",
+      "target_text": "Der Einsatz von SE beabsichtigt die Optimierung des sogenannten \"magischen Dreiecks\" der\nProduktentstehung - Kosten, Zeit und Qualität. Die Optimierung kann durch Verkürzung der Time-to-\nMarket-Prozesse (Entwicklungszeit), Reduzierung der Entwicklungs- und Produktionskosten sowie\nVerbesserung der Produkt-, Prozess- und Planungsqualität realisiert werden.\n",
+      "confidence": 0.187,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 918.0
+    },
+    {
+      "id": "auto-16",
+      "start": 975.36,
+      "end": 996.12,
+      "page": 10,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.0736342223976117,
+        0.7757983167632287,
+        0.4824229079584045
+      ],
+      "pointer": true,
+      "label": "Parallelisierung: Der Fokus der Parallelisierung der Teilprozesse im Produktentstehungsprozess liegt\nauf der R",
+      "transcript": "Aber wenn es richtig gemacht wird, funktioniert es über einen Mechanismus, den wir koordinierte  Vorannahmen nennen.  Koordinierte Vorannahmen?  Was heißt das in der Praxis?  Es bedeutet, dass der nachgelagerte Prozess nicht auf das stoßcheh 100% gegovatet.  Er beginnt mit Annahmen, die vielleicht zu 80 Prozent sichern sind.",
+      "target_text": "Parallelisierung: Der Fokus der Parallelisierung der Teilprozesse im Produktentstehungsprozess liegt\nauf der Reduzierung der Gesamtzeit für den gesamten Prozess (siehe Abbildung 30). Teilprozesse, die\nvoneinander unabhängig sind, können parallel durchgeführt werden, innerhalb des\nProduktentstehungsprozesses bestehen jedoch häuﬁg Abhängigkeiten zwischen den Teilprozessen. Bei\nAbhängigkeiten beginnen die Teilprozesse in der Parallelisierung mit unvollständigen Daten und\nInformationen, was jedoch n",
+      "confidence": 0.181,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 996.12
+    },
+    {
+      "id": "auto-17",
       "start": 1053.08,
       "end": 1075.68,
       "page": 11,
@@ -123,10 +751,13 @@
       "target_text": "Point-based Concurrent Engineering\n",
       "confidence": 0.587,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 1075.68
     },
     {
-      "id": "auto-7",
+      "id": "auto-18",
       "start": 1096.28,
       "end": 1114.48,
       "page": 13,
@@ -143,10 +774,13 @@
       "target_text": "Set-based Concurrent Engineering\n",
       "confidence": 0.356,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 1114.48
     },
     {
-      "id": "auto-8",
+      "id": "auto-19",
       "start": 1151.72,
       "end": 1169.72,
       "page": 11,
@@ -163,10 +797,59 @@
       "target_text": "\"Point-based\"” Ansätze sind gekennzeichnet durch die Entwicklung von einem Punkt/einer Lösung zum\nnächsten Punkt/zur nächsten Lösung im Lösungsraum (siehe Abbildung 31).\n",
       "confidence": 0.532,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 1169.72
     },
     {
-      "id": "auto-9",
+      "id": "auto-20",
+      "start": 1288.2,
+      "end": 1309.0,
+      "page": 17,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.2814726840855107,
+        0.768806547277114,
+        0.04838478650163302
+      ],
+      "pointer": true,
+      "label": "Die Produktentstehung ist Teil des Produktlebenszyklus und beschreibt den grundsätzlichen Ablauf von\nProdukt-",
+      "transcript": "Okay, wie funktioniert das?  Stellt ihr drei große überlappende Bereiche vor?  Der erste Bereich ist die strategische Produktplanung.  Die beantwortet die Frage, was braucht der Markt eigentlich?  Der zweite Bereich ist die klassische Produktentwicklung, wie die seinen wir das technisch.  Und der dritte Bereich ist die Produktionssystementwicklung, wie bauen wie die Verbregt die das hier stellt.",
+      "target_text": "Die Produktentstehung ist Teil des Produktlebenszyklus und beschreibt den grundsätzlichen Ablauf von\nProdukt- bzw. Geschäftsidee bis zum Serienanlauf. Sie umfasst die drei Hauptaufgabenbereiche\nstrategische Produktplanung, Produktentwicklung und Produktionssystementwicklung.!°4\n",
+      "confidence": 0.236,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 1309.0
+    },
+    {
+      "id": "auto-21",
+      "start": 1309.0,
+      "end": 1327.08,
+      "page": 17,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.33669833729216153,
+        0.7724368568228073,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Die beschriebenen Teilbereiche der Produktentstehung werden nicht als bestimmte, aufeinander\nfolgende Phasen v",
+      "transcript": "Okay, drei Kreise.  Genau.  Und wo sich all diese Bereiche in der Mitte überschneiden.  Exakt dort sitzt das Systems Engineering.  Ist es die Disziplinübergreifende Klammer?  Tasteer.  Ist es der Kooperationskern, die als sicherstellt,  das Konstrukture, Planer und Marktforsche eine gemeinsame Sprache sprechen",
+      "target_text": "Die beschriebenen Teilbereiche der Produktentstehung werden nicht als bestimmte, aufeinander\nfolgende Phasen verstanden, sondern sind vielmehr als Gesamtbild zu verstehen. Die Integration der\nPhasen erfolgt in den Integrationsbereichen Strategische Produktentwicklung, Strategische\nProduktionssystementwicklung, Integrierte Produkt- und Produktionssystem-entwicklung sowie Systems\nEngineering als Kooperationskern (Abbildung 35).\n",
+      "confidence": 0.217,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 1327.08
+    },
+    {
+      "id": "auto-22",
       "start": 1346.44,
       "end": 1367.68,
       "page": 16,
@@ -183,7 +866,11 @@
       "target_text": "•  Entwicklung neuer Problemlösungen für neue Produkte oder zur Verbesserung des Preis-\n",
       "confidence": 0.416,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "5.6",
+      "matched_end": 1367.68
     }
-  ]
+  ],
+  "generated_annotations_sha256": "3dee744d87e09e245e93eef3ed337501eafa07729c6098ed705efc18dba037c3"
 }

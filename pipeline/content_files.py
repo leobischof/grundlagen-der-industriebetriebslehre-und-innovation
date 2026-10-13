@@ -63,6 +63,10 @@ def audio_export(slug: str, title: str) -> ExportName:
     return _named(f"{PREFIX}-{chapter_number(slug)}-Audio – {title}")
 
 
+def standalone_export(slug: str, title: str) -> ExportName:
+    return _named(f"{PREFIX}-{chapter_number(slug)}-Lernpaket – {title}")
+
+
 COMPLETE = _named(f"{PREFIX} Gesamtskript")
 SUMMARY_COMPLETE = _named(f"{PREFIX} Zusammenfassung gesamt")
 EXAMS = _named(f"{PREFIX} Prüfungsfragen")
@@ -78,6 +82,7 @@ SUMMARY_CHAPTERS = _named(f"{PREFIX} Zusammenfassung – je Kapitel")
 NOTEBOOKS = _named(f"{PREFIX} NotebookLM-Kontext – je Kapitel")
 ANKI_CHAPTERS = _named(f"{PREFIX} Anki – je Kapitel")
 AUDIO_CHAPTERS = _named(f"{PREFIX} Audio – je Kapitel")
+STANDALONE_CHAPTERS = _named(f"{PREFIX} Lernpakete – je Kapitel")
 INTERACTIVE_COMPLETE = _named(f"{PREFIX} Interaktiver-Kapitelreader")
 RELEASE_COMPLETE = _named(f"{PREFIX} Wissensbasis komplett")
 

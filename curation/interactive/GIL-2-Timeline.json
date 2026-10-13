@@ -3,10 +3,722 @@
   "chapter": 2,
   "audio_sha256": "81eb7447ba243f98f78e13ba22a6a0062a3d6f59dab14a9b1e5e196108640aa0",
   "pdf_sha256": "38a2a1cc93dfb43768a5691463b9c292db81ca35daf7d4dc729df36285474bd2",
-  "generator": "faster-whisper/tiny + lexical matching",
+  "generator": "faster-whisper/tiny + persistent topics + lexical matching",
   "annotations": [
     {
+      "id": "topic-1-page-1",
+      "start": 0,
+      "end": 588.92,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.39788,
+        0.86,
+        0.54212
+      ],
+      "scope": "topic",
+      "topic_id": "2.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 2.1 Innovation als Voraussetzung für Fortbestand und Wachstum",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-2",
+      "start": 0,
+      "end": 588.92,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.1 Innovation als Voraussetzung für Fortbestand und Wachstum",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-3",
+      "start": 0,
+      "end": 588.92,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.1 Innovation als Voraussetzung für Fortbestand und Wachstum",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-4",
+      "start": 0,
+      "end": 588.92,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.1 Innovation als Voraussetzung für Fortbestand und Wachstum",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-9",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 9,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-10",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 10,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-11",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-12",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 12,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-13",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 13,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-14",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 14,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-15",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 15,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-16",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 16,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-17",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 17,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-18",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-19",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 19,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-20",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 20,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-21",
+      "start": 588.92,
+      "end": 861.48,
+      "page": 21,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-7",
+      "start": 861.48,
+      "end": 942.64,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "2.3",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 2.3 Dimensionen der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-9",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 9,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-10",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 10,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-11",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-12",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 12,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-13",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 13,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-14",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 14,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-15",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 15,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-16",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 16,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-17",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 17,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-18",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-19",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 19,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-20",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 20,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-21",
+      "start": 942.64,
+      "end": 1150.851,
+      "page": 21,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "2.5",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 2.5 Arten der Innovation",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
       "id": "auto-1",
+      "start": 97.28,
+      "end": 116.24,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.6647565030711847,
+        0.7127392937155331,
+        0.04838478650163302
+      ],
+      "pointer": true,
+      "label": "Je nach Branche und Markt, den speziﬁschen Ressourcen, Stärken und Schwächen so- wie der\nstrategischen Ausrich",
+      "transcript": "Und warum andere Trotz scheinbar geniale Ideen  einfach so in die Inselwenden strutschen.  Okay, let's unpack das.  Lassen Sie es mal aufdrösel.  Das du Kommenten beginnt bei absolut Elementasten,  also dem Nacken überleben.  Bevor ein Unternehmen überhaupt an neue Produkte denken kann,  muss es sich für eine von drei grundlegenden Wettbewerbstrategien entscheiden.",
+      "target_text": "Je nach Branche und Markt, den speziﬁschen Ressourcen, Stärken und Schwächen so- wie der\nstrategischen Ausrichtung der Wettbewerber muss jedes Unternehmen entscheiden, welchen\nstrategischen Ansatz es verfolgt.\n",
+      "confidence": 0.182,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.1",
+      "matched_end": 116.24
+    },
+    {
+      "id": "auto-2",
+      "start": 174.12,
+      "end": 194.72,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.3165083135391924,
+        0.7519492526014312,
+        0.04838478650163302
+      ],
+      "pointer": true,
+      "label": "Manchmal wird etwas nur dann als Innovation bezeichnet, wenn der Prozess zu einer Verbesserung\ngegenüber der A",
+      "transcript": "weil ich etwas absolut einzigartiges Anbieter,  also Qualität, die sein oder eben Innovation.  Correct.  Wenn ich das jetzt mal mit meiner Supermarkt Erfahrung abgleiche,  kostenführer schafft, ist das Non-Name Toastbrot  für wenige Cent ganz unten im Regal.  Der Klassiker.  Und differenzierung ist das Neues der Apple-Greet.  Aber es ist Innovation, dann nicht letztlich ein Luxusproblem.",
+      "target_text": "Manchmal wird etwas nur dann als Innovation bezeichnet, wenn der Prozess zu einer Verbesserung\ngegenüber der Ausgangssituation geführt hat, in diesem Falle wäre sie zielorientiert. Der Maßstab für\nsolche Einschätzungen könnte z.B. der realisierte Gewinn sein.\n",
+      "confidence": 0.2,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.4",
+      "matched_end": 194.72
+    },
+    {
+      "id": "auto-3",
+      "start": 215.72,
+      "end": 236.28,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.7199821562778355,
+        0.7753443870223871,
+        0.1125178031287114
+      ],
+      "pointer": true,
+      "label": "Unternehmen, die sich auf eine Kostenführerschaft als Strategie konzentrieren, zeichnen sich durch\nden aggress",
+      "transcript": "Es ist eine unansweichliche Überlebendstrategie.  Weil wir schlecht wegzuteuer sind.  Genau, wir können ein globalen Preiskampf schlecht weggewinnen, weil unsere Lohn- und  Produktionskosten um ein vielfaches höher sind.  Ah, okay, wenn wir also nicht durch Kostenführerschaft überleben können?  Mösen wir etwas anbieten, dass sich dem reinen Preisvergleich entzieht.",
+      "target_text": "Unternehmen, die sich auf eine Kostenführerschaft als Strategie konzentrieren, zeichnen sich durch\nden aggressiven Aufbau von eﬃzienten Produktionsanlagen, die konsequente Verfolgung von\nKostensenkungen, eine strikte (Gemein)Kostenkontrolle, die Vermeidung von marginalen Kundenkonten\nund die Minimierung von Kosten in Bereichen wie F&E, Service, Vertrieb oder Werbung aus. Eine starke\nKostenkontrolle ist notwendig, um Produkte im Vergleich zu Wettbewerbern zu niedrigeren Preisen\nanbieten zu können",
+      "confidence": 0.165,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.1",
+      "matched_end": 236.28
+    },
+    {
+      "id": "auto-4",
+      "start": 300.56,
+      "end": 322.12,
+      "page": 19,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.8463479809976246,
+        0.7333274777196035,
+        0.03235153234486342
+      ],
+      "pointer": true,
+      "label": "Laut Schumpeter besteht das Wesen der Innovation in der diskontinuierlichen, also der unstetigen,\nDurchsetzung",
+      "transcript": "Ja, ein schönes Bild.  Aber ich verkaufe sie nie.  Wenn ich dann laut diesem Skript gar kein innovator, sondern nur ein Erfinder.  Aus der Perspektive von Schumpeter bist du mit einer Zeitmaschine in der Garage völlig  irrelwand für die Wirtschaft.  Out, okay.  Eine Invention ist nur der technische Durchbruch, um zur Innovation zu werden muss zwingen,",
+      "target_text": "Laut Schumpeter besteht das Wesen der Innovation in der diskontinuierlichen, also der unstetigen,\nDurchsetzung neuer Kombinationen.\n",
+      "confidence": 0.191,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 322.12
+    },
+    {
+      "id": "auto-5",
       "start": 322.12,
       "end": 342.44,
       "page": 5,
@@ -23,10 +735,82 @@
       "target_text": "Darüber hinaus sind zwei weitere charakteristische Eigenschaften zu betrachten: Zum einen die\nNeuheit („novelty“) und zum anderen der Wert („value“). Neuheit plus Wert, deﬁnieren gemeinsam die\nInnovation.37\n",
       "confidence": 0.303,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.2",
+      "matched_end": 342.44
     },
     {
-      "id": "auto-2",
+      "id": "auto-6",
+      "start": 379.52,
+      "end": 397.84,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.5174881307642704,
+        0.7650752989183954,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Innovation ist eine Grundlage dafür, langfristig das Fortbestehen und das Wachstum von Unternehmen\nsicherzuste",
+      "transcript": "Aus Unternehmen sich ja, aber ironischerweise ist es genau diese parasitäre Immitation,  die dafür sorgt, dass sich eine Innovation gesellschaftlich in der Breite durchsetzt.  Es dadurch wird sehr massenthauglich.  Stimmt das, du reißt.  Dann bleibt noch der vierte Begriff die Modifikation.",
+      "target_text": "Innovation ist eine Grundlage dafür, langfristig das Fortbestehen und das Wachstum von Unternehmen\nsicherzustellen.25 Unabhängig davon ob ein Unternehmen seinen Kunden Produkte oder\nDienstleistungen anbietet, die Innovation dieser Leistungen führt mit Abstand zur stärksten Form der\nDiﬀerenzierung vom Wettbewerb und damit zu nachhaltigen Wettbewerbsvorteilen. Grundsätzlich kann\nein Unternehmen auf Basis von drei fundamental unterschiedlichen Strategien konkurrieren:26\n",
+      "confidence": 0.177,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.1",
+      "matched_end": 397.84
+    },
+    {
+      "id": "auto-7",
+      "start": 397.84,
+      "end": 417.36,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5216744393464222,
+        0.7659829404173779,
+        0.20871732806932897
+      ],
+      "pointer": true,
+      "label": "Es ist nicht immer einfach, ein neues Produkt umfassend zu deﬁnieren, da Menschen mit\nunterschiedlichem Hinter",
+      "transcript": "Das ist dann wohl die Phase in der Smartphonehersteller merken,  dass der Markt gesettigt ist.  Und Anfang jedes Jahr einfach nur die Kamera linsen,  an das anzuordnen.  Oder neue Gehäusefarben anzubieten.  Perfekt ist beispielsweise.  Modifikation ist im Grunde der Versuch den unausweichlichen Tod eines Produkts.  und das Produkt künstliche Nase zu zögern.",
+      "target_text": "Es ist nicht immer einfach, ein neues Produkt umfassend zu deﬁnieren, da Menschen mit\nunterschiedlichem Hintergrund (z.B. Marketingexperten, Ingenieure) ein unterschiedliches Verständnis\ndavon haben, was an einem Produkt neu ist. Beispielsweise haben Forscher oder\nEntwicklungsingenieure unterschiedliche Vorstellungen was als ein neues Produkt zu betrachten ist,\nwelches auch eine Art von wissenschaftlicher oder technischer Neuheit mit sich bringt. Ein\nwissenschaftlicher Durchbruch ist in diesem S",
+      "confidence": 0.212,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 417.36
+    },
+    {
+      "id": "auto-8",
+      "start": 436.08,
+      "end": 457.72,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.14729410379874605,
+        0.8316506863773011,
+        0.7139157463522519,
+        0.03235153234486342
+      ],
+      "pointer": true,
+      "label": "•  Neu für das Unternehmen: Das betreﬀende Unternehmen hat dieses Produkt noch nie zuvor\nhergestellt oder verk",
+      "transcript": "subjektiv, Prozessual oder normativ neu ist.  Okay, das zeigt das Innovation superfisch, richtig messbar ist.  Ja, aber der Kern bleibt immer der selbe Brutale Filter.  Bringt es um Ende, kommenziellen Wert.  Okay, wenn der Filter so streng ist und Innovation zwingend den Markt erreichen muss,  was treibt Unternehmen dann an dieses Risiko immer wieder auf sich zunehmen?",
+      "target_text": "•  Neu für das Unternehmen: Das betreﬀende Unternehmen hat dieses Produkt noch nie zuvor\nhergestellt oder verkauft, andere Unternehmen möglicherweise aber schon\n",
+      "confidence": 0.23,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 457.72
+    },
+    {
+      "id": "auto-9",
       "start": 476.72,
       "end": 495.0,
       "page": 8,
@@ -43,10 +827,36 @@
       "target_text": "Es gibt unterschiedliche Treiber für Innovation, welche aus unterschiedlichen Ursprüngen in\nvarlierenden Formen auftreten können. Vergleicht man diese Treiber über ihren Zeithorizont und das\nEinﬂussgebiet so lassen sich diese in die 3 Hauptgruppen Megatrends, Makrotrends und Mikrotrends\ngliedern. Neben langfristigen globalen Trends können auch kurzfristige lokale Trends einen signiﬁkanten\nEinﬂuss auf den Innovationsbedarf haben.\n",
       "confidence": 0.24,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.4",
+      "matched_end": 495.0
     },
     {
-      "id": "auto-3",
+      "id": "auto-10",
+      "start": 513.56,
+      "end": 531.8,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.30700712589073637,
+        0.766957746233259,
+        0.09657958114515292
+      ],
+      "pointer": true,
+      "label": "Neue Produkte treiben die Unternehmenserträge, Marktanteile, Gewinne und sogar Aktienkurse in die\nHöhe. Es lie",
+      "transcript": "Das ist eine super Analogie.  Aber keines von beiden Zwingt mich akut heute nachmittag  der zu meiner Maschinen in der Fabrikum zu risten.  Richtig.  Dafür brauchst du die eigentlichen Motoren, die Treiber.  Kuper definiert vier konkrete Treiber für Produktinnovation.  Möche sind das?  Technologischer Vorschritt.",
+      "target_text": "Neue Produkte treiben die Unternehmenserträge, Marktanteile, Gewinne und sogar Aktienkurse in die\nHöhe. Es liegt auf der Hand, dass neue Produkte eine potentielle Möglichkeit sind, bessere Leistung zu\nerzielen - das Ziel jedes CEOs. Aus diesem Grund sollte es einen internen Antrieb zur Entwicklung\nneuer Produkte geben, um dieses Ziel zu erreichen. Die wichtigsten Treiber für Produktinnovationen\nkommen jedoch vom Markt selbst. Cooper identiﬁziert vier Haupttreiber für die\nProduktinnovation:55\n",
+      "confidence": 0.162,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 531.8
+    },
+    {
+      "id": "auto-11",
       "start": 588.92,
       "end": 609.92,
       "page": 10,
@@ -63,10 +873,13 @@
       "target_text": "Wachstumsphase: Der Markt akzeptiert das Produkt, der Umsatz steigt sehr stark an. Ab dieser Phase\nkönnen bereits die ersten Imitat-Produkte auf den Markt kommen. Letztendlich wird sich ein Standard\ndurchsetzen.\n",
       "confidence": 0.337,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 609.92
     },
     {
-      "id": "auto-4",
+      "id": "auto-12",
       "start": 648.92,
       "end": 666.92,
       "page": 10,
@@ -83,10 +896,13 @@
       "target_text": "Abschwung: Der Umsatz des Produkts geht zurück. Neue Entwicklungen substituieren oder überholen\ndas Produkt. Die Marketingaktivitäten werden stark reduziert, da sich Investitionen in das Produkt nicht\nmehr rechnen.\n",
       "confidence": 0.286,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 666.92
     },
     {
-      "id": "auto-5",
+      "id": "auto-13",
       "start": 666.92,
       "end": 686.28,
       "page": 15,
@@ -103,10 +919,105 @@
       "target_text": "Abbildung 10: Portfolio Management für neue Produkte – Skript S. 36 (PDF 46)\n",
       "confidence": 0.324,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 686.28
     },
     {
-      "id": "auto-6",
+      "id": "auto-14",
+      "start": 686.28,
+      "end": 707.48,
+      "page": 15,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.44483436711327196,
+        0.7267728789513852,
+        0.03235153234486342
+      ],
+      "pointer": true,
+      "label": "In der neueren Literatur werden diese Begriﬀe auch als Perlen, Austern, Brot und Butter sowie als\nweiße Elefan",
+      "transcript": "Okay, es gibt die Perlen, diesen hoch profitabel starkes Wachstum, die musst du fördern  mit allem was du hast. Dann das Brot und Brotageschäft.  Das klingt nach solidem Einkommen.  Ist es auch. Brotukte in der Reihe verphase die Kontinueilig Geld abwerfen, aber wenig Rendite bringen  weil das Wachstum eben stagniert.  Okay, aber richtig gefährlich wird's bei den anderen beiden den Austern und den Weißen",
+      "target_text": "In der neueren Literatur werden diese Begriﬀe auch als Perlen, Austern, Brot und Butter sowie als\nweiße Elefanten bezeichnet, wie in Abbildung 10 dargestellt.\n",
+      "confidence": 0.199,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 707.48
+    },
+    {
+      "id": "auto-15",
+      "start": 766.16,
+      "end": 784.16,
+      "page": 17,
+      "type": "rect",
+      "rect": [
+        0.14383191020548844,
+        0.672503183686535,
+        0.7219324961429885,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "3. Produktentwicklungsstrategie: Dieser Teil wird im Innovationsmanagement immer wichtiger,\nweil es um die Sch",
+      "transcript": "ich muss dringend wachsen.  Dann schaut's zu dir die Amsof-Mathrix an.  Genau. Die zeigt mir vier Wege auf, wie ich wachsen kann.  Es geht um Bestehende oder neue Produkte, wer so's bestehende oder neue Märkte.  Und wenn ich mir die so ansehe, schreit mein Instinct,  förmlich nach dem Feld, die Versifizierung.  Oh, das ist gefährlich.",
+      "target_text": "3. Produktentwicklungsstrategie: Dieser Teil wird im Innovationsmanagement immer wichtiger,\nweil es um die Schaﬀung neuer oder verbesserter Produkte geht - aber auch um bestehende\nMärkte. Für fast alle Unternehmen ist dies eine permanente Aufgabe, da es wichtig ist, ständig\nneue Produkte zu entwickeln, um wettbewerbsfähig zu bleiben.\n",
+      "confidence": 0.221,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 784.16
+    },
+    {
+      "id": "auto-16",
+      "start": 784.16,
+      "end": 803.0,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.8895486935866983,
+        0.7435963093733587,
+        0.03235153234486342
+      ],
+      "pointer": true,
+      "label": "Es gibt einen Bedarf für ein neues Produkt auf dem Markt, aber das neue Produkt entspricht diesem\nBedarf nicht",
+      "transcript": "Aber das bedeutet doch, ich entwickel einen völlig neues Produkt für einen völlig neuen Markt.  Das klingt nach dem ultimantiven Jackpot.  Warum leuchtet im Skript genau bei dieser Strategie eine massive Rote Warnlampe?  Weil diversifizierungswapsychologisch extrem attraktiv fügt, das fühlt sich nach mutigen Aufbruch an",
+      "target_text": "Es gibt einen Bedarf für ein neues Produkt auf dem Markt, aber das neue Produkt entspricht diesem\nBedarf nicht\n",
+      "confidence": 0.196,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 803.0
+    },
+    {
+      "id": "auto-17",
+      "start": 841.04,
+      "end": 861.48,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.7790973871733967,
+        0.7667224274963892,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Neben Innovationstreibern ist es auch wichtig die Erfolgsfaktoren von Innovationen zu bewerten. Ein\nneues Prod",
+      "transcript": "Wir denken bei Neuheit immer sofort an physische Produkte.  Smartphones, Autos, Muslie.  muss Müsli aber das Dokument zeigt, dass die spannenden Innovationen auf  den Unsichtbasin.  Absolut.  Das griebt definiert neben dem Produkt noch vier weitere Arten der Innovationen.  Welche sind das?  Produkt Innovationen wirkt ja am Markt, wie wir besprochen haben.",
+      "target_text": "Neben Innovationstreibern ist es auch wichtig die Erfolgsfaktoren von Innovationen zu bewerten. Ein\nneues Produkt erfolgreich auf den Markt zu bringen, ist jedoch keine leichte Aufgabe. Selbst die besten\nund innovativsten globalen Unternehmen können scheitern. Viele Studien zeigen, dass die wichtigste\nVoraussetzung für eine erfolgreiche Produktplatzierung ein \"einzigartiges und überlegenes Produkt\" ist.\nDie meisten Produkteinführungen scheitern an einem der folgenden Gründe:56\n",
+      "confidence": 0.168,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 861.48
+    },
+    {
+      "id": "auto-18",
       "start": 861.48,
       "end": 881.4,
       "page": 7,
@@ -123,10 +1034,59 @@
       "target_text": "Diese Dimension berücksichtigt die verschiedenen Arten der Innovation und beantwortet die Frage\n„Was ist neu?“. Dabei wird in der Literatur zwischen Produktinnovation, Prozessinnovation, Innovation\nvon Systemeigenschaften, Innovation jenseits der\n",
       "confidence": 0.376,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.3",
+      "matched_end": 881.4
     },
     {
-      "id": "auto-7",
+      "id": "auto-19",
+      "start": 901.72,
+      "end": 924.28,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.8895486935866983,
+        0.7435963093733587,
+        0.03235153234486342
+      ],
+      "pointer": true,
+      "label": "Es gibt einen Bedarf für ein neues Produkt auf dem Markt, aber das neue Produkt entspricht diesem\nBedarf nicht",
+      "transcript": "Der Barcode auf meiner Muslie-Packung.  Exakt, der Barcode, oder auch die Erfindung der Kreditkarte.  Und Liesing.  Das verändert nicht das Produkt selbst, aber es revolutioniert die Transaktion.  Und was gibt es noch jenseits der Technik?  Systemeigenschaften.  Also Innovationen in der HR, Logistik oder einfach durch neue Systeme-Kompidationen?",
+      "target_text": "Es gibt einen Bedarf für ein neues Produkt auf dem Markt, aber das neue Produkt entspricht diesem\nBedarf nicht\n",
+      "confidence": 0.188,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 924.28
+    },
+    {
+      "id": "auto-20",
+      "start": 942.64,
+      "end": 961.74,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.7790973871733967,
+        0.7667224274963892,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Neben Innovationstreibern ist es auch wichtig die Erfolgsfaktoren von Innovationen zu bewerten. Ein\nneues Prod",
+      "transcript": "Die Rezept für Erfolg und natürlich den Gründen für das Scheiter.  Das Griptlifert hier kupers-seben kritische Erfolgspaktoren für Produkt Innovationen.  Wichtig. Der wichtigste dieser Faktoren klingt total banal wird aber erschreckend auf  ignoriert. Ein einzigartiges Überlegendes Produkt.",
+      "target_text": "Neben Innovationstreibern ist es auch wichtig die Erfolgsfaktoren von Innovationen zu bewerten. Ein\nneues Produkt erfolgreich auf den Markt zu bringen, ist jedoch keine leichte Aufgabe. Selbst die besten\nund innovativsten globalen Unternehmen können scheitern. Viele Studien zeigen, dass die wichtigste\nVoraussetzung für eine erfolgreiche Produktplatzierung ein \"einzigartiges und überlegenes Produkt\" ist.\nDie meisten Produkteinführungen scheitern an einem der folgenden Gründe:56\n",
+      "confidence": 0.236,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 961.74
+    },
+    {
+      "id": "auto-21",
       "start": 961.74,
       "end": 984.64,
       "page": 19,
@@ -143,10 +1103,13 @@
       "target_text": "Der Schlüssel zum Erfolg liegt in der Durchführung der Hausaufgaben und dem Frontloading des\nProdukts. Dabei ist Frontloading deﬁniert als \"eine Strategie, die darauf abzielt, die Entwicklungsleistung\nzu verbessern, indem die Identiﬁzierung und Lösung von Problemen in frühere Phasen des\nProduktentwicklungsprozesses verlagert wird\". Eine sorgfältige Projektprüfung vor Beginn der\nProduktentwicklung zahlt sich aus.\n",
       "confidence": 0.269,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 984.64
     },
     {
-      "id": "auto-8",
+      "id": "auto-22",
       "start": 1003.64,
       "end": 1026.64,
       "page": 19,
@@ -163,10 +1126,13 @@
       "target_text": "Spiralentwicklung —- bauen, testen, Feedback generieren und überarbeiten — etwas so früh wie\nmöglich den Kunden zu präsentieren, hilft oft, das Produkt zu verbessern.\n",
       "confidence": 0.345,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 1026.64
     },
     {
-      "id": "auto-9",
+      "id": "auto-23",
       "start": 1026.64,
       "end": 1045.72,
       "page": 18,
@@ -183,7 +1149,57 @@
       "target_text": "Der Markt hat keinen Bedarf für das Produkt\n",
       "confidence": 0.315,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.5",
+      "matched_end": 1045.72
+    },
+    {
+      "id": "auto-24",
+      "start": 1065.04,
+      "end": 1084.04,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.14729411662125788,
+        0.48515443054344193,
+        0.7354687346129858,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "•  \"„..Imitation, das ist der Prozess, durch den Innovation in der Industrie oder der Wirtschaft\nverbreitet wi",
+      "transcript": "Wir haben Invention von Innovation getrennt und die Überlebendstrategien der Wirtschaft komplett deconstruiert.  Aber genau bei dieser Überlebendstrategie stößt mir eine Sache massive auf.  Ein Gedanke, der auf dem Skript basiert, aber noch weiterführt.  Was meinst du?  Das Skript sagt ja, gebezmühlenartig, dass hochlone Region, wie wir,",
+      "target_text": "•  \"„..Imitation, das ist der Prozess, durch den Innovation in der Industrie oder der Wirtschaft\nverbreitet wird...\" Unter „Invention“ wird demnach die Erﬁndung an sich verstanden. Es ist\nwichtig die Begriﬀe Innovation und Erﬁndung richtig zu unterscheiden da viele Menschen dazu\nneigen diese Begriﬀe zu verwechseln.34 Die folgende Deﬁnition von Innovation wird häuﬁg in den\nWirtschaftswissenschaften verwendet:\n",
+      "confidence": 0.183,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.2",
+      "matched_end": 1084.04
+    },
+    {
+      "id": "auto-25",
+      "start": 1084.04,
+      "end": 1104.04,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.14729411662125788,
+        0.48515443054344193,
+        0.7354687346129858,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "•  \"„..Imitation, das ist der Prozess, durch den Innovation in der Industrie oder der Wirtschaft\nverbreitet wi",
+      "transcript": "zwingend auf der Verenzierung, also Innovation angewiesen sind.  um zu überleben. Weil wir bei den Kosten einfach nicht mithalten können.  Das ist die unumstößliche Prämisse hier.  Gleichzeitig sagt uns schon Peter, in dem Selbeskriebskriebs  dass Imitation der Prozess ist, durch den Innovatione  heute durch globale Konkurrenz rasen schnell verbreitet werden.",
+      "target_text": "•  \"„..Imitation, das ist der Prozess, durch den Innovation in der Industrie oder der Wirtschaft\nverbreitet wird...\" Unter „Invention“ wird demnach die Erﬁndung an sich verstanden. Es ist\nwichtig die Begriﬀe Innovation und Erﬁndung richtig zu unterscheiden da viele Menschen dazu\nneigen diese Begriﬀe zu verwechseln.34 Die folgende Deﬁnition von Innovation wird häuﬁg in den\nWirtschaftswissenschaften verwendet:\n",
+      "confidence": 0.23,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "2.2",
+      "matched_end": 1104.04
     }
-  ]
+  ],
+  "generated_annotations_sha256": "c4feeb004049f097272c5cbfc7766364bf66049736027995044267344707744d"
 }

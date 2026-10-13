@@ -12,7 +12,7 @@ from pathlib import Path
 
 
 class ReaderHandler(SimpleHTTPRequestHandler):
-    extensions_map = {**SimpleHTTPRequestHandler.extensions_map,".mjs":"text/javascript",".m4a":"audio/mp4",".wasm":"application/wasm"}
+    extensions_map = {**SimpleHTTPRequestHandler.extensions_map,".mjs":"text/javascript",".m4a":"audio/mp4",".wasm":"application/wasm",".webmanifest":"application/manifest+json"}
 
     def send_head(self):
         self.remaining = None

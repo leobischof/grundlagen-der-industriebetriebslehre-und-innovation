@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {"label":"GIL: Einrichtung","type":"process","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/dev.ps1","setup"],"problemMatcher":[]},
+    {"label":"GIL: Reader bauen + Audio automatisch vorbereiten","type":"process","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/dev.ps1","build"],"group":{"kind":"build","isDefault":true},"problemMatcher":[]},
+    {"label":"GIL: Reader starten","type":"process","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/dev.ps1","dev"],"isBackground":true,"problemMatcher":{"owner":"gil-reader","pattern":{"regexp":"^(UNMATCHABLE)$"},"background":{"activeOnStart":true,"beginsPattern":"^\\[dev\\]","endsPattern":"^GIL Reader:"}}},
+    {"label":"GIL: Tests + Validierung","type":"process","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/dev.ps1","test"],"group":{"kind":"test","isDefault":true},"problemMatcher":[]},
+    {"label":"GIL: Release lokal packen","type":"process","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/dev.ps1","release"],"problemMatcher":[]},
+    {"label":"GIL: Eigenständige Kapiteldateien erzeugen","type":"process","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/dev.ps1","package"],"problemMatcher":[]},
+    {"label":"GIL: Freie Icons aktualisieren","type":"process","command":"powershell","args":["-NoProfile","-File","${workspaceFolder}/dev.ps1","icons"],"problemMatcher":[]}
+  ]
+}

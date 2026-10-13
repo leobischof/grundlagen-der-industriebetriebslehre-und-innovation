@@ -3,10 +3,353 @@
   "chapter": 7,
   "audio_sha256": "8170d58adde7824b86f214d955ff2b73c99a4d9416e6aadc335bb66f80cff995",
   "pdf_sha256": "ce4ec494f95589f9ee5f50682354123a90e422465ded078a215f777f746442df",
-  "generator": "faster-whisper/tiny + lexical matching",
+  "generator": "faster-whisper/tiny + persistent topics + lexical matching",
   "annotations": [
     {
+      "id": "topic-1-page-1",
+      "start": 0,
+      "end": 726.36,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-2",
+      "start": 0,
+      "end": 726.36,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-3",
+      "start": 726.36,
+      "end": 765.16,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "7.2",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.2 Konzept des integrierten Managements",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-4",
+      "start": 726.36,
+      "end": 765.16,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "7.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 7.2 Konzept des integrierten Managements",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-1",
+      "start": 765.16,
+      "end": 784.16,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-2",
+      "start": 765.16,
+      "end": 784.16,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-4-page-5",
+      "start": 784.16,
+      "end": 802.66,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08846,
+        0.86,
+        0.85154
+      ],
+      "scope": "topic",
+      "topic_id": "7.3",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.3 Grundlagen des Produktionsmanagements",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-5-page-1",
+      "start": 802.66,
+      "end": 822.66,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-5-page-2",
+      "start": 802.66,
+      "end": 822.66,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-6-page-3",
+      "start": 822.66,
+      "end": 902.58,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "7.2",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.2 Konzept des integrierten Managements",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-6-page-4",
+      "start": 822.66,
+      "end": 902.58,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "7.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 7.2 Konzept des integrierten Managements",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-7-page-1",
+      "start": 902.58,
+      "end": 1178.64,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-7-page-2",
+      "start": 902.58,
+      "end": 1178.64,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-8-page-5",
+      "start": 1178.64,
+      "end": 1446.2,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08846,
+        0.86,
+        0.85154
+      ],
+      "scope": "topic",
+      "topic_id": "7.3",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.3 Grundlagen des Produktionsmanagements",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-9-page-1",
+      "start": 1446.2,
+      "end": 1667.773,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-9-page-2",
+      "start": 1446.2,
+      "end": 1667.773,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "7.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 7.1 Begriffe und Ziele113",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
       "id": "auto-1",
+      "start": 177.48,
+      "end": 197.48,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.33592637304455536,
+        0.7659661044593619,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Das Industrie Management beschäftigt sich mit der Eﬃzienzsteigerung über alle Wertschöpfungsstufen\nhinweg. Dab",
+      "transcript": "Das muss plötzlich tausendfach pro Tag vielerfrei vom Band laufen.  Da knallt es zwischen den Abteilungen am allerlautesten.  Richtig.  Und all diese völlig unterschiedlichen Welten.  Also Entwicklung, ramp-up, Produktion, Logistikmarketing,  die müssen orchestriert werden.  Wie ein riesiges Orchester.  Exakt.  Das eigentliche Ziel des industriellen Managements ist,",
+      "target_text": "Das Industrie Management beschäftigt sich mit der Eﬃzienzsteigerung über alle Wertschöpfungsstufen\nhinweg. Dabei ist das Industrie Management als interdisziplinär zu betrachten. Industriemanager\nmüssen Aufgaben und Ziele der Produktentwicklung, des Ramp-up-Managements, des\nProduktionsmanagements sowie der Distributionslogistik und des Marketings berücksichtigen. Laut\nBleicher (1999) sind die Funktionen des Industriemanagements (siehe Abbildung 40) folgende: 13\n",
+      "confidence": 0.162,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 197.48
+    },
+    {
+      "id": "auto-2",
       "start": 256.8,
       "end": 275.8,
       "page": 2,
@@ -23,10 +366,59 @@
       "target_text": "Gestaltung bedeutet demnach die Festlegung eines Rahmens, der die Ausbildung von\nEntwicklungsfähigkeiten ermöglicht.\n",
       "confidence": 0.578,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 275.8
     },
     {
-      "id": "auto-2",
+      "id": "auto-3",
+      "start": 295.4,
+      "end": 318.12,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.1121008095621061,
+        0.16175773421262618,
+        0.7677812848772322,
+        0.1445843114422506
+      ],
+      "pointer": true,
+      "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
+      "transcript": "die es dem Unternehmen überhaupt erst ermöglichen Handlungsfähig zu sein.  Macht's hin?  Stell dir vor, die Forschungsabteilung und die Finanzabteilung haben keine festgelegten Prozesse,  wie sie Budgetfrei gaben für neue Prototypen verhandeln.  Dann gibt es komplett ein Stillstand.  Ja, dann streiten die sich nur.  Genau.  Die Gestaltung ist quasi das bauen der Straßen auf den Verkehr der Fließen soll.",
+      "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
+      "confidence": 0.214,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 318.12
+    },
+    {
+      "id": "auto-4",
+      "start": 395.08,
+      "end": 414.56,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.1121008095621061,
+        0.16175773421262618,
+        0.7677812848772322,
+        0.1445843114422506
+      ],
+      "pointer": true,
+      "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
+      "transcript": "Der Manager lenkt die Ströme von Material, Personal und Kapital.  Okay, also wir haben Gestaltung und Lenkung.  Aber da war noch ein Tritterbereich.  Richtig und da wird dein Flugloze richtig ins Spitzen kommen.  Das ist die Entwicklung.  Letzt mich raten, ein extrem schweres Gewitterzieht über dem Flughafen auf.",
+      "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
+      "confidence": 0.207,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 414.56
+    },
+    {
+      "id": "auto-5",
       "start": 414.56,
       "end": 433.28,
       "page": 2,
@@ -43,10 +435,36 @@
       "target_text": "Entwicklung umfasst insbesondere das Einleiten und Bewältigen von Veränderungsprozessen.\n",
       "confidence": 0.773,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 433.28
     },
     {
-      "id": "auto-3",
+      "id": "auto-6",
+      "start": 472.2,
+      "end": 493.4,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5804509686177813,
+        0.7716131514861804,
+        0.09648458521609635
+      ],
+      "pointer": true,
+      "label": "Industriemanager müssen dafür sorgen, dass die entwickelten Produkte aus der Innovationsabteilung in\neine seri",
+      "transcript": "da ja anders man nicht alles gleichzeitig maximieren kann?  Und das ist die Bitterre Wahrheit, das Industriemanagement,  die man oft eigentlich gar nicht hören will.  Es ist ein Endloses treffen von Kompromissentscheidungen.  Also man kann nicht alles haben.  Nein, Serienreife, extrem schnell erzielen,  gleichzeitig die Maschinen perfekt auslassen.  Und dann auch noch die Kosten auf dem absoluten Minimum halten,",
+      "target_text": "Industriemanager müssen dafür sorgen, dass die entwickelten Produkte aus der Innovationsabteilung in\neine serienreife Version überführt werden, dass die benötigten Ressourcen zum richtigen Zeitpunkt zur\nVerfügung stehen und die Produkte zu den richtigen Kosten produziert sowie zum Kunden gebracht\nwerden. Dieses breite Aufgabenspektrum macht die industrielle Führung sehr komplex und erfordert die\nIntegration unterschiedlicher Standpunkte und Zielwerte, wodurch Kompromissentscheidungen\nunumgänglic",
+      "confidence": 0.181,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 493.4
+    },
+    {
+      "id": "auto-7",
       "start": 551.88,
       "end": 569.88,
       "page": 3,
@@ -63,10 +481,13 @@
       "target_text": "Eine besondere Herausforderung stellt die Berücksichtigung von Komplexität und Dynamik in\nManagement-Systemen dar. Im „Konzept Integriertes Management“ (von Bleicher, 2004) wird dazu eine\ngesamthaft angelegte Struktur geschaﬀen:\n",
       "confidence": 0.257,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 569.88
     },
     {
-      "id": "auto-4",
+      "id": "auto-8",
       "start": 588.96,
       "end": 609.84,
       "page": 2,
@@ -83,10 +504,13 @@
       "target_text": "•  Die Legitimität als Kenngröße für das Normative Management („Die Gesamtaufgabe erfüllen“)\n",
       "confidence": 0.727,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 609.84
     },
     {
-      "id": "auto-5",
+      "id": "auto-9",
       "start": 609.84,
       "end": 629.8,
       "page": 2,
@@ -103,10 +527,59 @@
       "target_text": "•  Die Legitimität als Kenngröße für das Normative Management („Die Gesamtaufgabe erfüllen“)\n",
       "confidence": 0.522,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 629.8
     },
     {
-      "id": "auto-6",
+      "id": "auto-10",
+      "start": 650.32,
+      "end": 669.12,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.1121008095621061,
+        0.16175773421262618,
+        0.7677812848772322,
+        0.1445843114422506
+      ],
+      "pointer": true,
+      "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
+      "transcript": "Es interessiert sie spätestens dann,  wenn sie kein Job mehr haben,  weil das Top-Management genau diese Ebene ignoriert hat.  Ouch, okay.  Das ist wirklich kein Bullshit-Bingo.  Das ist überlebens wichtig.  Lassen Sie mal auf die jüngere Wirtschaftsgeschichte schauen,  um das richtig greifbar zu machen.  Denken wir an einen Unternehmen wie Kodak.  Das klassische Beispiel.",
+      "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
+      "confidence": 0.167,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 669.12
+    },
+    {
+      "id": "auto-11",
+      "start": 669.12,
+      "end": 689.12,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.1121008095621061,
+        0.16175773421262618,
+        0.7677812848772322,
+        0.1445843114422506
+      ],
+      "pointer": true,
+      "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
+      "transcript": "Ja, aber es passt hier perfekt.  Die hatten fantastische Lenkung und Gestaltung in ihren Fabriken.  Die haben analog gefilmrollen produziert, wie niemand sonst auf der Welt.  Operativ waren die Weltklasse.  Aber...  Aber sie haben auf der normative Ebene völlig versagt.  Ihre Gesamtaufgabe hätte lautem müssen,  wir bewahren die Erinnerungen von Menschen.",
+      "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
+      "confidence": 0.181,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 689.12
+    },
+    {
+      "id": "auto-12",
       "start": 726.36,
       "end": 747.16,
       "page": 3,
@@ -123,10 +596,13 @@
       "target_text": "Die Orientierung an der Eﬀektivität hat die Pﬂege bzw. den Ausbau der strategischen Erfolgspositionen\nim Wettbewerb zum Ziel. Die Eﬃzienz strebt nach der Einhaltung des Rationalprinzips im operativen\nManagement. Die Gesamtaufgabe zu erfüllen, dabei die richtigen Dinge zu tun und gleichermaßen die\nDinge richtig zu tun, wird zur aktuellen Herausforderung eines zukunftsorientierten Managements.\n",
       "confidence": 0.589,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 747.16
     },
     {
-      "id": "auto-7",
+      "id": "auto-13",
       "start": 747.16,
       "end": 765.16,
       "page": 4,
@@ -143,10 +619,13 @@
       "target_text": "Das Normative Management ist auf die Ausformulierung der Grundsätze für das nachfolgende\nStrategische und Operative Management gerichtet. Als generelles Unternehmungsziel kann „die\nErfüllung der Gesamtaufgabe“ und damit die Erhaltung der Lebensfähigkeit bzw. Entwicklungsfähigkeit\nder Unternehmung angesehen werden. Das Normative Management legt die Vision,\nUnternehmensphilosophie und Unternehmenspolitik fest. Dabei ist die Vision die Wunschvorstellungen\nin Hinblick auf eine zukünftige Unternehmun",
       "confidence": 0.306,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 765.16
     },
     {
-      "id": "auto-8",
+      "id": "auto-14",
       "start": 765.16,
       "end": 784.16,
       "page": 2,
@@ -163,10 +642,13 @@
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.749,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 784.16
     },
     {
-      "id": "auto-9",
+      "id": "auto-15",
       "start": 784.16,
       "end": 802.66,
       "page": 5,
@@ -183,10 +665,13 @@
       "target_text": "Im Produktionsmanagement werden das operative und strategische Management unterschieden:117\n",
       "confidence": 0.462,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 802.66
     },
     {
-      "id": "auto-10",
+      "id": "auto-16",
       "start": 802.66,
       "end": 822.66,
       "page": 2,
@@ -203,10 +688,13 @@
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.566,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 822.66
     },
     {
-      "id": "auto-11",
+      "id": "auto-17",
       "start": 822.66,
       "end": 842.34,
       "page": 3,
@@ -223,10 +711,13 @@
       "target_text": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist als Ausdruck zu verstehen, dass „die Dinge richtig getan werden“. Dies bedeutet\ninsbesondere, dass das Rationalprinzip - als allgemeines Prinzip des vernunftgemäßen Handelns —\neingehalten wird. Siehe hierzu auch die Deﬁnition von Minimal- und Maximalprinzip in Kapiel 5.2.\n",
       "confidence": 0.323,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 842.34
     },
     {
-      "id": "auto-12",
+      "id": "auto-18",
       "start": 842.34,
       "end": 861.34,
       "page": 3,
@@ -243,10 +734,13 @@
       "target_text": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist als Ausdruck zu verstehen, dass „die Dinge richtig getan werden“. Dies bedeutet\ninsbesondere, dass das Rationalprinzip - als allgemeines Prinzip des vernunftgemäßen Handelns —\neingehalten wird. Siehe hierzu auch die Deﬁnition von Minimal- und Maximalprinzip in Kapiel 5.2.\n",
       "confidence": 0.357,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 861.34
     },
     {
-      "id": "auto-13",
+      "id": "auto-19",
       "start": 861.34,
       "end": 882.58,
       "page": 3,
@@ -263,10 +757,13 @@
       "target_text": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist als Ausdruck zu verstehen, dass „die Dinge richtig getan werden“. Dies bedeutet\ninsbesondere, dass das Rationalprinzip - als allgemeines Prinzip des vernunftgemäßen Handelns —\neingehalten wird. Siehe hierzu auch die Deﬁnition von Minimal- und Maximalprinzip in Kapiel 5.2.\n",
       "confidence": 0.293,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 882.58
     },
     {
-      "id": "auto-14",
+      "id": "auto-20",
       "start": 902.58,
       "end": 922.62,
       "page": 2,
@@ -283,10 +780,13 @@
       "target_text": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser Kenngrößen sind in Abbildung 41 ersichtlich.\n",
       "confidence": 0.319,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 922.62
     },
     {
-      "id": "auto-15",
+      "id": "auto-21",
       "start": 922.62,
       "end": 941.26,
       "page": 2,
@@ -303,10 +803,13 @@
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.487,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 941.26
     },
     {
-      "id": "auto-16",
+      "id": "auto-22",
       "start": 961.26,
       "end": 981.22,
       "page": 3,
@@ -323,10 +826,13 @@
       "target_text": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist als Ausdruck zu verstehen, dass „die Dinge richtig getan werden“. Dies bedeutet\ninsbesondere, dass das Rationalprinzip - als allgemeines Prinzip des vernunftgemäßen Handelns —\neingehalten wird. Siehe hierzu auch die Deﬁnition von Minimal- und Maximalprinzip in Kapiel 5.2.\n",
       "confidence": 0.333,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 981.22
     },
     {
-      "id": "auto-17",
+      "id": "auto-23",
       "start": 981.22,
       "end": 1000.14,
       "page": 2,
@@ -343,10 +849,82 @@
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.604,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 1000.14
     },
     {
-      "id": "auto-18",
+      "id": "auto-24",
+      "start": 1000.14,
+      "end": 1020.14,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.1121008095621061,
+        0.16175773421262618,
+        0.7677812848772322,
+        0.1445843114422506
+      ],
+      "pointer": true,
+      "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
+      "transcript": "Finzieren der falschen Maure steht und du auf den falschen Grundstücklandest  oder im schlimmsten Fall in ein Abgrund stürzt.  Genau das ist die Falle in die so unfassbar viele Unternehmen  hatten. Sie optimieren ihre ganzen Prozesse operativ  bis zur absoluten Perfektion. Sie bauen eine wirklich fantastische Leiterung.  Aber strategisch lehnen sie an der völlig falschen Maure.",
+      "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
+      "confidence": 0.213,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1020.14
+    },
+    {
+      "id": "auto-25",
+      "start": 1038.14,
+      "end": 1058.1,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.3967737120857148,
+        0.7650753117409073,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "Die Orientierung an der Eﬀektivität hat die Pﬂege bzw. den Ausbau der strategischen Erfolgspositionen\nim Wettb",
+      "transcript": "Du musst die Gesamtaufgabe erfüllen und legitim am Markt agieren.  Du musst strategisch sicherstellen, dass die leiter an der richtigen Mauer steht  und du musst operativ sicherstellen, dass die leiter Material schon in unster Bild gebaut wird.  Legitivität, Effektivität und Effizient.  Ja.  In einem permanenten harmonischen Zusammenspiel.",
+      "target_text": "Die Orientierung an der Eﬀektivität hat die Pﬂege bzw. den Ausbau der strategischen Erfolgspositionen\nim Wettbewerb zum Ziel. Die Eﬃzienz strebt nach der Einhaltung des Rationalprinzips im operativen\nManagement. Die Gesamtaufgabe zu erfüllen, dabei die richtigen Dinge zu tun und gleichermaßen die\nDinge richtig zu tun, wird zur aktuellen Herausforderung eines zukunftsorientierten Managements.\n",
+      "confidence": 0.216,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 1058.1
+    },
+    {
+      "id": "auto-26",
+      "start": 1096.74,
+      "end": 1115.18,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.1121008095621061,
+        0.16175773421262618,
+        0.7677812848772322,
+        0.1445843114422506
+      ],
+      "pointer": true,
+      "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
+      "transcript": "dabrechen.  Wie übersetzt sich das alles ganz konkret ins Produktionsmanagement?  Das Krypti fährt uns auch dafür eine sehr präzise Übersetzung.  Produzieren ist in seiner allerreinsten Form ein transformierender Prozess.  Du hast ein Input, also Material, Energie, Wissen und Du verwandelsdien in ein Output.",
+      "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
+      "confidence": 0.172,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1115.18
+    },
+    {
+      "id": "auto-27",
       "start": 1115.18,
       "end": 1137.64,
       "page": 5,
@@ -363,10 +941,13 @@
       "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
       "confidence": 0.337,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1137.64
     },
     {
-      "id": "auto-19",
+      "id": "auto-28",
       "start": 1178.64,
       "end": 1199.28,
       "page": 5,
@@ -383,10 +964,13 @@
       "target_text": "•  Das strategische Produktionsmanagement beschäftigt sich mit der langfristigen Ausrichtung\nder Ziele, der Produktion und des Produktionssystems eines Unternehmens. Dazu gehören die\nSchaﬀung und Erhaltung von leistungs- und wettbewerbsfähigen Produktionskapazitäten und die\nFestlegung der Fertigungsstandards. Dies umfasst unter anderem die Standortplanung,\nFabrikplanung sowie die Sicherung der Nachhaltigkeit.\n",
       "confidence": 0.462,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1199.28
     },
     {
-      "id": "auto-20",
+      "id": "auto-29",
       "start": 1199.28,
       "end": 1217.36,
       "page": 5,
@@ -403,10 +987,13 @@
       "target_text": "•  Beim operative Produktionsmanagement werden Entscheidungen hinsichtlich der\nProduktionsplanung getroﬀen. Diese beschäftigt sich mit der konkreten Frage, welche Produkte\nin welcher Menge produziert werden sollen. Weiters umfasst das operative\nProduktionsmanagement Maschinenbelegung, Kapazitätsplanung sowie die Bedarfsermittlung.\n",
       "confidence": 0.447,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1217.36
     },
     {
-      "id": "auto-21",
+      "id": "auto-30",
       "start": 1217.36,
       "end": 1236.76,
       "page": 5,
@@ -423,10 +1010,36 @@
       "target_text": "•  Beim operative Produktionsmanagement werden Entscheidungen hinsichtlich der\nProduktionsplanung getroﬀen. Diese beschäftigt sich mit der konkreten Frage, welche Produkte\nin welcher Menge produziert werden sollen. Weiters umfasst das operative\nProduktionsmanagement Maschinenbelegung, Kapazitätsplanung sowie die Bedarfsermittlung.\n",
       "confidence": 0.359,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1236.76
     },
     {
-      "id": "auto-22",
+      "id": "auto-31",
+      "start": 1274.52,
+      "end": 1292.52,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.1121008095621061,
+        0.16175773421262618,
+        0.7677812848772322,
+        0.1445843114422506
+      ],
+      "pointer": true,
+      "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
+      "transcript": "Die absolute minimierung der Fertigungskosten.  Der Fokus lag rein auf operative Effizienzsteigerung durch extreme Kostnruck.  Jede einzelne Bewegungen wurde nomiert, alles musste nur schneller und billiger werden.  Da gab es ja auch diesen berühmten Spruch.  Du kannst das Auto in jeder Farbe haben, so lange es schwarz ist.  Genau.",
+      "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
+      "confidence": 0.204,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1292.52
+    },
+    {
+      "id": "auto-32",
       "start": 1292.52,
       "end": 1311.52,
       "page": 5,
@@ -443,10 +1056,13 @@
       "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
       "confidence": 0.263,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1311.52
     },
     {
-      "id": "auto-23",
+      "id": "auto-33",
       "start": 1329.52,
       "end": 1347.52,
       "page": 5,
@@ -463,10 +1079,36 @@
       "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
       "confidence": 0.246,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1347.52
     },
     {
-      "id": "auto-24",
+      "id": "auto-34",
+      "start": 1347.52,
+      "end": 1367.12,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.1121008095621061,
+        0.16175773421262618,
+        0.7677812848772322,
+        0.1445843114422506
+      ],
+      "pointer": true,
+      "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
+      "transcript": "Es geht um digitalgestützte Prozesse, um vollautomatisierte, aber eben extrem anpassungsfähige Fertigungsstraßen.  Stell dir so eine Produktionslinie vor,  auf der wirklich natlos im Wechsel ein Elektroauto  und danach direkt ein Verbrenner gebaut werden können,  je nachdem was der Kunde im Internet gerade bestellt hat.  Okay, was bedeutet das nun ganz konkret?",
+      "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
+      "confidence": 0.226,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.3",
+      "matched_end": 1367.12
+    },
+    {
+      "id": "auto-35",
       "start": 1446.2,
       "end": 1464.2,
       "page": 1,
@@ -483,10 +1125,13 @@
       "target_text": "•  7.2 Konzept des integrierten Managements · S. 109–110 – 1 Abb./Formeln\n",
       "confidence": 0.377,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 1464.2
     },
     {
-      "id": "auto-25",
+      "id": "auto-36",
       "start": 1464.2,
       "end": 1483.04,
       "page": 2,
@@ -503,10 +1148,13 @@
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.631,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 1483.04
     },
     {
-      "id": "auto-26",
+      "id": "auto-37",
       "start": 1523.92,
       "end": 1542.52,
       "page": 2,
@@ -523,10 +1171,13 @@
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.611,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 1542.52
     },
     {
-      "id": "auto-27",
+      "id": "auto-38",
       "start": 1560.52,
       "end": 1578.52,
       "page": 2,
@@ -543,10 +1194,13 @@
       "target_text": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser Kenngrößen sind in Abbildung 41 ersichtlich.\n",
       "confidence": 0.319,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 1578.52
     },
     {
-      "id": "auto-28",
+      "id": "auto-39",
       "start": 1578.52,
       "end": 1597.52,
       "page": 2,
@@ -563,7 +1217,34 @@
       "target_text": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser Kenngrößen sind in Abbildung 41 ersichtlich.\n",
       "confidence": 0.286,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.1",
+      "matched_end": 1597.52
+    },
+    {
+      "id": "auto-40",
+      "start": 1638.12,
+      "end": 1661.32,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.3967737120857148,
+        0.7650753117409073,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "Die Orientierung an der Eﬀektivität hat die Pﬂege bzw. den Ausbau der strategischen Erfolgspositionen\nim Wettb",
+      "transcript": "Die Legitimität.  Die Gesamtaufgabe.  Richtig.  Zu definieren, was unsere Gesamtaufgabe als Industrie und letztlicher auch als Gesellschaft überhaupt  ist.  Wer sind wir und was wollen wir erschaffen?  Das ist doch mal ein echt großer Gedanke, über den du heute auf dem heimweg nachdenken kannst.  Wenn das System sich selbst operativ immer weiter optimiert, wer bestimmt dann eigentlich am Ende das Ziel?",
+      "target_text": "Die Orientierung an der Eﬀektivität hat die Pﬂege bzw. den Ausbau der strategischen Erfolgspositionen\nim Wettbewerb zum Ziel. Die Eﬃzienz strebt nach der Einhaltung des Rationalprinzips im operativen\nManagement. Die Gesamtaufgabe zu erfüllen, dabei die richtigen Dinge zu tun und gleichermaßen die\nDinge richtig zu tun, wird zur aktuellen Herausforderung eines zukunftsorientierten Managements.\n",
+      "confidence": 0.238,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "7.2",
+      "matched_end": 1661.32
     }
-  ]
+  ],
+  "generated_annotations_sha256": "a444e6792852007fc6fb6aa11c1430d6a5a67c1a2509d56de38bf21b365cfab3"
 }

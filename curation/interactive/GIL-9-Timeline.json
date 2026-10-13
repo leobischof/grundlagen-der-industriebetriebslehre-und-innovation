@@ -3,10 +3,659 @@
   "chapter": 9,
   "audio_sha256": "9a07bddd2302441beea3000d6beafeb5d86cb45219348ac261f9927bc45128a2",
   "pdf_sha256": "624e7f2d36c003d8fcb80e98bb10152df18c4790603717f80a490751de770825",
-  "generator": "faster-whisper/tiny + lexical matching",
+  "generator": "faster-whisper/tiny + persistent topics + lexical matching",
   "annotations": [
     {
+      "id": "topic-1-page-1",
+      "start": 0,
+      "end": 622.36,
+      "page": 1,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.71436,
+        0.86,
+        0.22564
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-2",
+      "start": 0,
+      "end": 622.36,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-3",
+      "start": 0,
+      "end": 622.36,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-4",
+      "start": 0,
+      "end": 622.36,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-5",
+      "start": 0,
+      "end": 622.36,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-6",
+      "start": 0,
+      "end": 622.36,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-7",
+      "start": 0,
+      "end": 622.36,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-8",
+      "start": 0,
+      "end": 622.36,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-9",
+      "start": 0,
+      "end": 622.36,
+      "page": 9,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-10",
+      "start": 0,
+      "end": 622.36,
+      "page": 10,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-11",
+      "start": 0,
+      "end": 622.36,
+      "page": 11,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-12",
+      "start": 0,
+      "end": 622.36,
+      "page": 12,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-13",
+      "start": 0,
+      "end": 622.36,
+      "page": 13,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-14",
+      "start": 0,
+      "end": 622.36,
+      "page": 14,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-15",
+      "start": 0,
+      "end": 622.36,
+      "page": 15,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-16",
+      "start": 0,
+      "end": 622.36,
+      "page": 16,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-17",
+      "start": 0,
+      "end": 622.36,
+      "page": 17,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-18",
+      "start": 0,
+      "end": 622.36,
+      "page": 18,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-1-page-19",
+      "start": 0,
+      "end": 622.36,
+      "page": 19,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.1",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.1 Planung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-20",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 20,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-21",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 21,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-22",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 22,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-23",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 23,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-24",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 24,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-25",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 25,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-26",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 26,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-27",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 27,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-28",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 28,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-29",
+      "start": 622.36,
+      "end": 1434.088,
+      "page": 29,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "9.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 9.2 Steuerung",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
       "id": "auto-1",
+      "start": 352.26,
+      "end": 372.32,
+      "page": 15,
+      "type": "rect",
+      "rect": [
+        0.14729410379874605,
+        0.4308688782173211,
+        0.7391424483611804,
+        0.1926841101567139
+      ],
+      "pointer": true,
+      "label": "•  Wie bereits erwähnt, dienen Vorräte dazu, die Diskrepanz zwischen Angebot und Nachfrage\nauszugleichen. Dahe",
+      "transcript": "Verrand plötzlich ein Stromausfall hat? Wenn du kein Lager hast, bleibt deine Maschine  sofort stehen. Und das wird richtig teuer, nehm ich ja.  Extrem. Ein Bandstillstand in einer Automobil-Vibrik kostet auf 10.000 Euro pro  Minute. Der Bestand gleich also einfach diese Diskrepanz zwischen Angebot und Nachfrage  aus. Okay, die Frage ist also gar nicht, ob ich ein Lager habe, sondern wie ich eigentlich",
+      "target_text": "•  Wie bereits erwähnt, dienen Vorräte dazu, die Diskrepanz zwischen Angebot und Nachfrage\nauszugleichen. Daher sind die Bestandsführung und insbesondere die Frage \"wann welche\nBestellung erfolgt\" wichtig. Erstens erschweren die Unvorhersehbarkeit der Nachfrage und die\nnotwendige Bestellzeit die Materialversorgung. Zweitens sind miteinander in Beziehung stehende\nVariablen, wie Auftragskosten, Bestellhäuﬁgkeit oder Positionsklasse (A, B, C),\nHerausforderungen in der Bestandsverwaltung. Aus diesem",
+      "confidence": 0.196,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.1",
+      "matched_end": 372.32
+    },
+    {
+      "id": "auto-2",
+      "start": 372.32,
+      "end": 392.48,
+      "page": 14,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6559323562295873,
+        0.7749241291975775,
+        0.16061756559902018
+      ],
+      "pointer": true,
+      "label": "Wenn mehr als ein Artikel vorrätig ist, sind einige davon für den Betrieb wichtiger als andere. Die\nwichtigste",
+      "transcript": "clever entscheide, was ich auf Lager lege und was nicht. Ganz genau. Und dafür nutzt die Industrie  die ABC analysiert. Das ist im Grunde des Parito-Prenzip, also diese klassische 80-20  regel angewendet auf das Lager. Wie funktioniert das genau?  Man klassifiziert das gesamte Material nach seinem Wert.  Artikel sind die hochkomplexen, extrem teuren Spezialbauteile.",
+      "target_text": "Wenn mehr als ein Artikel vorrätig ist, sind einige davon für den Betrieb wichtiger als andere. Die\nwichtigsten Artikel haben sehr hohe Verwendung und wenn sie nicht auf Lager sind, würden sie\nLieferprobleme verursachen. Andere Gegenstände haben wahrscheinlich einen hohen Wert und ein\ngroßer Sicherheitsbestand wäre mehr als teuer. Daher besteht eine gängige Methode zur Bewertung\nverschiedener Lagerartikel darin, sie nach ihrem Verwendungswert zu klassiﬁzieren (Verwendungsrate\nmultipliziert mit d",
+      "confidence": 0.227,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.1",
+      "matched_end": 392.48
+    },
+    {
+      "id": "auto-3",
+      "start": 412.12,
+      "end": 432.24,
+      "page": 14,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6559323562295873,
+        0.7749241291975775,
+        0.16061756559902018
+      ],
+      "pointer": true,
+      "label": "Wenn mehr als ein Artikel vorrätig ist, sind einige davon für den Betrieb wichtiger als andere. Die\nwichtigste",
+      "transcript": "weil jeder Tag im Lager bei diesen Teilen enorm viel Geld verbrennt.  Verstehe.  Und C-Artikel sind dann das genauer Gegenteil.  In meiner Diener-Analogie wird es wahrscheinlich das Sal, oder?  Perfektes bei Spiehe.  C-Artikel sind Standardschrauben, Dichtungsringer, Unterlegscheiben.  Sie machen auf die hälfte aller physischen Teile im Lager aus,",
+      "target_text": "Wenn mehr als ein Artikel vorrätig ist, sind einige davon für den Betrieb wichtiger als andere. Die\nwichtigsten Artikel haben sehr hohe Verwendung und wenn sie nicht auf Lager sind, würden sie\nLieferprobleme verursachen. Andere Gegenstände haben wahrscheinlich einen hohen Wert und ein\ngroßer Sicherheitsbestand wäre mehr als teuer. Daher besteht eine gängige Methode zur Bewertung\nverschiedener Lagerartikel darin, sie nach ihrem Verwendungswert zu klassiﬁzieren (Verwendungsrate\nmultipliziert mit d",
+      "confidence": 0.182,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.1",
+      "matched_end": 432.24
+    },
+    {
+      "id": "auto-4",
       "start": 546.84,
       "end": 564.84,
       "page": 19,
@@ -23,10 +672,13 @@
       "target_text": "Die GAE repräsentiert somit die wertvolle Betriebszeit in Prozent der theoretischen Kapazität.\n",
       "confidence": 0.296,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.1",
+      "matched_end": 564.84
     },
     {
-      "id": "auto-2",
+      "id": "auto-5",
       "start": 622.36,
       "end": 644.16,
       "page": 20,
@@ -43,10 +695,13 @@
       "target_text": "Abbildung 75: Enterprise resource planning – Skript S. 164 (PDF 174)\n",
       "confidence": 0.506,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.2",
+      "matched_end": 644.16
     },
     {
-      "id": "auto-3",
+      "id": "auto-6",
       "start": 701.28,
       "end": 720.92,
       "page": 25,
@@ -63,10 +718,105 @@
       "target_text": "Abbildung 79: Dilemma der Ablaufplanung – Skript S. 168 (PDF 178)\n",
       "confidence": 0.345,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.2",
+      "matched_end": 720.92
     },
     {
-      "id": "auto-4",
+      "id": "auto-7",
+      "start": 779.44,
+      "end": 798.32,
+      "page": 28,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.2984753968879899,
+        0.7557476011644892,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "Anhand der Produktionskennlinien kann dargestellt werden, wie sich ein Arbeitssystem bei ansonsten\nunverändert",
+      "transcript": "Die Reisezeit und in der Fabrieg ist das ja die Durchlaufzeit  eines Produkt explodiert dann komplett.  Die Mechanik dahinter ist wirklich faszinierend und unerbittlich.  Wenn du die Auslastung der Maschine auf 5,90% oder 100% reiben willst,  Du musst du zwangsläufig mehr Aufträge auf die Fabrikfläche punden.  Das nennt sich dann Wip oder?",
+      "target_text": "Anhand der Produktionskennlinien kann dargestellt werden, wie sich ein Arbeitssystem bei ansonsten\nunveränderten Randbedingungen verhält, wenn z.B. ein anderer Bestand (WIP) eingestellt wird. Sie\ncharakterisieren somit das logistische Verhalten bezüglich Leistung/Auslastung, Durchlaufzeit und\nTermintreue einer Fertigung bei einer Bestandsveränderung. Die Linien zeigen, dass es nicht möglich\nist, ein gleichzeitiges Optimum für alle genannten Zielgrößen zu deﬁnieren. So benötigt die Sicherung\neine",
+      "confidence": 0.168,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.2",
+      "matched_end": 798.32
+    },
+    {
+      "id": "auto-8",
+      "start": 798.32,
+      "end": 817.32,
+      "page": 25,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.2726082881102936,
+        0.7715458589441636,
+        0.09648456709401908
+      ],
+      "pointer": true,
+      "label": "Am folgenden Beispiel soll das Dilemma der Ablaufplanung veranschaulicht werden. Falls ein hoher\nBestand (Work",
+      "transcript": "Ja, du erhöht den sogenannten Wip den Work in Progress.  Das bedeutet einfach, dass ich vor jeder Maschine kleine Berge von Material stapling,  die darauf warten, bearbeitet zu werden.  Wie Autos in der Schlange?  Genau.  Diese Wartezeit vor der Maschine ist exakt wie das Warten im Stau.  Dadurch verlängert sich die Zeit vom ersten Produktionsschritt  bis zur Fertigstellung massiv.",
+      "target_text": "Am folgenden Beispiel soll das Dilemma der Ablaufplanung veranschaulicht werden. Falls ein hoher\nBestand (Work-in-Process - „WIP“) vorliegt, können hohe Auslastungen für die Betriebsmittel\n(Fertigungsmaschinen) erreicht werden. Die Produkte müssen jedoch eventuell auf Grund der\nAblaufplanung vor den Maschinen warten, was die Durchlaufzeiten der Produkte erhöht. Sollen die\nDurchlaufzeiten und Bestände reduziert werden, sind die Betriebsmittel (Fertigungsmaschinen) geringer\nausgelastet.\n",
+      "confidence": 0.197,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.2",
+      "matched_end": 817.32
+    },
+    {
+      "id": "auto-9",
+      "start": 836.48,
+      "end": 854.84,
+      "page": 20,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5497614119794759,
+        0.7725543238535648,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Im Allgemeinen ist Planung die Formalisierung dessen, was in der Zukunft passieren könnte. Diese\nPläne basiere",
+      "transcript": "Die Plattung ist im Grunde nur der Versuch, die Zukunft voraus zu sagen.  Du machst einen Plan für die nächste Woche.  Aber kaum drücktst du am Montagmorgen auf Start, meldet sich ein Mitarbeiter krank,  eine Maschine hagt oder ein Material fehlt plötzlich.  Die Realität schlägt also zu.  Genau. Und die Steuerung ist dann die ständige Anpassung an diese Realität.",
+      "target_text": "Im Allgemeinen ist Planung die Formalisierung dessen, was in der Zukunft passieren könnte. Diese\nPläne basieren z.B. Prognosen und Annahmen und hängen von vielen Variablen ab, wie in den\nvorherigen Kapiteln beschrieben. Steuerung dagegen ist der Prozess der Anpassung von Plänen an\nVeränderungen dieser Variablen. Die Grenzen zwischen Planung und Kontrolle ändern sich entlang des\nZeithorizonts (siehe Abbildung 76).\n",
+      "confidence": 0.168,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.2",
+      "matched_end": 854.84
+    },
+    {
+      "id": "auto-10",
+      "start": 893.76,
+      "end": 913.08,
+      "page": 25,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.2726082881102936,
+        0.7715458589441636,
+        0.09648456709401908
+      ],
+      "pointer": true,
+      "label": "Am folgenden Beispiel soll das Dilemma der Ablaufplanung veranschaulicht werden. Falls ein hoher\nBestand (Work",
+      "transcript": "Ah, das System denkt also mit.  Ja, du du siehst das Material so, dass die Maschinen gut ausgelastet sind, aber die Durchlaufzeiten  eben nicht komplett eskalieren.  Es ist wirklich ein ständiges Ausbau auspannosieren an der absoluten Grenze zum Chaos.  Okay, wir haben das Produkt jetzt also erfolgreich durch diesen ganzen Verkehrsstauner wie Giehlt.",
+      "target_text": "Am folgenden Beispiel soll das Dilemma der Ablaufplanung veranschaulicht werden. Falls ein hoher\nBestand (Work-in-Process - „WIP“) vorliegt, können hohe Auslastungen für die Betriebsmittel\n(Fertigungsmaschinen) erreicht werden. Die Produkte müssen jedoch eventuell auf Grund der\nAblaufplanung vor den Maschinen warten, was die Durchlaufzeiten der Produkte erhöht. Sollen die\nDurchlaufzeiten und Bestände reduziert werden, sind die Betriebsmittel (Fertigungsmaschinen) geringer\nausgelastet.\n",
+      "confidence": 0.216,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.2",
+      "matched_end": 913.08
+    },
+    {
+      "id": "auto-11",
       "start": 933.68,
       "end": 952.08,
       "page": 32,
@@ -83,10 +833,36 @@
       "target_text": "Tragen sekundär zur Leistung bei (z.B. Ledersitze in einem Auto). Fließender Übergang zwischen der\nDimension Leistung und Ausstattung.\n",
       "confidence": 0.286,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.3",
+      "matched_end": 952.08
     },
     {
-      "id": "auto-5",
+      "id": "auto-12",
+      "start": 970.86,
+      "end": 993.86,
+      "page": 33,
+      "type": "rect",
+      "rect": [
+        0.11210083520712973,
+        0.8430819477434679,
+        0.773445219152114,
+        0.04838478650163302
+      ],
+      "pointer": true,
+      "label": "Durch den Einsatz eines Lagersystems können die Produkte bereits vor Erhalt eines Auftrags produziert\nund im B",
+      "transcript": "Früher hatte man am Ende das Fließbandseinfall ins Bektoren stehen,  die haben die Kaputtenteile dann ausortiert.  Das klingt heuer.  Das ist unglaublich teuer ja.  Weil man die Fehler schon produziert hat, die Arbeit ist bereits reingefchlossen.  Heute nutzt man daher Ansätze wie Total-Korl-T-Management kurz TQM.  Was genau endet sich da?  Der Kernmechanismus hier ist, dass die Verantwortung für Qualität nicht mehr bei einer separaten",
+      "target_text": "Durch den Einsatz eines Lagersystems können die Produkte bereits vor Erhalt eines Auftrags produziert\nund im Bestellfall direkt an den Kunden ausgeliefert werden. Daher ist die Auftragserfüllungszeit gering\nund der Kunde erhält seine Produkte früher.\n",
+      "confidence": 0.187,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.3",
+      "matched_end": 993.86
+    },
+    {
+      "id": "auto-13",
       "start": 1015.34,
       "end": 1036.34,
       "page": 33,
@@ -103,10 +879,59 @@
       "target_text": "•  Statistische Prozesskontrolle (SPC): Ist eine operativ orientierte Technik zur\nQualitätsverbesserung. Sie kann als Qualitätsprüfung für Prozesse und nicht für das\nProduktdesign angesehen werden und basiert auf einer inhärenten Variabilität der Prozesse.\n",
       "confidence": 0.277,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.3",
+      "matched_end": 1036.34
     },
     {
-      "id": "auto-6",
+      "id": "auto-14",
+      "start": 1078.1,
+      "end": 1096.3,
+      "page": 35,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6419677734375,
+        0.7500837438246784,
+        0.1125178031287114
+      ],
+      "pointer": true,
+      "label": "In der heutigen Zeit lautet das Schlagwort in der Industrie Flexibilität. Flexibilität ist eine\nGrundvorausset",
+      "transcript": "Oh, der Unterschied ist gewaltig.  Das sind keine Baswurst.  Flexibilität ist die Fähigkeit innerhalb bereits bestehender Leitplanken zu reagieren.  Es geht darum, wie gut eine Fabrik heute und morgen umschalten kann.  Hast du dann bei Spiel?  Kann ich auf der selben Produktionslinie erst ein rotes, dann ein blaues Autolakieren?",
+      "target_text": "In der heutigen Zeit lautet das Schlagwort in der Industrie Flexibilität. Flexibilität ist eine\nGrundvoraussetzung um das zu machen, was der Kunde will, wann er es will. Flexibilität bezeichnet\ndemnach die Fähigkeit eines Unternehmens auf veränderte Kundenbedürfnisse zu reagieren und ist\neine Voraussetzung um verschiedene Produktvarianten anbieten zu können oder mit der Produktion\neines neuen Produktes zu beginnen. Flexibilität kann auch als Wettbewerbsvorteil in bestimmten\nMärkten angesehen wer",
+      "confidence": 0.169,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.3",
+      "matched_end": 1096.3
+    },
+    {
+      "id": "auto-15",
+      "start": 1141.3,
+      "end": 1160.98,
+      "page": 36,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.4872175565524792,
+        0.7584198126271993,
+        0.12855098479717192
+      ],
+      "pointer": true,
+      "label": "Flexibilität ist in das Produktionssystem integriert. Das heißt, die Flexibilität wird an der Reaktion eines\nb",
+      "transcript": "Stimmt anstiegst du blöter. Agilität bedeutet, dass du Partnerschaften, Netzwerke und Strukturen  um dein gesamtes Geschäftsmodell, Radikal und extrem schnell umzubauen.  Flexibilität rettet mir also im Zweifel die Quartalszahlen,  aber agilität rettet das Unternehmen im nächsten Jahrzehnt.  Das kann man definitiv so sagen.",
+      "target_text": "Flexibilität ist in das Produktionssystem integriert. Das heißt, die Flexibilität wird an der Reaktion eines\nbestehenden Produktionssystems gemessen. Es gibt auch das Konzept der Agilität oder der agilen\nProduktion. Agile Produktion bedeutet, sich proaktiv auf Unsicherheiten vorzubereiten und auf\nVeränderungen zu reagieren, um die wirtschaftliche Situation eines Unternehmens unter Nutzung der\ngesamten Wertschöpfungskette zu optimieren. Der Unterschied zur Flexibilität liegt daher in der\nproaktiv",
+      "confidence": 0.218,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.3",
+      "matched_end": 1160.98
+    },
+    {
+      "id": "auto-16",
       "start": 1160.98,
       "end": 1179.38,
       "page": 9,
@@ -123,10 +948,13 @@
       "target_text": "Gewinnbeitrag = Zproaucts (Preis pro Einheit - variable Kosten pro Einheit)\n",
       "confidence": 0.33,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.1",
+      "matched_end": 1179.38
     },
     {
-      "id": "auto-7",
+      "id": "auto-17",
       "start": 1221.58,
       "end": 1240.1,
       "page": 36,
@@ -143,7 +971,11 @@
       "target_text": "•  Materialkosten Die Kosten hängen vom Volumen und der Produktvielfalt ab. Durch ein höheres\nVolumen, sinken die Kosten pro Einheit im Allgemeinen, da die Fixkosten auf eine höhere Anzahl\nvon Einheiten verteilt werden können. Dieser Skaleneﬀekt kann aber auch reduziert werden,\nwenn bei zunehmender Stückzahl die Komplexität in der Produktion zu stark ansteigt. Die\nProduktvielfalt kann auch die Komplexität und damit die Kosten erhöhen. Die Komplexität kann\ndurch Designvereinfachungen und Standard",
       "confidence": 0.25,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "9.3",
+      "matched_end": 1240.1
     }
-  ]
+  ],
+  "generated_annotations_sha256": "89414de8703924e6d8356e7cf7bc6f64ab6bd812df9fb3eb1015e48c02ac6e42"
 }

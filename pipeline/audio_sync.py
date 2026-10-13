@@ -13,6 +13,7 @@ from collections import Counter
 from pathlib import Path
 
 from . import chapter_audio, config, content_files
+from .audio_topics import add_topic_context, annotation_digest, pdf_sections, untouched_generated
 
 STOP = set("aber alle als also am an auch auf aus bei bis das dass dem den der des die doch ein eine einem einen einer eines er es fuer für hat hier ich im in ist ja kann man mit nach nicht noch nur oder schon sehr sich sie sind so um und uns vom von vor war was wenn werden wie wir wird wo zu zum zur über".split())
 
@@ -21,7 +22,7 @@ def words(text: str) -> Counter:
     return Counter(w for w in re.findall(r"[a-zäöüß]{3,}", text.lower()) if w not in STOP)
 
 
-def align(segments: list[dict], blocks: list[dict], threshold: float = .24) -> list[dict]:
+def align(segments: list[dict], blocks: list[dict], threshold: float = config.AUDIO_MATCH_THRESHOLD) -> list[dict]:
     """Independent windows: allows audio to change topic out of PDF order. Low scores omitted."""
     counts = [words(b["text"]) for b in blocks]
     df = Counter(w for c in counts for w in c)
@@ -62,9 +63,9 @@ def align(segments: list[dict], blocks: list[dict], threshold: float = .24) -> l
 
 
 def pdf_blocks(path: Path) -> list[dict]:
-    import fitz
+    import pymupdf
     result = []
-    with fitz.open(path) as doc:
+    with pymupdf.open(path) as doc:
         for n, page in enumerate(doc, 1):
             width, height = page.rect.width, page.rect.height
             text_blocks = page.get_text("blocks")
@@ -82,12 +83,12 @@ def pdf_blocks(path: Path) -> list[dict]:
     return result
 
 
-def main() -> int:
+def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--model", default="tiny", help="Whisper-Modell, z. B. tiny, base, small")
+    parser.add_argument("--model", default=config.ASR_MODEL, help="Whisper-Modell, z. B. tiny, base, small")
+    parser.add_argument("--refresh-unreviewed",action="store_true",help="Nur nachweislich unveränderte automatische Timelines aktualisieren")
     parser.add_argument("--chapters", nargs="*", type=int, help="nur diese Kapitel")
-    args = parser.parse_args()
-    from faster_whisper import WhisperModel
+    args = parser.parse_args(argv)
     recordings = chapter_audio.rename()
     chapters = {content_files.chapter_number(c.slug): c for c in content_files.discover(config.CONTENT)}
     config.TRANSCRIPTS.mkdir(parents=True, exist_ok=True)
@@ -106,6 +107,7 @@ def main() -> int:
         transcribed = data.get("audio_sha256") != audio_hash or data.get("model") != args.model
         if transcribed:
             if model is None:
+                from faster_whisper import WhisperModel
                 print(f"[sync] Lade lokales Whisper-Modell {args.model} (CPU/int8)", flush=True)
                 model = WhisperModel(args.model, device="cpu", compute_type="int8", cpu_threads=4)
             print(f"[sync] Kapitel {n}: transkribiere {audio.name}", flush=True)
@@ -120,13 +122,16 @@ def main() -> int:
                     reported = s.end
             data = dict(audio_sha256=audio_hash, model=args.model, duration=info.duration, segments=segments)
             cache.write_text(json.dumps(data, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
-        annotations = align(data["segments"], pdf_blocks(pdf))
+        annotations = add_topic_context(align(data["segments"],pdf_blocks(pdf)),pdf_sections(pdf),data["duration"])
         timeline = dict(version=1, chapter=n, audio_sha256=audio_hash, pdf_sha256=pdf_hash,
-                        generator=f"faster-whisper/{args.model} + lexical matching", annotations=annotations)
+                        generator=f"faster-whisper/{args.model} + persistent topics + lexical matching", annotations=annotations,
+                        generated_annotations_sha256=annotation_digest(annotations))
         out = config.INTERACTIVE_CURATION / f"GIL-{n}-Timeline.json"
         # Never overwrite the user's reviewed timeline. New candidates get a separate local file.
         if out.exists():
-            out = config.TRANSCRIPTS / f"GIL-{n}-Timeline-Vorschlag.json"
+            previous = json.loads(out.read_text(encoding="utf-8"))
+            if not args.refresh_unreviewed or not untouched_generated(previous):
+                out = config.TRANSCRIPTS / f"GIL-{n}-Timeline-Vorschlag.json"
         out.write_text(json.dumps(timeline, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
         if transcribed:
             from .ailog import append
@@ -136,6 +141,13 @@ def main() -> int:
                         result=f"{len(annotations)} ungeprüfte Vorschläge; ASR ohne Texttoken-Schätzung"))
         print(f"[sync] Kapitel {n}: {len(annotations)} ungeprüfte Vorschläge -> {out}", flush=True)
     return 0
+
+
+def run(pages=None,dry_run: bool = False,force: bool = False) -> int:
+    if dry_run:
+        print("[sync-audio] würde Audios lokal transkribieren und unveränderte automatische Timelines aktualisieren")
+        return 0
+    return main(["--model",config.ASR_MODEL,"--refresh-unreviewed"])
 
 
 if __name__ == "__main__":

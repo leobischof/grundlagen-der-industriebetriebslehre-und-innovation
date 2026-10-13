@@ -1,9 +1,16 @@
 import {test} from "node:test";
 import assert from "node:assert/strict";
 import {activeAt, validateTimeline, seekTarget, isManualPdfNavigation} from "./reader-timeline.mjs";
+import {rangeBounds} from "./reader-offline.mjs";
 
 const annotation = {id:"a", start:10, end:20, page:2, type:"rect", rect:[.1,.2,.5,.2], status:"unreviewed"};
 const timeline = () => ({version:1, chapter:2, audio_sha256:"audio", pdf_sha256:"pdf", annotations:[structuredClone(annotation)]});
+test("offline media seeks support bounded, open and suffix ranges", () => {
+  assert.deepEqual(rangeBounds("bytes=3-6",10),[3,6]);
+  assert.deepEqual(rangeBounds("bytes=8-",10),[8,9]);
+  assert.deepEqual(rangeBounds("bytes=-2",10),[8,9]);
+  for (const range of ["bytes=20-30","bytes=5-2","bytes=-0","bytes=0-1,5-6","invalid"]) assert.equal(rangeBounds(range,10),null);
+});
 test("ten-second controls clamp at audio boundaries", () => {
   assert.equal(seekTarget(5,-10,120),0);
   assert.equal(seekTarget(60,-10,120),50);

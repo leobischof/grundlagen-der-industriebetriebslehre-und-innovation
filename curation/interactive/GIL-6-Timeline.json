@@ -3,10 +3,219 @@
   "chapter": 6,
   "audio_sha256": "920f600d44d71d26c2578945b5a4b9c877ee2b5e39ba609c03233cb7e2c5a004",
   "pdf_sha256": "65d2a5c73731e9e4237b4f35b171de56e7a08dc4f33bedaf4c870b76dab8972d",
-  "generator": "faster-whisper/tiny + lexical matching",
+  "generator": "faster-whisper/tiny + persistent topics + lexical matching",
   "annotations": [
     {
+      "id": "topic-1-page-2",
+      "start": 0,
+      "end": 414.76,
+      "page": 2,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "6.1",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 6.1 Nach Thom106",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-3",
+      "start": 414.76,
+      "end": 944.1,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "6.2",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 6.2 Nach Cooper108",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-4",
+      "start": 414.76,
+      "end": 944.1,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "6.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 6.2 Nach Cooper108",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-2-page-5",
+      "start": 414.76,
+      "end": 944.1,
+      "page": 5,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "6.2",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 6.2 Nach Cooper108",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-6",
+      "start": 944.1,
+      "end": 1686.651,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.06,
+        0.86,
+        0.88
+      ],
+      "scope": "topic",
+      "topic_id": "6.3",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 6.3 Nach Design Thinking Methode",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-7",
+      "start": 944.1,
+      "end": 1686.651,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "6.3",
+      "primary": true,
+      "pointer": false,
+      "label": "Thema: 6.3 Nach Design Thinking Methode",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
+      "id": "topic-3-page-8",
+      "start": 944.1,
+      "end": 1686.651,
+      "page": 8,
+      "type": "rect",
+      "rect": [
+        0.07,
+        0.08,
+        0.86,
+        0.86
+      ],
+      "scope": "topic",
+      "topic_id": "6.3",
+      "primary": false,
+      "pointer": false,
+      "label": "Thema: 6.3 Nach Design Thinking Methode",
+      "status": "unreviewed",
+      "origin": "local-topic-context"
+    },
+    {
       "id": "auto-1",
+      "start": 19.8,
+      "end": 40.48,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5958775318716597,
+        0.7613274454068737,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Di",
+      "transcript": "der metaphorische Abfüllfeld auf den Kopf und Boom.  Das Produkt, dass die Welt verändert, ist plötzlich da.  Genau, dieser berühmte, heure Kamumend.  Das ist ja auch eine wunderbare Geschichte.  My Hollywood-Liebt genauso euch Erzählungen.  Absolut.  Wir Menschen klammern uns da gern an diese Vorstellung von so einer ungeplanten  fast schon magischen Brilliance, weil das einfach schön müßtisch klingt.",
+      "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
+      "confidence": 0.17,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 40.48
+    },
+    {
+      "id": "auto-2",
+      "start": 60.32,
+      "end": 80.8,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.7936209998051514,
+        0.7724870313115481,
+        0.128551057285481
+      ],
+      "pointer": true,
+      "label": "Weitere wichtige Faktoren sind das Arbeitsumfeld und die Zusammensetzung des Projektteams. Der\nphysische Raum,",
+      "transcript": "sie ist ein extrem hatte komplett durchstrukturierter Prozess.  Und genau da wollen wir heute ansetzen.  Also, lassen Sie uns das mal aufdröseln.  Willkommen schön, dass du dabei bist bei unserer heutigen  Maßgeschneiderten und ziemlich tiefgehenden Analyse.  Und wir haben heute wirklich was Spannendes vor uns.  Genau, unsere Mission heute ist es nämlich ein hochspannendes",
+      "target_text": "Weitere wichtige Faktoren sind das Arbeitsumfeld und die Zusammensetzung des Projektteams. Der\nphysische Raum, in dem das Projekt durchgeführt wird, hat ebenso Einﬂuss auf die Projektmitarbeiter.\nDave Kelley schlägt vor, so wenig Regeln wie möglich für die Gestaltung eines Raumes zu haben. Die\nGestaltung sollte Aufgabe des Projektteams selbst sein. Wie im gesamten Prozess des Design Thinking\nsollte sich auch der Arbeitsbereich im Laufe des Projekts weiterentwickeln. Bei IDEO sind die\nArbeitsplät",
+      "confidence": 0.189,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 80.8
+    },
+    {
+      "id": "auto-3",
+      "start": 99.96,
+      "end": 122.96,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5958775318716597,
+        0.7613274454068737,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Di",
+      "transcript": "Die Pläne, die genau erklären, wie aus so ganz rohnen, ungeschliffenen Ideen am Ende die fertigen Produkte werden,  die du und ich jeden Tag ganz selbstverständlich nutzen.  Und was hier aus wirtschaftlicher Sicht halt wirklich faszinierend ist, Innovation ist für diese Unternehmen nicht einfach nur so ein nettes Nebenprojekt mit dem sich ein paar kreative am Freitagmittag mal kurz beschäftigen, weil sie Lust haben.",
+      "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
+      "confidence": 0.16,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 122.96
+    },
+    {
+      "id": "auto-4",
       "start": 200.48,
       "end": 219.48,
       "page": 3,
@@ -23,10 +232,13 @@
       "target_text": "Ein weiterer wichtiger Aspekt in diesem Prozess ist der Innovationsimpuls, der ein gemeinsamer Nenner\naller Innovationsprozesse ist. Impulse oder Ideenquellen können aus verschiedenen Richtungen\nkommen. Die 3 Hauptphasen des Innovationsprozesses von Thom lauten wie folgt:\n",
       "confidence": 0.329,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 219.48
     },
     {
-      "id": "auto-2",
+      "id": "auto-5",
       "start": 237.48,
       "end": 255.92,
       "page": 2,
@@ -43,10 +255,59 @@
       "target_text": "Abbildung 36 stellt den von Thom in den 1980er Jahren eingeführten Innovationsprozess dar. Die\nHauptphasen dieses Innovationsprozesses sind sehr gut strukturiert und in einzelne Schritte unterteilt.\nAuch die Rolle des Umwelteinﬂusses und der Unternehmensplanung wird berücksichtigt.\nUmwelteinﬂüsse können die Gesellschaft, Politik, Ökologie/Wirtschaft und Technik sein. Dies bedeutet,\ndass Veränderungen in diesen Bereichen einen Einﬂuss auf die Unternehmensplanung und damit in\nweiterer Folge auf di",
       "confidence": 0.245,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.1",
+      "matched_end": 255.92
     },
     {
-      "id": "auto-3",
+      "id": "auto-6",
+      "start": 274.44,
+      "end": 293.44,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.8257703622559753,
+        0.7650583860253085,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Anwender des Design Thinkings begeben sich in die Rolle des Nutzers und blicken aus seiner\nPerspektive auf das",
+      "transcript": "Das ist ein gewaltiger Impuls von außen.  Oh ja, das ist ein Problem.  Und dieser Druck aus der Umwelt, der zwingt er in Unternehmen quasi über nach dazu sofort zu reagieren  und eine Innovation anzustoßen.  Andernfalls geht es so schlichtwerk bei Grot.  Okay, der Impuls ist also der Auslöser, der Schmerz,",
+      "target_text": "Anwender des Design Thinkings begeben sich in die Rolle des Nutzers und blicken aus seiner\nPerspektive auf das Problem. Die Methode wurde vom 1991 gegründeten Unternehmen IDEO\nentwickelt und im Laufe der Jahre erfolgreich angewendet. Als Bespiele für entwickelte Produkte und\nden Erfolg des Unternehmens mit dieser Methode können die erste Apple Maus oder der Handheld PC\nPalm V genannt werden.\n",
+      "confidence": 0.187,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 293.44
+    },
+    {
+      "id": "auto-7",
+      "start": 334.92,
+      "end": 353.92,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5958775318716597,
+        0.7613274454068737,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Di",
+      "transcript": "Okay, das Ganze ist ein.  Im zweiten Schritt werden ein gezielt innerhalb dieses engen Fältes Ideen gefunden, also vielleicht.  Papier, Bambos oder auch Nudelteig.  Und im dritten Schritt werden diese Ideen dann Formel im Unternehmen vorgeschlagen.  Also, dass er in der Totelle an das Kochen von einem völlig neuen Gericht.  Stellt ihr vor, du ruchst das eine große Dinnerpartie aus?",
+      "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
+      "confidence": 0.201,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 353.92
+    },
+    {
+      "id": "auto-8",
       "start": 414.76,
       "end": 433.24,
       "page": 3,
@@ -63,10 +324,13 @@
       "target_text": "2. Ideenakzeptierung a) Prüfung der Ideen b) Erstellen von Realisierungsplänen c) Entscheidung\nfür einen zu realisierenden Plan\n",
       "confidence": 0.37,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 433.24
     },
     {
-      "id": "auto-4",
+      "id": "auto-9",
       "start": 433.24,
       "end": 451.32,
       "page": 3,
@@ -83,10 +347,13 @@
       "target_text": "3. Ideenrealisierung a) Konkrete Verwirklichung der Idee b) Verkauf der neuen Idee an Zielkunden\nc) Akzeptanzkontrolle\n",
       "confidence": 0.411,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 451.32
     },
     {
-      "id": "auto-5",
+      "id": "auto-10",
       "start": 451.32,
       "end": 469.44,
       "page": 3,
@@ -103,10 +370,13 @@
       "target_text": "3. Ideenrealisierung a) Konkrete Verwirklichung der Idee b) Verkauf der neuen Idee an Zielkunden\nc) Akzeptanzkontrolle\n",
       "confidence": 0.418,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 469.44
     },
     {
-      "id": "auto-6",
+      "id": "auto-11",
       "start": 489.6,
       "end": 509.6,
       "page": 3,
@@ -123,10 +393,59 @@
       "target_text": "3. Ideenrealisierung a) Konkrete Verwirklichung der Idee b) Verkauf der neuen Idee an Zielkunden\nc) Akzeptanzkontrolle\n",
       "confidence": 0.321,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 509.6
     },
     {
-      "id": "auto-7",
+      "id": "auto-12",
+      "start": 509.6,
+      "end": 531.84,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5958775318716597,
+        0.7613274454068737,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Di",
+      "transcript": "weil er nach drei Minuten im Getränk komplett aufweicht und eklig wird.  Das ist ein massives Feedback an die Umwelt.  Stimmt.  Und diese nun veränderte Umwelt, die jetzt voll ist,  mit unzufriedenen Kunden, die eine bessere Lösung wollen, die löst überkurzierter lang sofort  den nächsten Innovationsimpuls aus. Es ist also der absolute Grundrhythmus jeder Erfindung.  Ein ewiger Kreislauf aus Impuls, Generation, Akzeptierung und Realisierung.",
+      "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
+      "confidence": 0.165,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 531.84
+    },
+    {
+      "id": "auto-13",
+      "start": 575.8,
+      "end": 594.36,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.11210079673959428,
+        0.7026419379082541,
+        0.7687896600290507,
+        0.1125178031287114
+      ],
+      "pointer": true,
+      "label": "Der von Robert G. Cooper entwickelte Stage-Gate-Prozess ist eine Methode zur Beschreibung von\nInnovations- und",
+      "transcript": "Stagegate-Prozess.  Richtig.  Wenn es um echte Skilt, um Scherhoder, Value und Massive Unternehmensresourcen geht, dann braucht  man ein System, das Projekte von der anfänglichen Idee bis zur finalen Markt einführen,  extrem strukturiert, ja fast schon militärisch führt.  Wie sieht das konkret aus?",
+      "target_text": "Der von Robert G. Cooper entwickelte Stage-Gate-Prozess ist eine Methode zur Beschreibung von\nInnovations- und Entwicklungsprozessen. Der Prozess ist eine Abfolge mehrerer Stage-Gate-\nSysteme. Ein Stage-Gate-System ist ein systematischer Prozess, der kritische Erfolgsfaktoren und eine\noptimale Vorgehensweise beinhaltet, um ein neues Produkt durch die verschiedenen Phasen und\nSchritte von der Idee bis zur Markteinführung zu führen. Der Stage-Gate-Prozess kann als Leitfaden für\ndas Management des ",
+      "confidence": 0.194,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 594.36
+    },
+    {
+      "id": "auto-14",
       "start": 594.36,
       "end": 616.36,
       "page": 4,
@@ -143,10 +462,13 @@
       "target_text": "Der Prozess ist funktionsübergreifend, d.h. Stages (Stufen) und Gates (Tore) sind keiner bestimmten\nUnternehmensabteilung zugeordnet. Der Schwerpunkt des Prozesses liegt im vorderen Abschnitt, da\nhier starker Kundenbezug vorherrscht. Der Prozess berücksichtigt Best Practices und kann parallel\nabgearbeitet werden. In vielen Unternehmen wird der Stage-Gate-Prozess nach Cooper oder eine\nAbwandlung dessen angewandt.\n",
       "confidence": 0.369,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 616.36
     },
     {
-      "id": "auto-8",
+      "id": "auto-15",
       "start": 616.36,
       "end": 636.36,
       "page": 4,
@@ -163,10 +485,13 @@
       "target_text": "Ein Stage-Gate-System besteht in der Regel aus vier bis sechs Stages. In jedem Stage werden\nInformationen gesammelt, die für den nächsten Stage oder Entscheidungspunkt erforderlich sind.\nNachfolgende Stages im Prozess sind teurer und benötigen höhere Budgets als vorhergehende.\nFolgende sechs Stages stellen die Hauptbestandteile dieses Innovationsprozesses dar:\n",
       "confidence": 0.486,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 636.36
     },
     {
-      "id": "auto-9",
+      "id": "auto-16",
       "start": 657.14,
       "end": 677.14,
       "page": 4,
@@ -183,10 +508,82 @@
       "target_text": "•  Prüfen und Validieren: Feldversuche, Versuche im Labor und in der Produktion; Ziel:\nValidierung des vorgeschlagenen neuen Produkts.\n",
       "confidence": 0.293,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 677.14
     },
     {
-      "id": "auto-10",
+      "id": "auto-17",
+      "start": 677.14,
+      "end": 695.14,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6313737520412708,
+        0.7230417331727613,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "Ein Stage-Gate-System besteht in der Regel aus vier bis sechs Stages. In jedem Stage werden\nInformationen gesa",
+      "transcript": "die Macht einführen.  Und hier weiter man kommt, dass so teurer wird, oder?  Genau, das ist der Spring der Punkt, den man sich zwingt,  man muss.  Die Kostenkurve verläuft exponentiell.  Je später die Stage im Prozess des Drogen unfassbar teurer wird sie.  Eine Idee in das Gruppingphase kostet sich vielleicht das Gehalt von drei Leuten veranwache.",
+      "target_text": "Ein Stage-Gate-System besteht in der Regel aus vier bis sechs Stages. In jedem Stage werden\nInformationen gesammelt, die für den nächsten Stage oder Entscheidungspunkt erforderlich sind.\nNachfolgende Stages im Prozess sind teurer und benötigen höhere Budgets als vorhergehende.\nFolgende sechs Stages stellen die Hauptbestandteile dieses Innovationsprozesses dar:\n",
+      "confidence": 0.224,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 695.14
+    },
+    {
+      "id": "auto-18",
+      "start": 695.14,
+      "end": 715.14,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.42650439337143703,
+        0.7510249161920628,
+        0.08045129481517221
+      ],
+      "pointer": true,
+      "label": "Der Prozess ist funktionsübergreifend, d.h. Stages (Stufen) und Gates (Tore) sind keiner bestimmten\nUnternehme",
+      "transcript": "Die technische Entwicklung und das Validieren kosten Millionen,  weil verbriegen umgerüstet und Werkzeuge gebaut werden müssen.  Und genau deshalb, weil die Kosten im Surrasand in die Hörschießen gibt,  Gates richtig, das sind die Tore, also die Barrieren zwischen den einzelnen Stages.  Exact.  In den Unterlagen steht das ein Gate von Führungskräften verschiedene Abteilungen",
+      "target_text": "Der Prozess ist funktionsübergreifend, d.h. Stages (Stufen) und Gates (Tore) sind keiner bestimmten\nUnternehmensabteilung zugeordnet. Der Schwerpunkt des Prozesses liegt im vorderen Abschnitt, da\nhier starker Kundenbezug vorherrscht. Der Prozess berücksichtigt Best Practices und kann parallel\nabgearbeitet werden. In vielen Unternehmen wird der Stage-Gate-Prozess nach Cooper oder eine\nAbwandlung dessen angewandt.\n",
+      "confidence": 0.201,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 715.14
+    },
+    {
+      "id": "auto-19",
+      "start": 715.14,
+      "end": 734.14,
+      "page": 4,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.6313737520412708,
+        0.7230417331727613,
+        0.0644180406584026
+      ],
+      "pointer": true,
+      "label": "Ein Stage-Gate-System besteht in der Regel aus vier bis sechs Stages. In jedem Stage werden\nInformationen gesa",
+      "transcript": "mitreut wird, man nennt sie oft Gatekeeper.  So ein Gate besteht immer aus drei ganz klaren Elementen,  so wie ich das sehe.  Richtig für euch ist das.  Erstens, ergebnisse.  Das Team muss belastbare, nassvollziehbare Resultate  aus der gerade beendeten Stages vorliegen.  Zweitens, Kriterien nachdem diese Ergebnisse bewertet werden",
+      "target_text": "Ein Stage-Gate-System besteht in der Regel aus vier bis sechs Stages. In jedem Stage werden\nInformationen gesammelt, die für den nächsten Stage oder Entscheidungspunkt erforderlich sind.\nNachfolgende Stages im Prozess sind teurer und benötigen höhere Budgets als vorhergehende.\nFolgende sechs Stages stellen die Hauptbestandteile dieses Innovationsprozesses dar:\n",
+      "confidence": 0.168,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 734.14
+    },
+    {
+      "id": "auto-20",
       "start": 791.54,
       "end": 809.74,
       "page": 6,
@@ -203,10 +600,36 @@
       "target_text": "3. Deﬁnierte Outputs: Hierzu zählen die Entscheidung über das Weiterkommen im Prozess (go/\nkill/hold/recycle), ein abgestimmter Aktionsplan für den nächsten Stage (Planung des\nPersonaleinsatzes, Budgets und vereinbarte Timeline) so- wie eine Liste der erforderlichen\nErgebnisse und das Zieldatum für das Erreichen des nächsten Gates.\n",
       "confidence": 0.325,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 809.74
     },
     {
-      "id": "auto-11",
+      "id": "auto-21",
+      "start": 907.1,
+      "end": 926.1,
+      "page": 3,
+      "type": "rect",
+      "rect": [
+        0.11210079673959428,
+        0.7026419379082541,
+        0.7687896600290507,
+        0.1125178031287114
+      ],
+      "pointer": true,
+      "label": "Der von Robert G. Cooper entwickelte Stage-Gate-Prozess ist eine Methode zur Beschreibung von\nInnovations- und",
+      "transcript": "Ein Recykel bedeutet einfach, hey, die Idee ist gut.  Aber euer Businesscase hat die asiatischen Marktdatene ignoriert.  Geht zurück in Stage 3, macht eure Hausaufgaben  und kommt nicht so ein Monat wieder.  Es ist im Grunde ein hochgradig effektives Risiko-Management-Werkzeug.  Man baut Kontrollpunkte ein, um nicht blindlingspläite zu gehen,",
+      "target_text": "Der von Robert G. Cooper entwickelte Stage-Gate-Prozess ist eine Methode zur Beschreibung von\nInnovations- und Entwicklungsprozessen. Der Prozess ist eine Abfolge mehrerer Stage-Gate-\nSysteme. Ein Stage-Gate-System ist ein systematischer Prozess, der kritische Erfolgsfaktoren und eine\noptimale Vorgehensweise beinhaltet, um ein neues Produkt durch die verschiedenen Phasen und\nSchritte von der Idee bis zur Markteinführung zu führen. Der Stage-Gate-Prozess kann als Leitfaden für\ndas Management des ",
+      "confidence": 0.18,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 926.1
+    },
+    {
+      "id": "auto-22",
       "start": 944.1,
       "end": 963.26,
       "page": 7,
@@ -223,10 +646,13 @@
       "target_text": "Abbildung 39: 5-Step Prozess des Design Thinking – Skript S. 102 (PDF 112)\n",
       "confidence": 0.455,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 963.26
     },
     {
-      "id": "auto-12",
+      "id": "auto-23",
       "start": 963.26,
       "end": 983.74,
       "page": 6,
@@ -243,10 +669,59 @@
       "target_text": "Anwender des Design Thinkings begeben sich in die Rolle des Nutzers und blicken aus seiner\nPerspektive auf das Problem. Die Methode wurde vom 1991 gegründeten Unternehmen IDEO\nentwickelt und im Laufe der Jahre erfolgreich angewendet. Als Bespiele für entwickelte Produkte und\nden Erfolg des Unternehmens mit dieser Methode können die erste Apple Maus oder der Handheld PC\nPalm V genannt werden.\n",
       "confidence": 0.301,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 983.74
     },
     {
-      "id": "auto-13",
+      "id": "auto-24",
+      "start": 983.74,
+      "end": 1003.14,
+      "page": 6,
+      "type": "rect",
+      "rect": [
+        0.11210079673959428,
+        0.7064116924222461,
+        0.7574280939182314,
+        0.1125178031287114
+      ],
+      "pointer": true,
+      "label": "Design Thinking ist eine systematische Herangehensweise an komplexe Problemstellungen aus\nallen Lebensbereiche",
+      "transcript": "die allererste kommerziell erfolgreiche Apple Maus oder der Handheld PC Palm 5.  Okay, wow. Der Fundamentale Unterschied zu Kuperswert, der Business Cases, ist der Fokus ganz  am Anfang. Im Zentrum des Designs hinken steht eben nicht so erst die Frage der technischen  Lösbarkeit oder der finanziellen Marge.  Im absoluten Zentrum stehen die Nutzerwünsche.",
+      "target_text": "Design Thinking ist eine systematische Herangehensweise an komplexe Problemstellungen aus\nallen Lebensbereichen. Der methodische Prozess geht weit über klassische Design-Disziplinen wie\nFormgebung und Konstruktion hinaus. Im Gegensatz zu den meisten Entwicklungsmethoden in\nWissenschaft und Praxis, die Problemstellungen von Seiten der technischen Lösbarkeit angehen,\nstehen beim Design Thinking Nutzerwünsche und -bedürfnisse sowie nutzerorientiertes Erﬁnden\nim Zentrum des Prozesses. Der gesamte Pr",
+      "confidence": 0.225,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1003.14
+    },
+    {
+      "id": "auto-25",
+      "start": 1125.58,
+      "end": 1145.62,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.14383191020548844,
+        0.3482528650279283,
+        0.7351424529772846,
+        0.24078383638286818
+      ],
+      "pointer": true,
+      "label": "1. Entdeckung: Das Verständnis des Nutzers dient als Grundlage für die Ideenﬁndung. In dieser\nPhase wird Empat",
+      "transcript": "Und das macht man nicht, indem man den Leuten einen trocknen Malte-Beltscheuys-Frage-Bogen-Permel-Schickt.  Man geht raus.  Man beobachtet die Menschen in ihrem Alltag.  Man schaut ihnen zu, wie sie an eine Problem scheitern, wie sie sich ergern.  Man muss den Nutzer und seine Frustrationen wirklich und warhaftig fühlen.  Okay, das ist sehr nah dran.",
+      "target_text": "1. Entdeckung: Das Verständnis des Nutzers dient als Grundlage für die Ideenﬁndung. In dieser\nPhase wird Empathie gewonnen, um sich für Lösungen zu begeistern. Interpretation:\nGesammelte Daten sowie Einfühlungsvermögen für den Nutzer sind nicht ausreichend um\ndetaillierte Produktanforderungen abzuleiten. Bevor mit der Ideenﬁndung begonnen werden\nkann, ist es erforderlich, das erworbene Wissen zu analysieren und auf dessen Basis sinnvolle\nAnforderungen abzuleiten. Beim Sichten des gesammelten Mat",
+      "confidence": 0.191,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1145.62
+    },
+    {
+      "id": "auto-26",
       "start": 1145.62,
       "end": 1163.94,
       "page": 7,
@@ -263,10 +738,82 @@
       "target_text": "1. Entdeckung: Das Verständnis des Nutzers dient als Grundlage für die Ideenﬁndung. In dieser\nPhase wird Empathie gewonnen, um sich für Lösungen zu begeistern. Interpretation:\nGesammelte Daten sowie Einfühlungsvermögen für den Nutzer sind nicht ausreichend um\ndetaillierte Produktanforderungen abzuleiten. Bevor mit der Ideenﬁndung begonnen werden\nkann, ist es erforderlich, das erworbene Wissen zu analysieren und auf dessen Basis sinnvolle\nAnforderungen abzuleiten. Beim Sichten des gesammelten Mat",
       "confidence": 0.294,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1163.94
     },
     {
-      "id": "auto-14",
+      "id": "auto-27",
+      "start": 1183.38,
+      "end": 1201.66,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.14383191020548844,
+        0.3482528650279283,
+        0.7351424529772846,
+        0.24078383638286818
+      ],
+      "pointer": true,
+      "label": "1. Entdeckung: Das Verständnis des Nutzers dient als Grundlage für die Ideenﬁndung. In dieser\nPhase wird Empat",
+      "transcript": "So eine wilde Buntemischung aus Designern, Psychologen, Technikern und Kaufleuten.  Richtig, die versität ist hier der Schlüssel.  Und sie nutzen diese ganz spezifischen Startfragen, die sogenannten How-Might-Wiefragen auf  Deutsch also, wie könnten wir fragen? Zum Beispiel, wie könnten wir es dem Nutzer erleichtern,  X zu tun?",
+      "target_text": "1. Entdeckung: Das Verständnis des Nutzers dient als Grundlage für die Ideenﬁndung. In dieser\nPhase wird Empathie gewonnen, um sich für Lösungen zu begeistern. Interpretation:\nGesammelte Daten sowie Einfühlungsvermögen für den Nutzer sind nicht ausreichend um\ndetaillierte Produktanforderungen abzuleiten. Bevor mit der Ideenﬁndung begonnen werden\nkann, ist es erforderlich, das erworbene Wissen zu analysieren und auf dessen Basis sinnvolle\nAnforderungen abzuleiten. Beim Sichten des gesammelten Mat",
+      "confidence": 0.169,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1201.66
+    },
+    {
+      "id": "auto-28",
+      "start": 1224.2,
+      "end": 1243.98,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5958775318716597,
+        0.7613274454068737,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Di",
+      "transcript": "erschaltet den inneren Kritiker ab. Es gibt schlicht keine Zeit eine Idee kaputt zu diskutieren.  Lever.  Und dann folgt auch direkt Phase 4 die Experimente. Hier werden Prototypen gebaut.  Und das wirft eine ganz entscheidende Frage auf. Wir müssen mich dringend klären,  was das Wort Prototyp im Design-Thinking eigentlich genau bedeutet.",
+      "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
+      "confidence": 0.214,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1243.98
+    },
+    {
+      "id": "auto-29",
+      "start": 1243.98,
+      "end": 1265.06,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5958775318716597,
+        0.7613274454068737,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Di",
+      "transcript": "Ja, gut der Punkt.  Wenn Ingenieure das Wort hören, denken Sie oft an die erste fast fertigen,  wen sie ohne eines Produkts.  Bei der Elektronik schon perfekt funktioniert.  Aber das ist ja absolut nicht gemeint.  Genau, das ist ein riesiger Fundamentaler Unterschied.  Ein Prototyp in dieser frühen Phase kann im Design-Thinking  Buchstablich aus ein bisschen Pappe, etwas Klebeband,",
+      "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
+      "confidence": 0.204,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1265.06
+    },
+    {
+      "id": "auto-30",
       "start": 1265.06,
       "end": 1286.5,
       "page": 7,
@@ -283,10 +830,13 @@
       "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
       "confidence": 0.347,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1286.5
     },
     {
-      "id": "auto-15",
+      "id": "auto-31",
       "start": 1286.5,
       "end": 1306.3,
       "page": 7,
@@ -303,10 +853,36 @@
       "target_text": "5. Evolution: Diese Phase beschäftigt sich mit der Weiterentwicklung des Konzeptes. Sie\nbeinhaltet die Planung der nächsten Schritte, die Vermittlung der Idee an Personen, die bei der\nUmsetzung helfen können und die Dokumentation der Prozesse.\n",
       "confidence": 0.398,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1306.3
     },
     {
-      "id": "auto-16",
+      "id": "auto-32",
+      "start": 1344.14,
+      "end": 1364.1,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5958775318716597,
+        0.7613274454068737,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Di",
+      "transcript": "Du musst es aushalten können, Wochen lang in einem chaotischen Unkland zu  stand zu arbeiten, ohne zu wissen wie das Endprodukt überhaupt auch sehen wird,  weil du der Methode vertraust.  Föllig richtig beobachtet.  Es ist ein Blindesvertrauen in den iterativen Prozess.  Man vertraut darauf, dass dieses ständige unordentliche Nutzer feedback am Ende",
+      "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
+      "confidence": 0.21,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1364.1
+    },
+    {
+      "id": "auto-33",
       "start": 1364.1,
       "end": 1383.1,
       "page": 7,
@@ -323,10 +899,36 @@
       "target_text": "Weitere wichtige Faktoren sind das Arbeitsumfeld und die Zusammensetzung des Projektteams. Der\nphysische Raum, in dem das Projekt durchgeführt wird, hat ebenso Einﬂuss auf die Projektmitarbeiter.\nDave Kelley schlägt vor, so wenig Regeln wie möglich für die Gestaltung eines Raumes zu haben. Die\nGestaltung sollte Aufgabe des Projektteams selbst sein. Wie im gesamten Prozess des Design Thinking\nsollte sich auch der Arbeitsbereich im Laufe des Projekts weiterentwickeln. Bei IDEO sind die\nArbeitsplät",
       "confidence": 0.259,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1383.1
     },
     {
-      "id": "auto-17",
+      "id": "auto-34",
+      "start": 1402.62,
+      "end": 1422.66,
+      "page": 7,
+      "type": "rect",
+      "rect": [
+        0.11210082238461791,
+        0.5958775318716597,
+        0.7613274454068737,
+        0.09648454897194181
+      ],
+      "pointer": true,
+      "label": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Di",
+      "transcript": "Kultur ist eben der näher Boden dafür, dass Menschen sich überhaupt trauen,  will die Ideen zu äußern und verrückte Paprototypen zu bauen ohne Angst vor  Verurteilungshaben. Also, was bedeutet das nun unter dem Strich für dich, der uns gerade  Das ist die entscheidende Frage.  Wir haben uns heute sehr deutlich angesehen, dass erfolge",
+      "target_text": "4- Experimentieren: Die in der vorhergehenden Phase entwickelten Ideen werden nun mit Prototypen\numgesetzt. Dieser Schritt ist notwendig, um die wichtigsten Konzepte und Funktionen zu zeigen, diese\nzu erklären und Feedback zu erhalten. Nutzer können mit dem Prototyp interagieren und ein Gefühl\ndafür bekommen wie das Produkt aussehen wird. Mit dem Feedback der Nutzer können die Ideen und\nKonzepte weiterentwickelt und verfeinert werden. Ein Prototyp ist nicht zwangsläuﬁg eine erste\nfunktionierende",
+      "confidence": 0.167,
+      "status": "unreviewed",
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1422.66
+    },
+    {
+      "id": "auto-35",
       "start": 1559.5,
       "end": 1577.9,
       "page": 4,
@@ -343,10 +945,13 @@
       "target_text": "•  Erstelle Business Case: Detailliertere Untersuchungen und Erstellung eines Business Case\n(Produkt- und Projektdeﬁnition und Erstellung des Projektplanes).\n",
       "confidence": 0.328,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.2",
+      "matched_end": 1577.9
     },
     {
-      "id": "auto-18",
+      "id": "auto-36",
       "start": 1595.9,
       "end": 1613.9,
       "page": 7,
@@ -363,10 +968,13 @@
       "target_text": "Abbildung 39: 5-Step Prozess des Design Thinking – Skript S. 102 (PDF 112)\n",
       "confidence": 0.329,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1613.9
     },
     {
-      "id": "auto-19",
+      "id": "auto-37",
       "start": 1633.9,
       "end": 1653.9,
       "page": 7,
@@ -383,7 +991,11 @@
       "target_text": "Weitere wichtige Faktoren sind das Arbeitsumfeld und die Zusammensetzung des Projektteams. Der\nphysische Raum, in dem das Projekt durchgeführt wird, hat ebenso Einﬂuss auf die Projektmitarbeiter.\nDave Kelley schlägt vor, so wenig Regeln wie möglich für die Gestaltung eines Raumes zu haben. Die\nGestaltung sollte Aufgabe des Projektteams selbst sein. Wie im gesamten Prozess des Design Thinking\nsollte sich auch der Arbeitsbereich im Laufe des Projekts weiterentwickeln. Bei IDEO sind die\nArbeitsplät",
       "confidence": 0.282,
       "status": "unreviewed",
-      "origin": "local-asr-lexical"
+      "origin": "local-asr-lexical",
+      "scope": "detail",
+      "topic_id": "6.3",
+      "matched_end": 1653.9
     }
-  ]
+  ],
+  "generated_annotations_sha256": "810a399d56c10d24b90cff9ceae8ccf09e3b238d0b9d44be0376cff76688a6a9"
 }
