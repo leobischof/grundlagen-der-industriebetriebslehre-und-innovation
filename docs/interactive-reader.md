@@ -7,9 +7,19 @@ Das PDF bleibt unverändert. Die Wiedergabe läuft beim Scrollen weiter. Automat
 ist optional und anfangs ausgeschaltet.
 
 Die Seitenleiste startet eingeklappt und merkt sich ihre Einstellung in diesem Browser.
-Am Rand bleiben nur Öffnen/Einklappen, Abspielen/Pause sowie zehn Sekunden zurück/vor sichtbar.
-Der Header ist 40 Pixel hoch. Auf kleinen Bildschirmen öffnet sich die Leiste über dem PDF,
+Am Rand bleiben Öffnen/Einklappen, Abspielen/Pause, zehn Sekunden zurück/vor, Stummschalten,
+Wiedergabetempo, automatisches Mitgehen, Markierungen ein/aus und die Wiedergabezeit sichtbar.
+Es gibt keinen separaten Header: GIL und Kapitelauswahl stehen mittig in der PDF-Werkzeugleiste.
+Auf kleinen Bildschirmen öffnet sich die Leiste über dem PDF,
 statt dem Dokument zusätzlichen Platz wegzunehmen. Das Audio läuft beim Einklappen weiter.
+
+Die Audio-/Video-Timeline bleibt unter dem PDF sichtbar, auch bei eingeklappter Seitenleiste.
+Sie zeigt Wiedergabezeit, Gesamtdauer und die zugeordneten Markierungsintervalle. Ziehen auf der
+Leiste springt im Medium; aktivierte automatische Navigation folgt der zugehörigen PDF-Stelle.
+Der Autoscroller schaltet sich bei eigenem Scrollen mit Mausrad/Touch, Scrolltasten, Ziehen am
+Scrollbalken oder manuellem Seitenwechsel und bei PDF-Suche ab. Programmatische Sprünge zur
+Erklärung schalten ihn nicht ab. Der Pfeilknopf aktiviert ihn wieder. Ohne zeitlich zugeordnete
+Stelle bleibt die PDF-Position stehen; es wird keine passende Stelle erfunden.
 
 ## Lokal vorbereiten und starten
 

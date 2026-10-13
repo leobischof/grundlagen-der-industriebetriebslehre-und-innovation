@@ -36,3 +36,12 @@ export function seekTarget(time, offset, duration) {
   const end = Number.isFinite(duration) && duration >= 0 ? duration : Infinity;
   return Math.max(0,Math.min(end,time+offset));
 }
+
+export function isManualPdfNavigation(event, overScrollbar = false) {
+  if (event.type === "wheel") return !event.ctrlKey && Boolean(event.deltaY || event.deltaX);
+  if (event.type === "touchmove") return !event.touches || event.touches.length === 1;
+  if (event.type === "pointerdown") return event.button === 1 || overScrollbar;
+  if (event.type === "keydown") return !event.ctrlKey && !event.altKey && !event.metaKey &&
+    ["ArrowUp","ArrowDown","PageUp","PageDown","Home","End"," "].includes(event.key);
+  return false; // PDF.js scrolling to a cue is not a manual navigation gesture.
+}

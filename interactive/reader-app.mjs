@@ -1,6 +1,6 @@
 import * as pdfjsLib from "./vendor/build/pdf.mjs";
 import {PDFViewer, EventBus, PDFLinkService, PDFFindController} from "./vendor/web/pdf_viewer.mjs";
-import {activeAt, validateTimeline, formatTime, seekTarget} from "./reader-timeline.mjs";
+import {activeAt, validateTimeline, formatTime, seekTarget, isManualPdfNavigation} from "./reader-timeline.mjs";
 
 const $ = id => document.getElementById(id);
 const svgNS = "http://www.w3.org/2000/svg";
@@ -15,14 +15,56 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = "./vendor/build/pdf.worker.mjs";
 let manifest, chapter, pdf, timeline, loadingTask, currentMedia = $("audio");
 let selected = null, drawing = false, drag = null, activeKey = "", followKey = "", loadSequence = 0;
 let cueButtons = new Map();
+let timelineDuration = 0;
 
 function updateMiniControls() {
   const available = Boolean(chapter?.audio) && currentMedia.readyState > 0 && !currentMedia.error;
-  for (const id of ["mini-play","mini-back","mini-forward"]) $(id).disabled = !available;
+  for (const id of ["mini-play","mini-back","mini-forward","mini-mute","mini-speed"]) $(id).disabled = !available;
   const playing = !currentMedia.paused && !currentMedia.ended;
   const label = playing ? "Audio pausieren" : "Audio abspielen";
   $("mini-play").textContent = playing ? "Ⅱ" : "▶";
   $("mini-play").setAttribute("aria-label",label); $("mini-play").title = label;
+  $("mini-mute").setAttribute("aria-pressed",String(currentMedia.muted));
+  $("mini-mute").textContent = currentMedia.muted ? "×♪" : "♪";
+  const muteLabel = currentMedia.muted ? "Ton einschalten" : "Stummschalten";
+  $("mini-mute").setAttribute("aria-label",muteLabel); $("mini-mute").title = muteLabel;
+  const rate = String(currentMedia.playbackRate).replace(".",",");
+  $("mini-speed").textContent = `${rate}×`;
+  $("mini-speed").setAttribute("aria-label",`Wiedergabetempo ändern, aktuell ${rate}-fach`);
+  $("mini-speed").title = `Wiedergabetempo ändern, aktuell ${rate}×`;
+  $("mini-time").textContent = formatTime(currentMedia.currentTime);
+  $("timeline-time").textContent = formatTime(currentMedia.currentTime);
+  const duration = Number.isFinite(currentMedia.duration) ? currentMedia.duration : 0;
+  $("media-seek").disabled = !available || duration <= 0;
+  $("media-seek").max = duration;
+  $("media-seek").value = currentMedia.currentTime;
+  $("media-seek").setAttribute("aria-valuetext",`${formatTime(currentMedia.currentTime)} von ${formatTime(duration)}`);
+  $("timeline-duration").textContent = duration > 0 ? formatTime(duration) : "–:–";
+  if (duration !== timelineDuration) { timelineDuration = duration; renderTimelineCues(); }
+  for (const [id,checkbox,on,off] of [
+    ["mini-follow","follow","Autoscroller ausschalten","Autoscroller einschalten"],
+    ["mini-marks","show-marks","Markierungen ausblenden","Markierungen anzeigen"]]) {
+    const checked = $(checkbox).checked;
+    $(id).setAttribute("aria-pressed",String(checked));
+    $(id).setAttribute("aria-label",checked ? on : off); $(id).title = checked ? on : off;
+  }
+}
+function renderTimelineCues() {
+  $("timeline-cues").replaceChildren();
+  if (!timeline || timelineDuration <= 0) return;
+  for (const a of timeline.annotations) {
+    const tick = document.createElement("span");
+    tick.className = `timeline-cue ${a.status}`;
+    tick.style.left = `${Math.min(100,a.start/timelineDuration*100)}%`;
+    tick.style.width = `${Math.max(.15,Math.min(100,(a.end-a.start)/timelineDuration*100))}%`;
+    tick.title = `${formatTime(a.start)} · ${a.label || "Markierung"}`;
+    $("timeline-cues").append(tick);
+  }
+}
+function stopFollowing() {
+  if (!$("follow").checked) return;
+  $("follow").checked = false; followKey = ""; updateMiniControls();
+  notice("Autoscroller aus, weil du selbst im PDF navigierst. Zum Weiterfolgen den Pfeilknopf einschalten.");
 }
 function setSidebarOpen(open) {
   document.body.classList.toggle("sidebar-collapsed",!open);
@@ -125,6 +167,7 @@ function jumpTo(a) {
 }
 function renderCues() {
   $("cues").replaceChildren(); cueButtons = new Map();
+  renderTimelineCues();
   const cues = [...timeline.annotations].sort((a,b) => a.start-b.start);
   $("cue-count").textContent = `${cues.length} Stellen`;
   if (!cues.length) {
@@ -245,7 +288,7 @@ eventBus.on("pagerendered",() => sync(true));
 eventBus.on("pagechanging",e => { $("page").value = e.pageNumber; });
 eventBus.on("updatefindmatchescount",e => { $("matches").textContent = e.matchesCount.total ? `${e.matchesCount.current}/${e.matchesCount.total}` : "0 Treffer"; });
 for (const media of [$("audio"),$("video")]) {
-  for (const event of ["timeupdate","seeking","seeked","loadedmetadata","play","pause","ended","emptied","error"]) media.addEventListener(event,() => { if (media === currentMedia) { updateMiniControls(); sync(); } });
+  for (const event of ["timeupdate","seeking","seeked","loadedmetadata","durationchange","play","pause","ended","emptied","error","volumechange","ratechange"]) media.addEventListener(event,() => { if (media === currentMedia) { updateMiniControls(); sync(); } });
   media.addEventListener("error",() => { if (media === currentMedia && media.getAttribute("src")) notice("Audio/Video konnte nicht geladen werden. Bitte Dateipfad und Browser-Unterstützung prüfen.",true); });
 }
 $("toggle-sidebar").addEventListener("click",() => setSidebarOpen(document.body.classList.contains("sidebar-collapsed")));
@@ -256,16 +299,36 @@ $("mini-play").addEventListener("click",async () => {
 for (const [id,offset] of [["mini-back",-10],["mini-forward",10]]) $(id).addEventListener("click",() => {
   currentMedia.currentTime = seekTarget(currentMedia.currentTime,offset,currentMedia.duration); sync(true);
 });
+$("mini-mute").addEventListener("click",() => { currentMedia.muted = !currentMedia.muted; updateMiniControls(); });
+$("mini-speed").addEventListener("click",() => {
+  const choices = [...$("speed").options].map(option => Number(option.value));
+  const next = choices[(choices.indexOf(currentMedia.playbackRate)+1)%choices.length];
+  $("speed").value = next; currentMedia.playbackRate = next; updateMiniControls();
+});
+for (const [id,checkbox] of [["mini-follow","follow"],["mini-marks","show-marks"]]) $(id).addEventListener("click",() => {
+  $(checkbox).checked = !$(checkbox).checked; $(checkbox).dispatchEvent(new Event("change")); updateMiniControls();
+});
 $("chapters").addEventListener("change",e => loadChapter(e.target.value).catch(e => notice(e.message,true)));
-$("previous").addEventListener("click",() => { viewer.currentPageNumber = Math.max(1,viewer.currentPageNumber-1); });
-$("next").addEventListener("click",() => { viewer.currentPageNumber = Math.min(pdf?.numPages || 1,viewer.currentPageNumber+1); });
-$("page").addEventListener("change",e => { viewer.currentPageNumber = Math.max(1,Math.min(pdf?.numPages || 1,Number(e.target.value))); });
+$("previous").addEventListener("click",() => { stopFollowing(); viewer.currentPageNumber = Math.max(1,viewer.currentPageNumber-1); });
+$("next").addEventListener("click",() => { stopFollowing(); viewer.currentPageNumber = Math.min(pdf?.numPages || 1,viewer.currentPageNumber+1); });
+$("page").addEventListener("change",e => { stopFollowing(); viewer.currentPageNumber = Math.max(1,Math.min(pdf?.numPages || 1,Number(e.target.value))); });
 $("zoom").addEventListener("change",e => { viewer.currentScaleValue = e.target.value; sync(true); });
-$("speed").addEventListener("change",e => { currentMedia.playbackRate = Number(e.target.value); });
-$("show-marks").addEventListener("change",() => sync(true));
-$("follow").addEventListener("change",() => { followKey = ""; sync(); });
+$("speed").addEventListener("change",e => { currentMedia.playbackRate = Number(e.target.value); updateMiniControls(); });
+$("show-marks").addEventListener("change",() => { updateMiniControls(); sync(true); });
+$("follow").addEventListener("change",() => { followKey = ""; updateMiniControls(); sync(); });
 $("editor").addEventListener("toggle",renderMarks);
-$("search-form").addEventListener("submit",e => { e.preventDefault(); eventBus.dispatch("find",{source:window,type:"again",query:$("search").value,phraseSearch:true,caseSensitive:false,entireWord:false,highlightAll:true,findPrevious:false}); });
+$("search-form").addEventListener("submit",e => { e.preventDefault(); stopFollowing(); eventBus.dispatch("find",{source:window,type:"again",query:$("search").value,phraseSearch:true,caseSensitive:false,entireWord:false,highlightAll:true,findPrevious:false}); });
+$("media-seek").addEventListener("input",e => {
+  currentMedia.currentTime = Number(e.target.value); followKey = ""; updateMiniControls(); sync(true);
+});
+for (const event of ["wheel","touchmove","keydown"]) $("viewerContainer").addEventListener(event,e => {
+  if (isManualPdfNavigation(e)) stopFollowing();
+},{passive:true});
+$("viewerContainer").addEventListener("pointerdown",e => {
+  const container = $("viewerContainer"), rect = container.getBoundingClientRect();
+  const overScrollbar = e.target === container && (e.clientX >= rect.left+container.clientWidth || e.clientY >= rect.top+container.clientHeight);
+  if (isManualPdfNavigation(e,overScrollbar)) stopFollowing();
+});
 $("draw").addEventListener("click",() => {
   if (drawing) return cancelDrawing();
   drawing = true; document.body.classList.add("drawing"); $("draw").textContent = "Zeichnen abbrechen";

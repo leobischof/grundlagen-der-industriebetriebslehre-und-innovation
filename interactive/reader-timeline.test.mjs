@@ -1,6 +1,6 @@
 import {test} from "node:test";
 import assert from "node:assert/strict";
-import {activeAt, validateTimeline, seekTarget} from "./reader-timeline.mjs";
+import {activeAt, validateTimeline, seekTarget, isManualPdfNavigation} from "./reader-timeline.mjs";
 
 const annotation = {id:"a", start:10, end:20, page:2, type:"rect", rect:[.1,.2,.5,.2], status:"unreviewed"};
 const timeline = () => ({version:1, chapter:2, audio_sha256:"audio", pdf_sha256:"pdf", annotations:[structuredClone(annotation)]});
@@ -9,6 +9,15 @@ test("ten-second controls clamp at audio boundaries", () => {
   assert.equal(seekTarget(60,-10,120),50);
   assert.equal(seekTarget(115,10,120),120);
   assert.equal(seekTarget(60,10,NaN),70);
+});
+test("manual scrolling stops following; automatic scrolling and zoom gestures do not", () => {
+  for (const event of [{type:"wheel",deltaY:30},{type:"touchmove",touches:[{}]},{type:"keydown",key:"PageDown"},{type:"pointerdown",button:1}]) {
+    assert.equal(isManualPdfNavigation(event),true);
+  }
+  for (const event of [{type:"scroll"},{type:"wheel",deltaY:30,ctrlKey:true},{type:"touchmove",touches:[{},{}]},{type:"keydown",key:"f",ctrlKey:true},{type:"pointerdown",button:0}]) {
+    assert.equal(isManualPdfNavigation(event),false);
+  }
+  assert.equal(isManualPdfNavigation({type:"pointerdown",button:0},true),true);
 });
 test("seek forward, backward and across end-exclusive boundaries", () => {
   for (const [time, expected] of [[0,0],[10,1],[19.9,1],[20,0],[12,1],[5,0]]) assert.equal(activeAt([annotation],time).length,expected);
