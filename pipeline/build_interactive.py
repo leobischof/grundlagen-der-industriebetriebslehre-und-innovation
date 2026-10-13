@@ -89,6 +89,8 @@ def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
     for directory in ("web","cmaps","standard_fonts","wasm"):
         shutil.copytree(vendor / directory,out / "vendor" / directory,dirs_exist_ok=True)
     _copy(vendor / "LICENSE",out / "vendor" / "PDFJS-LICENSE")
+    if config.ICON_LICENSES.is_file():
+        _copy(config.ICON_LICENSES,out / config.ICON_LICENSES.name)
     for record,pdf,audio,timeline in planned:
         _copy(pdf,out / record["pdf"])
         if audio:
@@ -100,6 +102,8 @@ def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
     allowed = ["reader.html","reader.css","reader-app.mjs","reader-timeline.mjs","reader_serve.py",
                "reader-manifest.json","Reader-starten.cmd","Reader-Anleitung.txt","vendor/PDFJS-LICENSE",
                "vendor/build/pdf.mjs","vendor/build/pdf.worker.mjs"]
+    if config.ICON_LICENSES.is_file():
+        allowed.append(config.ICON_LICENSES.name)
     for directory in ("web","cmaps","standard_fonts","wasm"):
         allowed.extend(f"vendor/{directory}/{p.relative_to(vendor / directory).as_posix()}"
                        for p in (vendor / directory).rglob("*") if p.is_file())

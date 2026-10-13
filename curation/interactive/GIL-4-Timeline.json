@@ -2,7 +2,7 @@
   "version": 1,
   "chapter": 4,
   "audio_sha256": "06e1c8f53cee57d426ba3492a35d4396558d14b8f147c47b0ce29f4d2aea2b30",
-  "pdf_sha256": "6b105605dbb1910779717551ba0ac4717613a07d895c09dff73059b6c5b584fc",
+  "pdf_sha256": "05fa5ff8f5b45aa5156937538d32f22b6fc8de3c67b06f0e972c447a1dac50b6",
   "generator": "faster-whisper/tiny + lexical matching",
   "annotations": [
     {
@@ -17,13 +17,13 @@
         0.737327485926011,
         0.04838480462371029
       ],
+      "pointer": true,
       "label": "•  Gestaltung einer Kombination aus den Vorgenannten Bereits Schumpeter erkannte diese Zweck-\nMittel-Kombinati",
       "transcript": "oder ob du ernsthaft überlegtst, selbst was zu gründen.  Hier in diesen Unterlagen liegen Buchstäblich  die Baupleine für Beides auf dem Tisch.  Ja.  Und was mich direkt am Anfang total gekächtert ist,  dieses Zitat von Joseph Schumpeter.  Er sagt, Innovation ist kreative Zerstörung.  Oh ja, das ist zentral.  Das ist kein weiches Waswort, sondern du musst das alte Aktivablösendes quasi zerstören, um Platz für das bessere zu schaffen.",
       "target_text": "•  Gestaltung einer Kombination aus den Vorgenannten Bereits Schumpeter erkannte diese Zweck-\nMittel-Kombinationen — und bezeichnete daher das Innovationsmanagement auch als „kreative\nZerstörung“ (ablösen des Bestehenden durch etwas Besseres).\n",
       "confidence": 0.252,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-2",
@@ -37,13 +37,13 @@
         0.7407728435612526,
         0.0644180406584026
       ],
+      "pointer": true,
       "label": "Das Innovationsmanagement sollte klar vom Management von Forschung und Entwicklung (F&E)\nunterschieden werden.",
       "transcript": "Genau, F&E. In der Praxis wird das ja auft völlig durch anderem geworden.  Forschung und Entwicklung, das dreht sich Prämär um Wissenschaft und Technik.  Das ist quasi das Labor.  Aber Innovation geht da viel weiter.  Eine Neuerung muss ja nicht zwingt ein neue Mikrutschip sein, oder?  Wichtig.  Es kann eine völlig neue Dienstleistung sein.  Oder ein administrativer Prozess, der plötzlich doppelt so schnell läuft.",
       "target_text": "Das Innovationsmanagement sollte klar vom Management von Forschung und Entwicklung (F&E)\nunterschieden werden. F&E ist zweifellos ein Teil von Innovation, aber das zählt nicht zwangsläuﬁg\nauch umgekehrt. F&E-Projekte beziehen sich auf Wissenschaft und Technik, während Innovationen\nauch administrative Prozesse umfassen können.\n",
       "confidence": 0.247,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-3",
@@ -57,13 +57,13 @@
         0.7501342004086791,
         0.04838478650163302
       ],
+      "pointer": true,
       "label": "Innovationsmanagement zählt zu den Kerntätigkeiten von Industriebetrieben und ist ein systematisch\ngeplanter,",
       "transcript": "ist es schlecht weg keine Innovation.  Verstehen.  Also, das heißt dieser Zerstörungsprozess, die auf die Straße bringen, erzeugt Naturgemäß, massiver  Reibungen unternehmen.  Oh ja, definitiv.  Okay, lass uns das mal aufdröseln.  Wenn Innovation also dieser harte systematische Prozess ist, der auch noch das Bestehende System",
       "target_text": "Innovationsmanagement zählt zu den Kerntätigkeiten von Industriebetrieben und ist ein systematisch\ngeplanter, gesteuerter Prozess. Dieser Prozess stellt die Innovation sowie deren Durchsetzung am\nMarkt oder im Unternehmen sicher.70\n",
       "confidence": 0.258,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-4",
@@ -77,13 +77,13 @@
         0.7753610049977022,
         0.04838478650163302
       ],
+      "pointer": true,
       "label": "Entrepreneurship (Unternehmertum) ist eine Teildisziplin der Wirtschaftswissenschaften. Dabei\nbezeichnet Entre",
       "transcript": "Schipp.  Ein sehr guter Kart.  Schon Peter definiert Unterbrinnercheb hier als das Ausnutzen Unternehmerischer Gelegenheiten.  Und das klippten entfierkomponenten.  Schancen entdecken, Innovationen durchsetzen,  Ressourcen nutzen und Risikobereitschaft.  Mhm.  Aber dann kommt ein vergleichte für mich ein absoluter Gamechainscherbar.",
       "target_text": "Entrepreneurship (Unternehmertum) ist eine Teildisziplin der Wirtschaftswissenschaften. Dabei\nbezeichnet Entrepreneurship das Ausnutzen unternehmerischer Gelegenheiten sowie den kreativen und\ngestalterischen unternehmerischen Prozess zum Aufbau neuer Organisationen. 8\n",
       "confidence": 0.264,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-5",
@@ -97,13 +97,13 @@
         0.3598822842125131,
         0.016318278188093824
       ],
+      "pointer": true,
       "label": "•  SME: Small and Medium Size Enterprises und",
       "transcript": "Der Unterschied zwischen SME und IDE.  Kann so diesen massive Unterschied mal erklären,  weil in die Medien ist ja irgendwie alles einfach ein Start-up.  Ja, das wird oft leider alles in ein Top-Geworfen,  was an der Lüte-Gesehen-Ein des Asteris.  SME steht für Small and Medium-Enterprises.  und IDE steht für Innovation-Driven-Interprises.",
       "target_text": "•  SME: Small and Medium Size Enterprises und\n",
       "confidence": 0.581,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-6",
@@ -117,13 +117,13 @@
         0.7734449242343422,
         0.08045129481517221
       ],
+      "pointer": true,
       "label": "Während der Erkennungsphase ist es wichtig, dass ein angehender Gründer ein mögliches\nMarktpotenzial erkennt.",
       "transcript": "Das bringt uns ja von der Rhein-Eide zu realität.  Das kripte Teil diesen autroponörche Prozess in drei Fasen ein.  Die Erkennung, die Entwicklung und die Umsetzung.  Ok, erkennen um zuerst.  Richtig, und da gibt es eine Eiserneregel.  Ein unternehmerisches Potenzial besteht nur dann, wenn die erwartete Nachfrage nach etwas größer ist, als die Aktuelle.",
       "target_text": "Während der Erkennungsphase ist es wichtig, dass ein angehender Gründer ein mögliches\nMarktpotenzial erkennt. Es muss ein Ungleichgewicht zwischen einer erwarteten und der aktuellen\nMarktnachfrage bestehen: ist die erwartete größer, besteht Potenzial. Als Marktnachfrage wird dabei die\nNachfrage der potenziellen Kunden in einem bestimmten Markt bezeichnet. Dieses Ungleichgewicht ist\ndie Grundlage für jeden weiteren Schritt im unternehmerischen Prozess.\n",
       "confidence": 0.265,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-7",
@@ -137,13 +137,13 @@
         0.7239660182920824,
         0.08045129481517221
       ],
+      "pointer": true,
       "label": "All diese Fähigkeiten und Talente sind selten in einer Person zu ﬁnden. Darüber hinaus sind\nEinstellungen und",
       "transcript": "Motivation, Realismus, Creativität, Emotionalestabilität um nur ein paar zu nennen.  Aber dann steht da, dass all diese Eigenschaften extrem selten in einer Person zu finden sind.  Zerstört das nicht komplett unseren romantischen Müters vom genialen Einzelgründe,  all das Steve Jobs, den wir am Anfang besprochen haben.  Wenn wir das mit dem großen ganzen Verknüpfen, ja, absolut.",
       "target_text": "All diese Fähigkeiten und Talente sind selten in einer Person zu ﬁnden. Darüber hinaus sind\nEinstellungen und Fähigkeiten, die eine nachhaltige Unternehmensgründung fördern, nicht immer\ngleich. Dies gilt z.B. für hohe Risikobereitschaft. Die Gründungsneigung wird zwar erhöht, der\nlangfristige Erfolg aber nicht unbedingt unterstützt. Daher sind, je nach Phase des\nGeschäftslebenszyklus, unterschiedliche Einstellungen und Fähigkeiten erforderlich.\n",
       "confidence": 0.247,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     }
   ]
 }

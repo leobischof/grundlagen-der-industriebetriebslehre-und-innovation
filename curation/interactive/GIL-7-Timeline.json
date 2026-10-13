@@ -2,7 +2,7 @@
   "version": 1,
   "chapter": 7,
   "audio_sha256": "8170d58adde7824b86f214d955ff2b73c99a4d9416e6aadc335bb66f80cff995",
-  "pdf_sha256": "a67b80e0857d9cfb5e08e9872dd63da21b1492557d60b41b0d1b2efc4d446b73",
+  "pdf_sha256": "ce4ec494f95589f9ee5f50682354123a90e422465ded078a215f777f746442df",
   "generator": "faster-whisper/tiny + lexical matching",
   "annotations": [
     {
@@ -17,13 +17,13 @@
         0.6483022866128874,
         0.03235153234486342
       ],
+      "pointer": true,
       "label": "Gestaltung bedeutet demnach die Festlegung eines Rahmens, der die Ausbildung von\nEntwicklungsfähigkeiten ermög",
       "transcript": "Gerne.  Lassen Sie das nicht nur als Liste abhandeln.  Wir schauen uns mal an, wie die Mechanik dahinter funktioniert.  Der erste Bereich ist die Gestaltung.  Das bedeutet, die Festlegung eines Institutionellen Rahmenes.  Okay, Moment. Das klingt, ehrlich gesagt, im ersten Moment nach Pura Bürokratie.  einen Rahmen festlegen.",
       "target_text": "Gestaltung bedeutet demnach die Festlegung eines Rahmens, der die Ausbildung von\nEntwicklungsfähigkeiten ermöglicht.\n",
       "confidence": 0.578,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-2",
@@ -37,13 +37,13 @@
         0.7127392552479976,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "Entwicklung umfasst insbesondere das Einleiten und Bewältigen von Veränderungsprozessen.",
       "transcript": "Exact das.  die Entwicklung umfasst nämlich das Einleiten und bewältigen von Veränderungsprozessen.  Weil sich die Welt hier weiter dreht.  Genau.  Die Realität hält sich halt leider nicht an den perfekten Plan von deiner Lenkung.  Konkurrenten bringen plötzlich ein viel besseres Produkt heraus.  Dobale Lieferketten brechen zusammen oder irgendwelche neuen Technologien tauchen auf.",
       "target_text": "Entwicklung umfasst insbesondere das Einleiten und Bewältigen von Veränderungsprozessen.\n",
       "confidence": 0.773,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-3",
@@ -57,13 +57,13 @@
         0.7724869287314535,
         0.04838478650163302
       ],
+      "pointer": true,
       "label": "Eine besondere Herausforderung stellt die Berücksichtigung von Komplexität und Dynamik in\nManagement-Systemen",
       "transcript": "Das gibt es integrierten Management.  Das geht ebenfalls auf Bleicher zurück,  allerdings in einer weiterentwickelten Form aus dem Jahr 2004.  Ok, integrierte Management.  Was sagt uns das?  Um in dieser unglaublichen Komplexität nicht völlig unterzugehen,  musst du die Verantwortung radikalstrukturieren.",
       "target_text": "Eine besondere Herausforderung stellt die Berücksichtigung von Komplexität und Dynamik in\nManagement-Systemen dar. Im „Konzept Integriertes Management“ (von Bleicher, 2004) wird dazu eine\ngesamthaft angelegte Struktur geschaﬀen:\n",
       "confidence": 0.257,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-4",
@@ -77,13 +77,13 @@
         0.7204030141109178,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "•  Die Legitimität als Kenngröße für das Normative Management („Die Gesamtaufgabe erfüllen“)",
       "transcript": "machen wir.  Die Oberste, also die wirklich fundamentalste Ebene,  das ist das Normative Management.  Die entscheidende Kenngruße hier ist die Legitimität.  Legitimität.  Und der Leitzatz dazu lautet, die gesamtaufgabe erfüllen.  Auf dieser Ebene geht es wirklich um die nackte Existenzgrundlage des Unternehmens.",
       "target_text": "•  Die Legitimität als Kenngröße für das Normative Management („Die Gesamtaufgabe erfüllen“)\n",
       "confidence": 0.727,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-5",
@@ -97,13 +97,13 @@
         0.7204030141109178,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "•  Die Legitimität als Kenngröße für das Normative Management („Die Gesamtaufgabe erfüllen“)",
       "transcript": "Es werden die Grundsätze, die Vision, die Unternehmensfehle so viel und die Politik festgelegt.  Also das ganz große Bild.  Ja, es geht um das Reine überleben und die langfristige Entwicklungsfähigkeit in der Gesellschaft.  Warum gibt es uns überhaupt?  Kann sie ehrlich.  Wenn ich jetzt so Worte höre wie Legitimität und Gesamtaufgabe erfüllen,",
       "target_text": "•  Die Legitimität als Kenngröße für das Normative Management („Die Gesamtaufgabe erfüllen“)\n",
       "confidence": 0.522,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-6",
@@ -117,13 +117,13 @@
         0.7650753117409073,
         0.0644180406584026
       ],
+      "pointer": true,
       "label": "Die Orientierung an der Eﬀektivität hat die Pﬂege bzw. den Ausbau der strategischen Erfolgspositionen\nim Wettb",
       "transcript": "Ganz genau. Und wenn das geklärt ist, dann gehen wir eine Ebene-Tiefer zum strategischen Management.  Ok Ebene 2.  Die Kenngruße hier ist die Effektivität. Und der Leitzatz lautet die richtigen Dinge tun.  Die richtigen Dinge tun.  Richtig. Hier geht es um die Pflege und den Ausbau der strategischen Erfolgspositionen im Wettbewerb.",
       "target_text": "Die Orientierung an der Eﬀektivität hat die Pﬂege bzw. den Ausbau der strategischen Erfolgspositionen\nim Wettbewerb zum Ziel. Die Eﬃzienz strebt nach der Einhaltung des Rationalprinzips im operativen\nManagement. Die Gesamtaufgabe zu erfüllen, dabei die richtigen Dinge zu tun und gleichermaßen die\nDinge richtig zu tun, wird zur aktuellen Herausforderung eines zukunftsorientierten Managements.\n",
       "confidence": 0.589,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-7",
@@ -137,13 +137,13 @@
         0.7631929670061384,
         0.20871732806932897
       ],
+      "pointer": true,
       "label": "Das Normative Management ist auf die Ausformulierung der Grundsätze für das nachfolgende\nStrategische und Oper",
       "transcript": "Unser TU-Grad-Script verweist ihr ganz explizit auf die Strategie-Defination von Michael Porter,  einem der einflussreichsten Management-Ecker überhaupt.  Was sagt Porter dazu?  Porter sagt, Strategie ist eine in sichstimmige Anordnung von Aktivitäten,  die an Unternehmen ganz klar von seinen Korkoren unterscheidet.",
       "target_text": "Das Normative Management ist auf die Ausformulierung der Grundsätze für das nachfolgende\nStrategische und Operative Management gerichtet. Als generelles Unternehmungsziel kann „die\nErfüllung der Gesamtaufgabe“ und damit die Erhaltung der Lebensfähigkeit bzw. Entwicklungsfähigkeit\nder Unternehmung angesehen werden. Das Normative Management legt die Vision,\nUnternehmensphilosophie und Unternehmenspolitik fest. Dabei ist die Vision die Wunschvorstellungen\nin Hinblick auf eine zukünftige Unternehmun",
       "confidence": 0.306,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-8",
@@ -157,13 +157,13 @@
         0.6989408477013852,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)",
       "transcript": "Also, wenn wir bei dem Kuttergbaisch bleiben,  wenn das Normativ sagt, wir wollen Erinnerungen bewahren.  Dann würde das strategische sagen,  Wir tun das in dem wir die Benutzer Frontdlichste digitalkamera der Welt bauen, die unsere Konkurrenz so nicht kopieren kann.  Perfekt zusammengefasst.  Wir tun die richtigen Dinge, um uns ganz klar vom Rest abzureben.",
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.749,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-9",
@@ -177,13 +177,13 @@
         0.7407831528607537,
         0.016446944936720605
       ],
+      "pointer": true,
       "label": "Im Produktionsmanagement werden das operative und strategische Management unterschieden:117",
       "transcript": "Und was ist dann die dritte Ebene?  Erst wenn diese beiden Ebene stehen, also das Normative und das strategische kommen wir zu dritten Ebene.  Und das ist die Ebene, auf der die allermeisten Menschen das Thema Management,  fälschlicherweise fast ausschließlich vor Ort.  Das operative Management.  Da wurde echte Arbeit passiert.",
       "target_text": "Im Produktionsmanagement werden das operative und strategische Management unterschieden:117\n",
       "confidence": 0.462,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-10",
@@ -197,13 +197,13 @@
         0.6989408477013852,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)",
       "transcript": "So wird es aufgesehen. Die Kenngröße ist die Effizienz.  Und der Leitzatz lautet, die Dinge richtig tun.  Also nicht mehr, die richtigen Dinge tun, sondern die Dinge richtig tun.  Exakt. Das operative Management nimmt die Basis aus dem normativen Bereich  und die großen Pläne aus dem strategischen Bereich und vollzieht sie einfach.",
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.566,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-11",
@@ -217,13 +217,13 @@
         0.7556467649315586,
         0.0644180406584026
       ],
+      "pointer": true,
       "label": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist a",
       "transcript": "Es setzt diese konkreten Handlungsprogramme um.  Das ist also der Bereich, wo der Schweißfließt und die Maschinen auf Hohktoren laufen.  Richtig. Und das griebt führt hier ein sehr, sehr wichtigen Begriff ein. Das Rationalprinzip.  Das operative Management orientiert sich zwingend an diesem Prinzip und das kommt in zwei",
       "target_text": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist als Ausdruck zu verstehen, dass „die Dinge richtig getan werden“. Dies bedeutet\ninsbesondere, dass das Rationalprinzip - als allgemeines Prinzip des vernunftgemäßen Handelns —\neingehalten wird. Siehe hierzu auch die Deﬁnition von Minimal- und Maximalprinzip in Kapiel 5.2.\n",
       "confidence": 0.323,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-12",
@@ -237,13 +237,13 @@
         0.7556467649315586,
         0.0644180406584026
       ],
+      "pointer": true,
       "label": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist a",
       "transcript": "Ausprägungen vor. Dem minimalprinzip und dem maximalprinzip.  Bevor wir uns da jetzt in irgendwelchen akademischen Begriffen verhältern, lassen das mal kurz  für unsere höhere Aufbrechen. Minimal und maximal prinzip klingt extrem trocken ist aber eigentlich  super logische Maltag. Total. Wiss' du's erklären? Ja, das mich mal versuchen.",
       "target_text": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist als Ausdruck zu verstehen, dass „die Dinge richtig getan werden“. Dies bedeutet\ninsbesondere, dass das Rationalprinzip - als allgemeines Prinzip des vernunftgemäßen Handelns —\neingehalten wird. Siehe hierzu auch die Deﬁnition von Minimal- und Maximalprinzip in Kapiel 5.2.\n",
       "confidence": 0.357,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-13",
@@ -257,13 +257,13 @@
         0.7556467649315586,
         0.0644180406584026
       ],
+      "pointer": true,
       "label": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist a",
       "transcript": "Das minimal Prinzip bedeutet einfach, du hast ein Festesziel und willst es mit so wenig  Aufwand wie noch möglich erreichen. Genau. Stelle vor, du hast als Werksläte, die  Strykte Vorgabe genau 100 Autos pro Schicht zu bauen. Das minimal Prinzip sagt dann,  baue diese 100 Autos aber verbrauche dabei so wenig Strom material und über Stunden",
       "target_text": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist als Ausdruck zu verstehen, dass „die Dinge richtig getan werden“. Dies bedeutet\ninsbesondere, dass das Rationalprinzip - als allgemeines Prinzip des vernunftgemäßen Handelns —\neingehalten wird. Siehe hierzu auch die Deﬁnition von Minimal- und Maximalprinzip in Kapiel 5.2.\n",
       "confidence": 0.293,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-14",
@@ -277,13 +277,13 @@
         0.6662181565741531,
         0.03235153234486342
       ],
+      "pointer": true,
       "label": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser K",
       "transcript": "Du darfst keinen einzigen Cent mehr ausgeben.  Das ist dein Limit, ja.  Und das maximal Prinzip sagt nun,  Versuche mit diesen 10.000 Euro so viele Einwandfreie Autos wie möglich zu bauen.  Der Aufwirt des Fix, aber der Output wird maximiert.  Und beides sind eben wege, um die Dinge richtig zu tun,  also diese Brünte effizienz zu erreichen.",
       "target_text": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser Kenngrößen sind in Abbildung 41 ersichtlich.\n",
       "confidence": 0.319,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-15",
@@ -297,13 +297,13 @@
         0.6989408477013852,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)",
       "transcript": "Und hier wird es jetzt wirklich spannend.  Wir haben jetzt die beiden Begriffe effektivität,  also die richtigen Dinge tun und effizienz die Dinge richtig tun.  In der Alltag sprach ich mir in diese beiden Worte total oft als Synonyme verwendet,  also einfach durch anderem geworfen.  Ständig. Das ist ein riesiger Fehler.",
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.487,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-16",
@@ -317,13 +317,13 @@
         0.7556467649315586,
         0.0644180406584026
       ],
+      "pointer": true,
       "label": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist a",
       "transcript": "die Dinge richtig tun, nach dem minimal oder maximal Prinzip.  Das bedeutet, dass du diese Leiter handwerklich einfach absolut perfekt baust.  Sie wackelt nicht.  Null.  Sie ist extrem stabil, du hast kein Stück Holz verschwendet.  Die Sprossen am den perfekten Abstand, das Gewicht ist optimal verteilt.  Es ist ohne Zweifel, die effizienteste Leiter der Welt.",
       "target_text": "Als Kenngröße für das operative Management kann in allgemeiner Form die Eﬃzienz herangezogen\nwerden. Sie ist als Ausdruck zu verstehen, dass „die Dinge richtig getan werden“. Dies bedeutet\ninsbesondere, dass das Rationalprinzip - als allgemeines Prinzip des vernunftgemäßen Handelns —\neingehalten wird. Siehe hierzu auch die Deﬁnition von Minimal- und Maximalprinzip in Kapiel 5.2.\n",
       "confidence": 0.333,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-17",
@@ -337,13 +337,13 @@
         0.6989408477013852,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)",
       "transcript": "Eine Meisterhafteausführung von einem operativen Plan.  Absolut.  Aber effektivität.  Also das strategische Management, die richtigen Dinge tun.  Das bedeutet, dass du sicherst, dass diese brillant gebaute Leiter überhaupt  und das ist der Knackpunkt.  Ja, weil die effizienteste Leite der Welt  nützt der Abschluss gar nichts.",
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.604,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-18",
@@ -357,13 +357,13 @@
         0.7677812848772322,
         0.1445843114422506
       ],
+      "pointer": true,
       "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
       "transcript": "In ein Auto, in höchstrank, was auch immer?  Produktionspendenschmeld um fast also sämtliche Aufgaben zur Gestaltung, Planung, Überwachung und Steuerung von  genau diesem riesigen Transformation System.  Und es schließt dabei drei große Ressourcen-Blocker ein.  Wille ich hier sind das?  Den Menschen, also was Personal, dann das Kapital, das ist in Form von Maschinenhallen und Material.",
       "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
       "confidence": 0.337,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-19",
@@ -377,13 +377,13 @@
         0.7345711587857799,
         0.08045129481517221
       ],
+      "pointer": true,
       "label": "•  Das strategische Produktionsmanagement beschäftigt sich mit der langfristigen Ausrichtung\nder Ziele, der Pr",
       "transcript": "Dazu kommt heute massiv, die Sicherung der Nachhaltigkeit.  Die Festlegung von ganz grundlegenden Fertigungsstandards.  Das ist quasi das strategische Sätzen der Leiter.  Ja, wenn du eine Fabrik für 2 Milliarden Euro baust,  sollte die echte richtige Maurstehen.  Definitiv?  Und dem gegenüber steht dann das operative Produktionsmanagement.",
       "target_text": "•  Das strategische Produktionsmanagement beschäftigt sich mit der langfristigen Ausrichtung\nder Ziele, der Produktion und des Produktionssystems eines Unternehmens. Dazu gehören die\nSchaﬀung und Erhaltung von leistungs- und wettbewerbsfähigen Produktionskapazitäten und die\nFestlegung der Fertigungsstandards. Dies umfasst unter anderem die Standortplanung,\nFabrikplanung sowie die Sicherung der Nachhaltigkeit.\n",
       "confidence": 0.462,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-20",
@@ -397,13 +397,13 @@
         0.7242349832999606,
         0.0644180406584026
       ],
+      "pointer": true,
       "label": "•  Beim operative Produktionsmanagement werden Entscheidungen hinsichtlich der\nProduktionsplanung getroﬀen. Di",
       "transcript": "Das ist dann die konkrete Umsetzung im hier und jetzt das eigentliche Hochglättern auf der  Leiter.  Exact.  Hier fallen dann die ganz kurzfristigen Entscheidungen zur Produktionsplanung an.  Also welche Produkte produzieren wir genau heute in genau dieser Schicht in welcher  genau und Menge.  Das Tagesgeschäft eben.",
       "target_text": "•  Beim operative Produktionsmanagement werden Entscheidungen hinsichtlich der\nProduktionsplanung getroﬀen. Diese beschäftigt sich mit der konkreten Frage, welche Produkte\nin welcher Menge produziert werden sollen. Weiters umfasst das operative\nProduktionsmanagement Maschinenbelegung, Kapazitätsplanung sowie die Bedarfsermittlung.\n",
       "confidence": 0.447,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-21",
@@ -417,13 +417,13 @@
         0.7242349832999606,
         0.0644180406584026
       ],
+      "pointer": true,
       "label": "•  Beim operative Produktionsmanagement werden Entscheidungen hinsichtlich der\nProduktionsplanung getroﬀen. Di",
       "transcript": "Ja.  Wie belegen wir die Maschinen am Klaversen, um Lehrlauf zu vermeiden, wie sieht die kurzfristige Kapazitätsplanung  für das Personal aus, wenn Leute krank sind und natürlich die Bedarfsermittlung.  Wann genau muss welches Bauteil an Spann geliefert werden, damit die Linie bloß nicht  stoppt.  Wessurch, wenn ich mir das operative Produktionsmanagement so vorstellen.",
       "target_text": "•  Beim operative Produktionsmanagement werden Entscheidungen hinsichtlich der\nProduktionsplanung getroﬀen. Diese beschäftigt sich mit der konkreten Frage, welche Produkte\nin welcher Menge produziert werden sollen. Weiters umfasst das operative\nProduktionsmanagement Maschinenbelegung, Kapazitätsplanung sowie die Bedarfsermittlung.\n",
       "confidence": 0.359,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-22",
@@ -437,13 +437,13 @@
         0.7677812848772322,
         0.1445843114422506
       ],
+      "pointer": true,
       "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
       "transcript": "Keine Variation, einfach nur reine Masse.  Exakt.  Aber diese Ansatz, der reicht heute einfach vorne und hinten nicht mehr aus.  Das moderne Produktionsmanagement ist fundamental viel schichtiger geworden.  Das historische Ziel der bloßen Kostenreduzierung wurde um die sogenannte Prozessorientierung erweitert.  Prozessorientierung.",
       "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
       "confidence": 0.263,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-23",
@@ -457,13 +457,13 @@
         0.7677812848772322,
         0.1445843114422506
       ],
+      "pointer": true,
       "label": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung ein",
       "transcript": "Die Ansprüche sind extrem gestiegen.  Total.  Und um da überhaupt Wettbewerbsfähig zu bleiben, müssen Unternehmen Zukunftsorientiert und hochflächsibel planen.  Das bedeutet, dass Prozessorientierung im Mittelpunkt steht.  Man verlässt sich nicht mehr nur auf diese starren Fließbänder, die Monate lange exakt das gleiche Produzieren.  Was macht man stattdessen?",
       "target_text": "Das Produktionsmanagement beinhaltet sämtliche Aufgaben zur Gestaltung, Planung, Überwachung\nund Steuerung eines Produktionssystems und der betrieblichen Ressourcen Mensch (Personal),\nKapital (Betriebsmittel/Anlagen, Material und Energie) und Information. Früher umfasste das\nProduktionsmanagement hauptsächlich die Minimierung der Fertigungskosten. Diese Bedingungen\nhaben sich in den letzten Jahrzehnten grundlegend geändert. Anstatt streng getakteten Fließbändern\nprägen nun unter anderem vollauto",
       "confidence": 0.246,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-24",
@@ -477,13 +477,13 @@
         0.5701510645762211,
         0.016318296310171097
       ],
+      "pointer": true,
       "label": "•  7.2 Konzept des integrierten Managements · S. 109–110 – 1 Abb./Formeln",
       "transcript": "das unsere Betriebssystem, Lenkung,  unser Fluglote und die Entwicklung gesteuert wird.  Und dann haben wir uns das Konzept des Integrierten Managements  angesählen.  Das gibt den Führungskräften quasi einen Radar,  die Hand um im Chaos nicht zu versinken.  Die drei Ebene.  Genau.  Die normative Ebene, die nach der Legitimität und dem,",
       "target_text": "•  7.2 Konzept des integrierten Managements · S. 109–110 – 1 Abb./Formeln\n",
       "confidence": 0.377,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-25",
@@ -497,13 +497,13 @@
         0.6989408477013852,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)",
       "transcript": "warum fragt,  die strategische Ebene, die nach der Effektivität fragt  und dann erst die operative Ebene, die nach der Effizienstrebt.  Die Gesamte Aufgabe erfüllen, die richtigen Dinge tun.  Und schließlich die Dinge richtig tun.  Also, das setzen der Leiter an die richtige Mauer",
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.631,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-26",
@@ -517,13 +517,13 @@
         0.6989408477013852,
         0.016413310361304927
       ],
+      "pointer": true,
       "label": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)",
       "transcript": "oder dein kleines Team übertragen.  Stimmt eigentlich.  Wenn du an deinem Schreibtücht sitzt  und dich von Aufgaben völlig erschlagen fühlt.  Nutze doch einfach mal die richtigen Dinge tun,  wer so's, die Dinge richtig tun,  als dein mentalen Filter.  Oh, das ist super Tipp.  frag dich immer zuerst ganz kritisch,  ob deine Leiter überhaupt an der richtigen Maurer steht.",
       "target_text": "•  Die Eﬀektivität als Kenngröße für das Strategische Management („Die richtigen Dinge tun“)\n",
       "confidence": 0.611,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-27",
@@ -537,13 +537,13 @@
         0.6662181565741531,
         0.03235153234486342
       ],
+      "pointer": true,
       "label": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser K",
       "transcript": "Na ja, wenn wir uns den wahnsinnig rasanten technologischen Vortritt ansehen.  Dann übernehmen doch Software, Algorithmen und vor allem  künstliche Intelligenz heute schon riesige Teile von genau dieser Effizienz.  Du meinst das operative Management?  Das berechnen von minimal und maximal Prinzip.",
       "target_text": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser Kenngrößen sind in Abbildung 41 ersichtlich.\n",
       "confidence": 0.319,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-28",
@@ -557,13 +557,13 @@
         0.6662181565741531,
         0.03235153234486342
       ],
+      "pointer": true,
       "label": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser K",
       "transcript": "Ganz genau.  Dieses Dinge richtig tun.  Wenn KI und Maschinelles lernen, in sehr nahe Zukunft, die Maschinenbelegung, die Kapazitätsplanung und die Prozess-Optimierung absolut perfekt und verallmen echtzeit beherrschen.  Und zwar Millionen Mal schneller und Fehlerfreier als jeder Mensch mit einer riesigen Exxlterbälle.",
       "target_text": "•  Die Eﬃzienz als Kenngröße für das operative Management („Die Dinge richtig tun‘) Die\nZusammenhänge dieser Kenngrößen sind in Abbildung 41 ersichtlich.\n",
       "confidence": 0.286,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     }
   ]
 }

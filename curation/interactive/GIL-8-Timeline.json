@@ -2,7 +2,7 @@
   "version": 1,
   "chapter": 8,
   "audio_sha256": "1a69ccc5bae6516a4bef0a1cbb1bc23088bfc00f2246909aa93eafa2f4ade507",
-  "pdf_sha256": "c9c5e066879677fe61e9bc3558937d949b44f0d2ef2e8888d30a03ba3188f276",
+  "pdf_sha256": "fa62a0aebfb4a389e9b3a585607e7737734c162dbfdbf233ff8b10c528acff3e",
   "generator": "faster-whisper/tiny + lexical matching",
   "annotations": [
     {
@@ -17,13 +17,13 @@
         0.7519324422884388,
         0.06441800441424807
       ],
+      "pointer": true,
       "label": "Kennzeichnend für die Werkstattfertigung ist die Anordnung der Betriebsmittel entsprechend dem\nVerrichtungspri",
       "transcript": "klein serienfertigung gehen?  Dann ändert sich das Bild komplett.  Hier kommt die Werkstattfertigung ins Spiel.  Wie sieht das denn in deinem Restaurant bei Spül aus?  Das ist denn für mich die typische Großküche in so einem Allerkart Restaurant.  Hier arbeiten wir nach dem sogenannten Verrichtungsprinzip.  Das bedeutet, man fast alle Stationen mit der gleichen Funktion räumlich zusammen.",
       "target_text": "Kennzeichnend für die Werkstattfertigung ist die Anordnung der Betriebsmittel entsprechend dem\nVerrichtungsprinzip. Unabhängig vom Materialﬂuss werden Betriebsmittel und Arbeitskräfte hier mit\ngleichen Funktionen zusammengefasst und räumlich zu Gruppen, beispielsweise einer Dreherei oder\nFräserei, angeordnet.\n",
       "confidence": 0.287,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     },
     {
       "id": "auto-2",
@@ -37,13 +37,13 @@
         0.7716131514861804,
         0.1445843114422506
       ],
+      "pointer": true,
       "label": "Zur Verbesserung der Produktion hinsichtlich der Umwelt sollten alle relevanten Emissionen des\nProduktionssyst",
       "transcript": "Also die Konsistenz.  Und das bringt uns Direkt zum Thema Immissionsmanagement.  Wenn Unternehmen versuchen, Klima Neutral zu werden, müssen sie ihre Emissionen ja erst mal messen.  Dafür gibt es einen weltweiten Standard, der in Scope 1, Scope 2 und Scope 3 unterteilt ist.  An extrem wichtiges Konzept.  Das hat mir echt die Augen geöffnet.",
       "target_text": "Zur Verbesserung der Produktion hinsichtlich der Umwelt sollten alle relevanten Emissionen des\nProduktionssystems minimiert werden. Dazu unterscheidet man diese in drei sogenannte Scopes.\nScope 1 beschreibt Emissionen, die direkt vom Unternehmen erzeugt werden (z. B. Verbrennung\nfossiler Brennstoﬀe durch Heizkessel oder eigenem Fuhrpark, chemische Prozesse). Alle Emissionen,\ndie sich auf eingekaufte Energie zurückführen lassen, werden dem Scope 2 zugeordnet. Der Strommix\ndes jeweiligen Landes is",
       "confidence": 0.247,
       "status": "unreviewed",
-      "origin": "local-asr-lexical",
-      "pointer": true
+      "origin": "local-asr-lexical"
     }
   ]
 }
