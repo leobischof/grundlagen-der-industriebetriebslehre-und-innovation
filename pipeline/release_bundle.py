@@ -18,14 +18,18 @@ left out silently. Zips carry fixed timestamps, so unchanged inputs give byte-id
 from __future__ import annotations
 
 import io
+import json
+import shutil
 import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 
-from . import config, content_files
-from .cache import write_bytes_if_changed
-from .content_files import (ANKI_CHAPTERS, ANKI_COMPLETE, ANKI_PROFILE, ASSET_LIST, COMPLETE, EXAMS, NOTEBOOKS,
+from . import chapter_audio, config, content_files
+from .cache import key_for, write_if_changed
+from .content_files import (ANKI_CHAPTERS, ANKI_COMPLETE, ANKI_PROFILE, ASSET_LIST, AUDIO_CHAPTERS, COMPLETE, EXAMS, NOTEBOOKS,
+                            INTERACTIVE_COMPLETE,
                             RELEASE_COMPLETE, SCRIPT_CHAPTERS, SUMMARY_CHAPTERS, SUMMARY_COMPLETE,
+                            STANDALONE_CHAPTERS,
                             ExportName)
 
 OUT_DIR = config.BUILD / "release"
@@ -38,7 +42,9 @@ SINGLES = ((COMPLETE, "1-Skript"), (SUMMARY_COMPLETE, "2-Zusammenfassungen"),
 PER_CHAPTER = ((content_files.chapter_export, SCRIPT_CHAPTERS, "1-Skript/Skriptkapitel"),
                (content_files.summary_export, SUMMARY_CHAPTERS, "2-Zusammenfassungen/Kapitel"),
                (content_files.notebook_export, NOTEBOOKS, "4-NotebookLM-Kontext"),
-               (content_files.anki_export, ANKI_CHAPTERS, "5-Anki/Kapitel"))
+               (content_files.anki_export, ANKI_CHAPTERS, "5-Anki/Kapitel"),
+               (content_files.audio_export, AUDIO_CHAPTERS, "6-Audio"),
+               (content_files.standalone_export, STANDALONE_CHAPTERS, "7-Lernpakete"))
 
 
 @dataclass(frozen=True)
@@ -66,7 +72,8 @@ def places(chapters: list[content_files.ChapterFiles]) -> dict[str, Place]:
 def listed(build_root: Path) -> list[tuple[Path, str]]:
     """(file, label) of every asset the source stages listed; a missing listing is an error."""
     out = []
-    for source in SOURCES:
+    optional = ("standalone",) if (build_root / "standalone" / ASSET_LIST).is_file() else ()
+    for source in (*SOURCES,*optional):
         listing = build_root / source / ASSET_LIST
         if not listing.is_file():
             raise FileNotFoundError(f"{listing.relative_to(build_root.parent)} fehlt – erst die Stufe für "
@@ -103,6 +110,37 @@ def zip_bytes(files: dict[str, Path]) -> bytes:
     return buf.getvalue()
 
 
+def audio_assets(root: Path, chapters: list[content_files.ChapterFiles]) -> list[tuple[Path, str]]:
+    """Optional local audio is released only with canonical, chapter-specific names."""
+    by_number = {content_files.chapter_number(c.slug): c for c in chapters}
+    assets = []
+    for n, path in chapter_audio.discover(root).items():
+        c = by_number.get(n)
+        if c is None:
+            raise ValueError(f"Audio für unbekanntes Kapitel {n}")
+        name = content_files.audio_export(c.slug,c.title)
+        if path.stem != name.stem:
+            raise ValueError(f"Audio umbenennen: python -m pipeline.chapter_audio ({path.name})")
+        assets.append((path,name.label))
+    return assets
+
+
+def write_zip(target: Path, files: dict[str,Path]) -> bool:
+    """Stream large media/HTML into a fixed-timestamp ZIP; never load the archive into RAM."""
+    temporary = target.with_suffix(target.suffix+".tmp")
+    with zipfile.ZipFile(temporary,"w",zipfile.ZIP_DEFLATED,allowZip64=True) as archive:
+        for name in sorted(files):
+            info = zipfile.ZipInfo(name,date_time=_ZIP_TIME)
+            info.compress_type = zipfile.ZIP_DEFLATED
+            with files[name].open("rb") as source, archive.open(info,"w",force_zip64=True) as entry:
+                shutil.copyfileobj(source,entry,length=1024*1024)
+    if target.exists() and chapter_audio.digest(target) == chapter_audio.digest(temporary):
+        temporary.unlink()
+        return False
+    temporary.replace(target)
+    return True
+
+
 def assets(release: Release) -> dict[str, tuple[str, bytes]]:
     """Asset file name → (label, bytes), the complete zip first."""
     out = {f"{RELEASE_COMPLETE.stem}.zip": (f"{RELEASE_COMPLETE.label} (alles in Ordnern)",
@@ -116,19 +154,59 @@ def assets(release: Release) -> dict[str, tuple[str, bytes]]:
 
 def run(pages=None, dry_run: bool = False, force: bool = False) -> int:
     try:
-        release = plan(listed(config.BUILD), places(content_files.discover(config.CONTENT)))
+        chapters = content_files.discover(config.CONTENT)
+        release = plan(listed(config.BUILD) + audio_assets(config.AUDIO_DIR,chapters), places(chapters))
     except (FileNotFoundError, ValueError) as err:
         print(f"[release] Fehler: {err}")
         return 1
-    built = assets(release)
+    reader = config.INTERACTIVE_BUILD
     if dry_run:
-        print(f"[release] würde {len(built)} Assets nach {OUT_DIR.relative_to(config.ROOT)} schreiben")
+        count = 1 + len(release.bundles) + len(release.singles) + int((reader / "reader-manifest.json").is_file())
+        print(f"[release] würde {count} Assets nach {OUT_DIR.relative_to(config.ROOT)} schreiben")
         return 0
+    zipped = {f"{RELEASE_COMPLETE.stem}.zip": (f"{RELEASE_COMPLETE.label} (alles in Ordnern)",release.complete)}
+    for bundle,paths in release.bundles.items():
+        zipped[f"{bundle.stem}.zip"] = (bundle.label,{f"{bundle.stem}/{p.name}":p for p in paths})
+    if (reader / "reader-manifest.json").is_file():
+        # A self-contained offline download; excludes local transcripts and original PDFs.
+        listing = reader / "reader-assets.txt"
+        if not listing.is_file():
+            print("[release] Reader-Dateiliste fehlt; zuerst python -m pipeline interactive")
+            return 1
+        files = {}
+        for rel in listing.read_text(encoding="utf-8").splitlines():
+            path = (reader / rel).resolve()
+            if not path.is_relative_to(reader.resolve()) or not path.is_file():
+                print(f"[release] Ungültiger Reader-Dateipfad: {rel}")
+                return 1
+            files[f"{INTERACTIVE_COMPLETE.stem}/{rel}"] = path
+        zipped[f"{INTERACTIVE_COMPLETE.stem}.zip"] = (f"{INTERACTIVE_COMPLETE.label} (PWA und Offline-Reader)",files)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    for stale in [p for p in OUT_DIR.iterdir() if p.is_file() and p.name not in {*built, ASSET_LIST}]:
+    names = {*zipped,*(path.name for path,_ in release.singles),ASSET_LIST}
+    for stale in [p for p in OUT_DIR.iterdir() if p.is_file() and p.name not in names]:
         stale.unlink()                       # renamed asset: the old one must not be released
-    changed = sum(write_bytes_if_changed(OUT_DIR / name, data) for name, (_, data) in built.items())
-    content_files.write_asset_list(OUT_DIR, [(name, label) for name, (label, _) in built.items()])
-    print(f"[release] {len(built)} Assets ({changed} geändert) aus {len(release.complete)} Dateien → "
+    stamp_path = config.STAMPS / "release.json"
+    stamps = json.loads(stamp_path.read_text(encoding="utf-8")) if stamp_path.exists() else {}
+    hashes = {}
+    def digest(path):
+        if path not in hashes: hashes[path] = chapter_audio.digest(path)
+        return hashes[path]
+    changed = 0
+    listing = []
+    for name,(label,files) in zipped.items():
+        key = key_for([(rel,digest(path)) for rel,path in sorted(files.items())])
+        if force or not (OUT_DIR/name).exists() or stamps.get(name) != key:
+            print(f"[release] packe {name} ({len(files)} Dateien)",flush=True)
+            changed += write_zip(OUT_DIR/name,files)
+        stamps[name] = key
+        listing.append((name,label))
+    for source,label in release.singles:
+        target = OUT_DIR/source.name
+        if not target.exists() or digest(source) != digest(target):
+            shutil.copy2(source,target); changed += 1
+        listing.append((source.name,label))
+    write_if_changed(stamp_path,json.dumps(stamps,sort_keys=True,indent=2)+"\n")
+    content_files.write_asset_list(OUT_DIR,listing)
+    print(f"[release] {len(listing)} Assets ({changed} geändert) aus {len(release.complete)} Dateien → "
           f"{OUT_DIR.relative_to(config.ROOT)}")
     return 0

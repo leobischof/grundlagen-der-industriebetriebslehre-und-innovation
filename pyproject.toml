@@ -23,6 +23,8 @@ pipeline = [
     "genanki>=0.13",     # anki: card packages (.apkg)
 ]
 dev = ["pytest>=8.0"]
+# Local speech recognition; no API key or audio upload. AV 19 removed metadata_errors.
+audio = ["faster-whisper==1.2.1", "av==16.1.0"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

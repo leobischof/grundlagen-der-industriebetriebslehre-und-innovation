@@ -79,3 +79,18 @@ def test_release_labels_carry_the_file_ending(tmp_path: Path):
     built = release_bundle.assets(_plan(_build(tmp_path)))
     assert content_files.asset_label("GIL-Anki-je-Kapitel.zip", built["GIL-Anki-je-Kapitel.zip"][0]) == \
         "GIL Anki – je Kapitel.zip"
+
+
+def test_streaming_zip_is_deterministic_without_reading_whole_files(tmp_path,monkeypatch):
+    source=tmp_path/"large.html"
+    source.write_bytes(b"embedded audio and pdf"*10000)
+    def forbidden_read(*args,**kwargs):
+        raise AssertionError("Whole-file read is forbidden in streaming release packing")
+    monkeypatch.setattr(Path,"read_bytes",forbidden_read)
+    target=tmp_path/"release.zip"
+    assert release_bundle.write_zip(target,{"GIL-2-Lernpaket.html":source})
+    first=release_bundle.chapter_audio.digest(target)
+    assert not release_bundle.write_zip(target,{"GIL-2-Lernpaket.html":source})
+    assert release_bundle.chapter_audio.digest(target)==first
+    with zipfile.ZipFile(target) as archive:
+        assert archive.read("GIL-2-Lernpaket.html")==b"embedded audio and pdf"*10000

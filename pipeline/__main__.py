@@ -3,7 +3,8 @@
 Every stage is a module with `run(pages=..., dry_run=..., force=...)`. Stages are
 imported lazily so that e.g. `validate` (used in CI) never needs OpenCV or the PDFs.
 All stages are cached: running `all` twice with unchanged inputs does no OCR,
-no rendering and never calls an AI model (the pipeline never calls one at all).
+no new rendering or speech recognition. Only sync-audio uses a local ASR model;
+offline never needs media, network access or model dependencies.
 """
 from __future__ import annotations
 
@@ -31,6 +32,10 @@ COMMANDS: dict[str, tuple[str, str]] = {
     "export-md": ("export_markdown", "flacher Markdown-Export (Kapitel, Gesamt, Prüfungsfragen) → build/markdown"),
     "export-notebooklm": ("export_notebooklm", "je Kapitel eine NotebookLM-Datei (Anleitung, Leitfaden, Fragen, Gesamtskript) → build/notebooklm"),
     "anki": ("anki_deck", "Anki-Karteikarten (Sammlung + je Kapitel) → build/anki"),
+    "sync-audio": ("audio_sync", "Audios lokal transkribieren und Themen-/Detailmarkierungen vorbereiten"),
+    "interactive": ("build_interactive", "Lokaler PDF-/Audio-Kapitelreader mit Timeline → build/interactive"),
+    "audio-reader": ("interactive_pipeline", "Audio erkennen → PDFs → Transkription → Markierungen → Reader"),
+    "package-reader": ("package_reader", "Eigenständige HTML-Kapiteldateien mit eingebettetem PDF/Audio → build/standalone"),
     # after render-pdf/export-notebooklm/anki: packs what they listed for the release
     "release": ("release_bundle", "Release packen: Gesamtdateien, je Art ein Kapitel-Zip, Alles-Zip → build/release"),
     "validate": ("validate", "Qualitätsprüfungen → reports/validation.md"),
@@ -60,7 +65,7 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
 
     if args.command == "all":
-        names = list(COMMANDS)
+        names = [name for name in COMMANDS if name != "audio-reader"]  # wrapper, stages already included
     elif args.command == "offline":
         names = list(OFFLINE)
     else:

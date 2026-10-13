@@ -7,6 +7,8 @@
 
 # --- reproduzierbare Zwischenstände (Cache, Stempel) ---
 /build/
+/audio/
+/interactive/node_modules/
 
 # --- persönlicher Lernfortschritt: nie committen ---
 /learning/progress/*
@@ -16,6 +18,7 @@
 # --- lokale Umgebung ---
 /.venv/
 __pycache__/
+*.egg-info/
 *.py[cod]
 .pytest_cache/
 .ruff_cache/
@@ -25,5 +28,9 @@ __pycache__/
 *.log
 .DS_Store
 Thumbs.db
-.vscode/
+/.vscode/*
+!/.vscode/tasks.json
 .idea/
+
+*.[mM][pP]3
+*.[mM]4[aA]

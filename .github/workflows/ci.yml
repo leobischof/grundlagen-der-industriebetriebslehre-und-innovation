@@ -32,6 +32,18 @@ jobs:
       - name: Tests
         run: python -m pytest
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Reader-Timeline und JavaScript prüfen
+        run: |
+          node --check interactive/reader-app.mjs
+          node --check interactive/reader-navigation.mjs
+          node --check interactive/reader-service-worker.mjs
+          node --check interactive/reader-singlefile-boot.mjs
+          node --test interactive/reader-timeline.test.mjs
+
       - name: Validierung und Abdeckungsbericht (validate + report)
         run: python -m pipeline offline
 

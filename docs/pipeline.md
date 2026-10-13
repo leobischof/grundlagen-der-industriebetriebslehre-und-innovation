@@ -29,7 +29,8 @@ Das Extra `pipeline` bringt PyMuPDF, OpenCV, NumPy und Pillow; `dev` nur pytest 
 
 ## Stufen
 
-Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`):
+Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`), ohne den
+zusammenfassenden Befehl `audio-reader`, dessen Einzelschritte bereits enthalten sind:
 
 | Befehl | Modul | Liest | Schreibt |
 |---|---|---|---|
@@ -43,11 +44,16 @@ Reihenfolge von `all` = Reihenfolge in `COMMANDS` (`pipeline/__main__.py`):
 | `link` | `link_topics` | `curation/exams.yaml`, `curation/topics.yaml` | `exams/topic-mapping.json` |
 | `exercises` | `generate_exercises` | `figures/reconstructed/`, `curation/figures/` | `figures/exercises/*-blank.svg`, `learning/drawing-exercises/` |
 | `build-content` | `build_content` | OCR-Schicht, `curation/structure.yaml`, `ocr-corrections.yaml`, Abbildungen, Fragen | `content/` |
+| `figure-icons` | `figure_icons` | SVG-Icon-Suchbegriffe, freie Icon-Bibliotheken aus `pipeline/config.py` | eingebettete Icons in `figures/reconstructed/`, Icon-Quellen und Lizenzen |
 | `render-pdf` | `render_pdf` (Leitfaden-Bilder: `guide_figures`) | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/pdf/` (`GIL-…`-PDFs: Kapitel, Gesamtskript, Zusammenfassungen je Kapitel und gesamt, Prüfungsfragen) + `release-assets.tsv` |
 | `export-md` | `export_markdown` (Leitfaden-Bilder: `guide_figures`) | `content/`, `learning/chapters/`, `figures/reconstructed/`, `curation/figures/`, `exams/questions.md` | `build/markdown/` (dieselben `GIL-…`-Dateien als flaches Markdown, dazu die gezeigten SVGs) |
 | `export-notebooklm` | `export_notebooklm` | `content/`, `learning/chapters/`, `curation/figures/`, `exams/questions.json`, `exams/topic-mapping.json` | `build/notebooklm/` (je Kapitel mit Leitfaden eine `GIL-N-NotebookLM-Kontext-…md`) + `release-assets.tsv` |
 | `anki` | `anki_deck` (Karten: `anki_cards`, `anki_exam_cards`, `anki_sketch`, `anki_student`; Pakete: `anki_package`) | `content/`, `learning/exercises/`, `learning/flashcards/*.json`, `figures/manifest.json`, `figures/reconstructed/`, `curation/figures/`, `exams/` | `build/anki/` (`GIL-Anki-Karteikarten.apkg`, dieselbe Sammlung als `.colpkg`, je Kapitel ein `.apkg`) + `release-assets.tsv`, `learning/flashcards/skizzieren.md` |
-| `release` | `release_bundle` | `release-assets.tsv` aus `build/pdf/`, `build/notebooklm/`, `build/anki/` | `build/release/` (Gesamtdateien, je Art ein Kapitel-Zip, Alles-Zip) + `release-assets.tsv` |
+| `sync-audio` | `audio_sync` | lokale Audios, Kapitel-PDFs, Transkriptcache | `build/transcripts/`, ungeprüfte Themen-/Detailmarkierungen in `curation/interactive/` |
+| `interactive` | `build_interactive` | Kapitel-PDFs, Audios, Timelines, Reader-Quellen, PDF.js | `build/interactive/` (Reader und PWA) |
+| `audio-reader` | `interactive_pipeline` | wie Audio-/Reader-Einzelschritte | Audio-Namen normalisieren → PDFs → Transkription → Markierungen → Reader |
+| `package-reader` | `package_reader` | gebauter Reader | `build/standalone/` (eingebettete HTML-Kapiteldateien) + `release-assets.tsv` |
+| `release` | `release_bundle` | `release-assets.tsv` aus PDF-, NotebookLM-, Anki- und optionalem Kapiteldatei-Build, lokale Audios, Reader-Dateiliste | `build/release/` (Gesamtdateien, je Art ein Kapitel-Zip, Alles-Zip) + `release-assets.tsv` |
 | `validate` | `validate` | alles Versionierte | `reports/validation.md` |
 | `report` | `coverage` | alles Versionierte, `curation/ai-log.jsonl` | `reports/coverage.md` |
 
@@ -164,7 +170,7 @@ damit man im Release sieht, was ein PDF, ein Zip, eine Markdown-Datei oder ein A
 
 **Aufbau des Releases** (Regel, Stufe `release`): Kapitelweises kommt nie als einzelne Assets ins
 Release, sondern je Art in **ein Zip**; Dateien für den ganzen Kurs bleiben einzeln; dazu **ein
-Alles-Zip** mit dem gesamten Release in Ordnern. Ein Release hat damit zehn Assets:
+Alles-Zip** mit dem gesamten Release in Ordnern. Ohne optionale Medien hat ein Release zehn Assets:
 
 | Asset | Label | Inhalt |
 |---|---|---|
@@ -181,6 +187,17 @@ Alles-Zip** mit dem gesamten Release in Ordnern. Ein Release hat damit zehn Asse
 
 Jede Datei, die eine Stufe in ihrer `release-assets.tsv` nennt, braucht einen Platz in
 `release_bundle.SINGLES` oder `PER_CHAPTER`; sonst bricht `release` ab, statt sie still wegzulassen.
+
+**Optionale Audios, interaktiver Reader und Kapiteldateien.** Lokale Kapitelaufnahmen unter `audio/` sind
+git-ignoriert und heißen `GIL-<N>-Audio-<Titel>.<Endung>`. `release` nimmt vorhandene Aufnahmen
+als `GIL-Audio-je-Kapitel.zip` sowie im Gesamt-Zip unter `6-Audio/` auf. Ein gebauter Reader
+kommt zusätzlich als eigenständiges `GIL-Interaktiver-Kapitelreader.zip` mit PDF, Audio-Ordner,
+Timeline-Dateien, lokalem PDF.js und installierbarer Offline-PWA dazu. `package-reader` erzeugt
+einzelne HTML-Kapiteldateien mit eingebettetem PDF und Audio; `release` bündelt sie in
+`GIL-Lernpakete-je-Kapitel.zip` sowie unter `7-Lernpakete/` im Gesamtpaket. Mit allen drei
+optionalen Paketen entstehen dreizehn Release-Assets. `.\dev.ps1 release` bereitet sie automatisch
+vor, ohne sie zu veröffentlichen. Einrichtung, automatische Vorbereitung und Korrektur:
+[interactive-reader.md](interactive-reader.md). Diese optionalen Dateien fehlen bewusst in CI.
 
 **NotebookLM-Dateien.** Jede Datei ist der vollständige Kontext für ein Kapitel – für NotebookLM
 (eine Datei als einzige Quelle, z. B. eine Audio-Zusammenfassung je Kapitel) und jedes andere
